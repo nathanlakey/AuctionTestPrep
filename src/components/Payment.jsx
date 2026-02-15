@@ -26,7 +26,7 @@ function Payment({ onSuccess, onBack }) {
     setProcessing(true);
 
     try {
-      const apiBase = import.meta.env.VITE_API_URL || '';
+      const apiBase = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
       const response = await fetch(`${apiBase}/api/create-checkout-session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
