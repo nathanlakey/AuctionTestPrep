@@ -7,7 +7,6 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const app = express();
 
-// Allow your frontend to talk to this server
 app.use(cors({
   origin: [
     'https://auction-test-prep.vercel.app',
@@ -37,8 +36,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
       ],
       mode: mode || 'payment',
       customer_email: userEmail || undefined,
-      success_url: `${process.env.CLIENT_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.CLIENT_URL}/pricing`,
+      success_url: `${process.env.CLIENT_URL}?payment=success`,
+      cancel_url: `${process.env.CLIENT_URL}?payment=cancelled`,
     });
 
     res.json({ url: session.url });
