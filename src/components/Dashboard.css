@@ -1,0 +1,239 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f3f4f6;
+}
+
+.dashboard-header {
+  background: #001829;
+  color: white;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.dashboard-logo {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.state-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.state-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.state-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.btn-change-state {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.btn-change-state:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.welcome-section h2 {
+  color: #001829;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-section p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.study-modes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.study-mode-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid #d60000;
+}
+
+.study-mode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.primary-card {
+  border-top: 4px solid #001829;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.card-icon {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.study-mode-card h3 {
+  color: #001829;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.study-mode-card p {
+  color: #666;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.topic-select, .size-select {
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.topic-select:hover, .size-select:hover {
+  border-color: #d60000;
+}
+
+.topic-select:focus, .size-select:focus {
+  outline: none;
+  border-color: #001829;
+}
+
+.btn-mode {
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+  background: #d60000;
+  color: white;
+}
+
+.btn-mode.btn-primary {
+  background: #001829;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+.btn-mode:hover {
+  background: #b00000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(214, 0, 0, 0.3);
+}
+
+.btn-mode.btn-primary:hover {
+  background: #002a47;
+  box-shadow: 0 4px 8px rgba(0, 24, 41, 0.3);
+}
+
+.btn-mode:active {
+  transform: translateY(0);
+}
+
+.topics-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.topics-section h3 {
+  color: #001829;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.topics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.topic-badge {
+  background: #f8f9fa;
+  color: #001829;
+  padding: 0.75rem 1.25rem;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 2px solid #d60000;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dashboard-logo {
+    height: 40px;
+  }
+  
+  .study-modes-grid {
+    grid-template-columns: 1fr;
+  }
+}

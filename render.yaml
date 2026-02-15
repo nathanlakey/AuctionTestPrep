@@ -1,0 +1,20 @@
+# Render.com Blueprint — deploys as a single Web Service
+# The Express server builds the React frontend and serves it alongside the Stripe API.
+#
+# Usage:
+#   1. Push this repo to GitHub.
+#   2. Go to https://dashboard.render.com → New → Blueprint
+#   3. Connect your GitHub repo — Render reads this file automatically.
+#   4. Set the STRIPE_SECRET_KEY environment variable in the Render dashboard.
+
+services:
+  - type: web
+    name: auction-academy
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: STRIPE_SECRET_KEY
+        sync: false          # You'll enter this in the Render dashboard

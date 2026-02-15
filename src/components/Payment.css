@@ -1,0 +1,190 @@
+.payment-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.payment-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.payment-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.payment-logo {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  background: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.payment-header h2 {
+  font-size: 1.8rem;
+  color: #001829;
+  margin: 0 0 0.5rem 0;
+}
+
+.payment-header p {
+  color: #666;
+  margin: 0;
+}
+
+.payment-features {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  border: 1px solid #e5e7eb;
+}
+
+.payment-feature {
+  padding: 0.4rem 0;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.price-display {
+  text-align: center;
+  background: #001829;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.price-amount {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.price-currency {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.price-description {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+
+.card-element-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-element-container label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #001829;
+}
+
+.card-element-wrapper {
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  transition: border-color 0.3s;
+}
+
+.card-element-wrapper:focus-within {
+  border-color: #001829;
+}
+
+.payment-error {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #fecaca;
+}
+
+.pay-btn {
+  background: #d60000;
+  color: white;
+  padding: 1rem;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-btn:hover:not(:disabled) {
+  background: #b00000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(214, 0, 0, 0.3);
+}
+
+.pay-btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.pay-back-btn {
+  background: none;
+  border: 1px solid #e5e7eb;
+  color: #666;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pay-back-btn:hover {
+  border-color: #001829;
+  color: #001829;
+}
+
+.secure-note {
+  text-align: center;
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .payment-card {
+    padding: 1.5rem;
+  }
+
+  .payment-logo {
+    width: 200px;
+  }
+
+  .price-amount {
+    font-size: 2rem;
+  }
+}

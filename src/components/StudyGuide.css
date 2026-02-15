@@ -1,0 +1,245 @@
+.study-guide-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #001829 0%, #003d5c 100%);
+  color: white;
+  padding: 20px;
+}
+
+.study-guide-header {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(-5px);
+}
+
+.study-guide-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.study-guide-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  max-width: 400px;
+  padding: 12px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #d60000;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.print-button {
+  background: #d60000;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(214, 0, 0, 0.3);
+}
+
+.print-button:hover {
+  background: #a00000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(214, 0, 0, 0.4);
+}
+
+.study-guide-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  color: #333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.study-guide-section {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.study-guide-section:last-child {
+  border-bottom: none;
+}
+
+.section-heading {
+  color: #001829;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #d60000;
+}
+
+.section-content {
+  line-height: 1.8;
+}
+
+.section-paragraph {
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #444;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.study-guide-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #001829 0%, #003d5c 100%);
+  color: white;
+  font-size: 1.5em;
+}
+
+.print-header {
+  display: none;
+}
+
+.print-footer {
+  display: none;
+}
+
+/* Print Styles */
+@media print {
+  .study-guide-container {
+    background: white;
+    padding: 0;
+    min-height: auto;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .study-guide-header {
+    display: none;
+  }
+
+  .study-guide-content {
+    box-shadow: none;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .print-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #001829;
+  }
+
+  .print-header h1 {
+    color: #001829;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .print-info {
+    color: #666;
+    font-size: 1.1em;
+  }
+
+  .print-footer {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e0e0e0;
+    color: #666;
+    font-size: 0.9em;
+  }
+
+  .study-guide-section {
+    page-break-inside: avoid;
+  }
+
+  .section-heading {
+    color: #001829;
+    page-break-after: avoid;
+  }
+
+  .section-paragraph {
+    color: #000;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .study-guide-container {
+    padding: 10px;
+  }
+
+  .study-guide-header {
+    padding: 15px;
+  }
+
+  .study-guide-header h1 {
+    font-size: 1.8em;
+  }
+
+  .study-guide-content {
+    padding: 20px;
+  }
+
+  .section-heading {
+    font-size: 1.4em;
+  }
+
+  .study-guide-actions {
+    flex-direction: column;
+  }
+
+  .search-input {
+    max-width: 100%;
+  }
+}

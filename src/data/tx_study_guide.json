@@ -1,0 +1,383 @@
+{
+  "state": "Texas",
+  "title": "Texas Auctioneer Study Guide",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": [
+        "Texas Auctioneer Study Guide",
+        "Readable Version + Study Aids",
+        "Rules and Statutes Effective as of March 2023",
+        "Prepared for classroom and self-study use."
+      ]
+    },
+    {
+      "heading": "Important Note",
+      "content": [
+        "This document is a reference guide only. Not all rules and statutes applicable to auctioneers are included. Some information provides excerpts only. You are responsible for knowing and understanding all rules, regulations, and statutes you may be required to comply with.",
+        "Source: PSI Services LLC (March 2023). © 2023 PSI Services LLC. All rights reserved."
+      ]
+    },
+    {
+      "heading": "How to Use This Guide",
+      "content": [
+        "Skim the Table of Contents first and mark your weak areas.",
+        "For each section, read the “ Takeaway” before the statute text.",
+        "Use the Auction Math Quick Guide for practice. If you can do those problems cleanly, you are ahead of the pack.",
+        "Do 10-15 minutes of mixed review daily rather than cramming the night before. Your brain is not a USB drive.",
+        "Table of Contents",
+        "1. Auctioneer Definitions",
+        "2. Auction Math Quick Guide (Practice + Breakdowns)",
+        "3. Texas Business and Commerce Code (UCC Sales, Secured Transactions, DTPA, Identity Theft, Credit Card Surcharges)",
+        "4. Texas Health and Safety Code (Salvage Act Definitions + Licensing)",
+        "5. Texas Property Code (Manufactured Housing; Federal Lien Registration)",
+        "6. Texas Occupations Code (Manufactured Housing)",
+        "7. Texas Administrative Code (Manufactured Housing; TREC; Product Safety; Wildlife; Tax Administration)",
+        "8. Texas Alcoholic Beverage Code (Temporary Auction Permit + Related)",
+        "9. Texas Agriculture Code (Livestock Bill of Sale)",
+        "10. Texas Transportation Code (Dealer Plate Exclusions + Auctioneer Note)",
+        "11. ATF Rule 96-2 (Firearms at Auctions)",
+        "12. U.S. Code + Federal Bankruptcy Rule (Auctioneers/Appraisers)"
+      ]
+    },
+    {
+      "heading": "1. Auctioneer Definitions",
+      "content": [
+        "Antique: Any work of art, furniture, decorative object, or similar item created in a former period. Under U.S. customs laws: 100 years before date of purchase.",
+        "As is: Without warranty. Buyers are responsible for examining and judging the property.",
+        "Bank letter of guarantee: A letter issued by a bank guaranteeing payment up to the stated amount.",
+        "Buyer’s premium: A percentage of the high bid added to the hammer price.",
+        "Commission: Fee charged to the seller by the auctioneer, usually a percentage of the gross selling price, set by contract prior to the auction.",
+        "Conditions of sale: Legal terms that govern an auction: payment terms, buyer’s premium, possession/removal, storage, reserve vs absolute, and other agreed terms.",
+        "Deposit: Money paid to bid or as a percentage of purchase price to discourage casual or unqualified bidders. Unused deposits are returned at the end.",
+        "Increment: The amount each bid increases by.",
+        "Provenance: Place/source of origin and the ownership history.",
+        "USPAP: Uniform Standards of Professional Appraisal Practice. Adopted by Congress in 1989; standards for appraisal services."
+      ]
+    },
+    {
+      "heading": "2. Auction Math Quick Guide",
+      "content": [
+        "This section is built to help you nail the math questions fast. Follow the same order every time and you will make fewer mistakes."
+      ]
+    },
+    {
+      "heading": "The Order of Operations (Do it in this order, always)",
+      "content": [
+        "Start with the hammer price.",
+        "Add buyer’s premium (if any).",
+        "Calculate sales tax (read the question carefully: tax is usually on hammer price or on hammer + premium, depending on the prompt).",
+        "Add everything to get the total due from the buyer.",
+        "If asked for seller proceeds: subtract commission and any fees from the hammer price (premium is usually paid by the buyer, not the seller, unless stated)."
+      ]
+    },
+    {
+      "heading": "Key Formulas",
+      "content": [
+        "Buyer’s Premium: hammer price x premium rate",
+        "Sales Tax: taxable amount x tax rate",
+        "Total Due: hammer price + buyer’s premium + sales tax (based on what’s taxable)",
+        "Auctioneer Commission: hammer price x commission rate (unless contract states otherwise)",
+        "Net to Seller (simple version): hammer price - commission - seller fees"
+      ]
+    },
+    {
+      "heading": "Worked Example 1: Buyer’s Premium + Sales Tax on Hammer Price",
+      "content": [
+        "Prompt style: “Auction includes a 10% buyer’s premium and 8.25% sales tax, both calculated on the hammer price.”",
+        "Hammer price: $3,200",
+        "1) Buyer’s premium = 10% of 3,200 = 0.10 x 3,200 = 320",
+        "2) Sales tax = 8.25% of 3,200 = 0.0825 x 3,200 = 264",
+        "3) Total due = 3,200 + 320 + 264 = 3,784",
+        "Answer: Buyer pays $3,784."
+      ]
+    },
+    {
+      "heading": "Worked Example 2: Sales Tax on Hammer + Premium",
+      "content": [
+        "Prompt style: “Buyer’s premium is taxable.” (If they say this, tax the premium too.)",
+        "Hammer price: $1,000 | Premium: 15% | Sales tax: 8.25%",
+        "1) Premium = 0.15 x 1,000 = 150",
+        "2) Taxable amount = 1,000 + 150 = 1,150",
+        "3) Sales tax = 0.0825 x 1,150 = 94.875 -> $94.88 (round to cents)",
+        "4) Total due = 1,000 + 150 + 94.88 = 1,244.88",
+        "3. Texas Business and Commerce Code",
+        "Title 1. Uniform Commercial Code"
+      ]
+    },
+    {
+      "heading": "Chapter 2. Sales",
+      "content": [
+        "Takeaway:",
+        "This section defines what a “sale” and “contract for sale” mean, sets the basic writing requirement for sales of goods $500 or more, explains how contracts can form even with open terms, and includes the key auction rule for when a sale is final and what “with reserve” means."
+      ]
+    },
+    {
+      "heading": "Sec. 2.106. Definitions",
+      "content": [
+        "(a) “Contract” and “agreement” relate to present or future sale of goods. “Contract for sale” includes a present sale and a contract to sell goods at a future time. A “sale” is passing title from seller to buyer for a price. A “present sale” is accomplished by making the contract.\n(b) Goods or conduct are “conforming” when they match the obligations under the contract.\n(c) “Termination” ends a contract (not for breach) and discharges executory obligations, but rights based on prior breach/performance survive.\n(d) “Cancellation” ends a contract for breach and has the same effect as termination, plus the cancelling party keeps remedies for breach."
+      ]
+    },
+    {
+      "heading": "Sec. 2.201. Formal Requirements; Statute of Frauds",
+      "content": [
+        "(a) A contract for sale of goods for $500 or more is generally not enforceable unless there is a writing indicating a contract was made and signed by the party against whom enforcement is sought.\n(b) Between merchants, a confirming writing satisfies the requirement unless written objection is given within 10 days.\n(c) Exceptions include: specially manufactured goods, admissions in court, and goods paid for/received and accepted."
+      ]
+    },
+    {
+      "heading": "Sec. 2.204. Formation in General",
+      "content": [
+        "(a) A contract for sale may be made in any manner sufficient to show agreement, including conduct recognizing the contract.\n(b) A contract can exist even if the exact moment of making is unclear.\n(c) Open terms do not necessarily kill a contract if the parties intended a contract and there is a reasonably certain basis for a remedy."
+      ]
+    },
+    {
+      "heading": "Sec. 2.209. Modification, Rescission and Waiver",
+      "content": [
+        "(a) Modifying an agreement needs no consideration to be binding.\n(b) If a signed agreement requires signed writings for modification/rescission, that rule generally controls.\n(c) Statute of frauds requirements apply if the modified contract falls within them.\n(d)-(e) Failed modifications can operate as waiver; waivers may be retracted with reasonable notice unless unjust."
+      ]
+    },
+    {
+      "heading": "Sec. 2.328. Sale by Auction",
+      "content": [
+        "(a) If goods are put up in lots, each lot is a separate sale.\n(b) Sale is complete when announced by fall of hammer or customary manner. A bid made while hammer is falling may allow reopening.\n(c) Sale is with reserve unless explicitly without reserve. With reserve: goods may be withdrawn until completion is announced. Without reserve: goods cannot be withdrawn after calling for bids unless no bid is made within a reasonable time. Bidders can retract bids until completion.\n(d) If auctioneer knowingly receives bids on seller’s behalf without notice that such bidding is allowed, buyer may avoid sale or take goods at last good-faith bid."
+      ]
+    },
+    {
+      "heading": "Chapter 9. Secured Transactions",
+      "content": [
+        "Takeaway:",
+        "This section focuses on security interests. For exam purposes, know what a “secured party” is, what a purchase-money security interest (PMSI) is, and the required contents of a financing statement."
+      ]
+    },
+    {
+      "heading": "Sec. 9.102. Definitions (excerpt)",
+      "content": [
+        "(73) “Secured party” includes: a person in whose favor a security interest is created; a holder of an agricultural lien; a consignor; a person to which certain rights have been sold; a trustee/agent/representative in whose favor a security interest or lien is created; or a person holding certain statutory security interests."
+      ]
+    },
+    {
+      "heading": "Sec. 9.103. Purchase-Money Security Interest (excerpt)",
+      "content": [
+        "(a) Defines purchase-money collateral and purchase-money obligation.\n(b)-(d) Explains when a security interest in goods/software/inventory is a PMSI, including consignor interest.\n(e) Payment application rules in non-consumer transactions.\n(f) PMSI status generally not lost in non-consumer transactions even if collateral/obligations mix.\n(g) Secured party has burden of establishing PMSI extent.\n(h) Consumer-goods rules are left to the court."
+      ]
+    },
+    {
+      "heading": "Sec. 9.502. Contents of Financing Statement (excerpt)",
+      "content": [
+        "(a) A financing statement is sufficient only if it provides: debtor name, secured party name (or representative), and indicates the collateral.\n(b)-(d) Adds requirements for fixtures/as-extracted collateral and allows filing before a security agreement is made.",
+        "Title 2. Competition and Trade Practices"
+      ]
+    },
+    {
+      "heading": "Chapter 17. Deceptive Trade Practices",
+      "content": [
+        "Takeaway:",
+        "This is the “don’t lie to the public” section. Expect questions about deceptive advertising, going-out-of-business/liquidation claims, and the broad list of unlawful deceptive practices."
+      ]
+    },
+    {
+      "heading": "Sec. 17.11. Deceptive Wholesale and Going-Out-of-Business Advertising (excerpt)",
+      "content": [
+        "(b) No person may willfully misrepresent the nature of business using terms like manufacturer/wholesaler/retailer.\n(c) No person may willfully misrepresent ownership to hold a liquidation or going-out-of-business sale. Advertising must state correct owner name and permanent address.\n(d) Violation is a misdemeanor; fine $100-$500."
+      ]
+    },
+    {
+      "heading": "Sec. 17.12. Deceptive Advertising (excerpt)",
+      "content": [
+        "(a) No person may disseminate a statement they know materially misrepresents cost or character of property/services.\n(b) Restrictions on soliciting advertising in the name of clubs/associations without permission.\n(d) Violation is a misdemeanor; fine $10-$200."
+      ]
+    },
+    {
+      "heading": "Sec. 17.45. Definitions (excerpt)",
+      "content": [
+        "Defines Goods, Services, Person, Consumer, Trade and commerce, and related terms used in the chapter."
+      ]
+    },
+    {
+      "heading": "Sec. 17.46. Deceptive Trade Practices Unlawful (excerpt)",
+      "content": [
+        "Declares false, misleading, or deceptive acts unlawful and lists examples (passing off goods, confusion about affiliation, false claims about quality, bait advertising, fraudulent going-out-of-business ads, etc.).",
+        "Title 11. Personal Identity Information"
+      ]
+    },
+    {
+      "heading": "Chapter 521. Unauthorized Use of Identifying Information (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Know what counts as personal identifying information and sensitive personal information, plus the basic duties to protect data and notify people after a breach."
+      ]
+    },
+    {
+      "heading": "Sec. 521.002. Definitions (excerpt)",
+      "content": [
+        "Defines personal identifying information and sensitive personal information (including combinations of name + SSN, driver’s license, account numbers, etc.). Publicly available government info is excluded from “sensitive personal information.”"
+      ]
+    },
+    {
+      "heading": "Sec. 521.052. Business Duty to Protect Sensitive Personal Information (excerpt)",
+      "content": [
+        "Businesses must maintain reasonable procedures to protect sensitive personal information and destroy records by shredding, erasing, or otherwise making info unreadable when not retained. Does not apply to certain financial institutions."
+      ]
+    },
+    {
+      "heading": "Sec. 521.053. Notification Required Following Breach of Security (excerpt)",
+      "content": [
+        "Defines breach of system security; requires disclosure to affected individuals without unreasonable delay and generally no later than the 60th day after determining the breach occurred, with certain exceptions and substitute notice methods.",
+        "Title 12. Rights and Duties of Consumers and Merchants"
+      ]
+    },
+    {
+      "heading": "Chapter 604A. Prohibition of Certain Surcharges",
+      "content": [
+        "Takeaway:",
+        "Texas generally prohibits credit card surcharges in sales of goods or services, with limited exceptions."
+      ]
+    },
+    {
+      "heading": "Sec. 604A.0021. Imposition of Surcharge for Use of Credit Card (excerpt)",
+      "content": [
+        "(a) A seller may not impose a surcharge on a buyer who uses a credit card instead of cash, check, or similar.\n(b) Does not apply to certain government entities or certain private school payments.\n(c) Does not create a cause of action against an individual.",
+        "4. Texas Health and Safety Code",
+        "Title 6. Food, Drugs, Alcohol, and Hazardous Substances"
+      ]
+    },
+    {
+      "heading": "Chapter 432. Food, Drug, Device, and Cosmetic Salvage Act (excerpt)",
+      "content": [
+        "Takeaway:",
+        "This part matters if you auction distressed or salvaged goods. Know core definitions (food, drug, device, cosmetic, distressed merchandise) and that salvage operators/brokers generally need licenses."
+      ]
+    },
+    {
+      "heading": "Sec. 432.003. Definitions (excerpt)",
+      "content": [
+        "Key definitions include cosmetic, device, distressed merchandise, drug, food, manufacturer, salvage broker, salvage establishment, salvage operator, and related terms."
+      ]
+    },
+    {
+      "heading": "Sec. 432.005. License Required (excerpt)",
+      "content": [
+        "(a) A person may not operate a salvage establishment without a salvage operator license.\n(b) A person may not act as a salvage broker without a salvage broker license.\n(c) Licensees acting only within scope are not required to be licensed under Chapter 431.",
+        "5. Texas Property Code",
+        "Title 1. General Provisions"
+      ]
+    },
+    {
+      "heading": "Chapter 2. Nature of Property",
+      "content": [
+        "Takeaway:",
+        "Manufactured homes are generally personal property unless properly elected and recorded as real property."
+      ]
+    },
+    {
+      "heading": "Sec. 2.001. Manufactured Housing (excerpt)",
+      "content": [
+        "(a) A manufactured home is personal property.\n(b) It is real property if the statement of ownership/location reflects election to treat as real property and a certified copy is filed in the county real property records.\n(i) This does not require a retailer to obtain a real estate license.",
+        "Title 3. Public Records"
+      ]
+    },
+    {
+      "heading": "Chapter 14. Uniform Federal Lien Registration Act",
+      "content": [
+        "Takeaway:",
+        "Federal liens are filed with the county clerk for real property and either the Secretary of State or county clerk for personal property, depending on the debtor entity."
+      ]
+    },
+    {
+      "heading": "Sec. 14.002. Place of Filing (excerpt)",
+      "content": [
+        "(b) Federal liens on real property filed with county clerk where the property is located.\n(c) Federal liens on personal property filed with Secretary of State for certain corporations/partnerships; otherwise with county clerk where debtor resides.",
+        "6. Texas Occupations Code"
+      ]
+    },
+    {
+      "heading": "Chapter 1201. Manufactured Housing (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Retailers of manufactured homes generally need a retailer license if they sell two or more in a 12-month period; owners can elect real property status under certain conditions."
+      ]
+    },
+    {
+      "heading": "Key excerpts",
+      "content": [
+        "Sec. 1201.003(24) defines “Retailer.”",
+        "Sec. 1201.101(b) requires a retailer’s license for selling/exchanging two or more manufactured homes in 12 months (unless otherwise provided).",
+        "Sec. 1201.2055 addresses owner election to treat a manufactured home as real property when attached to owned land or qualifying long-term lease land.",
+        "7. Texas Administrative Code"
+      ]
+    },
+    {
+      "heading": "Manufactured Housing - Rule 80.32 (excerpt)",
+      "content": [
+        "Takeaway:",
+        "If you sell more than one manufactured home via auction to Texas consumers in a 12-month period, licensing and notice requirements can apply.",
+        "Rule 80.32(t) highlights: retailer licensing, salesperson licensing, location licensing/bonding, and 30-day written notice to the Department prior to the auction."
+      ]
+    },
+    {
+      "heading": "Texas Real Estate Commission - Rule 535.5 (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Auctioneers are not required to be licensed as real estate agents when auctioning real property, but cannot show/prepare offers/negotiate unless also licensed under the Act."
+      ]
+    },
+    {
+      "heading": "Product Safety - Rule 205.8 Bedding (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Secondhand bedding and recycled materials require approved germicidal treatment before sale/lease/rental. Records must be kept at least two years."
+      ]
+    },
+    {
+      "heading": "Wildlife - Rule 65 (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Threatened/endangered species rules restrict possession, sale, and transport. Some products require documentation."
+      ]
+    },
+    {
+      "heading": "Tax Administration - Rule 3.281 / 3.285 / 3.286 / 3.311 (excerpt)",
+      "content": [
+        "Takeaway:",
+        "Keep records for at least four years. Sales tax rules include resale/exemption certificates, bracket system, and filing periods. Rule 3.311 matters directly to auctioneers: auctioneers are generally responsible for collecting and remitting sales tax on taxable items sold at auction."
+      ]
+    },
+    {
+      "heading": "8. Texas Alcoholic Beverage Code",
+      "content": [
+        "Takeaway:",
+        "Temporary auction permits can allow auctioning alcoholic beverages for off-premises consumption to raise funds, with specific eligibility and restrictions.",
+        "Key points: $25 state fee, up to 5 days, notice to commission office, proceeds deposited to permit holder, and prohibited activities include paying commission to arrange the auction."
+      ]
+    },
+    {
+      "heading": "9. Texas Agriculture Code",
+      "content": [
+        "Takeaway:",
+        "Livestock sales or transfers often require a written bill of sale/transfer accompanying delivery, including marks/brands and quantities."
+      ]
+    },
+    {
+      "heading": "10. Texas Transportation Code",
+      "content": [
+        "Takeaway:",
+        "Dealer licensing requirements have exclusions. Notably, a licensed auctioneer is not engaging in business as a dealer when selling property as a bid caller at a bona fide auction if title does not pass to the auctioneer and the auction is not held to avoid the law."
+      ]
+    },
+    {
+      "heading": "11. ATF Rule 96-2 (Firearms at Auctions)",
+      "content": [
+        "Takeaway:",
+        "Estate-type auctions where the executor possesses and sells the firearms generally do not require the auctioneer to have a federal firearms dealer license. Regular consignment-type firearms auctions where the auctioneer takes possession and sells firearms as a regular business generally require a dealer license."
+      ]
+    },
+    {
+      "heading": "12. Federal Law References",
+      "content": [
+        "U.S. Code Title 11 (Bankruptcy) - Sec. 721: Trustee may be authorized to operate business for a limited period if in best interest of estate.",
+        "Federal Rules of Bankruptcy Procedure - Rule 6005: Court order approving appraiser/auctioneer employment fixes compensation; certain officers/employees ineligible; no residence/licensing requirement disqualifies.",
+        "U.S. Code Title 18 (Firearms) - Sec. 923: Licensing requirements for engaging in the business of dealing in firearms."
+      ]
+    }
+  ]
+}

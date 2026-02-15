@@ -1,0 +1,3356 @@
+[
+  {
+    "id": 1,
+    "question": "Under the Arkansas Auctioneer's Licensing Act, the main purpose of creating the Auctioneer's Licensing Board was to:",
+    "options": [
+      "Increase state tax revenue from auction companies",
+      "License and regulate auctioneers and raise professionalism in the industry",
+      "Guarantee that all auctions are conducted by the state government",
+      "Eliminate all auctions that sell used goods"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The legislative intent section explains that the Act establishes a board to license and regulate auctioneers, require escrow accounts, support reciprocity, and raise professionalism to protect the public.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 2,
+    "question": "Who appoints the members of the Arkansas Auctioneer's Licensing Board?",
+    "options": [
+      "The Arkansas General Assembly",
+      "The Secretary of State",
+      "The Governor of Arkansas",
+      "The Chief Justice of the Arkansas Supreme Court"
+    ],
+    "correctAnswer": 2,
+    "explanation": "By statute, the Governor appoints the seven members of the Auctioneer's Licensing Board.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 3,
+    "question": "How many members serve on the Arkansas Auctioneer's Licensing Board, and how many must be licensed auctioneers?",
+    "options": [
+      "Five members total, at least three auctioneers",
+      "Seven members total, at least four auctioneers",
+      "Seven members total, at least five auctioneers",
+      "Nine members total, at least four auctioneers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board consists of seven members: four licensed auctioneers and three members of the public.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 4,
+    "question": "Acting as an auctioneer in Arkansas without a license after the effective date of the law can result in:",
+    "options": [
+      "A warning letter only",
+      "A fine of not less than $100 nor more than $500, imprisonment up to 90 days, or both",
+      "Automatic lifetime ban from ever being licensed",
+      "No penalties if the auction is for charity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The law makes unlicensed practice a criminal offense punishable by a fine between $100 and $500, imprisonment up to 90 days, or both.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following people is required to hold an Arkansas auctioneer license?",
+    "options": [
+      "A person auctioning only their own personal property",
+      "A nonprofit organization holding a charity auction",
+      "A person who, for a fee, calls bids at estate sales for others",
+      "A public official conducting a foreclosure sale under court order"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Act applies to those who, for compensation, conduct auctions for others. Owners selling only their own goods, nonprofits, and certain public or court-ordered sales are exempt.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following auctions is specifically exempt from the Arkansas Auctioneer's Licensing Act?",
+    "options": [
+      "An auction conducted by a licensed real estate broker",
+      "A sale at auction conducted over the internet on a website primarily dedicated to auctions",
+      "A weekly consignment auction of household goods",
+      "An auto auction open to dealers only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute exempts auctions conducted over the internet by means of a website primarily dedicated to conducting auctions.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 7,
+    "question": "To qualify for an Arkansas auctioneer license, an applicant must be at least:",
+    "options": [
+      "16 years old",
+      "18 years old",
+      "19 years old",
+      "21 years old"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The licensing statute requires applicants for an auctioneer license to be at least 18 years of age.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 8,
+    "question": "How many times each year must the Arkansas Auctioneer's Licensing Board offer the written auctioneer examination?",
+    "options": [
+      "At least once per year",
+      "Twice per year",
+      "Three times per year",
+      "Four times per year"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The statute requires that the board conduct the examination four times each year.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following topics is included on the Arkansas auctioneer licensing examination?",
+    "options": [
+      "Advanced calculus and statistics",
+      "Ethics, reading, writing, spelling, arithmetic, and Arkansas law including contracts and the UCC",
+      "Only bid-calling and voice technique",
+      "Federal securities regulations only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The exam covers ethics, basic literacy skills, elementary arithmetic, and general knowledge of Arkansas law, contracts, agency, leases, auctions, brokerage, and the Uniform Commercial Code.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 10,
+    "question": "Under Arkansas law, the definition of an \"auctioneer\" focuses on a person who:",
+    "options": [
+      "Owns a building where auctions are occasionally held",
+      "Advertises auctions in newspapers",
+      "For a fee or other valuable consideration, sells or offers to sell goods by public auction",
+      "Only sells livestock at a livestock auction barn"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer is defined as a person who, for compensation or with the expectation of it, offers or sells goods or other property by means of a public auction.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is the best definition of \"goods\" under the Arkansas Auctioneer's Licensing Act?",
+    "options": [
+      "Only livestock and farm equipment",
+      "Real estate, mineral rights, and fixtures",
+      "Any chattels, merchandise, personal property, or commodities that may lawfully be kept or offered for sale",
+      "Only items with a retail value over $100"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Act defines goods broadly as chattels, merchandise, personal property, or commodities of any form or type which may lawfully be kept or offered for sale.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 12,
+    "question": "In auction terminology, a \"consignor\" is best described as:",
+    "options": [
+      "The person to whom goods are consigned for sale",
+      "The buyer who pays the highest bid",
+      "The person or entity that delivers goods to the auctioneer to be sold",
+      "The clerk who records bids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The consignor is the person or entity that consigns goods to the auctioneer, usually the seller in an auction transaction.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 13,
+    "question": "In auction terminology, a \"consignee\" is:",
+    "options": [
+      "The auctioneer or agent to whom goods are entrusted for sale",
+      "Always the highest bidder",
+      "The person who writes the advertising copy",
+      "The court officer supervising a foreclosure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The consignee is the person or agent to whom goods are entrusted. In an auction, this is typically the auctioneer in whose care the goods are placed for sale.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 14,
+    "question": "Which term refers to a transfer of a major part of a business's inventory that is not in the ordinary course of business?",
+    "options": [
+      "Bulk sale (or bulk transfer)",
+      "Short sale",
+      "Liquidated damages",
+      "Reciprocity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Under the Uniform Commercial Code, a bulk transfer or bulk sale is a transfer in bulk and not in the ordinary course of business of a major part of the materials, supplies, merchandise, or other inventory.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 15,
+    "question": "The term \"bona fide\" in auction practice most nearly means:",
+    "options": [
+      "Guaranteed by a bank",
+      "In good faith, without dishonesty or fraud",
+      "Subject to a reserve price",
+      "Sold as is, where is"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bona fide means acting in good faith, without dishonesty, fraud, or deceit, such as a bona fide purchaser at an auction.",
+    "topic": "Ethics and Conduct"
+  },
+  {
+    "id": 16,
+    "question": "The term \"market value\" refers to the:",
+    "options": [
+      "Price the seller originally paid for the goods",
+      "Price the auctioneer thinks the goods should bring",
+      "Price at which a willing buyer and willing seller freely agree in an open market",
+      "Highest appraised value from any source"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Market value is the price a willing buyer will pay and a willing seller will accept when neither is under compulsion and both have reasonable knowledge of the property.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 17,
+    "question": "In estate terminology, the person named in a will to carry out its provisions and settle the estate is the:",
+    "options": [
+      "Administrator or administratrix",
+      "Executor or executrix",
+      "Consignee",
+      "Guardian ad litem"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The executor (male) or executrix (female) is the person named in the will to administer the estate and carry out its terms.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 18,
+    "question": "In estate administration, the person appointed by a court to settle an estate when there is no will or no executor able to serve is the:",
+    "options": [
+      "Executor or executrix",
+      "Administrator or administratrix",
+      "Trustee",
+      "Consignor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When there is no will or no named executor can serve, the court appoints an administrator (or administratrix) to handle the estate.",
+    "topic": "Board and Governance"
+  },
+  {
+    "id": 19,
+    "question": "Under the Arkansas Auctioneer's Licensing Act, each advertisement for an auction must include:",
+    "options": [
+      "The seller's Social Security number",
+      "The auctioneer's personal phone number",
+      "The auctioneer's or auction company's license number",
+      "The name of the auctioneer's bank"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute requires that every advertisement by an auctioneer or consignment auction house include the license number issued by the Board.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 20,
+    "question": "Before selling property of another at auction, an Arkansas auctioneer must:",
+    "options": [
+      "Obtain a verbal authorization from the seller witnessed by two people",
+      "Execute a prior written contract with the seller that sets forth the terms and conditions of the sale",
+      "File a notice with the county clerk",
+      "Deposit a cash bond with the Board"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The law requires a prior written contract with the seller describing the terms and conditions, and the auctioneer must retain a copy for at least three years.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is TRUE regarding the auction listing contract under Arkansas law?",
+    "options": [
+      "It may only be oral as long as both parties agree",
+      "It must be in writing and should include commission, fees, advertising responsibility, and whether the sale is with or without reserve",
+      "It is only required for real estate auctions",
+      "It is optional for estate auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A written contract is required and should set out key terms such as commission, fees, advertising responsibility, reserves, and other material conditions of the auction.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 22,
+    "question": "What is the primary purpose of an auctioneer's escrow or trust account?",
+    "options": [
+      "To hold the auctioneer's personal savings",
+      "To segregate and protect funds belonging to others from the auctioneer's own funds",
+      "To guarantee advertising costs",
+      "To hold the auctioneer's tax payments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auctioneers who handle others' money must maintain a separate escrow or trust account so that funds belonging to others are not commingled with personal or business funds.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following actions by an auctioneer would be a violation related to escrow funds?",
+    "options": [
+      "Depositing all sale proceeds into a clearly labeled trust account",
+      "Holding funds from several auctions in one escrow account",
+      "Commingling consignor funds with the auctioneer's business operating account",
+      "Paying sellers promptly after funds have cleared"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commingling the funds of others with the auctioneer's own money violates the requirement to keep others' funds in a separate escrow or trust account.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 24,
+    "question": "When an item is announced as being sold \"as is\" at auction, this typically means that:",
+    "options": [
+      "The auctioneer guarantees the item to be free from defects for 90 days",
+      "The item is sold without any warranty as to condition or authenticity, unless specific representations are made",
+      "The buyer may return the item within three days for any reason",
+      "The item must be sold at or above its appraised value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Selling \"as is\" means the auctioneer does not warrant the condition or authenticity, provided no contradictory promises or misrepresentations are made.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 25,
+    "question": "An auction that is advertised as \"absolute\" in Arkansas must:",
+    "options": [
+      "Allow the seller to reject bids below a secret reserve price",
+      "Sell all goods to the highest bona fide bidder regardless of price and without any reserve",
+      "Require the seller to bid to protect the price",
+      "Be conducted only by a government agency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An absolute auction is one where all goods are to be sold to the highest bona fide bidder without reserve prices and without seller bidding.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is a requirement before advertising goods as being sold at an \"absolute\" auction in Arkansas?",
+    "options": [
+      "The seller must reserve the right to bid on their own items",
+      "All liens must be satisfied or lienholders must agree in writing to accept the highest bid or have the liens discharged after the sale",
+      "The auction must be held on a Saturday",
+      "There must be at least 100 registered bidders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "To advertise an auction as absolute, either there must be no liens or lienholders must agree to accept the highest bid or have liens discharged immediately after the sale.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 27,
+    "question": "Under the UCC rule on auction sales, an auction is presumed to be:",
+    "options": [
+      "Without reserve unless stated otherwise",
+      "With reserve unless explicitly put up without reserve",
+      "Absolute if advertised in a newspaper",
+      "Without reserve if held on the seller's premises"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By default, a sale by auction is with reserve unless the goods are explicitly put up without reserve.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 28,
+    "question": "At what point is a sale by auction considered complete under the UCC?",
+    "options": [
+      "When the buyer pays in full",
+      "When the seller signs a bill of sale",
+      "When the auctioneer announces completion, typically by the fall of the hammer",
+      "When the advertisement is published"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A sale by auction is complete when the auctioneer so announces, usually by the fall of the hammer or other customary manner.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 29,
+    "question": "Under the UCC rule on auctions, a bidder may retract a bid:",
+    "options": [
+      "At any time within 24 hours after the auction",
+      "Any time before the hammer falls and the auctioneer announces the sale",
+      "Only if the seller agrees in writing",
+      "Only on lots over $10,000"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A bidder may retract his or her bid at any time before the auctioneer announces completion of the sale, but retraction does not revive any previous bid.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 30,
+    "question": "If the auctioneer knowingly accepts a bid on the seller's behalf at an auction without reserving that right in the terms announced, the buyer may:",
+    "options": [
+      "Avoid the sale or take the goods at the price of the last good faith bid",
+      "Be required to honor the bid without any remedy",
+      "Only sue for punitive damages",
+      "Demand that the auction be restarted from the beginning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If undisclosed seller bidding occurs, the buyer may avoid the sale or take the goods at the last good faith bid prior to the completion of the sale.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 31,
+    "question": "When two bidders both believe they have the final bid as the hammer falls, Arkansas law:",
+    "options": [
+      "Requires the auctioneer to restart the entire auction",
+      "Requires the auctioneer to accept the higher of the two bids",
+      "Allows the auctioneer discretion to reopen bidding or award the item to the bidder recognized by the auctioneer",
+      "Automatically voids the sale"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The auctioneer has discretion in bid disputes and may reopen bidding or accept the bid of the person previously recognized as high bidder.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is an example of a deceptive trade practice in connection with auctions?",
+    "options": [
+      "Accurately describing used items as \"used\"",
+      "Advertising a sale as \"going out of business\" when the seller does not intend to close",
+      "Clearly disclosing that some items are subject to reserve",
+      "Stating that items are sold as is"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Advertising a sale as a going-out-of-business sale when that is not true is a deceptive trade practice under the list of prohibited acts.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 33,
+    "question": "According to Arkansas law, all auctioneer licenses expire on:",
+    "options": [
+      "December 31 each year",
+      "The anniversary date of the license issuance",
+      "June 30 each year",
+      "March 31 each year"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute provides that all auctioneer licenses expire on June 30 of each year.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 34,
+    "question": "After a license expires, Arkansas auctioneers have a grace period of how many days to renew before the late renewal penalty applies?",
+    "options": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "120 days"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Licensed auctioneers have a 120-day grace period beyond the renewal date to renew their license before the late penalty is assessed.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 35,
+    "question": "What is the statutory penalty for renewing an Arkansas auctioneer license after the 120-day grace period has passed?",
+    "options": [
+      "A $25 flat late fee",
+      "Loss of license and mandatory re-examination",
+      "A penalty equal to two times the normal renewal fee",
+      "No penalty if the auctioneer did not conduct auctions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Late renewals beyond the 120-day grace period are penalized at two times the amount of the normal license renewal fee.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 36,
+    "question": "How much is the issuance fee and the annual renewal fee for an Arkansas auctioneer license (excluding any special fund fees)?",
+    "options": [
+      "$50 issuance, $50 renewal",
+      "$75 issuance, $100 renewal",
+      "$100 issuance, $100 renewal",
+      "$150 issuance, $75 renewal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute sets both the initial issuance fee and the annual renewal fee at $100 for auctioneer licenses.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 37,
+    "question": "The continuing education requirement for most Arkansas auctioneers is:",
+    "options": [
+      "Three hours every two years",
+      "Six hours of approved continuing education each year",
+      "Ten hours of continuing education every three years",
+      "No continuing education is required"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Most auctioneers must complete six hours of approved continuing education in the preceding 12 months in order to renew their license.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 38,
+    "question": "Which auctioneers are exempt from the Arkansas continuing education requirements?",
+    "options": [
+      "All auctioneers over age 50",
+      "Auctioneers who conduct only charity auctions",
+      "Those licensed as auctioneers or auction house owners for 10 consecutive years or more and who are at least 55 years old",
+      "Auctioneers who also hold a real estate license"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The exemption applies to persons licensed as an auctioneer or auction house owner for 10 consecutive years or more and who are at least 55 years of age.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 39,
+    "question": "When are criminal background checks required for Arkansas auctioneer licensing?",
+    "options": [
+      "Only when the Board receives a complaint",
+      "For every annual renewal",
+      "For each first-time applicant and for persons seeking reinstatement of an expired license",
+      "Only for auctioneers who sell firearms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute requires state and national criminal background checks for each first-time applicant and each applicant seeking reinstatement of an expired license.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 40,
+    "question": "The maximum civil penalty the Arkansas Auctioneer's Licensing Board may impose for a single violation is:",
+    "options": [
+      "$250",
+      "$500",
+      "$1,000",
+      "$5,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Board may impose a civil penalty not to exceed $1,000 per violation, in addition to other sanctions such as suspension or revocation.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is NOT a listed ground for suspension or revocation of an Arkansas auctioneer license?",
+    "options": [
+      "Obtaining a license through false or fraudulent representation",
+      "Commingling others' funds with personal funds",
+      "Failing to disclose a buyer's premium in advertising",
+      "Conducting an auction that ends earlier than advertised due to bad weather"
+    ],
+    "correctAnswer": 3,
+    "explanation": "False or fraudulent licensing, commingling funds, and failing to disclose a buyer's premium are grounds for discipline. Ending early due to bad weather is not a listed ground by itself.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following best describes \"reciprocity\" in the auction licensing context?",
+    "options": [
+      "The right of any auctioneer to practice in any state without a license",
+      "Mutual recognition by states of each other's auctioneer licenses, subject to comparable requirements",
+      "A discount for repeat buyers at auctions",
+      "A seller's right to bid on their own items"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reciprocity refers to states mutually recognizing licensure, allowing auctioneers licensed in one state to be licensed or to conduct auctions in the other with fewer barriers when requirements are comparable.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 43,
+    "question": "Which of the following activities would require an Arkansas auction house owner (who is not the principal auctioneer) to hold a license?",
+    "options": [
+      "Owning a building that is occasionally rented to other auctioneers but never conducting sales",
+      "Operating an auction company that conducts auctions while hiring licensed auctioneers to call bids",
+      "Printing flyers for auctions held by others",
+      "Owning a livestock auction barn only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If an auction owner is someone other than the principal auctioneer, the owner must apply for a license and meet all provisions of the chapter.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 44,
+    "question": "Under Arkansas law on municipal taxes, a city may charge an auctioneer a municipal license tax only when:",
+    "options": [
+      "The auctioneer sells goods within the city limits at least once",
+      "The auctioneer maintains a business office within that municipality",
+      "The auctioneer is from out of state",
+      "The auction involves real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "No municipal tax or license fee may be charged for following the profession of auctioneer unless the person maintains a business office within that municipality.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 45,
+    "question": "Which item should be included in the auctioneer's opening statement at the start of an auction?",
+    "options": [
+      "A guarantee that all items will sell at retail value",
+      "A detailed explanation of the auctioneer's personal background",
+      "An explanation of the terms and conditions of sale, including how payment is to be made and when items may be removed",
+      "A promise that no buyer's premium will ever be charged"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A proper opening statement welcomes attendees, introduces the crew, explains the reason for the sale, and clearly states the terms, conditions, payment methods, and removal procedures.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 46,
+    "question": "In a typical auction scenario, who is considered the purchaser of a lot?",
+    "options": [
+      "The first person to raise their hand",
+      "The highest bidder recognized by the auctioneer when the sale is declared complete",
+      "The person with the greatest need for the item",
+      "The person who inspected the item first"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The buyer is the highest bidder as recognized by the auctioneer when the sale is completed (hammer falls and the sale is announced).",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following best describes \"auction with reserve\"?",
+    "options": [
+      "The goods cannot be withdrawn once the catalog is printed",
+      "The seller or auctioneer may withdraw the goods any time before the hammer falls if the bidding does not reach a minimum acceptable price",
+      "The buyer can reserve the right to return the goods",
+      "The auction must be advertised at least 30 days in advance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a reserve auction, the seller or auctioneer may set a minimum price and withdraw the goods before the sale is complete if bids do not reach that level.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 48,
+    "question": "An auctioneer sells a consignor's personal property for a total of $85,000. The contract provides for a 10 percent commission to the auctioneer and advertising expenses of $2,400 to be paid by the seller. What amount should the auctioneer remit to the seller?",
+    "options": [
+      "$72,600",
+      "$74,100",
+      "$75,600",
+      "$77,500"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commission is 10 percent of $85,000, or $8,500. Subtracting commission and $2,400 advertising from $85,000 leaves $85,000 \u2212 $8,500 \u2212 $2,400 = $74,100 to the seller.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 49,
+    "question": "An auction includes a 10 percent buyer's premium and 8.25 percent sales tax, both calculated on the hammer price. If the hammer price is $3,200, what is the total amount the buyer must pay?",
+    "options": [
+      "$3,456.00",
+      "$3,520.00",
+      "$3,810.40",
+      "$3,968.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium is 10 percent of $3,200, or $320, for a subtotal of $3,520. Sales tax at 8.25 percent on $3,520 is $290.40. Total due is $3,520 + $290.40 = $3,810.40.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 50,
+    "question": "Under the Arkansas Auctioneers Licensing Board\u2019s exam procedures, an applicant must complete their initial application and criminal background check at least how many days before the next scheduled testing date?",
+    "options": [
+      "7 days before the exam date",
+      "14 days before the exam date",
+      "30 days before the exam date",
+      "60 days before the exam date"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The study guide specifies that applicants must complete their initial application and background check at least 30 days before the next scheduled exam date to allow processing and approval.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 51,
+    "question": "Qualified applicants with disabilities may request accommodations for the Arkansas auctioneer examination if they make the request:",
+    "options": [
+      "On the day of the exam, in person",
+      "At least 7 days before the exam, verbally",
+      "In writing at least 30 days prior to the exam",
+      "At any point within 6 months after taking the exam"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The study guide states that qualified applicants with disabilities may request needed accommodations in writing at least 30 days before the examination date.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 52,
+    "question": "The primary purpose of the Arkansas auctioneer licensing examinations is to:",
+    "options": [
+      "Raise revenue for the Auctioneer Education and Recovery Fund",
+      "Ensure a minimum level of competence among those allowed to conduct auctions in Arkansas",
+      "Promote Arkansas auctioneers over out\u2011of\u2011state competitors",
+      "Limit the number of auctioneers practicing in the state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The overview section explains that the exams are designed to protect the public by ensuring a minimum level of competence among auctioneers.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 53,
+    "question": "According to the Arkansas study guide, auctioneers must be familiar with which three main sources of law that relate directly to auction practice in Arkansas?",
+    "options": [
+      "Federal securities law, OSHA regulations, and tax code",
+      "State traffic laws, building codes, and city ordinances",
+      "The Auctioneers License Act of 1989, relevant sections of the Uniform Commercial Code, and Arkansas Auctioneers Licensing Board regulations",
+      "Only the individual contracts they sign with sellers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The guide stresses familiarity with the Auctioneers License Act of 1989, applicable sections of the UCC, and the Board\u2019s regulations as the core legal framework for auctioneers.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 54,
+    "question": "Under Arkansas law, which of the following is the best definition of a \"livestock auction barn auctioneer\"?",
+    "options": [
+      "Any auctioneer who sells farm equipment at least once per year",
+      "An auctioneer solely engaged in the selling of livestock on a regular basis at one or more locations",
+      "An auctioneer who sells only registered cattle and horses",
+      "Any auctioneer who conducts auctions in a barn\u2011type building"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute defines a livestock auction barn auctioneer as an auctioneer solely engaged in selling livestock on a regular basis at one or more locations.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 55,
+    "question": "Under the Arkansas Auctioneers Licensing Act, the term \"persons\" includes:",
+    "options": [
+      "Only individual human beings",
+      "Individuals, associations, partnerships, corporations, and their officers, directors, and employees",
+      "Only corporations and limited liability companies",
+      "Government agencies only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The definition of \"persons\" specifically includes individuals, associations, partnerships, corporations, and the officers, directors, and employees of a corporation.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following types of sales is specifically EXEMPT from the Arkansas Auctioneers Licensing Act?",
+    "options": [
+      "An estate auction run by a for\u2011profit auction company",
+      "Sales by public authority or under court order in the course of official duties",
+      "A weekly consignment auction of farm equipment",
+      "A general household goods auction run for a fee"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sales conducted by or under the direction of a public authority or under court order are exempt from the Act, because they are part of official governmental functions.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following is also exempt from the Arkansas Auctioneers Licensing Act?",
+    "options": [
+      "Auctions conducted by a nonprofit organization for charitable purposes",
+      "All auctions of motor vehicles",
+      "Auctions of jewelry and fine art only",
+      "Any auction that is advertised on the radio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Charitable auctions conducted by nonprofit organizations are listed as exemptions from the licensing requirements.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 58,
+    "question": "Under Arkansas law, which statement best describes internet\u2011based auctions conducted over a website primarily dedicated to auctions?",
+    "options": [
+      "They are always subject to the Arkansas auctioneer licensing law",
+      "They are exempt from the Arkansas Auctioneers Licensing Act",
+      "They require a special \"online only\" Arkansas license",
+      "They are illegal unless conducted through a licensed auction house"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auctions conducted over the internet via a website primarily dedicated to auctions are specifically exempt from the Arkansas Auctioneers Licensing Act.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 59,
+    "question": "Under Arkansas law, a person engaged in auctioneering who is not properly licensed may NOT:",
+    "options": [
+      "Advertise in newspapers",
+      "Bring or maintain an action in Arkansas courts to collect compensation for auction services",
+      "Accept payment in cash",
+      "Conduct auctions out of state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Section 17\u201117\u2011106 states that no person acting as an auctioneer can sue to collect compensation unless they were duly licensed and operating legally at the time the cause of action arose.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 60,
+    "question": "Which of the following is a true statement regarding the Arkansas Auctioneer Education and Recovery Fund fee?",
+    "options": [
+      "It is collected only when an auctioneer is disciplined by the Board",
+      "It is an additional fee (up to a statutory limit) paid at initial licensure and each renewal to support education and the recovery fund",
+      "It is paid only by out\u2011of\u2011state auctioneers seeking reciprocity",
+      "It is used only for Board member travel expenses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The law provides for an additional fee, not to exceed a statutory cap, to be collected at initial licensure and renewal to fund the Auctioneer Education and Recovery Fund.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 61,
+    "question": "When the Auctioneer Education and Recovery Fund balance reaches $180,000, what happens to the additional fee required of Arkansas auctioneers?",
+    "options": [
+      "It automatically doubles for all licensees",
+      "It is suspended until the fund balance falls to $100,000",
+      "It is permanently discontinued",
+      "It is reduced by 50 percent for two years"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By statute, when the fund balance reaches $180,000 the fee is suspended and resumes only when the balance has dropped to $100,000, at which point collections continue until $180,000 is reached again.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 62,
+    "question": "In Arkansas, which of the following is required regarding written contracts between auctioneers and sellers?",
+    "options": [
+      "They are optional if both parties agree orally",
+      "They must be written, and the auctioneer must retain a copy for at least three years",
+      "They are required only for real estate auctions",
+      "They may be written or oral, but cannot include commission information"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute requires a written contract between auctioneer and seller, and the auctioneer must retain a copy of each contract for at least three years after the auction.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 63,
+    "question": "Which of the following items should be included in an Arkansas auction contract according to Board regulations and best practice?",
+    "options": [
+      "The names of all bidders who will attend",
+      "The seller\u2019s tax return from the previous year",
+      "Commission and fee structure, responsibility for advertising costs, and whether the sale is with or without reserve",
+      "A guarantee of minimum gross proceeds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Minimum requirements include clear terms for commission, fees, advertising responsibility, and reserve status to prevent misunderstandings and protect both parties.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 64,
+    "question": "Under Arkansas law, which of the following is true about the auctioneer\u2019s escrow or trust account?",
+    "options": [
+      "It may be used to pay the auctioneer\u2019s office rent and utilities",
+      "It is required only if the auctioneer handles real estate closings",
+      "It must be used to keep funds belonging to others separate from the auctioneer\u2019s personal or operating funds",
+      "It must be located in a bank outside Arkansas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Auctioneers who hold money belonging to others must use a separate escrow or trust account to avoid commingling those funds with personal or business operating funds.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 65,
+    "question": "Which of the following actions regarding escrow funds would most clearly violate Arkansas auction law?",
+    "options": [
+      "Depositing multiple clients\u2019 funds into the same properly designated trust account",
+      "Transferring earned commission from the escrow account after settlement",
+      "Withdrawing funds from the escrow account to pay the auctioneer\u2019s personal credit card bill",
+      "Keeping records of each client\u2019s balance in the escrow account"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Using escrow funds to pay personal bills is a classic example of commingling and misuse of funds belonging to others, and is a ground for discipline.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 66,
+    "question": "What is one of the specific listed grounds for suspension or revocation of an Arkansas auctioneer license?",
+    "options": [
+      "Conducting an auction that ends later than expected",
+      "Failing to enter into a written contract with the seller and failing to provide copies of written instruments",
+      "Accepting a cashier\u2019s check from a buyer",
+      "Selling items that bring less than market value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Failing to enter into a written contract with the seller and failing to provide copies of written instruments is specifically listed as a ground for disciplinary action.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 67,
+    "question": "Under Arkansas law, which of the following must be disclosed in all advertising associated with an auction?",
+    "options": [
+      "The exact expected gross proceeds for the sale",
+      "The auctioneer\u2019s personal home address",
+      "Any buyer\u2019s premium that will be charged",
+      "The seller\u2019s reserve price"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Failing to disclose the buyer\u2019s premium in all advertising is listed as a ground for discipline, so the buyer\u2019s premium must be clearly disclosed in the advertising.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 68,
+    "question": "Which statement about Arkansas auction advertisements is correct?",
+    "options": [
+      "They must include only the auction date and time",
+      "They must include the license number issued by the Arkansas Auctioneers Licensing Board",
+      "They cannot be placed on social media",
+      "They must be approved by the Board before publication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Section 17\u201117\u2011310 requires each advertisement by an auctioneer or consignment auction house to include the number of the license issued by the Board.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 69,
+    "question": "If the Arkansas Auctioneers Licensing Board believes a person is violating the Auctioneers Licensing Act, the Board may:",
+    "options": [
+      "Only issue a written warning",
+      "Seek an injunction in court to stop the violation",
+      "Immediately imprison the violator",
+      "Seize all items at the auction without court order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board is authorized to seek an injunction in the appropriate court to restrain violations of the chapter or any Board orders.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 70,
+    "question": "Which statement about disciplinary hearings before the Arkansas Auctioneers Licensing Board is most accurate?",
+    "options": [
+      "The Board may impose civil penalties, suspend, or revoke a license after proper notice and hearing",
+      "The Board may only issue verbal warnings",
+      "The Board must always refer cases to criminal court before taking action",
+      "The Board can act only if the licensee agrees in writing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The disciplinary provisions authorize the Board, after notice and hearing, to impose civil penalties, suspend, or revoke licenses for violations of law or Board rules.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 71,
+    "question": "Under Arkansas law, the maximum civil penalty the Board may impose per violation in a disciplinary action is:",
+    "options": [
+      "$250",
+      "$500",
+      "$1,000",
+      "$10,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute authorizes the Board to levy a civil penalty not to exceed $1,000 per violation, in addition to other sanctions.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following best describes \"bad faith\" or \"deceptive practices\" by an auctioneer under Arkansas law?",
+    "options": [
+      "Listing the seller\u2019s reserve price as \"confidential\"",
+      "Accidentally mispronouncing a bidder\u2019s name",
+      "Knowingly misrepresenting the authenticity or condition of an item to induce higher bids",
+      "Advertising the auction on both print and online platforms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Knowingly misrepresenting material facts about an item\u2019s authenticity or condition to induce higher bids is dishonest and falls under improper or deceptive practices.",
+    "topic": "Ethics and Conduct"
+  },
+  {
+    "id": 73,
+    "question": "Which of the following is true about continuing education for Arkansas auctioneers?",
+    "options": [
+      "All continuing education programs automatically qualify for credit",
+      "The Board must approve continuing education programs and may set minimum standards and requirements",
+      "Continuing education is required only once, during the first year of licensure",
+      "Continuing education can only be taken online"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The law states that all continuing education programs are subject to Board approval, and the Board sets standards, requirements, and conditions for receiving credit.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 74,
+    "question": "Which auctioneer is exempt from Arkansas\u2019s continuing education requirement?",
+    "options": [
+      "An auctioneer who conducts fewer than three auctions per year",
+      "An auctioneer licensed for 10 consecutive years or more and at least 55 years old",
+      "Any auctioneer who lives more than 100 miles from Little Rock",
+      "An auctioneer who works only part\u2011time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute exempts persons licensed as an auctioneer or auction house owner for 10 consecutive years or more who are at least 55 years of age.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 75,
+    "question": "With respect to criminal background checks for Arkansas auctioneer licensure, which statement is correct?",
+    "options": [
+      "They are never required for any license applicant",
+      "They are required only for applicants with self\u2011reported convictions",
+      "They are required for each first\u2011time applicant and for applicants seeking reinstatement of an expired license",
+      "They are required only for auctioneers who plan to sell firearms"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The law requires state and national criminal background checks for each first\u2011time applicant and for applicants seeking reinstatement of an expired license.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 76,
+    "question": "Which of the following is TRUE regarding offenses listed in the criminal background section of the Arkansas Auctioneers Licensing Act?",
+    "options": [
+      "Certain serious violent or sexual offenses can disqualify an applicant from licensure",
+      "Only traffic offenses are considered",
+      "Misdemeanors are always ignored",
+      "The Board is not allowed to consider any convictions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The statute lists a series of serious offenses (such as murder, rape, and certain family\u2011related crimes) that, if present in the applicant\u2019s history, can be grounds for denying licensure.",
+    "topic": "Ethics and Conduct"
+  },
+  {
+    "id": 77,
+    "question": "Which statement about nonresident auctioneers and reciprocity is accurate under Arkansas law?",
+    "options": [
+      "Nonresident auctioneers can always conduct auctions in Arkansas without restriction",
+      "Nonresident auctioneers can never be licensed in Arkansas",
+      "Nonresident auctioneers from states with comparable licensing requirements may be licensed in Arkansas without further examination, subject to Board approval",
+      "Reciprocity applies only to livestock auctions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Section 17\u201117\u2011305 allows individuals licensed in states with comparable requirements to be licensed in Arkansas without further examination, if they otherwise meet the chapter\u2019s requirements.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 78,
+    "question": "Under Arkansas reciprocity provisions, if a nonresident\u2019s home state requires Arkansas auctioneers to associate with a local licensee before conducting an auction, then in Arkansas:",
+    "options": [
+      "The nonresident may conduct auctions alone with no association",
+      "The nonresident must also associate with an Arkansas\u2011licensed auctioneer",
+      "No reciprocity is allowed from that state",
+      "The Board automatically refuses the license"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute states that if a nonresident\u2019s home state requires association with a licensee for visiting auctioneers, Arkansas will require the same association with an Arkansas\u2011licensed auctioneer.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 79,
+    "question": "Regarding auction owners under Arkansas law, which statement is correct?",
+    "options": [
+      "If the owner is someone other than the principal auctioneer, the owner must also apply for a license",
+      "Auction owners never need a license",
+      "Only corporate auction owners must be licensed",
+      "Auction owners are automatically licensed if any auctioneer is licensed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Section 17\u201117\u2011307 states that if an auction owner is someone other than the principal auctioneer, the owner must apply for a license and meet all provisions of the chapter.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following best describes \"chattels\" as used in the Arkansas study guide?",
+    "options": [
+      "Real estate and fixtures only",
+      "Moveable personal property such as furniture, automobiles, and livestock",
+      "Only items with a value over $1,000",
+      "Intellectual property such as patents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chattels are defined as moveable personal property: items like furniture, vehicles, and livestock, as distinct from real estate.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 81,
+    "question": "The term \"security interest\" in auction\u2011related law most nearly refers to:",
+    "options": [
+      "A seller\u2019s right to change their mind after the auction",
+      "An interest in personal property or fixtures that secures payment or performance of an obligation",
+      "A buyer\u2019s right to inspect goods before bidding",
+      "A bank\u2019s unrelated ownership of real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under the UCC, a security interest is an interest in personal property or fixtures that secures payment or performance of an obligation, such as a lender\u2019s interest in collateral.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 82,
+    "question": "A \"bulk transfer\" or \"bulk sale\" typically involves:",
+    "options": [
+      "The sale of one small item to a single buyer",
+      "A transfer in the ordinary course of business to regular customers",
+      "A transfer of a major part of a business\u2019s inventory not in the ordinary course of business",
+      "Only transfers involving real estate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A bulk transfer or bulk sale is defined as a transfer in bulk of a major part of a business\u2019s materials, supplies, or inventory that is not in the ordinary course of business.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 83,
+    "question": "In UCC auction law, a \"sale on approval\" generally means:",
+    "options": [
+      "The buyer takes the goods primarily for use and the sale is not final until the buyer accepts them",
+      "The sale is final when the hammer falls, regardless of buyer approval",
+      "The goods are being sold to satisfy a court judgment",
+      "The buyer must pay in full before inspection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a sale on approval, the buyer takes the goods primarily for use, and the sale becomes final only when the buyer approves or accepts the goods.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 84,
+    "question": "In contrast, a \"sale or return\" under the UCC usually involves:",
+    "options": [
+      "Goods delivered primarily for household use with no resale allowed",
+      "Goods delivered primarily for resale, with the buyer having the option to return unsold items",
+      "An auction of repossessed goods only",
+      "Property that cannot be returned once delivered"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a sale or return, goods are delivered primarily for resale and the buyer may return them if they do not resell, which differs from a sale on approval.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 85,
+    "question": "Under UCC rules governing auctions, if goods are put up in separate lots:",
+    "options": [
+      "There is one single contract for all lots",
+      "Each lot is considered the subject of a separate contract of sale",
+      "The auction must be absolute",
+      "The buyer must purchase all lots or none"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The UCC provides that a sale by auction is complete when the auctioneer announces it, and when goods are put up in lots, each lot is the subject of a separate sale.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 86,
+    "question": "Which of the following best describes the default rule about auctions in Arkansas under the UCC?",
+    "options": [
+      "All auctions are absolute unless specifically stated otherwise",
+      "All auctions are with reserve unless the goods are put up without reserve",
+      "All auctions must be conducted by government officials",
+      "All auctions must have a posted minimum bid of at least $100"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By default, an auction is with reserve unless the goods are explicitly put up without reserve. In a with\u2011reserve auction, the seller may withdraw goods if bidding is inadequate.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 87,
+    "question": "Under UCC auction rules, if the auctioneer makes a mistake and accepts a bid below the reserve price in a with\u2011reserve auction:",
+    "options": [
+      "The seller must honor the bid no matter what",
+      "The auctioneer may withdraw the goods before the hammer falls",
+      "The buyer automatically owns the goods",
+      "The sale becomes an absolute auction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a with\u2011reserve auction, the seller or auctioneer may withdraw goods anytime before the sale is completed (before the hammer falls) if bids do not reach an acceptable level.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 88,
+    "question": "An auctioneer sells personal property for a total of $36,000. The contract provides for a 15 percent commission to the auctioneer and advertising expenses of $1,750 to be paid by the seller. What amount should the auctioneer remit to the seller?",
+    "options": [
+      "$28,850",
+      "$29,650",
+      "$30,250",
+      "$31,350"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Commission is 15% of $36,000, or $5,400. Subtracting commission and $1,750 advertising from $36,000 leaves $36,000 \u2212 $5,400 \u2212 $1,750 = $28,850 to the seller.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 89,
+    "question": "At an Arkansas auction, there is a 12 percent buyer\u2019s premium and 9 percent sales tax, both calculated on the hammer price plus premium. If the hammer price is $4,500, what is the total amount the buyer must pay?",
+    "options": [
+      "$4,860.00",
+      "$5,040.00",
+      "$5,453.60",
+      "$5,493.60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Buyer\u2019s premium is 12% of $4,500 = $540, for a subtotal of $5,040. Sales tax at 9% of $5,040 is $453.60. Total due is $5,040 + $453.60 = $5,493.60.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 90,
+    "question": "An auction contract provides for an 8 percent commission, an additional 3 percent \"set\u2011up fee\" (both calculated on the gross sale price), and $900 in advertising costs to be paid by the seller. If the total sale price is $25,000, how much money should the seller receive?",
+    "options": [
+      "$20,900",
+      "$21,350",
+      "$22,150",
+      "$23,200"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commission is 8% of $25,000 = $2,000; set\u2011up fee is 3% of $25,000 = $750. Total fees: $2,000 + $750 + $900 advertising = $3,650. Seller\u2019s net is $25,000 \u2212 $3,650 = $21,350.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 91,
+    "question": "A buyer purchases an item at auction with a hammer price of $600 and a 10 percent buyer\u2019s premium. No sales tax applies. What is the total amount the buyer must pay?",
+    "options": [
+      "$600",
+      "$630",
+      "$660",
+      "$700"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium is 10% of $600 = $60. Total due is $600 + $60 = $660.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 92,
+    "question": "Under Arkansas auction practice, \"consignment\" most nearly means:",
+    "options": [
+      "An absolute transfer of ownership to the auctioneer",
+      "A transaction in which goods are delivered to the auctioneer to sell on behalf of the owner",
+      "A sale directly from manufacturer to consumer",
+      "A loan secured by real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a consignment arrangement, the consignor (owner) transfers possession of goods to the auctioneer (consignee) to sell on the owner\u2019s behalf, while ownership remains with the consignor until sale.",
+    "topic": "Definitions and Terminology"
+  },
+  {
+    "id": 93,
+    "question": "In Arkansas, \"market value\" in the context of auctioned goods is best defined as:",
+    "options": [
+      "The price the goods originally cost the seller",
+      "The price set by the auctioneer before the sale",
+      "The price a willing buyer and a willing seller agree to in an open and competitive market without compulsion",
+      "The highest appraised value available"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Market value is the price that arises from agreement between a willing buyer and seller, neither under compulsion and both having reasonable knowledge of relevant facts.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 94,
+    "question": "During an Arkansas auction, two bidders both think they are the high bidder as the hammer falls on a lot. Under the law and common practice, the auctioneer:",
+    "options": [
+      "Is required to declare the lot void and remove it from the auction",
+      "Must automatically restart the entire auction from the beginning",
+      "Has discretion to reopen bidding or award the lot to the bidder recognized as high bidder by the auctioneer",
+      "Must give the lot to the bidder with the higher bidder number"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The study guide explains that the auctioneer has discretion in bid disputes to either reopen bidding or award the item to the bidder the auctioneer recognized as high bidder.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 95,
+    "question": "In Arkansas, which best describes the effect of a bidder\u2019s retraction of a bid before the hammer falls?",
+    "options": [
+      "It is not allowed under any circumstances",
+      "It cancels the auction",
+      "It is allowed, but does not revive any previous bid",
+      "It requires the auctioneer to accept the retracted bid anyway"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Under the UCC rules on auctions, a bidder may retract a bid any time before the hammer falls, but the retraction does not revive any previous bids.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 96,
+    "question": "According to the Arkansas Auctioneers Licensing Act, municipal governments may charge an auctioneer a municipal license tax only if:",
+    "options": [
+      "The auctioneer conducts at least one auction inside the city limits in a calendar year",
+      "The auctioneer advertises in a local newspaper",
+      "The auctioneer maintains a business office within that municipality",
+      "The auctioneer is from another state"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The statute provides that no municipal license tax may be charged for following the profession of auctioneer unless the person maintains a business office within that municipality.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 97,
+    "question": "Which of the following is TRUE regarding the renewal of an Arkansas auctioneer license?",
+    "options": [
+      "An exam is required for every renewal",
+      "An exam is required only if the license has been revoked",
+      "An exam is required every five years",
+      "An exam is never required after initial licensure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The law states that an examination is not required for the renewal of a license unless it has been revoked, in which case the applicant must retake and pass the exam.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 98,
+    "question": "Under the Arkansas Auctioneers Licensing Act, which of the following BEST describes the Board\u2019s general power over licensees?",
+    "options": [
+      "The Board may only issue non-binding recommendations to auctioneers",
+      "The Board may license, regulate, investigate complaints, and discipline auctioneers who violate the law or Board rules",
+      "The Board may set criminal penalties without involving the courts",
+      "The Board may only regulate advertising, not auction conduct"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board is empowered to license and regulate auctioneers, investigate complaints, hold hearings, and impose discipline such as suspension, revocation, or civil penalties when violations occur.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is a specific duty of the Arkansas Auctioneers Licensing Board\u2019s secretary or administrator?",
+    "options": [
+      "Set auction reserve prices for all licensees",
+      "Maintain the Board\u2019s records, including minutes, applications, and disciplinary files",
+      "Provide legal representation to auctioneers during lawsuits",
+      "Determine the exact commission rates auctioneers may charge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The administrator or secretary maintains official records, including meeting minutes, applications, and disciplinary files, to support the Board\u2019s regulatory functions.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 100,
+    "question": "If an Arkansas auctioneer changes their business address, what is the BEST practice under Board rules?",
+    "options": [
+      "Notify the Board in writing within a reasonable time so records and correspondence remain accurate",
+      "Wait until the next license renewal to update the information",
+      "Only notify the Board if moving to another state",
+      "No notification is necessary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Licensees are expected to keep the Board informed of current contact information so they can receive notices, renewals, and any disciplinary communications.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following would most likely be considered \"unprofessional conduct\" by an Arkansas auctioneer?",
+    "options": [
+      "Refusing to auction an item the auctioneer believes is unsafe or illegal",
+      "Using clear and accurate descriptions in advertising",
+      "Knowingly accepting false bids to drive up the price of goods",
+      "Disclosing all terms and conditions of the sale at the start of the auction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Knowingly accepting \"false\" or shill bids to inflate prices is dishonest and would fall under unprofessional and deceptive practices subject to discipline.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 102,
+    "question": "Which of the following is TRUE about the Arkansas Auctioneer Education and Recovery Fund?",
+    "options": [
+      "It exists solely to pay Board member salaries",
+      "It can compensate members of the public who are damaged by licensee misconduct in certain circumstances",
+      "It is used only to pay for advertising state auctions",
+      "It is a private account maintained by each auctioneer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Fund may be used to pay certain claims by members of the public who have been harmed by licensee misconduct, as well as for education and other regulatory purposes.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 103,
+    "question": "Before a claim can be paid from the Arkansas Auctioneer Education and Recovery Fund, the injured party usually must:",
+    "options": [
+      "Show they complained on social media",
+      "Obtain a court judgment against the licensee and then apply to the Board under the statute\u2019s procedures",
+      "Get a notarized affidavit from the auctioneer admitting fault",
+      "Ask the local police department to pay the loss"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Recovery fund statutes typically require the claimant to obtain a court judgment against the licensee and then apply to the Board for payment under specified procedures.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 104,
+    "question": "Which type of conduct by an auctioneer would MOST LIKELY lead to a claim against the Auctioneer Education and Recovery Fund?",
+    "options": [
+      "Accidentally mispronouncing a bidder\u2019s name",
+      "Failing to start the auction exactly on time",
+      "Taking consigned goods and failing to remit proceeds, effectively converting the seller\u2019s funds",
+      "Using a different microphone than advertised"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Conversion or misappropriation of consigned goods or funds is a serious violation that can create financial loss to the public and support a claim to the Recovery Fund.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 105,
+    "question": "Under Arkansas law, which is the BEST definition of \"conversion\" in the context of an auctioneer\u2019s duties?",
+    "options": [
+      "Changing the date of the auction with the seller\u2019s consent",
+      "Using or keeping someone else\u2019s property or money in a way that is inconsistent with the owner\u2019s rights",
+      "Converting a live auction into an online auction",
+      "Converting an absolute auction to a reserve auction with proper notice"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conversion is the wrongful exercise of control over another\u2019s property, such as using or keeping funds or goods in a manner inconsistent with the owner\u2019s rights.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 106,
+    "question": "If an Arkansas auctioneer is convicted of a felony crime involving fraud, the Board may:",
+    "options": [
+      "Do nothing, because criminal matters are separate from licensing",
+      "Automatically promote the auctioneer to a higher license class",
+      "Suspend or revoke the auctioneer\u2019s license after notice and hearing",
+      "Expunge the conviction from the auctioneer\u2019s record"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A felony involving fraud or dishonesty is a serious ground for discipline. After notice and hearing, the Board may suspend or revoke the license.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 107,
+    "question": "Which of the following is TRUE regarding the Arkansas auctioneer licensing examination?",
+    "options": [
+      "An applicant may bring any reference materials they choose into the exam room",
+      "Cheating on the exam can itself be grounds for denial, suspension, or revocation of a license",
+      "The exam may only be taken one time in a person\u2019s life",
+      "The exam is optional if the applicant is at least 40 years old"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cheating or attempting to cheat on the licensing examination is itself dishonest and can be a ground for disciplinary action or denial of licensure.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 108,
+    "question": "Which of the following is the BEST example of an Arkansas auctioneer avoiding \"false, deceptive, or misleading advertising\"?",
+    "options": [
+      "Advertising a sale as \"absolute\" even though reserves are set on most lots",
+      "Stating that all items are new when some are used",
+      "Accurately describing the auction as \"with reserve\" and specifying any buyer\u2019s premium in the advertisement",
+      "Using the phrase \"going out of business\" when the seller will continue operations"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Accurate disclosure of sale type (with reserve) and any buyer\u2019s premium is truthful and non-misleading, while misusing terms like \"absolute\" or \"going out of business\" is deceptive.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 109,
+    "question": "Which practice would MOST LIKELY violate Arkansas deceptive trade practices laws in connection with auctions?",
+    "options": [
+      "Listing items as \"used\" where appropriate",
+      "Advertising a foreclosure sale ordered by the court",
+      "Advertising an \"estate\" auction, when in fact the seller is a retail store clearing excess stock",
+      "Disclosing that some items may have minimum bids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Labeling a regular retail liquidation as an \"estate\" sale misleads buyers and can be considered deceptive advertising under consumer protection laws.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 110,
+    "question": "Which term BEST describes a bid that is made by or on behalf of the seller in order to artificially raise the price?",
+    "options": [
+      "Shill bid",
+      "Absentee bid",
+      "Proxy bid",
+      "Increment bid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A shill bid is a bid made by or on behalf of the seller or auctioneer to inflate price, which is deceptive when not clearly disclosed and permitted.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 111,
+    "question": "Under the UCC and Arkansas auction practice, disclosed seller bidding:",
+    "options": [
+      "Is always illegal",
+      "Is allowed in a reserve auction if the right to bid is clearly disclosed in the terms and conditions",
+      "Is allowed only in bankruptcy sales",
+      "Is allowed only at online auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The UCC allows seller bidding in a with-reserve auction if the right to bid is clearly reserved and disclosed; undisclosed seller bidding can give the buyer special remedies.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 112,
+    "question": "When a seller reserves the right to reject any and all bids at an Arkansas auction, the sale is generally considered:",
+    "options": [
+      "An absolute auction",
+      "A with-reserve auction",
+      "A sale on approval",
+      "A foreclosure sale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When the seller reserves the right to reject bids that do not reach an acceptable level, the sale is with reserve.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 113,
+    "question": "Which of the following is TRUE about \"absolute\" auctions in Arkansas?",
+    "options": [
+      "The seller may freely withdraw items during bidding if the price is too low",
+      "The seller may bid to protect the price as long as they do not win",
+      "All property must be sold to the highest bona fide bidder without reserve and without seller bidding",
+      "The auctioneer may cancel the sale after the hammer falls"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An absolute auction requires sale to the highest bona fide bidder without reserve prices or seller bidding, except in very limited circumstances such as failure of required conditions.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 114,
+    "question": "Under Arkansas law, using the word \"absolute\" in any part of the advertising, brochures, or sign for an auction indicates that:",
+    "options": [
+      "Only a few items are absolute and the rest may be with reserve",
+      "The auctioneer may withdraw items at any time for any reason",
+      "The entire auction is absolute unless exceptions are clearly and conspicuously disclosed for specific lots",
+      "The auction is actually with reserve"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If \"absolute\" is used in advertising, the auction is presumed absolute as to all items unless specific exceptions are clearly and conspicuously stated.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 115,
+    "question": "Which of the following is the BEST way for an Arkansas auctioneer to avoid disputes regarding buyer\u2019s premiums and taxes?",
+    "options": [
+      "Mention the buyer\u2019s premium only after the auction is over",
+      "Assume bidders will read the fine print on their own",
+      "State the buyer\u2019s premium and any applicable sales tax clearly in all advertising and announce them again in the opening remarks",
+      "Only disclose fees on the final invoice"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Clear disclosure in advertising and opening remarks about all premiums and taxes helps avoid misunderstandings and potential disciplinary complaints.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 116,
+    "question": "In Arkansas, a \"buyer\u2019s premium\" is typically:",
+    "options": [
+      "A fee deducted from the seller\u2019s proceeds",
+      "A fee added to the hammer price and paid by the buyer as part of the total purchase price",
+      "A discount given to repeat buyers",
+      "A tax collected by the state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A buyer\u2019s premium is an additional amount, usually a percentage of the hammer price, added to the price the buyer pays; it must be clearly disclosed.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 117,
+    "question": "An Arkansas auctioneer conducts a sale with a 12 percent buyer\u2019s premium and 7 percent sales tax, both calculated on the hammer price plus the premium. The hammer price is $5,000. What is the total amount due from the buyer?",
+    "options": [
+      "$5,600.00",
+      "$5,800.00",
+      "$5,992.00",
+      "$6,420.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 12% of $5,000 = $600. Subtotal = $5,000 + $600 = $5,600. Sales tax = 7% of $5,600 = $392. Total due = $5,600 + $392 = $5,992.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 118,
+    "question": "A seller\u2019s contract in Arkansas provides that the auctioneer will charge a flat 20 percent commission on the gross sale price and that the seller will reimburse $1,200 in advertising expenses. The sale totals $40,000. What is the seller\u2019s net proceeds?",
+    "options": [
+      "$30,800",
+      "$31,200",
+      "$32,000",
+      "$32,800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Commission is 20% of $40,000 = $8,000. Total deductions: $8,000 + $1,200 advertising = $9,200. Net to seller: $40,000 \u2212 $9,200 = $30,800.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 119,
+    "question": "An auctioneer in Arkansas sells goods totaling $18,500. The contract calls for a 12 percent commission, a $500 set-up fee, and $750 advertising, all paid by the seller. What amount should the auctioneer remit to the seller?",
+    "options": [
+      "$14,780.00",
+      "$15,020.00",
+      "$15,030.00",
+      "$15,780.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commission = 12% of $18,500 = $2,220. Total fees = $2,220 (commission) + $500 (set-up) + $750 (advertising) = $3,470. Net to seller = $18,500 \u2212 $3,470 = $15,030.00.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 120,
+    "question": "In Arkansas, if the auctioneer serves as an agent for the seller, which of the following duties does the auctioneer owe the seller?",
+    "options": [
+      "Loyalty, disclosure of material facts, reasonable care, and accounting for funds and property",
+      "Loyalty only, no duty of accounting",
+      "Confidentiality only, no duty to disclose defects",
+      "No fiduciary duties apply to auctioneers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An auctioneer as the seller\u2019s agent owes fiduciary duties, including loyalty, disclosure of material facts, reasonable care, and proper accounting for funds and property.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 121,
+    "question": "Under the Arkansas study guide, \"agency\" in the auction context most nearly means:",
+    "options": [
+      "The relationship where the auctioneer acts on behalf of and under the authority of the seller",
+      "Any relationship between buyer and seller",
+      "The relationship between the state and the auctioneer",
+      "A business that sells real estate only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agency is the legal relationship in which one party (agent) acts on behalf of another (principal). In auctions, the auctioneer usually acts as agent for the seller.",
+    "topic": "Definitions and Terminology"
+  },
+  {
+    "id": 122,
+    "question": "An Arkansas auctioneer knows that a tractor has a serious mechanical defect but says nothing and advertises it as \"runs great.\" Which duty is most clearly breached?",
+    "options": [
+      "Duty of loyalty to the buyer",
+      "Duty of confidentiality to the seller",
+      "Duty of honesty and fair dealing to bidders and the public",
+      "Duty to charge the lowest possible commission"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Knowingly misrepresenting or concealing a serious defect violates the auctioneer\u2019s duty of honesty and fair dealing to bidders and the public, and may violate deceptive trade practices laws.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 123,
+    "question": "If an Arkansas auctioneer sells property that is subject to a perfected security interest (lien), what is the BEST practice before the auction?",
+    "options": [
+      "Ignore the lien, since it will disappear automatically",
+      "Clearly determine the status of the lien and either satisfy it, obtain lienholder consent, or disclose it so that clear title issues are addressed",
+      "Sell the property secretly to avoid the lienholder",
+      "Require the buyer to pay the lienholder directly without telling them why"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer should investigate liens and coordinate with lienholders to ensure that title passes properly and that lienholders\u2019 rights and buyer expectations are honored.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 124,
+    "question": "Under Arkansas law, which of the following BEST describes \"fixtures\"?",
+    "options": [
+      "Property that is always considered personal property",
+      "Items that start as personal property but become attached to real estate in such a way that they are ordinarily considered part of the realty",
+      "Only items that cost over $5,000",
+      "Intangible property such as trademarks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fixtures are items that were once personal property but have become attached to real estate in a manner that makes them part of the real property, such as built-in cabinets or ceiling fans.",
+    "topic": "Legal and Contracts"
+  },
+  {
+    "id": 125,
+    "question": "An Arkansas auctioneer is selling equipment from a business that is closing. Which document might be important if the sale qualifies as a \"bulk transfer\" under the UCC?",
+    "options": [
+      "A simple receipt with no details",
+      "A bulk sale notice to creditors and possibly a bulk transfer agreement",
+      "A letter promising future discounts",
+      "A deed of trust for real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bulk transfer rules often require notice to creditors and documentation so creditors are not defrauded by the transfer of most of a business\u2019s assets outside the ordinary course of business.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 126,
+    "question": "Which of the following items would most likely be considered \"goods\" under the Arkansas Auctioneers Licensing Act and UCC?",
+    "options": [
+      "A parcel of land with a house",
+      "A patent for an invention",
+      "A truck, farm tools, and office furniture",
+      "An easement for a driveway"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Goods under the UCC are generally tangible, moveable personal property like trucks, tools, and furniture, rather than real estate or intangible rights.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 127,
+    "question": "Which statement about \"title\" in an auction sale is most accurate under the UCC?",
+    "options": [
+      "Title always passes when the buyer pays in full, regardless of any other terms",
+      "Title to goods passes to the buyer at the time and place the seller completes their performance regarding physical delivery, unless otherwise agreed",
+      "Title never passes at auction",
+      "Title passes only when the buyer receives a notarized certificate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By default under UCC rules, title passes when the seller completes physical delivery obligations, unless the parties agree to a different arrangement.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 128,
+    "question": "In Arkansas, which records must an auctioneer typically retain for at least three years?",
+    "options": [
+      "All personal correspondence with friends",
+      "Written contracts with sellers, settlement sheets, and other key business records related to auctions",
+      "Only advertisements",
+      "Only bank statements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Board rules and best practices require auctioneers to keep written contracts, settlement statements, and related business records for a specified retention period, commonly three years.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 129,
+    "question": "Which of the following BEST describes a \"settlement statement\" in an Arkansas auction transaction?",
+    "options": [
+      "A document that lists only the auctioneer\u2019s commission",
+      "A document outlining the gross proceeds, itemized expenses, commissions, and net amount due to the seller",
+      "A document that lists only the buyer\u2019s name",
+      "A criminal complaint form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A settlement statement itemizes gross proceeds, expenses, commissions, and the net sum payable to the seller, providing a clear accounting of the transaction.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 130,
+    "question": "An Arkansas auctioneer sells a lot with a hammer price of $2,750. The contract states a 10 percent buyer\u2019s premium and 7.5 percent sales tax on the hammer price plus premium. What is the total due from the buyer?",
+    "options": [
+      "$3,032.50",
+      "$3,245.31",
+      "$3,251.88",
+      "$3,256.56"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 10% of $2,750 = $275. Subtotal before tax = $2,750 + $275 = $3,025. Sales tax = 7.5% of $3,025 = 0.075 \u00d7 3,025 = $226.875 (\u2248 $226.88). Total due \u2248 $3,025 + $226.88 = $3,251.88.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 131,
+    "question": "If a buyer at an Arkansas auction refuses to pay for items after being declared the high bidder, which remedy is commonly available to the seller or auctioneer under typical terms and conditions?",
+    "options": [
+      "Ignore the refusal and give the items away",
+      "Demand payment, resell the items at the buyer\u2019s risk, and hold the buyer liable for any deficiency plus costs",
+      "Send the buyer a thank-you card",
+      "Automatically revoke the license of the auctioneer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Standard auction terms usually allow the seller to resell the property at the defaulting bidder\u2019s risk and hold them liable for any deficiency and related costs.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 132,
+    "question": "In Arkansas, which of the following is a recommended component of the auctioneer\u2019s opening statement to bidders?",
+    "options": [
+      "A detailed description of the auctioneer\u2019s childhood",
+      "A clear explanation of bidding procedures, buyer\u2019s premium, sales tax, payment terms, and removal times",
+      "A guarantee that every item is perfect",
+      "A statement that the terms will be provided later if requested"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The opening statement should set expectations and explain essential terms so bidders understand procedures, fees, taxes, and how and when they must pay and remove items.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 133,
+    "question": "Under Arkansas law and common auction practice, which of the following BEST describes \"fair dealing\" by an auctioneer?",
+    "options": [
+      "Always getting the highest possible price, regardless of how it is done",
+      "Treating all bidders honestly and impartially, following the advertised and announced terms, and avoiding deceptive or misleading conduct",
+      "Giving special advantages to friends and family",
+      "Allowing undisclosed seller bidding to increase prices"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fair dealing includes honesty, impartial treatment of bidders, adherence to stated terms, and avoidance of deception or hidden practices that favor one party unfairly.",
+    "topic": "Ethics and Conduct"
+  },
+  {
+    "id": 134,
+    "question": "If an Arkansas auctioneer advertises a sale as \"with reserve\" but fails to mention that a buyer\u2019s premium will be charged, what is the most likely regulatory consequence?",
+    "options": [
+      "No consequence, because the sale is with reserve",
+      "This may be treated as a failure to disclose material terms and could be grounds for disciplinary action",
+      "The Board automatically cancels the auction",
+      "The buyer\u2019s premium becomes unenforceable and must be refunded by law in every case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Failing to disclose a buyer\u2019s premium in advertising is a listed ground for discipline and is considered a failure to disclose material terms of the auction.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 135,
+    "question": "Which Arkansas auctioneer action would MOST LIKELY be considered proper and professional?",
+    "options": [
+      "Depositing all sale proceeds directly into the auctioneer\u2019s personal checking account",
+      "Clearly labeling a trust account, depositing buyer funds there, and remitting net proceeds to the seller with an itemized settlement",
+      "Rounding up seller proceeds without explanation",
+      "Refusing to give the seller a written settlement statement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using a clearly designated trust account, properly accounting for funds, and giving a written settlement statement reflects compliance with escrow rules and professional conduct.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 136,
+    "question": "Under Arkansas law, which of the following BEST describes the responsibility of the auctioneer regarding the accuracy of advertising?",
+    "options": [
+      "Advertising is the seller\u2019s responsibility, so the auctioneer has no duty to review it",
+      "The auctioneer must ensure that advertising is not false, deceptive, or misleading and that required disclosures such as license number and buyer\u2019s premium are included",
+      "Only the newspaper is responsible for any errors in the advertisement",
+      "Advertising rules apply only to real estate auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Arkansas Auctioneers Licensing Act and Board rules prohibit false, deceptive, or misleading advertising and require certain disclosures (such as license number and buyer\u2019s premium). The auctioneer is responsible for ensuring compliance.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 137,
+    "question": "Which of the following is generally considered an appropriate term to include in the written auction contract between an Arkansas auctioneer and a seller?",
+    "options": [
+      "A provision granting the auctioneer the right to keep all proceeds regardless of the sale total",
+      "A clear description of the property to be sold, commission rate, fee structure, reserve status, and responsibility for expenses",
+      "A guarantee that the auction will achieve a specific minimum gross amount",
+      "A statement that the auctioneer may change the terms at any time without notice"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Best practices and Board expectations are that the written contract clearly describe the property, commission rate, fees, reserve or absolute status, and which party is responsible for expenses such as advertising.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 138,
+    "question": "If an Arkansas auctioneer knows that certain items are subject to a lien, which of the following is the BEST way to protect buyers and comply with legal obligations?",
+    "options": [
+      "Sell the items as if they are free and clear and hope the lienholder does not complain",
+      "Disclose nothing, because liens are always the seller\u2019s problem",
+      "Work with the seller and lienholder before the auction to make arrangements for satisfying or releasing the lien and disclose the lien status if it will affect the buyer\u2019s title",
+      "Refuse to sell any property that has ever had a lien"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer should investigate known liens and coordinate with the seller and lienholder to ensure that title will pass properly or that buyers are aware of any lien that will remain.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 139,
+    "question": "Which of the following situations would MOST LIKELY create a conflict of interest for an Arkansas auctioneer?",
+    "options": [
+      "Representing the seller as agent while treating all bidders fairly",
+      "Serving as agent for both buyer and seller without disclosing the dual agency or obtaining informed consent",
+      "Charging different commission rates for different kinds of auctions",
+      "Using a ringman to help spot bids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acting as agent for both buyer and seller without disclosure and consent creates an undisclosed dual agency, which is a serious conflict of interest and can be grounds for discipline.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 140,
+    "question": "Under the Arkansas study guide, which of the following BEST describes \"fiduciary duty\" in the auction context?",
+    "options": [
+      "A casual obligation with no legal consequences",
+      "A duty of utmost good faith, loyalty, disclosure, and accounting owed by the auctioneer to the seller when acting as the seller\u2019s agent",
+      "A duty owed only to bidders, not to sellers",
+      "A duty that applies only in real estate transactions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When the auctioneer acts as the seller\u2019s agent, they owe the seller fiduciary duties of loyalty, good faith, disclosure of material facts, and accurate accounting for funds and property.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 141,
+    "question": "Which of the following BEST describes the purpose of keeping orderly records and files for at least three years in Arkansas auction practice?",
+    "options": [
+      "To assist the auctioneer with collecting frequent flyer miles",
+      "To satisfy Board rules, facilitate audits or investigations, and provide transparency to clients regarding settlements and contracts",
+      "To replace written contracts",
+      "To avoid paying taxes on auction income"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maintaining organized records and retaining them for the prescribed period supports Board oversight, helps resolve disputes, and provides clear evidence of settlements and contractual terms.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 142,
+    "question": "If the Arkansas Auctioneers Licensing Board issues a subpoena for records during an investigation, the auctioneer is required to:",
+    "options": [
+      "Ignore it because Board subpoenas are optional",
+      "Comply by producing the requested records or appearing as directed, unless excused by law",
+      "Only provide records if the seller consents",
+      "Respond only through social media"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board has statutory authority to issue subpoenas in connection with investigations and hearings. Licensees must comply unless legally excused, or they risk disciplinary action.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 143,
+    "question": "Which of the following scenarios illustrates \"bid rigging\" or collusion among bidders at an auction?",
+    "options": [
+      "Bidders independently decide how much they are willing to pay",
+      "Several bidders agree before the sale that only one of them will bid on each item and they will later share the items or profits",
+      "An absentee bidder leaves a maximum bid with the auctioneer",
+      "A bidder changes their mind and retracts a bid before the hammer falls"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bid rigging occurs when bidders conspire to suppress competition, such as by agreeing in advance who will bid on which items, which undermines a fair and competitive auction.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 144,
+    "question": "Under Arkansas law and standard auction practice, which statement about \"absentee bids\" is most accurate?",
+    "options": [
+      "Absentee bids are illegal in Arkansas",
+      "Absentee bids allow bidders who cannot attend the auction to leave written or electronic instructions for the auctioneer to bid on their behalf up to a stated maximum",
+      "Absentee bids must always be accepted over floor bids",
+      "Absentee bids are treated as shill bids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Absentee bids are a legitimate method for buyers who cannot be present to participate by authorizing the auctioneer to bid up to a maximum specified amount on their behalf.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 145,
+    "question": "Which of the following is the BEST way for an Arkansas auctioneer to avoid disputes about absentee bids?",
+    "options": [
+      "Keep all absentee bid instructions secret from staff",
+      "Clearly document the absentee bidder\u2019s maximum bid, apply it exactly as agreed, and record the final sale price and whether the absentee bidder was successful",
+      "Always bid the absentee\u2019s maximum regardless of other bids",
+      "Refuse to accept any absentee bids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Proper documentation and faithful execution of absentee instructions, along with clear records, help prevent disputes and demonstrate that bids were handled fairly.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 146,
+    "question": "Which of the following BEST describes \"proxy bidding\" in an auction?",
+    "options": [
+      "A type of illegal shill bidding",
+      "A situation where the auctioneer bids at will without instruction",
+      "A method where a bidder authorizes another person or the auctioneer to bid on their behalf under specified limits",
+      "A bid that cannot be withdrawn under any circumstances"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proxy bidding occurs when a bidder authorizes another person or the auctioneer to place bids for them within specified parameters, similar to absentee bidding.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 147,
+    "question": "In Arkansas, if an auctioneer advertises a sale as \"going out of business\" when the seller has no intention of permanently closing, this would most likely be considered:",
+    "options": [
+      "Standard sales language",
+      "A permissible exaggeration",
+      "A deceptive trade practice",
+      "A required description for all business liquidations"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Advertising a sale as \"going out of business\" when it is not is a deceptive trade practice because it misleads the public about the nature and urgency of the sale.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 148,
+    "question": "Under typical Arkansas auction terms, when does risk of loss for goods usually pass from seller to buyer?",
+    "options": [
+      "When the advertisement is first published",
+      "When the hammer falls and the sale is announced, or as otherwise specified in the terms and conditions",
+      "Only when the buyer removes the goods from the premises",
+      "When the auctioneer deposits the proceeds into escrow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under UCC principles and standard terms, risk of loss normally passes to the buyer at the time the buyer takes title, often at the fall of the hammer unless the contract specifies differently.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 149,
+    "question": "Which of the following is the BEST example of an Arkansas auctioneer exercising reasonable care in handling consigned goods?",
+    "options": [
+      "Leaving equipment outside and unlocked overnight",
+      "Storing consigned property safely, taking reasonable steps to prevent damage or theft, and documenting its condition at intake",
+      "Allowing anyone to handle items without supervision",
+      "Relying solely on the seller\u2019s memory of what was consigned"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reasonable care includes secure storage, preventive measures against damage or theft, and documentation of condition so disputes about damage or missing items can be resolved.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 150,
+    "question": "If a dispute arises over which bidder made the final bid on a lot, most auction terms in Arkansas provide that:",
+    "options": [
+      "The bidders must negotiate between themselves",
+      "The auctioneer\u2019s decision is final, including the right to reopen bidding or determine the successful bidder",
+      "The highest numbered bidder card automatically wins",
+      "The lot must be withdrawn and never resold"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Standard auction terms give the auctioneer discretion to resolve bidding disputes, including reopening the bidding or designating which bidder was recognized as high bidder.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 151,
+    "question": "Which of the following scenarios BEST demonstrates an Arkansas auctioneer complying with disclosure requirements for a buyer\u2019s premium?",
+    "options": [
+      "Charging a buyer\u2019s premium but only mentioning it if a bidder asks",
+      "Listing the buyer\u2019s premium clearly in all advertising, on the bid cards or catalog, and in the opening announcements",
+      "Adding a buyer\u2019s premium after the auction is over",
+      "Disclosing the premium only on the invoice sent the next day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "To avoid deceptive practices and meet Board expectations, the buyer\u2019s premium should be disclosed in advertising, printed materials, and oral announcements.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 152,
+    "question": "An Arkansas auction includes a 10 percent buyer\u2019s premium and 9 percent sales tax, both calculated on the hammer price plus premium. If the hammer price is $1,500, what is the total amount due from the buyer?",
+    "options": [
+      "$1,650.00",
+      "$1,740.00",
+      "$1,798.50",
+      "$1,815.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 10% of $1,500 = $150, subtotal $1,650. Sales tax = 9% of $1,650 = $148.50. Total = $1,650 + $148.50 = $1,798.50.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 153,
+    "question": "At an Arkansas auction, there is no buyer\u2019s premium, but 7.25 percent sales tax is charged on the hammer price. If the hammer price is $8,750, what is the total amount due from the buyer? (Round to the nearest cent.)",
+    "options": [
+      "$9,274.50",
+      "$9,384.38",
+      "$9,412.75",
+      "$9,650.00"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sales tax = 7.25% of $8,750 = 0.0725 \u00d7 8,750 = $634.38. Total due = $8,750 + $634.38 = $9,384.38.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 154,
+    "question": "An Arkansas auctioneer sells personal property for a total of $96,400. The contract provides for an 8 percent commission to the auctioneer, $3,600 in advertising, and a flat $1,200 ring help fee, all paid by the seller. What net amount should the auctioneer remit to the seller?",
+    "options": [
+      "$81,600.00",
+      "$83,888.00",
+      "$84,800.00",
+      "$87,600.00"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commission = 8% of $96,400 = $7,712. Total deductions = $7,712 + $3,600 + $1,200 = $12,512. Net to seller = $96,400 \u2212 $12,512 = $83,888.00.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 155,
+    "question": "A seller in Arkansas agrees to a tiered commission schedule: 15 percent on the first $10,000 of gross sales and 10 percent on any amount above $10,000. Advertising costs of $2,950 will also be deducted. If the total sale is $52,750, what net amount should the auctioneer remit to the seller?",
+    "options": [
+      "$40,775.00",
+      "$42,025.00",
+      "$44,025.00",
+      "$45,800.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commission = 15% of $10,000 ($1,500) + 10% of $42,750 ($4,275) = $5,775. Total deductions = $5,775 + $2,950 = $8,725. Net to seller = $52,750 \u2212 $8,725 = $44,025.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 156,
+    "question": "An Arkansas auctioneer sells three lots of equipment for hammer prices of $2,100, $3,400, and $5,600. The contract provides for a 12 percent commission, $1,350 advertising, and a $250 clerk fee. What is the seller\u2019s net proceeds?",
+    "options": [
+      "$7,968.00",
+      "$8,068.00",
+      "$8,168.00",
+      "$8,368.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Total sale = $2,100 + $3,400 + $5,600 = $11,100. Commission = 12% of $11,100 = $1,332. Total deductions = $1,332 + $1,350 + $250 = $2,932. Net to seller = $11,100 \u2212 $2,932 = $8,168.00.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 157,
+    "question": "A buyer at an Arkansas auction pays a hammer price of $4,250 with a 10 percent buyer\u2019s premium. No sales tax applies. What total amount does the buyer pay?",
+    "options": [
+      "$4,250.00",
+      "$4,425.00",
+      "$4,675.00",
+      "$4,750.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 10% of $4,250 = $425. Total due = $4,250 + $425 = $4,675.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 158,
+    "question": "An Arkansas auctioneer sells a vehicle at auction. The buyer pays $9,000 hammer price, plus a 5 percent buyer\u2019s premium, and 8 percent sales tax on the hammer price plus premium. What total amount does the buyer owe?",
+    "options": [
+      "$9,450.00",
+      "$9,720.00",
+      "$10,206.00",
+      "$10,314.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 5% of $9,000 = $450, subtotal $9,450. Sales tax = 8% of $9,450 = $756. Total due = $9,450 + $756 = $10,206.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 159,
+    "question": "Under Arkansas auction practice, which of the following is the PRIMARY purpose of clearly announcing payment terms before bidding begins?",
+    "options": [
+      "To reduce the number of bidders",
+      "To ensure that bidders understand when and how they must pay, reducing disputes and nonpayment after the sale",
+      "To guarantee that all bids will be paid in cash only",
+      "To comply with federal securities laws"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Announcing payment terms up front gives bidders clear expectations regarding when and how to pay, which reduces misunderstandings and post\u2011auction disputes.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 160,
+    "question": "If an Arkansas auction contract states that the sale is \"as is, where is,\" this typically means that:",
+    "options": [
+      "The auctioneer guarantees the property to be free from all defects",
+      "The buyer accepts the property in its present condition and location, without warranties, and is responsible for removal and inspection",
+      "The seller will repair any defects discovered after the sale",
+      "The property cannot be sold if it has any defect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\u201cAs is, where is\u201d means the buyer accepts the property in its existing condition and location with no warranties, apart from any specific representations made.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 161,
+    "question": "Which of the following practices by an Arkansas auctioneer BEST demonstrates compliance with duties regarding escrow funds?",
+    "options": [
+      "Loaning trust account funds to a friend if the money will be repaid quickly",
+      "Using the trust account as the auctioneer\u2019s primary operating account",
+      "Maintaining a separate, clearly labeled trust account and depositing buyer payments there until settlement with the seller",
+      "Withdrawing seller proceeds before checks have cleared to cover personal expenses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Escrow or trust accounts must be kept separate from operating and personal funds, and used to hold money belonging to others until settlement.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 162,
+    "question": "Under Arkansas law, which of the following could be grounds for the Board to SUSPEND or REVOKE an auctioneer\u2019s license?",
+    "options": [
+      "Conducting a well\u2011advertised auction that achieves low prices",
+      "Obtaining a license by false or fraudulent representation",
+      "Accidentally mispronouncing a bidder\u2019s name",
+      "Having a sale postponed due to bad weather"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Obtaining a license through fraud or false representation is a specific statutory ground for suspension or revocation of a license.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 163,
+    "question": "Which of the following is TRUE regarding complaints filed with the Arkansas Auctioneers Licensing Board?",
+    "options": [
+      "Complaints must be ignored if the auctioneer denies them",
+      "The Board may investigate complaints, request records, hold hearings, and impose discipline if a violation is proven",
+      "Complaints are handled only by local police departments",
+      "The Board is required to revoke a license whenever a complaint is filed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Upon receiving a complaint, the Board can investigate, request relevant records, conduct hearings, and impose sanctions if it finds that a violation of law or Board rules occurred.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 164,
+    "question": "An Arkansas auctioneer consistently fails to remit proceeds to sellers on time, even though funds have cleared the bank. This conduct is most likely to be viewed as:",
+    "options": [
+      "Permissible business practice",
+      "A minor bookkeeping error with no consequences",
+      "Improper handling of trust funds and grounds for discipline",
+      "A tax strategy recommended by the state"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Failure to promptly remit funds that belong to others can constitute misuse of trust funds and a serious violation of fiduciary obligations and Board rules.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 165,
+    "question": "Under Arkansas auction practice, which of the following BEST describes \"settlement\"?",
+    "options": [
+      "The process of greeting bidders as they arrive",
+      "The final accounting between auctioneer and seller, including gross proceeds, expenses, commissions, and net amount due",
+      "The time when the auctioneer orders lunch",
+      "The negotiation of advertising rates with a newspaper"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Settlement is the process and documentation by which the auctioneer accounts to the seller for the auction, listing gross proceeds, itemized expenses, commissions, and the net amount due.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 166,
+    "question": "When preparing a settlement statement in Arkansas, the auctioneer should:",
+    "options": [
+      "Provide only the net amount without listing deductions",
+      "Itemize gross receipts, each category of expense, the commission, and the final net to the seller",
+      "List only the advertising cost",
+      "Give the seller an oral summary instead of any written record"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A proper settlement statement itemizes gross sales, each expense category, the commission, and the net amount due, providing transparency and a clear record for both parties.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 167,
+    "question": "Under Arkansas law, which of the following statements about nonresident auctioneer licenses is TRUE?",
+    "options": [
+      "Nonresident auctioneers may never be licensed in Arkansas",
+      "Nonresident auctioneers from states with comparable licensing standards may obtain Arkansas licenses by reciprocity, subject to Board approval",
+      "All nonresident auctioneers must pass the Arkansas exam regardless of their home state licensing",
+      "Nonresident licenses are valid only for livestock auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arkansas allows reciprocity for nonresident auctioneers from states with comparable licensing standards, so that they may be licensed without repeating the full exam process, subject to Board approval.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 168,
+    "question": "If a nonresident auctioneer\u2019s home state requires Arkansas auctioneers to associate with a local licensee before conducting an auction there, Arkansas will:",
+    "options": [
+      "Ignore that requirement",
+      "Automatically deny all licenses from that state",
+      "Impose the same association requirement on nonresident auctioneers from that state",
+      "Allow unrestricted practice in Arkansas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Reciprocity provisions in Arkansas mirror the requirements of the nonresident\u2019s home state; if that state requires association with a local licensee, Arkansas will require the same.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 169,
+    "question": "Under Arkansas law, what is the usual term length for members of the Arkansas Auctioneers Licensing Board?",
+    "options": [
+      "Two years",
+      "Four years with staggered terms",
+      "Six months",
+      "Lifetime appointments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Board members are typically appointed to four\u2011year terms with staggered expiration dates so that not all members rotate off at once, promoting continuity.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 170,
+    "question": "Which of the following BEST describes the composition requirement for the Arkansas Auctioneers Licensing Board?",
+    "options": [
+      "All members must be licensed auctioneers",
+      "At least four members must be licensed auctioneers and three must be public members with no substantial connection to the auction business",
+      "All members must be attorneys",
+      "All members must be from the same county"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute provides for a seven\u2011member Board, with four licensed auctioneers and three public members who are not directly connected with the auction industry, to represent both the profession and the public.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 171,
+    "question": "The Arkansas Auctioneers Licensing Board is primarily funded by:",
+    "options": [
+      "Donations from private companies only",
+      "License fees, renewal fees, and designated fund fees such as the Education and Recovery Fund fee",
+      "Federal grants only",
+      "Mandatory contributions from bidders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Like most regulatory boards, the Arkansas Auctioneers Licensing Board is funded largely by licensing and renewal fees, including designated additional fees for the Education and Recovery Fund.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 172,
+    "question": "Which of the following BEST states the purpose of the Arkansas Auctioneer Education and Recovery Fund?",
+    "options": [
+      "To finance private advertising for auctioneers",
+      "To provide a source of compensation for members of the public who suffer certain losses due to licensee misconduct and to support educational activities",
+      "To guarantee a profit for every auctioneer",
+      "To pay all legal fees for auctioneers in civil lawsuits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Fund is designed both to support auctioneer education and to compensate eligible members of the public who suffer financial loss as a result of licensee misconduct, within statutory limits.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 173,
+    "question": "If a claim is paid out of the Arkansas Auctioneer Education and Recovery Fund on behalf of a licensee, the Board may:",
+    "options": [
+      "Ignore the payment and take no further action",
+      "Seek reimbursement from the licensee and suspend or revoke the license until repayment conditions are met",
+      "Award a bonus to the licensee",
+      "Require bidders to repay the Fund"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When the Fund pays a claim, the Board typically has the right to seek reimbursement from the licensee and may suspend or revoke the license until repayment obligations are satisfied.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 174,
+    "question": "Under Arkansas law, which of the following is TRUE concerning the renewal date for auctioneer licenses?",
+    "options": [
+      "Licenses renew on the anniversary of the original issue date",
+      "Licenses expire on June 30 each year unless renewed",
+      "Licenses never expire once issued",
+      "Licenses must be renewed every five years"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arkansas auctioneer licenses expire on June 30 each year; licensees must renew annually by that date or within the grace period, subject to any late penalties.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 175,
+    "question": "With respect to continuing education, what is the general requirement for most Arkansas auctioneers in order to renew their license?",
+    "options": [
+      "No continuing education is required",
+      "Three hours every two years",
+      "Six hours of Board\u2011approved continuing education each year",
+      "Twenty\u2011four hours every year"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Most Arkansas auctioneers must complete six hours of approved continuing education in the preceding twelve months as a condition of license renewal, unless exempt under the statute.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 176,
+    "question": "Which auctioneer is EXEMPT from Arkansas\u2019s annual continuing education requirement?",
+    "options": [
+      "Any auctioneer who held a license for at least one year",
+      "An auctioneer licensed for 10 consecutive years or more and who is at least 55 years of age",
+      "Any auctioneer who conducts only one auction per year",
+      "Any out\u2011of\u2011state auctioneer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute provides an exemption for persons who have been licensed as an auctioneer or auction house owner for 10 consecutive years or more and are at least 55 years old.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 177,
+    "question": "Which of the following BEST describes a \"consignment auction house\" under Arkansas law?",
+    "options": [
+      "Any business that sells its own used furniture",
+      "A business that, for a fee, takes goods from various owners and sells them at auction on their behalf",
+      "Only livestock barns",
+      "A retail store that never holds auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A consignment auction house receives goods from various owners (consignors) and sells them at auction for a fee, usually retaining a commission or other charges from the sale proceeds.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 178,
+    "question": "Which statement about \"chattel\" mortgages or security interests in personal property is most relevant to Arkansas auction practice?",
+    "options": [
+      "They have no impact on auction sales",
+      "They may give a secured creditor rights in the property that can survive an auction sale unless satisfied or released",
+      "They automatically disappear when an item is consigned to auction",
+      "They apply only to real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Security interests (like chattel mortgages) may remain attached to the property even after an auction, so the auctioneer must be mindful of lienholder rights and coordinate to ensure clear title or proper disclosure.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 179,
+    "question": "Under Arkansas law, which of the following BEST describes who must hold a license to conduct auctions for a fee?",
+    "options": [
+      "Only auction companies, not individual bid callers",
+      "Any individual who, for a fee or commission, sells or offers to sell property at public auction in Arkansas, unless specifically exempt by statute",
+      "Only auctioneers who sell real estate",
+      "Only nonresident auctioneers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Arkansas Auctioneers Licensing Act requires any person who conducts auctions for compensation to hold a license unless a specific statutory exemption applies, such as some governmental or court-ordered sales.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 180,
+    "question": "Which of the following is generally REQUIRED for an initial Arkansas auctioneer license applicant?",
+    "options": [
+      "Proof of Arkansas residency for at least 10 years",
+      "Completion of an approved auction school, passing the licensing examination, and submitting a complete application with required fees",
+      "Proof of owning an auction barn",
+      "Sponsorship by three licensed attorneys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The study guide explains that applicants must typically complete an approved auction school, pass the exam, and submit a full application with fees and any supporting documentation the Board requires.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 181,
+    "question": "Which of the following will MOST LIKELY disqualify an applicant from receiving an Arkansas auctioneer license, at least until reviewed by the Board?",
+    "options": [
+      "Having no prior auction experience",
+      "A recent felony conviction involving fraud or moral turpitude",
+      "Living in a neighboring state",
+      "Being under 30 years of age"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A felony conviction involving fraud or moral turpitude is a serious issue; the Board may deny or condition licensure based on an applicant\u2019s criminal history and overall fitness.",
+    "topic": "Ethics and Conduct"
+  },
+  {
+    "id": 182,
+    "question": "Under Arkansas law, an \"apprentice auctioneer\" is BEST described as:",
+    "options": [
+      "A fully licensed auctioneer with no restrictions",
+      "A person who is learning the auction business and is licensed to work under the supervision of a sponsoring auctioneer",
+      "A volunteer who calls bids for charity events without compensation",
+      "A clerk or cashier who never calls bids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apprentice auctioneers are licensed individuals who must work under the sponsorship and supervision of a fully licensed auctioneer until they meet requirements for a full license.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 183,
+    "question": "Which of the following is generally TRUE about apprentice auctioneers in Arkansas?",
+    "options": [
+      "They may independently conduct auctions without supervision",
+      "They must be sponsored by and work under the supervision of a licensed auctioneer and must not misrepresent themselves as fully licensed auctioneers",
+      "They are exempt from all Board rules",
+      "They are not required to display their license at auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apprentice auctioneers must have a sponsoring auctioneer, work under supervision, and comply with all Board rules, making their status clear to the public.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 184,
+    "question": "Which of the following statements about Arkansas auction house or firm licenses is MOST accurate?",
+    "options": [
+      "Only individuals are licensed; firms never need a license",
+      "Auction houses or firms that conduct auctions in Arkansas may be required to hold a license in addition to the individual auctioneers who work for them",
+      "Firms may operate without any licensed individuals",
+      "Firm licenses automatically transfer to any new owners without Board approval"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arkansas law provides for licensing of auctioneers and, in some cases, auction firms or auction houses that conduct auctions; both the firm and individual auctioneers may have licensing obligations.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 185,
+    "question": "Which of the following BEST describes the requirement to DISPLAY an Arkansas auctioneer license?",
+    "options": [
+      "No display is required if the auctioneer has a copy at home",
+      "The license should be displayed prominently at the place of business and, when practical, made available at auction locations so the public can see that the auctioneer is licensed",
+      "Licenses may only be displayed to sellers, not bidders",
+      "Licenses must never be shown to anyone to protect privacy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Board rules and best practices call for the auctioneer\u2019s license to be displayed where the public can see it, such as at the primary place of business and at auctions when feasible.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 186,
+    "question": "Which of the following is TRUE regarding license renewal for Arkansas auctioneers?",
+    "options": [
+      "Renewal is automatic and requires no action by the licensee",
+      "Licensees must submit renewal forms, pay the appropriate fee, and satisfy any continuing education requirements by the renewal deadline",
+      "Licenses are valid for life and never need renewal",
+      "Renewals are handled only by federal agencies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arkansas auctioneers must renew their licenses annually by the stated deadline, paying required fees and completing required continuing education.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 187,
+    "question": "If an Arkansas auctioneer fails to renew their license by the expiration date but within the approved late period, what is generally required?",
+    "options": [
+      "Nothing, because the license automatically renews",
+      "Payment of the regular renewal fee plus any applicable late fee as set by the Board",
+      "Re-taking the auctioneer licensing exam",
+      "Obtaining a new apprentice license"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The study guide explains that late renewal is usually allowed for a defined period, but the licensee must pay the renewal fee and an additional late fee. If the grace period passes, the license may lapse and require reapplication.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 188,
+    "question": "Which of the following BEST describes an Arkansas auctioneer\u2019s obligation regarding CHANGE OF ADDRESS or change of sponsoring auctioneer?",
+    "options": [
+      "There is no need to notify the Board",
+      "The auctioneer must notify the Board within a reasonable time and submit any required forms so that records remain accurate",
+      "The auctioneer may wait until the next renewal cycle to report the change",
+      "Only apprentice auctioneers must report address changes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board expects licensees to report changes such as address or sponsor so that licensure records and correspondence remain accurate and current.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 189,
+    "question": "An Arkansas auctioneer is approached to call bids at a charity event with no payment or fee. Which statement is MOST accurate about the licensing requirement?",
+    "options": [
+      "Because no fee or commission is paid, a person calling a one-time charity auction generally may not need a license, depending on the specific statutory exemption",
+      "All charity events require a fully licensed auctioneer regardless of compensation",
+      "Only apprentice auctioneers may call charity auctions",
+      "Charity auctions are illegal in Arkansas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Arkansas law includes certain exemptions, such as some one-time charitable or benevolent auctions where no fee is paid, though details depend on statutory language. The key factor is whether the person is engaging in the business for compensation.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 190,
+    "question": "Which of the following is generally considered an EXEMPTION from auctioneer licensing under Arkansas law?",
+    "options": [
+      "An individual conducting frequent auctions for neighbors for a fee",
+      "Court-appointed officials or government officers conducting sales as part of their official duties",
+      "Any person selling goods at a yard sale",
+      "Any person who calls bids at an auction house"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statute typically exempts court officers, sheriffs, trustees, and other officials who conduct sales under court order or as part of their governmental duties from auctioneer licensing requirements.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 191,
+    "question": "Which of the following is TRUE about disciplinary HEARINGS before the Arkansas Auctioneers Licensing Board?",
+    "options": [
+      "The Board may discipline licensees without providing notice or an opportunity to be heard",
+      "Licensees are entitled to notice of the charges and an opportunity for a hearing before discipline such as suspension or revocation is imposed",
+      "Hearings are optional for serious violations",
+      "Only criminal courts may discipline auctioneers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Due process requires notice and an opportunity to be heard before a license is suspended or revoked. The Board conducts hearings under the state administrative procedures.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 192,
+    "question": "If an Arkansas auctioneer disagrees with a final disciplinary decision of the Board, they may usually:",
+    "options": [
+      "Ignore the order with no consequence",
+      "Appeal the decision to the appropriate court within the time allowed by law",
+      "Have another Board re-hear the case automatically",
+      "Ask bidders to vote on the outcome"
+    ],
+    "correctAnswer": 1,
+    "explanation": "State law typically allows appeals of final agency decisions to the appropriate circuit court within specified time limits under administrative procedure statutes.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 193,
+    "question": "Which of the following actions by an Arkansas auctioneer is MOST LIKELY to be considered false or misleading advertising?",
+    "options": [
+      "Using clear photographs of actual sale items",
+      "Accurately listing the terms \"with reserve\" and buyer\u2019s premium",
+      "Advertising an \"absolute\" auction while secretly allowing the seller to reject bids below a certain price",
+      "Listing the sale as \"public auction\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "Calling an auction \"absolute\" while actually reserving the seller\u2019s right to reject bids is deceptive and violates both auction law and consumer protection standards.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 194,
+    "question": "In Arkansas, which of the following MUST typically appear in an auction advertisement that is placed by a licensed auctioneer or firm?",
+    "options": [
+      "The auctioneer\u2019s complete home address",
+      "The auctioneer\u2019s license number as issued by the Board",
+      "The seller\u2019s social security number",
+      "The auctioneer\u2019s birth date"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Many state rules, including Arkansas, require the licensed auctioneer\u2019s or firm\u2019s license number to appear in advertisements so the public can verify licensure.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 195,
+    "question": "Which of the following statements about \"reserve\" and \"absolute\" auctions is TRUE under Arkansas practice and the UCC?",
+    "options": [
+      "All auctions are absolute unless stated otherwise",
+      "In a reserve auction, the seller may withdraw items before the hammer falls; in an absolute auction, the property must be sold to the highest bona fide bidder without reserve",
+      "Seller bidding is always allowed and never needs to be disclosed",
+      "The terms \"reserve\" and \"absolute\" may be used interchangeably"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reserve auctions allow the seller to reject bids and withdraw items; absolute auctions require sale to the highest bona fide bidder without reserve or undisclosed seller bidding.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 196,
+    "question": "Which of the following is the BEST description of \"auction with reserve\" under Arkansas law?",
+    "options": [
+      "The auctioneer must accept the first bid received",
+      "The seller reserves the right not to sell if bids do not reach an acceptable level and may withdraw goods before the hammer falls",
+      "The sale is limited only to reserved seats",
+      "The auction is reserved for charity organizations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a reserve auction, the seller retains the right to reject bids that do not meet a satisfactory level and to withdraw goods prior to completion of the sale.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 197,
+    "question": "Which of the following BEST describes the role of \"ringmen\" or bid assistants at Arkansas auctions?",
+    "options": [
+      "They set the reserve price",
+      "They help spot and relay bids to the auctioneer, encourage bidding, and assist with crowd control under the auctioneer\u2019s direction",
+      "They handle legal appeals",
+      "They replace the auctioneer when calling bids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ringmen or bid assistants are part of the auction team; they help identify bidders, relay bids to the auctioneer, and maintain energy and order in the crowd.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 198,
+    "question": "During an Arkansas auction, a ringman falsely claims that another bidder has bid when they have not. This conduct is BEST described as:",
+    "options": [
+      "Acceptable auction strategy",
+      "Shill bidding or bid puffing, which is deceptive and prohibited",
+      "Normal absentee bidding",
+      "Bulk transfer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Falsely representing that another bidder has bid when no such bid exists is deceptive shill bidding or bid puffing and is prohibited as unprofessional conduct.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 199,
+    "question": "Under Arkansas practice, a \"memorandum of sale\" at an auction is BEST described as:",
+    "options": [
+      "A document that records key terms of the sale, such as buyer and seller identities, property description, price, and signatures, to satisfy statute of frauds requirements for certain transactions",
+      "A flyer advertising the sale",
+      "An informal note that carries no legal weight",
+      "A government tax form"
+    ],
+    "correctAnswer": 0,
+    "explanation": "For some transactions, especially involving real estate or significant goods, a written memorandum of sale helps satisfy statute of frauds requirements and evidences the contract terms.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 200,
+    "question": "Which of the following BEST describes the statute of frauds as it relates to Arkansas auction sales of goods?",
+    "options": [
+      "All oral contracts are invalid",
+      "For sales of goods over a certain dollar amount, a writing signed by the party to be charged is generally required to enforce the contract",
+      "Only handwritten contracts are legal",
+      "It applies only to real property transfers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under the UCC, a statute of frauds provision requires a signed writing for contracts for the sale of goods over a specified amount, with some exceptions; auction memoranda help satisfy this requirement.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 201,
+    "question": "An Arkansas auctioneer lists terms that all sales are \"as is\" and bidders must inspect before bidding. What is the primary legal effect of this term?",
+    "options": [
+      "It eliminates all possible liability for fraud",
+      "It disclaims certain warranties and places responsibility for inspection on the buyer, although the auctioneer may still be liable for intentional misrepresentation",
+      "It makes the auction absolute",
+      "It prevents buyers from ever filing complaints with the Board"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An \"as is\" term shifts the burden of inspection to the buyer and disclaims many implied warranties, but it does not protect against deliberate fraud or misrepresentation.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 202,
+    "question": "An Arkansas auctioneer sells farm equipment that still has an unpaid security interest. After the sale, the buyer discovers the lien and demands clear title. What is the BEST practice the auctioneer should have followed?",
+    "options": [
+      "Ignore all liens",
+      "Confirm lien status with the seller and lienholder before the sale, arrange for payoff or release from sale proceeds, or disclose that the property will be sold subject to the lien",
+      "Tell the buyer to sue the lienholder",
+      "Hide the lien information to avoid scaring bidders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer should investigate liens and coordinate with lienholders before the auction so that title issues are handled properly and buyers are not misled.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 203,
+    "question": "Which of the following is TRUE regarding Arkansas auctioneers and federal or state anti-money laundering concerns?",
+    "options": [
+      "Auctioneers never need to worry about suspicious payments",
+      "Auctioneers should be alert for unusual cash transactions, structured payments, or suspicious behavior and follow any applicable reporting requirements or company policies",
+      "Only banks must be concerned with such issues",
+      "Cash payments are always illegal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "While financial institutions bear the primary AML responsibilities, auctioneers handling large or unusual payments must be alert to suspicious activity and follow applicable reporting laws and internal policies.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 204,
+    "question": "Which of the following BEST illustrates an Arkansas auctioneer\u2019s duty of honesty to bidders?",
+    "options": [
+      "Emphasizing only positive features and hiding all defects",
+      "Clearly disclosing known material defects and not overstating the quality or provenance of items",
+      "Promising that every item will increase in value",
+      "Guaranteeing that all bidders will make a profit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The duty of honesty requires the auctioneer to avoid misrepresentation and to disclose known material defects or important facts that would affect a reasonable bidder\u2019s decision.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 205,
+    "question": "Which of the following statements about sales tax at Arkansas auctions is MOST accurate?",
+    "options": [
+      "Sales tax never applies at auctions",
+      "Sales tax rules may apply depending on the type of property and buyer, and the auctioneer is often responsible for collecting and remitting the tax when required",
+      "Only buyers are responsible for remitting sales tax; auctioneers are never involved",
+      "Sales tax applies only to real estate auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auctions are generally subject to normal sales tax rules; auctioneers may be required to collect tax and remit it to the state, depending on the items sold and the nature of the sale.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 206,
+    "question": "An Arkansas auction includes a 12 percent buyer\u2019s premium and 8.25 percent sales tax, both calculated on the hammer price plus premium. The hammer price is $2,950. What is the total amount due from the buyer? (Round to the nearest cent.)",
+    "options": [
+      "$3,295.40",
+      "$3,453.25",
+      "$3,576.58",
+      "$3,682.10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buyer\u2019s premium = 12% of $2,950 = $354. Subtotal = $2,950 + $354 = $3,304. Sales tax = 8.25% of $3,304 \u2248 $272.58. Total \u2248 $3,304 + $272.58 = $3,576.58.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 207,
+    "question": "At an Arkansas auction, there is a 10 percent buyer\u2019s premium and 7 percent sales tax on the hammer price only. If the hammer price is $6,750, what is the total amount due from the buyer?",
+    "options": [
+      "$7,222.50",
+      "$7,897.50",
+      "$7,290.00",
+      "$8,092.50"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Buyer\u2019s premium = 10% of $6,750 = $675. Sales tax = 7% of the hammer price ($6,750) = $472.50. Total = $6,750 + $675 + $472.50 = $7,897.50.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 208,
+    "question": "An Arkansas auctioneer sells goods totaling $26,400. The contract provides for a 15 percent commission, $1,850 in advertising, and a $600 setup fee. What net amount should the auctioneer remit to the seller?",
+    "options": [
+      "$19,990.00",
+      "$20,550.00",
+      "$21,200.00",
+      "$22,150.00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Commission = 15% of $26,400 = $3,960. Total deductions = $3,960 + $1,850 + $600 = $6,410. Net to seller = $26,400 \u2212 $6,410 = $19,990.00.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 209,
+    "question": "A seller in Arkansas agrees to pay a flat $3,000 commission plus 10 percent of any gross sales over $20,000. Advertising costs of $2,950 are also deducted. If the sale totals $47,500, what net amount should the auctioneer remit to the seller?",
+    "options": [
+      "$37,550.00",
+      "$38,800.00",
+      "$39,550.00",
+      "$41,500.00"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commission = $3,000 + 10% of ($47,500 \u2212 $20,000) = $3,000 + 10% of $27,500 = $3,000 + $2,750 = $5,750. Total deductions = $5,750 + $2,950 = $8,700. Net = $47,500 \u2212 $8,700 = $38,800.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 210,
+    "question": "An Arkansas auctioneer enters a contract with a seller for an 18 percent commission on the gross sale plus $3,800 in expenses. If the sale totals $72,500, what is the seller\u2019s net proceeds?",
+    "options": [
+      "$52,350.00",
+      "$54,450.00",
+      "$55,650.00",
+      "$57,900.00"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commission = 18% of $72,500 = $13,050. Total deductions = $13,050 + $3,800 = $16,850. Net = $72,500 \u2212 $16,850 = $55,650.00.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 211,
+    "question": "At an Arkansas auction, a high bidder defaults and refuses to pay for an item at $9,500. The auction terms allow the seller to resell the item at the defaulting bidder\u2019s risk and hold them liable for any deficiency and $600 in resale costs. The item later sells to another buyer for $8,000. What is the defaulting bidder\u2019s liability?",
+    "options": [
+      "$1,100",
+      "$1,500",
+      "$2,100",
+      "$2,500"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deficiency = original bid $9,500 \u2212 resale price $8,000 = $1,500. Add resale costs of $600. Total liability = $1,500 + $600 = $2,100.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 212,
+    "question": "Which of the following BEST illustrates an Arkansas auctioneer properly handling a questionable check from a buyer?",
+    "options": [
+      "Accepting the check without identification or verification",
+      "Holding the check, releasing all items, and immediately spending the funds",
+      "Using a written policy that large purchases may require certified funds or verification and not releasing property until the payment has cleared",
+      "Refusing all forms of payment except unverified personal checks"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer should have reasonable policies to reduce risk of bad checks, such as requiring certified funds or waiting until funds clear before releasing high-value property.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 213,
+    "question": "Under Arkansas law, which of the following actions by an auctioneer would MOST LIKELY be grounds for discipline involving MORAL TURPITUDE?",
+    "options": [
+      "Forgetting to bring enough bid cards",
+      "Being convicted of a felony for embezzling client funds",
+      "Starting an auction 10 minutes late",
+      "Mispronouncing a bidder\u2019s name"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Crimes involving fraud, theft, or dishonesty, such as embezzlement, are typically considered crimes of moral turpitude and are serious grounds for disciplinary action.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 214,
+    "question": "Which of the following BEST describes the duty of confidentiality owed by an Arkansas auctioneer to a seller?",
+    "options": [
+      "The auctioneer must reveal all confidential seller information to bidders",
+      "The auctioneer should not disclose sensitive information such as the seller\u2019s financial condition or lowest acceptable price except as required by law or authorized by the seller",
+      "There is no duty of confidentiality in auctions",
+      "The duty only applies when selling real estate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "As a fiduciary, the auctioneer should protect the seller\u2019s confidential information, disclosing it only with authorization or as required by law.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 215,
+    "question": "Which of the following is TRUE about continuing education PROVIDERS under Arkansas law?",
+    "options": [
+      "Any person may issue CE certificates without Board review",
+      "Courses must typically be approved by the Board or offered by Board-recognized providers in order to count toward the required hours",
+      "Online courses never count as CE",
+      "Only courses taken out of state will be accepted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arkansas requires that CE be provided by Board-approved or recognized providers so that course content is relevant and of acceptable quality.",
+    "topic": "Board and Governance"
+  },
+  {
+    "id": 216,
+    "question": "An Arkansas auctioneer attends two approved continuing education courses of three hours each within the license year. Which statement is TRUE regarding their CE compliance?",
+    "options": [
+      "They have met the typical six-hour CE requirement for that year",
+      "They are still short three hours",
+      "They have exceeded the requirement by one hour",
+      "CE hours cannot be accumulated in three-hour blocks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Most Arkansas auctioneers must complete six hours of CE annually. Two three-hour courses satisfy that requirement.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 217,
+    "question": "Which of the following BEST describes an \"absolute\" auction under Arkansas law when exceptions exist for only a few lots?",
+    "options": [
+      "The auction cannot legally be advertised as absolute",
+      "The auction may be advertised as absolute only if the exceptions are clearly and conspicuously disclosed for the specific lots that are not absolute",
+      "The exceptions never need to be disclosed",
+      "The auction is considered with reserve for all lots"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If the auction is essentially absolute but a few lots are with reserve, those exceptions must be clearly and conspicuously disclosed to avoid misleading bidders.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 218,
+    "question": "Under Arkansas law, which of the following BEST describes when an auctioneer may LOSE the right to collect a commission from a seller?",
+    "options": [
+      "When the auction is postponed due to severe weather",
+      "When the auctioneer materially breaches the contract or engages in fraud or misconduct related to the auction",
+      "Whenever the seller is unhappy with the prices",
+      "Whenever the auction lasts more than one day"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If the auctioneer materially breaches the contract or commits fraud or serious misconduct, the seller may have grounds to refuse payment of the commission and could seek damages or Board discipline.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 219,
+    "question": "Which of the following BEST illustrates \"commingling\" in violation of Arkansas auction rules?",
+    "options": [
+      "Maintaining a separate trust account for client funds",
+      "Depositing buyer payments into the auctioneer\u2019s personal or operating account instead of a designated trust or escrow account",
+      "Recording all deposits and withdrawals in a ledger",
+      "Providing timely settlement statements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commingling occurs when the auctioneer mixes client funds with personal or operating funds, which is prohibited and can lead to discipline.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 220,
+    "question": "An Arkansas auctioneer advertises a sale as including \"rare gold coins\" even though the seller has provided no such coins and the auctioneer knows this. This conduct is BEST described as:",
+    "options": [
+      "Puffery that is always allowed",
+      "Permissible exaggeration",
+      "False and misleading advertising and potential fraud",
+      "A harmless mistake with no consequences"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Knowingly advertising items that will not be offered is false and misleading, violates advertising rules, and may constitute fraud.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 221,
+    "question": "Which of the following is TRUE about an Arkansas auctioneer\u2019s duty to DISCLOSE their license status?",
+    "options": [
+      "They must never reveal that they are licensed",
+      "They should represent themselves clearly as a licensed auctioneer, include license numbers where required, and avoid any implication of being unlicensed",
+      "They may claim to be licensed even if their license has lapsed, as long as they plan to renew",
+      "They may use another auctioneer\u2019s license number without permission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Auctioneers must accurately represent their licensure, use their own license numbers, and avoid misrepresentation regarding their status.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 222,
+    "question": "Under Arkansas practice, which of the following BEST describes the purpose of a written CONSIGNMENT AGREEMENT for personal property?",
+    "options": [
+      "To keep the auction entirely oral",
+      "To set out the terms under which the auctioneer will take possession of goods, sell them on behalf of the owner, and account for proceeds and expenses",
+      "To guarantee the seller a profit on each item",
+      "To eliminate the need for a settlement statement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A written consignment agreement clarifies the rights and duties of both parties, including possession, sale authority, commissions, expenses, and settlement.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 223,
+    "question": "An Arkansas apprentice auctioneer repeatedly calls auctions without the knowledge or supervision of their sponsoring auctioneer. This is MOST likely:",
+    "options": [
+      "Acceptable if the sales go well",
+      "A violation of Board rules and the terms of apprentice licensure",
+      "Required by the Board",
+      "A form of continuing education"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apprentice auctioneers must work under the supervision of their sponsoring auctioneer; conducting auctions independently can violate licensing rules.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 224,
+    "question": "Which of the following BEST describes a \"bulk transfer\" or \"bulk sale\" that may concern Arkansas auctioneers?",
+    "options": [
+      "Any sale of livestock",
+      "A sale of a major part of a business\u2019s inventory or equipment outside the ordinary course of business, often requiring notice to creditors",
+      "A sale to multiple bidders at once",
+      "A transfer of real property only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bulk sales involve a substantial part of a business\u2019s assets and may trigger notice or filing requirements to protect creditors, which auctioneers must be aware of when liquidating businesses.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 225,
+    "question": "Which of the following BEST describes an auctioneer\u2019s responsibility when advertising an auction as court-ordered or bankruptcy-related in Arkansas?",
+    "options": [
+      "They may use those terms freely for marketing",
+      "They must ensure the description is accurate and that the sale is in fact conducted under court or bankruptcy authority",
+      "They must always conduct such sales without a license",
+      "They may ignore any terms imposed by the court"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Misrepresenting a sale as court-ordered or bankruptcy-related when it is not is misleading. If those terms are used, they must reflect the true legal nature of the sale.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 226,
+    "question": "A bidder asks an Arkansas auctioneer whether any employees or the seller will be bidding at a with-reserve auction. Which response BEST complies with ethical practice and auction law?",
+    "options": [
+      "\"I can\u2019t answer that,\" even if seller bidding is planned",
+      "\"No,\" even if the seller plans to bid",
+      "\"Seller or agent bidding may occur and will be disclosed consistent with the terms and announcements\"",
+      "\"Everyone here is a seller\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "Seller or agent bidding in a with-reserve auction must be conducted only if allowed and properly disclosed; the auctioneer should be honest and follow the written and announced terms.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 227,
+    "question": "Under Arkansas law, when a licensee is CONVICTED of a crime involving fraud, which of the following is TRUE regarding their auctioneer license?",
+    "options": [
+      "The conviction has no effect on licensure",
+      "The Board may initiate disciplinary proceedings and may suspend or revoke the license after due process",
+      "The license automatically becomes a lifetime license",
+      "Only the Governor may discipline the licensee"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Criminal convictions for fraud or moral turpitude are grounds for discipline; the Board may take action after notice and hearing.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 228,
+    "question": "An Arkansas auctioneer receives a significant complaint alleging mishandling of escrow funds. What is the MOST appropriate initial response?",
+    "options": [
+      "Destroy the records to avoid confusion",
+      "Ignore the complaint unless the seller sues",
+      "Preserve all relevant records, respond truthfully to the Board if contacted, and consult legal counsel if needed",
+      "Post about the complaint on social media"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When serious allegations arise, the auctioneer must preserve records, cooperate with any Board investigation, and seek legal advice as needed.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 229,
+    "question": "Which of the following BEST describes the Arkansas Board\u2019s authority regarding the issuance of subpoenas?",
+    "options": [
+      "The Board has no subpoena power",
+      "The Board may issue subpoenas to compel the production of documents and the appearance of witnesses in investigations and hearings",
+      "Only criminal courts may issue subpoenas",
+      "Subpoenas are used only to advertise auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The statutes grant the Board subpoena power to obtain documents and testimony necessary for its regulatory and disciplinary functions.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 230,
+    "question": "An Arkansas auctioneer is preparing a real estate auction. Which of the following is TRUE about licensing?",
+    "options": [
+      "Only an auctioneer\u2019s license is ever required",
+      "A real estate license may also be required to conduct certain aspects of the real estate transaction, depending on Arkansas law",
+      "No license is needed for real estate auctions",
+      "Real estate brokers are prohibited from conducting auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In many states, including Arkansas, selling real estate at auction may require both an auctioneer\u2019s license and a real estate license for certain activities; auctioneers must comply with both sets of laws.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 231,
+    "question": "Which of the following BEST describes \"shill bidding\" in the context of Arkansas auctions?",
+    "options": [
+      "Bidding by an absentee bidder",
+      "Legitimate competitive bidding",
+      "Using fake bids by the seller or confederates to drive up prices without proper disclosure",
+      "Bid calling by the auctioneer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Shill bidding involves fake or collusive bids used to inflate prices and mislead genuine bidders; it is deceptive and prohibited.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 232,
+    "question": "An Arkansas auctioneer advertises an auction as \"no buyer\u2019s premium\" but later adds a 10 percent premium at checkout. This conduct is:",
+    "options": [
+      "Acceptable if buyers still pay",
+      "A minor issue with no legal consequence",
+      "Deceptive and likely a violation of advertising and trade practice rules",
+      "Required by law"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Advertising \"no buyer\u2019s premium\" and then charging one is deceptive; terms must be accurately disclosed in advance.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 233,
+    "question": "Which of the following is the PRIMARY reason Arkansas auctioneers should maintain a written POLICY MANUAL for their staff?",
+    "options": [
+      "To replace all training",
+      "To provide clear guidance on procedures, ethics, conflicts of interest, money handling, and compliance, reducing the risk of violations",
+      "To avoid keeping records",
+      "To advertise upcoming auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Written policies communicate expectations on ethics, funds handling, and procedures, helping staff act consistently and lawfully.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 234,
+    "question": "In Arkansas, a \"buyer\u2019s agent\" in an auction setting is BEST described as:",
+    "options": [
+      "An agent who owes primary loyalty to the seller",
+      "A party representing buyers, helping them bid and negotiate terms within the auction\u2019s framework",
+      "The county sheriff",
+      "A ringman who works only for the seller"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A buyer\u2019s agent represents the buyer\u2019s interests, though in auctions this role is less common; any agency relationship should be disclosed and consistent with governing law.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 235,
+    "question": "Which of the following is TRUE about COMPENSATION DISCLOSURE in Arkansas auctions?",
+    "options": [
+      "Auctioneers never need to disclose who is paying them",
+      "If the auctioneer is receiving compensation from more than one party, this should be disclosed where required by law or ethical rules",
+      "Only ringmen must disclose compensation",
+      "Compensation disclosure rules apply only to charities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dual compensation or agency arrangements may need to be disclosed to avoid conflicts of interest and comply with ethical and legal obligations.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 236,
+    "question": "A seller asks an Arkansas auctioneer to \"run up\" prices using fake bidders. The auctioneer refuses. This is BEST described as:",
+    "options": [
+      "A breach of fiduciary duty",
+      "Compliance with ethical obligations and avoidance of deceptive practices",
+      "Required by auction law",
+      "Normal practice in all auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer is correct to refuse shill bidding, which is deceptive and violates professional and legal standards.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 237,
+    "question": "An Arkansas auctioneer sells an item to Bidder A. Immediately afterward, Bidder B claims they tried to bid higher but were not recognized. Terms state the auctioneer\u2019s decision is final. The BEST practice is:",
+    "options": [
+      "Always cancel the sale and restart the auction",
+      "Refuse to discuss the matter",
+      "Use discretion to either stick with the original sale or reopen bidding, consistent with the stated terms and fairness, then document the decision",
+      "Automatically award the item to Bidder B"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Auctioneers commonly reserve the right to resolve disputes at their discretion; the decision should be fair, consistent with terms, and documented.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 238,
+    "question": "Which of the following BEST illustrates a \"time is of the essence\" clause in an Arkansas auction contract?",
+    "options": [
+      "A statement that occasional delays are acceptable",
+      "A clause that states deadlines for payment, removal, or other performance are critical and failure to meet them may result in default or penalties",
+      "A statement that no deadlines apply",
+      "A clause about advertising design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A \"time is of the essence\" clause makes timely performance a material term of the contract, so missing deadlines can constitute breach.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 239,
+    "question": "Which of the following is TRUE about ONLINE auctions conducted by Arkansas licensees?",
+    "options": [
+      "Online auctions are exempt from all Arkansas auction laws",
+      "Online auctions must still comply with applicable Arkansas auction laws, Board rules, and advertising and consumer protection requirements",
+      "Only out-of-state licensees may conduct online auctions",
+      "Online bidders have no legal rights"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Online auctions are subject to the same core regulatory framework as live auctions, including licensure, advertising, and consumer protection requirements.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 240,
+    "question": "An Arkansas auctioneer contracts for a \"simulcast\" auction with both live and online bidding. What is the MOST important step regarding terms and conditions?",
+    "options": [
+      "Provide different, conflicting terms to each audience",
+      "Clearly state unified terms (or clearly identified differences) that govern both live and online bidders, including how tie bids and timing will be resolved",
+      "Avoid written terms altogether",
+      "Allow only online bidders to see the terms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Simulcast auctions must have clear terms explaining how live and online bids will be handled, including timing, tie bids, and buyer\u2019s premium, to avoid confusion and disputes.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 241,
+    "question": "Which of the following BEST describes \"bid increments\" in Arkansas auction practice?",
+    "options": [
+      "The only lawful prices an item can sell for",
+      "The gradual increases in bid amounts set by the auctioneer to move the bidding upward in an orderly fashion",
+      "A type of sales tax",
+      "Mandatory fees set by the Board"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bid increments are the auctioneer\u2019s chosen steps between bids, used to maintain rhythm and progress in bidding.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 242,
+    "question": "An Arkansas auctioneer sets very large bid increments early in bidding, causing some bidders to drop out who would have bid at smaller increments. This practice is BEST viewed as:",
+    "options": [
+      "Illegal in all cases",
+      "A strategic choice that may affect competitiveness but is not inherently illegal if disclosed and fairly applied",
+      "Always grounds for license revocation",
+      "Required by the Board"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bid increments are largely a matter of strategy, though they should be applied fairly and consistently so as not to arbitrarily favor or disfavor certain bidders.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 243,
+    "question": "Which of the following MOST ACCURATELY describes \"auctioneer\u2019s lien\" in Arkansas for unpaid commissions or expenses?",
+    "options": [
+      "A right to keep or sell property lawfully in the auctioneer\u2019s possession until paid, depending on contract and state law",
+      "An automatic lien on all of the seller\u2019s future income",
+      "A federal tax lien",
+      "A criminal penalty"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In some circumstances, auctioneers may have a possessory lien on goods in their possession to secure commissions or expenses; this depends on contract language and state law.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 244,
+    "question": "An Arkansas auctioneer discovers that a seller has misrepresented the authenticity of a high-value item. What is the BEST course of action before the sale?",
+    "options": [
+      "Ignore the issue and hope no one notices",
+      "Proceed with the sale and keep silent",
+      "Clarify the facts with the seller, correct any misleading advertising, disclose uncertainty or withdraw the lot if necessary",
+      "Tell bidders that the item is authentic regardless"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The auctioneer must avoid knowingly participating in misrepresentation; they should clarify facts and correct or withdraw misleading offerings.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 245,
+    "question": "An Arkansas auctioneer offers a money-back guarantee on an item\u2019s authenticity for 30 days. This guarantee is BEST described as:",
+    "options": [
+      "A voluntary warranty or assurance that may impose additional legal obligations beyond default \"as is\" terms",
+      "A requirement in every auction",
+      "A prohibition under Arkansas law",
+      "A type of escrow account"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Offering a guarantee is optional but, once given, creates additional obligations that the auctioneer must honor.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 246,
+    "question": "At an Arkansas auction, the terms state that the auctioneer may bid on behalf of the seller up to the reserve in a with-reserve auction. This practice is:",
+    "options": [
+      "Always illegal",
+      "Permitted if clearly disclosed in terms and announcements and conducted only up to the reserve price",
+      "Allowed only in absolute auctions",
+      "A form of shill bidding that must be hidden"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UCC and auction practice allow disclosed seller bidding in with-reserve auctions, typically only up to the reserve; undisclosed seller bidding is deceptive.",
+    "topic": "Prohibited Acts and Violations"
+  },
+  {
+    "id": 247,
+    "question": "Which of the following is TRUE about auction terms that require disputes to go to MEDIATION or ARBITRATION in Arkansas?",
+    "options": [
+      "They are automatically void",
+      "Such clauses may be enforceable if clearly disclosed and consistent with state and federal law",
+      "They apply only to bidders, not sellers",
+      "They must be hidden in fine print"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Alternative dispute resolution clauses can be valid if properly drafted, clearly disclosed, and compliant with legal standards.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 248,
+    "question": "An Arkansas auctioneer conducts an online auction and fails to deliver items to the high bidder after payment. This conduct would MOST LIKELY be considered:",
+    "options": [
+      "A normal delay",
+      "Simple puffery",
+      "Failure to perform contractual obligations, and potentially fraud or conversion",
+      "Required by the Board"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Taking payment and not delivering goods is a serious breach and may constitute fraud or conversion, subject to civil liability and Board discipline.",
+    "topic": "Penalties and Discipline"
+  },
+  {
+    "id": 249,
+    "question": "Which of the following BEST illustrates the proper use of a buyer registration system at Arkansas auctions?",
+    "options": [
+      "Allowing anonymous cash-only bidding with no records",
+      "Assigning bidder numbers, collecting contact information, and having bidders sign that they agree to the terms and conditions",
+      "Issuing bidder cards randomly with no identification",
+      "Letting bidders share one number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Registration with bidder numbers and signed acknowledgment of terms provides traceability and helps enforce auction contracts.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 250,
+    "question": "An Arkansas auctioneer is asked to auction firearms from an estate. Which of the following is TRUE about compliance?",
+    "options": [
+      "Auctioneers may ignore all federal firearms laws",
+      "The auctioneer must comply with all applicable federal and state firearms laws and may need to coordinate with a licensed firearms dealer for transfers",
+      "Firearms may be mailed to winning bidders without restrictions",
+      "Only handguns are regulated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Firearms sales are heavily regulated; auctioneers must ensure compliance with federal and state law, often using licensed dealers for background checks and transfers.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 251,
+    "question": "At an Arkansas auction, an item is cataloged as Lot 45 but the clerk accidentally records the sale under Lot 54. What is the BEST practice to correct this error?",
+    "options": [
+      "Do nothing; the numbers are similar",
+      "Destroy the records",
+      "Promptly correct the clerking mistake in all records, confirm the correct buyer, and adjust the settlement and invoices accordingly",
+      "Change the lot tags later without telling anyone"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Accurate clerking is essential; errors must be identified and corrected in all records to ensure proper settlement and invoicing.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 252,
+    "question": "Which of the following BEST describes why Arkansas auctioneers should document PRE-AUCTION inspections and condition reports?",
+    "options": [
+      "To avoid advertising",
+      "To have evidence of what was disclosed about item condition and to help defend against later claims of undisclosed defects",
+      "To replace insurance",
+      "To satisfy income tax requirements only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Documented inspections and condition reports help prove what was known and disclosed about an item, which is vital in resolving disputes.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 253,
+    "question": "An Arkansas auctioneer is listing surplus equipment for a city government. Which of the following is TRUE?",
+    "options": [
+      "Government entities are never subject to contract terms",
+      "Government surplus auctions may have specific legal or policy requirements, and the auctioneer must comply with both Arkansas auction law and the government\u2019s procedures",
+      "Auction law does not apply to government property",
+      "No recordkeeping is necessary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Government surplus sales are subject to both auction law and governmental procurement or disposal rules; auctioneers must comply with all applicable requirements.",
+    "topic": "Licensing and Registration"
+  },
+  {
+    "id": 254,
+    "question": "At an Arkansas auction, a buyer claims they were intoxicated and did not understand their bids. Generally, under contract law principles, this argument will:",
+    "options": [
+      "Automatically void the sale",
+      "Never be considered by any court",
+      "Be evaluated under capacity and voluntariness standards, but voluntary intoxication alone usually does not void contracts if the person understood their actions at the time",
+      "Force the seller to pay the buyer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Voluntary intoxication typically does not void a contract unless the person was so impaired that they could not understand the nature and consequences of their actions and the other party knew or should have known.",
+    "topic": "Auction Procedures"
+  },
+  {
+    "id": 255,
+    "question": "Which of the following is TRUE about record RETENTION for Arkansas auctioneers?",
+    "options": [
+      "Records may be destroyed as soon as the auction ends",
+      "Board rules generally require that key records such as contracts, settlement statements, and escrow account records be kept for a minimum number of years",
+      "Only advertising must be retained",
+      "Electronic records are never permitted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Board establishes minimum retention periods so it can review records during investigations or audits; auctioneers may keep records electronically if accurate and accessible.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 256,
+    "question": "An Arkansas auctioneer wants to use text messages and email for bidder notifications and invoices. Which is the BEST practice regarding consent and compliance?",
+    "options": [
+      "Send messages to anyone without permission",
+      "Obtain contact information and consent where required, honor opt-out requests, and protect personal data consistent with privacy and anti-spam laws",
+      "Share bidder lists with any marketer",
+      "Ignore all privacy concerns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using electronic communications requires respecting privacy, obtaining consent when needed, and honoring opt-out requests in compliance with anti-spam and privacy rules.",
+    "topic": "Duties and Responsibilities"
+  },
+  {
+    "id": 257,
+    "question": "An Arkansas auctioneer uses a third-party online platform that collects bidder funds before remitting them to the auctioneer. What is the auctioneer\u2019s BEST responsibility regarding these funds?",
+    "options": [
+      "Assume the platform is always responsible and ignore it",
+      "Understand the platform\u2019s terms, ensure funds are handled securely and remitted promptly, and still account accurately to sellers and buyers",
+      "Never reconcile platform reports with bank deposits",
+      "Refuse to disclose platform use to clients"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Even when using third-party platforms, the auctioneer remains responsible for accurate accounting and must ensure funds are handled properly and timely.",
+    "topic": "Financial and Records"
+  },
+  {
+    "id": 258,
+    "question": "Which of the following BEST summarizes the overarching purpose of the Arkansas Auctioneers Licensing Act and the Board\u2019s rules?",
+    "options": [
+      "To guarantee profits for all licensees",
+      "To protect the public by regulating auctioneers, promoting honest and fair dealing, and enforcing professional standards",
+      "To promote only live auctions and prohibit online sales",
+      "To set bid increments for all auctions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Act and rules are designed to protect the public interest, ensure ethical conduct, and maintain confidence in the auction industry.",
+    "topic": "Ethics and Conduct"
+  }
+]
