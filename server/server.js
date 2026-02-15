@@ -7,8 +7,15 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const app = express();
 
+// Allow your frontend to talk to this server
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173'
+  origin: [
+    'https://auction-test-prep.vercel.app',
+    'http://localhost:5173',
+    'http://localhost:3000'
+  ],
+  methods: ['GET', 'POST'],
+  credentials: true
 }));
 app.use(express.json());
 
@@ -18,7 +25,7 @@ app.get('/', (req, res) => {
 
 app.post('/api/create-checkout-session', async (req, res) => {
   try {
-    const { priceId, mode } = req.body;
+    const { priceId, mode, userEmail } = req.body;
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -29,6 +36,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
         },
       ],
       mode: mode || 'payment',
+      customer_email: userEmail || undefined,
       success_url: `${process.env.CLIENT_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.CLIENT_URL}/pricing`,
     });
