@@ -5,113 +5,7 @@
   flex-direction: column;
 }
 
-/* ─── Top Navigation Bar ─── */
-.top-nav {
-  background: white;
-  border-bottom: 1px solid #e5e7eb;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-}
-
-.top-nav-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2rem;
-  height: 64px;
-}
-
-.top-nav-logo {
-  height: 38px;
-  width: auto;
-  object-fit: contain;
-  cursor: pointer;
-}
-
-.top-nav-links {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-}
-
-.top-nav-link {
-  background: none;
-  border: none;
-  color: #001829;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-  cursor: pointer;
-  padding: 0.25rem 0;
-  position: relative;
-  transition: color 0.2s;
-}
-
-.top-nav-link:hover {
-  color: #d60000;
-}
-
-.top-nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: #d60000;
-  transition: width 0.25s;
-}
-
-.top-nav-link:hover::after {
-  width: 100%;
-}
-
-.top-nav-link-logout {
-  color: #d60000;
-}
-
-.top-nav-link-logout:hover {
-  color: #b00000;
-}
-
-.top-nav-link-logout::after {
-  background: #b00000;
-}
-
-.top-nav-link-dashboard {
-  color: #d60000;
-  font-weight: 700;
-}
-
-.top-nav-link-dashboard::after {
-  width: 100%;
-}
-
-.top-nav-cta {
-  background: #d60000;
-  color: white;
-  border: none;
-  padding: 0.6rem 1.8rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  cursor: pointer;
-  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-}
-
-.top-nav-cta:hover {
-  background: #b00000;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(214, 0, 0, 0.3);
-}
+/* Top nav now uses shared dashboard-header classes from Dashboard.css */
 
 /* ─── Hero / Brand Header ─── */
 .brand-header {
@@ -470,29 +364,6 @@
 
 /* ─── Mobile ─── */
 @media (max-width: 768px) {
-  .top-nav-inner {
-    padding: 0 1rem;
-    height: 52px;
-  }
-
-  .top-nav-logo {
-    height: 28px;
-  }
-
-  .top-nav-links {
-    gap: 1.25rem;
-  }
-
-  .top-nav-link {
-    font-size: 0.75rem;
-    letter-spacing: 0.8px;
-  }
-
-  .top-nav-cta {
-    padding: 0.5rem 1.2rem;
-    font-size: 0.75rem;
-  }
-
   .brand-header {
     padding: 0.75rem 1rem 0.6rem;
     padding-top: calc(0.75rem + 52px);
@@ -546,15 +417,6 @@
 
 /* ─── Small phones ─── */
 @media (max-width: 480px) {
-  .top-nav-links {
-    gap: 0.75rem;
-  }
-
-  .top-nav-link {
-    font-size: 0.7rem;
-    letter-spacing: 0.5px;
-  }
-
   .features-grid {
     grid-template-columns: 1fr;
   }

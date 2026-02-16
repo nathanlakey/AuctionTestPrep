@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { states } from '../data/questionBank';
 import CustomSelect from './CustomSelect';
 import './StateSelector.css';
@@ -11,10 +11,23 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, o
   const [selectedState, setSelectedState] = useState(initialState);
   const [showStateDialog, setShowStateDialog] = useState(false);
   const [selectedMode, setSelectedMode] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
   // Wake up the Render server as soon as the homepage loads
   useEffect(() => {
     fetch(`${API_BASE}/api/health`).catch(() => {});
+  }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const handleSubmit = (e) => {
@@ -39,24 +52,53 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, o
 
   return (
     <div className="state-selector-container">
-      {/* ─── Top Nav Bar ─── */}
-      <nav className="top-nav">
-        <div className="top-nav-inner">
-          <img src="/icon.png" alt="Auction Academy" className="top-nav-logo" />
-          <div className="top-nav-links">
-            {user ? (
-              <>
-                <button className="top-nav-link top-nav-link-dashboard" onClick={onDashboard}>DASHBOARD</button>
-                {isUserAdmin && <button className="top-nav-link" onClick={onAdmin}>ADMIN</button>}
-                <button className="top-nav-link" onClick={onProfile}>PROFILE</button>
-                <button className="top-nav-link top-nav-link-logout" onClick={onLogout}>LOGOUT</button>
-              </>
-            ) : (
-              <button className="top-nav-cta" onClick={onLogin}>SIGN IN</button>
-            )}
-          </div>
+      {/* ─── Top Nav Bar (Dashboard-style) ─── */}
+      <header className="dashboard-header">
+        <div className="header-content">
+          <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
+          {user ? (
+            <>
+              <nav className="header-nav">
+                <button className="nav-link nav-active" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>HOME</button>
+                {initialState && <span className="nav-link nav-state">{initialState.toUpperCase()}</span>}
+                <button className="nav-link" onClick={onDashboard}>DASHBOARD</button>
+                <button className="nav-link" onClick={onProfile}>PROFILE</button>
+                {isUserAdmin && (
+                  <button className="nav-link" onClick={onAdmin}>ADMIN</button>
+                )}
+              </nav>
+              <div className="header-right" ref={menuRef}>
+                <button className="nav-cta" onClick={() => setMenuOpen(!menuOpen)}>
+                  {user?.username?.toUpperCase() || 'MENU'} {menuOpen ? '▴' : '▾'}
+                </button>
+                {menuOpen && (
+                  <div className="user-dropdown-menu">
+                    <button className="dropdown-item" onClick={() => { setMenuOpen(false); onDashboard(); }}>
+                      📊 Dashboard
+                    </button>
+                    <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
+                      👤 Profile
+                    </button>
+                    {isUserAdmin && (
+                      <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
+                        🛡️ Admin
+                      </button>
+                    )}
+                    <div className="dropdown-divider" />
+                    <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                      🚪 Logout
+                    </button>
+                  </div>
+                )}
+              </div>
+            </>
+          ) : (
+            <div className="header-right">
+              <button className="nav-cta" onClick={onLogin}>SIGN IN</button>
+            </div>
+          )}
         </div>
-      </nav>
+      </header>
 
       {/* ─── Hero Section ─── */}
       <div className="brand-header">
