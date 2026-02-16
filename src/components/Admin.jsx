@@ -3,7 +3,7 @@ import { useAuth } from './AuthContext';
 import './Admin.css';
 
 // Add admin emails here — these users will always have admin access
-const ADMIN_EMAILS = ['nathan@auctionacademy.com', 'admin@auctionacademy.com'];
+const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', 'admin@auctionacademy.com'];
 
 export function isAdmin(user) {
   if (!user) return false;
