@@ -297,6 +297,7 @@ function AuthPage({ onAuthSuccess, onBack, resetToken, onResetComplete }) {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter' && isLogin) { e.preventDefault(); handleSubmit(e); } }}
               placeholder="Enter your password"
               required
               minLength={6}
