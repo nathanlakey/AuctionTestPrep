@@ -30,7 +30,7 @@ function Payment({ onSuccess, onBack }) {
       const response = await fetch(`${apiBase}/api/create-checkout-session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ priceId: 'price_1T1b4SDlUV458a7kYaK3YlXg', mode: 'payment', userEmail: user?.email }),
+        body: JSON.stringify({ priceId: 'price_1T1aOCDlUV458a7kIJ3M4Dw2', mode: 'payment', userEmail: user?.email }),
       });
 
       if (!response.ok) {
@@ -77,7 +77,7 @@ function Payment({ onSuccess, onBack }) {
         <div className="checkout-form">
           <div className="price-display">
             <span className="price-label">Full Access</span>
-            <span className="price-amount">$0.50 <span className="price-currency">USD</span></span>
+            <span className="price-amount">$100.00 <span className="price-currency">USD</span></span>
             <span className="price-description">One-time payment for complete exam prep access</span>
           </div>
 
@@ -88,7 +88,7 @@ function Payment({ onSuccess, onBack }) {
             onClick={handleCheckout}
             disabled={processing}
           >
-            {processing ? 'Redirecting to Stripe...' : 'Pay $0.50 with Stripe'}
+            {processing ? 'Redirecting to Stripe...' : 'Pay $100.00 with Stripe'}
           </button>
 
           <button type="button" className="pay-back-btn" onClick={onBack}>
