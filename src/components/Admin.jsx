@@ -630,10 +630,9 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
             )}
           </div>
         )}
-      </div>
 
-      {/* ── FEEDBACK TAB ── */}
-      {tab === 'feedback' && (
+        {/* ── FEEDBACK TAB ── */}
+        {tab === 'feedback' && (
         <div className="reports-section">
           {feedbackLoading ? (
             <p style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>Loading feedback...</p>
@@ -704,6 +703,7 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
           )}
         </div>
       )}
+
       </div>
 
       {/* Delete Confirmation Modal */}
