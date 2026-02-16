@@ -29,19 +29,26 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, i
 
   return (
     <div className="state-selector-container">
-      <div className="brand-header">
-        <div className="brand-header-top">
-          {user ? (
-            <div className="user-menu">
-              <span className="user-greeting">👋 {user.username}</span>
-              {isUserAdmin && <button className="admin-btn" onClick={onAdmin}>🛡️ Admin</button>}
-              <button className="profile-btn" onClick={onProfile}>👤 Profile</button>
-              <button className="logout-btn" onClick={onLogout}>Logout</button>
-            </div>
-          ) : (
-            <button className="login-btn" onClick={onLogin}>Login</button>
-          )}
+      {/* ─── Top Nav Bar ─── */}
+      <nav className="top-nav">
+        <div className="top-nav-inner">
+          <img src="/icon.png" alt="Auction Academy" className="top-nav-logo" />
+          <div className="top-nav-links">
+            {user ? (
+              <>
+                {isUserAdmin && <button className="top-nav-link" onClick={onAdmin}>ADMIN</button>}
+                <button className="top-nav-link" onClick={onProfile}>PROFILE</button>
+                <button className="top-nav-link top-nav-link-logout" onClick={onLogout}>LOGOUT</button>
+              </>
+            ) : (
+              <button className="top-nav-cta" onClick={onLogin}>SIGN IN</button>
+            )}
+          </div>
         </div>
+      </nav>
+
+      {/* ─── Hero Section ─── */}
+      <div className="brand-header">
         <img src="/auction-academy-logo.png" alt="Auction Academy" className="brand-logo" />
         <h2>Auctioneer Exam Prep</h2>
         <p className="tagline">Master Your State Licensing Exam</p>

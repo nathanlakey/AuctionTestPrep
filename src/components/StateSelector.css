@@ -1,115 +1,120 @@
 .state-selector-container {
+  min-height: 100vh;
+  background: #f3f4f6;
+}
+
+/* ─── Top Navigation Bar ─── */
+.top-nav {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.top-nav-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-}
-
-.brand-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background: #001829;
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.brand-header-top {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 0.5rem;
-}
-
-.login-btn {
-  background: white;
-  color: #001829;
-  padding: 0.6rem 1.5rem;
-  font-size: 0.95rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-
-.login-btn:hover {
-  background: #f0f0f0;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.user-menu {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 64px;
 }
 
-.user-greeting {
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-.logout-btn {
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.9rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 6px;
+.top-nav-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
   cursor: pointer;
-  font-weight: 500;
-  transition: background 0.2s;
 }
 
-.logout-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
+.top-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
 }
 
-.profile-btn {
-  background: white;
+.top-nav-link {
+  background: none;
+  border: none;
   color: #001829;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.9rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+  font-size: 0.85rem;
   font-weight: 600;
-  transition: background 0.2s, transform 0.2s;
-}
-
-.profile-btn:hover {
-  background: #f0f0f0;
-  transform: translateY(-1px);
-}
-
-.admin-btn {
-  background: #dbeafe;
-  color: #1e40af;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.9rem;
-  border: none;
-  border-radius: 6px;
+  letter-spacing: 1.2px;
   cursor: pointer;
-  font-weight: 600;
-  transition: background 0.2s, transform 0.2s;
+  padding: 0.25rem 0;
+  position: relative;
+  transition: color 0.2s;
 }
 
-.admin-btn:hover {
-  background: #bfdbfe;
+.top-nav-link:hover {
+  color: #d60000;
+}
+
+.top-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #d60000;
+  transition: width 0.25s;
+}
+
+.top-nav-link:hover::after {
+  width: 100%;
+}
+
+.top-nav-link-logout {
+  color: #d60000;
+}
+
+.top-nav-link-logout:hover {
+  color: #b00000;
+}
+
+.top-nav-link-logout::after {
+  background: #b00000;
+}
+
+.top-nav-cta {
+  background: #d60000;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+
+.top-nav-cta:hover {
+  background: #b00000;
   transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(214, 0, 0, 0.3);
+}
+
+/* ─── Hero / Brand Header ─── */
+.brand-header {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #001829;
+  color: white;
+  margin-bottom: 2.5rem;
 }
 
 .brand-logo {
-  width: 600px;
-  max-width: 90%;
+  width: 500px;
+  max-width: 80%;
   height: auto;
-  margin-bottom: 1rem;
+  margin: 0 auto 1.5rem;
   object-fit: contain;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   background: white;
   padding: 1.5rem;
   border-radius: 12px;
@@ -134,13 +139,25 @@
   margin: 0;
 }
 
+/* ─── Content below hero ─── */
+.state-selector-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 .state-selector-card {
   background: white;
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 3rem;
+  margin: 0 auto 3rem;
+  max-width: 1200px;
   text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .state-selector-card h3 {
@@ -209,6 +226,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
 }
 
 .feature-card {
@@ -340,6 +360,33 @@
 }
 
 @media (max-width: 768px) {
+  .top-nav-inner {
+    padding: 0 1rem;
+    height: 56px;
+  }
+
+  .top-nav-logo {
+    height: 30px;
+  }
+
+  .top-nav-links {
+    gap: 1.5rem;
+  }
+
+  .top-nav-link {
+    font-size: 0.75rem;
+    letter-spacing: 0.8px;
+  }
+
+  .top-nav-cta {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.75rem;
+  }
+
+  .brand-header {
+    padding: 2rem 1rem;
+  }
+
   .brand-logo {
     max-width: 300px;
   }
@@ -354,5 +401,11 @@
   
   .features-grid {
     grid-template-columns: 1fr;
+    padding: 0 1rem 2rem;
+  }
+
+  .state-selector-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
