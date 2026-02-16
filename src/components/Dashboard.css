@@ -27,6 +27,15 @@
   display: block;
 }
 
+.clickable-logo {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.clickable-logo:hover {
+  opacity: 0.8;
+}
+
 .dashboard-header h1 {
   margin: 0;
   font-size: 2rem;
