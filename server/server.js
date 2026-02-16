@@ -18,9 +18,10 @@ const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', '
 if (!process.env.TURSO_DATABASE_URL) {
   console.warn('⚠️  WARNING: TURSO_DATABASE_URL not set! Using local file (data will be lost on restart)');
 }
+const tursoToken = (process.env.TURSO_AUTH_TOKEN || '').trim();
 const db = createClient({
-  url: process.env.TURSO_DATABASE_URL || 'file:users.db',
-  authToken: process.env.TURSO_AUTH_TOKEN,
+  url: (process.env.TURSO_DATABASE_URL || 'file:users.db').trim(),
+  authToken: tursoToken || undefined,
 });
 
 // Create users table on startup
