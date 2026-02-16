@@ -212,8 +212,51 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
+  const getBookmarks = useCallback(async (state) => {
+    try {
+      const url = state ? `/api/bookmarks?state=${encodeURIComponent(state)}` : '/api/bookmarks';
+      const data = await apiFetch(url);
+      return { success: true, bookmarks: data.bookmarks };
+    } catch (err) {
+      return { success: false, error: err.message, bookmarks: [] };
+    }
+  }, []);
+
+  const toggleBookmark = useCallback(async (questionId, state) => {
+    try {
+      const data = await apiFetch('/api/bookmarks', {
+        method: 'POST',
+        body: JSON.stringify({ questionId, state }),
+      });
+      return { success: true, bookmarked: data.bookmarked };
+    } catch (err) {
+      return { success: false, error: err.message };
+    }
+  }, []);
+
+  const getExamDate = useCallback(async () => {
+    try {
+      const data = await apiFetch('/api/exam-date');
+      return { success: true, examDate: data.examDate };
+    } catch (err) {
+      return { success: false, error: err.message, examDate: null };
+    }
+  }, []);
+
+  const setExamDate = useCallback(async (examDate) => {
+    try {
+      const data = await apiFetch('/api/exam-date', {
+        method: 'PUT',
+        body: JSON.stringify({ examDate }),
+      });
+      return { success: true, examDate: data.examDate };
+    } catch (err) {
+      return { success: false, error: err.message };
+    }
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, forgotPassword, resetPasswordWithToken, saveResult, getResults, getResultsSummary }}>
+    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, forgotPassword, resetPasswordWithToken, saveResult, getResults, getResultsSummary, getBookmarks, toggleBookmark, getExamDate, setExamDate }}>
       {children}
     </AuthContext.Provider>
   );

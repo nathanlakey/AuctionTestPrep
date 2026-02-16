@@ -1,0 +1,26 @@
+{
+  "name": "Auction Academy — Test Prep",
+  "short_name": "Auction Academy",
+  "description": "Pass your auctioneer licensing exam on the first try. Practice tests, flashcards, and study games.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#001829",
+  "theme_color": "#001829",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/auction-academy-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "en-US"
+}

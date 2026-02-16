@@ -384,6 +384,278 @@
   border: 2px solid #d60000;
 }
 
+/* ─── Insights Row (Exam Countdown + Score Chart) ─── */
+.insights-row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.insight-card {
+  flex: 1;
+  background: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #001829;
+  min-width: 0;
+}
+
+.insight-card h3 {
+  color: #001829;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.insight-loading {
+  color: #666;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.insight-empty {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  font-size: 0.95rem;
+}
+
+/* Exam Countdown */
+.exam-countdown-card {
+  border-top-color: #d60000;
+}
+
+.exam-countdown-display {
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #001829;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.countdown-number.past {
+  color: #9ca3af;
+  font-size: 2rem;
+}
+
+.countdown-label {
+  color: #666;
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.countdown-date {
+  color: #001829;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.countdown-pace {
+  color: #92400e;
+  background: #fffbeb;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  margin: 0.75rem 0 0.5rem;
+  font-weight: 500;
+}
+
+.exam-countdown-empty {
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.exam-countdown-empty p {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.btn-exam-date {
+  background: #d60000;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-exam-date:hover:not(:disabled) {
+  background: #b00000;
+}
+
+.btn-exam-date:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-exam-date-small {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: color 0.2s;
+}
+
+.btn-exam-date-small:hover {
+  color: #d60000;
+}
+
+.btn-exam-date-cancel {
+  background: #e5e7eb;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.exam-date-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.exam-date-input {
+  padding: 0.65rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 220px;
+  color: #001829;
+}
+
+.exam-date-input:focus {
+  outline: none;
+  border-color: #d60000;
+}
+
+.exam-date-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Score Chart */
+.score-chart-svg {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 0.75rem;
+}
+
+.score-chart-legend {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.score-chart-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.score-chart-stats strong {
+  color: #001829;
+}
+
+/* ─── Performance by Topic ─── */
+.topic-performance-section {
+  background: white;
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  border-top: 4px solid #001829;
+}
+
+.topic-performance-section h3 {
+  color: #001829;
+  margin: 0 0 0.25rem 0;
+  font-size: 1.2rem;
+}
+
+.topic-perf-subtitle {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0 0 1.25rem 0;
+}
+
+.topic-perf-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.topic-perf-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topic-perf-info {
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.topic-perf-name {
+  display: block;
+  font-weight: 600;
+  color: #001829;
+  font-size: 0.9rem;
+}
+
+.topic-perf-meta {
+  display: block;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+.topic-perf-bar-bg {
+  flex: 1;
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.topic-perf-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.6s ease;
+}
+
 @media (max-width: 768px) {
   .header-content {
     padding: 0 1rem;
@@ -429,6 +701,29 @@
 
   .streak-label {
     font-size: 0.75rem;
+  }
+
+  .insights-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .countdown-number {
+    font-size: 2.5rem;
+  }
+
+  .topic-perf-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+
+  .topic-perf-info {
+    min-width: 0;
+  }
+
+  .score-chart-svg {
+    height: 90px;
   }
 }
 

@@ -10,10 +10,12 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   const [showResults, setShowResults] = useState(false);
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [timeRemaining, setTimeRemaining] = useState(timed ? 7200 : 0); // 2 hours = 7200s
-  const [reviewFilter, setReviewFilter] = useState('all'); // 'all' or 'missed'
+  const [reviewFilter, setReviewFilter] = useState('all'); // 'all', 'missed', or 'flagged'
+  const [flaggedQuestions, setFlaggedQuestions] = useState(new Set());
+  const [bookmarkedIds, setBookmarkedIds] = useState(new Set());
   const resultSaved = useRef(false);
   const autoSubmitted = useRef(false);
-  const { saveResult } = useAuth();
+  const { saveResult, getBookmarks, toggleBookmark } = useAuth();
 
   useEffect(() => {
     // Load questions based on type
@@ -23,6 +25,44 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
       setQuestions(getQuizQuestions(state, questionCount, topic));
     }
   }, [state, questionCount, topic]);
+
+  // Load user's bookmarked questions
+  useEffect(() => {
+    async function loadBookmarks() {
+      const result = await getBookmarks(state);
+      if (result.success) {
+        setBookmarkedIds(new Set(result.bookmarks.map(b => b.questionId)));
+      }
+    }
+    loadBookmarks();
+  }, [state, getBookmarks]);
+
+  const handleToggleFlag = (questionId) => {
+    setFlaggedQuestions(prev => {
+      const next = new Set(prev);
+      if (next.has(questionId)) {
+        next.delete(questionId);
+      } else {
+        next.add(questionId);
+      }
+      return next;
+    });
+  };
+
+  const handleToggleBookmark = async (questionId) => {
+    const result = await toggleBookmark(questionId, state);
+    if (result.success) {
+      setBookmarkedIds(prev => {
+        const next = new Set(prev);
+        if (result.bookmarked) {
+          next.add(questionId);
+        } else {
+          next.delete(questionId);
+        }
+        return next;
+      });
+    }
+  };
 
   useEffect(() => {
     // Timer — counts up (untimed) or counts down (timed)
@@ -136,6 +176,7 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
     setTimeElapsed(0);
     setTimeRemaining(timed ? 7200 : 0);
     setReviewFilter('all');
+    setFlaggedQuestions(new Set());
   };
 
   if (showResults) {
@@ -177,6 +218,12 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
                 >
                   ✗ Missed ({questions.filter(q => answers[q.id] !== q.correctAnswer).length})
                 </button>
+                <button
+                  className={`review-filter-btn flagged ${reviewFilter === 'flagged' ? 'active' : ''}`}
+                  onClick={() => setReviewFilter('flagged')}
+                >
+                  🚩 Flagged ({flaggedQuestions.size})
+                </button>
               </div>
             </div>
             {questions
@@ -184,6 +231,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
               .filter(({ question }) => {
                 if (reviewFilter === 'missed') {
                   return answers[question.id] !== question.correctAnswer;
+                }
+                if (reviewFilter === 'flagged') {
+                  return flaggedQuestions.has(question.id);
                 }
                 return true;
               })
@@ -194,10 +244,22 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
               return (
                 <div key={question.id} className={`review-question ${isCorrect ? 'correct' : 'incorrect'}`}>
                   <div className="review-header">
-                    <span className="question-number">Question {originalIndex + 1}</span>
-                    <span className={`result-badge ${isCorrect ? 'correct' : 'incorrect'}`}>
-                      {isCorrect ? '✓ Correct' : '✗ Incorrect'}
+                    <span className="question-number">
+                      Question {originalIndex + 1}
+                      {flaggedQuestions.has(question.id) && <span className="flag-indicator"> 🚩</span>}
                     </span>
+                    <div className="review-header-actions">
+                      <button
+                        className={`btn-bookmark ${bookmarkedIds.has(question.id) ? 'active' : ''}`}
+                        onClick={() => handleToggleBookmark(question.id)}
+                        title={bookmarkedIds.has(question.id) ? 'Remove bookmark' : 'Bookmark for later review'}
+                      >
+                        {bookmarkedIds.has(question.id) ? '🔖' : '📑'} {bookmarkedIds.has(question.id) ? 'Saved' : 'Save'}
+                      </button>
+                      <span className={`result-badge ${isCorrect ? 'correct' : 'incorrect'}`}>
+                        {isCorrect ? '✓ Correct' : '✗ Incorrect'}
+                      </span>
+                    </div>
                   </div>
                   
                   <div className="review-topic">{question.topic}</div>
@@ -234,8 +296,11 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
               <div className="review-empty-state">
                 🎉 Perfect score! You didn't miss any questions!
               </div>
-            )}
-          </div>
+            )}            {reviewFilter === 'flagged' && flaggedQuestions.size === 0 && (
+              <div className="review-empty-state">
+                🚩 No flagged questions. Use the flag button during the test to mark tricky questions.
+              </div>
+            )}          </div>
 
           <div className="results-completion-message">
             {passed
@@ -302,7 +367,16 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
           <span className="question-counter">
             Question {currentQuestionIndex + 1} of {questions.length}
           </span>
-          <span className="topic-badge">{currentQuestion.topic}</span>
+          <div className="question-header-right">
+            <button
+              className={`btn-flag ${flaggedQuestions.has(currentQuestion.id) ? 'flagged' : ''}`}
+              onClick={() => handleToggleFlag(currentQuestion.id)}
+              title={flaggedQuestions.has(currentQuestion.id) ? 'Remove flag' : 'Flag for review'}
+            >
+              {flaggedQuestions.has(currentQuestion.id) ? '🚩 Flagged' : '🏳️ Flag'}
+            </button>
+            <span className="topic-badge">{currentQuestion.topic}</span>
+          </div>
         </div>
 
         <div className="question-text">
@@ -355,13 +429,13 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
       </div>
 
       <div className="question-navigator">
-        <h4>Question Navigator</h4>
+        <h4>Question Navigator {flaggedQuestions.size > 0 && <span className="nav-flag-count">🚩 {flaggedQuestions.size} flagged</span>}</h4>
         <div className="question-grid">
           {questions.map((q, index) => (
             <button
               key={q.id}
               onClick={() => setCurrentQuestionIndex(index)}
-              className={`question-nav-btn ${currentQuestionIndex === index ? 'active' : ''} ${answers[q.id] !== undefined ? 'answered' : ''}`}
+              className={`question-nav-btn ${currentQuestionIndex === index ? 'active' : ''} ${answers[q.id] !== undefined ? 'answered' : ''} ${flaggedQuestions.has(q.id) ? 'flagged' : ''}`}
             >
               {index + 1}
             </button>

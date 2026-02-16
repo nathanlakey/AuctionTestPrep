@@ -85,6 +85,27 @@ async function initDatabase() {
     )
   `);
 
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS bookmarked_questions (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      state TEXT NOT NULL,
+      question_id INTEGER NOT NULL,
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id),
+      UNIQUE(user_id, state, question_id)
+    )
+  `);
+
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS exam_dates (
+      user_id TEXT PRIMARY KEY,
+      exam_date TEXT NOT NULL,
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -630,6 +651,23 @@ app.get('/api/results/summary', authMiddleware, async (req, res) => {
       // If last study was more than 1 day ago, streak is broken (currentStreak stays 0)
     }
 
+    // Score history — last 20 tests/quizzes for the chart
+    const historyResult = await db.execute({
+      sql: `SELECT score_percentage, mode, created_at
+            FROM test_results WHERE user_id = ?
+            ORDER BY created_at ASC LIMIT 50`,
+      args: [req.user.id]
+    });
+
+    // Performance by topic breakdown
+    const byTopicResult = await db.execute({
+      sql: `SELECT topic, COUNT(*) as count, AVG(score_percentage) as avg_score,
+                   MAX(score_percentage) as best_score, MIN(score_percentage) as worst_score
+            FROM test_results WHERE user_id = ? AND topic != 'All Topics'
+            GROUP BY topic ORDER BY avg_score ASC`,
+      args: [req.user.id]
+    });
+
     const summary = {
       totalAttempts: totalResult.rows[0].total || 0,
       averageScore: totalResult.rows[0].avg_score ? Math.round(totalResult.rows[0].avg_score * 10) / 10 : 0,
@@ -652,12 +690,135 @@ app.get('/api/results/summary', authMiddleware, async (req, res) => {
         timeSeconds: row.time_seconds,
         createdAt: row.created_at,
       })),
+      scoreHistory: historyResult.rows.map(row => ({
+        score: row.score_percentage,
+        mode: row.mode,
+        date: row.created_at,
+      })),
+      byTopic: byTopicResult.rows.map(row => ({
+        topic: row.topic,
+        count: row.count,
+        avgScore: Math.round(row.avg_score * 10) / 10,
+        bestScore: Math.round(row.best_score * 10) / 10,
+        worstScore: Math.round(row.worst_score * 10) / 10,
+      })),
     };
 
     res.json({ summary });
   } catch (error) {
     console.error('Get summary error:', error.message);
     res.status(500).json({ error: 'Server error fetching summary.' });
+  }
+});
+
+// ─── Bookmarked Questions Routes ──────────────────────────────────
+
+// GET /api/bookmarks — get all bookmarked question IDs for the user
+app.get('/api/bookmarks', authMiddleware, async (req, res) => {
+  try {
+    const { state } = req.query;
+    let result;
+    if (state) {
+      result = await db.execute({
+        sql: 'SELECT question_id, state FROM bookmarked_questions WHERE user_id = ? AND state = ? ORDER BY created_at DESC',
+        args: [req.user.id, state]
+      });
+    } else {
+      result = await db.execute({
+        sql: 'SELECT question_id, state FROM bookmarked_questions WHERE user_id = ? ORDER BY created_at DESC',
+        args: [req.user.id]
+      });
+    }
+    res.json({ bookmarks: result.rows.map(r => ({ questionId: r.question_id, state: r.state })) });
+  } catch (error) {
+    console.error('Get bookmarks error:', error.message);
+    res.status(500).json({ error: 'Server error fetching bookmarks.' });
+  }
+});
+
+// POST /api/bookmarks — toggle bookmark on a question
+app.post('/api/bookmarks', authMiddleware, async (req, res) => {
+  try {
+    const { questionId, state } = req.body;
+    if (!questionId || !state) {
+      return res.status(400).json({ error: 'questionId and state are required.' });
+    }
+
+    // Check if already bookmarked
+    const existing = await db.execute({
+      sql: 'SELECT id FROM bookmarked_questions WHERE user_id = ? AND state = ? AND question_id = ?',
+      args: [req.user.id, state, questionId]
+    });
+
+    if (existing.rows.length > 0) {
+      // Remove bookmark
+      await db.execute({
+        sql: 'DELETE FROM bookmarked_questions WHERE user_id = ? AND state = ? AND question_id = ?',
+        args: [req.user.id, state, questionId]
+      });
+      res.json({ bookmarked: false });
+    } else {
+      // Add bookmark
+      const id = uuidv4();
+      await db.execute({
+        sql: 'INSERT INTO bookmarked_questions (id, user_id, state, question_id) VALUES (?, ?, ?, ?)',
+        args: [id, req.user.id, state, questionId]
+      });
+      res.json({ bookmarked: true });
+    }
+  } catch (error) {
+    console.error('Toggle bookmark error:', error.message);
+    res.status(500).json({ error: 'Server error toggling bookmark.' });
+  }
+});
+
+// ─── Exam Date Routes ─────────────────────────────────────────────
+
+// GET /api/exam-date — get user's exam date
+app.get('/api/exam-date', authMiddleware, async (req, res) => {
+  try {
+    const result = await db.execute({
+      sql: 'SELECT exam_date FROM exam_dates WHERE user_id = ?',
+      args: [req.user.id]
+    });
+    res.json({ examDate: result.rows.length > 0 ? result.rows[0].exam_date : null });
+  } catch (error) {
+    console.error('Get exam date error:', error.message);
+    res.status(500).json({ error: 'Server error.' });
+  }
+});
+
+// PUT /api/exam-date — set or update exam date
+app.put('/api/exam-date', authMiddleware, async (req, res) => {
+  try {
+    const { examDate } = req.body;
+    if (!examDate) {
+      // Clear exam date
+      await db.execute({ sql: 'DELETE FROM exam_dates WHERE user_id = ?', args: [req.user.id] });
+      return res.json({ examDate: null });
+    }
+
+    const existing = await db.execute({
+      sql: 'SELECT user_id FROM exam_dates WHERE user_id = ?',
+      args: [req.user.id]
+    });
+
+    if (existing.rows.length > 0) {
+      await db.execute({
+        sql: 'UPDATE exam_dates SET exam_date = ? WHERE user_id = ?',
+        args: [examDate, req.user.id]
+      });
+    } else {
+      await db.execute({
+        sql: 'INSERT INTO exam_dates (user_id, exam_date) VALUES (?, ?)',
+        args: [req.user.id, examDate]
+      });
+    }
+
+    res.json({ examDate });
+  } catch (error) {
+    console.error('Set exam date error:', error.message);
+    res.status(500).json({ error: 'Server error.' });
   }
 });
 
