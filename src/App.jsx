@@ -118,6 +118,12 @@ function AppContent() {
     navigateTo('select')
   }
 
+  const handleDashboard = () => {
+    if (selectedState) {
+      navigateTo('dashboard')
+    }
+  }
+
   const handleStartTest = (questionCount, timed = false) => {
     setTestConfig({ questionCount, topic: 'All Topics', timed })
     navigateTo('test')
@@ -223,6 +229,7 @@ function AppContent() {
           onLogout={handleLogout}
           onProfile={handleProfile}
           onAdmin={handleAdmin}
+          onDashboard={handleDashboard}
           isUserAdmin={isAdmin(user)}
           user={user}
           initialState={selectedState || ''}

@@ -7,7 +7,7 @@ const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrend
 
 const stateOptions = states.map(s => ({ value: s, label: s }));
 
-function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, isUserAdmin, user, initialState = '' }) {
+function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, onDashboard, isUserAdmin, user, initialState = '' }) {
   const [selectedState, setSelectedState] = useState(initialState);
   const [showStateDialog, setShowStateDialog] = useState(false);
   const [selectedMode, setSelectedMode] = useState(null);
@@ -46,6 +46,7 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, i
           <div className="top-nav-links">
             {user ? (
               <>
+                {initialState && <button className="top-nav-link top-nav-link-dashboard" onClick={onDashboard}>DASHBOARD</button>}
                 {isUserAdmin && <button className="top-nav-link" onClick={onAdmin}>ADMIN</button>}
                 <button className="top-nav-link" onClick={onProfile}>PROFILE</button>
                 <button className="top-nav-link top-nav-link-logout" onClick={onLogout}>LOGOUT</button>

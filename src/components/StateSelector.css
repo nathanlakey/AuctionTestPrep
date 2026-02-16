@@ -85,6 +85,15 @@
   background: #b00000;
 }
 
+.top-nav-link-dashboard {
+  color: #d60000;
+  font-weight: 700;
+}
+
+.top-nav-link-dashboard::after {
+  width: 100%;
+}
+
 .top-nav-cta {
   background: #d60000;
   color: white;
