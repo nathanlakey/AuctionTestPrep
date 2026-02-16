@@ -15,6 +15,9 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', 'admin@auctionacademy.com'];
 
 // ─── Turso Cloud Database ─────────────────────────────────────────
+if (!process.env.TURSO_DATABASE_URL) {
+  console.warn('⚠️  WARNING: TURSO_DATABASE_URL not set! Using local file (data will be lost on restart)');
+}
 const db = createClient({
   url: process.env.TURSO_DATABASE_URL || 'file:users.db',
   authToken: process.env.TURSO_AUTH_TOKEN,
@@ -101,6 +104,21 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Server is running');
+});
+
+// Health check — shows if Turso is connected
+app.get('/api/health', async (req, res) => {
+  try {
+    const result = await db.execute('SELECT COUNT(*) as count FROM users');
+    res.json({
+      status: 'ok',
+      database: process.env.TURSO_DATABASE_URL ? 'turso-cloud' : 'local-file',
+      tursoUrl: process.env.TURSO_DATABASE_URL ? process.env.TURSO_DATABASE_URL.substring(0, 30) + '...' : 'NOT SET',
+      userCount: result.rows[0].count,
+    });
+  } catch (error) {
+    res.status(500).json({ status: 'error', error: error.message });
+  }
 });
 
 // ─── Stripe ───────────────────────────────────────────────────────
