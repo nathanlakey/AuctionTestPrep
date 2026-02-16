@@ -29,36 +29,40 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
     <div className="dashboard-container">
       <header className="dashboard-header">
         <div className="header-content">
-          <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
-          <div className="state-info">
-            <span className="state-label">Studying for:</span>
-            <span className="state-name">{state}</span>
+          <div className="header-left">
+            <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
+            <div className="state-badge">
+              <span className="state-label">Studying for</span>
+              <span className="state-name">{state}</span>
+            </div>
+          </div>
+          <div className="header-right">
             <button onClick={onChangeState} className="btn-change-state">
               Change State
             </button>
-          </div>
-          <div className="user-dropdown" ref={menuRef}>
-            <button className="user-dropdown-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-              <span className="user-avatar">👤</span>
-              <span className="user-dropdown-name">{user?.username || 'Menu'}</span>
-              <span className={`dropdown-arrow ${menuOpen ? 'open' : ''}`}>▾</span>
-            </button>
-            {menuOpen && (
-              <div className="user-dropdown-menu">
-                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
-                  👤 Profile
-                </button>
-                {isUserAdmin && (
-                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
-                    🛡️ Admin
+            <div className="user-dropdown" ref={menuRef}>
+              <button className="user-dropdown-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+                <span className="user-avatar">👤</span>
+                <span className="user-dropdown-name">{user?.username || 'Menu'}</span>
+                <span className={`dropdown-arrow ${menuOpen ? 'open' : ''}`}>▾</span>
+              </button>
+              {menuOpen && (
+                <div className="user-dropdown-menu">
+                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
+                    👤 Profile
                   </button>
-                )}
-                <div className="dropdown-divider" />
-                <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
-                  🚪 Logout
-                </button>
-              </div>
-            )}
+                  {isUserAdmin && (
+                    <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
+                      🛡️ Admin
+                    </button>
+                  )}
+                  <div className="dropdown-divider" />
+                  <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                    🚪 Logout
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </header>
