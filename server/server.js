@@ -206,6 +206,43 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+// ─── Stripe Webhook (must be before express.json() for raw body) ─
+app.post('/api/stripe-webhook', express.raw({ type: 'application/json' }), async (req, res) => {
+  const sig = req.headers['stripe-signature'];
+  const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+
+  let event;
+  try {
+    if (webhookSecret) {
+      event = stripe.webhooks.constructEvent(req.body, sig, webhookSecret);
+    } else {
+      event = JSON.parse(req.body.toString());
+      console.warn('⚠️  STRIPE_WEBHOOK_SECRET not set — skipping signature verification');
+    }
+  } catch (err) {
+    console.error('Webhook signature verification failed:', err.message);
+    return res.status(400).send(`Webhook Error: ${err.message}`);
+  }
+
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+    const email = session.customer_email;
+
+    if (email) {
+      try {
+        await db.execute({ sql: 'UPDATE users SET has_paid = 1 WHERE LOWER(email) = LOWER(?)', args: [email] });
+        console.log(`✅ Webhook: Marked ${email} as paid`);
+      } catch (err) {
+        console.error(`Webhook DB error for ${email}:`, err.message);
+      }
+    } else {
+      console.warn('Webhook: No customer_email in checkout session');
+    }
+  }
+
+  res.json({ received: true });
+});
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
