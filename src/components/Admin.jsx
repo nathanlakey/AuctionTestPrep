@@ -1,9 +1,26 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { useAuth } from './AuthContext';
 import './Admin.css';
 
 // Add admin emails here — these users will always have admin access
 const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', 'admin@auctionacademy.com'];
+
+const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
+
+function getToken() {
+  return localStorage.getItem('auctionAcademyToken');
+}
+
+async function adminFetch(endpoint, options = {}) {
+  const token = getToken();
+  const headers = { 'Content-Type': 'application/json', ...options.headers };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  const res = await fetch(`${API_BASE}${endpoint}`, { ...options, headers });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+  return data;
+}
 
 export function isAdmin(user) {
   if (!user) return false;
@@ -18,29 +35,31 @@ function Admin({ onBack }) {
   const [filter, setFilter] = useState('all');
   const [message, setMessage] = useState(null);
   const [deleteTarget, setDeleteTarget] = useState(null);
-  const [refreshKey, setRefreshKey] = useState(0);
+  const [allUsers, setAllUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const showMessage = (text, type = 'success') => {
     setMessage({ text, type });
     setTimeout(() => setMessage(null), 4000);
   };
 
-  // Get all users from localStorage
-  const allUsers = useMemo(() => {
-    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
-    return users.map(u => ({
-      id: u.id,
-      username: u.username,
-      email: u.email,
-      firstName: u.firstName || '',
-      lastName: u.lastName || '',
-      phone: u.phone || '',
-      hasPaid: u.hasPaid || false,
-      isAdmin: u.isAdmin || ADMIN_EMAILS.includes(u.email?.toLowerCase()),
-      createdAt: u.createdAt || '',
-    }));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [refreshKey]);
+  // Fetch all users from server
+  const loadUsers = useCallback(async () => {
+    try {
+      const data = await adminFetch('/api/admin/users');
+      setAllUsers(data.users);
+    } catch (err) {
+      showMessage(err.message, 'error');
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (isAdmin(user)) {
+      loadUsers();
+    }
+  }, [user, loadUsers]);
 
   // Filter & search
   const filteredUsers = useMemo(() => {
@@ -71,40 +90,28 @@ function Admin({ onBack }) {
     admins: allUsers.filter(u => u.isAdmin).length,
   }), [allUsers]);
 
-  const toggleAccess = (userId) => {
-    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
-    const idx = users.findIndex(u => u.id === userId);
-    if (idx === -1) return;
-
-    users[idx].hasPaid = !users[idx].hasPaid;
-    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
-
-    // If toggling the currently logged-in user, update their session too
-    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}');
-    if (currentUser.id === userId) {
-      currentUser.hasPaid = users[idx].hasPaid;
-      localStorage.setItem('auctionAcademyUser', JSON.stringify(currentUser));
+  const toggleAccess = async (userId) => {
+    try {
+      const data = await adminFetch(`/api/admin/users/${userId}/access`, { method: 'PUT' });
+      showMessage(`Access ${data.user.hasPaid ? 'granted' : 'revoked'} for ${data.user.username}`);
+      loadUsers();
+    } catch (err) {
+      showMessage(err.message, 'error');
     }
-
-    showMessage(`Access ${users[idx].hasPaid ? 'granted' : 'revoked'} for ${users[idx].username}`);
-    setRefreshKey(k => k + 1);
   };
 
-  const toggleAdmin = (userId) => {
-    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
-    const idx = users.findIndex(u => u.id === userId);
-    if (idx === -1) return;
-
-    // Don't let admin remove their own admin status
+  const toggleAdmin = async (userId) => {
     if (userId === user.id) {
       showMessage("You can't remove your own admin access.", 'error');
       return;
     }
-
-    users[idx].isAdmin = !users[idx].isAdmin;
-    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
-    showMessage(`${users[idx].username} is ${users[idx].isAdmin ? 'now an admin' : 'no longer an admin'}`);
-    setRefreshKey(k => k + 1);
+    try {
+      const data = await adminFetch(`/api/admin/users/${userId}/role`, { method: 'PUT' });
+      showMessage(`${data.user.username} is ${data.user.isAdmin ? 'now an admin' : 'no longer an admin'}`);
+      loadUsers();
+    } catch (err) {
+      showMessage(err.message, 'error');
+    }
   };
 
   const confirmDelete = (userToDelete) => {
@@ -115,14 +122,17 @@ function Admin({ onBack }) {
     setDeleteTarget(userToDelete);
   };
 
-  const handleDeleteUser = () => {
+  const handleDeleteUser = async () => {
     if (!deleteTarget) return;
-    let users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
-    users = users.filter(u => u.id !== deleteTarget.id);
-    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
-    showMessage(`Deleted user: ${deleteTarget.username}`);
-    setDeleteTarget(null);
-    setRefreshKey(k => k + 1);
+    try {
+      await adminFetch(`/api/admin/users/${deleteTarget.id}`, { method: 'DELETE' });
+      showMessage(`Deleted user: ${deleteTarget.username}`);
+      setDeleteTarget(null);
+      loadUsers();
+    } catch (err) {
+      showMessage(err.message, 'error');
+      setDeleteTarget(null);
+    }
   };
 
   const formatDate = (dateStr) => {
@@ -143,6 +153,16 @@ function Admin({ onBack }) {
           <button className="btn-back-admin" style={{ background: '#001829', marginTop: '1rem' }} onClick={onBack}>
             Go Back
           </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div className="admin-container">
+        <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
+          <h2>Loading users...</h2>
         </div>
       </div>
     );

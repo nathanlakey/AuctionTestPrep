@@ -18,3 +18,5 @@ services:
         value: production
       - key: STRIPE_SECRET_KEY
         sync: false          # You'll enter this in the Render dashboard
+      - key: JWT_SECRET
+        sync: false          # Set a secure random string in the Render dashboard
