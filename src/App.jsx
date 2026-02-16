@@ -121,6 +121,10 @@ function AppContent() {
   const handleDashboard = () => {
     if (selectedState) {
       navigateTo('dashboard')
+    } else {
+      // No state yet — go to select page (they're already there, so this is a no-op,
+      // but it ensures correct behavior from other pages)
+      navigateTo('select')
     }
   }
 
