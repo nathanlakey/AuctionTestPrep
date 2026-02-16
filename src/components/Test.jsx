@@ -252,7 +252,7 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
                   className={`review-filter-btn flagged ${reviewFilter === 'flagged' ? 'active' : ''}`}
                   onClick={() => setReviewFilter('flagged')}
                 >
-                  🚩 Flagged ({flaggedQuestions.size})
+                  ⭐ Starred ({flaggedQuestions.size})
                 </button>
               </div>
             </div>
@@ -276,7 +276,7 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
                   <div className="review-header">
                     <span className="question-number">
                       Question {originalIndex + 1}
-                      {flaggedQuestions.has(question.id) && <span className="flag-indicator"> 🚩</span>}
+                      {flaggedQuestions.has(question.id) && <span className="flag-indicator"> ⭐</span>}
                     </span>
                     <div className="review-header-actions">
                       <button
@@ -335,7 +335,7 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
               </div>
             )}            {reviewFilter === 'flagged' && flaggedQuestions.size === 0 && (
               <div className="review-empty-state">
-                🚩 No flagged questions. Use the flag button during the test to mark tricky questions.
+                No starred questions. Use the ☆ button during the test to mark tricky questions.
               </div>
             )}          </div>
 
@@ -473,7 +473,7 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
       </div>
 
       <div className="question-navigator">
-        <h4>Question Navigator {flaggedQuestions.size > 0 && <span className="nav-flag-count">🚩 {flaggedQuestions.size} flagged</span>}</h4>
+        <h4>Question Navigator {flaggedQuestions.size > 0 && <span className="nav-flag-count">⭐ {flaggedQuestions.size} starred</span>}</h4>
         <div className="question-grid">
           {questions.map((q, index) => (
             <button
