@@ -1,14 +1,29 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { getAvailableTopics } from '../data/questionBank';
+import { useAuth } from './AuthContext';
 import './Dashboard.css';
 
 function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onProfile, onAdmin, onLogout, isUserAdmin }) {
   const [flashcardTopic, setFlashcardTopic] = useState('');
   const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const { user } = useAuth();
   
   // Get topics that actually have questions for the selected state
   const availableTopics = useMemo(() => getAvailableTopics(state), [state]);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <div className="dashboard-container">
@@ -21,17 +36,29 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             <button onClick={onChangeState} className="btn-change-state">
               Change State
             </button>
-            <button onClick={onProfile} className="btn-change-state">
-              👤 Profile
+          </div>
+          <div className="user-dropdown" ref={menuRef}>
+            <button className="user-dropdown-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+              <span className="user-avatar">👤</span>
+              <span className="user-dropdown-name">{user?.username || 'Menu'}</span>
+              <span className={`dropdown-arrow ${menuOpen ? 'open' : ''}`}>▾</span>
             </button>
-            {isUserAdmin && (
-              <button onClick={onAdmin} className="btn-change-state">
-                🛡️ Admin
-              </button>
+            {menuOpen && (
+              <div className="user-dropdown-menu">
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
+                  👤 Profile
+                </button>
+                {isUserAdmin && (
+                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
+                    🛡️ Admin
+                  </button>
+                )}
+                <div className="dropdown-divider" />
+                <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                  🚪 Logout
+                </button>
+              </div>
             )}
-            <button onClick={onLogout} className="btn-change-state btn-logout">
-              Logout
-            </button>
           </div>
         </div>
       </header>
