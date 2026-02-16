@@ -123,7 +123,7 @@ function Flashcards({ state, topic, onExit }) {
           <h2>🎴 Flashcards</h2>
           <p>Core Auction Concepts - {state}</p>
         </div>
-        <button onClick={onExit} className="btn-exit">Exit</button>
+        <button onClick={() => { if (window.confirm('Are you sure you want to exit?')) onExit(); }} className="btn-exit">Exit</button>
       </div>
 
       <div className="progress-bar">

@@ -27,8 +27,19 @@ async function apiFetch(endpoint, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...options.headers };
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
-  const res = await fetch(`${API_BASE}${endpoint}`, { ...options, headers });
-  const data = await res.json();
+  let res;
+  try {
+    res = await fetch(`${API_BASE}${endpoint}`, { ...options, headers });
+  } catch (networkError) {
+    throw new Error('Unable to connect to the server. It may be waking up — please wait a moment and try again.');
+  }
+
+  let data;
+  try {
+    data = await res.json();
+  } catch {
+    throw new Error('The server returned an unexpected response. Please try again.');
+  }
 
   if (!res.ok) {
     throw new Error(data.error || 'Something went wrong.');

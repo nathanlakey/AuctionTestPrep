@@ -313,7 +313,7 @@ function Game({ state, topic, onExit }) {
           <button onClick={togglePause} className="btn-pause">
             {gameState === 'paused' ? '▶️ Resume' : '⏸️ Pause'}
           </button>
-          <button onClick={onExit} className="btn-exit">Exit</button>
+          <button onClick={() => { if (window.confirm('Are you sure you want to exit? Your game progress will be lost.')) onExit(); }} className="btn-exit">Exit</button>
         </div>
       </div>
 

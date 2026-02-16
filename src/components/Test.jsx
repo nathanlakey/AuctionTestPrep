@@ -212,7 +212,7 @@ function Test({ state, questionCount, topic, onExit }) {
             <span>{formatTime(timeElapsed)}</span>
           </div>
         </div>
-        <button onClick={onExit} className="btn-exit">Exit</button>
+        <button onClick={() => { if (window.confirm('Are you sure you want to exit? Your progress will be lost.')) onExit(); }} className="btn-exit">Exit</button>
       </div>
 
       <div className="progress-bar">
