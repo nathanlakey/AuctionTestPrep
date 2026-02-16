@@ -115,7 +115,6 @@ function AppContent() {
   }
 
   const handleChangeState = () => {
-    setSelectedState(null)
     navigateTo('select')
   }
 
@@ -226,6 +225,7 @@ function AppContent() {
           onAdmin={handleAdmin}
           isUserAdmin={isAdmin(user)}
           user={user}
+          initialState={selectedState || ''}
         />
       )}
       
