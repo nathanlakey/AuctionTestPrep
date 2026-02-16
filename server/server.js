@@ -135,6 +135,8 @@ app.get('/api/health', async (req, res) => {
       database: process.env.TURSO_DATABASE_URL ? 'turso-cloud' : 'local-file',
       tursoUrl: process.env.TURSO_DATABASE_URL ? process.env.TURSO_DATABASE_URL.substring(0, 30) + '...' : 'NOT SET',
       userCount: result.rows[0].count,
+      resendKeySet: !!process.env.RESEND_API_KEY,
+      resendFrom: process.env.RESEND_FROM_EMAIL || 'NOT SET',
     });
   } catch (error) {
     res.status(500).json({ status: 'error', error: error.message });
@@ -342,7 +344,8 @@ app.post('/api/auth/forgot-password', async (req, res) => {
 
     // Send email via Resend
     const fromAddress = process.env.RESEND_FROM_EMAIL || 'Auction Academy <onboarding@resend.dev>';
-    await resend.emails.send({
+    console.log('Sending reset email...', { from: fromAddress, to: user.email, apiKeySet: !!process.env.RESEND_API_KEY });
+    const emailResult = await resend.emails.send({
       from: fromAddress,
       to: [user.email],
       subject: 'Reset Your Auction Academy Password',
@@ -369,10 +372,11 @@ app.post('/api/auth/forgot-password', async (req, res) => {
       `,
     });
 
+    console.log('Resend response:', JSON.stringify(emailResult));
     console.log(`Password reset email sent to ${user.email}`);
     res.json({ message: 'If an account with that email exists, a reset link has been sent.' });
   } catch (error) {
-    console.error('Forgot password error:', error.message);
+    console.error('Forgot password error:', error);
     res.status(500).json({ error: 'Server error sending reset email.' });
   }
 });
