@@ -3,45 +3,10 @@
   background: #f3f4f6;
 }
 
-.admin-header {
-  background: #001829;
-  color: white;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.admin-header-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.admin-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-.btn-back-admin {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0.5rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.95rem;
-  transition: background 0.3s;
-}
-
-.btn-back-admin:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
 .admin-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: calc(64px + 2rem) 2rem 2rem;
 }
 
 /* Stats Cards */
@@ -360,13 +325,7 @@
 /* Responsive */
 @media (max-width: 768px) {
   .admin-content {
-    padding: 1rem;
-  }
-
-  .admin-header-content {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
+    padding: calc(64px + 1rem) 1rem 1rem;
   }
 
   .admin-table th,

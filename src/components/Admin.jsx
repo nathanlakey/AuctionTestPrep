@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from './AuthContext';
 import './Admin.css';
 
@@ -29,7 +29,7 @@ export function isAdmin(user) {
   return false;
 }
 
-function Admin({ onBack }) {
+function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout, isUserAdmin }) {
   const { user } = useAuth();
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState('all');
@@ -40,6 +40,19 @@ function Admin({ onBack }) {
   const [tab, setTab] = useState('analytics'); // 'analytics' or 'users'
   const [analytics, setAnalytics] = useState(null);
   const [analyticsLoading, setAnalyticsLoading] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const showMessage = (text, type = 'success') => {
     setMessage({ text, type });
@@ -166,7 +179,7 @@ function Admin({ onBack }) {
         <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
           <h2>🚫 Access Denied</h2>
           <p>You do not have admin privileges.</p>
-          <button className="btn-back-admin" style={{ background: '#001829', marginTop: '1rem' }} onClick={onBack}>
+          <button style={{ background: '#001829', color: 'white', border: 'none', padding: '0.6rem 1.5rem', borderRadius: '6px', cursor: 'pointer', marginTop: '1rem' }} onClick={onBack}>
             Go Back
           </button>
         </div>
@@ -186,10 +199,36 @@ function Admin({ onBack }) {
 
   return (
     <div className="admin-container">
-      <header className="admin-header">
-        <div className="admin-header-content">
-          <h1>🛡️ Admin Dashboard</h1>
-          <button className="btn-back-admin" onClick={onBack}>← Back</button>
+      <header className="dashboard-header">
+        <div className="header-content">
+          <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
+          <nav className="header-nav">
+            <button className="nav-link" onClick={onChangeState}>HOME</button>
+            {state && <span className="nav-link nav-state">{state.toUpperCase()}</span>}
+            <button className="nav-link" onClick={onDashboard}>DASHBOARD</button>
+            <button className="nav-link" onClick={onChangeState}>CHANGE STATE</button>
+            <button className="nav-link" onClick={onProfile}>PROFILE</button>
+            <button className="nav-link nav-active" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>ADMIN</button>
+          </nav>
+          <div className="header-right" ref={menuRef}>
+            <button className="nav-cta" onClick={() => setMenuOpen(!menuOpen)}>
+              {user?.username?.toUpperCase() || 'MENU'} {menuOpen ? '▴' : '▾'}
+            </button>
+            {menuOpen && (
+              <div className="user-dropdown-menu">
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onDashboard(); }}>
+                  📊 Dashboard
+                </button>
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
+                  👤 Profile
+                </button>
+                <div className="dropdown-divider" />
+                <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                  🚪 Logout
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 

@@ -119,13 +119,7 @@ function AppContent() {
   }
 
   const handleDashboard = () => {
-    if (selectedState) {
-      navigateTo('dashboard')
-    } else {
-      // No state yet — go to select page (they're already there, so this is a no-op,
-      // but it ensures correct behavior from other pages)
-      navigateTo('select')
-    }
+    navigateTo('dashboard')
   }
 
   const handleStartTest = (questionCount, timed = false) => {
@@ -296,7 +290,13 @@ function AppContent() {
 
       {mode === 'admin' && (
         <Admin 
+          state={selectedState}
           onBack={handleAdminBack}
+          onChangeState={handleChangeState}
+          onDashboard={handleDashboard}
+          onProfile={handleProfile}
+          onLogout={handleLogout}
+          isUserAdmin={isAdmin(user)}
         />
       )}
 
