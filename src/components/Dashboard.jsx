@@ -62,9 +62,6 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
           </div>
         </div>
       </header>
-          </div>
-        </div>
-      </header>
 
       <div className="dashboard-content">
         <div className="welcome-section">
