@@ -385,6 +385,7 @@
   max-width: 1200px;
   margin: 0 auto;
   z-index: 5;
+  overflow: hidden;
 }
 
 /* Question display at top */
@@ -420,6 +421,7 @@
   width: 100%;
   height: 100%;
   z-index: 10; /* Above stars, below feedback */
+  overflow: hidden;
 }
 
 .bubble {
@@ -804,6 +806,28 @@
 
   .space-game-area {
     height: calc(100vh - 300px);
+  }
+
+  .game-over {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .game-over h2 {
+    font-size: 1.8rem;
+  }
+
+  .score-big {
+    font-size: 3.5rem;
+  }
+
+  .feedback-message {
+    padding: 1.5rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .game-question-section {
+    padding: 1rem;
   }
 }
 

@@ -38,6 +38,7 @@
   display: flex;
   align-items: center;
   gap: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .top-nav-link {
@@ -474,5 +475,10 @@
   .state-selector-card {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+    padding: 1.25rem;
+  }
+
+  .brand-header h2 {
+    font-size: 0.95rem;
   }
 }
