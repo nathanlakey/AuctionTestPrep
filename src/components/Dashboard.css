@@ -195,6 +195,54 @@
   font-size: 1.1rem;
 }
 
+/* ─── Study Streak Banner ─── */
+.streak-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.25rem;
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 2px solid #f59e0b;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.streak-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.streak-flame {
+  font-size: 1.6rem;
+}
+
+.streak-count {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #001829;
+  line-height: 1;
+}
+
+.streak-label {
+  font-size: 0.85rem;
+  color: #92400e;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.streak-divider {
+  width: 2px;
+  height: 40px;
+  background: #f59e0b;
+  border-radius: 1px;
+}
+
 .study-modes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
@@ -360,6 +408,19 @@
   
   .study-modes-grid {
     grid-template-columns: 1fr;
+  }
+
+  .streak-banner {
+    gap: 1.25rem;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .streak-count {
+    font-size: 1.5rem;
+  }
+
+  .streak-label {
+    font-size: 0.75rem;
   }
 }
 

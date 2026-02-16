@@ -75,6 +75,16 @@ async function initDatabase() {
     )
   `);
 
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS study_streaks (
+      user_id TEXT PRIMARY KEY,
+      current_streak INTEGER DEFAULT 0,
+      longest_streak INTEGER DEFAULT 0,
+      last_study_date TEXT,
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -443,6 +453,7 @@ app.post('/api/auth/reset-password', async (req, res) => {
 app.delete('/api/auth/account', authMiddleware, async (req, res) => {
   try {
     await db.execute({ sql: 'DELETE FROM test_results WHERE user_id = ?', args: [req.user.id] });
+    await db.execute({ sql: 'DELETE FROM study_streaks WHERE user_id = ?', args: [req.user.id] });
     await db.execute({ sql: 'DELETE FROM reset_tokens WHERE user_id = ?', args: [req.user.id] });
     await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [req.user.id] });
     res.json({ message: 'Account deleted.' });
@@ -480,6 +491,39 @@ app.post('/api/results', authMiddleware, async (req, res) => {
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       args: [id, req.user.id, state, mode, topic || 'All Topics', scoreCorrect, scoreTotal, scorePercentage, timeSeconds || 0]
     });
+
+    // ── Update study streak ──
+    const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+    const streakResult = await db.execute({ sql: 'SELECT * FROM study_streaks WHERE user_id = ?', args: [req.user.id] });
+
+    if (streakResult.rows.length === 0) {
+      // First ever result — start streak at 1
+      await db.execute({
+        sql: 'INSERT INTO study_streaks (user_id, current_streak, longest_streak, last_study_date) VALUES (?, 1, 1, ?)',
+        args: [req.user.id, today]
+      });
+    } else {
+      const streak = streakResult.rows[0];
+      const lastDate = streak.last_study_date;
+
+      if (lastDate === today) {
+        // Already studied today — no change
+      } else {
+        // Check if yesterday
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+        let newStreak;
+        if (lastDate === yesterday) {
+          newStreak = (streak.current_streak || 0) + 1;
+        } else {
+          newStreak = 1; // Streak broken, restart
+        }
+        const newLongest = Math.max(newStreak, streak.longest_streak || 0);
+        await db.execute({
+          sql: 'UPDATE study_streaks SET current_streak = ?, longest_streak = ?, last_study_date = ? WHERE user_id = ?',
+          args: [newStreak, newLongest, today, req.user.id]
+        });
+      }
+    }
 
     res.status(201).json({ message: 'Result saved.', id });
   } catch (error) {
@@ -534,9 +578,28 @@ app.get('/api/results/summary', authMiddleware, async (req, res) => {
       args: [req.user.id]
     });
 
+    // Include streak data in summary
+    const streakResult = await db.execute({ sql: 'SELECT * FROM study_streaks WHERE user_id = ?', args: [req.user.id] });
+    const streakData = streakResult.rows.length > 0 ? streakResult.rows[0] : null;
+
+    // Check if streak is still active (last study was today or yesterday)
+    let currentStreak = 0;
+    let longestStreak = 0;
+    if (streakData) {
+      const today = new Date().toISOString().split('T')[0];
+      const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+      longestStreak = streakData.longest_streak || 0;
+      if (streakData.last_study_date === today || streakData.last_study_date === yesterday) {
+        currentStreak = streakData.current_streak || 0;
+      }
+      // If last study was more than 1 day ago, streak is broken (currentStreak stays 0)
+    }
+
     const summary = {
       totalAttempts: totalResult.rows[0].total || 0,
       averageScore: totalResult.rows[0].avg_score ? Math.round(totalResult.rows[0].avg_score * 10) / 10 : 0,
+      currentStreak,
+      longestStreak,
       byMode: byModeResult.rows.map(row => ({
         mode: row.mode,
         count: row.count,

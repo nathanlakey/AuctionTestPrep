@@ -8,11 +8,26 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
   const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [streakData, setStreakData] = useState(null);
   const menuRef = useRef(null);
-  const { user } = useAuth();
+  const { user, getResultsSummary } = useAuth();
   
   // Get topics that actually have questions for the selected state
   const availableTopics = useMemo(() => getAvailableTopics(state), [state]);
+
+  // Load streak data on mount
+  useEffect(() => {
+    async function loadStreak() {
+      const result = await getResultsSummary();
+      if (result.success && result.summary) {
+        setStreakData({
+          current: result.summary.currentStreak || 0,
+          longest: result.summary.longestStreak || 0,
+        });
+      }
+    }
+    loadStreak();
+  }, [getResultsSummary]);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -67,6 +82,21 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
         <div className="welcome-section">
           <h2>Welcome to Your Study Dashboard</h2>
           <p>Choose your learning method and start preparing for your {state} auctioneer licensing exam</p>
+          {streakData && (
+            <div className="streak-banner">
+              <div className="streak-item">
+                <span className="streak-flame">{streakData.current > 0 ? '🔥' : '💤'}</span>
+                <span className="streak-count">{streakData.current}</span>
+                <span className="streak-label">Day Streak</span>
+              </div>
+              <div className="streak-divider" />
+              <div className="streak-item">
+                <span className="streak-flame">🏆</span>
+                <span className="streak-count">{streakData.longest}</span>
+                <span className="streak-label">Best Streak</span>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="study-modes-grid">

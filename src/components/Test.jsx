@@ -9,6 +9,7 @@ function Test({ state, questionCount, topic, onExit }) {
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const [timeElapsed, setTimeElapsed] = useState(0);
+  const [reviewFilter, setReviewFilter] = useState('all'); // 'all' or 'missed'
   const resultSaved = useRef(false);
   const { saveResult } = useAuth();
 
@@ -107,6 +108,7 @@ function Test({ state, questionCount, topic, onExit }) {
     setAnswers({});
     setShowResults(false);
     setTimeElapsed(0);
+    setReviewFilter('all');
   };
 
   if (showResults) {
@@ -130,15 +132,39 @@ function Test({ state, questionCount, topic, onExit }) {
           </div>
 
           <div className="results-review">
-            <h3>Review Your Answers</h3>
-            {questions.map((question, index) => {
+            <div className="review-filter-bar">
+              <h3>Review Your Answers</h3>
+              <div className="review-filter-buttons">
+                <button
+                  className={`review-filter-btn ${reviewFilter === 'all' ? 'active' : ''}`}
+                  onClick={() => setReviewFilter('all')}
+                >
+                  All ({questions.length})
+                </button>
+                <button
+                  className={`review-filter-btn missed ${reviewFilter === 'missed' ? 'active' : ''}`}
+                  onClick={() => setReviewFilter('missed')}
+                >
+                  ✗ Missed ({questions.filter(q => answers[q.id] !== q.correctAnswer).length})
+                </button>
+              </div>
+            </div>
+            {questions
+              .map((question, index) => ({ question, originalIndex: index }))
+              .filter(({ question }) => {
+                if (reviewFilter === 'missed') {
+                  return answers[question.id] !== question.correctAnswer;
+                }
+                return true;
+              })
+              .map(({ question, originalIndex }) => {
               const userAnswer = answers[question.id];
               const isCorrect = userAnswer === question.correctAnswer;
               
               return (
                 <div key={question.id} className={`review-question ${isCorrect ? 'correct' : 'incorrect'}`}>
                   <div className="review-header">
-                    <span className="question-number">Question {index + 1}</span>
+                    <span className="question-number">Question {originalIndex + 1}</span>
                     <span className={`result-badge ${isCorrect ? 'correct' : 'incorrect'}`}>
                       {isCorrect ? '✓ Correct' : '✗ Incorrect'}
                     </span>
@@ -174,6 +200,11 @@ function Test({ state, questionCount, topic, onExit }) {
                 </div>
               );
             })}
+            {reviewFilter === 'missed' && questions.filter(q => answers[q.id] !== q.correctAnswer).length === 0 && (
+              <div className="review-empty-state">
+                🎉 Perfect score! You didn't miss any questions!
+              </div>
+            )}
           </div>
 
           <div className="results-completion-message">
@@ -188,6 +219,17 @@ function Test({ state, questionCount, topic, onExit }) {
             <button onClick={handleRetake} className="btn-retake">
               🔄 Retake Test
             </button>
+            {questions.filter(q => answers[q.id] !== q.correctAnswer).length > 0 && (
+              <button
+                onClick={() => {
+                  setReviewFilter('missed');
+                  document.querySelector('.results-review')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="btn-review-missed"
+              >
+                🔍 Review Missed
+              </button>
+            )}
             <button onClick={onExit} className="btn-secondary">
               🏠 Main Menu
             </button>
