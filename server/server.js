@@ -11,7 +11,7 @@ import { Resend } from 'resend';
 
 // ─── Resend Email ─────────────────────────────────────────────────
 const resend = new Resend(process.env.RESEND_API_KEY);
-const CLIENT_URL = process.env.CLIENT_URL || 'https://auction-test-prep.vercel.app';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://www.auctionacademyprep.com';
 
 // ─── Config ───────────────────────────────────────────────────────
 const JWT_SECRET = process.env.JWT_SECRET || 'auction-academy-secret-key-change-in-production';
@@ -190,6 +190,8 @@ app.use(cors({
   origin: function (origin, callback) {
     const allowed = [
       'https://auction-test-prep.vercel.app',
+      'https://www.auctionacademyprep.com',
+      'https://auctionacademyprep.com',
       'http://localhost:5173',
       'http://localhost:3000'
     ];
