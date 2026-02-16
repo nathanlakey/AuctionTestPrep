@@ -30,7 +30,7 @@ function Payment({ onSuccess, onBack }) {
       const response = await fetch(`${apiBase}/api/create-checkout-session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ priceId: 'price_1T1EBuDlUV458a7kKN9vd0OU', mode: 'payment', userEmail: user?.email }),
+        body: JSON.stringify({ priceId: 'price_1T1ap8DlUV458a7kbVR3kjV3', mode: 'payment', userEmail: user?.email }),
       });
 
       if (!response.ok) {
