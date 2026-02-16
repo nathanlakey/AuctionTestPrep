@@ -29,40 +29,39 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
     <div className="dashboard-container">
       <header className="dashboard-header">
         <div className="header-content">
-          <div className="header-left">
-            <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
-            <div className="state-badge">
-              <span className="state-label">Studying for</span>
-              <span className="state-name">{state}</span>
-            </div>
-          </div>
-          <div className="header-right">
-            <button onClick={onChangeState} className="btn-change-state">
-              Change State
+          <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
+          <nav className="header-nav">
+            <button className="nav-link" onClick={onChangeState}>HOME</button>
+            <span className="nav-link nav-state">{state.toUpperCase()}</span>
+            <button className="nav-link" onClick={onChangeState}>CHANGE STATE</button>
+            <button className="nav-link" onClick={() => { onProfile(); }}>PROFILE</button>
+            {isUserAdmin && (
+              <button className="nav-link" onClick={() => { onAdmin(); }}>ADMIN</button>
+            )}
+          </nav>
+          <div className="header-right" ref={menuRef}>
+            <button className="nav-cta" onClick={() => setMenuOpen(!menuOpen)}>
+              {user?.username?.toUpperCase() || 'MENU'} {menuOpen ? '▴' : '▾'}
             </button>
-            <div className="user-dropdown" ref={menuRef}>
-              <button className="user-dropdown-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-                <span className="user-avatar">👤</span>
-                <span className="user-dropdown-name">{user?.username || 'Menu'}</span>
-                <span className={`dropdown-arrow ${menuOpen ? 'open' : ''}`}>▾</span>
-              </button>
-              {menuOpen && (
-                <div className="user-dropdown-menu">
-                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
-                    👤 Profile
+            {menuOpen && (
+              <div className="user-dropdown-menu">
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onProfile(); }}>
+                  👤 Profile
+                </button>
+                {isUserAdmin && (
+                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
+                    🛡️ Admin
                   </button>
-                  {isUserAdmin && (
-                    <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
-                      🛡️ Admin
-                    </button>
-                  )}
-                  <div className="dropdown-divider" />
-                  <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
-                    🚪 Logout
-                  </button>
-                </div>
-              )}
-            </div>
+                )}
+                <div className="dropdown-divider" />
+                <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                  🚪 Logout
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </header>
           </div>
         </div>
       </header>
