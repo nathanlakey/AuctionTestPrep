@@ -51,21 +51,35 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(getInitialUser);
 
   // On mount, verify token with server and refresh user data
+  // If returning from Stripe (?payment=success), mark paid FIRST so the
+  // subsequent /api/auth/me fetch returns the updated hasPaid flag.
   useEffect(() => {
     const token = getStoredToken();
-    if (token) {
-      apiFetch('/api/auth/me')
-        .then(data => {
-          setUser(data.user);
-          localStorage.setItem('auctionAcademyUser', JSON.stringify(data.user));
-        })
-        .catch(() => {
-          // Token invalid — clear session
-          localStorage.removeItem('auctionAcademyToken');
-          localStorage.removeItem('auctionAcademyUser');
-          setUser(null);
-        });
-    }
+    if (!token) return;
+
+    const init = async () => {
+      try {
+        // Handle Stripe payment return before refreshing user
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('payment') === 'success') {
+          try {
+            await apiFetch('/api/auth/mark-paid', { method: 'PUT' });
+          } catch {
+            // Fallback handled below
+          }
+        }
+
+        const data = await apiFetch('/api/auth/me');
+        setUser(data.user);
+        localStorage.setItem('auctionAcademyUser', JSON.stringify(data.user));
+      } catch {
+        // Token invalid — clear session
+        localStorage.removeItem('auctionAcademyToken');
+        localStorage.removeItem('auctionAcademyUser');
+        setUser(null);
+      }
+    };
+    init();
   }, []);
 
   const signup = useCallback(async (username, email, password) => {
