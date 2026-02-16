@@ -13,11 +13,34 @@ import Admin, { isAdmin } from './components/Admin'
 import './App.css'
 
 function AppContent() {
-  const [selectedState, setSelectedState] = useState(null)
-  const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game, studyguide, auth, payment
+  // Persist mode & state across refreshes via sessionStorage
+  const persistableModes = ['select', 'dashboard', 'profile', 'admin']
+
+  const [selectedState, setSelectedState] = useState(() => {
+    return sessionStorage.getItem('aa_selectedState') || null
+  })
+  const [mode, setMode] = useState(() => {
+    const saved = sessionStorage.getItem('aa_mode')
+    return (saved && persistableModes.includes(saved)) ? saved : 'select'
+  })
   const [testConfig, setTestConfig] = useState({})
   const [resetToken, setResetToken] = useState(null)
   const { user, logout, markAsPaid } = useAuth()
+
+  // Save mode & state to sessionStorage whenever they change
+  useEffect(() => {
+    if (persistableModes.includes(mode)) {
+      sessionStorage.setItem('aa_mode', mode)
+    }
+  }, [mode])
+
+  useEffect(() => {
+    if (selectedState) {
+      sessionStorage.setItem('aa_selectedState', selectedState)
+    } else {
+      sessionStorage.removeItem('aa_selectedState')
+    }
+  }, [selectedState])
 
   // Push browser history when mode changes so the back button works within the app
   const navigateTo = useCallback((newMode) => {
@@ -28,6 +51,13 @@ function AppContent() {
       return newMode
     })
   }, [])
+
+  // If not logged in, force back to select (don't stay on dashboard/profile/admin)
+  useEffect(() => {
+    if (!user && ['dashboard', 'profile', 'admin'].includes(mode)) {
+      setMode('select')
+    }
+  }, [user, mode])
 
   // Handle Stripe payment return — check for ?payment=success on page load
   useEffect(() => {
@@ -157,6 +187,8 @@ function AppContent() {
   const handleLogout = () => {
     logout()
     setSelectedState(null)
+    sessionStorage.removeItem('aa_mode')
+    sessionStorage.removeItem('aa_selectedState')
     navigateTo('select')
   }
 
