@@ -46,14 +46,7 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, o
           <div className="top-nav-links">
             {user ? (
               <>
-                <button className="top-nav-link top-nav-link-dashboard" onClick={() => {
-                  if (initialState) {
-                    onDashboard();
-                  } else {
-                    setSelectedMode(null);
-                    setShowStateDialog(true);
-                  }
-                }}>DASHBOARD</button>
+                <button className="top-nav-link top-nav-link-dashboard" onClick={onDashboard}>DASHBOARD</button>
                 {isUserAdmin && <button className="top-nav-link" onClick={onAdmin}>ADMIN</button>}
                 <button className="top-nav-link" onClick={onProfile}>PROFILE</button>
                 <button className="top-nav-link top-nav-link-logout" onClick={onLogout}>LOGOUT</button>

@@ -141,7 +141,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
           <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
           <nav className="header-nav">
             <button className="nav-link" onClick={onChangeState}>HOME</button>
-            <span className="nav-link nav-state">{state.toUpperCase()}</span>
+            {state && <span className="nav-link nav-state">{state.toUpperCase()}</span>}
             <button className="nav-link nav-active" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>DASHBOARD</button>
             <button className="nav-link" onClick={onChangeState}>CHANGE STATE</button>
             <button className="nav-link" onClick={() => { onProfile(); }}>PROFILE</button>
@@ -176,7 +176,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
       <div className="dashboard-content">
         <div className="welcome-section">
           <h2>Welcome to Your Study Dashboard</h2>
-          <p>Choose your learning method and start preparing for your {state} auctioneer licensing exam</p>
+          <p>Choose your learning method and start preparing for your {state || ''} auctioneer licensing exam</p>
         </div>
 
         {/* ── Exam Countdown + Score Chart Row ── */}
