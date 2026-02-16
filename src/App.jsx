@@ -9,6 +9,7 @@ import StudyGuide from './components/StudyGuide'
 import AuthPage from './components/AuthPage'
 import Payment from './components/Payment'
 import Profile from './components/Profile'
+import Admin, { isAdmin } from './components/Admin'
 import './App.css'
 
 function AppContent() {
@@ -127,6 +128,18 @@ function AppContent() {
     }
   }
 
+  const handleAdmin = () => {
+    navigateTo('admin')
+  }
+
+  const handleAdminBack = () => {
+    if (selectedState) {
+      navigateTo('dashboard')
+    } else {
+      navigateTo('select')
+    }
+  }
+
   const handleAuthSuccess = () => {
     // Check payment status from localStorage (source of truth, written synchronously by auth functions)
     const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
@@ -167,6 +180,8 @@ function AppContent() {
           onLogin={handleLogin}
           onLogout={handleLogout}
           onProfile={handleProfile}
+          onAdmin={handleAdmin}
+          isUserAdmin={isAdmin(user)}
           user={user}
         />
       )}
@@ -181,6 +196,8 @@ function AppContent() {
           onStartGame={handleStartGame}
           onStartStudyGuide={handleStartStudyGuide}
           onProfile={handleProfile}
+          onAdmin={handleAdmin}
+          isUserAdmin={isAdmin(user)}
         />
       )}
       
@@ -212,6 +229,12 @@ function AppContent() {
       {mode === 'profile' && (
         <Profile 
           onBack={handleProfileBack}
+        />
+      )}
+
+      {mode === 'admin' && (
+        <Admin 
+          onBack={handleAdminBack}
         />
       )}
 

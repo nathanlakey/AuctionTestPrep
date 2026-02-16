@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { getAvailableTopics } from '../data/questionBank';
 import './Dashboard.css';
 
-function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onProfile }) {
+function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onProfile, onAdmin, isUserAdmin }) {
   const [flashcardTopic, setFlashcardTopic] = useState('');
   const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
@@ -24,6 +24,11 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             <button onClick={onProfile} className="btn-change-state">
               👤 Profile
             </button>
+            {isUserAdmin && (
+              <button onClick={onAdmin} className="btn-change-state">
+                🛡️ Admin
+              </button>
+            )}
           </div>
         </div>
       </header>

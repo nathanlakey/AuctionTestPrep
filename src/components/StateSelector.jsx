@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { states } from '../data/questionBank';
 import './StateSelector.css';
 
-function StateSelector({ onSelectState, onLogin, onLogout, onProfile, user }) {
+function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, isUserAdmin, user }) {
   const [selectedState, setSelectedState] = useState('');
   const [showStateDialog, setShowStateDialog] = useState(false);
   const [selectedMode, setSelectedMode] = useState(null);
@@ -34,6 +34,7 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, user }) {
           {user ? (
             <div className="user-menu">
               <span className="user-greeting">👋 {user.username}</span>
+              {isUserAdmin && <button className="admin-btn" onClick={onAdmin}>🛡️ Admin</button>}
               <button className="profile-btn" onClick={onProfile}>👤 Profile</button>
               <button className="logout-btn" onClick={onLogout}>Logout</button>
             </div>
