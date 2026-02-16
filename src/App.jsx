@@ -17,86 +17,113 @@ function AppContent() {
   const [testConfig, setTestConfig] = useState({})
   const { user, logout } = useAuth()
 
+  // Push browser history when mode changes so the back button works within the app
+  const navigateTo = useCallback((newMode) => {
+    setMode(prevMode => {
+      if (prevMode !== newMode) {
+        window.history.pushState({ mode: newMode }, '', window.location.pathname)
+      }
+      return newMode
+    })
+  }, [])
+
+  // Listen for browser back/forward button — always return to home page
+  useEffect(() => {
+    const handlePopState = () => {
+      setSelectedState(null)
+      setMode('select')
+      // Replace history state so further back presses continue to work
+      window.history.replaceState({ mode: 'select' }, '', window.location.pathname)
+    }
+
+    window.addEventListener('popstate', handlePopState)
+
+    // Replace current history entry with initial state
+    window.history.replaceState({ mode: 'select' }, '', window.location.pathname)
+
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
   const handleSelectState = (state, selectedMode = null) => {
     // If user is not logged in or hasn't paid, redirect to auth/payment
     if (!user) {
-      setMode('auth')
+      navigateTo('auth')
       return
     }
     if (!user.hasPaid) {
-      setMode('payment')
+      navigateTo('payment')
       return
     }
 
     setSelectedState(state)
     if (selectedMode === 'test') {
       setTestConfig({ questionCount: 75, topic: 'All Topics' })
-      setMode('test')
+      navigateTo('test')
     } else if (selectedMode === 'quiz') {
-      setMode('dashboard') // Go to dashboard to select topic
+      navigateTo('dashboard') // Go to dashboard to select topic
     } else if (selectedMode === 'flashcards') {
       setTestConfig({ topic: 'All Topics' })
-      setMode('flashcards')
+      navigateTo('flashcards')
     } else if (selectedMode === 'game') {
       setTestConfig({ topic: 'All Topics' })
-      setMode('game')
+      navigateTo('game')
     } else {
-      setMode('dashboard')
+      navigateTo('dashboard')
     }
   }
 
   const handleChangeState = () => {
     setSelectedState(null)
-    setMode('select')
+    navigateTo('select')
   }
 
   const handleStartTest = (questionCount) => {
     setTestConfig({ questionCount, topic: 'All Topics' })
-    setMode('test')
+    navigateTo('test')
   }
 
   const handleStartQuiz = (topic, questionCount) => {
     setTestConfig({ questionCount, topic: topic || 'All Topics' })
-    setMode('test')
+    navigateTo('test')
   }
 
   const handleStartFlashcards = (topic) => {
     setTestConfig({ topic: topic || 'All Topics' })
-    setMode('flashcards')
+    navigateTo('flashcards')
   }
 
   const handleStartGame = (topic) => {
     setTestConfig({ topic: topic || 'All Topics' })
-    setMode('game')
+    navigateTo('game')
   }
 
   const handleStartStudyGuide = () => {
-    setMode('studyguide')
+    navigateTo('studyguide')
   }
 
   const handleExit = () => {
-    setMode('dashboard')
+    navigateTo('dashboard')
   }
 
   const handleLogin = () => {
-    setMode('auth')
+    navigateTo('auth')
   }
 
   const handleLogout = () => {
     logout()
     setSelectedState(null)
-    setMode('select')
+    navigateTo('select')
   }
 
   const handleProfile = () => {
-    setMode('profile')
+    navigateTo('profile')
   }
 
   const handleProfileBack = () => {
     if (selectedState) {
-      setMode('dashboard')
+      navigateTo('dashboard')
     } else {
-      setMode('select')
+      navigateTo('select')
     }
   }
 
@@ -104,18 +131,18 @@ function AppContent() {
     // Check payment status from localStorage (source of truth, written synchronously by auth functions)
     const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
     if (currentUser.hasPaid) {
-      setMode('select')
+      navigateTo('select')
     } else {
-      setMode('payment')
+      navigateTo('payment')
     }
   }
 
   const handlePaymentSuccess = () => {
-    setMode('select')
+    navigateTo('select')
   }
 
   const handlePaymentBack = () => {
-    setMode('select')
+    navigateTo('select')
   }
 
   return (
@@ -123,7 +150,7 @@ function AppContent() {
       {mode === 'auth' && (
         <AuthPage 
           onAuthSuccess={handleAuthSuccess} 
-          onBack={() => setMode('select')} 
+          onBack={() => navigateTo('select')} 
         />
       )}
 
