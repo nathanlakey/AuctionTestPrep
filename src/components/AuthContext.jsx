@@ -49,7 +49,7 @@ export function AuthProvider({ children }) {
     users.push(newUser);
     localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
 
-    const sessionUser = { id: newUser.id, username: newUser.username, email: newUser.email, hasPaid: newUser.hasPaid };
+    const sessionUser = { id: newUser.id, username: newUser.username, email: newUser.email, hasPaid: newUser.hasPaid, createdAt: newUser.createdAt, firstName: '', lastName: '', phone: '' };
     setUser(sessionUser);
     localStorage.setItem('auctionAcademyUser', JSON.stringify(sessionUser));
     
@@ -65,7 +65,7 @@ export function AuthProvider({ children }) {
       return { success: false, error: 'Invalid email or password.' };
     }
 
-    const sessionUser = { id: foundUser.id, username: foundUser.username, email: foundUser.email, hasPaid: foundUser.hasPaid };
+    const sessionUser = { id: foundUser.id, username: foundUser.username, email: foundUser.email, hasPaid: foundUser.hasPaid, createdAt: foundUser.createdAt, firstName: foundUser.firstName || '', lastName: foundUser.lastName || '', phone: foundUser.phone || '' };
     setUser(sessionUser);
     localStorage.setItem('auctionAcademyUser', JSON.stringify(sessionUser));
     
@@ -93,8 +93,61 @@ export function AuthProvider({ children }) {
     });
   }, []);
 
+  const updateProfile = useCallback(async (updates) => {
+    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
+    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}');
+
+    // Check for duplicate username/email (exclude self)
+    if (updates.username && users.find(u => u.username === updates.username && u.id !== currentUser.id)) {
+      return { success: false, error: 'This username is already taken.' };
+    }
+    if (updates.email && users.find(u => u.email === updates.email && u.id !== currentUser.id)) {
+      return { success: false, error: 'This email is already in use.' };
+    }
+
+    const userIndex = users.findIndex(u => u.id === currentUser.id);
+    if (userIndex === -1) return { success: false, error: 'User not found.' };
+
+    // Update stored user
+    users[userIndex] = { ...users[userIndex], ...updates };
+    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
+
+    // Update session
+    const updatedSession = { ...currentUser, ...updates };
+    localStorage.setItem('auctionAcademyUser', JSON.stringify(updatedSession));
+    setUser(updatedSession);
+
+    return { success: true };
+  }, []);
+
+  const changePassword = useCallback(async (currentPassword, newPassword) => {
+    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
+    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}');
+    const userIndex = users.findIndex(u => u.id === currentUser.id);
+    if (userIndex === -1) return { success: false, error: 'User not found.' };
+
+    const hashedCurrent = await hashPassword(currentPassword);
+    if (users[userIndex].password !== hashedCurrent) {
+      return { success: false, error: 'Current password is incorrect.' };
+    }
+
+    users[userIndex].password = await hashPassword(newPassword);
+    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
+
+    return { success: true };
+  }, []);
+
+  const deleteAccount = useCallback(() => {
+    const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}');
+    let users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
+    users = users.filter(u => u.id !== currentUser.id);
+    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
+    localStorage.removeItem('auctionAcademyUser');
+    setUser(null);
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid }}>
+    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount }}>
       {children}
     </AuthContext.Provider>
   );

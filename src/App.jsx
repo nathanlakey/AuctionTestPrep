@@ -8,6 +8,7 @@ import Game from './components/Game'
 import StudyGuide from './components/StudyGuide'
 import AuthPage from './components/AuthPage'
 import Payment from './components/Payment'
+import Profile from './components/Profile'
 import './App.css'
 
 function AppContent() {
@@ -87,6 +88,18 @@ function AppContent() {
     setMode('select')
   }
 
+  const handleProfile = () => {
+    setMode('profile')
+  }
+
+  const handleProfileBack = () => {
+    if (selectedState) {
+      setMode('dashboard')
+    } else {
+      setMode('select')
+    }
+  }
+
   const handleAuthSuccess = () => {
     // Check payment status from localStorage (source of truth, written synchronously by auth functions)
     const currentUser = JSON.parse(localStorage.getItem('auctionAcademyUser') || '{}')
@@ -126,6 +139,7 @@ function AppContent() {
           onSelectState={handleSelectState} 
           onLogin={handleLogin}
           onLogout={handleLogout}
+          onProfile={handleProfile}
           user={user}
         />
       )}
@@ -139,6 +153,7 @@ function AppContent() {
           onStartFlashcards={handleStartFlashcards}
           onStartGame={handleStartGame}
           onStartStudyGuide={handleStartStudyGuide}
+          onProfile={handleProfile}
         />
       )}
       
@@ -164,6 +179,12 @@ function AppContent() {
           state={selectedState}
           topic={testConfig.topic}
           onExit={handleExit}
+        />
+      )}
+
+      {mode === 'profile' && (
+        <Profile 
+          onBack={handleProfileBack}
         />
       )}
 
