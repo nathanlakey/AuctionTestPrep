@@ -20,6 +20,7 @@ server/users.db-shm
 
 # Sensitive files
 USER_ACCOUNTS.md
+SERVICES.md
 
 # Editor directories and files
 .vscode/*

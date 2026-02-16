@@ -222,6 +222,7 @@ function AppContent() {
           onStartStudyGuide={handleStartStudyGuide}
           onProfile={handleProfile}
           onAdmin={handleAdmin}
+          onLogout={handleLogout}
           isUserAdmin={isAdmin(user)}
         />
       )}

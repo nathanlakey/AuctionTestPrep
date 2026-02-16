@@ -68,6 +68,15 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+.btn-change-state.btn-logout {
+  background: rgba(214, 0, 0, 0.3);
+  border-color: rgba(214, 0, 0, 0.5);
+}
+
+.btn-change-state.btn-logout:hover {
+  background: rgba(214, 0, 0, 0.5);
+}
+
 .dashboard-content {
   max-width: 1200px;
   margin: 0 auto;
