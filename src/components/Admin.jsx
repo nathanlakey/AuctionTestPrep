@@ -43,6 +43,8 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
   const [menuOpen, setMenuOpen] = useState(false);
   const [reportedQuestions, setReportedQuestions] = useState([]);
   const [reportsLoading, setReportsLoading] = useState(true);
+  const [feedbackList, setFeedbackList] = useState([]);
+  const [feedbackLoading, setFeedbackLoading] = useState(true);
   const menuRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -97,13 +99,26 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
     }
   }, []);
 
+  // Fetch feedback submissions
+  const loadFeedback = useCallback(async () => {
+    try {
+      const data = await adminFetch('/api/admin/feedback');
+      setFeedbackList(data.feedback || []);
+    } catch (err) {
+      showMessage(err.message, 'error');
+    } finally {
+      setFeedbackLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     if (isAdmin(user)) {
       loadUsers();
       loadAnalytics();
       loadReports();
+      loadFeedback();
     }
-  }, [user, loadUsers, loadAnalytics, loadReports]);
+  }, [user, loadUsers, loadAnalytics, loadReports, loadFeedback]);
 
   // Filter & search
   const filteredUsers = useMemo(() => {
@@ -202,6 +217,29 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
     }
   };
 
+  const updateFeedbackStatus = async (feedbackId, status) => {
+    try {
+      await adminFetch(`/api/admin/feedback/${feedbackId}`, {
+        method: 'PUT',
+        body: JSON.stringify({ status }),
+      });
+      showMessage(`Feedback marked as ${status}`);
+      loadFeedback();
+    } catch (err) {
+      showMessage(err.message, 'error');
+    }
+  };
+
+  const deleteFeedback = async (feedbackId) => {
+    try {
+      await adminFetch(`/api/admin/feedback/${feedbackId}`, { method: 'DELETE' });
+      showMessage('Feedback deleted');
+      loadFeedback();
+    } catch (err) {
+      showMessage(err.message, 'error');
+    }
+  };
+
   const formatDate = (dateStr) => {
     if (!dateStr) return 'N/A';
     return new Date(dateStr).toLocaleDateString('en-US', {
@@ -286,6 +324,11 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
           <button className={`admin-tab ${tab === 'reports' ? 'active' : ''}`} onClick={() => setTab('reports')}>
             ⚠️ Reported Questions {reportedQuestions.filter(r => r.status === 'open').length > 0 && (
               <span className="report-badge-count">{reportedQuestions.filter(r => r.status === 'open').length}</span>
+            )}
+          </button>
+          <button className={`admin-tab ${tab === 'feedback' ? 'active' : ''}`} onClick={() => setTab('feedback')}>
+            📧 Feedback {feedbackList.filter(f => f.status === 'new').length > 0 && (
+              <span className="report-badge-count">{feedbackList.filter(f => f.status === 'new').length}</span>
             )}
           </button>
         </div>
@@ -589,7 +632,79 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
         )}
       </div>
 
-      {/* Delete Confirmation Modal */}
+      {/* ── FEEDBACK TAB ── */}
+      {tab === 'feedback' && (
+        <div className="reports-section">
+          {feedbackLoading ? (
+            <p style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>Loading feedback...</p>
+          ) : feedbackList.length === 0 ? (
+            <div className="admin-empty">
+              <div className="empty-icon">📧</div>
+              <p>No feedback submissions yet.</p>
+            </div>
+          ) : (
+            <div className="admin-table-card">
+              <div className="admin-table-header">
+                <h2>📧 Feedback ({feedbackList.length})</h2>
+              </div>
+              <div className="admin-table-wrapper">
+                <table className="admin-table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Contact</th>
+                      <th>Message</th>
+                      <th>User</th>
+                      <th>Status</th>
+                      <th>Date</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {feedbackList.map((fb) => (
+                      <tr key={fb.id}>
+                        <td><strong>{fb.name || '—'}</strong></td>
+                        <td>{fb.email || '—'}</td>
+                        <td className="report-question-cell">{fb.message}</td>
+                        <td>{fb.username}</td>
+                        <td>
+                          <span className={`badge badge-feedback-${fb.status}`}>
+                            {fb.status === 'new' ? '🔵 New' : fb.status === 'read' ? '🟡 Read' : '🟢 Resolved'}
+                          </span>
+                        </td>
+                        <td>{formatDate(fb.created_at)}</td>
+                        <td>
+                          <div className="admin-actions">
+                            {fb.status === 'new' && (
+                              <button className="btn-admin-action btn-grant" onClick={() => updateFeedbackStatus(fb.id, 'read')}>
+                                👁️ Mark Read
+                              </button>
+                            )}
+                            {(fb.status === 'new' || fb.status === 'read') && (
+                              <button className="btn-admin-action btn-make-admin" onClick={() => updateFeedbackStatus(fb.id, 'resolved')}>
+                                ✅ Resolved
+                              </button>
+                            )}
+                            {fb.status !== 'new' && (
+                              <button className="btn-admin-action btn-grant" onClick={() => updateFeedbackStatus(fb.id, 'new')}>
+                                🔄 Reopen
+                              </button>
+                            )}
+                            <button className="btn-admin-action btn-delete-user" onClick={() => deleteFeedback(fb.id)}>
+                              🗑️ Delete
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
       {deleteTarget && (
         <div className="admin-confirm-overlay" onClick={() => setDeleteTarget(null)}>
           <div className="admin-confirm-dialog" onClick={(e) => e.stopPropagation()}>

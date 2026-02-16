@@ -63,6 +63,15 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
   const [examDate, setExamDate] = useState(null);
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [dateInput, setDateInput] = useState('');
+
+  // Feedback / Contact Us modal
+  const [feedbackModal, setFeedbackModal] = useState(false);
+  const [feedbackName, setFeedbackName] = useState('');
+  const [feedbackEmail, setFeedbackEmail] = useState('');
+  const [feedbackMessage, setFeedbackMessage] = useState('');
+  const [feedbackStatus, setFeedbackStatus] = useState(null); // null, 'sending', 'sent', 'error'
+
+  const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
   
   // Get topics that actually have questions for the selected state
   const availableTopics = useMemo(() => getAvailableTopics(state), [state]);
@@ -134,6 +143,49 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
     setShowDatePicker(false);
   };
 
+  const openFeedbackModal = () => {
+    setFeedbackName(user ? `${user.firstName || ''} ${user.lastName || ''}`.trim() : '');
+    setFeedbackEmail(user?.email || '');
+    setFeedbackMessage('');
+    setFeedbackStatus(null);
+    setFeedbackModal(true);
+  };
+
+  const closeFeedbackModal = () => {
+    setFeedbackModal(false);
+    setFeedbackName('');
+    setFeedbackEmail('');
+    setFeedbackMessage('');
+    setFeedbackStatus(null);
+  };
+
+  const handleSubmitFeedback = async () => {
+    if (!feedbackMessage.trim()) return;
+    setFeedbackStatus('sending');
+    try {
+      const token = localStorage.getItem('auctionAcademyToken');
+      const res = await fetch(`${API_BASE}/api/feedback`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          name: feedbackName,
+          email: feedbackEmail,
+          message: feedbackMessage,
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to submit feedback.');
+      setFeedbackStatus('sent');
+      setTimeout(() => closeFeedbackModal(), 2000);
+    } catch (err) {
+      console.error('Feedback submit error:', err);
+      setFeedbackStatus('error');
+    }
+  };
+
   return (
     <div className="dashboard-container">
       <header className="dashboard-header">
@@ -163,6 +215,9 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
                     🛡️ Admin
                   </button>
                 )}
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); openFeedbackModal(); }}>
+                  📧 Contact Us
+                </button>
                 <div className="dropdown-divider" />
                 <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
                   🚪 Logout
@@ -391,6 +446,74 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
           </div>
         </div>
       </div>
+
+      {/* ── Contact Us / Feedback Modal ── */}
+      {feedbackModal && (
+        <div className="report-modal-overlay" onClick={closeFeedbackModal}>
+          <div className="report-modal" onClick={(e) => e.stopPropagation()}>
+            {feedbackStatus === 'sent' ? (
+              <div className="report-success">
+                ✅ Thank you! Your message has been sent. We'll get back to you soon.
+              </div>
+            ) : (
+              <>
+                <h3>📧 Contact Us</h3>
+                <p style={{ color: '#666', marginBottom: '1rem', fontSize: '0.9rem', lineHeight: '1.5' }}>
+                  Have a question, suggestion, or issue? Let us know and we'll get back to you.
+                </p>
+
+                <label className="report-label">Your Name</label>
+                <input
+                  type="text"
+                  className="feedback-input"
+                  placeholder="Your name"
+                  value={feedbackName}
+                  onChange={(e) => setFeedbackName(e.target.value)}
+                />
+
+                <label className="report-label" style={{ marginTop: '0.75rem' }}>How Should We Contact You?</label>
+                <input
+                  type="text"
+                  className="feedback-input"
+                  placeholder="Email, phone number, etc."
+                  value={feedbackEmail}
+                  onChange={(e) => setFeedbackEmail(e.target.value)}
+                />
+
+                <label className="report-label" style={{ marginTop: '0.75rem' }}>Your Message</label>
+                <textarea
+                  className="report-textarea"
+                  rows={4}
+                  placeholder="Describe your question, issue, or feedback..."
+                  value={feedbackMessage}
+                  onChange={(e) => setFeedbackMessage(e.target.value)}
+                />
+
+                {feedbackStatus === 'error' && (
+                  <div className="report-error">Something went wrong. Please try again or email us at hello@auctionacademy.com</div>
+                )}
+
+                <div className="report-actions">
+                  <button
+                    className="btn-report-submit"
+                    onClick={handleSubmitFeedback}
+                    disabled={!feedbackMessage.trim() || feedbackStatus === 'sending'}
+                  >
+                    {feedbackStatus === 'sending' ? 'Sending...' : 'Send Message'}
+                  </button>
+                  <button className="btn-report-cancel" onClick={closeFeedbackModal}>
+                    Cancel
+                  </button>
+                </div>
+
+                <p style={{ color: '#9ca3af', fontSize: '0.8rem', marginTop: '1rem', textAlign: 'center' }}>
+                  Or email us directly at <a href="mailto:hello@auctionacademy.com" style={{ color: '#d60000' }}>hello@auctionacademy.com</a>
+                </p>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

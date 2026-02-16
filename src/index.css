@@ -197,3 +197,48 @@ body {
   background: rgba(255, 255, 255, 0.12);
   margin: 0.25rem 0;
 }
+
+/* ─── Feedback Form Input ─── */
+.feedback-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus {
+  outline: none;
+  border-color: #001829;
+}
+
+/* ─── Feedback Status Badges (Admin) ─── */
+.badge-feedback-new {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-feedback-read {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-feedback-resolved {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

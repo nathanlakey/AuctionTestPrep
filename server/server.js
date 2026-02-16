@@ -121,6 +121,19 @@ async function initDatabase() {
     )
   `);
 
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS feedback (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      name TEXT DEFAULT '',
+      email TEXT DEFAULT '',
+      message TEXT NOT NULL,
+      status TEXT DEFAULT 'new',
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -911,6 +924,74 @@ app.delete('/api/admin/reported-questions/:id', authMiddleware, adminMiddleware,
   } catch (error) {
     console.error('Delete report error:', error.message);
     res.status(500).json({ error: 'Server error deleting report.' });
+  }
+});
+
+// ─── Feedback / Contact Us Routes ─────────────────────────────────
+
+// POST /api/feedback — submit feedback (authenticated user)
+app.post('/api/feedback', authMiddleware, async (req, res) => {
+  try {
+    const { name, email, message } = req.body;
+    if (!message || !message.trim()) {
+      return res.status(400).json({ error: 'Message is required.' });
+    }
+
+    const id = uuidv4();
+    await db.execute({
+      sql: 'INSERT INTO feedback (id, user_id, name, email, message) VALUES (?, ?, ?, ?, ?)',
+      args: [id, req.user.id, name || '', email || '', message.trim()]
+    });
+
+    res.json({ success: true, message: 'Feedback submitted successfully.' });
+  } catch (error) {
+    console.error('Submit feedback error:', error.message);
+    res.status(500).json({ error: 'Server error submitting feedback.' });
+  }
+});
+
+// GET /api/admin/feedback — get all feedback (admin only)
+app.get('/api/admin/feedback', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    const result = await db.execute(`
+      SELECT f.*, u.username
+      FROM feedback f
+      JOIN users u ON f.user_id = u.id
+      ORDER BY f.created_at DESC
+    `);
+    res.json({ feedback: result.rows });
+  } catch (error) {
+    console.error('Get feedback error:', error.message);
+    res.status(500).json({ error: 'Server error fetching feedback.' });
+  }
+});
+
+// PUT /api/admin/feedback/:id — update feedback status (admin only)
+app.put('/api/admin/feedback/:id', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    const { status } = req.body;
+    if (!['new', 'read', 'resolved'].includes(status)) {
+      return res.status(400).json({ error: 'Invalid status. Use new, read, or resolved.' });
+    }
+    await db.execute({
+      sql: 'UPDATE feedback SET status = ? WHERE id = ?',
+      args: [status, req.params.id]
+    });
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Update feedback status error:', error.message);
+    res.status(500).json({ error: 'Server error updating feedback.' });
+  }
+});
+
+// DELETE /api/admin/feedback/:id — delete feedback (admin only)
+app.delete('/api/admin/feedback/:id', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    await db.execute({ sql: 'DELETE FROM feedback WHERE id = ?', args: [req.params.id] });
+    res.json({ success: true, message: 'Feedback deleted.' });
+  } catch (error) {
+    console.error('Delete feedback error:', error.message);
+    res.status(500).json({ error: 'Server error deleting feedback.' });
   }
 });
 
