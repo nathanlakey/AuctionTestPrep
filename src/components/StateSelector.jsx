@@ -93,9 +93,12 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, o
               </div>
             </>
           ) : (
-            <div className="header-right">
-              <button className="nav-cta" onClick={onLogin}>SIGN IN</button>
-            </div>
+            <>
+              <nav className="header-nav" />
+              <div className="header-right">
+                <button className="nav-cta" onClick={onLogin}>SIGN IN</button>
+              </div>
+            </>
           )}
         </div>
       </header>
