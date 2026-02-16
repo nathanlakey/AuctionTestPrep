@@ -1,17 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
 import './AuthPage.css';
 
-function AuthPage({ onAuthSuccess, onBack }) {
+function AuthPage({ onAuthSuccess, onBack, resetToken, onResetComplete }) {
   const [isLogin, setIsLogin] = useState(true);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
+  const [isResetWithToken, setIsResetWithToken] = useState(false);
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
-  const { login, signup, resetPassword } = useAuth();
+  const [isSending, setIsSending] = useState(false);
+  const { login, signup, forgotPassword, resetPasswordWithToken } = useAuth();
+
+  // If a reset token is passed via URL, show the "enter new password" form
+  useEffect(() => {
+    if (resetToken) {
+      setIsResetWithToken(true);
+      setIsForgotPassword(false);
+      setIsLogin(true);
+      setError('');
+      setSuccessMsg('');
+    }
+  }, [resetToken]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -48,17 +61,37 @@ function AuthPage({ onAuthSuccess, onBack }) {
     }
   };
 
-  const handleResetPassword = async (e) => {
+  // Send reset email
+  const handleForgotPassword = async (e) => {
     e.preventDefault();
     setError('');
     setSuccessMsg('');
 
-    if (!email.trim() || !username.trim()) {
-      setError('Please enter both your email and username.');
+    if (!email.trim()) {
+      setError('Please enter your email address.');
       return;
     }
+
+    setIsSending(true);
+    const result = await forgotPassword(email.trim());
+    setIsSending(false);
+
+    if (result.success) {
+      setSuccessMsg('✅ If an account with that email exists, a password reset link has been sent. Check your inbox (and spam folder)!');
+      setEmail('');
+    } else {
+      setError(result.error);
+    }
+  };
+
+  // Reset password with token from email link
+  const handleResetWithToken = async (e) => {
+    e.preventDefault();
+    setError('');
+    setSuccessMsg('');
+
     if (password.length < 6) {
-      setError('New password must be at least 6 characters.');
+      setError('Password must be at least 6 characters.');
       return;
     }
     if (password !== confirmPassword) {
@@ -66,16 +99,19 @@ function AuthPage({ onAuthSuccess, onBack }) {
       return;
     }
 
-    const result = await resetPassword(email.trim(), username.trim(), password);
+    setIsSending(true);
+    const result = await resetPasswordWithToken(resetToken, password);
+    setIsSending(false);
+
     if (result.success) {
-      setSuccessMsg('Password reset successfully! You can now sign in.');
+      setSuccessMsg('✅ Password reset successfully! You can now sign in with your new password.');
       setPassword('');
       setConfirmPassword('');
-      setUsername('');
       setTimeout(() => {
-        setIsForgotPassword(false);
+        setIsResetWithToken(false);
         setSuccessMsg('');
-      }, 2500);
+        if (onResetComplete) onResetComplete();
+      }, 3000);
     } else {
       setError(result.error);
     }
@@ -83,26 +119,31 @@ function AuthPage({ onAuthSuccess, onBack }) {
 
   const switchToForgot = () => {
     setIsForgotPassword(true);
+    setIsResetWithToken(false);
     setIsLogin(true);
     setError('');
     setSuccessMsg('');
     setPassword('');
     setConfirmPassword('');
     setUsername('');
+    setEmail('');
   };
 
   const switchToLogin = () => {
     setIsForgotPassword(false);
+    setIsResetWithToken(false);
     setIsLogin(true);
     setError('');
     setSuccessMsg('');
     setPassword('');
     setConfirmPassword('');
     setUsername('');
+    setEmail('');
+    if (onResetComplete) onResetComplete();
   };
 
-  // Forgot Password view
-  if (isForgotPassword) {
+  // ─── Reset Password with Token (from email link) ───
+  if (isResetWithToken && resetToken) {
     return (
       <div className="auth-container">
         <div className="auth-card">
@@ -112,42 +153,18 @@ function AuthPage({ onAuthSuccess, onBack }) {
 
           <div className="auth-header">
             <img src="/auction-academy-logo.png" alt="Auction Academy" className="auth-logo" />
-            <h2>Reset Password</h2>
-            <p>Enter your email and username to verify your identity, then choose a new password.</p>
+            <h2>Choose New Password</h2>
+            <p>Enter your new password below.</p>
           </div>
 
           {error && <div className="auth-error">{error}</div>}
           {successMsg && <div className="auth-success">{successMsg}</div>}
 
-          <form onSubmit={handleResetPassword} className="auth-form">
+          <form onSubmit={handleResetWithToken} className="auth-form">
             <div className="form-group">
-              <label htmlFor="reset-email">Email</label>
+              <label htmlFor="new-password">New Password</label>
               <input
-                id="reset-email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your account email"
-                required
-              />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="reset-username">Username</label>
-              <input
-                id="reset-username"
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Enter your username"
-                required
-              />
-            </div>
-
-            <div className="form-group">
-              <label htmlFor="reset-password">New Password</label>
-              <input
-                id="reset-password"
+                id="new-password"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -158,9 +175,9 @@ function AuthPage({ onAuthSuccess, onBack }) {
             </div>
 
             <div className="form-group">
-              <label htmlFor="reset-confirm">Confirm New Password</label>
+              <label htmlFor="confirm-new-password">Confirm New Password</label>
               <input
-                id="reset-confirm"
+                id="confirm-new-password"
                 type="password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
@@ -170,8 +187,48 @@ function AuthPage({ onAuthSuccess, onBack }) {
               />
             </div>
 
-            <button type="submit" className="auth-submit-btn">
-              Reset Password
+            <button type="submit" className="auth-submit-btn" disabled={isSending}>
+              {isSending ? 'Resetting...' : 'Reset Password'}
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
+  // ─── Forgot Password (enter email to get link) ───
+  if (isForgotPassword) {
+    return (
+      <div className="auth-container">
+        <div className="auth-card">
+          <button className="auth-back-btn" onClick={switchToLogin}>
+            ← Back to Sign In
+          </button>
+
+          <div className="auth-header">
+            <img src="/auction-academy-logo.png" alt="Auction Academy" className="auth-logo" />
+            <h2>Forgot Password?</h2>
+            <p>Enter your email address and we'll send you a link to reset your password.</p>
+          </div>
+
+          {error && <div className="auth-error">{error}</div>}
+          {successMsg && <div className="auth-success">{successMsg}</div>}
+
+          <form onSubmit={handleForgotPassword} className="auth-form">
+            <div className="form-group">
+              <label htmlFor="reset-email">Email Address</label>
+              <input
+                id="reset-email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Enter your account email"
+                required
+              />
+            </div>
+
+            <button type="submit" className="auth-submit-btn" disabled={isSending}>
+              {isSending ? 'Sending...' : 'Send Reset Link'}
             </button>
           </form>
 
@@ -188,6 +245,7 @@ function AuthPage({ onAuthSuccess, onBack }) {
     );
   }
 
+  // ─── Login / Signup ───
   return (
     <div className="auth-container">
       <div className="auth-card">

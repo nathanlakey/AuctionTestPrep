@@ -124,6 +124,13 @@
   box-shadow: 0 4px 8px rgba(214, 0, 0, 0.3);
 }
 
+.auth-submit-btn:disabled {
+  background: #999;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 .auth-toggle {
   text-align: center;
   margin-top: 1.5rem;

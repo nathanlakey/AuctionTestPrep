@@ -6,6 +6,12 @@ import { createClient } from '@libsql/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
+import { Resend } from 'resend';
+
+// ─── Resend Email ─────────────────────────────────────────────────
+const resend = new Resend(process.env.RESEND_API_KEY);
+const CLIENT_URL = process.env.CLIENT_URL || 'https://auction-test-prep.vercel.app';
 
 // ─── Config ───────────────────────────────────────────────────────
 const JWT_SECRET = process.env.JWT_SECRET || 'auction-academy-secret-key-change-in-production';
@@ -24,7 +30,7 @@ const db = createClient({
   authToken: tursoToken || undefined,
 });
 
-// Create users table on startup
+// Create tables on startup
 async function initDatabase() {
   await db.execute(`
     CREATE TABLE IF NOT EXISTS users (
@@ -40,6 +46,19 @@ async function initDatabase() {
       created_at TEXT DEFAULT (datetime('now'))
     )
   `);
+
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS reset_tokens (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      token TEXT UNIQUE NOT NULL,
+      expires_at TEXT NOT NULL,
+      used INTEGER DEFAULT 0,
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -284,28 +303,118 @@ app.put('/api/auth/password', authMiddleware, async (req, res) => {
   }
 });
 
-// POST /api/auth/reset-password — reset password (no auth needed)
-app.post('/api/auth/reset-password', async (req, res) => {
+// POST /api/auth/forgot-password — send reset email
+app.post('/api/auth/forgot-password', async (req, res) => {
   try {
-    const { email, username, newPassword } = req.body;
-    if (!email || !username || !newPassword) {
-      return res.status(400).json({ error: 'Email, username, and new password are required.' });
+    const { email } = req.body;
+    if (!email) {
+      return res.status(400).json({ error: 'Email is required.' });
     }
 
     const result = await db.execute({
-      sql: 'SELECT * FROM users WHERE LOWER(email) = LOWER(?) AND LOWER(username) = LOWER(?)',
-      args: [email, username]
+      sql: 'SELECT * FROM users WHERE LOWER(email) = LOWER(?)',
+      args: [email]
     });
+
+    // Always return success (don't reveal if email exists)
     if (result.rows.length === 0) {
-      return res.status(404).json({ error: 'No account found with that email and username combination.' });
+      return res.json({ message: 'If an account with that email exists, a reset link has been sent.' });
     }
 
-    const hashed = await bcrypt.hash(newPassword, 10);
-    await db.execute({ sql: 'UPDATE users SET password = ? WHERE id = ?', args: [hashed, result.rows[0].id] });
+    const user = result.rows[0];
 
-    res.json({ message: 'Password reset successfully.' });
+    // Generate a secure token
+    const token = crypto.randomBytes(32).toString('hex');
+    const tokenId = uuidv4();
+    const expiresAt = new Date(Date.now() + 60 * 60 * 1000).toISOString(); // 1 hour
+
+    // Invalidate any existing tokens for this user
+    await db.execute({ sql: 'DELETE FROM reset_tokens WHERE user_id = ?', args: [user.id] });
+
+    // Store the new token
+    await db.execute({
+      sql: 'INSERT INTO reset_tokens (id, user_id, token, expires_at) VALUES (?, ?, ?, ?)',
+      args: [tokenId, user.id, token, expiresAt]
+    });
+
+    // Build reset link
+    const resetLink = `${CLIENT_URL}?reset_token=${token}`;
+
+    // Send email via Resend
+    const fromAddress = process.env.RESEND_FROM_EMAIL || 'Auction Academy <onboarding@resend.dev>';
+    await resend.emails.send({
+      from: fromAddress,
+      to: [user.email],
+      subject: 'Reset Your Auction Academy Password',
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="color: #001829; margin: 0;">Auction Academy</h1>
+            <p style="color: #666;">Test Prep</p>
+          </div>
+          <div style="background: #f9fafb; border-radius: 12px; padding: 30px; border: 1px solid #e5e7eb;">
+            <h2 style="color: #001829; margin-top: 0;">Password Reset Request</h2>
+            <p style="color: #374151; line-height: 1.6;">Hi <strong>${user.username}</strong>,</p>
+            <p style="color: #374151; line-height: 1.6;">We received a request to reset your password. Click the button below to choose a new password:</p>
+            <div style="text-align: center; margin: 30px 0;">
+              <a href="${resetLink}" style="background: #d60000; color: white; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; display: inline-block;">Reset My Password</a>
+            </div>
+            <p style="color: #6b7280; font-size: 14px;">This link will expire in <strong>1 hour</strong>.</p>
+            <p style="color: #6b7280; font-size: 14px;">If you didn't request this reset, you can safely ignore this email — your password won't be changed.</p>
+          </div>
+          <div style="text-align: center; margin-top: 30px; color: #9ca3af; font-size: 12px;">
+            <p>&copy; ${new Date().getFullYear()} Auction Academy. All rights reserved.</p>
+          </div>
+        </div>
+      `,
+    });
+
+    console.log(`Password reset email sent to ${user.email}`);
+    res.json({ message: 'If an account with that email exists, a reset link has been sent.' });
   } catch (error) {
-    console.error('Password reset error:', error.message);
+    console.error('Forgot password error:', error.message);
+    res.status(500).json({ error: 'Server error sending reset email.' });
+  }
+});
+
+// POST /api/auth/reset-password — reset password with token
+app.post('/api/auth/reset-password', async (req, res) => {
+  try {
+    const { token, newPassword } = req.body;
+    if (!token || !newPassword) {
+      return res.status(400).json({ error: 'Token and new password are required.' });
+    }
+    if (newPassword.length < 6) {
+      return res.status(400).json({ error: 'Password must be at least 6 characters.' });
+    }
+
+    // Find the token
+    const tokenResult = await db.execute({
+      sql: 'SELECT * FROM reset_tokens WHERE token = ? AND used = 0',
+      args: [token]
+    });
+    if (tokenResult.rows.length === 0) {
+      return res.status(400).json({ error: 'Invalid or expired reset link. Please request a new one.' });
+    }
+
+    const resetToken = tokenResult.rows[0];
+
+    // Check if expired
+    if (new Date(resetToken.expires_at) < new Date()) {
+      await db.execute({ sql: 'DELETE FROM reset_tokens WHERE id = ?', args: [resetToken.id] });
+      return res.status(400).json({ error: 'This reset link has expired. Please request a new one.' });
+    }
+
+    // Update the password
+    const hashed = await bcrypt.hash(newPassword, 10);
+    await db.execute({ sql: 'UPDATE users SET password = ? WHERE id = ?', args: [hashed, resetToken.user_id] });
+
+    // Mark token as used and clean up
+    await db.execute({ sql: 'DELETE FROM reset_tokens WHERE user_id = ?', args: [resetToken.user_id] });
+
+    res.json({ message: 'Password reset successfully! You can now sign in with your new password.' });
+  } catch (error) {
+    console.error('Reset password error:', error.message);
     res.status(500).json({ error: 'Server error resetting password.' });
   }
 });

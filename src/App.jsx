@@ -16,6 +16,7 @@ function AppContent() {
   const [selectedState, setSelectedState] = useState(null)
   const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game, studyguide, auth, payment
   const [testConfig, setTestConfig] = useState({})
+  const [resetToken, setResetToken] = useState(null)
   const { user, logout, markAsPaid } = useAuth()
 
   // Push browser history when mode changes so the back button works within the app
@@ -38,6 +39,17 @@ function AppContent() {
       window.history.replaceState({}, '', window.location.pathname)
     }
   }, [user, markAsPaid])
+
+  // Handle password reset link — check for ?reset_token= on page load
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const token = params.get('reset_token')
+    if (token) {
+      setResetToken(token)
+      setMode('auth')
+      window.history.replaceState({}, '', window.location.pathname)
+    }
+  }, [])
 
   // Listen for browser back/forward button — always return to home page
   useEffect(() => {
@@ -174,7 +186,9 @@ function AppContent() {
       {mode === 'auth' && (
         <AuthPage 
           onAuthSuccess={handleAuthSuccess} 
-          onBack={() => navigateTo('select')} 
+          onBack={() => { setResetToken(null); navigateTo('select'); }}
+          resetToken={resetToken}
+          onResetComplete={() => setResetToken(null)}
         />
       )}
 

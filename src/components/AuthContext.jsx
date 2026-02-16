@@ -146,20 +146,32 @@ export function AuthProvider({ children }) {
     localStorage.removeItem('auctionAcademyUser');
   }, []);
 
-  const resetPassword = useCallback(async (email, username, newPassword) => {
+  const forgotPassword = useCallback(async (email) => {
     try {
-      await apiFetch('/api/auth/reset-password', {
+      const data = await apiFetch('/api/auth/forgot-password', {
         method: 'POST',
-        body: JSON.stringify({ email, username, newPassword }),
+        body: JSON.stringify({ email }),
       });
-      return { success: true };
+      return { success: true, message: data.message };
+    } catch (err) {
+      return { success: false, error: err.message };
+    }
+  }, []);
+
+  const resetPasswordWithToken = useCallback(async (token, newPassword) => {
+    try {
+      const data = await apiFetch('/api/auth/reset-password', {
+        method: 'POST',
+        body: JSON.stringify({ token, newPassword }),
+      });
+      return { success: true, message: data.message };
     } catch (err) {
       return { success: false, error: err.message };
     }
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, resetPassword }}>
+    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, forgotPassword, resetPasswordWithToken }}>
       {children}
     </AuthContext.Provider>
   );
