@@ -704,7 +704,9 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
           )}
         </div>
       )}
-    </div>
+      </div>
+
+      {/* Delete Confirmation Modal */}
       {deleteTarget && (
         <div className="admin-confirm-overlay" onClick={() => setDeleteTarget(null)}>
           <div className="admin-confirm-dialog" onClick={(e) => e.stopPropagation()}>
