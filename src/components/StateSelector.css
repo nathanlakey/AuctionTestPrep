@@ -106,11 +106,10 @@
 /* ─── Hero / Brand Header ─── */
 .brand-header {
   text-align: center;
-  padding: 1rem 2rem 0.75rem;
-  padding-top: calc(1rem + 64px);
+  padding: 1.25rem 2rem 1rem;
+  padding-top: calc(1.25rem + 64px);
   background: #001829;
   color: white;
-  margin-bottom: 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -119,7 +118,7 @@
 }
 
 .brand-logo {
-  width: 200px;
+  width: 240px;
   max-width: 55%;
   height: auto;
   margin: 0 auto 0.5rem;
@@ -138,13 +137,13 @@
 }
 
 .brand-header h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0 0 0.15rem 0;
   font-weight: 600;
 }
 
 .brand-header .tagline {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   opacity: 0.9;
   margin: 0;
 }
@@ -158,39 +157,40 @@
 
 .state-selector-card {
   background: white;
-  padding: 1.25rem 2rem;
+  padding: 2rem 2.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: 1rem auto 1rem;
-  margin-top: calc(260px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  margin-top: 280px;
   text-align: center;
 }
 
 .state-selector-card h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
   color: #001829;
+  font-weight: 700;
 }
 
 .state-selector-card p {
   color: #666;
-  margin-bottom: 0.75rem;
-  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
 }
 
 .state-selector-card form {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
   align-items: center;
 }
 
 .state-selector-card select {
   width: 100%;
-  max-width: 350px;
-  padding: 0.65rem;
-  font-size: 1rem;
+  max-width: 400px;
+  padding: 0.85rem 1rem;
+  font-size: 1.05rem;
   border: 2px solid #e5e7eb;
   border-radius: 8px;
   background: white;
@@ -210,8 +210,8 @@
 .btn-primary {
   background: #d60000;
   color: white;
-  padding: 0.65rem 2rem;
-  font-size: 1rem;
+  padding: 0.85rem 2.5rem;
+  font-size: 1.1rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -233,16 +233,16 @@
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
+  gap: 1.5rem;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1.5rem 1.5rem;
+  padding: 0 2rem 2rem;
 }
 
 .feature-card {
   background: white;
-  padding: 1.5rem 1.25rem;
-  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
   text-align: center;
   transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
   border: 1px solid #e5e7eb;
@@ -257,21 +257,21 @@
 }
 
 .feature-icon {
-  font-size: 2.2rem;
-  margin-bottom: 0.6rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .feature-card h4 {
   color: #001829;
-  margin-bottom: 0.35rem;
-  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.15rem;
   font-weight: 700;
 }
 
 .feature-card p {
   color: #555;
-  font-size: 0.85rem;
-  line-height: 1.4;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 /* Modal styles */
