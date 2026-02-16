@@ -104,6 +104,14 @@
   display: none;
 }
 
+.nav-active {
+  color: #d60000;
+}
+
+.nav-active::after {
+  width: 100% !important;
+}
+
 /* ─── CTA Button + Dropdown ─── */
 .header-right {
   position: relative;

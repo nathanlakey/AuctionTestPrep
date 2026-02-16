@@ -142,6 +142,7 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
           <nav className="header-nav">
             <button className="nav-link" onClick={onChangeState}>HOME</button>
             <span className="nav-link nav-state">{state.toUpperCase()}</span>
+            <button className="nav-link nav-active" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>DASHBOARD</button>
             <button className="nav-link" onClick={onChangeState}>CHANGE STATE</button>
             <button className="nav-link" onClick={() => { onProfile(); }}>PROFILE</button>
             {isUserAdmin && (
