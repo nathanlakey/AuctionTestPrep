@@ -2,40 +2,42 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import Stripe from 'stripe';
-import Database from 'better-sqlite3';
+import { createClient } from '@libsql/client';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidv4 } from 'uuid';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
 // ─── Config ───────────────────────────────────────────────────────
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const JWT_SECRET = process.env.JWT_SECRET || 'auction-academy-secret-key-change-in-production';
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Admin emails — these always have admin access
 const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', 'admin@auctionacademy.com'];
 
-// ─── Database Setup ───────────────────────────────────────────────
-const db = new Database(path.join(__dirname, 'users.db'));
-db.pragma('journal_mode = WAL');
+// ─── Turso Cloud Database ─────────────────────────────────────────
+const db = createClient({
+  url: process.env.TURSO_DATABASE_URL || 'file:users.db',
+  authToken: process.env.TURSO_AUTH_TOKEN,
+});
 
-db.exec(`
-  CREATE TABLE IF NOT EXISTS users (
-    id TEXT PRIMARY KEY,
-    username TEXT UNIQUE NOT NULL,
-    email TEXT UNIQUE NOT NULL,
-    password TEXT NOT NULL,
-    first_name TEXT DEFAULT '',
-    last_name TEXT DEFAULT '',
-    phone TEXT DEFAULT '',
-    has_paid INTEGER DEFAULT 0,
-    is_admin INTEGER DEFAULT 0,
-    created_at TEXT DEFAULT (datetime('now'))
-  )
-`);
+// Create users table on startup
+async function initDatabase() {
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS users (
+      id TEXT PRIMARY KEY,
+      username TEXT UNIQUE NOT NULL,
+      email TEXT UNIQUE NOT NULL,
+      password TEXT NOT NULL,
+      first_name TEXT DEFAULT '',
+      last_name TEXT DEFAULT '',
+      phone TEXT DEFAULT '',
+      has_paid INTEGER DEFAULT 0,
+      is_admin INTEGER DEFAULT 0,
+      created_at TEXT DEFAULT (datetime('now'))
+    )
+  `);
+  console.log('Database initialized');
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────
 function generateToken(user) {
@@ -57,7 +59,7 @@ function sanitizeUser(row) {
 }
 
 // Auth middleware
-function authMiddleware(req, res, next) {
+async function authMiddleware(req, res, next) {
   const authHeader = req.headers.authorization;
   if (!authHeader || !authHeader.startsWith('Bearer ')) {
     return res.status(401).json({ error: 'Not authenticated.' });
@@ -65,9 +67,9 @@ function authMiddleware(req, res, next) {
   try {
     const token = authHeader.split(' ')[1];
     const decoded = jwt.verify(token, JWT_SECRET);
-    const user = db.prepare('SELECT * FROM users WHERE id = ?').get(decoded.id);
-    if (!user) return res.status(401).json({ error: 'User not found.' });
-    req.user = user;
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [decoded.id] });
+    if (result.rows.length === 0) return res.status(401).json({ error: 'User not found.' });
+    req.user = result.rows[0];
     next();
   } catch {
     return res.status(401).json({ error: 'Invalid or expired token.' });
@@ -133,14 +135,14 @@ app.post('/api/auth/signup', async (req, res) => {
     }
 
     // Check for existing email (case-insensitive)
-    const existingEmail = db.prepare('SELECT id FROM users WHERE LOWER(email) = LOWER(?)').get(email);
-    if (existingEmail) {
+    const existingEmail = await db.execute({ sql: 'SELECT id FROM users WHERE LOWER(email) = LOWER(?)', args: [email] });
+    if (existingEmail.rows.length > 0) {
       return res.status(400).json({ error: 'An account with this email already exists.' });
     }
 
     // Check for existing username (case-insensitive)
-    const existingUsername = db.prepare('SELECT id FROM users WHERE LOWER(username) = LOWER(?)').get(username);
-    if (existingUsername) {
+    const existingUsername = await db.execute({ sql: 'SELECT id FROM users WHERE LOWER(username) = LOWER(?)', args: [username] });
+    if (existingUsername.rows.length > 0) {
       return res.status(400).json({ error: 'This username is already taken.' });
     }
 
@@ -148,11 +150,13 @@ app.post('/api/auth/signup', async (req, res) => {
     const id = uuidv4();
     const isAdmin = ADMIN_EMAILS.includes(email.toLowerCase()) ? 1 : 0;
 
-    db.prepare(`
-      INSERT INTO users (id, username, email, password, is_admin) VALUES (?, ?, ?, ?, ?)
-    `).run(id, username, email.toLowerCase(), hashedPassword, isAdmin);
+    await db.execute({
+      sql: 'INSERT INTO users (id, username, email, password, is_admin) VALUES (?, ?, ?, ?, ?)',
+      args: [id, username, email.toLowerCase(), hashedPassword, isAdmin]
+    });
 
-    const newUser = db.prepare('SELECT * FROM users WHERE id = ?').get(id);
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [id] });
+    const newUser = result.rows[0];
     const token = generateToken(newUser);
 
     res.status(201).json({ user: sanitizeUser(newUser), token });
@@ -170,10 +174,11 @@ app.post('/api/auth/login', async (req, res) => {
       return res.status(400).json({ error: 'Email and password are required.' });
     }
 
-    const user = db.prepare('SELECT * FROM users WHERE LOWER(email) = LOWER(?)').get(email);
-    if (!user) {
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE LOWER(email) = LOWER(?)', args: [email] });
+    if (result.rows.length === 0) {
       return res.status(401).json({ error: 'Invalid email or password.' });
     }
+    const user = result.rows[0];
 
     const validPassword = await bcrypt.compare(password, user.password);
     if (!validPassword) {
@@ -201,35 +206,36 @@ app.put('/api/auth/profile', authMiddleware, async (req, res) => {
 
     // Check for duplicate username (exclude self)
     if (username) {
-      const existing = db.prepare('SELECT id FROM users WHERE LOWER(username) = LOWER(?) AND id != ?').get(username, userId);
-      if (existing) return res.status(400).json({ error: 'This username is already taken.' });
+      const existing = await db.execute({ sql: 'SELECT id FROM users WHERE LOWER(username) = LOWER(?) AND id != ?', args: [username, userId] });
+      if (existing.rows.length > 0) return res.status(400).json({ error: 'This username is already taken.' });
     }
 
     // Check for duplicate email (exclude self)
     if (email) {
-      const existing = db.prepare('SELECT id FROM users WHERE LOWER(email) = LOWER(?) AND id != ?').get(email, userId);
-      if (existing) return res.status(400).json({ error: 'This email is already in use.' });
+      const existing = await db.execute({ sql: 'SELECT id FROM users WHERE LOWER(email) = LOWER(?) AND id != ?', args: [email, userId] });
+      if (existing.rows.length > 0) return res.status(400).json({ error: 'This email is already in use.' });
     }
 
-    db.prepare(`
-      UPDATE users SET
+    await db.execute({
+      sql: `UPDATE users SET
         username = COALESCE(?, username),
         email = COALESCE(?, email),
         first_name = COALESCE(?, first_name),
         last_name = COALESCE(?, last_name),
         phone = COALESCE(?, phone)
-      WHERE id = ?
-    `).run(
-      username || null,
-      email ? email.toLowerCase() : null,
-      firstName !== undefined ? firstName : null,
-      lastName !== undefined ? lastName : null,
-      phone !== undefined ? phone : null,
-      userId
-    );
+      WHERE id = ?`,
+      args: [
+        username || null,
+        email ? email.toLowerCase() : null,
+        firstName !== undefined ? firstName : null,
+        lastName !== undefined ? lastName : null,
+        phone !== undefined ? phone : null,
+        userId
+      ]
+    });
 
-    const updated = db.prepare('SELECT * FROM users WHERE id = ?').get(userId);
-    res.json({ user: sanitizeUser(updated) });
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [userId] });
+    res.json({ user: sanitizeUser(result.rows[0]) });
   } catch (error) {
     console.error('Profile update error:', error.message);
     res.status(500).json({ error: 'Server error updating profile.' });
@@ -250,7 +256,7 @@ app.put('/api/auth/password', authMiddleware, async (req, res) => {
     }
 
     const hashed = await bcrypt.hash(newPassword, 10);
-    db.prepare('UPDATE users SET password = ? WHERE id = ?').run(hashed, req.user.id);
+    await db.execute({ sql: 'UPDATE users SET password = ? WHERE id = ?', args: [hashed, req.user.id] });
 
     res.json({ message: 'Password updated successfully.' });
   } catch (error) {
@@ -267,13 +273,16 @@ app.post('/api/auth/reset-password', async (req, res) => {
       return res.status(400).json({ error: 'Email, username, and new password are required.' });
     }
 
-    const user = db.prepare('SELECT * FROM users WHERE LOWER(email) = LOWER(?) AND LOWER(username) = LOWER(?)').get(email, username);
-    if (!user) {
+    const result = await db.execute({
+      sql: 'SELECT * FROM users WHERE LOWER(email) = LOWER(?) AND LOWER(username) = LOWER(?)',
+      args: [email, username]
+    });
+    if (result.rows.length === 0) {
       return res.status(404).json({ error: 'No account found with that email and username combination.' });
     }
 
     const hashed = await bcrypt.hash(newPassword, 10);
-    db.prepare('UPDATE users SET password = ? WHERE id = ?').run(hashed, user.id);
+    await db.execute({ sql: 'UPDATE users SET password = ? WHERE id = ?', args: [hashed, result.rows[0].id] });
 
     res.json({ message: 'Password reset successfully.' });
   } catch (error) {
@@ -283,9 +292,9 @@ app.post('/api/auth/reset-password', async (req, res) => {
 });
 
 // DELETE /api/auth/account — delete own account
-app.delete('/api/auth/account', authMiddleware, (req, res) => {
+app.delete('/api/auth/account', authMiddleware, async (req, res) => {
   try {
-    db.prepare('DELETE FROM users WHERE id = ?').run(req.user.id);
+    await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [req.user.id] });
     res.json({ message: 'Account deleted.' });
   } catch (error) {
     console.error('Delete account error:', error.message);
@@ -294,11 +303,11 @@ app.delete('/api/auth/account', authMiddleware, (req, res) => {
 });
 
 // PUT /api/auth/mark-paid — mark current user as paid (called after Stripe success)
-app.put('/api/auth/mark-paid', authMiddleware, (req, res) => {
+app.put('/api/auth/mark-paid', authMiddleware, async (req, res) => {
   try {
-    db.prepare('UPDATE users SET has_paid = 1 WHERE id = ?').run(req.user.id);
-    const updated = db.prepare('SELECT * FROM users WHERE id = ?').get(req.user.id);
-    res.json({ user: sanitizeUser(updated) });
+    await db.execute({ sql: 'UPDATE users SET has_paid = 1 WHERE id = ?', args: [req.user.id] });
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.user.id] });
+    res.json({ user: sanitizeUser(result.rows[0]) });
   } catch (error) {
     console.error('Mark paid error:', error.message);
     res.status(500).json({ error: 'Server error.' });
@@ -308,10 +317,10 @@ app.put('/api/auth/mark-paid', authMiddleware, (req, res) => {
 // ─── Admin Routes ─────────────────────────────────────────────────
 
 // GET /api/admin/users — list all users
-app.get('/api/admin/users', authMiddleware, adminMiddleware, (req, res) => {
+app.get('/api/admin/users', authMiddleware, adminMiddleware, async (req, res) => {
   try {
-    const users = db.prepare('SELECT * FROM users ORDER BY created_at DESC').all();
-    res.json({ users: users.map(sanitizeUser) });
+    const result = await db.execute('SELECT * FROM users ORDER BY created_at DESC');
+    res.json({ users: result.rows.map(sanitizeUser) });
   } catch (error) {
     console.error('Admin list users error:', error.message);
     res.status(500).json({ error: 'Server error.' });
@@ -319,16 +328,17 @@ app.get('/api/admin/users', authMiddleware, adminMiddleware, (req, res) => {
 });
 
 // PUT /api/admin/users/:id/access — toggle access (hasPaid)
-app.put('/api/admin/users/:id/access', authMiddleware, adminMiddleware, (req, res) => {
+app.put('/api/admin/users/:id/access', authMiddleware, adminMiddleware, async (req, res) => {
   try {
-    const target = db.prepare('SELECT * FROM users WHERE id = ?').get(req.params.id);
-    if (!target) return res.status(404).json({ error: 'User not found.' });
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.params.id] });
+    if (result.rows.length === 0) return res.status(404).json({ error: 'User not found.' });
+    const target = result.rows[0];
 
     const newStatus = target.has_paid ? 0 : 1;
-    db.prepare('UPDATE users SET has_paid = ? WHERE id = ?').run(newStatus, req.params.id);
+    await db.execute({ sql: 'UPDATE users SET has_paid = ? WHERE id = ?', args: [newStatus, req.params.id] });
 
-    const updated = db.prepare('SELECT * FROM users WHERE id = ?').get(req.params.id);
-    res.json({ user: sanitizeUser(updated) });
+    const updated = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.params.id] });
+    res.json({ user: sanitizeUser(updated.rows[0]) });
   } catch (error) {
     console.error('Toggle access error:', error.message);
     res.status(500).json({ error: 'Server error.' });
@@ -336,10 +346,11 @@ app.put('/api/admin/users/:id/access', authMiddleware, adminMiddleware, (req, re
 });
 
 // PUT /api/admin/users/:id/role — toggle admin role
-app.put('/api/admin/users/:id/role', authMiddleware, adminMiddleware, (req, res) => {
+app.put('/api/admin/users/:id/role', authMiddleware, adminMiddleware, async (req, res) => {
   try {
-    const target = db.prepare('SELECT * FROM users WHERE id = ?').get(req.params.id);
-    if (!target) return res.status(404).json({ error: 'User not found.' });
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.params.id] });
+    if (result.rows.length === 0) return res.status(404).json({ error: 'User not found.' });
+    const target = result.rows[0];
 
     // Can't remove own admin
     if (target.id === req.user.id) {
@@ -347,10 +358,10 @@ app.put('/api/admin/users/:id/role', authMiddleware, adminMiddleware, (req, res)
     }
 
     const newStatus = target.is_admin ? 0 : 1;
-    db.prepare('UPDATE users SET is_admin = ? WHERE id = ?').run(newStatus, req.params.id);
+    await db.execute({ sql: 'UPDATE users SET is_admin = ? WHERE id = ?', args: [newStatus, req.params.id] });
 
-    const updated = db.prepare('SELECT * FROM users WHERE id = ?').get(req.params.id);
-    res.json({ user: sanitizeUser(updated) });
+    const updated = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.params.id] });
+    res.json({ user: sanitizeUser(updated.rows[0]) });
   } catch (error) {
     console.error('Toggle admin error:', error.message);
     res.status(500).json({ error: 'Server error.' });
@@ -358,17 +369,18 @@ app.put('/api/admin/users/:id/role', authMiddleware, adminMiddleware, (req, res)
 });
 
 // DELETE /api/admin/users/:id — delete a user
-app.delete('/api/admin/users/:id', authMiddleware, adminMiddleware, (req, res) => {
+app.delete('/api/admin/users/:id', authMiddleware, adminMiddleware, async (req, res) => {
   try {
     // Can't delete yourself
     if (req.params.id === req.user.id) {
       return res.status(400).json({ error: "You can't delete your own account from admin." });
     }
 
-    const target = db.prepare('SELECT * FROM users WHERE id = ?').get(req.params.id);
-    if (!target) return res.status(404).json({ error: 'User not found.' });
+    const result = await db.execute({ sql: 'SELECT * FROM users WHERE id = ?', args: [req.params.id] });
+    if (result.rows.length === 0) return res.status(404).json({ error: 'User not found.' });
+    const target = result.rows[0];
 
-    db.prepare('DELETE FROM users WHERE id = ?').run(req.params.id);
+    await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [req.params.id] });
     res.json({ message: `User ${target.username} deleted.` });
   } catch (error) {
     console.error('Admin delete user error:', error.message);
@@ -378,6 +390,12 @@ app.delete('/api/admin/users/:id', authMiddleware, adminMiddleware, (req, res) =
 
 // ─── Start Server ─────────────────────────────────────────────────
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+
+initDatabase().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}).catch(err => {
+  console.error('Failed to initialize database:', err);
+  process.exit(1);
 });
