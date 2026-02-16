@@ -36,26 +36,31 @@ function Game({ state, topic, onExit }) {
       const question = questions[currentQuestionIndex];
       
       // Fixed positions for 4 bubbles in a 2x2 grid - evenly distributed
-      // Uses percentages of the game area (answer-bubbles is position:absolute filling parent)
       const positions = [
         { x: 25, y: 20 },  // Top-left
         { x: 75, y: 20 },  // Top-right
         { x: 25, y: 60 },  // Bottom-left
         { x: 75, y: 60 }   // Bottom-right
       ];
+
+      // Shuffle option indices so the correct answer lands in a random position
+      const indices = [0, 1, 2, 3];
+      for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+      }
       
-      const newBubbles = question.options.map((opt, idx) => {
-        // Use fixed positions to prevent overlap
-        const pos = positions[idx % positions.length];
+      const newBubbles = indices.map((optIdx, posIdx) => {
+        const pos = positions[posIdx];
         return {
-          id: idx,
-          text: opt,
-          isCorrect: idx === question.correctAnswer,
-          x: pos.x, // Fixed x position (percentage)
-          y: pos.y, // Fixed y position (percentage)
-          vx: 0, // No movement - stationary
-          vy: 0, // No movement - stationary
-          radius: 80, // collision radius in pixels
+          id: posIdx,
+          text: question.options[optIdx],
+          isCorrect: optIdx === question.correctAnswer,
+          x: pos.x,
+          y: pos.y,
+          vx: 0,
+          vy: 0,
+          radius: 80,
           removed: false
         };
       });
