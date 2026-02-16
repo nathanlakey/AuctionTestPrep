@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useAuth } from './AuthContext';
 import './Profile.css';
 
-function Profile({ onBack }) {
+function Profile({ state, onBack, onChangeState, onDashboard, onAdmin, onLogout, isUserAdmin }) {
   const { user, updateProfile, changePassword, deleteAccount, logout, getResultsSummary } = useAuth();
   const [isEditing, setIsEditing] = useState(false);
   const [message, setMessage] = useState(null);
@@ -10,6 +10,19 @@ function Profile({ onBack }) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   const [progressData, setProgressData] = useState(null);
   const [progressLoading, setProgressLoading] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Edit form state
   const [editForm, setEditForm] = useState({
@@ -133,16 +146,47 @@ function Profile({ onBack }) {
 
   return (
     <div className="profile-container">
-      <header className="profile-header">
-        <div className="profile-header-content">
-          <h1>👤 My Profile</h1>
-          <button className="btn-back-profile" onClick={onBack}>
-            ← Back
-          </button>
+      <header className="dashboard-header">
+        <div className="header-content">
+          <img src="/icon.png" alt="Auction Academy" className="dashboard-logo clickable-logo" onClick={onChangeState} />
+          <nav className="header-nav">
+            <button className="nav-link" onClick={onChangeState}>HOME</button>
+            {state && <span className="nav-link nav-state">{state.toUpperCase()}</span>}
+            <button className="nav-link" onClick={onDashboard}>DASHBOARD</button>
+            <button className="nav-link" onClick={onChangeState}>CHANGE STATE</button>
+            <button className="nav-link nav-active" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>PROFILE</button>
+            {isUserAdmin && (
+              <button className="nav-link" onClick={onAdmin}>ADMIN</button>
+            )}
+          </nav>
+          <div className="header-right" ref={menuRef}>
+            <button className="nav-cta" onClick={() => setMenuOpen(!menuOpen)}>
+              {user?.username?.toUpperCase() || 'MENU'} {menuOpen ? '▴' : '▾'}
+            </button>
+            {menuOpen && (
+              <div className="user-dropdown-menu">
+                <button className="dropdown-item" onClick={() => { setMenuOpen(false); onDashboard(); }}>
+                  📊 Dashboard
+                </button>
+                {isUserAdmin && (
+                  <button className="dropdown-item" onClick={() => { setMenuOpen(false); onAdmin(); }}>
+                    🛡️ Admin
+                  </button>
+                )}
+                <div className="dropdown-divider" />
+                <button className="dropdown-item dropdown-item-logout" onClick={() => { setMenuOpen(false); onLogout(); }}>
+                  🚪 Logout
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
       <div className="profile-content">
+        <div className="welcome-section">
+          <h2>Profile</h2>
+        </div>
         {message && (
           <div className={`profile-message ${message.type}`}>
             {message.text}

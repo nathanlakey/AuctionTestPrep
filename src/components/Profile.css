@@ -3,45 +3,20 @@
   background: #f3f4f6;
 }
 
-.profile-header {
-  background: #001829;
-  color: white;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.profile-header-content {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.profile-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-.btn-back-profile {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0.5rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.95rem;
-  transition: background 0.3s;
-}
-
-.btn-back-profile:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
 .profile-content {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: calc(64px + 2rem) 2rem 2rem;
+}
+
+.profile-container .welcome-section {
+  margin-bottom: 1.5rem;
+}
+
+.profile-container .welcome-section h2 {
+  font-size: 1.8rem;
+  color: #001829;
+  margin: 0;
 }
 
 /* Avatar Section */

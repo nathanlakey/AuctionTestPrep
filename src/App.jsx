@@ -284,7 +284,13 @@ function AppContent() {
 
       {mode === 'profile' && (
         <Profile 
+          state={selectedState}
           onBack={handleProfileBack}
+          onChangeState={handleChangeState}
+          onDashboard={handleDashboard}
+          onAdmin={handleAdmin}
+          onLogout={handleLogout}
+          isUserAdmin={isAdmin(user)}
         />
       )}
 
