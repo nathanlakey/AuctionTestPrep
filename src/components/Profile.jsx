@@ -181,14 +181,6 @@ function Profile({ onBack }) {
                   <div className="progress-stat-value">{progressData.averageScore}%</div>
                   <div className="progress-stat-label">Average Score</div>
                 </div>
-                <div className="progress-stat-card streak-card">
-                  <div className="progress-stat-value">{progressData.currentStreak || 0} 🔥</div>
-                  <div className="progress-stat-label">Day Streak</div>
-                </div>
-                <div className="progress-stat-card">
-                  <div className="progress-stat-value">{progressData.longestStreak || 0} 🏆</div>
-                  <div className="progress-stat-label">Best Streak</div>
-                </div>
                 {progressData.byMode.map(m => (
                   <div className="progress-stat-card" key={m.mode}>
                     <div className="progress-stat-value">{m.bestScore}%</div>
