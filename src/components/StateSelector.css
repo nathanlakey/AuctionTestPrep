@@ -106,8 +106,8 @@
 /* ─── Hero / Brand Header ─── */
 .brand-header {
   text-align: center;
-  padding: 0.6rem 2rem;
-  padding-top: calc(0.6rem + 64px);
+  padding: 1rem 2rem 0.75rem;
+  padding-top: calc(1rem + 64px);
   background: #001829;
   color: white;
   margin-bottom: 0;
@@ -119,15 +119,15 @@
 }
 
 .brand-logo {
-  width: 150px;
-  max-width: 50%;
+  width: 200px;
+  max-width: 55%;
   height: auto;
-  margin: 0 auto 0.3rem;
+  margin: 0 auto 0.5rem;
   object-fit: contain;
   display: block;
   background: white;
-  padding: 0.4rem;
-  border-radius: 6px;
+  padding: 0.6rem;
+  border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -138,14 +138,14 @@
 }
 
 .brand-header h2 {
-  font-size: 0.95rem;
-  margin: 0 0 0.1rem 0;
+  font-size: 1.2rem;
+  margin: 0 0 0.15rem 0;
   font-weight: 600;
 }
 
 .brand-header .tagline {
-  font-size: 0.75rem;
-  opacity: 0.85;
+  font-size: 0.9rem;
+  opacity: 0.9;
   margin: 0;
 }
 
@@ -163,7 +163,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin: 1rem auto 1rem;
-  margin-top: calc(230px);
+  margin-top: calc(260px);
   text-align: center;
 }
 
