@@ -151,13 +151,9 @@
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin: 0 auto 3rem;
-  max-width: 1200px;
+  max-width: 1000px;
+  margin: -1.5rem auto 3rem;
   text-align: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .state-selector-card h3 {
