@@ -408,9 +408,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
             <button
               className={`btn-flag ${flaggedQuestions.has(currentQuestion.id) ? 'flagged' : ''}`}
               onClick={() => handleToggleFlag(currentQuestion.id)}
-              title={flaggedQuestions.has(currentQuestion.id) ? 'Remove flag' : 'Flag for review'}
+              title={flaggedQuestions.has(currentQuestion.id) ? 'Remove star' : 'Star for review'}
             >
-              {flaggedQuestions.has(currentQuestion.id) ? '🚩 Flagged' : '🏳️ Flag'}
+              {flaggedQuestions.has(currentQuestion.id) ? '⭐' : '☆'}
             </button>
             <button
               className="btn-flag btn-report"

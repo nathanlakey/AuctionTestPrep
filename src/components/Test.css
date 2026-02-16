@@ -619,14 +619,15 @@
 .btn-flag {
   background: #f8f9fa;
   border: 2px solid #e5e7eb;
-  padding: 0.4rem 0.9rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 20px;
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #666;
   transition: all 0.2s;
   white-space: nowrap;
+  line-height: 1;
 }
 
 .btn-flag:hover {
