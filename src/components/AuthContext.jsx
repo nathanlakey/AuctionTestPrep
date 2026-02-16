@@ -28,10 +28,10 @@ export function AuthProvider({ children }) {
   const signup = useCallback(async (username, email, password) => {
     const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
     
-    if (users.find(u => u.email === email)) {
+    if (users.find(u => u.email.toLowerCase() === email.toLowerCase())) {
       return { success: false, error: 'An account with this email already exists.' };
     }
-    if (users.find(u => u.username === username)) {
+    if (users.find(u => u.username.toLowerCase() === username.toLowerCase())) {
       return { success: false, error: 'This username is already taken.' };
     }
 
@@ -59,7 +59,7 @@ export function AuthProvider({ children }) {
   const login = useCallback(async (email, password) => {
     const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
     const hashedPassword = await hashPassword(password);
-    const foundUser = users.find(u => u.email === email && u.password === hashedPassword);
+    const foundUser = users.find(u => u.email.toLowerCase() === email.toLowerCase() && u.password === hashedPassword);
     
     if (!foundUser) {
       return { success: false, error: 'Invalid email or password.' };
