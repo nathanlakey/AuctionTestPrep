@@ -383,3 +383,104 @@
     flex-direction: column;
   }
 }
+
+/* ─── Admin Tabs ─── */
+.admin-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.admin-tab {
+  background: none;
+  border: none;
+  padding: 0.85rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.admin-tab:hover {
+  color: #001829;
+}
+
+.admin-tab.active {
+  color: #001829;
+  border-bottom-color: #d60000;
+}
+
+/* ─── Analytics Section ─── */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.analytics-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  border-top: 4px solid #001829;
+}
+
+.analytics-card h3 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  color: #001829;
+}
+
+.analytics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.analytics-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.analytics-list-item:last-child {
+  border-bottom: none;
+}
+
+.analytics-list-label {
+  color: #001829;
+  font-size: 0.9rem;
+}
+
+.analytics-list-value {
+  color: #d60000;
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+.analytics-empty {
+  color: #999;
+  text-align: center;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-tab {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+  }
+}

@@ -15,6 +15,41 @@ function Flashcards({ state, topic, onExit }) {
     setQuestions(cards);
   }, []);
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    if (completed || questions.length === 0) return;
+
+    const handleKeyDown = (e) => {
+      switch (e.key) {
+        case 'ArrowLeft':
+          e.preventDefault();
+          handlePrevious();
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          handleNext();
+          break;
+        case ' ':   // Space bar
+        case 'Enter':
+          e.preventDefault();
+          handleFlip();
+          break;
+        case 'k':
+        case 'K':
+          e.preventDefault();
+          if (!knownCards.includes(currentIndex)) {
+            handleMarkKnown();
+          }
+          break;
+        default:
+          break;
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  });
+
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
@@ -188,7 +223,7 @@ function Flashcards({ state, topic, onExit }) {
       </div>
 
       <div className="keyboard-hint">
-        💡 Tip: Click the card to flip it
+        ⌨️ <kbd>←</kbd> Previous &nbsp; <kbd>→</kbd> Next &nbsp; <kbd>Space</kbd> Flip &nbsp; <kbd>K</kbd> Mark Known
       </div>
     </div>
   );

@@ -225,6 +225,41 @@ app.post('/api/auth/signup', async (req, res) => {
     const newUser = result.rows[0];
     const token = generateToken(newUser);
 
+    // ── Send welcome email (fire-and-forget) ──
+    const fromAddress = process.env.RESEND_FROM_EMAIL || 'Auction Academy <onboarding@resend.dev>';
+    resend.emails.send({
+      from: fromAddress,
+      to: [email.toLowerCase()],
+      subject: 'Welcome to Auction Academy! 🎓',
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="color: #001829; margin: 0;">Auction Academy</h1>
+            <p style="color: #666;">Test Prep</p>
+          </div>
+          <div style="background: #f9fafb; border-radius: 12px; padding: 30px; border: 1px solid #e5e7eb;">
+            <h2 style="color: #001829; margin-top: 0;">Welcome aboard, ${username}! 🎉</h2>
+            <p style="color: #374151; line-height: 1.6;">Thank you for signing up for <strong>Auction Academy</strong> — the #1 way to prepare for your auctioneer licensing exam.</p>
+            <p style="color: #374151; line-height: 1.6;">Here's what you get access to:</p>
+            <ul style="color: #374151; line-height: 2;">
+              <li>📝 <strong>Full 75-question practice tests</strong> simulating the real exam</li>
+              <li>🎯 <strong>Quick quizzes</strong> on specific topics</li>
+              <li>🎴 <strong>Flashcards</strong> for fast review</li>
+              <li>🎮 <strong>Study games</strong> to make learning fun</li>
+              <li>📚 <strong>Comprehensive study guides</strong> for your state</li>
+            </ul>
+            <div style="text-align: center; margin: 30px 0;">
+              <a href="${CLIENT_URL}" style="background: #d60000; color: white; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; display: inline-block;">Start Studying Now</a>
+            </div>
+            <p style="color: #6b7280; font-size: 14px;">If you have any questions, just reply to this email. We're here to help you pass your exam!</p>
+          </div>
+          <div style="text-align: center; margin-top: 30px; color: #9ca3af; font-size: 12px;">
+            <p>&copy; ${new Date().getFullYear()} Auction Academy. All rights reserved.</p>
+          </div>
+        </div>
+      `,
+    }).catch(err => console.error('Welcome email failed:', err.message));
+
     res.status(201).json({ user: sanitizeUser(newUser), token });
   } catch (error) {
     console.error('Signup error:', error.message);
@@ -627,6 +662,84 @@ app.get('/api/results/summary', authMiddleware, async (req, res) => {
 });
 
 // ─── Admin Routes ─────────────────────────────────────────────────
+
+// GET /api/admin/analytics — aggregate analytics for admin dashboard
+app.get('/api/admin/analytics', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    // Total users & paid users
+    const userCounts = await db.execute(`
+      SELECT
+        COUNT(*) as total_users,
+        SUM(CASE WHEN has_paid = 1 THEN 1 ELSE 0 END) as paid_users
+      FROM users
+    `);
+
+    // Signups per day (last 30 days)
+    const dailySignups = await db.execute(`
+      SELECT DATE(created_at) as day, COUNT(*) as count
+      FROM users
+      WHERE created_at >= datetime('now', '-30 days')
+      GROUP BY DATE(created_at)
+      ORDER BY day DESC
+    `);
+
+    // Most popular states
+    const popularStates = await db.execute(`
+      SELECT state, COUNT(*) as count
+      FROM test_results
+      GROUP BY state
+      ORDER BY count DESC
+      LIMIT 10
+    `);
+
+    // Average scores by mode
+    const scoresByMode = await db.execute(`
+      SELECT mode, COUNT(*) as attempts, AVG(score_percentage) as avg_score
+      FROM test_results
+      GROUP BY mode
+      ORDER BY attempts DESC
+    `);
+
+    // Total tests taken
+    const totalTests = await db.execute('SELECT COUNT(*) as count FROM test_results');
+
+    // Recent activity (last 10 results with username)
+    const recentActivity = await db.execute(`
+      SELECT tr.*, u.username
+      FROM test_results tr
+      JOIN users u ON tr.user_id = u.id
+      ORDER BY tr.created_at DESC
+      LIMIT 10
+    `);
+
+    const row = userCounts.rows[0];
+    res.json({
+      analytics: {
+        totalUsers: row.total_users || 0,
+        paidUsers: row.paid_users || 0,
+        estimatedRevenue: (row.paid_users || 0) * 100,
+        totalTests: totalTests.rows[0].count || 0,
+        dailySignups: dailySignups.rows.map(r => ({ day: r.day, count: r.count })),
+        popularStates: popularStates.rows.map(r => ({ state: r.state, count: r.count })),
+        scoresByMode: scoresByMode.rows.map(r => ({
+          mode: r.mode,
+          attempts: r.attempts,
+          avgScore: Math.round(r.avg_score * 10) / 10,
+        })),
+        recentActivity: recentActivity.rows.map(r => ({
+          username: r.username,
+          state: r.state,
+          mode: r.mode,
+          score: r.score_percentage,
+          createdAt: r.created_at,
+        })),
+      },
+    });
+  } catch (error) {
+    console.error('Admin analytics error:', error.message);
+    res.status(500).json({ error: 'Server error fetching analytics.' });
+  }
+});
 
 // GET /api/admin/users — list all users
 app.get('/api/admin/users', authMiddleware, adminMiddleware, async (req, res) => {

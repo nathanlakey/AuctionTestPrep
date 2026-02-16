@@ -3,14 +3,16 @@ import { getRandomQuestions, getQuizQuestions } from '../data/questionBank';
 import { useAuth } from './AuthContext';
 import './Test.css';
 
-function Test({ state, questionCount, topic, onExit }) {
+function Test({ state, questionCount, topic, timed = false, onExit }) {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const [timeElapsed, setTimeElapsed] = useState(0);
+  const [timeRemaining, setTimeRemaining] = useState(timed ? 7200 : 0); // 2 hours = 7200s
   const [reviewFilter, setReviewFilter] = useState('all'); // 'all' or 'missed'
   const resultSaved = useRef(false);
+  const autoSubmitted = useRef(false);
   const { saveResult } = useAuth();
 
   useEffect(() => {
@@ -23,14 +25,29 @@ function Test({ state, questionCount, topic, onExit }) {
   }, [state, questionCount, topic]);
 
   useEffect(() => {
-    // Timer
+    // Timer — counts up (untimed) or counts down (timed)
     if (!showResults && questions.length > 0) {
       const timer = setInterval(() => {
         setTimeElapsed(prev => prev + 1);
+        if (timed) {
+          setTimeRemaining(prev => {
+            if (prev <= 1) {
+              // Time's up — auto-submit
+              clearInterval(timer);
+              if (!autoSubmitted.current) {
+                autoSubmitted.current = true;
+                // Use setTimeout to avoid setState-during-render
+                setTimeout(() => setShowResults(true), 0);
+              }
+              return 0;
+            }
+            return prev - 1;
+          });
+        }
       }, 1000);
       return () => clearInterval(timer);
     }
-  }, [showResults, questions]);
+  }, [showResults, questions, timed]);
 
   const handleAnswer = (questionId, answerIndex) => {
     setAnswers({
@@ -53,13 +70,16 @@ function Test({ state, questionCount, topic, onExit }) {
 
   const handleSubmit = () => {
     setShowResults(true);
-    // Save result to database
-    if (!resultSaved.current) {
+  };
+
+  // Save result whenever results are shown (covers both manual submit and auto-submit on timeout)
+  useEffect(() => {
+    if (showResults && !resultSaved.current) {
       resultSaved.current = true;
       const score = calculateScore();
       saveResult({
         state,
-        mode: questionCount === 75 ? 'test' : 'quiz',
+        mode: questionCount === 75 ? (timed ? 'timed-test' : 'test') : 'quiz',
         topic: topic || 'All Topics',
         scoreCorrect: score.correct,
         scoreTotal: score.total,
@@ -67,7 +87,8 @@ function Test({ state, questionCount, topic, onExit }) {
         timeSeconds: timeElapsed,
       });
     }
-  };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showResults]);
 
   const calculateScore = () => {
     let correct = 0;
@@ -99,6 +120,7 @@ function Test({ state, questionCount, topic, onExit }) {
 
   const handleRetake = () => {
     resultSaved.current = false;
+    autoSubmitted.current = false;
     if (questionCount === 75) {
       setQuestions(getRandomQuestions(state, 75));
     } else {
@@ -108,6 +130,7 @@ function Test({ state, questionCount, topic, onExit }) {
     setAnswers({});
     setShowResults(false);
     setTimeElapsed(0);
+    setTimeRemaining(timed ? 7200 : 0);
     setReviewFilter('all');
   };
 
@@ -120,13 +143,16 @@ function Test({ state, questionCount, topic, onExit }) {
         <div className="results-container">
           <div className={`results-header ${passed ? 'passed' : 'failed'}`}>
             <h2>{passed ? '🎉 Congratulations!' : '📚 Keep Studying!'}</h2>
+            {timed && autoSubmitted.current && (
+              <div className="timed-notice">⏱️ Time expired — test auto-submitted</div>
+            )}
             <div className="score-display">
               <div className="score-number">{score.percentage}%</div>
               <div className="score-details">
                 {score.correct} out of {score.total} correct
               </div>
               <div className="time-taken">
-                Time: {formatTime(timeElapsed)}
+                Time: {formatTime(timeElapsed)}{timed ? ' / 2:00:00' : ''}
               </div>
             </div>
           </div>
@@ -247,11 +273,17 @@ function Test({ state, questionCount, topic, onExit }) {
     <div className="test-container">
       <div className="test-header">
         <div className="test-info">
-          <h2>{questionCount === 75 ? 'Full Practice Test' : `Quiz - ${questionCount} Questions`}</h2>
+          <h2>{questionCount === 75 ? (timed ? '⏱️ Timed Practice Test' : 'Full Practice Test') : `Quiz - ${questionCount} Questions`}</h2>
           <div className="test-meta">
             <span>{state}</span>
             <span>•</span>
-            <span>{formatTime(timeElapsed)}</span>
+            {timed ? (
+              <span className={`timer-countdown ${timeRemaining < 300 ? 'timer-warning' : ''}`}>
+                ⏱️ {formatTime(timeRemaining)} remaining
+              </span>
+            ) : (
+              <span>{formatTime(timeElapsed)}</span>
+            )}
           </div>
         </div>
         <button onClick={() => { if (window.confirm('Are you sure you want to exit? Your progress will be lost.')) onExit(); }} className="btn-exit">Exit</button>

@@ -119,8 +119,8 @@ function AppContent() {
     navigateTo('select')
   }
 
-  const handleStartTest = (questionCount) => {
-    setTestConfig({ questionCount, topic: 'All Topics' })
+  const handleStartTest = (questionCount, timed = false) => {
+    setTestConfig({ questionCount, topic: 'All Topics', timed })
     navigateTo('test')
   }
 
@@ -250,6 +250,7 @@ function AppContent() {
           state={selectedState}
           questionCount={testConfig.questionCount}
           topic={testConfig.topic}
+          timed={testConfig.timed || false}
           onExit={handleExit}
         />
       )}

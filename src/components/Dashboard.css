@@ -343,6 +343,17 @@
   transform: translateY(0);
 }
 
+.btn-mode-timed {
+  background: #001829;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.25rem;
+}
+
+.btn-mode-timed:hover {
+  background: #003050;
+  box-shadow: 0 4px 8px rgba(0, 24, 41, 0.3);
+}
+
 .topics-section {
   background: white;
   padding: 2rem;

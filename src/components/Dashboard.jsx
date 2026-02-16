@@ -1,6 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { getAvailableTopics } from '../data/questionBank';
 import { useAuth } from './AuthContext';
+import CustomSelect from './CustomSelect';
 import './Dashboard.css';
 
 function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onProfile, onAdmin, onLogout, isUserAdmin }) {
@@ -13,6 +14,18 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
   
   // Get topics that actually have questions for the selected state
   const availableTopics = useMemo(() => getAvailableTopics(state), [state]);
+
+  // Build options arrays for custom dropdowns
+  const quizSizeOptions = [
+    { value: 5, label: '5 Questions' },
+    { value: 10, label: '10 Questions' },
+    { value: 15, label: '15 Questions' },
+    { value: 20, label: '20 Questions' },
+  ];
+  const topicOptions = useMemo(() => [
+    { value: '', label: 'All Topics' },
+    ...availableTopics.filter(t => t !== 'All Topics').map(t => ({ value: t, label: t })),
+  ], [availableTopics]);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -81,6 +94,12 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             >
               Start Practice Test
             </button>
+            <button 
+              onClick={() => onStartTest(75, true)} 
+              className="btn-mode btn-mode-timed"
+            >
+              ⏱️ Timed Exam (2 hrs)
+            </button>
           </div>
 
           {/* Topic Quiz */}
@@ -90,16 +109,12 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             <p>Take a quick quiz with customizable question count</p>
             
             <div className="quiz-options">
-              <select 
-                value={quizSize} 
-                onChange={(e) => setQuizSize(Number(e.target.value))}
-                className="size-select"
-              >
-                <option value={5}>5 Questions</option>
-                <option value={10}>10 Questions</option>
-                <option value={15}>15 Questions</option>
-                <option value={20}>20 Questions</option>
-              </select>
+              <CustomSelect
+                value={quizSize}
+                onChange={(val) => setQuizSize(Number(val))}
+                placeholder="Select size"
+                options={quizSizeOptions}
+              />
             </div>
 
             <button 
@@ -117,16 +132,12 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             <p>Quick review with interactive flashcards for efficient studying</p>
             
             <div className="quiz-options">
-              <select 
-                value={flashcardTopic} 
-                onChange={(e) => setFlashcardTopic(e.target.value)}
-                className="topic-select"
-              >
-                <option value="">All Topics</option>
-                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
-                  <option key={topic} value={topic}>{topic}</option>
-                ))}
-              </select>
+              <CustomSelect
+                value={flashcardTopic}
+                onChange={setFlashcardTopic}
+                placeholder="All Topics"
+                options={topicOptions}
+              />
             </div>
 
             <button 
@@ -144,16 +155,12 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             <p>Learn through fun matching games and challenges</p>
             
             <div className="quiz-options">
-              <select 
-                value={gameTopic} 
-                onChange={(e) => setGameTopic(e.target.value)}
-                className="topic-select"
-              >
-                <option value="">All Topics</option>
-                {availableTopics.filter(t => t !== 'All Topics').map(topic => (
-                  <option key={topic} value={topic}>{topic}</option>
-                ))}
-              </select>
+              <CustomSelect
+                value={gameTopic}
+                onChange={setGameTopic}
+                placeholder="All Topics"
+                options={topicOptions}
+              />
             </div>
 
             <button 

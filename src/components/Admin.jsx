@@ -37,6 +37,9 @@ function Admin({ onBack }) {
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [allUsers, setAllUsers] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [tab, setTab] = useState('analytics'); // 'analytics' or 'users'
+  const [analytics, setAnalytics] = useState(null);
+  const [analyticsLoading, setAnalyticsLoading] = useState(true);
 
   const showMessage = (text, type = 'success') => {
     setMessage({ text, type });
@@ -55,11 +58,24 @@ function Admin({ onBack }) {
     }
   }, []);
 
+  // Fetch analytics
+  const loadAnalytics = useCallback(async () => {
+    try {
+      const data = await adminFetch('/api/admin/analytics');
+      setAnalytics(data.analytics);
+    } catch (err) {
+      showMessage(err.message, 'error');
+    } finally {
+      setAnalyticsLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     if (isAdmin(user)) {
       loadUsers();
+      loadAnalytics();
     }
-  }, [user, loadUsers]);
+  }, [user, loadUsers, loadAnalytics]);
 
   // Filter & search
   const filteredUsers = useMemo(() => {
@@ -158,7 +174,7 @@ function Admin({ onBack }) {
     );
   }
 
-  if (loading) {
+  if (loading && analyticsLoading) {
     return (
       <div className="admin-container">
         <div style={{ textAlign: 'center', padding: '4rem 2rem' }}>
@@ -182,6 +198,124 @@ function Admin({ onBack }) {
           <div className={`admin-message ${message.type}`}>{message.text}</div>
         )}
 
+        {/* Tab Buttons */}
+        <div className="admin-tabs">
+          <button className={`admin-tab ${tab === 'analytics' ? 'active' : ''}`} onClick={() => setTab('analytics')}>
+            📊 Analytics
+          </button>
+          <button className={`admin-tab ${tab === 'users' ? 'active' : ''}`} onClick={() => setTab('users')}>
+            👥 Users
+          </button>
+        </div>
+
+        {/* ── ANALYTICS TAB ── */}
+        {tab === 'analytics' && (
+          <div className="analytics-section">
+            {analyticsLoading ? (
+              <p style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>Loading analytics...</p>
+            ) : analytics ? (
+              <>
+                {/* Top-level stats */}
+                <div className="admin-stats">
+                  <div className="admin-stat-card">
+                    <span className="stat-number">{analytics.totalUsers}</span>
+                    <span className="stat-label">Total Users</span>
+                  </div>
+                  <div className="admin-stat-card">
+                    <span className="stat-number">{analytics.paidUsers}</span>
+                    <span className="stat-label">Paid Users</span>
+                  </div>
+                  <div className="admin-stat-card">
+                    <span className="stat-number">${analytics.estimatedRevenue.toLocaleString()}</span>
+                    <span className="stat-label">Est. Revenue</span>
+                  </div>
+                  <div className="admin-stat-card">
+                    <span className="stat-number">{analytics.totalTests}</span>
+                    <span className="stat-label">Tests Taken</span>
+                  </div>
+                </div>
+
+                <div className="analytics-grid">
+                  {/* Popular States */}
+                  <div className="analytics-card">
+                    <h3>🗺️ Most Popular States</h3>
+                    {analytics.popularStates.length > 0 ? (
+                      <div className="analytics-list">
+                        {analytics.popularStates.map(s => (
+                          <div key={s.state} className="analytics-list-item">
+                            <span className="analytics-list-label">{s.state}</span>
+                            <span className="analytics-list-value">{s.count} tests</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="analytics-empty">No test data yet</p>
+                    )}
+                  </div>
+
+                  {/* Scores by Mode */}
+                  <div className="analytics-card">
+                    <h3>📈 Scores by Mode</h3>
+                    {analytics.scoresByMode.length > 0 ? (
+                      <div className="analytics-list">
+                        {analytics.scoresByMode.map(m => (
+                          <div key={m.mode} className="analytics-list-item">
+                            <span className="analytics-list-label">{m.mode}</span>
+                            <span className="analytics-list-value">{m.avgScore}% avg · {m.attempts} attempts</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="analytics-empty">No test data yet</p>
+                    )}
+                  </div>
+
+                  {/* Daily Signups */}
+                  <div className="analytics-card">
+                    <h3>📅 Recent Signups (30 days)</h3>
+                    {analytics.dailySignups.length > 0 ? (
+                      <div className="analytics-list">
+                        {analytics.dailySignups.slice(0, 10).map(d => (
+                          <div key={d.day} className="analytics-list-item">
+                            <span className="analytics-list-label">{new Date(d.day + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+                            <span className="analytics-list-value">{d.count} user{d.count > 1 ? 's' : ''}</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="analytics-empty">No signups in the last 30 days</p>
+                    )}
+                  </div>
+
+                  {/* Recent Activity */}
+                  <div className="analytics-card">
+                    <h3>⚡ Recent Activity</h3>
+                    {analytics.recentActivity.length > 0 ? (
+                      <div className="analytics-list">
+                        {analytics.recentActivity.map((a, i) => (
+                          <div key={i} className="analytics-list-item">
+                            <span className="analytics-list-label">
+                              <strong>{a.username}</strong> — {a.mode} ({a.state})
+                            </span>
+                            <span className="analytics-list-value">{Math.round(a.score)}%</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="analytics-empty">No activity yet</p>
+                    )}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <p style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>Failed to load analytics.</p>
+            )}
+          </div>
+        )}
+
+        {/* ── USERS TAB ── */}
+        {tab === 'users' && (
+          <>
         {/* Stats */}
         <div className="admin-stats">
           <div className="admin-stat-card">
@@ -294,6 +428,8 @@ function Admin({ onBack }) {
             </div>
           )}
         </div>
+          </>
+        )}
       </div>
 
       {/* Delete Confirmation Modal */}

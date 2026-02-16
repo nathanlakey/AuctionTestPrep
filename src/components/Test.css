@@ -582,3 +582,29 @@
     align-items: flex-start;
   }
 }
+
+/* ─── Timed Exam Mode ─── */
+.timer-countdown {
+  font-weight: 700;
+  color: #001829;
+}
+
+.timer-countdown.timer-warning {
+  color: #d60000;
+  animation: timerPulse 1s ease-in-out infinite;
+}
+
+@keyframes timerPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.timed-notice {
+  background: rgba(214, 0, 0, 0.1);
+  color: #d60000;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
