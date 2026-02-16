@@ -402,6 +402,29 @@
   min-height: 90px;
   border-bottom: 2px solid rgba(0, 24, 41, 0.2);
   border-top: 2px solid rgba(0, 24, 41, 0.2);
+  gap: 1rem;
+}
+
+.btn-report-game {
+  background: #fef2f2;
+  color: #ef4444;
+  border: 2px solid #ef4444;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.2s;
+  pointer-events: auto;
+  z-index: 30;
+  flex-shrink: 0;
+}
+
+.btn-report-game:hover {
+  background: #fee2e2;
+  border-color: #dc2626;
+  color: #dc2626;
 }
 
 .question-text {

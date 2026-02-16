@@ -2,12 +2,17 @@ import { useState, useEffect } from 'react';
 import { getRandomFlashcards } from '../data/flashcardQuestions';
 import './Flashcards.css';
 
+const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
+
 function Flashcards({ state, topic, onExit }) {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [knownCards, setKnownCards] = useState([]);
   const [completed, setCompleted] = useState(false);
+  const [reportModal, setReportModal] = useState(null);
+  const [reportReason, setReportReason] = useState('');
+  const [reportStatus, setReportStatus] = useState(null);
 
   useEffect(() => {
     // Use dedicated flashcard questions (same for all states)
@@ -81,6 +86,31 @@ function Flashcards({ state, topic, onExit }) {
       setCurrentIndex(currentIndex + 1);
     } else {
       setCompleted(true);
+    }
+  };
+
+  const handleReportQuestion = async (card) => {
+    try {
+      const token = localStorage.getItem('auctionAcademyToken');
+      const res = await fetch(`${API_BASE}/api/report-question`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          questionId: card.id || currentIndex,
+          questionText: card.question,
+          reason: reportReason,
+          state,
+          component: 'flashcards',
+        }),
+      });
+      if (res.ok) {
+        setReportStatus('success');
+        setTimeout(() => { setReportModal(null); setReportReason(''); setReportStatus(null); }, 1500);
+      } else {
+        setReportStatus('error');
+      }
+    } catch {
+      setReportStatus('error');
     }
   };
 
@@ -215,6 +245,13 @@ function Flashcards({ state, topic, onExit }) {
         </button>
 
         <button 
+          onClick={() => setReportModal(currentCard)}
+          className="btn-control btn-report-fc"
+        >
+          ⚠️ Report
+        </button>
+
+        <button 
           onClick={handleNext}
           className="btn-control"
         >
@@ -225,6 +262,35 @@ function Flashcards({ state, topic, onExit }) {
       <div className="keyboard-hint">
         ⌨️ <kbd>←</kbd> Previous &nbsp; <kbd>→</kbd> Next &nbsp; <kbd>Space</kbd> Flip &nbsp; <kbd>K</kbd> Mark Known
       </div>
+
+      {/* Report Question Modal */}
+      {reportModal && (
+        <div className="report-modal-overlay" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); }}>
+          <div className="report-modal" onClick={(e) => e.stopPropagation()}>
+            <h3>⚠️ Report a Question</h3>
+            <p className="report-question-preview">"{reportModal.question}"</p>
+            {reportStatus === 'success' ? (
+              <div className="report-success">✅ Question reported successfully!</div>
+            ) : (
+              <>
+                <label className="report-label">Reason (optional):</label>
+                <textarea
+                  className="report-textarea"
+                  placeholder="Describe the issue (e.g., incorrect answer, typo, unclear wording)..."
+                  value={reportReason}
+                  onChange={(e) => setReportReason(e.target.value)}
+                  rows={3}
+                />
+                {reportStatus === 'error' && <div className="report-error">❌ Failed to submit report. Please try again.</div>}
+                <div className="report-actions">
+                  <button className="btn-report-submit" onClick={() => handleReportQuestion(reportModal)}>Submit Report</button>
+                  <button className="btn-report-cancel" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); }}>Cancel</button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

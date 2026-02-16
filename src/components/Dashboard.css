@@ -142,14 +142,14 @@
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  background: white;
+  background: #001829;
   border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
   min-width: 180px;
   overflow: hidden;
   z-index: 1000;
   animation: dropdownFade 0.15s ease-out;
-  border: 1px solid #e5e7eb;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @keyframes dropdownFade {
@@ -163,7 +163,7 @@
   padding: 0.75rem 1.25rem;
   border: none;
   background: none;
-  color: #001829;
+  color: #ffffff;
   font-size: 0.95rem;
   text-align: left;
   cursor: pointer;
@@ -171,20 +171,20 @@
 }
 
 .dropdown-item:hover {
-  background: #f3f4f6;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .dropdown-item-logout {
-  color: #d60000;
+  color: #ff6b6b;
 }
 
 .dropdown-item-logout:hover {
-  background: #fef2f2;
+  background: rgba(214, 0, 0, 0.15);
 }
 
 .dropdown-divider {
   height: 1px;
-  background: #e5e7eb;
+  background: rgba(255, 255, 255, 0.12);
   margin: 0.25rem 0;
 }
 

@@ -16,6 +16,9 @@ function Game({ state, topic, onExit }) {
   const [laserShot, setLaserShot] = useState(null); // { start, end, active }
   const [bulletPosition, setBulletPosition] = useState(null); // For animated bullet
   const [bubbles, setBubbles] = useState([]);
+  const [reportModal, setReportModal] = useState(null);
+  const [reportReason, setReportReason] = useState('');
+  const [reportStatus, setReportStatus] = useState(null);
   const gameAreaRef = useRef(null);
   const animationFrameRef = useRef(null);
   const resultSaved = useRef(false);
@@ -232,6 +235,32 @@ function Game({ state, topic, onExit }) {
     setGameState(gameState === 'playing' ? 'paused' : 'playing');
   };
 
+  const handleReportQuestion = async (question) => {
+    try {
+      const token = localStorage.getItem('auctionAcademyToken');
+      const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
+      const res = await fetch(`${API_BASE}/api/report-question`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          questionId: question.id,
+          questionText: question.question,
+          reason: reportReason,
+          state,
+          component: 'game',
+        }),
+      });
+      if (res.ok) {
+        setReportStatus('success');
+        setTimeout(() => { setReportModal(null); setReportReason(''); setReportStatus(null); }, 1500);
+      } else {
+        setReportStatus('error');
+      }
+    } catch {
+      setReportStatus('error');
+    }
+  };
+
   if (gameState === 'loading' || questions.length === 0) {
     return (
       <div className="space-container">
@@ -346,6 +375,13 @@ function Game({ state, topic, onExit }) {
       {/* Question Section - Separate from play area */}
       <div className="game-question-section">
         <div className="question-text">{currentQuestion.question}</div>
+        <button
+          className="btn-report-game"
+          onClick={() => { setGameState('paused'); setReportModal(currentQuestion); }}
+          title="Report this question"
+        >
+          ⚠️ Report
+        </button>
       </div>
 
       {gameState === 'paused' && (
@@ -413,6 +449,35 @@ function Game({ state, topic, onExit }) {
           </div>
         )}
       </div>
+
+      {/* Report Question Modal */}
+      {reportModal && (
+        <div className="report-modal-overlay" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); setGameState('playing'); }}>
+          <div className="report-modal" onClick={(e) => e.stopPropagation()}>
+            <h3>⚠️ Report a Question</h3>
+            <p className="report-question-preview">"{reportModal.question}"</p>
+            {reportStatus === 'success' ? (
+              <div className="report-success">✅ Question reported successfully!</div>
+            ) : (
+              <>
+                <label className="report-label">Reason (optional):</label>
+                <textarea
+                  className="report-textarea"
+                  placeholder="Describe the issue (e.g., incorrect answer, typo, unclear wording)..."
+                  value={reportReason}
+                  onChange={(e) => setReportReason(e.target.value)}
+                  rows={3}
+                />
+                {reportStatus === 'error' && <div className="report-error">❌ Failed to submit report. Please try again.</div>}
+                <div className="report-actions">
+                  <button className="btn-report-submit" onClick={() => handleReportQuestion(reportModal)}>Submit Report</button>
+                  <button className="btn-report-cancel" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); setGameState('playing'); }}>Cancel</button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

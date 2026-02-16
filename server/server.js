@@ -106,6 +106,21 @@ async function initDatabase() {
     )
   `);
 
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS reported_questions (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      question_id INTEGER NOT NULL,
+      question_text TEXT NOT NULL,
+      reason TEXT DEFAULT '',
+      state TEXT DEFAULT '',
+      component TEXT DEFAULT '',
+      status TEXT DEFAULT 'open',
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -819,6 +834,74 @@ app.put('/api/exam-date', authMiddleware, async (req, res) => {
   } catch (error) {
     console.error('Set exam date error:', error.message);
     res.status(500).json({ error: 'Server error.' });
+  }
+});
+
+// ─── Report Question Routes ───────────────────────────────────────
+
+// POST /api/report-question — report a question
+app.post('/api/report-question', authMiddleware, async (req, res) => {
+  try {
+    const { questionId, questionText, reason, state, component } = req.body;
+    if (!questionId || !questionText) {
+      return res.status(400).json({ error: 'questionId and questionText are required.' });
+    }
+
+    const id = uuidv4();
+    await db.execute({
+      sql: 'INSERT INTO reported_questions (id, user_id, question_id, question_text, reason, state, component) VALUES (?, ?, ?, ?, ?, ?, ?)',
+      args: [id, req.user.id, questionId, questionText, reason || '', state || '', component || '']
+    });
+
+    res.json({ success: true, message: 'Question reported successfully.' });
+  } catch (error) {
+    console.error('Report question error:', error.message);
+    res.status(500).json({ error: 'Server error reporting question.' });
+  }
+});
+
+// GET /api/admin/reported-questions — get all reported questions (admin only)
+app.get('/api/admin/reported-questions', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    const result = await db.execute(`
+      SELECT rq.*, u.username, u.email
+      FROM reported_questions rq
+      JOIN users u ON rq.user_id = u.id
+      ORDER BY rq.created_at DESC
+    `);
+    res.json({ reports: result.rows });
+  } catch (error) {
+    console.error('Get reported questions error:', error.message);
+    res.status(500).json({ error: 'Server error fetching reported questions.' });
+  }
+});
+
+// PUT /api/admin/reported-questions/:id — update report status (admin only)
+app.put('/api/admin/reported-questions/:id', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    const { status } = req.body;
+    if (!['open', 'reviewed', 'dismissed'].includes(status)) {
+      return res.status(400).json({ error: 'Invalid status. Use open, reviewed, or dismissed.' });
+    }
+    await db.execute({
+      sql: 'UPDATE reported_questions SET status = ? WHERE id = ?',
+      args: [status, req.params.id]
+    });
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Update report status error:', error.message);
+    res.status(500).json({ error: 'Server error updating report.' });
+  }
+});
+
+// DELETE /api/admin/reported-questions/:id — delete a report (admin only)
+app.delete('/api/admin/reported-questions/:id', authMiddleware, adminMiddleware, async (req, res) => {
+  try {
+    await db.execute({ sql: 'DELETE FROM reported_questions WHERE id = ?', args: [req.params.id] });
+    res.json({ success: true, message: 'Report deleted.' });
+  } catch (error) {
+    console.error('Delete report error:', error.message);
+    res.status(500).json({ error: 'Server error deleting report.' });
   }
 });
 

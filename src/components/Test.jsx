@@ -3,6 +3,8 @@ import { getRandomQuestions, getQuizQuestions } from '../data/questionBank';
 import { useAuth } from './AuthContext';
 import './Test.css';
 
+const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
+
 function Test({ state, questionCount, topic, timed = false, onExit }) {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -13,6 +15,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   const [reviewFilter, setReviewFilter] = useState('all'); // 'all', 'missed', or 'flagged'
   const [flaggedQuestions, setFlaggedQuestions] = useState(new Set());
   const [bookmarkedIds, setBookmarkedIds] = useState(new Set());
+  const [reportModal, setReportModal] = useState(null);
+  const [reportReason, setReportReason] = useState('');
+  const [reportStatus, setReportStatus] = useState(null);
   const resultSaved = useRef(false);
   const autoSubmitted = useRef(false);
   const { saveResult, getBookmarks, toggleBookmark } = useAuth();
@@ -162,6 +167,31 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
     );
   }
 
+  const handleReportQuestion = async (question) => {
+    try {
+      const token = localStorage.getItem('auctionAcademyToken');
+      const res = await fetch(`${API_BASE}/api/report-question`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          questionId: question.id,
+          questionText: question.question,
+          reason: reportReason,
+          state,
+          component: 'test',
+        }),
+      });
+      if (res.ok) {
+        setReportStatus('success');
+        setTimeout(() => { setReportModal(null); setReportReason(''); setReportStatus(null); }, 1500);
+      } else {
+        setReportStatus('error');
+      }
+    } catch {
+      setReportStatus('error');
+    }
+  };
+
   const handleRetake = () => {
     resultSaved.current = false;
     autoSubmitted.current = false;
@@ -255,6 +285,13 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
                         title={bookmarkedIds.has(question.id) ? 'Remove bookmark' : 'Bookmark for later review'}
                       >
                         {bookmarkedIds.has(question.id) ? '🔖' : '📑'} {bookmarkedIds.has(question.id) ? 'Saved' : 'Save'}
+                      </button>
+                      <button
+                        className="btn-bookmark btn-report"
+                        onClick={() => setReportModal(question)}
+                        title="Report this question"
+                      >
+                        ⚠️ Report
                       </button>
                       <span className={`result-badge ${isCorrect ? 'correct' : 'incorrect'}`}>
                         {isCorrect ? '✓ Correct' : '✗ Incorrect'}
@@ -375,6 +412,13 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
             >
               {flaggedQuestions.has(currentQuestion.id) ? '🚩 Flagged' : '🏳️ Flag'}
             </button>
+            <button
+              className="btn-flag btn-report"
+              onClick={() => setReportModal(currentQuestion)}
+              title="Report this question"
+            >
+              ⚠️ Report
+            </button>
             <span className="topic-badge">{currentQuestion.topic}</span>
           </div>
         </div>
@@ -442,6 +486,35 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
           ))}
         </div>
       </div>
+
+      {/* Report Question Modal */}
+      {reportModal && (
+        <div className="report-modal-overlay" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); }}>
+          <div className="report-modal" onClick={(e) => e.stopPropagation()}>
+            <h3>⚠️ Report a Question</h3>
+            <p className="report-question-preview">"{reportModal.question}"</p>
+            {reportStatus === 'success' ? (
+              <div className="report-success">✅ Question reported successfully!</div>
+            ) : (
+              <>
+                <label className="report-label">Reason (optional):</label>
+                <textarea
+                  className="report-textarea"
+                  placeholder="Describe the issue (e.g., incorrect answer, typo, unclear wording)..."
+                  value={reportReason}
+                  onChange={(e) => setReportReason(e.target.value)}
+                  rows={3}
+                />
+                {reportStatus === 'error' && <div className="report-error">❌ Failed to submit report. Please try again.</div>}
+                <div className="report-actions">
+                  <button className="btn-report-submit" onClick={() => handleReportQuestion(reportModal)}>Submit Report</button>
+                  <button className="btn-report-cancel" onClick={() => { setReportModal(null); setReportReason(''); setReportStatus(null); }}>Cancel</button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

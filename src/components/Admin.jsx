@@ -37,10 +37,12 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [allUsers, setAllUsers] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState('analytics'); // 'analytics' or 'users'
+  const [tab, setTab] = useState('analytics'); // 'analytics', 'users', or 'reports'
   const [analytics, setAnalytics] = useState(null);
   const [analyticsLoading, setAnalyticsLoading] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [reportedQuestions, setReportedQuestions] = useState([]);
+  const [reportsLoading, setReportsLoading] = useState(true);
   const menuRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -83,12 +85,25 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
     }
   }, []);
 
+  // Fetch reported questions
+  const loadReports = useCallback(async () => {
+    try {
+      const data = await adminFetch('/api/admin/reported-questions');
+      setReportedQuestions(data.reports || []);
+    } catch (err) {
+      showMessage(err.message, 'error');
+    } finally {
+      setReportsLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     if (isAdmin(user)) {
       loadUsers();
       loadAnalytics();
+      loadReports();
     }
-  }, [user, loadUsers, loadAnalytics]);
+  }, [user, loadUsers, loadAnalytics, loadReports]);
 
   // Filter & search
   const filteredUsers = useMemo(() => {
@@ -161,6 +176,29 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
     } catch (err) {
       showMessage(err.message, 'error');
       setDeleteTarget(null);
+    }
+  };
+
+  const updateReportStatus = async (reportId, status) => {
+    try {
+      await adminFetch(`/api/admin/reported-questions/${reportId}`, {
+        method: 'PUT',
+        body: JSON.stringify({ status }),
+      });
+      showMessage(`Report marked as ${status}`);
+      loadReports();
+    } catch (err) {
+      showMessage(err.message, 'error');
+    }
+  };
+
+  const deleteReport = async (reportId) => {
+    try {
+      await adminFetch(`/api/admin/reported-questions/${reportId}`, { method: 'DELETE' });
+      showMessage('Report deleted');
+      loadReports();
+    } catch (err) {
+      showMessage(err.message, 'error');
     }
   };
 
@@ -244,6 +282,11 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
           </button>
           <button className={`admin-tab ${tab === 'users' ? 'active' : ''}`} onClick={() => setTab('users')}>
             👥 Users
+          </button>
+          <button className={`admin-tab ${tab === 'reports' ? 'active' : ''}`} onClick={() => setTab('reports')}>
+            ⚠️ Reported Questions {reportedQuestions.filter(r => r.status === 'open').length > 0 && (
+              <span className="report-badge-count">{reportedQuestions.filter(r => r.status === 'open').length}</span>
+            )}
           </button>
         </div>
 
@@ -468,6 +511,81 @@ function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout,
           )}
         </div>
           </>
+        )}
+
+        {/* ── REPORTED QUESTIONS TAB ── */}
+        {tab === 'reports' && (
+          <div className="reports-section">
+            {reportsLoading ? (
+              <p style={{ textAlign: 'center', padding: '2rem', color: '#666' }}>Loading reported questions...</p>
+            ) : reportedQuestions.length === 0 ? (
+              <div className="admin-empty">
+                <div className="empty-icon">✅</div>
+                <p>No reported questions yet.</p>
+              </div>
+            ) : (
+              <div className="admin-table-card">
+                <div className="admin-table-header">
+                  <h2>⚠️ Reported Questions ({reportedQuestions.length})</h2>
+                </div>
+                <div className="admin-table-wrapper">
+                  <table className="admin-table">
+                    <thead>
+                      <tr>
+                        <th>Question</th>
+                        <th>Reason</th>
+                        <th>Reported By</th>
+                        <th>State</th>
+                        <th>Source</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {reportedQuestions.map((report) => (
+                        <tr key={report.id}>
+                          <td className="report-question-cell">{report.question_text}</td>
+                          <td>{report.reason || '—'}</td>
+                          <td><strong>{report.username}</strong><br /><span style={{ fontSize: '0.8rem', color: '#666' }}>{report.email}</span></td>
+                          <td>{report.state || '—'}</td>
+                          <td><span className="badge badge-source">{report.component || '—'}</span></td>
+                          <td>
+                            <span className={`badge badge-report-${report.status}`}>
+                              {report.status === 'open' ? '🔴 Open' : report.status === 'reviewed' ? '🟢 Reviewed' : '⚪ Dismissed'}
+                            </span>
+                          </td>
+                          <td>{formatDate(report.created_at)}</td>
+                          <td>
+                            <div className="admin-actions">
+                              {report.status === 'open' && (
+                                <button className="btn-admin-action btn-grant" onClick={() => updateReportStatus(report.id, 'reviewed')}>
+                                  ✅ Reviewed
+                                </button>
+                              )}
+                              {report.status === 'open' && (
+                                <button className="btn-admin-action btn-revoke" onClick={() => updateReportStatus(report.id, 'dismissed')}>
+                                  ❌ Dismiss
+                                </button>
+                              )}
+                              {report.status !== 'open' && (
+                                <button className="btn-admin-action btn-grant" onClick={() => updateReportStatus(report.id, 'open')}>
+                                  🔄 Reopen
+                                </button>
+                              )}
+                              <button className="btn-admin-action btn-delete-user" onClick={() => deleteReport(report.id)}>
+                                🗑️ Delete
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+          </div>
         )}
       </div>
 

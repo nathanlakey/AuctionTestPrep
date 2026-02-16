@@ -233,6 +233,19 @@
   background: #6ee7b7;
 }
 
+.btn-report-fc {
+  background: #fef2f2 !important;
+  color: #ef4444 !important;
+  border: 2px solid #ef4444 !important;
+  padding: 0.75rem 1.25rem !important;
+}
+
+.btn-report-fc:hover {
+  background: #fee2e2 !important;
+  color: #dc2626 !important;
+  border-color: #dc2626 !important;
+}
+
 .keyboard-hint {
   text-align: center;
   color: white;

@@ -700,3 +700,16 @@
   background: #f59e0b;
   border-color: #f59e0b;
 }
+
+/* ─── Report Button ─── */
+.btn-report {
+  border-color: #ef4444 !important;
+  color: #ef4444 !important;
+  background: #fef2f2 !important;
+}
+
+.btn-report:hover {
+  background: #fee2e2 !important;
+  border-color: #dc2626 !important;
+  color: #dc2626 !important;
+}

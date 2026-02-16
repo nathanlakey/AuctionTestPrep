@@ -13,3 +13,187 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* ─── Global Report Button ─── */
+.btn-report {
+  border-color: #ef4444 !important;
+  color: #ef4444 !important;
+  background: #fef2f2 !important;
+}
+
+.btn-report:hover {
+  background: #fee2e2 !important;
+  border-color: #dc2626 !important;
+  color: #dc2626 !important;
+}
+
+/* ─── Global Report Modal ─── */
+.report-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.report-modal {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.report-modal h3 {
+  margin: 0 0 1rem;
+  font-size: 1.3rem;
+  color: #001829;
+}
+
+.report-question-preview {
+  background: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-style: italic;
+  color: #444;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #d60000;
+  line-height: 1.5;
+}
+
+.report-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #001829;
+  font-size: 0.95rem;
+}
+
+.report-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.report-textarea:focus {
+  outline: none;
+  border-color: #001829;
+}
+
+.report-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.btn-report-submit {
+  background: #d60000;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.btn-report-submit:hover {
+  background: #b91c1c;
+}
+
+.btn-report-cancel {
+  background: #f3f4f6;
+  color: #001829;
+  border: 2px solid #e5e7eb;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.btn-report-cancel:hover {
+  background: #e5e7eb;
+}
+
+.report-success {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  color: #059669;
+  font-weight: 600;
+}
+
+.report-error {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+/* ─── Global Dropdown Menu ─── */
+.user-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: #001829;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  min-width: 180px;
+  overflow: hidden;
+  z-index: 1000;
+  animation: dropdownFade 0.15s ease-out;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@keyframes dropdownFade {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 0.95rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-item-logout {
+  color: #ff6b6b;
+}
+
+.dropdown-item-logout:hover {
+  background: rgba(214, 0, 0, 0.15);
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 0.25rem 0;
+}

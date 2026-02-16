@@ -443,3 +443,48 @@
     font-size: 0.9rem;
   }
 }
+
+/* ─── Report Badge Count ─── */
+.report-badge-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #d60000;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 0 6px;
+  margin-left: 6px;
+}
+
+/* ─── Reported Questions Table ─── */
+.report-question-cell {
+  max-width: 300px;
+  white-space: normal;
+  line-height: 1.4;
+  font-size: 0.85rem;
+}
+
+.badge-source {
+  background: #e0e7ff;
+  color: #3730a3;
+  text-transform: capitalize;
+}
+
+.badge-report-open {
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+.badge-report-reviewed {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+.badge-report-dismissed {
+  background: #f3f4f6;
+  color: #6b7280;
+}
