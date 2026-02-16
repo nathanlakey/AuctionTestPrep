@@ -174,10 +174,20 @@ function adminMiddleware(req, res, next) {
 const app = express();
 
 app.use(cors({
-  origin: [
-    'https://auction-test-prep.vercel.app',
-    'http://localhost:5173',
-    'http://localhost:3000'
+  origin: function (origin, callback) {
+    const allowed = [
+      'https://auction-test-prep.vercel.app',
+      'http://localhost:5173',
+      'http://localhost:3000'
+    ];
+    // Allow requests with no origin (mobile apps, curl, etc.)
+    if (!origin) return callback(null, true);
+    // Allow any Vercel preview deployment
+    if (origin.endsWith('.vercel.app') || allowed.includes(origin)) {
+      return callback(null, true);
+    }
+    return callback(new Error('Not allowed by CORS'));
+  }
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
