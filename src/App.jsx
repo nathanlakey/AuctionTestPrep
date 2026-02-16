@@ -16,7 +16,7 @@ function AppContent() {
   const [selectedState, setSelectedState] = useState(null)
   const [mode, setMode] = useState('select') // select, dashboard, test, quiz, flashcards, game, studyguide, auth, payment
   const [testConfig, setTestConfig] = useState({})
-  const { user, logout } = useAuth()
+  const { user, logout, markAsPaid } = useAuth()
 
   // Push browser history when mode changes so the back button works within the app
   const navigateTo = useCallback((newMode) => {
@@ -27,6 +27,17 @@ function AppContent() {
       return newMode
     })
   }, [])
+
+  // Handle Stripe payment return — check for ?payment=success on page load
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('payment') === 'success' && user) {
+      markAsPaid()
+      window.history.replaceState({}, '', window.location.pathname)
+    } else if (params.get('payment') === 'cancelled') {
+      window.history.replaceState({}, '', window.location.pathname)
+    }
+  }, [user, markAsPaid])
 
   // Listen for browser back/forward button — always return to home page
   useEffect(() => {
