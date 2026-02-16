@@ -261,7 +261,7 @@
 }
 
 .btn-pause {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #001829 0%, #003354 100%);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -269,12 +269,12 @@
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 24, 41, 0.4);
 }
 
 .btn-pause:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 6px 20px rgba(0, 24, 41, 0.6);
 }
 
 .btn-exit {
@@ -302,8 +302,8 @@
   display: flex;
   justify-content: space-around;
   gap: 1rem;
-  box-shadow: 0 4px 20px rgba(100, 100, 255, 0.3);
-  border: 2px solid rgba(100, 150, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 24, 41, 0.3);
+  border: 2px solid rgba(214, 0, 0, 0.3);
   flex-wrap: wrap;
   position: relative;
   z-index: 10;
@@ -355,11 +355,11 @@
 }
 
 .pause-message {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #001829 0%, #003354 100%);
   padding: 3rem;
   border-radius: 16px;
   text-align: center;
-  box-shadow: 0 8px 40px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 8px 40px rgba(0, 24, 41, 0.6);
   pointer-events: none;
   border: 3px solid rgba(255, 255, 255, 0.3);
 }
@@ -707,7 +707,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #d60000;
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -716,14 +716,15 @@
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 0.3s;
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 4px 20px rgba(214, 0, 0, 0.3);
   flex: 1;
   max-width: 200px;
 }
 
 .btn-primary:hover {
+  background: #b00000;
   transform: translateY(-2px);
-  box-shadow: 0 6px 30px rgba(102, 126, 234, 0.7);
+  box-shadow: 0 6px 30px rgba(214, 0, 0, 0.5);
 }
 
 .btn-secondary-game {

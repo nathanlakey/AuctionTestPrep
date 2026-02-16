@@ -371,18 +371,28 @@
   border-color: #001829;
 }
 
+/* ─── Tablet ─── */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1.5rem 2rem;
+  }
+}
+
+/* ─── Mobile ─── */
 @media (max-width: 768px) {
   .top-nav-inner {
     padding: 0 1rem;
-    height: 56px;
+    height: 52px;
   }
 
   .top-nav-logo {
-    height: 30px;
+    height: 28px;
   }
 
   .top-nav-links {
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 
   .top-nav-link {
@@ -396,28 +406,73 @@
   }
 
   .brand-header {
-    padding: 2rem 1rem;
+    padding: 0.75rem 1rem 0.6rem;
+    padding-top: calc(0.75rem + 52px);
   }
 
   .brand-logo {
-    max-width: 300px;
+    width: 160px;
   }
-  
-  .brand-header h1 {
-    font-size: 2rem;
-  }
-  
+
   .brand-header h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
-  
-  .features-grid {
-    grid-template-columns: 1fr;
-    padding: 0 1rem 2rem;
+
+  .brand-header .tagline {
+    font-size: 0.8rem;
   }
 
   .state-selector-card {
+    margin-top: 220px;
     margin-left: 1rem;
     margin-right: 1rem;
+    padding: 1.5rem;
+  }
+
+  .state-selector-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    padding: 0 1rem 1.5rem;
+  }
+
+  .feature-card {
+    padding: 1.25rem 1rem;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+  }
+
+  .feature-card h4 {
+    font-size: 0.95rem;
+  }
+
+  .feature-card p {
+    font-size: 0.8rem;
+  }
+}
+
+/* ─── Small phones ─── */
+@media (max-width: 480px) {
+  .top-nav-links {
+    gap: 0.75rem;
+  }
+
+  .top-nav-link {
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .state-selector-card {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 }

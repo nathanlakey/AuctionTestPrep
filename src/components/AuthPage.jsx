@@ -13,6 +13,7 @@ function AuthPage({ onAuthSuccess, onBack, resetToken, onResetComplete }) {
   const [error, setError] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
   const [isSending, setIsSending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const { login, signup, forgotPassword, resetPasswordWithToken } = useAuth();
 
   // If a reset token is passed via URL, show the "enter new password" form
@@ -45,14 +46,18 @@ function AuthPage({ onAuthSuccess, onBack, resetToken, onResetComplete }) {
         return;
       }
 
+      setIsLoading(true);
       const result = await signup(username.trim(), email.trim(), password);
+      setIsLoading(false);
       if (result.success) {
         onAuthSuccess();
       } else {
         setError(result.error);
       }
     } else {
+      setIsLoading(true);
       const result = await login(email.trim(), password);
+      setIsLoading(false);
       if (result.success) {
         onAuthSuccess();
       } else {
@@ -324,8 +329,8 @@ function AuthPage({ onAuthSuccess, onBack, resetToken, onResetComplete }) {
             </div>
           )}
 
-          <button type="submit" className="auth-submit-btn">
-            {isLogin ? 'Sign In' : 'Create Account'}
+          <button type="submit" className={`auth-submit-btn${isLoading ? ' loading' : ''}`} disabled={isLoading}>
+            {isLoading ? (isLogin ? 'Signing In...' : 'Creating Account...') : (isLogin ? 'Sign In' : 'Create Account')}
           </button>
         </form>
 
