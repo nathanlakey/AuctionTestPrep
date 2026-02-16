@@ -149,6 +149,34 @@
   color: #b00000;
 }
 
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: #d60000;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0;
+  margin-top: 0.25rem;
+  text-align: right;
+  align-self: flex-end;
+  transition: color 0.2s;
+}
+
+.forgot-password-btn:hover {
+  color: #b00000;
+  text-decoration: underline;
+}
+
+.auth-success {
+  background: #d1fae5;
+  color: #065f46;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #a7f3d0;
+}
+
 @media (max-width: 480px) {
   .auth-card {
     padding: 1.5rem;

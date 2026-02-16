@@ -146,8 +146,21 @@ export function AuthProvider({ children }) {
     setUser(null);
   }, []);
 
+  const resetPassword = useCallback(async (email, username, newPassword) => {
+    const users = JSON.parse(localStorage.getItem('auctionAcademyUsers') || '[]');
+    const userIndex = users.findIndex(
+      u => u.email.toLowerCase() === email.toLowerCase() && u.username.toLowerCase() === username.toLowerCase()
+    );
+    if (userIndex === -1) {
+      return { success: false, error: 'No account found with that email and username combination.' };
+    }
+    users[userIndex].password = await hashPassword(newPassword);
+    localStorage.setItem('auctionAcademyUsers', JSON.stringify(users));
+    return { success: true };
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount }}>
+    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, resetPassword }}>
       {children}
     </AuthContext.Provider>
   );
