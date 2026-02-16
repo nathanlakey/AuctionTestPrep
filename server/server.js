@@ -59,6 +59,22 @@ async function initDatabase() {
     )
   `);
 
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS test_results (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      state TEXT NOT NULL,
+      mode TEXT NOT NULL,
+      topic TEXT DEFAULT 'All Topics',
+      score_correct INTEGER NOT NULL,
+      score_total INTEGER NOT NULL,
+      score_percentage REAL NOT NULL,
+      time_seconds INTEGER DEFAULT 0,
+      created_at TEXT DEFAULT (datetime('now')),
+      FOREIGN KEY (user_id) REFERENCES users(id)
+    )
+  `);
+
   console.log('Database initialized');
 }
 
@@ -426,6 +442,8 @@ app.post('/api/auth/reset-password', async (req, res) => {
 // DELETE /api/auth/account — delete own account
 app.delete('/api/auth/account', authMiddleware, async (req, res) => {
   try {
+    await db.execute({ sql: 'DELETE FROM test_results WHERE user_id = ?', args: [req.user.id] });
+    await db.execute({ sql: 'DELETE FROM reset_tokens WHERE user_id = ?', args: [req.user.id] });
     await db.execute({ sql: 'DELETE FROM users WHERE id = ?', args: [req.user.id] });
     res.json({ message: 'Account deleted.' });
   } catch (error) {
@@ -443,6 +461,105 @@ app.put('/api/auth/mark-paid', authMiddleware, async (req, res) => {
   } catch (error) {
     console.error('Mark paid error:', error.message);
     res.status(500).json({ error: 'Server error.' });
+  }
+});
+
+// ─── Progress Tracking Routes ─────────────────────────────────────
+
+// POST /api/results — save a test/quiz/game result
+app.post('/api/results', authMiddleware, async (req, res) => {
+  try {
+    const { state, mode, topic, scoreCorrect, scoreTotal, scorePercentage, timeSeconds } = req.body;
+    if (!state || !mode || scoreCorrect === undefined || scoreTotal === undefined || scorePercentage === undefined) {
+      return res.status(400).json({ error: 'Missing required fields.' });
+    }
+
+    const id = uuidv4();
+    await db.execute({
+      sql: `INSERT INTO test_results (id, user_id, state, mode, topic, score_correct, score_total, score_percentage, time_seconds)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      args: [id, req.user.id, state, mode, topic || 'All Topics', scoreCorrect, scoreTotal, scorePercentage, timeSeconds || 0]
+    });
+
+    res.status(201).json({ message: 'Result saved.', id });
+  } catch (error) {
+    console.error('Save result error:', error.message);
+    res.status(500).json({ error: 'Server error saving result.' });
+  }
+});
+
+// GET /api/results — get all results for the logged-in user
+app.get('/api/results', authMiddleware, async (req, res) => {
+  try {
+    const result = await db.execute({
+      sql: 'SELECT * FROM test_results WHERE user_id = ? ORDER BY created_at DESC LIMIT 100',
+      args: [req.user.id]
+    });
+
+    const results = result.rows.map(row => ({
+      id: row.id,
+      state: row.state,
+      mode: row.mode,
+      topic: row.topic,
+      scoreCorrect: row.score_correct,
+      scoreTotal: row.score_total,
+      scorePercentage: row.score_percentage,
+      timeSeconds: row.time_seconds,
+      createdAt: row.created_at,
+    }));
+
+    res.json({ results });
+  } catch (error) {
+    console.error('Get results error:', error.message);
+    res.status(500).json({ error: 'Server error fetching results.' });
+  }
+});
+
+// GET /api/results/summary — get summary stats for the logged-in user
+app.get('/api/results/summary', authMiddleware, async (req, res) => {
+  try {
+    const totalResult = await db.execute({
+      sql: 'SELECT COUNT(*) as total, AVG(score_percentage) as avg_score FROM test_results WHERE user_id = ?',
+      args: [req.user.id]
+    });
+
+    const byModeResult = await db.execute({
+      sql: `SELECT mode, COUNT(*) as count, AVG(score_percentage) as avg_score, MAX(score_percentage) as best_score
+            FROM test_results WHERE user_id = ? GROUP BY mode`,
+      args: [req.user.id]
+    });
+
+    const recentResult = await db.execute({
+      sql: 'SELECT * FROM test_results WHERE user_id = ? ORDER BY created_at DESC LIMIT 5',
+      args: [req.user.id]
+    });
+
+    const summary = {
+      totalAttempts: totalResult.rows[0].total || 0,
+      averageScore: totalResult.rows[0].avg_score ? Math.round(totalResult.rows[0].avg_score * 10) / 10 : 0,
+      byMode: byModeResult.rows.map(row => ({
+        mode: row.mode,
+        count: row.count,
+        avgScore: Math.round(row.avg_score * 10) / 10,
+        bestScore: Math.round(row.best_score * 10) / 10,
+      })),
+      recent: recentResult.rows.map(row => ({
+        id: row.id,
+        state: row.state,
+        mode: row.mode,
+        topic: row.topic,
+        scoreCorrect: row.score_correct,
+        scoreTotal: row.score_total,
+        scorePercentage: row.score_percentage,
+        timeSeconds: row.time_seconds,
+        createdAt: row.created_at,
+      })),
+    };
+
+    res.json({ summary });
+  } catch (error) {
+    console.error('Get summary error:', error.message);
+    res.status(500).json({ error: 'Server error fetching summary.' });
   }
 });
 

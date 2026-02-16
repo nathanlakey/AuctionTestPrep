@@ -170,8 +170,39 @@ export function AuthProvider({ children }) {
     }
   }, []);
 
+  const saveResult = useCallback(async (resultData) => {
+    try {
+      await apiFetch('/api/results', {
+        method: 'POST',
+        body: JSON.stringify(resultData),
+      });
+      return { success: true };
+    } catch (err) {
+      console.error('Failed to save result:', err.message);
+      return { success: false, error: err.message };
+    }
+  }, []);
+
+  const getResults = useCallback(async () => {
+    try {
+      const data = await apiFetch('/api/results');
+      return { success: true, results: data.results };
+    } catch (err) {
+      return { success: false, error: err.message, results: [] };
+    }
+  }, []);
+
+  const getResultsSummary = useCallback(async () => {
+    try {
+      const data = await apiFetch('/api/results/summary');
+      return { success: true, summary: data.summary };
+    } catch (err) {
+      return { success: false, error: err.message, summary: null };
+    }
+  }, []);
+
   return (
-    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, forgotPassword, resetPasswordWithToken }}>
+    <AuthContext.Provider value={{ user, signup, login, logout, markAsPaid, updateProfile, changePassword, deleteAccount, forgotPassword, resetPasswordWithToken, saveResult, getResults, getResultsSummary }}>
       {children}
     </AuthContext.Provider>
   );

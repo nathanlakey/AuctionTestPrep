@@ -1,11 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { states } from '../data/questionBank';
 import './StateSelector.css';
+
+const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
 
 function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, isUserAdmin, user }) {
   const [selectedState, setSelectedState] = useState('');
   const [showStateDialog, setShowStateDialog] = useState(false);
   const [selectedMode, setSelectedMode] = useState(null);
+
+  // Wake up the Render server as soon as the homepage loads
+  useEffect(() => {
+    fetch(`${API_BASE}/api/health`).catch(() => {});
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();

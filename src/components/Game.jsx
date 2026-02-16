@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { getQuizQuestions } from '../data/questionBank';
+import { useAuth } from './AuthContext';
 import './Game.css';
 
 function Game({ state, topic, onExit }) {
@@ -17,6 +18,8 @@ function Game({ state, topic, onExit }) {
   const [bubbles, setBubbles] = useState([]);
   const gameAreaRef = useRef(null);
   const animationFrameRef = useRef(null);
+  const resultSaved = useRef(false);
+  const { saveResult } = useAuth();
 
   // Initialize game
   useEffect(() => {
@@ -124,6 +127,23 @@ function Game({ state, topic, onExit }) {
     }
   };
 
+  // Save result when game ends
+  useEffect(() => {
+    if (gameState === 'gameOver' && !resultSaved.current && questions.length > 0) {
+      resultSaved.current = true;
+      const accuracy = Math.round((correctAnswers / questions.length) * 100);
+      saveResult({
+        state,
+        mode: 'game',
+        topic: topic || 'All Topics',
+        scoreCorrect: correctAnswers,
+        scoreTotal: questions.length,
+        scorePercentage: accuracy,
+        timeSeconds: 0,
+      });
+    }
+  }, [gameState, correctAnswers, questions.length, state, topic, saveResult]);
+
   const handleBubbleClick = (bubble) => {
     if (showFeedback || bubble.removed) return;
 
@@ -216,6 +236,7 @@ function Game({ state, topic, onExit }) {
   }
 
   const handlePlayAgain = () => {
+    resultSaved.current = false;
     const gameQuestions = getQuizQuestions(state, 10, topic);
     setQuestions(gameQuestions);
     setCurrentQuestionIndex(0);

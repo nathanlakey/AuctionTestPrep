@@ -1,13 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
 import './Profile.css';
 
 function Profile({ onBack }) {
-  const { user, updateProfile, changePassword, deleteAccount, logout } = useAuth();
+  const { user, updateProfile, changePassword, deleteAccount, logout, getResultsSummary } = useAuth();
   const [isEditing, setIsEditing] = useState(false);
   const [message, setMessage] = useState(null);
   const [showPasswordForm, setShowPasswordForm] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [progressData, setProgressData] = useState(null);
+  const [progressLoading, setProgressLoading] = useState(true);
 
   // Edit form state
   const [editForm, setEditForm] = useState({
@@ -29,6 +31,18 @@ function Profile({ onBack }) {
     setMessage({ text, type });
     setTimeout(() => setMessage(null), 4000);
   };
+
+  // Load progress data on mount
+  useEffect(() => {
+    async function loadProgress() {
+      const result = await getResultsSummary();
+      if (result.success) {
+        setProgressData(result.summary);
+      }
+      setProgressLoading(false);
+    }
+    loadProgress();
+  }, [getResultsSummary]);
 
   const handleEditSave = async () => {
     if (!editForm.username.trim()) {
@@ -144,6 +158,84 @@ function Profile({ onBack }) {
               : user.username}
           </div>
           <div className="profile-avatar-email">{user.email}</div>
+        </div>
+
+        {/* Progress Tracking Section */}
+        <div className="profile-card">
+          <h2>📊 Your Progress</h2>
+          {progressLoading ? (
+            <p style={{ color: '#666', textAlign: 'center', padding: '1rem 0' }}>Loading your stats...</p>
+          ) : !progressData || progressData.totalAttempts === 0 ? (
+            <div className="progress-empty">
+              <p>📝 No results yet! Complete a test, quiz, or game to start tracking your progress.</p>
+            </div>
+          ) : (
+            <>
+              {/* Summary Stats */}
+              <div className="progress-stats-grid">
+                <div className="progress-stat-card">
+                  <div className="progress-stat-value">{progressData.totalAttempts}</div>
+                  <div className="progress-stat-label">Total Attempts</div>
+                </div>
+                <div className="progress-stat-card">
+                  <div className="progress-stat-value">{progressData.averageScore}%</div>
+                  <div className="progress-stat-label">Average Score</div>
+                </div>
+                {progressData.byMode.map(m => (
+                  <div className="progress-stat-card" key={m.mode}>
+                    <div className="progress-stat-value">{m.bestScore}%</div>
+                    <div className="progress-stat-label">Best {m.mode === 'test' ? 'Test' : m.mode === 'quiz' ? 'Quiz' : 'Game'}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* By Mode Breakdown */}
+              <div className="progress-modes">
+                {progressData.byMode.map(m => (
+                  <div className="progress-mode-row" key={m.mode}>
+                    <span className="progress-mode-icon">
+                      {m.mode === 'test' ? '📝' : m.mode === 'quiz' ? '🎯' : '🎮'}
+                    </span>
+                    <span className="progress-mode-name">
+                      {m.mode === 'test' ? 'Practice Tests' : m.mode === 'quiz' ? 'Quizzes' : 'Games'}
+                    </span>
+                    <span className="progress-mode-count">{m.count} completed</span>
+                    <span className="progress-mode-avg">Avg: {m.avgScore}%</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Recent Results */}
+              {progressData.recent.length > 0 && (
+                <div className="progress-recent">
+                  <h3>Recent Activity</h3>
+                  {progressData.recent.map(r => {
+                    const date = new Date(r.createdAt + 'Z');
+                    const passed = r.scorePercentage >= 70;
+                    return (
+                      <div className="progress-recent-item" key={r.id}>
+                        <span className="progress-recent-icon">
+                          {r.mode === 'test' ? '📝' : r.mode === 'quiz' ? '🎯' : '🎮'}
+                        </span>
+                        <div className="progress-recent-info">
+                          <div className="progress-recent-title">
+                            {r.mode === 'test' ? 'Practice Test' : r.mode === 'quiz' ? 'Quiz' : 'Game'} — {r.state}
+                          </div>
+                          <div className="progress-recent-meta">
+                            {r.topic !== 'All Topics' && <span>{r.topic} · </span>}
+                            {date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                          </div>
+                        </div>
+                        <div className={`progress-recent-score ${passed ? 'passed' : 'failed'}`}>
+                          {r.scoreCorrect}/{r.scoreTotal} ({Math.round(r.scorePercentage)}%)
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </>
+          )}
         </div>
 
         {/* Account Info Card */}

@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { getRandomQuestions, getQuizQuestions } from '../data/questionBank';
+import { useAuth } from './AuthContext';
 import './Test.css';
 
 function Test({ state, questionCount, topic, onExit }) {
@@ -8,6 +9,8 @@ function Test({ state, questionCount, topic, onExit }) {
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const [timeElapsed, setTimeElapsed] = useState(0);
+  const resultSaved = useRef(false);
+  const { saveResult } = useAuth();
 
   useEffect(() => {
     // Load questions based on type
@@ -49,6 +52,20 @@ function Test({ state, questionCount, topic, onExit }) {
 
   const handleSubmit = () => {
     setShowResults(true);
+    // Save result to database
+    if (!resultSaved.current) {
+      resultSaved.current = true;
+      const score = calculateScore();
+      saveResult({
+        state,
+        mode: questionCount === 75 ? 'test' : 'quiz',
+        topic: topic || 'All Topics',
+        scoreCorrect: score.correct,
+        scoreTotal: score.total,
+        scorePercentage: parseFloat(score.percentage),
+        timeSeconds: timeElapsed,
+      });
+    }
   };
 
   const calculateScore = () => {
@@ -80,6 +97,7 @@ function Test({ state, questionCount, topic, onExit }) {
   }
 
   const handleRetake = () => {
+    resultSaved.current = false;
     if (questionCount === 75) {
       setQuestions(getRandomQuestions(state, 75));
     } else {
