@@ -1,8 +1,43 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { states } from '../data/questionBank';
 import './StateSelector.css';
 
 const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
+
+function CustomSelect({ value, onChange, placeholder = '-- Select a State --' }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setIsOpen(false);
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  return (
+    <div className="custom-select" ref={ref}>
+      <button type="button" className={`custom-select-trigger ${value ? 'has-value' : ''}`} onClick={() => setIsOpen(!isOpen)}>
+        <span>{value || placeholder}</span>
+        <span className={`custom-select-arrow ${isOpen ? 'open' : ''}`}>▾</span>
+      </button>
+      {isOpen && (
+        <ul className="custom-select-options">
+          {states.map(state => (
+            <li
+              key={state}
+              className={`custom-select-option ${state === value ? 'selected' : ''}`}
+              onClick={() => { onChange(state); setIsOpen(false); }}
+            >
+              {state}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, isUserAdmin, user }) {
   const [selectedState, setSelectedState] = useState('');
@@ -66,18 +101,9 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, i
         <p>Choose the state where you'll be taking your auctioneer licensing exam</p>
         
         <form onSubmit={handleSubmit}>
-          <select 
-            value={selectedState} 
-            onChange={(e) => setSelectedState(e.target.value)}
-            required
-          >
-            <option value="">-- Select a State --</option>
-            {states.map(state => (
-              <option key={state} value={state}>{state}</option>
-            ))}
-          </select>
+          <CustomSelect value={selectedState} onChange={setSelectedState} />
           
-          <button type="submit" className="btn-primary">
+          <button type="submit" className="btn-primary" disabled={!selectedState}>
             Start Learning
           </button>
         </form>
@@ -113,18 +139,8 @@ function StateSelector({ onSelectState, onLogin, onLogout, onProfile, onAdmin, i
             <h3>Select Your State</h3>
             <p>Choose your state to start this study mode</p>
             <form onSubmit={handleSubmit}>
-              <select 
-                value={selectedState} 
-                onChange={(e) => setSelectedState(e.target.value)}
-                required
-                autoFocus
-              >
-                <option value="">-- Select a State --</option>
-                {states.map(state => (
-                  <option key={state} value={state}>{state}</option>
-                ))}
-              </select>
-              <button type="submit" className="btn-primary">
+              <CustomSelect value={selectedState} onChange={setSelectedState} />
+              <button type="submit" className="btn-primary" disabled={!selectedState}>
                 Continue
               </button>
             </form>

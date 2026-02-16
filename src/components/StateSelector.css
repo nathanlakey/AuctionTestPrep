@@ -208,6 +208,98 @@
   border-color: #001829;
 }
 
+/* ─── Custom Select Dropdown ─── */
+.custom-select {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.custom-select-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.25rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  color: #999;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  text-align: left;
+}
+
+.custom-select-trigger.has-value {
+  color: #001829;
+  font-weight: 600;
+}
+
+.custom-select-trigger:hover {
+  border-color: #d60000;
+}
+
+.custom-select-trigger:focus {
+  outline: none;
+  border-color: #001829;
+  box-shadow: 0 0 0 3px rgba(0, 24, 41, 0.1);
+}
+
+.custom-select-arrow {
+  font-size: 1rem;
+  color: #001829;
+  transition: transform 0.2s;
+}
+
+.custom-select-arrow.open {
+  transform: rotate(180deg);
+}
+
+.custom-select-options {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  z-index: 500;
+  max-height: 280px;
+  overflow-y: auto;
+  animation: selectDrop 0.15s ease-out;
+}
+
+@keyframes selectDrop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.custom-select-option {
+  padding: 0.75rem 1.25rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #001829;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.custom-select-option:hover {
+  background: #f0f4f8;
+  color: #d60000;
+}
+
+.custom-select-option.selected {
+  background: #001829;
+  color: white;
+  font-weight: 700;
+}
+
 .btn-primary {
   background: #d60000;
   color: white;
@@ -350,26 +442,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-}
-
-.modal-content select {
-  width: 100%;
-  padding: 1rem;
-  font-size: 1.1rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
-  background: white;
-  cursor: pointer;
-  transition: border-color 0.3s;
-}
-
-.modal-content select:hover {
-  border-color: #d60000;
-}
-
-.modal-content select:focus {
-  outline: none;
-  border-color: #001829;
+  align-items: center;
 }
 
 /* ─── Tablet ─── */
