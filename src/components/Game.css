@@ -238,8 +238,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(100, 100, 255, 0.3);
-  border: 2px solid rgba(100, 150, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 24, 41, 0.5);
+  border: 2px solid rgba(214, 0, 0, 0.3);
   position: relative;
   z-index: 10;
 }
@@ -247,7 +247,7 @@
 .game-info h2 {
   margin: 0 0 0.25rem 0;
   color: #fff;
-  text-shadow: 0 0 10px rgba(100, 150, 255, 0.8);
+  text-shadow: 0 0 10px rgba(214, 0, 0, 0.6);
 }
 
 .game-info p {
@@ -424,13 +424,13 @@
 
 .bubble {
   position: absolute;
-  background: radial-gradient(circle at 30% 30%, rgba(150, 200, 255, 0.9), rgba(80, 120, 255, 0.8));
+  background: radial-gradient(circle at 30% 30%, rgba(200, 220, 240, 0.92), rgba(0, 50, 84, 0.85));
   border: 3px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   padding: 1.5rem;
   cursor: pointer;
   transition: opacity 0.3s, transform 0.2s;
-  box-shadow: 0 8px 32px rgba(100, 150, 255, 0.6), inset 0 4px 16px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 24, 41, 0.6), inset 0 4px 16px rgba(255, 255, 255, 0.3);
   min-width: 200px;
   max-width: 280px;
   display: flex;
@@ -451,7 +451,7 @@
 
 .bubble:hover {
   transform: translate(-50%, -50%) scale(1.1);
-  box-shadow: 0 12px 48px rgba(150, 200, 255, 0.8), inset 0 4px 16px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 12px 48px rgba(0, 24, 41, 0.8), inset 0 4px 16px rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -627,8 +627,8 @@
   max-width: 600px;
   margin: 2rem auto;
   text-align: center;
-  box-shadow: 0 8px 40px rgba(100, 150, 255, 0.4);
-  border: 3px solid rgba(100, 150, 255, 0.4);
+  box-shadow: 0 8px 40px rgba(0, 24, 41, 0.6);
+  border: 3px solid rgba(214, 0, 0, 0.4);
   position: relative;
   z-index: 100;
 }
@@ -637,7 +637,7 @@
   color: #fff;
   margin-bottom: 2rem;
   font-size: 2.5rem;
-  text-shadow: 0 0 20px rgba(100, 150, 255, 0.8);
+  text-shadow: 0 0 20px rgba(214, 0, 0, 0.6);
 }
 
 .final-score {
@@ -669,7 +669,7 @@
   padding: 2rem;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 12px;
-  border: 2px solid rgba(100, 150, 255, 0.2);
+  border: 2px solid rgba(0, 24, 41, 0.3);
 }
 
 .stat {

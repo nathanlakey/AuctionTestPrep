@@ -68,6 +68,24 @@ function AppContent() {
     return () => window.removeEventListener('popstate', handlePopState)
   }, [])
 
+  // Dynamic page title based on current view
+  useEffect(() => {
+    const titles = {
+      select: 'Home',
+      auth: 'Sign In',
+      payment: 'Payment',
+      dashboard: 'Dashboard',
+      test: 'Practice Test',
+      flashcards: 'Flashcards',
+      game: 'Study Game',
+      studyguide: 'Study Guide',
+      profile: 'Profile',
+      admin: 'Admin',
+    }
+    const label = titles[mode] || 'Home'
+    document.title = `${label} — Auction Academy`
+  }, [mode])
+
   const handleSelectState = (state, selectedMode = null) => {
     // If user is not logged in or hasn't paid, redirect to auth/payment
     if (!user) {
