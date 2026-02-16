@@ -244,8 +244,9 @@
 }
 
 .study-modes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin-bottom: 3rem;
 }
@@ -262,6 +263,9 @@
   gap: 1rem;
   transition: transform 0.3s, box-shadow 0.3s;
   border-top: 4px solid #d60000;
+  width: calc(33.333% - 1.34rem);
+  min-width: 280px;
+  box-sizing: border-box;
 }
 
 .study-mode-card:hover {
@@ -269,10 +273,7 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
-.primary-card {
-  border-top: 4px solid #001829;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-}
+
 
 .card-icon {
   font-size: 3rem;
@@ -328,11 +329,7 @@
   color: white;
 }
 
-.btn-mode.btn-primary {
-  background: #001829;
-  font-size: 1.2rem;
-  padding: 1rem 2rem;
-}
+
 
 .btn-mode:hover {
   background: #b00000;
@@ -340,10 +337,7 @@
   box-shadow: 0 4px 8px rgba(214, 0, 0, 0.3);
 }
 
-.btn-mode.btn-primary:hover {
-  background: #002a47;
-  box-shadow: 0 4px 8px rgba(0, 24, 41, 0.3);
-}
+
 
 .btn-mode:active {
   transform: translateY(0);
@@ -408,8 +402,9 @@
     padding-top: calc(56px + 1.5rem);
   }
   
-  .study-modes-grid {
-    grid-template-columns: 1fr;
+  .study-mode-card {
+    width: 100%;
+    min-width: 0;
   }
 
   .streak-banner {

@@ -101,13 +101,13 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
 
         <div className="study-modes-grid">
           {/* Full Practice Test */}
-          <div className="study-mode-card primary-card">
+          <div className="study-mode-card">
             <div className="card-icon">📝</div>
             <h3>Full Practice Test</h3>
             <p>Take a complete 75-question exam simulating the real licensing test</p>
             <button 
               onClick={() => onStartTest(75)} 
-              className="btn-mode btn-primary"
+              className="btn-mode"
             >
               Start Practice Test
             </button>
