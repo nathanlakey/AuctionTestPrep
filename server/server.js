@@ -276,6 +276,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
       line_items: [{ price: priceId, quantity: 1 }],
       mode: mode || 'payment',
       customer_email: userEmail || undefined,
+      allow_promotion_codes: true,
       success_url: `${process.env.CLIENT_URL}?payment=success`,
       cancel_url: `${process.env.CLIENT_URL}?payment=cancelled`,
     });
