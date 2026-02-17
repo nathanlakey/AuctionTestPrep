@@ -1,6 +1,10 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from './AuthContext';
+import { isAdmin } from '../utils/adminUtils';
 import './Admin.css';
+
+// Re-export isAdmin for backward compatibility
+export { isAdmin };
 
 // Add admin emails here — these users will always have admin access
 const ADMIN_EMAILS = ['hello@auctionacademy.com', 'nathan@auctionacademy.com', 'admin@auctionacademy.com'];
@@ -20,13 +24,6 @@ async function adminFetch(endpoint, options = {}) {
   const data = await res.json();
   if (!res.ok) throw new Error(data.error || 'Something went wrong.');
   return data;
-}
-
-export function isAdmin(user) {
-  if (!user) return false;
-  if (user.isAdmin) return true;
-  if (ADMIN_EMAILS.includes(user.email?.toLowerCase())) return true;
-  return false;
 }
 
 function Admin({ state, onBack, onChangeState, onDashboard, onProfile, onLogout, isUserAdmin }) {

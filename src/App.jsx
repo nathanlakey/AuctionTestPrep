@@ -1,16 +1,19 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, lazy, Suspense } from 'react'
 import { AuthProvider, useAuth } from './components/AuthContext'
 import StateSelector from './components/StateSelector'
-import Dashboard from './components/Dashboard'
-import Test from './components/Test'
-import Flashcards from './components/Flashcards'
-import Game from './components/Game'
-import StudyGuide from './components/StudyGuide'
 import AuthPage from './components/AuthPage'
-import Payment from './components/Payment'
-import Profile from './components/Profile'
-import Admin, { isAdmin } from './components/Admin'
+import { isAdmin } from './utils/adminUtils'
 import './App.css'
+
+// Lazy load heavy components to reduce initial bundle size
+const Dashboard = lazy(() => import('./components/Dashboard'))
+const Test = lazy(() => import('./components/Test'))
+const Flashcards = lazy(() => import('./components/Flashcards'))
+const Game = lazy(() => import('./components/Game'))
+const StudyGuide = lazy(() => import('./components/StudyGuide'))
+const Payment = lazy(() => import('./components/Payment'))
+const Profile = lazy(() => import('./components/Profile'))
+const Admin = lazy(() => import('./components/Admin'))
 
 function AppContent() {
   // Persist mode & state across refreshes via sessionStorage
@@ -246,10 +249,12 @@ function AppContent() {
       )}
 
       {mode === 'payment' && (
-        <Payment 
-          onSuccess={handlePaymentSuccess} 
-          onBack={handlePaymentBack} 
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Payment 
+            onSuccess={handlePaymentSuccess} 
+            onBack={handlePaymentBack} 
+          />
+        </Suspense>
       )}
 
       {mode === 'select' && (
@@ -267,76 +272,90 @@ function AppContent() {
       )}
       
       {mode === 'dashboard' && (
-        <Dashboard 
-          state={selectedState}
-          onChangeState={handleChangeState}
-          onStartTest={handleStartTest}
-          onStartQuiz={handleStartQuiz}
-          onStartFlashcards={handleStartFlashcards}
-          onStartGame={handleStartGame}
-          onStartStudyGuide={handleStartStudyGuide}
-          onProfile={handleProfile}
-          onAdmin={handleAdmin}
-          onLogout={handleLogout}
-          isUserAdmin={isAdmin(user)}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Dashboard 
+            state={selectedState}
+            onChangeState={handleChangeState}
+            onStartTest={handleStartTest}
+            onStartQuiz={handleStartQuiz}
+            onStartFlashcards={handleStartFlashcards}
+            onStartGame={handleStartGame}
+            onStartStudyGuide={handleStartStudyGuide}
+            onProfile={handleProfile}
+            onAdmin={handleAdmin}
+            onLogout={handleLogout}
+            isUserAdmin={isAdmin(user)}
+          />
+        </Suspense>
       )}
       
       {mode === 'test' && (
-        <Test 
-          state={selectedState}
-          questionCount={testConfig.questionCount}
-          topic={testConfig.topic}
-          timed={testConfig.timed || false}
-          onExit={handleExit}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Test 
+            state={selectedState}
+            questionCount={testConfig.questionCount}
+            topic={testConfig.topic}
+            timed={testConfig.timed || false}
+            onExit={handleExit}
+          />
+        </Suspense>
       )}
       
       {mode === 'flashcards' && (
-        <Flashcards 
-          state={selectedState}
-          topic={testConfig.topic}
-          onExit={handleExit}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Flashcards 
+            state={selectedState}
+            topic={testConfig.topic}
+            onExit={handleExit}
+          />
+        </Suspense>
       )}
       
       {mode === 'game' && (
-        <Game 
-          state={selectedState}
-          topic={testConfig.topic}
-          onExit={handleExit}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Game 
+            state={selectedState}
+            topic={testConfig.topic}
+            onExit={handleExit}
+          />
+        </Suspense>
       )}
 
       {mode === 'profile' && (
-        <Profile 
-          state={selectedState}
-          onBack={handleProfileBack}
-          onChangeState={handleChangeState}
-          onDashboard={handleDashboard}
-          onAdmin={handleAdmin}
-          onLogout={handleLogout}
-          isUserAdmin={isAdmin(user)}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Profile 
+            state={selectedState}
+            onBack={handleProfileBack}
+            onChangeState={handleChangeState}
+            onDashboard={handleDashboard}
+            onAdmin={handleAdmin}
+            onLogout={handleLogout}
+            isUserAdmin={isAdmin(user)}
+          />
+        </Suspense>
       )}
 
       {mode === 'admin' && (
-        <Admin 
-          state={selectedState}
-          onBack={handleAdminBack}
-          onChangeState={handleChangeState}
-          onDashboard={handleDashboard}
-          onProfile={handleProfile}
-          onLogout={handleLogout}
-          isUserAdmin={isAdmin(user)}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <Admin 
+            state={selectedState}
+            onBack={handleAdminBack}
+            onChangeState={handleChangeState}
+            onDashboard={handleDashboard}
+            onProfile={handleProfile}
+            onLogout={handleLogout}
+            isUserAdmin={isAdmin(user)}
+          />
+        </Suspense>
       )}
 
       {mode === 'studyguide' && (
-        <StudyGuide 
-          selectedState={selectedState}
-          onBack={handleExit}
-        />
+        <Suspense fallback={<div className="loading-spinner">Loading...</div>}>
+          <StudyGuide 
+            selectedState={selectedState}
+            onBack={handleExit}
+          />
+        </Suspense>
       )}
     </div>
   )
