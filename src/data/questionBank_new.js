@@ -7450,7 +7450,7 @@ export const questionBank = {
     "question": "\u00a7 62-19-117(e)(3) prevents default judgment within 20 days after mailing of process/pleadings to the nonresident defendant. A principal auctioneer may sponsor an affiliate auctioneer after:",
     "options": ["6 months of licensure", "1 year of licensure", "2 years of licensure", "5 years of licensure"],
     "correctAnswer": 1,
-    "explanation": "",
+    "explanation": "\u00a7 62-19-115(b) provides that a principal auctioneer may sponsor an affiliate auctioneer after one year of licensure. This ensures the principal has sufficient experience before taking on sponsorship responsibilities.",
     "id": 156
   },
   {

@@ -323,7 +323,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
                   
                   {!isCorrect && (
                     <div className="explanation">
-                      <strong>Explanation:</strong> {question.explanation}
+                      <strong>Explanation:</strong> {question.explanation && question.explanation.trim() 
+                        ? question.explanation 
+                        : '(Explanation not available for this question. Please report this question if you believe it should have an explanation.)'}
                     </div>
                   )}
                 </div>

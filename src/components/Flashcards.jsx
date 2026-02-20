@@ -216,7 +216,7 @@ function Flashcards({ state, topic, onExit }) {
             <div className="card-content answer">
               {currentCard.answer}
             </div>
-            {currentCard.explanation && (
+            {currentCard.explanation && currentCard.explanation.trim() && (
               <div className="card-explanation">
                 <strong>Explanation:</strong><br/>
                 {currentCard.explanation}
