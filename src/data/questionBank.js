@@ -18612,13 +18612,23 @@ export function getQuestionsByTopic(state, topic) {
   return questions.filter(q => q.topic === topic);
 }
 
+// Fisher-Yates shuffle algorithm for proper randomization
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 // Get random questions for quiz
 export function getQuizQuestions(state, count, topic = 'All Topics') {
   let questions = topic === 'All Topics' 
     ? getQuestionsByState(state)
     : getQuestionsByTopic(state, topic);
   
-  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  const shuffled = shuffleArray(questions);
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
@@ -18628,11 +18638,11 @@ export function getPracticeTest(state) {
   const needed = 75;
   
   if (allQuestions.length >= needed) {
-    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const shuffled = shuffleArray(allQuestions);
     return shuffled.slice(0, needed);
   } else {
     const result = [];
-    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const shuffled = shuffleArray(allQuestions);
     
     while (result.length < needed) {
       for (let q of shuffled) {
