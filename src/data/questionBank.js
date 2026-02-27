@@ -14195,7 +14195,7 @@ export const questionBank = {
       `Only a courtesy notice`,
       `Valid for Commission hearings but not for court cases`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `By designating the Commission as agent for service of process, the licensee agrees that service on the Commission is legally equivalent to personal service on the licensee for proceedings arising from Georgia auctions.`
   },
   {
@@ -14265,7 +14265,7 @@ export const questionBank = {
       `Required encouragement under the law`,
       `A private matter that cannot lead to discipline`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Making promises about results that the auctioneer cannot reasonably guarantee may be a false promise and an unfair trade practice.`
   },
   {
@@ -14279,7 +14279,7 @@ export const questionBank = {
       `"Auction – All items guaranteed to sell"`,
       `"Auction – Owner bidding allowed in secret"`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Stating that the seller reserves the right to accept or reject any and all bids accurately describes an auction with reserve and avoids misleading the public.`
   },
   {
@@ -14307,7 +14307,7 @@ export const questionBank = {
       `Zoning is the buyer’s responsibility only and never relevant to the auctioneer`,
       `Disclosure is only required if the buyer asks`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Concealing material facts that significantly affect property use may constitute fraud or dishonest dealing, which are grounds for disciplinary action.`
   },
   {
@@ -14349,7 +14349,7 @@ export const questionBank = {
       `Is required when crowds are large`,
       `Is allowed if the change benefits bidders`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Fair dealing and transparency require that all material terms be disclosed and applied consistently. Unannounced changes during the auction can be misleading and unfair.`
   },
   {
@@ -14363,7 +14363,7 @@ export const questionBank = {
       `A required part of any listing contract`,
       `Harmless exaggeration with no consequences`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Making guarantees about net proceeds that have no reasonable basis is a false promise and can be treated as a misrepresentation or unfair trade practice under Georgia law.`
   },
   {
@@ -14447,7 +14447,7 @@ export const questionBank = {
       `Spent first and repaid later`,
       `Held only in cash in the office safe`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `Commingling client funds with personal or operating funds is an unfair trade practice. Trust funds must be kept in a separate account designated for that purpose.`
   },
   {
@@ -14461,7 +14461,7 @@ export const questionBank = {
       `Prohibited for privacy reasons`,
       `Required only for auctions over $100,000`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Accurate, detailed records are essential to fulfilling the duty to account for others’ funds and help demonstrate compliance if the Commission inspects the accounts.`
   },
   {
@@ -14531,7 +14531,7 @@ export const questionBank = {
       `Obtain only a special one-time permit from the Commission`,
       `Be supervised by a county tax commissioner`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Georgia requires an auctioneer handling real property to also hold an appropriate real estate license or meet a grandfather provision. Both auctioneer and real estate laws apply.`
   },
   {
@@ -14545,7 +14545,7 @@ export const questionBank = {
       `Paid only at half value`,
       `Approved if the licensee agrees`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `The auction law requires that any action that may lead to a Recovery Fund claim be started within two years from the date the cause of action accrues. Starting the lawsuit four years later forfeits eligibility for Fund payment.`
   },
   {
@@ -14601,7 +14601,7 @@ export const questionBank = {
       `Required to protect the seller from low bids`,
       `Only a problem if the bidders complain in writing`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Advertising an auction as absolute and then treating items as subject to reserve is a misrepresentation and an unfair trade practice, even if the change is announced at the start.`
   },
   {
