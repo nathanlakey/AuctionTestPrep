@@ -1,8 +1,8 @@
 // Question bank for Auctioneer Exam Prep
 // Complete question banks from source documents
-// AL: 282 questions, GA: 300 questions, KY: 278 questions, TN: 272 questions
+// AL: 282 questions, FL: 300 questions, GA: 300 questions, KY: 278 questions, TN: 272 questions
 
-export const states = ['Alabama', 'Arkansas', 'Georgia', 'Kentucky', 'Louisiana', 'Tennessee', 'Texas'];
+export const states = ['Alabama', 'Arkansas', 'Florida', 'Georgia', 'Kentucky', 'Louisiana', 'Tennessee', 'Texas'];
 
 export const topics = [
   'All Topics',
@@ -5636,6 +5636,2408 @@ export const questionBank = {
       correctAnswer: 1,
       explanation: 'The Act and rules are designed to protect the public interest, ensure ethical conduct, and maintain confidence in the auction industry.'
     },
+  ],
+  'Florida': [
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "How many core elements must be included in the required written agreement before conducting an auction in Florida?",
+    "options": ["Four","One","Three","Two"],
+    "correctAnswer": 2,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 1
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Who must the auctioneer or auction business execute the written agreement with before conducting an auction?",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","The owner or the owner’s agent"],
+    "correctAnswer": 3,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 2
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "What must the agreement state about the person employing the auctioneer or auction business when different from the owner?",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 3
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "What must the agreement address regarding proceeds?",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Terms/conditions for receiving property and remitting sales proceeds","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 4
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "How long must the auctioneer or auction business keep a copy of the auction agreement?",
+    "options": ["1 year","2 years after the date of the auction","6 months","3 years"],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 5
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "How many copies of the agreement must be provided/retained?",
+    "options": ["Only if requested by the seller","Only for real estate auctions","One to the owner, one kept by the licensee","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 6
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Who may inspect the record book of all sales, and when?",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","The board at reasonable times"],
+    "correctAnswer": 3,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 7
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "What must each auctioneer or auction business maintain regarding sales?",
+    "options": ["Only for real estate auctions","A record book of all sales","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 8
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Under what must each auction be conducted?",
+    "options": ["It is optional","Only if requested by the seller","Under the auspices of a licensed auction business","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 9
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "What extra condition applies when an apprentice conducts an auction?",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Active apprentice license and prior written sponsor consent"],
+    "correctAnswer": 3,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 10
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Who is responsible for determining that associated auctioneers/apprentices/businesses have active Florida licenses?",
+    "options": ["Only for real estate auctions","Any auctioneer/apprentice conducting the auction and the auction business under whose auspices it is held","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 11
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "What must be prominently displayed at the auction site by the principal auctioneer?",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Licenses of principal auctioneer, auction business, and participating licensees"],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 12
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "If display is not practicable, what must be done?",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Oral announcement at the beginning or prominent written announcement that licenses are available for inspection","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 13
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "When must a buyer’s premium (or surcharge) be announced if it is a condition of sale?",
+    "options": ["It is optional","Only for real estate auctions","At the beginning of the auction","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 14
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "What written disclosure is also required for a buyer’s premium/surcharge?",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Conspicuous written notice displayed or distributed at the auction site"],
+    "correctAnswer": 3,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 15
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "What must be announced at the beginning regarding reserve status?",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 16
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, once a bid has been accepted, may the item be withdrawn?",
+    "options": ["No","Only for real estate auctions","It is optional","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 17
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time?",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 18
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "In an auction advertised as absolute, can the owner bid?",
+    "options": ["Only for real estate auctions","Not unless the right to bid is specifically permitted by law","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 19
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)?",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 20
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Who is responsible for compliance with board-rule requirements for the auction?",
+    "options": ["The auction business under whose auspices the auction is conducted","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 21
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "When may the auction business delegate auction aspects?",
+    "options": ["It is optional","Only as permitted by law and without impeding the principal auctioneer’s independent responsibility","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 22
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "If settlement is not immediate, where must sale proceeds be deposited?",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","An escrow or trust account in an insured Florida bank or savings and loan"],
+    "correctAnswer": 3,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 23
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "What is the deadline to deposit sale proceeds when settlement is not immediate?",
+    "options": ["5 working days","Within 2 working days after the auction","10 calendar days","Same day"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 24
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How much may be kept in the escrow account for administrative purposes?",
+    "options": ["$50","Up to $100","$25","$250"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 25
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How long must the separate ledger be maintained?",
+    "options": ["3 years","6 months","1 year","At least 2 years"],
+    "correctAnswer": 3,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 26
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How often must the escrow/trust account be reconciled with the bank statement?",
+    "options": ["Monthly","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 27
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "What must be kept to document reconciliation, and for how long?",
+    "options": ["A signed and dated record for 2 years","6 months","1 year","3 years"],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 28
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Who owns interest that accrues on sale proceeds on deposit by default?",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","The seller"],
+    "correctAnswer": 3,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 29
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How can that default be changed?",
+    "options": ["It is optional","By a written agreement executed prior to the auction","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 1,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 30
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How must seller-advanced expense funds be handled unless a prior written agreement says otherwise?",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Use for stated purposes or refund at final settlement"],
+    "correctAnswer": 3,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 31
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Where must seller-advanced expense funds be maintained?",
+    "options": ["Escrow/trust account in an insured Florida bank or savings and loan","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 32
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee?",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 33
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "What must all advertising include?",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 34
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "What items are excluded from the statutory definition of ‘advertising’ for this requirement?",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 35
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Give one example of advertising deemed misleading under the statute.",
+    "options": ["It is optional","Only for real estate auctions","Any misrepresentation or partial disclosure of relevant facts","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 36
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If an apprentice acts as principal auctioneer, whose name/license number must advertising include?",
+    "options": ["The sponsor’s name and license number","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 37
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "What must an ‘absolute’ ad include if some items are reserve or have minimum bids?",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","It must specify any and all items to be sold with reserve or with minimum bids"],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 38
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If a buyer’s premium is a condition of sale, what must advertising include?",
+    "options": ["The percentage amount of the buyer’s premium or surcharge","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 39
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Do the advertising rules apply only to paid ads?",
+    "options": ["No, they apply to media exposure of any nature whether paid or not","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Advertising provisions apply to media exposure of any nature, whether paid or not. (Reference: F.S. 468.388(11)(c)).",
+    "id": 40
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Who is responsible for the content of all auction advertising disseminated in preparation for an auction?",
+    "options": ["The auction business","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business is responsible for the content of all advertising disseminated in preparation for an auction. (Reference: F.S. 468.388(11)(d)).",
+    "id": 41
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "Name one exemption from Florida auctioneer licensure under F.S. 468.383.",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Owner-conducted auction (with limits), court-ordered/required-by-law auction, or uncompensated charity/civic/religious auction","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 42
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "Is an owner always exempt when conducting an auction?",
+    "options": ["Only for real estate auctions","Only if requested by the seller","No—an owner is not exempt if the owner acquired the goods to resell","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 43
+  },
+  {
+    "topic": "Definitions",
+    "question": "In Chapter 468 Part VI, what does ‘Department’ refer to?",
+    "options": ["Florida Department of Agriculture","Florida Attorney General","DBPR","Florida Department of State"],
+    "correctAnswer": 2,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 44
+  },
+  {
+    "topic": "Definitions",
+    "question": "What does ‘Board’ refer to?",
+    "options": ["Florida Board of Auctioneers","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 45
+  },
+  {
+    "topic": "Definitions",
+    "question": "What is an ‘apprentice’ under the statute?",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","A person trained as an auctioneer by a licensed auctioneer"],
+    "correctAnswer": 3,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 46
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "True/False: A person may offer to auction property in Florida without a license as long as they do not actually cry the sale.",
+    "options": ["False","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "No person may auction or offer to auction property in Florida unless licensed by the department or exempt under the act. (Reference: F.S. 468.385(2)).",
+    "id": 47
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "What are the two ways a person can legally auction in Florida?",
+    "options": ["Only for real estate auctions","Be licensed or be exempt under the act","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "No person may auction or offer to auction property in Florida unless licensed by the department or exempt under the act. (Reference: F.S. 468.385(2)).",
+    "id": 48
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "What is the minimum age to be licensed as an auctioneer or apprentice auctioneer in Florida?",
+    "options": ["18","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No person may be licensed as an auctioneer or apprentice if under 18 years of age. (Reference: F.S. 468.385(3)(a)).",
+    "id": 49
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Which three subject areas are specifically named for the Florida auctioneer licensing exam?",
+    "options": ["Relevant UCC provisions, agency law, and the auctioneers act","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 50
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Can a Florida county require a separate local auctioneer license in addition to the state license?",
+    "options": ["Only for real estate auctions","Only if requested by the seller","It is optional","No"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 51
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "What local license may still be required?",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","A local occupational license, if required"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 52
+  },
+  {
+    "topic": "Licensure by Endorsement",
+    "question": "What is the licensing mechanism Florida uses for qualified out-of-state auctioneers under the statute?",
+    "options": ["Only if requested by the seller","License by endorsement (reciprocity/endorsement)","Only for real estate auctions","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "Florida may issue a license by endorsement to qualified applicants meeting statutory requirements (nonresidents/endorsement/reciprocity provisions). (Reference: F.S. 468.387).",
+    "id": 53
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "How many apprentices may one Florida auctioneer sponsor at one time?",
+    "options": ["Two","Four","One","Three"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 54
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "How long must a sponsor have held an active, valid license before sponsoring?",
+    "options": ["6 months","1 year","3 years","3 consecutive years"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 55
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Using shill bidders at a Florida auction is best described as what?",
+    "options": ["Only if requested by the seller","Only for real estate auctions","It is optional","A prohibited act and grounds for discipline"],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 56
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Mixing sale proceeds owed to a seller with the auctioneer’s operating funds is called what?",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","Commingling"],
+    "correctAnswer": 3,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 57
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "What is Florida’s required account type for proceeds received for another person?",
+    "options": ["A separate trust or escrow account in an insured Florida bank or savings and loan","Only for real estate auctions","Only if requested by the seller","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 58
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Under Florida auction law, what is the outer limit for returning or paying money belonging to another that came into your control through an auction?",
+    "options": ["30 days","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "Failing to account for, pay, or return within a reasonable time (not to exceed 30 days) money or property belonging to another that came into the licensee’s control through an auction is a prohibited act. (Reference: F.S. 468.389(1)(c)).",
+    "id": 59
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Under F.A.C. 61G2-5.002, who must maintain the required record book?",
+    "options": ["It is optional","Only if requested by the seller","The auction business which conducts the auction","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 60
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "How long must the record book be kept under the rule?",
+    "options": ["2 years from each sale","1 year","6 months","3 years"],
+    "correctAnswer": 0,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 61
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Is the record book subject to inspection? By whom?",
+    "options": ["Only if requested by the seller","Yes—by the Department or at the request of the Board","It is optional","Only for real estate auctions"],
+    "correctAnswer": 1,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 62
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Under F.A.C. 61G2-5.001, which entity is responsible for final settlement with the seller?",
+    "options": ["Only if requested by the seller","Only for real estate auctions","The auction business","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Board rules state the auction business is responsible for contract negotiations, advertising, auction organization and layout, merchandise distribution, and final settlement with the seller (among other aspects). (Reference: F.A.C. 61G2-5.001).",
+    "id": 63
+  },
+  {
+    "topic": "Disciplinary Guidelines",
+    "question": "True/False: Board disciplinary guidelines can specify penalties for failures to timely pay seller funds.",
+    "options": ["Only for real estate auctions","True","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Board disciplinary guidelines include violations such as failure to pay money belonging to another that came into the control of a licensee through an auction within a reasonable time. (Reference: F.A.C. 61G2-7.030).",
+    "id": 64
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, one path to qualify includes completing how many classroom hours?",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","At least 80 hours"],
+    "correctAnswer": 3,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 65
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, an alternative path is serving as an apprentice for how long?",
+    "options": ["3 years","At least one year","1 year","6 months"],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 66
+  },
+  {
+    "topic": "Auctioneer Recovery Fund",
+    "question": "What is the maximum statutory surcharge amount for the Auctioneer Recovery Fund?",
+    "options": ["$100","$300","$500","$200"],
+    "correctAnswer": 1,
+    "explanation": "At licensure/renewal/reactivation, each licensee pays a surcharge (set by the board, not to exceed $300) deposited in the Auctioneer Recovery Fund. (Reference: F.S. 468.393).",
+    "id": 67
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "You are the principal auctioneer. You are hired to auction a collector’s estate. Before you promote the sale, you need the required written agreement. What must you do to comply?",
+    "options": ["Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","A written agreement stating the owner’s name/address, the employer’s name/address (if different), and the terms for receiving property and remitting proceeds.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 2,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 68
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which statement best matches Florida law: A property manager (not the owner) hires your auction business to sell equipment. What is required?",
+    "options": ["No written documentation is required if the seller agrees verbally.","A written agreement stating the owner’s name/address, the employer’s name/address (if different), and the terms for receiving property and remitting proceeds.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 69
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which statement best matches Florida law: The auction ended last week and the seller asks if you still have the contract copy. What is required?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Keep one copy for 2 years after the date of the auction (and give one copy to the owner).","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 70
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which statement best matches Florida law: A board investigator shows up and asks to see your sales records. What is required?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Maintain a record book of all sales that is open to inspection by the board at reasonable times.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 71
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Scenario: An apprentice offers to run an auction while you are out of town. Under Florida law, what is the extra requirement for the apprentice to conduct the auction?",
+    "options": ["An apprentice may conduct only with an active apprentice license and prior written sponsor consent; the auction must be under a licensed auction business.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 0,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 72
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which statement best matches Florida law: A licensed auctioneer teams up with a business that is not licensed in Florida. What is required?",
+    "options": ["An apprentice may conduct only with an active apprentice license and prior written sponsor consent; the auction must be under a licensed auction business.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 0,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 73
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "You are the principal auctioneer. The venue will not allow posters on the walls. What must you do to comply?",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","Make an oral announcement at the beginning (or a prominent written notice) that licenses are available for inspection at the auction site."],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 74
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "Which statement best matches Florida law: You plan to charge a 10% buyer’s premium as a condition of sale. What is required?",
+    "options": ["You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Announce the premium/surcharge amount at the beginning and provide conspicuous written notice displayed or distributed at the site.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 2,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 75
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which statement best matches Florida law: Your ad says 'ABSOLUTE AUCTION' and a bidder has the high bid. The seller wants to pull the item. What is required?",
+    "options": ["No written documentation is required if the seller agrees verbally.","At the beginning announce the terms and whether with reserve, without reserve/absolute, or minimum bid; in an absolute sale you cannot withdraw a lot after accepting a bid.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 76
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Florida compliance check: Your catalog lists a minimum bid for some lots. What is the correct answer?",
+    "options": ["No written documentation is required if the seller agrees verbally.","At the beginning announce the terms and whether with reserve, without reserve/absolute, or minimum bid; in an absolute sale you cannot withdraw a lot after accepting a bid.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 77
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Scenario: At an advertised absolute auction, the owner wants to bid through a friend to run up the price. Under Florida law, what is the rule about accepting owner bids?",
+    "options": ["No written documentation is required if the seller agrees verbally.","Do not accept bids from the owner (or someone acting for the owner) unless specifically permitted by law.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 78
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Florida compliance check: You are not settling with the seller until next week but you collected cash and cards today. What is the correct answer?",
+    "options": ["Deposit proceeds for another person in a Florida escrow/trust account within 2 working days (when settlement is not immediate).","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 79
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your bookkeeper asks how long to keep the escrow ledger and whether reconciliations are required. Under Florida law, what is the ledger retention and reconciliation frequency?",
+    "options": ["Keep a separate ledger for at least 2 years and reconcile the escrow/trust account monthly with signed/dated records kept 2 years.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 80
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your escrow account earns interest and you did not address interest in the contract. Under Florida law, what is the default owner of the interest?",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","Interest belongs to the seller unless a prior written agreement says otherwise.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 81
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Seller advances $2,000 for advertising. The auction is canceled. Under Florida law, what is the how the advance must be handled absent a prior written agreement?",
+    "options": ["Keep seller-advanced expense funds in escrow/trust; spend as intended or refund at final settlement unless a prior written agreement provides otherwise.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 82
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: You are drafting a Facebook ad for your auction. What is required?",
+    "options": ["Include the name and Florida license number of the auctioneer and the auction business.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 83
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: You print t-shirts with your logo and hand them out. What is required?",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","Include the name and Florida license number of the auctioneer and the auction business.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 84
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Scenario: An ad says 'ABSOLUTE' but some lots have minimum bids and that is not stated. Under Florida law, what is the why the ad is misleading under Florida law?",
+    "options": ["You can handle it after the auction as long as you keep emails.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 85
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: An apprentice is acting as principal auctioneer and the ad lists only the apprentice’s license. What is required?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures."],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 86
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "You are the principal auctioneer. A marketing contractor posts an inaccurate ad for your auction. What must you do to comply?",
+    "options": ["The auction business is responsible for the content of all advertising disseminated for the auction.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "The auction business is responsible for the content of all advertising disseminated in preparation for an auction. (Reference: F.S. 468.388(11)(d)).",
+    "id": 87
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "You are the principal auctioneer. A nonprofit runs a fundraiser auction and the auctioneer volunteers for free. What must you do to comply?",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","The act may not apply if the auction falls under a statutory exemption (e.g., uncompensated charity/civic/religious auction).","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 2,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 88
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "You are the principal auctioneer. An owner auctions personal items but bought them specifically to resell. What must you do to comply?",
+    "options": ["The act may not apply if the auction falls under a statutory exemption (e.g., uncompensated charity/civic/religious auction).","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 89
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Which statement best matches Florida law: A 17-year-old wants to apply for an apprentice auctioneer license. What is required?",
+    "options": ["Only the clerk is responsible for compliance requirements.","Applicants must be at least 18 years old.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No person may be licensed as an auctioneer or apprentice if under 18 years of age. (Reference: F.S. 468.385(3)(a)).",
+    "id": 90
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Florida compliance check: You are studying for Florida’s auctioneer exam. What is the correct answer?",
+    "options": ["Only the clerk is responsible for compliance requirements.","Study UCC provisions relevant to auctions, agency law, and the auctioneers act.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 91
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which statement best matches Florida law: A city tells you to buy a local occupational license, and also wants to issue its own auctioneer license. What is required?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A local occupational license may be required, but a local government cannot require an additional auctioneer license or charge other practice fees beyond the state license.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 92
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Scenario: A sponsor auctioneer already sponsors three apprentices and wants to add a fourth. Under Florida law, what is the maximum number of apprentices allowed?",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","A sponsor may supervise no more than three apprentices at one time and must have held an active license for 3 consecutive years."],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 93
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Scenario: A newly licensed auctioneer wants to sponsor an apprentice immediately. Under Florida law, what is the license-holding requirement for a sponsor?",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A sponsor may supervise no more than three apprentices at one time and must have held an active license for 3 consecutive years."],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 94
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "You are the principal auctioneer. You consider having a friend bid to 'warm up the crowd.' What must you do to comply?",
+    "options": ["You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements.","Using false bidders/shills is prohibited and grounds for discipline."],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 95
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Scenario: You deposit buyer payments into your operating account for convenience. Under Florida law, what is the problem with commingling and required account type?",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Do not commingle; deposit proceeds for another person into a separate Florida trust/escrow account."],
+    "correctAnswer": 3,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 96
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Which statement best matches Florida law: A seller’s proceeds have been sitting in your office for six weeks with no payment. What is required?",
+    "options": ["Money/property belonging to another must be accounted for/paid/returned within a reasonable time not to exceed 30 days.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 0,
+    "explanation": "Failing to account for, pay, or return within a reasonable time (not to exceed 30 days) money or property belonging to another that came into the licensee’s control through an auction is a prohibited act. (Reference: F.S. 468.389(1)(c)).",
+    "id": 97
+  },
+  {
+    "topic": "Auctioneer Recovery Fund",
+    "question": "Which statement best matches Florida law: You are budgeting licensure costs and see a surcharge for a recovery fund. What is required?",
+    "options": ["No written documentation is required if the seller agrees verbally.","The recovery-fund surcharge is set by the board but cannot exceed $300.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 1,
+    "explanation": "At licensure/renewal/reactivation, each licensee pays a surcharge (set by the board, not to exceed $300) deposited in the Auctioneer Recovery Fund. (Reference: F.S. 468.393).",
+    "id": 98
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "Florida compliance check: You are advising a new student on Florida auctioneer licensure qualifications. What is the correct answer?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Qualify by being at least 18 and either serving as an apprentice for at least one year or completing at least 80 classroom hours (per DBPR FAQ).","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 99
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Florida compliance check: A compliance audit asks whether the 'record book' is the auctioneer’s duty or the auction business’s duty under board rule. What is the correct answer?",
+    "options": ["You can handle it after the auction as long as you keep emails.","Under board rule, the auction business must maintain the required record book for 2 years and make it available for inspection.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 100
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Which statement best matches Florida law: A dispute arises about who was responsible for final settlement and merchandise distribution. What is required?",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Under board rule, the auction business is responsible for final settlement and other operational aspects (including advertising and merchandise distribution).","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 2,
+    "explanation": "Board rules state the auction business is responsible for contract negotiations, advertising, auction organization and layout, merchandise distribution, and final settlement with the seller (among other aspects). (Reference: F.A.C. 61G2-5.001).",
+    "id": 101
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: An apprentice is acting as principal auctioneer and the ad lists only the apprentice’s license. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures."],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 102
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If a buyer’s premium is a condition of sale, what is required to advertising include? (Florida)",
+    "options": ["The percentage amount of the buyer’s premium or surcharge","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 103
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Which statement best matches Florida law: A dispute arises about who was responsible for final settlement and merchandise distribution. Which is required? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Under board rule, the auction business is responsible for final settlement and other operational aspects (including advertising and merchandise distribution).","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 2,
+    "explanation": "Board rules state the auction business is responsible for contract negotiations, advertising, auction organization and layout, merchandise distribution, and final settlement with the seller (among other aspects). (Reference: F.A.C. 61G2-5.001).",
+    "id": 104
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which is required to be announced at the beginning regarding reserve status? (Florida)",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 105
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Florida compliance check: A compliance audit asks whether the 'record book' is the auctioneer’s duty or the auction business’s duty under board rule. Which is the correct answer? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Under board rule, the auction business must maintain the required record book for 2 years and make it available for inspection.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 106
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 107
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which statement best matches Florida law: A city tells you to buy a local occupational license, and also wants to issue its own auctioneer license. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A local occupational license may be required, but a local government cannot require an additional auctioneer license or charge other practice fees beyond the state license.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 108
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: You are drafting a Facebook ad for your auction. Which is required? (Florida)",
+    "options": ["Include the name and Florida license number of the auctioneer and the auction business.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 109
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Scenario: An ad says 'ABSOLUTE' but some lots have minimum bids and that is not stated. Under Florida law, what is the why the ad is misleading under Florida law? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 110
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "True/False: A person may offer to auction property in Florida without a license as long as they do not actually cry the sale. (Florida)",
+    "options": ["False","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "No person may auction or offer to auction property in Florida unless licensed by the department or exempt under the act. (Reference: F.S. 468.385(2)).",
+    "id": 111
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "In an auction advertised as absolute, can the owner bid? (Florida)",
+    "options": ["Only for real estate auctions","Not unless the right to bid is specifically permitted by law","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 112
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 113
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 114
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Under F.A.C. 61G2-5.002, who is required to maintain the required record book? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","The auction business which conducts the auction","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 115
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Who owns interest that accrues on sale proceeds on deposit by default? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","The seller"],
+    "correctAnswer": 3,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 116
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Scenario: You deposit buyer payments into your operating account for convenience. Under Florida law, what is the problem with commingling and required account type? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Do not commingle; deposit proceeds for another person into a separate Florida trust/escrow account."],
+    "correctAnswer": 3,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 117
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "If display is not practicable, what is required to be done? (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Oral announcement at the beginning or prominent written announcement that licenses are available for inspection","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 118
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Can a Florida county require a separate local auctioneer license in addition to the state license? (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","It is optional","No"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 119
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 120
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Under F.A.C. 61G2-5.001, which entity is responsible for final settlement with the seller? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","The auction business","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Board rules state the auction business is responsible for contract negotiations, advertising, auction organization and layout, merchandise distribution, and final settlement with the seller (among other aspects). (Reference: F.A.C. 61G2-5.001).",
+    "id": 121
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Who is responsible for compliance with board-rule requirements for the auction? (Florida)",
+    "options": ["The auction business under whose auspices the auction is conducted","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 122
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: An apprentice is acting as principal auctioneer and the ad lists only the apprentice’s license. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures."],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 123
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 124
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Who owns interest that accrues on sale proceeds on deposit by default? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","The seller"],
+    "correctAnswer": 3,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 125
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Who is responsible for compliance with board-rule requirements for the auction? (Florida)",
+    "options": ["The auction business under whose auspices the auction is conducted","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 126
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Florida compliance check: You are studying for Florida’s auctioneer exam. Which is the correct answer? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","Study UCC provisions relevant to auctions, agency law, and the auctioneers act.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 127
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Using shill bidders at a Florida auction is best described as what? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","It is optional","A prohibited act and grounds for discipline"],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 128
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, an alternative path is serving as an apprentice for how long? (Florida)",
+    "options": ["3 years","At least one year","1 year","6 months"],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 129
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which local license may still be required? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","A local occupational license, if required"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 130
+  },
+  {
+    "topic": "Definitions",
+    "question": "In Chapter 468 Part VI, what does ‘Department’ refer to? (Florida)",
+    "options": ["Florida Department of Agriculture","Florida Attorney General","DBPR","Florida Department of State"],
+    "correctAnswer": 2,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 131
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "How many apprentices may one Florida auctioneer sponsor at one time? (Florida)",
+    "options": ["Two","Four","One","Three"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 132
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "For what minimum period is required to the separate ledger be maintained? (Florida)",
+    "options": ["3 years","6 months","1 year","At least 2 years"],
+    "correctAnswer": 3,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 133
+  },
+  {
+    "topic": "Definitions",
+    "question": "Which is an ‘apprentice’ under the statute? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","A person trained as an auctioneer by a licensed auctioneer"],
+    "correctAnswer": 3,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 134
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Who is responsible for the content of all auction advertising disseminated in preparation for an auction? (Florida)",
+    "options": ["The auction business","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business is responsible for the content of all advertising disseminated in preparation for an auction. (Reference: F.S. 468.388(11)(d)).",
+    "id": 135
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which is required to be prominently displayed at the auction site by the principal auctioneer? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Licenses of principal auctioneer, auction business, and participating licensees"],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 136
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Scenario: A sponsor auctioneer already sponsors three apprentices and wants to add a fourth. Under Florida law, what is the maximum number of apprentices allowed? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","A sponsor may supervise no more than three apprentices at one time and must have held an active license for 3 consecutive years."],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 137
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "True/False: A person may offer to auction property in Florida without a license as long as they do not actually cry the sale. (Florida)",
+    "options": ["False","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "No person may auction or offer to auction property in Florida unless licensed by the department or exempt under the act. (Reference: F.S. 468.385(2)).",
+    "id": 138
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which is required to the agreement state about the person employing the auctioneer or auction business when different from the owner? (Florida)",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 139
+  },
+  {
+    "topic": "Definitions",
+    "question": "In Chapter 468 Part VI, what does ‘Department’ refer to? (Florida)",
+    "options": ["Florida Department of Agriculture","Florida Attorney General","DBPR","Florida Department of State"],
+    "correctAnswer": 2,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 140
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which statement best matches Florida law: A board investigator shows up and asks to see your sales records. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Maintain a record book of all sales that is open to inspection by the board at reasonable times.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 141
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Under Florida auction law, what is the outer limit for returning or paying money belonging to another that came into your control through an auction? (Florida)",
+    "options": ["30 days","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "Failing to account for, pay, or return within a reasonable time (not to exceed 30 days) money or property belonging to another that came into the licensee’s control through an auction is a prohibited act. (Reference: F.S. 468.389(1)(c)).",
+    "id": 142
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Mixing sale proceeds owed to a seller with the auctioneer’s operating funds is called what? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","Commingling"],
+    "correctAnswer": 3,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 143
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Florida compliance check: You are studying for Florida’s auctioneer exam. Which is the correct answer? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","Study UCC provisions relevant to auctions, agency law, and the auctioneers act.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 144
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which is required to the agreement state about the person employing the auctioneer or auction business when different from the owner? (Florida)",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 145
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Which three subject areas are specifically named for the Florida auctioneer licensing exam? (Florida)",
+    "options": ["Relevant UCC provisions, agency law, and the auctioneers act","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 146
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "Is an owner always exempt when conducting an auction? (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","No—an owner is not exempt if the owner acquired the goods to resell","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 147
+  },
+  {
+    "topic": "Auctioneer Recovery Fund",
+    "question": "Which is the maximum statutory surcharge amount for the Auctioneer Recovery Fund? (Florida)",
+    "options": ["$100","$300","$500","$200"],
+    "correctAnswer": 1,
+    "explanation": "At licensure/renewal/reactivation, each licensee pays a surcharge (set by the board, not to exceed $300) deposited in the Auctioneer Recovery Fund. (Reference: F.S. 468.393).",
+    "id": 148
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your bookkeeper asks how long to keep the escrow ledger and whether reconciliations are required. Under Florida law, what is the ledger retention and reconciliation frequency? (Florida)",
+    "options": ["Keep a separate ledger for at least 2 years and reconcile the escrow/trust account monthly with signed/dated records kept 2 years.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 149
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to an ‘absolute’ ad include if some items are reserve or have minimum bids? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","It must specify any and all items to be sold with reserve or with minimum bids"],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 150
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, an alternative path is serving as an apprentice for how long? (Florida)",
+    "options": ["3 years","At least one year","1 year","6 months"],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 151
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Under what is required to each auction be conducted? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Under the auspices of a licensed auction business","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 152
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "Which written disclosure is also required for a buyer’s premium/surcharge? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Conspicuous written notice displayed or distributed at the auction site"],
+    "correctAnswer": 3,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 153
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "If display is not practicable, what is required to be done? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Oral announcement at the beginning or prominent written announcement that licenses are available for inspection","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 154
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Which statement best matches Florida law: A dispute arises about who was responsible for final settlement and merchandise distribution. Which is required? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Under board rule, the auction business is responsible for final settlement and other operational aspects (including advertising and merchandise distribution).","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 2,
+    "explanation": "Board rules state the auction business is responsible for contract negotiations, advertising, auction organization and layout, merchandise distribution, and final settlement with the seller (among other aspects). (Reference: F.A.C. 61G2-5.001).",
+    "id": 155
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How can that default be changed? (Florida)",
+    "options": ["It is optional","By a written agreement executed prior to the auction","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 1,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 156
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 157
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "When is required to a buyer’s premium (or surcharge) be announced if it is a condition of sale? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","At the beginning of the auction","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 158
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Who is responsible for determining that associated auctioneers/apprentices/businesses have active Florida licenses? (Florida)",
+    "options": ["Only for real estate auctions","Any auctioneer/apprentice conducting the auction and the auction business under whose auspices it is held","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 159
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to all advertising include? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 160
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which items are excluded from the statutory definition of ‘advertising’ for this requirement? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 161
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "How many copies of the agreement is required to be provided/retained? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","One to the owner, one kept by the licensee","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 162
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Who owns interest that accrues on sale proceeds on deposit by default? (Florida) (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","The seller"],
+    "correctAnswer": 3,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 163
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Florida compliance check: A compliance audit asks whether the 'record book' is the auctioneer’s duty or the auction business’s duty under board rule. Which is the correct answer? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Under board rule, the auction business must maintain the required record book for 2 years and make it available for inspection.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 164
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Which is the deadline to deposit sale proceeds when settlement is not immediate? (Florida)",
+    "options": ["5 working days","Within 2 working days after the auction","10 calendar days","Same day"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 165
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which items are excluded from the statutory definition of ‘advertising’ for this requirement? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 166
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Which statement best matches Florida law: A seller’s proceeds have been sitting in your office for six weeks with no payment. Which is required? (Florida)",
+    "options": ["Money/property belonging to another must be accounted for/paid/returned within a reasonable time not to exceed 30 days.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 0,
+    "explanation": "Failing to account for, pay, or return within a reasonable time (not to exceed 30 days) money or property belonging to another that came into the licensee’s control through an auction is a prohibited act. (Reference: F.S. 468.389(1)(c)).",
+    "id": 167
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, once a bid has been accepted, may the item be withdrawn? (Florida)",
+    "options": ["No","Only for real estate auctions","It is optional","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 168
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which is required to be announced at the beginning regarding reserve status? (Florida) (Florida)",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 169
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "For what minimum period is required to a sponsor have held an active, valid license before sponsoring? (Florida)",
+    "options": ["6 months","1 year","3 years","3 consecutive years"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 170
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: You are drafting a Facebook ad for your auction. Which is required? (Florida) (Florida)",
+    "options": ["Include the name and Florida license number of the auctioneer and the auction business.","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 171
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Scenario: You deposit buyer payments into your operating account for convenience. Under Florida law, what is the problem with commingling and required account type? (Florida) (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Do not commingle; deposit proceeds for another person into a separate Florida trust/escrow account."],
+    "correctAnswer": 3,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 172
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "You are the principal auctioneer. A marketing contractor posts an inaccurate ad for your auction. Which is required to you do to comply? (Florida)",
+    "options": ["The auction business is responsible for the content of all advertising disseminated for the auction.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "The auction business is responsible for the content of all advertising disseminated in preparation for an auction. (Reference: F.S. 468.388(11)(d)).",
+    "id": 173
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which is required to be announced at the beginning regarding reserve status? (Florida) (Florida)",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 174
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to all advertising include? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 175
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which local license may still be required? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","A local occupational license, if required"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 176
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 177
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which statement best matches Florida law: A property manager (not the owner) hires your auction business to sell equipment. Which is required? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","A written agreement stating the owner’s name/address, the employer’s name/address (if different), and the terms for receiving property and remitting proceeds.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 178
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "If display is not practicable, what is required to be done? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Oral announcement at the beginning or prominent written announcement that licenses are available for inspection","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 179
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, an alternative path is serving as an apprentice for how long? (Florida)",
+    "options": ["3 years","At least one year","1 year","6 months"],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 180
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "You are the principal auctioneer. The venue will not allow posters on the walls. Which is required to you do to comply? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","Make an oral announcement at the beginning (or a prominent written notice) that licenses are available for inspection at the auction site."],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 181
+  },
+  {
+    "topic": "Disciplinary Guidelines",
+    "question": "True/False: Board disciplinary guidelines can specify penalties for failures to timely pay seller funds. (Florida)",
+    "options": ["Only for real estate auctions","True","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Board disciplinary guidelines include violations such as failure to pay money belonging to another that came into the control of a licensee through an auction within a reasonable time. (Reference: F.A.C. 61G2-7.030).",
+    "id": 182
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Which statement best matches Florida law: A 17-year-old wants to apply for an apprentice auctioneer license. Which is required? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","Applicants must be at least 18 years old.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No person may be licensed as an auctioneer or apprentice if under 18 years of age. (Reference: F.S. 468.385(3)(a)).",
+    "id": 183
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "Name one exemption from Florida auctioneer licensure under F.S. 468.383. (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Owner-conducted auction (with limits), court-ordered/required-by-law auction, or uncompensated charity/civic/religious auction","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 184
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which is required to be prominently displayed at the auction site by the principal auctioneer? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Licenses of principal auctioneer, auction business, and participating licensees"],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 185
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Give one example of advertising deemed misleading under the statute. (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Any misrepresentation or partial disclosure of relevant facts","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 186
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which is required to each auctioneer or auction business maintain regarding sales? (Florida)",
+    "options": ["Only for real estate auctions","A record book of all sales","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 187
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If a buyer’s premium is a condition of sale, what is required to advertising include? (Florida) (Florida)",
+    "options": ["The percentage amount of the buyer’s premium or surcharge","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 188
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "You are the principal auctioneer. An owner auctions personal items but bought them specifically to resell. Which is required to you do to comply? (Florida)",
+    "options": ["The act may not apply if the auction falls under a statutory exemption (e.g., uncompensated charity/civic/religious auction).","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 189
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Which is the deadline to deposit sale proceeds when settlement is not immediate? (Florida)",
+    "options": ["5 working days","Within 2 working days after the auction","10 calendar days","Same day"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 190
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "For what minimum period is required to a sponsor have held an active, valid license before sponsoring? (Florida)",
+    "options": ["6 months","1 year","3 years","3 consecutive years"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 191
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Under F.A.C. 61G2-5.002, who is required to maintain the required record book? (Florida) (Florida)",
+    "options": ["It is optional","Only if requested by the seller","The auction business which conducts the auction","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 192
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which extra condition applies when an apprentice conducts an auction? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Active apprentice license and prior written sponsor consent"],
+    "correctAnswer": 3,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 193
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which items are excluded from the statutory definition of ‘advertising’ for this requirement? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 194
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which is required to the agreement state about the person employing the auctioneer or auction business when different from the owner? (Florida)",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 195
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Seller advances $2,000 for advertising. The auction is canceled. Under Florida law, what is the how the advance is required to be handled absent a prior written agreement? (Florida)",
+    "options": ["Keep seller-advanced expense funds in escrow/trust; spend as intended or refund at final settlement unless a prior written agreement provides otherwise.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 196
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which is required to be prominently displayed at the auction site by the principal auctioneer? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Licenses of principal auctioneer, auction business, and participating licensees"],
+    "correctAnswer": 3,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 197
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If a buyer’s premium is a condition of sale, what is required to advertising include? (Florida) (Florida)",
+    "options": ["The percentage amount of the buyer’s premium or surcharge","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 198
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to all advertising include? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 199
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Who is responsible for determining that associated auctioneers/apprentices/businesses have active Florida licenses? (Florida)",
+    "options": ["Only for real estate auctions","Any auctioneer/apprentice conducting the auction and the auction business under whose auspices it is held","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 200
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Scenario: At an advertised absolute auction, the owner wants to bid through a friend to run up the price. Under Florida law, what is the rule about accepting owner bids? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","Do not accept bids from the owner (or someone acting for the owner) unless specifically permitted by law.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 201
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Scenario: An ad says 'ABSOLUTE' but some lots have minimum bids and that is not stated. Under Florida law, what is the why the ad is misleading under Florida law? (Florida) (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 202
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Who owns interest that accrues on sale proceeds on deposit by default? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","The seller"],
+    "correctAnswer": 3,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 203
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Under what is required to each auction be conducted? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Under the auspices of a licensed auction business","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 204
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to all advertising include? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 205
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "True/False: A person may offer to auction property in Florida without a license as long as they do not actually cry the sale. (Florida) (Florida)",
+    "options": ["False","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "No person may auction or offer to auction property in Florida unless licensed by the department or exempt under the act. (Reference: F.S. 468.385(2)).",
+    "id": 206
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which is required to be announced at the beginning regarding reserve status? (Florida)",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 207
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Under Florida auction law, what is the outer limit for returning or paying money belonging to another that came into your control through an auction? (Florida)",
+    "options": ["30 days","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "Failing to account for, pay, or return within a reasonable time (not to exceed 30 days) money or property belonging to another that came into the licensee’s control through an auction is a prohibited act. (Reference: F.S. 468.389(1)(c)).",
+    "id": 208
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Who is required to the auctioneer or auction business execute the written agreement with before conducting an auction? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","The owner or the owner’s agent"],
+    "correctAnswer": 3,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 209
+  },
+  {
+    "topic": "Definitions",
+    "question": "In Chapter 468 Part VI, what does ‘Department’ refer to? (Florida)",
+    "options": ["Florida Department of Agriculture","Florida Attorney General","DBPR","Florida Department of State"],
+    "correctAnswer": 2,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 210
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which statement best matches Florida law: A board investigator shows up and asks to see your sales records. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Maintain a record book of all sales that is open to inspection by the board at reasonable times.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 211
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "How many apprentices may one Florida auctioneer sponsor at one time? (Florida)",
+    "options": ["Two","Four","One","Three"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 212
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Can a Florida county require a separate local auctioneer license in addition to the state license? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","It is optional","No"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 213
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "If display is not practicable, what is required to be done? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","Oral announcement at the beginning or prominent written announcement that licenses are available for inspection","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The principal auctioneer must prominently display at the auction site the licenses of the principal auctioneer, the auction business, and other participating licensed auctioneers/apprentices; if not practicable, announce at beginning or provide prominent written notice that licenses are available for inspection. (Reference: F.S. 468.388(5)).",
+    "id": 214
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which items are excluded from the statutory definition of ‘advertising’ for this requirement? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 215
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your bookkeeper asks how long to keep the escrow ledger and whether reconciliations are required. Under Florida law, what is the ledger retention and reconciliation frequency? (Florida)",
+    "options": ["Keep a separate ledger for at least 2 years and reconcile the escrow/trust account monthly with signed/dated records kept 2 years.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 216
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, once a bid has been accepted, may the item be withdrawn? (Florida)",
+    "options": ["No","Only for real estate auctions","It is optional","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 217
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "How many copies of the agreement is required to be provided/retained? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","One to the owner, one kept by the licensee","It is optional"],
+    "correctAnswer": 2,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 218
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "You are the principal auctioneer. You are hired to auction a collector’s estate. Before you promote the sale, you need the required written agreement. Which is required to you do to comply? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","A written agreement stating the owner’s name/address, the employer’s name/address (if different), and the terms for receiving property and remitting proceeds.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 2,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 219
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Florida compliance check: You are studying for Florida’s auctioneer exam. Which is the correct answer? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","Study UCC provisions relevant to auctions, agency law, and the auctioneers act.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 220
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How is required to seller-advanced expense funds be handled unless a prior written agreement says otherwise? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Use for stated purposes or refund at final settlement"],
+    "correctAnswer": 3,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 221
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "Which written disclosure is also required for a buyer’s premium/surcharge? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Conspicuous written notice displayed or distributed at the auction site"],
+    "correctAnswer": 3,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 222
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Who is responsible for compliance with board-rule requirements for the auction? (Florida)",
+    "options": ["The auction business under whose auspices the auction is conducted","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 223
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to all advertising include? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Name and Florida license number of the auctioneer and auction business","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 224
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Who may inspect the record book of all sales, and when? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","The board at reasonable times"],
+    "correctAnswer": 3,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 225
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Which is the deadline to deposit sale proceeds when settlement is not immediate? (Florida)",
+    "options": ["5 working days","Within 2 working days after the auction","10 calendar days","Same day"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 226
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "For what minimum period is required to the separate ledger be maintained? (Florida)",
+    "options": ["3 years","6 months","1 year","At least 2 years"],
+    "correctAnswer": 3,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 227
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida) (Florida) (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 228
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Do the advertising rules apply only to paid ads? (Florida)",
+    "options": ["No, they apply to media exposure of any nature whether paid or not","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Advertising provisions apply to media exposure of any nature, whether paid or not. (Reference: F.S. 468.388(11)(c)).",
+    "id": 229
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your escrow account earns interest and you did not address interest in the contract. Under Florida law, what is the default owner of the interest? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","Interest belongs to the seller unless a prior written agreement says otherwise.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 230
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Do the advertising rules apply only to paid ads? (Florida)",
+    "options": ["No, they apply to media exposure of any nature whether paid or not","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Advertising provisions apply to media exposure of any nature, whether paid or not. (Reference: F.S. 468.388(11)(c)).",
+    "id": 231
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "You are the principal auctioneer. You are hired to auction a collector’s estate. Before you promote the sale, you need the required written agreement. Which is required to you do to comply? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","A written agreement stating the owner’s name/address, the employer’s name/address (if different), and the terms for receiving property and remitting proceeds.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 2,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 232
+  },
+  {
+    "topic": "Auctioneer Recovery Fund",
+    "question": "Which statement best matches Florida law: You are budgeting licensure costs and see a surcharge for a recovery fund. Which is required? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","The recovery-fund surcharge is set by the board but cannot exceed $300.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails."],
+    "correctAnswer": 1,
+    "explanation": "At licensure/renewal/reactivation, each licensee pays a surcharge (set by the board, not to exceed $300) deposited in the Auctioneer Recovery Fund. (Reference: F.S. 468.393).",
+    "id": 233
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How often is required to the escrow/trust account be reconciled with the bank statement? (Florida)",
+    "options": ["Monthly","It is optional","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 234
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which is required to an ‘absolute’ ad include if some items are reserve or have minimum bids? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","It must specify any and all items to be sold with reserve or with minimum bids"],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 235
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Which is Florida’s required account type for proceeds received for another person? (Florida)",
+    "options": ["A separate trust or escrow account in an insured Florida bank or savings and loan","Only for real estate auctions","Only if requested by the seller","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 236
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, one path to qualify includes completing how many classroom hours? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","At least 80 hours"],
+    "correctAnswer": 3,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 237
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "You are the principal auctioneer. A marketing contractor posts an inaccurate ad for your auction. Which is required to you do to comply? (Florida)",
+    "options": ["The auction business is responsible for the content of all advertising disseminated for the auction.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "The auction business is responsible for the content of all advertising disseminated in preparation for an auction. (Reference: F.S. 468.388(11)(d)).",
+    "id": 238
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "If settlement is not immediate, where is required to sale proceeds be deposited? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","An escrow or trust account in an insured Florida bank or savings and loan"],
+    "correctAnswer": 3,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 239
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which items are excluded from the statutory definition of ‘advertising’ for this requirement? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Clothing, directional signs, and promotional novelty items","Only for real estate auctions"],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 240
+  },
+  {
+    "topic": "Definitions",
+    "question": "Which does ‘Board’ refer to? (Florida)",
+    "options": ["Florida Board of Auctioneers","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 241
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "If a buyer’s premium is a condition of sale, what is required to advertising include? (Florida) (Florida)",
+    "options": ["The percentage amount of the buyer’s premium or surcharge","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 242
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which is required to the agreement state about the person employing the auctioneer or auction business when different from the owner? (Florida)",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 243
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 244
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "For what minimum period is required to the auctioneer or auction business keep a copy of the auction agreement? (Florida)",
+    "options": ["1 year","2 years after the date of the auction","6 months","3 years"],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 245
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Who is required to the auctioneer or auction business execute the written agreement with before conducting an auction? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","The owner or the owner’s agent"],
+    "correctAnswer": 3,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 246
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which is required to the agreement state about the person employing the auctioneer or auction business when different from the owner? (Florida)",
+    "options": ["It is optional","Name and address","Only for real estate auctions","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 247
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Scenario: A newly licensed auctioneer wants to sponsor an apprentice immediately. Under Florida law, what is the license-holding requirement for a sponsor? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A sponsor may supervise no more than three apprentices at one time and must have held an active license for 3 consecutive years."],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 248
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, one path to qualify includes completing how many classroom hours? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","At least 80 hours"],
+    "correctAnswer": 3,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 249
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which statement best matches Florida law: A board investigator shows up and asks to see your sales records. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Maintain a record book of all sales that is open to inspection by the board at reasonable times.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 250
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How much may be kept in the escrow account for administrative purposes? (Florida)",
+    "options": ["$50","Up to $100","$25","$250"],
+    "correctAnswer": 1,
+    "explanation": "When settlement is not made immediately after an auction, all sale proceeds received for another person must be deposited in an escrow or trust account in an insured bank or savings and loan association located in Florida within 2 working days after the auction; a maximum of $100 may be kept in the escrow account for administrative purposes. (Reference: F.S. 468.388(10)(a)).",
+    "id": 251
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, an alternative path is serving as an apprentice for how long? (Florida)",
+    "options": ["3 years","At least one year","1 year","6 months"],
+    "correctAnswer": 1,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 252
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "For what minimum period is required to the record book be kept under the rule? (Florida)",
+    "options": ["2 years from each sale","1 year","6 months","3 years"],
+    "correctAnswer": 0,
+    "explanation": "Board rules require the auction business to keep, for 2 years from each sale, a record book of all sales for which a written agreement is required; the record book is subject to inspection by the Department or at the request of the Board, and must contain specific details (e.g., description of property, etc.). (Reference: F.A.C. 61G2-5.002).",
+    "id": 253
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Where is required to seller-advanced expense funds be maintained? (Florida)",
+    "options": ["Escrow/trust account in an insured Florida bank or savings and loan","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 254
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida) (Florida) (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 255
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Which is Florida’s required account type for proceeds received for another person? (Florida)",
+    "options": ["A separate trust or escrow account in an insured Florida bank or savings and loan","Only for real estate auctions","Only if requested by the seller","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Commingling money or property of another person with one’s own is prohibited; proceeds received for another person through an auction sale must be deposited in a separate trust or escrow account in an insured Florida bank or savings and loan association. (Reference: F.S. 468.389(1)(h)).",
+    "id": 256
+  },
+  {
+    "topic": "Buyer's Premium and Surcharge Disclosure",
+    "question": "When is required to a buyer’s premium (or surcharge) be announced if it is a condition of sale? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","At the beginning of the auction","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "If a buyer’s premium or any surcharge is a condition of sale, the amount must be announced at the beginning and a written notice must be conspicuously displayed or distributed at the auction site. (Reference: F.S. 468.388(6)).",
+    "id": 257
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Scenario: An ad says 'ABSOLUTE' but some lots have minimum bids and that is not stated. Under Florida law, what is the why the ad is misleading under Florida law? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 258
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "Which is required to be announced at the beginning regarding reserve status? (Florida) (Florida)",
+    "options": ["Whether sale is with reserve, without reserve/absolute, or minimum bid required","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 259
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: You print t-shirts with your logo and hand them out. Which is required? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","Include the name and Florida license number of the auctioneer and the auction business.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "All advertising by an auctioneer or auction business must include the name and Florida license number of the auctioneer and auction business; ‘advertising’ does not include clothing, directional signs, or other promotional novelty items. (Reference: F.S. 468.388(11)(a)).",
+    "id": 260
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Using shill bidders at a Florida auction is best described as what? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","It is optional","A prohibited act and grounds for discipline"],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 261
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Scenario: An ad says 'ABSOLUTE' but some lots have minimum bids and that is not stated. Under Florida law, what is the why the ad is misleading under Florida law? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 262
+  },
+  {
+    "topic": "Disciplinary Guidelines",
+    "question": "True/False: Board disciplinary guidelines can specify penalties for failures to timely pay seller funds. (Florida)",
+    "options": ["Only for real estate auctions","True","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Board disciplinary guidelines include violations such as failure to pay money belonging to another that came into the control of a licensee through an auction within a reasonable time. (Reference: F.A.C. 61G2-7.030).",
+    "id": 263
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Which statement best matches Florida law: The auction ended last week and the seller asks if you still have the contract copy. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Keep one copy for 2 years after the date of the auction (and give one copy to the owner).","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "The auctioneer/auction business must give the owner one copy of the agreement and keep one copy for 2 years after the date of the auction. (Reference: F.S. 468.388(2)).",
+    "id": 264
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 265
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 266
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Can a Florida county require a separate local auctioneer license in addition to the state license? (Florida)",
+    "options": ["Only for real estate auctions","Only if requested by the seller","It is optional","No"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 267
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, one path to qualify includes completing how many classroom hours? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","At least 80 hours"],
+    "correctAnswer": 3,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 268
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Do the advertising rules apply only to paid ads? (Florida)",
+    "options": ["No, they apply to media exposure of any nature whether paid or not","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Advertising provisions apply to media exposure of any nature, whether paid or not. (Reference: F.S. 468.388(11)(c)).",
+    "id": 269
+  },
+  {
+    "topic": "Exemptions from Licensure",
+    "question": "You are the principal auctioneer. An owner auctions personal items but bought them specifically to resell. Which is required to you do to comply? (Florida)",
+    "options": ["The act may not apply if the auction falls under a statutory exemption (e.g., uncompensated charity/civic/religious auction).","No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements."],
+    "correctAnswer": 0,
+    "explanation": "Exemptions include: auctions conducted by the owner (or owner’s attorney) of any part of the property unless owner acquired goods to resell; auctions under judicial/administrative order or required by law; auctions by a charitable/civic/religious organization (or for such organization) when the person receives no compensation. (Reference: F.S. 468.383).",
+    "id": 270
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Which is required to be kept to document reconciliation, and for how long? (Florida)",
+    "options": ["A signed and dated record for 2 years","6 months","1 year","3 years"],
+    "correctAnswer": 0,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 271
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "How can that default be changed? (Florida)",
+    "options": ["It is optional","By a written agreement executed prior to the auction","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 1,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 272
+  },
+  {
+    "topic": "Definitions",
+    "question": "In Chapter 468 Part VI, what does ‘Department’ refer to? (Florida)",
+    "options": ["Florida Department of Agriculture","Florida Attorney General","DBPR","Florida Department of State"],
+    "correctAnswer": 2,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 273
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "For what minimum period is required to the separate ledger be maintained? (Florida)",
+    "options": ["3 years","6 months","1 year","At least 2 years"],
+    "correctAnswer": 3,
+    "explanation": "Auction businesses must maintain for at least 2 years a separate ledger for funds held for another person for each auction; the escrow/trust account must be reconciled monthly with the bank statement; keep a signed/dated record for 2 years available for inspection. (Reference: F.S. 468.388(10)(b)).",
+    "id": 274
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "Whose bids are barred in an advertised absolute auction (unless permitted by law)? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","Only if requested by the seller","Owner’s bids and bids by someone acting on the owner’s behalf"],
+    "correctAnswer": 3,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 275
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 276
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Florida compliance check: You are studying for Florida’s auctioneer exam. Which is the correct answer? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","Study UCC provisions relevant to auctions, agency law, and the auctioneers act.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 1,
+    "explanation": "Auctioneer applicants must pass a written exam testing general knowledge of Florida laws relating to relevant UCC provisions, agency law, and the auctioneers act. (Reference: F.S. 468.385(4)).",
+    "id": 277
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Scenario: A newly licensed auctioneer wants to sponsor an apprentice immediately. Under Florida law, what is the license-holding requirement for a sponsor? (Florida)",
+    "options": ["No written documentation is required if the seller agrees verbally.","You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A sponsor may supervise no more than three apprentices at one time and must have held an active license for 3 consecutive years."],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer may not sponsor more than three apprentices at one time; sponsors must have held an active, valid license for 3 consecutive years before being named sponsor. (Reference: F.S. 468.3855(1)).",
+    "id": 278
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Seller advances $2,000 for advertising. The auction is canceled. Under Florida law, what is the how the advance is required to be handled absent a prior written agreement? (Florida)",
+    "options": ["Keep seller-advanced expense funds in escrow/trust; spend as intended or refund at final settlement unless a prior written agreement provides otherwise.","Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 0,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 279
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, what can happen if no bid is received within a reasonable time? (Florida)",
+    "options": ["Only for real estate auctions","The item/lot may be withdrawn","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 280
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which local license may still be required? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","A local occupational license, if required"],
+    "correctAnswer": 3,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 281
+  },
+  {
+    "topic": "Definitions",
+    "question": "Which does ‘Board’ refer to? (Florida)",
+    "options": ["Florida Board of Auctioneers","Only if requested by the seller","Only for real estate auctions","It is optional"],
+    "correctAnswer": 0,
+    "explanation": "Key definitions: ‘Department’ means the Department of Business and Professional Regulation (DBPR); ‘Board’ means the Florida Board of Auctioneers; ‘Apprentice’ means a person trained as an auctioneer by a licensed auctioneer. (Reference: F.S. 468.382).",
+    "id": 282
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Who may inspect the record book of all sales, and when? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","The board at reasonable times"],
+    "correctAnswer": 3,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 283
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which statement best matches Florida law: A city tells you to buy a local occupational license, and also wants to issue its own auctioneer license. Which is required? (Florida) (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A local occupational license may be required, but a local government cannot require an additional auctioneer license or charge other practice fees beyond the state license.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 284
+  },
+  {
+    "topic": "Auction Types and Reserve Status",
+    "question": "In an absolute auction, once a bid has been accepted, may the item be withdrawn? (Florida)",
+    "options": ["No","Only for real estate auctions","It is optional","Only if requested by the seller"],
+    "correctAnswer": 0,
+    "explanation": "At the beginning of an auction, announce terms of bidding/sale and whether sale is with reserve, without reserve, absolute, or requires a minimum bid. If advertised/announced as absolute, an item/lot may not be withdrawn after a bid has been accepted; if no bid within a reasonable time, it may be withdrawn. (Reference: F.S. 468.388(7)).",
+    "id": 285
+  },
+  {
+    "topic": "Written Agreements and Record Keeping",
+    "question": "Who is required to the auctioneer or auction business execute the written agreement with before conducting an auction? (Florida)",
+    "options": ["It is optional","Only if requested by the seller","Only for real estate auctions","The owner or the owner’s agent"],
+    "correctAnswer": 3,
+    "explanation": "Before conducting an auction in Florida, the auctioneer or auction business must execute a written agreement with the owner or the owner’s agent stating (a) name/address of owner, (b) name/address of person employing the auctioneer/business if different, and (c) the terms/conditions for receiving property and remitting proceeds. (Reference: F.S. 468.388(1)).",
+    "id": 286
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Which extra condition applies when an apprentice conducts an auction? (Florida)",
+    "options": ["It is optional","Only for real estate auctions","Only if requested by the seller","Active apprentice license and prior written sponsor consent"],
+    "correctAnswer": 3,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 287
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Scenario: Your escrow account earns interest and you did not address interest in the contract. Under Florida law, what is the default owner of the interest? (Florida)",
+    "options": ["Only the clerk is responsible for compliance requirements.","You can handle it after the auction as long as you keep emails.","Interest belongs to the seller unless a prior written agreement says otherwise.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "Interest on sale proceeds on deposit belongs to the seller unless the parties agreed otherwise by a written agreement executed prior to the auction. (Reference: F.S. 468.388(10)(c)).",
+    "id": 288
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "You are the principal auctioneer. You consider having a friend bid to 'warm up the crowd.' Which is required to you do to comply? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","No written documentation is required if the seller agrees verbally.","Only the clerk is responsible for compliance requirements.","Using false bidders/shills is prohibited and grounds for discipline."],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 289
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 290
+  },
+  {
+    "topic": "Escrow, Trust Accounts, and Proceeds",
+    "question": "Does this prohibit an advanced flat fee? (Florida)",
+    "options": ["Only for real estate auctions","It is optional","No","Only if requested by the seller"],
+    "correctAnswer": 2,
+    "explanation": "Unless otherwise provided by a written agreement executed prior to the auction, funds received from the seller for expenses (including advertising) must be expended for the purposes advanced or refunded at final settlement; such funds must be maintained in an escrow/trust account in an insured Florida bank or savings and loan. This does not prohibit advanced payment of a flat fee. (Reference: F.S. 468.388(10)(d)).",
+    "id": 291
+  },
+  {
+    "topic": "Prohibited Acts and Discipline",
+    "question": "Using shill bidders at a Florida auction is best described as what? (Florida)",
+    "options": ["Only if requested by the seller","Only for real estate auctions","It is optional","A prohibited act and grounds for discipline"],
+    "correctAnswer": 3,
+    "explanation": "Using or permitting the use of false bidders, cappers, or shills is a prohibited act and grounds for discipline. (Reference: F.S. 468.389(1)(f)).",
+    "id": 292
+  },
+  {
+    "topic": "Auction Business Responsibilities",
+    "question": "Who is responsible for compliance with board-rule requirements for the auction? (Florida)",
+    "options": ["The auction business under whose auspices the auction is conducted","Only if requested by the seller","It is optional","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "The auction business under whose auspices the auction is conducted is responsible for aspects of the auction required by board rule; it may delegate only to the extent permitted by law and without impeding the principal auctioneer’s independent responsibility. (Reference: F.S. 468.388(9)).",
+    "id": 293
+  },
+  {
+    "topic": "Record Book Requirements",
+    "question": "Which is required to each auctioneer or auction business maintain regarding sales? (Florida)",
+    "options": ["Only for real estate auctions","A record book of all sales","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "Each auctioneer or auction business must maintain a record book of all sales; it must be open to inspection by the board at reasonable times. (Reference: F.S. 468.388(3)).",
+    "id": 294
+  },
+  {
+    "topic": "Licensing and Conduct Requirements",
+    "question": "Who is responsible for determining that associated auctioneers/apprentices/businesses have active Florida licenses? (Florida)",
+    "options": ["Only for real estate auctions","Any auctioneer/apprentice conducting the auction and the auction business under whose auspices it is held","It is optional","Only if requested by the seller"],
+    "correctAnswer": 1,
+    "explanation": "Each auction must be conducted by an auctioneer with an active license or an apprentice with an active apprentice license who has prior written sponsor consent; each auction must be conducted under the auspices of a licensed auction business. (Reference: F.S. 468.388(4)).",
+    "id": 295
+  },
+  {
+    "topic": "Advertising Requirements",
+    "question": "Which statement best matches Florida law: An apprentice is acting as principal auctioneer and the ad lists only the apprentice’s license. Which is required? (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","No written documentation is required if the seller agrees verbally.","It is misleading to advertise an auction as absolute without specifying items with reserve/minimum bids, and ads must include required license and premium disclosures."],
+    "correctAnswer": 3,
+    "explanation": "No licensed auctioneer/apprentice/business may disseminate false, deceptive, misleading, or untruthful advertising; examples include misrepresentations, partial disclosure that misleads, unjustified expectations, unperformed claims, missing required license info, absolute ads without specifying reserve/min-bid items, and failing to include buyer’s premium percentage if it is a condition of sale. (Reference: F.S. 468.388(11)(b)).",
+    "id": 296
+  },
+  {
+    "topic": "Local Licensing and Fees",
+    "question": "Which statement best matches Florida law: A city tells you to buy a local occupational license, and also wants to issue its own auctioneer license. Which is required? (Florida) (Florida)",
+    "options": ["You can handle it after the auction as long as you keep emails.","Only the clerk is responsible for compliance requirements.","A local occupational license may be required, but a local government cannot require an additional auctioneer license or charge other practice fees beyond the state license.","No written documentation is required if the seller agrees verbally."],
+    "correctAnswer": 2,
+    "explanation": "An auctioneer must obtain a local occupational license if required where their permanent business or branch office is located; local governments may not require an additional auctioneer license or charge other fees for the practice beyond the state license. (Reference: F.S. 468.386(2)).",
+    "id": 297
+  },
+  {
+    "topic": "Licensing Requirements",
+    "question": "Which is the minimum age to be licensed as an auctioneer or apprentice auctioneer in Florida? (Florida)",
+    "options": ["18","It is optional","Only if requested by the seller","Only for real estate auctions"],
+    "correctAnswer": 0,
+    "explanation": "No person may be licensed as an auctioneer or apprentice if under 18 years of age. (Reference: F.S. 468.385(3)(a)).",
+    "id": 298
+  },
+  {
+    "topic": "Absolute Auction Rules",
+    "question": "In an auction advertised as absolute, can the owner bid? (Florida) (Florida)",
+    "options": ["Only for real estate auctions","Not unless the right to bid is specifically permitted by law","Only if requested by the seller","It is optional"],
+    "correctAnswer": 1,
+    "explanation": "If an auction is advertised as absolute, no bid shall be accepted from the owner or someone acting for the owner unless the right to bid is specifically permitted by law. (Reference: F.S. 468.388(8)).",
+    "id": 299
+  },
+  {
+    "topic": "Licensure Qualifications",
+    "question": "According to DBPR’s auctioneers FAQ, one path to qualify includes completing how many classroom hours? (Florida)",
+    "options": ["Only if requested by the seller","It is optional","Only for real estate auctions","At least 80 hours"],
+    "correctAnswer": 3,
+    "explanation": "DBPR FAQ indicates an individual must be at least 18 and must have served as an apprentice for at least one year, or completed at least 80 hours of classroom instruction, to qualify (subject to DBPR/Board requirements). (Reference: DBPR Auctioneers FAQs).",
+    "id": 300
+  }
   ],
   'Georgia': [
   {
