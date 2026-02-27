@@ -14181,7 +14181,7 @@ export const questionBank = {
       `Approve the license on a probationary basis for six months`,
       `Schedule an emergency hearing to decide the application`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Applications must be in the form prescribed by the Commission and must contain required information. An incomplete application is not a proper application and may be treated as not filed until completed.`
   },
   {
