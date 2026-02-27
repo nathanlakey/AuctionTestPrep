@@ -14153,7 +14153,7 @@ export const questionBank = {
       `A Georgia resident without any auction experience`,
       `A ringperson who has never taken an auctioneer exam`
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     explanation: `Georgia may, in its discretion, license nonresidents by reciprocity if they hold a valid license in a state with substantially similar requirements and a reciprocal agreement, upon payment of required fees.`
   },
   {
@@ -14181,7 +14181,7 @@ export const questionBank = {
       `Approve the license on a probationary basis for six months`,
       `Schedule an emergency hearing to decide the application`,
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation: `Applications must be in the form prescribed by the Commission and must contain required information. An incomplete application is not a proper application and may be treated as not filed until completed.`
   },
   {
@@ -14209,7 +14209,7 @@ export const questionBank = {
       `Be a Georgia native by birth`,
       `Show proof of ownership of an auction company`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Georgia law requires applicants to show proof of residence to obtain an auctioneer license.`
   },
   {
@@ -14237,7 +14237,7 @@ export const questionBank = {
       `Ongoing patterns of misleading statements or advertising about auctions or services`,
       `Occasional exaggeration about crowd size`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `The statute targets ongoing patterns of misrepresentation or false promises in advertising or business conduct, not isolated minor mistakes.`
   },
   {
@@ -14251,7 +14251,7 @@ export const questionBank = {
       `Only disclose after the auction`,
       `Tell only the highest bidder after the sale`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `Known, material misstatements such as odometer fraud must not be concealed. The auctioneer must either correct the information or decline to participate in the sale.`
   },
   {
@@ -14265,7 +14265,7 @@ export const questionBank = {
       `Required encouragement under the law`,
       `A private matter that cannot lead to discipline`,
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation: `Making promises about results that the auctioneer cannot reasonably guarantee may be a false promise and an unfair trade practice.`
   },
   {
@@ -14307,7 +14307,7 @@ export const questionBank = {
       `Zoning is the buyer’s responsibility only and never relevant to the auctioneer`,
       `Disclosure is only required if the buyer asks`,
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     explanation: `Concealing material facts that significantly affect property use may constitute fraud or dishonest dealing, which are grounds for disciplinary action.`
   },
   {
@@ -14321,7 +14321,7 @@ export const questionBank = {
       `Violates the definition of an absolute auction and may be an unfair trade practice`,
       `Is allowed if disclosed to the highest bidder only`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `In an absolute auction, no competing bids of any type by the owner or the owner’s agent are allowed. Advertising an auction as absolute while permitting owner bidding is a misrepresentation and an unfair trade practice.`
   },
   {
@@ -14335,7 +14335,7 @@ export const questionBank = {
       `Both the auctioneer law and applicable real estate laws and regulations apply`,
       `Neither statute applies because the sale is at auction`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `When real property is sold at auction, the auctioneer must comply with both the auctioneer law and any applicable real estate licensing laws and rules.`
   },
   {
@@ -14377,7 +14377,7 @@ export const questionBank = {
       `The seller (owner) of the property`,
       `The ringperson`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `The auctioneer usually acts as an agent of the seller under a listing or auction contract and owes duties of loyalty and disclosure to that principal.`
   },
   {
@@ -14391,7 +14391,7 @@ export const questionBank = {
       `Subject to most auctioneer laws but explicitly exempt from some company registration requirements as described in the statute`,
       `Not allowed to hire licensed auctioneers`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `The law allows certain motor vehicle auction companies to be exempt from parts of the auction company registration process, although they remain subject to other requirements such as grounds for discipline in Code Section 43-6-18.`
   },
   {
@@ -14419,7 +14419,7 @@ export const questionBank = {
       `Is only a violation if the statement involves a criminal conviction`,
       `Can be cured by submitting a corrected application within 90 days`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Knowingly making misleading, false, or deceptive statements on any application for a license is explicitly identified as grounds for revocation, suspension, or censure.`
   },
   {
@@ -14433,7 +14433,7 @@ export const questionBank = {
       `Must only provide an accounting if the sale loses money`,
       `Has no obligation to account to sellers`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `The law requires auctioneers to account for and remit money belonging to others within 30 days (unless contract provides otherwise), not only upon demand.`
   },
   {
@@ -14447,7 +14447,7 @@ export const questionBank = {
       `Spent first and repaid later`,
       `Held only in cash in the office safe`,
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     explanation: `Commingling client funds with personal or operating funds is an unfair trade practice. Trust funds must be kept in a separate account designated for that purpose.`
   },
   {
@@ -14461,7 +14461,7 @@ export const questionBank = {
       `Prohibited for privacy reasons`,
       `Required only for auctions over $100,000`,
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     explanation: `Accurate, detailed records are essential to fulfilling the duty to account for others’ funds and help demonstrate compliance if the Commission inspects the accounts.`
   },
   {
@@ -14489,7 +14489,7 @@ export const questionBank = {
       `Required when cash flow is tight`,
       `Only a problem if the landlord complains`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Client funds may not be used for personal or operating expenses. Doing so is commingling or conversion and is grounds for discipline, regardless of later repayment.`
   },
   {
@@ -14503,7 +14503,7 @@ export const questionBank = {
       `The buyer may confirm or reject the purchase after the auction`,
       `The Commission must confirm the sale`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `"Subject to confirmation" is a form of reserve auction where the seller reserves the right to approve or reject the high bid after the auction closes.`
   },
   {
@@ -14559,7 +14559,7 @@ export const questionBank = {
       `12,000 dollars`,
       `20,000 dollars`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `The first two payments total 15,000 dollars. With a 20,000 dollar aggregate limit per licensee, only 5,000 dollars remains available for the third claim.`
   },
   {
@@ -14573,7 +14573,7 @@ export const questionBank = {
       `Shut down the auction without any court involvement`,
       `Only send a warning letter`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `When the Commission believes violations exist, the Attorney General may bring an action in superior court to abate and enjoin such acts, and the state is not required to post a bond.`
   },
   {
@@ -14615,7 +14615,7 @@ export const questionBank = {
       `A person who, for a commission, calls bids and negotiates auction sales of equipment`,
       `A receptionist who answers calls about upcoming auction dates`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 0,
     explanation: `An auctioneer is someone who, for compensation or with the expectation of compensation, offers, negotiates, or attempts to negotiate auction sales and conducts auctions. Merely assisting without compensation does not make someone an auctioneer.`
   },
   {
@@ -14629,7 +14629,7 @@ export const questionBank = {
       `A minor issue that will fix itself`,
       `A problem only if the bank complains`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `A shortage in the trust account means client funds have been misused or misapplied. This is a serious violation that can lead to discipline or even criminal investigation.`
   },
   {
@@ -14657,7 +14657,7 @@ export const questionBank = {
       `$3,500`,
       `$3,750`,
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     explanation: `Buyer’s premium = 5% of $30,000 = $1,500. Total subject to commission = $30,000 + $1,500 = $31,500. Commission = 10% of $31,500 = 0.10 × 31,500 = $3,150? Wait—this is 3,150, not 3,750. The correct commission is 10% of hammer ONLY or hammer plus premium depending on contract. If on hammer plus premium, it is $3,150. Therefore, correct choice is B, not D.`
   },
   ]
