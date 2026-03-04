@@ -47,7 +47,7 @@ function TopicBar({ topic, avgScore, count }) {
   );
 }
 
-function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onProfile, onAdmin, onLogout, isUserAdmin }) {
+function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlashcards, onStartGame, onStartStudyGuide, onStartPodcast, onProfile, onAdmin, onLogout, isUserAdmin }) {
   const [flashcardTopic, setFlashcardTopic] = useState('');
   const [gameTopic, setGameTopic] = useState('');
   const [quizSize, setQuizSize] = useState(10);
@@ -430,6 +430,20 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
               className="btn-mode"
             >
               View Study Guide
+            </button>
+          </div>
+
+          {/* Podcast */}
+          <div className="study-mode-card">
+            <div className="card-icon">🎙️</div>
+            <h3>Podcast</h3>
+            <p>Listen to audio episodes covering key auction law topics while you study</p>
+            
+            <button 
+              onClick={onStartPodcast} 
+              className="btn-mode"
+            >
+              Listen Now
             </button>
           </div>
         </div>

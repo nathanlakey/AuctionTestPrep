@@ -10,11 +10,12 @@ import AuthPage from './components/AuthPage'
 import Payment from './components/Payment'
 import Profile from './components/Profile'
 import Admin, { isAdmin } from './components/Admin'
+import Podcast from './components/Podcast'
 import './App.css'
 
 function AppContent() {
   // Persist mode & state across refreshes via sessionStorage
-  const persistableModes = ['select', 'dashboard', 'profile', 'admin']
+  const persistableModes = ['select', 'dashboard', 'profile', 'admin', 'podcast']
 
   const [selectedState, setSelectedState] = useState(() => {
     return sessionStorage.getItem('aa_selectedState') || null
@@ -109,6 +110,7 @@ function AppContent() {
       flashcards: 'Flashcards',
       game: 'Study Game',
       studyguide: 'Study Guide',
+      podcast: 'Podcast',
       profile: 'Profile',
       admin: 'Admin',
     }
@@ -174,6 +176,10 @@ function AppContent() {
 
   const handleStartStudyGuide = () => {
     navigateTo('studyguide')
+  }
+
+  const handleStartPodcast = () => {
+    navigateTo('podcast')
   }
 
   const handleExit = () => {
@@ -275,6 +281,7 @@ function AppContent() {
           onStartFlashcards={handleStartFlashcards}
           onStartGame={handleStartGame}
           onStartStudyGuide={handleStartStudyGuide}
+          onStartPodcast={handleStartPodcast}
           onProfile={handleProfile}
           onAdmin={handleAdmin}
           onLogout={handleLogout}
@@ -335,6 +342,12 @@ function AppContent() {
       {mode === 'studyguide' && (
         <StudyGuide 
           selectedState={selectedState}
+          onBack={handleExit}
+        />
+      )}
+
+      {mode === 'podcast' && (
+        <Podcast 
           onBack={handleExit}
         />
       )}
