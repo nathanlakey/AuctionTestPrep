@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { getAvailableTopics } from '../data/questionBank';
+import { hasPodcasts } from './Podcast';
 import { useAuth } from './AuthContext';
 import CustomSelect from './CustomSelect';
 import './Dashboard.css';
@@ -433,19 +434,21 @@ function Dashboard({ state, onChangeState, onStartTest, onStartQuiz, onStartFlas
             </button>
           </div>
 
-          {/* Podcast */}
-          <div className="study-mode-card">
-            <div className="card-icon">🎙️</div>
-            <h3>Podcast</h3>
-            <p>Listen to audio episodes covering key auction law topics while you study</p>
-            
-            <button 
-              onClick={onStartPodcast} 
-              className="btn-mode"
-            >
-              Listen Now
-            </button>
-          </div>
+          {/* Podcast — only shown for states that have episodes */}
+          {hasPodcasts(state) && (
+            <div className="study-mode-card">
+              <div className="card-icon">🎙️</div>
+              <h3>Podcast</h3>
+              <p>Listen to audio episodes covering key auction law topics while you study</p>
+              
+              <button 
+                onClick={onStartPodcast} 
+                className="btn-mode"
+              >
+                Listen Now
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Topics Overview */}

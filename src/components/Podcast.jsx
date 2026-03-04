@@ -1,13 +1,15 @@
 import { useState, useRef, useEffect } from 'react';
 import './Podcast.css';
 
-const EPISODES = [
-  {
-    id: 1,
-    title: 'How Texas Regulates the Auction Block',
-    file: '/audio/How_Texas_Regulates_the_Auction_Block.m4a',
-    description: 'A deep dive into the regulatory framework governing auctions in the state of Texas, including licensing bodies, oversight rules, and compliance requirements.',
-  },
+// Episodes organized by state — add new states here as podcasts become available
+const EPISODES_BY_STATE = {
+  Texas: [
+    {
+      id: 1,
+      title: 'How Texas Regulates the Auction Block',
+      file: '/audio/How_Texas_Regulates_the_Auction_Block.m4a',
+      description: 'A deep dive into the regulatory framework governing auctions in the state of Texas, including licensing bodies, oversight rules, and compliance requirements.',
+    },
   {
     id: 2,
     title: 'Texas Auction Laws Behind the Gavel',
@@ -44,7 +46,15 @@ const EPISODES = [
     file: '/audio/The_Strict_Contract_Laws_of_Texas_Auctions.m4a',
     description: 'Covering the UCC Article 2 rules for auction contracts in Texas — when the hammer falls, reserve vs. no-reserve, buyer\'s remedies, and breach of contract.',
   },
-];
+  ],
+  // Future states go here, e.g.:
+  // Alabama: [ ... ],
+};
+
+/** Returns true if the given state has podcast episodes */
+export function hasPodcasts(state) {
+  return (EPISODES_BY_STATE[state]?.length ?? 0) > 0;
+}
 
 function formatTime(seconds) {
   if (!seconds || !isFinite(seconds)) return '0:00';
@@ -72,7 +82,8 @@ function EpisodeCard({ episode, isPlaying, isCurrent, onPlay, onPause }) {
   );
 }
 
-function Podcast({ onBack }) {
+function Podcast({ state, onBack }) {
+  const EPISODES = EPISODES_BY_STATE[state] || [];
   const audioRef = useRef(null);
   const progressRef = useRef(null);
   const [currentEpisode, setCurrentEpisode] = useState(null);
@@ -162,7 +173,7 @@ function Podcast({ onBack }) {
       {/* Episode List */}
       <div className="podcast-content">
         <p className="podcast-subtitle">
-          Listen and learn — {EPISODES.length} episodes covering key Texas auction law topics
+          Listen and learn — {EPISODES.length} episode{EPISODES.length !== 1 ? 's' : ''} covering key {state} auction law topics
         </p>
 
         <div className="episode-list">

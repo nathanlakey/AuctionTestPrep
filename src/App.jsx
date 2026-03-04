@@ -348,6 +348,7 @@ function AppContent() {
 
       {mode === 'podcast' && (
         <Podcast 
+          state={selectedState}
           onBack={handleExit}
         />
       )}
