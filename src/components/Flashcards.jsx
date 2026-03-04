@@ -15,10 +15,10 @@ function Flashcards({ state, topic, onExit }) {
   const [reportStatus, setReportStatus] = useState(null);
 
   useEffect(() => {
-    // Use dedicated flashcard questions (same for all states)
-    const cards = getRandomFlashcards(20);
+    // Use state-specific flashcards when available (e.g. Texas), generic for others
+    const cards = getRandomFlashcards(20, state);
     setQuestions(cards);
-  }, []);
+  }, [state]);
 
   // Keyboard shortcuts
   useEffect(() => {
