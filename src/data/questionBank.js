@@ -11741,2405 +11741,3053 @@ export const questionBank = {
   ],
   'Texas': [
   {
-    id: 1001,
-    topic: 'Auction Math',
-    question: `Which term describes the additional percentage added to the hammer price that the buyer must pay?`,
-    options: ["Commission", "Buyer\u2019s Premium", "Deposit", "Increment"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 1,
+    topic: "Bidding Procedures",
+    question: `Under Texas Business and Commerce Code § 2.328, what is the precise legal effect of a bidder retracting their bid prior to the fall of the hammer in a sale with reserve?`,
+    options: ["The retraction automatically revives the immediately preceding bid, returning the auction to the prior price level.", "The retraction is only permitted if the auctioneer consents, and it does not revive any previous bid.", "The bidder may retract the bid, but doing so revives the immediately preceding bid until the auctioneer announces completion.", "The bidder may retract the bid, but the retraction does not revive any previous bid."],
+    correctAnswer: 3,
+    explanation: `In either a reserve or without reserve auction, a bidder may retract their bid until the auctioneer's announcement of completion of the sale, but a bidder's retraction does not revive any previous bid.`
   },
   {
-    id: 1002,
-    topic: 'Bidding Procedures',
-    question: `Which term means the bid step amount required between bids?`,
-    options: ["Provenance", "Increment", "Escrow", "Reserve"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1003,
-    topic: 'Contract Law',
-    question: `What does “conditions of sale” refer to?`,
-    options: ["Weather during auction", "Legal terms governing the auction transaction", "The chant style", "The buyer\u2019s deposit refund policy only"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1004,
-    topic: 'Auction Basics',
-    question: `What does an “as is” auction sale mean?`,
-    options: ["Seller guarantees condition", "Buyer may return items", "No warranty; buyer assumes risk after inspection", "Auctioneer repairs defects"],
+    id: 2,
+    topic: "Contract Law",
+    question: `How does the Uniform Commercial Code (Sec. 2.106) explicitly differentiate between the "termination" and "cancellation" of a contract?`,
+    options: ["Termination discharges all obligations entirely, while cancellation leaves the cancelling party liable for executory obligations.", "Termination occurs when a party ends the contract for a breach, whereas cancellation occurs pursuant to a power created by mutual agreement.", "Cancellation occurs when either party puts an end to the contract for breach by the other, retaining remedies for the breach, whereas termination occurs otherwise than for its breach.", "There is no legal distinction; both terms discharge all executory obligations and waive any right based on prior breach."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `"Termination" occurs when a party ends the contract otherwise than for its breach. "Cancellation" occurs when a party ends the contract for breach by the other, and the cancelling party retains any remedy for breach of the whole contract.`
   },
   {
-    id: 1005,
-    topic: 'Auction Math',
-    question: `An item sells for $5,000 hammer price with a 12% buyer premium. What is total due before tax?`,
-    options: ["$5,000", "$5,600", "$6,200", "$4,400"],
+    id: 3,
+    topic: "Bidding Procedures",
+    question: `Under Section 2.328, if an auctioneer knowingly receives a bid on the seller's behalf without giving notice that liberty for such bidding is reserved, what is the buyer's statutory remedy, and to what type of sale does the exception apply?`,
+    options: ["The buyer may sue for treble damages under the DTPA; the exception applies to absolute auctions.", "The buyer may avoid the sale or take the goods at the price of the last good faith bid; the exception applies to any bid at a forced sale.", "The buyer may demand an immediate refund of the buyer's premium; the exception applies to livestock auctions.", "The buyer may only avoid the sale; the exception applies if the seller's bid was not the final winning bid."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `The buyer may at his option avoid the sale or take the goods at the price of the last good faith bid prior to the completion of the sale. This subsection shall not apply to any bid at a forced sale.`
   },
   {
-    id: 1006,
-    topic: 'Auction Math',
-    question: `A seller pays a 10% commission on a $20,000 sale. What is the commission?`,
-    options: ["$1,000", "$2,000", "$3,000", "$10,000"],
+    id: 4,
+    topic: "Consumer Protection",
+    question: `Under the Deceptive Trade Practices Act (DTPA Sec. 17.46), which of the following actions concerning a motor vehicle's odometer is explicitly classified as an unlawful deceptive act?`,
+    options: ["Failing to disclose the true mileage if the odometer is known to be broken.", "Replacing a broken odometer without providing a sworn affidavit to the buyer.", "Selling a vehicle \"as-is\" when the odometer has rolled over its maximum mechanical limit.", "Disconnecting, turning back, or resetting the odometer of any motor vehicle so as to reduce the number of miles indicated."],
+    correctAnswer: 3,
+    explanation: `The DTPA explicitly lists disconnecting, turning back, or resetting the odometer of any motor vehicle so as to reduce the number of miles indicated on the odometer gauge as a false, misleading, or deceptive act.`
+  },
+  {
+    id: 5,
+    topic: "Contract Law",
+    question: `A contract for the sale of goods for $600 is generally unenforceable without a sufficient writing under the Statute of Frauds (Sec. 2.201). However, an oral contract for these goods is enforceable if:`,
+    options: ["The buyer provides a verbal promise to pay within 10 days.", "The transaction is completed between two merchants, even without a written confirmation.", "The agreement was witnessed by a licensed auctioneer or notary public.", "The goods are specially manufactured for the buyer, are not suitable for sale to others in the ordinary course of business, and the seller has made a substantial beginning of their manufacture."],
+    correctAnswer: 3,
+    explanation: `An exception to the Statute of Frauds exists if the goods are to be specially manufactured for the buyer, are not suitable for sale to others, and the seller has made a substantial beginning of their manufacture or commitments for their procurement.`
+  },
+  {
+    id: 6,
+    topic: "Consumer Protection",
+    question: `Under the definitions of the DTPA (Sec. 17.45), what distinguishes an act done "intentionally" from an act done "knowingly"?`,
+    options: ["\"Intentionally\" requires only actual awareness of the falsity, while \"knowingly\" requires premeditation.", "\"Intentionally\" requires actual awareness coupled with the specific intent that the consumer act in detrimental reliance on the falsity or deception.", "\"Knowingly\" implies specific intent to harm the consumer financially, while \"intentionally\" requires intent for physical harm.", "Both terms are legally identical and used interchangeably to award treble damages."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `"Intentionally" means actual awareness of the falsity, deception, or unfairness... coupled with the specific intent that the consumer act in detrimental reliance on the falsity or deception. "Knowingly" only requires actual awareness.`
   },
   {
-    id: 1007,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,000. Buyer premium is 10%. Sales tax is 6% on hammer only. Total buyer cost?`,
-    options: ["$8,800", "$9,280", "$9,600", "$8,480"],
+    id: 7,
+    topic: "UCC (Uniform Commercial Code)",
+    question: `According to Sec. 9.502, a standard financing statement must provide the name of the debtor, the name of the secured party, and indicate the collateral. If the financing statement covers timber to be cut, what additional requirement must it meet to be sufficient?`,
+    options: ["It must include a certified appraisal of the timber's market value.", "It must be signed by both the debtor and the secured party.", "It must provide a description of the real property to which the collateral is related.", "It must indicate the specific dates during which the timber will be severed from the realty."],
+    correctAnswer: 2,
+    explanation: `A financing statement that covers as-extracted collateral or timber to be cut, or that is filed as a fixture filing, must satisfy standard requirements and also provide a description of the real property to which the collateral is related.`
+  },
+  {
+    id: 8,
+    topic: "Ethics and Professional Conduct",
+    question: `A person advertising an auction representing that a business is "going out of business" must include what specific information in the advertising to avoid committing a misdemeanor under Sec. 17.11?`,
+    options: ["The exact date the business will permanently close.", "A statement that all sales are final and \"as-is.\"", "The license number of the auctioneer conducting the liquidation.", "The correct name and permanent address of the owner of the business."],
+    correctAnswer: 3,
+    explanation: `A person who advertises a liquidation sale, auction sale, or going-out-of-business sale shall state the correct name and permanent address of the owner of the business in the advertising.`
+  },
+  {
+    id: 9,
+    topic: "Ethics and Professional Conduct",
+    question: `If an auction company conducting business in Texas experiences a breach of system security involving sensitive personal information, what is the maximum statutory timeframe allowed under Sec. 521.053 to disclose the breach to affected individuals (assuming no law enforcement delay)?`,
+    options: ["Not later than the 30th day after the date on which the person determines the breach occurred.", "Not later than the 60th day after the date on which the person determines the breach occurred.", "Without unreasonable delay, but strictly within 15 banking days.", "Immediately, but no later than 72 hours after the breach is discovered."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `The disclosure shall be made without unreasonable delay and in each case not later than the 60th day after the date on which the person determines that the breach occurred.`
   },
   {
-    id: 1008,
-    topic: 'Auction Math',
-    question: `A bidder pays a $1,500 deposit and wins an item for $6,000. Remaining balance before premium?`,
-    options: ["$4,500", "$6,000", "$1,500", "$7,500"],
+    id: 10,
+    topic: "State-Specific Laws",
+    question: `An auction company suffers a data breach compromising the sensitive personal information of 300 Texas residents. In addition to notifying the affected individuals, what other mandatory action must the company take under Section 521.053?`,
+    options: ["Notify the Texas Department of Licensing and Regulation (TDLR) within 30 days.", "Notify each consumer reporting agency that maintains files on consumers on a nationwide basis.", "Notify the Texas Attorney General not later than the 60th day after determining the breach occurred.", "Publish a notice in a major statewide broadcast media outlet."],
+    correctAnswer: 2,
+    explanation: `A person who is required to disclose a breach of system security shall notify the attorney general of that breach not later than the 60th day after the date on which the person determines that the breach occurred if the breach involves at least 250 residents of this state. (Notifying nationwide consumer reporting agencies is only required if the breach affects more than 10,000 persons at one time).`
+  },
+  {
+    id: 11,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.209, an agreement modifying a contract within Chapter 2 (Sales) requires which of the following to be legally binding?`,
+    options: ["A newly negotiated exchange of monetary consideration.", "A signed writing, regardless of the nature of the modification.", "The presence of a notary public or licensed broker.", "No consideration."],
+    correctAnswer: 3,
+    explanation: `An agreement modifying a contract within this chapter needs no consideration to be binding.`
+  },
+  {
+    id: 12,
+    topic: "Consumer Protection",
+    question: `Under the DTPA definitions (Sec. 17.45), which of the following entities is specifically EXCLUDED from the definition of a "Consumer"?`,
+    options: ["A partnership that seeks to lease goods for commercial use.", "A subdivision or agency of the state that acquires services.", "A business consumer that has assets of $25 million or more.", "An individual who purchases real property for investment purposes."],
+    correctAnswer: 2,
+    explanation: `The term "consumer" does not include a business consumer that has assets of $25 million or more, or that is owned or controlled by a corporation or entity with assets of $25 million or more.`
+  },
+  {
+    id: 13,
+    topic: "Consumer Protection",
+    question: `A buyer signs a written contractual obligation for a consumer transaction. Under DTPA Sec. 17.46, an unlawful deceptive act occurs if the seller files suit on that obligation in a county OTHER THAN:`,
+    options: ["The county where the seller's principal place of business is located.", "The county where the goods were originally manufactured.", "Travis County, Texas, unless the contract explicitly waives venue.", "The county in which the defendant resides at the time of commencement or the county in which the defendant in fact signed the contract."],
+    correctAnswer: 3,
+    explanation: `Filing suit... in any county other than in the county in which the defendant resides at the time of the commencement of the action or in the county in which the defendant in fact signed the contract is declared an unlawful deceptive act.`
+  },
+  {
+    id: 14,
+    topic: "State-Specific Laws",
+    question: `Under Chapter 604A regarding surcharges, a seller in a sale of goods or services is generally prohibited from imposing a surcharge on a buyer who uses a credit card. Which of the following entities is explicitly EXEMPT from this prohibition?`,
+    options: ["A licensed auctioneer conducting a foreclosure sale.", "A wholesaler selling goods for resale.", "A retail merchant with less than $1 million in annual gross receipts.", "A private school that accepts a credit card for the payment of fees."],
+    correctAnswer: 3,
+    explanation: `This section does not apply to a state agency, county, local governmental entity... or a private school that accepts a credit card for the payment of fees or other charges.`
+  },
+  {
+    id: 15,
+    topic: "Contract Law",
+    question: `Chapter 9 of the UCC defines a "Secured Party". Which of the following parties is explicitly included within the statutory definition of a "Secured Party" under Sec. 9.102?`,
+    options: ["A debtor in possession of agricultural liens.", "A consumer purchasing goods on an installment plan.", "An auctioneer acting as an agent for a principal.", "A consignor."],
+    correctAnswer: 3,
+    explanation: `"Secured party" means a person in whose favor a security interest is created... including a consignor.`
+  },
+  {
+    id: 16,
+    topic: "Contract Law",
+    question: `According to UCC Sec. 2.204, if parties intend to make a contract for the sale of goods, but one or more terms are left open, what is the legal status of the contract?`,
+    options: ["The contract fails for indefiniteness because all material terms must be explicitly stated.", "The contract is voidable at the option of the buyer, but binding upon the seller.", "The contract automatically converts to a lease agreement under Chapter 2A.", "The contract does not fail for indefiniteness if there is a reasonably certain basis for giving an appropriate remedy."],
+    correctAnswer: 3,
+    explanation: `Even though one or more terms are left open a contract for sale does not fail for indefiniteness if the parties have intended to make a contract and there is a reasonably certain basis for giving an appropriate remedy.`
+  },
+  {
+    id: 17,
+    topic: "Bidding Procedures",
+    question: `In a sale by auction, if a bid is made while the hammer is falling in acceptance of a prior bid, the auctioneer may in their discretion:`,
+    options: ["Reject the new bid and strictly enforce the prior bid without exception.", "Cancel the lot entirely and offer it at a subsequent auction.", "Award the item to the new bidder automatically, provided the new bid exceeds the prior bid by the required increment.", "Reopen the bidding or declare the goods sold under the bid on which the hammer was falling."],
+    correctAnswer: 3,
+    explanation: `Where a bid is made while the hammer is falling in acceptance of a prior bid the auctioneer may in his discretion reopen the bidding or declare the goods sold under the bid on which the hammer was falling.`
+  },
+  {
+    id: 18,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.46, a seller advertising goods with the intent not to supply a reasonable expectable public demand commits a deceptive act UNLESS:`,
+    options: ["The goods are priced below wholesale cost.", "The seller issues a written apology to affected consumers.", "The seller substitutes a product of higher quality at the same price.", "The advertisements disclosed a limitation of quantity."],
+    correctAnswer: 3,
+    explanation: `Advertising goods or services with intent not to supply a reasonable expectable public demand is a deceptive act unless the advertisements disclosed a limitation of quantity.`
+  },
+  {
+    id: 19,
+    topic: "Contract Law",
+    question: `Between merchants, if a writing in confirmation of a contract is received, it satisfies the Statute of Frauds requirement (Sec. 2.201) against the receiving party unless written notice of objection to its contents is given within:`,
+    options: ["3 days.", "15 days.", "30 days.", "10 days."],
+    correctAnswer: 3,
+    explanation: `Between merchants if within a reasonable time a writing in confirmation of the contract... is received... it satisfies the requirements... unless written notice of objection to its contents is given within ten days after it is received.`
+  },
+  {
+    id: 20,
+    topic: "Consumer Protection",
+    question: `Under the definitions of the Deceptive Trade Practices Act (Sec. 17.45), "economic damages" explicitly EXCLUDES which of the following?`,
+    options: ["Costs of repair to a defective good.", "Costs of replacement of a defective good.", "Compensatory damages for pecuniary loss.", "Exemplary damages and damages for physical pain and mental anguish."],
+    correctAnswer: 3,
+    explanation: `The term "economic damages" means compensatory damages for pecuniary loss... The term does not include exemplary damages or damages for physical pain and mental anguish, loss of consortium, disfigurement, etc.`
+  },
+  {
+    id: 21,
+    topic: "Consumer Protection",
+    question: `An auctioneer is selling a tractor that has been heavily restored. To avoid violating DTPA Sec. 17.46, the auctioneer must NOT represent that the goods are:`,
+    options: ["Reclaimed or secondhand.", "Sold \"As-Is\" without warranties.", "Capable of performing standard agricultural tasks.", "Original or new."],
+    correctAnswer: 3,
+    explanation: `Representing that goods are original or new if they are deteriorated, reconditioned, reclaimed, used, or secondhand is declared a false, misleading, or deceptive act.`
+  },
+  {
+    id: 22,
+    topic: "State-Specific Laws",
+    question: `Under Chapter 521 (Identity Theft), which of the following combinations of unencrypted data constitutes "Sensitive personal information" rather than merely "Personal identifying information"?`,
+    options: ["An individual's first and last name in combination with their date of birth.", "An individual's first and last name in combination with their mother's maiden name.", "An individual's first and last name in combination with their publicly available telephone number.", "An individual's first and last name in combination with their social security number."],
+    correctAnswer: 3,
+    explanation: `"Sensitive personal information" means an individual's first name or first initial and last name in combination with items such as a social security number, driver's license number, or financial account number.`
+  },
+  {
+    id: 23,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.12, a person who wishes to solicit advertising in the name of a club, association, or organization must obtain:`,
+    options: ["Verbal authorization from an officer of the organization.", "A temporary permit from the Texas Secretary of State.", "A surety bond in the amount of $10,000 to protect the organization's reputation.", "Written permission from the club, association, or organization."],
+    correctAnswer: 3,
+    explanation: `No person may solicit advertising in the name of a club, association, or organization without the written permission of such club, association, or organization.`
+  },
+  {
+    id: 24,
+    topic: "State-Specific Laws",
+    question: `Under Section 9.103 regarding purchase-money security interests, what is the specific nature of the security interest held by a consignor in goods that are the subject of a consignment?`,
+    options: ["It is an unperfected general lien.", "It is an agricultural lien subject to landlord priority.", "It is an equitable servitude on chattel paper.", "It is a purchase-money security interest in inventory."],
+    correctAnswer: 3,
+    explanation: `The security interest of a consignor in goods that are the subject of a consignment is a purchase-money security interest in inventory.`
+  },
+  {
+    id: 25,
+    topic: "Consumer Protection",
+    question: `When the governor declares a disaster, the DTPA (Sec. 17.46) specifically prohibits taking advantage of the situation by:`,
+    options: ["Refusing to honor previously issued coupons for non-essential luxury items.", "Closing a retail establishment to prevent inventory depletion.", "Mandating that consumers pay only in cash for necessary goods.", "Selling or leasing fuel, food, medicine, or building materials at an exorbitant or excessive price."],
+    correctAnswer: 3,
+    explanation: `Taking advantage of a disaster declared by the governor... by selling or leasing fuel, food, medicine, lodging, building materials... at an exorbitant or excessive price is an unlawful deceptive act.`
+  },
+  {
+    id: 26,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.209, if a merchant supplies a form containing a signed agreement that excludes modification except by a signed writing, and the other party is a non-merchant, what is required for that exclusion clause to be valid?`,
+    options: ["The clause is per se invalid against a non-merchant.", "The non-merchant must be provided a 10-day revocation period.", "The requirement must be printed in bold, 14-point font.", "The requirement on the form must be separately signed by the other party."],
+    correctAnswer: 3,
+    explanation: `A signed agreement which excludes modification... cannot be otherwise modified... but except as between merchants such a requirement on a form supplied by the merchant must be separately signed by the other party.`
+  },
+  {
+    id: 27,
+    topic: "Contract Law",
+    question: `Regarding the legal default status of an auction sale under Texas UCC 2.328, which statement is strictly true?`,
+    options: ["The sale is without reserve unless explicitly announced otherwise.", "The auctioneer determines the reserve status at the time the hammer falls based on the high bid.", "The status depends entirely on whether the property is real estate or personal chattel.", "The sale is with reserve unless the goods are in explicit terms put up without reserve."],
+    correctAnswer: 3,
+    explanation: `Such a sale is with reserve unless the goods are in explicit terms put up without reserve.`
+  },
+  {
+    id: 28,
+    topic: "Consumer Protection",
+    question: `It is an unlawful deceptive practice under DTPA Sec. 17.46 to use the term "corporation," "incorporated," or an abbreviation of those terms in the name of a business entity if:`,
+    options: ["The entity does not gross at least $500,000 annually.", "The entity has less than three registered shareholders.", "The entity is operating primarily as an auction firm.", "The entity is not actually incorporated under the laws of Texas or another jurisdiction."],
+    correctAnswer: 3,
+    explanation: `Using the term "corporation," "incorporated," or an abbreviation... in the name of a business entity that is not incorporated under the laws of this state or another jurisdiction is unlawful.`
+  },
+  {
+    id: 29,
+    topic: "Record Keeping",
+    question: `What is the affirmative duty of a business under Sec. 521.052 regarding customer records containing sensitive personal information that are no longer to be retained?`,
+    options: ["Return the records directly to the customer via certified mail.", "Retain the records in an encrypted digital vault indefinitely.", "Surrender the records to the Texas Comptroller of Public Accounts.", "Destroy or arrange for the destruction of the records by shredding, erasing, or modifying the information to make it unreadable."],
+    correctAnswer: 3,
+    explanation: `A business shall destroy or arrange for the destruction of customer records containing sensitive personal information... that are not to be retained... by shredding, erasing, or otherwise modifying the sensitive personal information.`
+  },
+  {
+    id: 30,
+    topic: "State-Specific Laws",
+    question: `In a transaction other than a consumer-goods transaction, if a dispute arises over the extent to which a security interest is a purchase-money security interest under Sec. 9.103, who bears the statutory burden of proof?`,
+    options: ["The debtor.", "The auctioneer or broker facilitating the sale.", "The state regulatory agency overseeing the transaction.", "The secured party claiming the purchase-money security interest."],
+    correctAnswer: 3,
+    explanation: `In a transaction other than a consumer-goods transaction, a secured party claiming a purchase-money security interest has the burden of establishing the extent to which the security interest is a purchase-money security interest.`
+  },
+  {
+    id: 31,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.106, goods or conduct are considered "conforming" to a contract when:`,
+    options: ["They meet the subjective satisfaction of the buyer.", "They are of a quality that exceeds the industry standard.", "They are accepted by the buyer without an immediate request for a discount.", "They are in accordance with the obligations under the contract."],
+    correctAnswer: 3,
+    explanation: `Goods or conduct including any part of a performance are "conforming" or conform to the contract when they are in accordance with the obligations under the contract.`
+  },
+  {
+    id: 32,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.46(b), which of the following constitutes an unlawful deceptive act related to a competitor?`,
+    options: ["Undercutting the competitor's prices by more than 20%.", "Truthfully advertising that a competitor lacks a specific state certification.", "Purchasing a competitor's domain name to redirect traffic.", "Disparaging the goods, services, or business of another by false or misleading representation of facts."],
+    correctAnswer: 3,
+    explanation: `Disparaging the goods, services, or business of another by false or misleading representation of facts is expressly listed as a deceptive act.`
+  },
+  {
+    id: 33,
+    topic: "UCC (Uniform Commercial Code)",
+    question: `Under Section 9.502 regarding the time of filing a financing statement, a secured party:`,
+    options: ["Must wait until the debtor has physically received the collateral before filing.", "Must file simultaneously with the signing of the security agreement.", "Must wait a mandatory 3-day rescission period before filing.", "May file the statement before a security agreement is made or a security interest otherwise attaches."],
+    correctAnswer: 3,
+    explanation: `A financing statement may be filed before a security agreement is made or a security interest otherwise attaches.`
+  },
+  {
+    id: 34,
+    topic: "Consumer Protection",
+    question: `The definition of an "unconscionable action or course of action" under DTPA Sec. 17.45 relies on proving that the act:`,
+    options: ["Resulted in physical harm to the consumer.", "Violated a specific provision of the Texas Penal Code.", "Involved a breach of an express, written warranty for goods valued over $10,000.", "Took advantage of the lack of knowledge, ability, experience, or capacity of the consumer to a grossly unfair degree."],
+    correctAnswer: 3,
+    explanation: `"Unconscionable action or course of action" means an act or practice which, to a consumer's detriment, takes advantage of the lack of knowledge, ability, experience, or capacity of the consumer to a grossly unfair degree.`
+  },
+  {
+    id: 35,
+    topic: "Consumer Protection",
+    question: `Which of the following billing practices is considered specifically deceptive under DTPA Sec. 17.46(b) regarding repairs?`,
+    options: ["Requiring payment in full before releasing the repaired item.", "Charging a diagnostic fee that is later applied to the final repair bill.", "Providing an estimate that is up to 10% lower than the final invoiced amount.", "Basing a charge for repair in whole or in part on a guaranty or warranty instead of the value of the actual repairs made, without stating the charges separately."],
+    correctAnswer: 3,
+    explanation: `Basing a charge for the repair of any item in whole or in part on a guaranty or warranty instead of on the value of the actual repairs made... without stating separately the charges... is a deceptive act.`
+  },
+  {
+    id: 36,
+    topic: "State-Specific Laws",
+    question: `If a data breach requires a person to notify more than 10,000 persons at one time under Sec. 521.053, the law requires them to ALSO notify:`,
+    options: ["The Federal Trade Commission (FTC).", "The Department of Homeland Security.", "The primary banking institution of each affected individual.", "Each consumer reporting agency that maintains files on consumers on a nationwide basis."],
+    correctAnswer: 3,
+    explanation: `If a person is required by this section to notify at one time more than 10,000 persons of a breach of system security, the person shall also notify each consumer reporting agency... that maintains files on consumers on a nationwide basis.`
+  },
+  {
+    id: 37,
+    topic: "Consumer Protection",
+    question: `How does the DTPA (Sec. 17.11) define a "wholesaler" for the purposes of deceptive advertising regulations?`,
+    options: ["A person who manufactures the goods they sell.", "A person who sells goods at a volume discount directly to end consumers.", "A business entity operating out of a warehouse district.", "A person who sells for the purpose of resale and not directly to a consuming purchaser."],
+    correctAnswer: 3,
+    explanation: `"Wholesaler" means a person who sells for the purpose of resale and not directly to a consuming purchaser.`
+  },
+  {
+    id: 38,
+    topic: "Contract Law",
+    question: `According to UCC Section 2.204 regarding the formation of a contract, an agreement sufficient to constitute a contract for sale may be found:`,
+    options: ["Only if the exact moment of its making can be definitively determined.", "Only if accompanied by a notarized bill of sale.", "Only when funds are officially transferred between bank accounts.", "Even though the moment of its making is undetermined."],
+    correctAnswer: 3,
+    explanation: `An agreement sufficient to constitute a contract for sale may be found even though the moment of its making is undetermined.`
+  },
+  {
+    id: 39,
+    topic: "State-Specific Laws",
+    question: `Using a "chain referral sales plan" (such as a pyramid setup) where a buyer is promised compensation for furnishing names of other prospective buyers is:`,
+    options: ["Legal if the compensation is paid in cash.", "Regulated strictly by the Texas Real Estate Commission, not the DTPA.", "Legal provided the buyer signs a disclosure acknowledging the risks.", "Unlawful if the receipt of compensation is contingent upon an event subsequent to the time the buyer purchases the merchandise."],
+    correctAnswer: 3,
+    explanation: `Using or employing a chain referral sales plan... if receipt of the compensation or consideration is contingent upon the occurrence of an event subsequent to the time the buyer purchases the merchandise or goods is a deceptive act.`
+  },
+  {
+    id: 40,
+    topic: "Consumer Protection",
+    question: `Which of the following accurately describes "Goods" as defined by the Deceptive Trade Practices Act (Sec. 17.45)?`,
+    options: ["Only tangible personal property; real estate is strictly excluded.", "Any items sold specifically for resale purposes.", "Only items with a purchase price exceeding $500.", "Tangible chattels or real property purchased or leased for use."],
+    correctAnswer: 3,
+    explanation: `"Goods" means tangible chattels or real property purchased or leased for use.`
+  },
+  {
+    id: 41,
+    topic: "State-Specific Laws",
+    question: `In a non-consumer goods transaction, if there is no agreement on how to apply a payment toward a purchase-money security interest, and the obligor fails to manifest an intention, how must the payment be applied under Sec. 9.103?`,
+    options: ["First to obligations secured by purchase-money security interests, then to unsecured obligations.", "Pro-rata across all existing obligations regardless of security status.", "Entirely at the discretion of the secured party.", "First to obligations that are not secured, and then to secured obligations in the order they were incurred."],
+    correctAnswer: 3,
+    explanation: `The payment must be applied... in the following order: (A) to obligations that are not secured; and (B) if more than one obligation is secured, to obligations secured by purchase-money security interests in the order in which those obligations were incurred.`
+  },
+  {
+    id: 42,
+    topic: "State-Specific Laws",
+    question: `For the purposes of Chapter 521 (Unauthorized Use of Identifying Information), "sensitive personal information" does NOT include:`,
+    options: ["A person's routing code combined with an access password.", "A person's unencrypted social security number.", "Information regarding a person's physical or mental health.", "Publicly available information that is lawfully made available to the public from the federal, state, or local government."],
+    correctAnswer: 3,
+    explanation: `The term "sensitive personal information" does not include publicly available information that is lawfully made available to the public from the federal government or a state or local government.`
+  },
+  {
+    id: 43,
+    topic: "Contract Law",
+    question: `A verbal contract for $800 worth of goods may become enforceable despite the Statute of Frauds (UCC 2.201) if:`,
+    options: ["The buyer recorded the verbal conversation without the seller's knowledge.", "The goods are agricultural products.", "The seller is a licensed auctioneer.", "The party against whom enforcement is sought admits in court pleadings or testimony that a contract was made."],
+    correctAnswer: 3,
+    explanation: `A contract which does not satisfy the requirements of Subsection (a) but which is valid in other respects is enforceable... if the party against whom enforcement is sought admits in his pleading, testimony or otherwise in court that a contract for sale was made.`
+  },
+  {
+    id: 44,
+    topic: "State-Specific Laws",
+    question: `Representing that work or services have been performed on, or parts replaced in, goods when they have not been is:`,
+    options: ["A breach of contract, but not a DTPA violation.", "Lawful if the repair facility determines the replacement was ultimately unnecessary.", "A Class A misdemeanor under the Transportation Code.", "An explicitly enumerated false, misleading, or deceptive act under the DTPA."],
+    correctAnswer: 3,
+    explanation: `Representing that work or services have been performed on, or parts replaced in, goods when the work or services were not performed or the parts replaced is a deceptive act under Sec. 17.46(b)(22).`
+  },
+  {
+    id: 45,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.12 (Deceptive Advertising), what serves as prima facie evidence that a specific person disseminated a deceptive statement?`,
+    options: ["An affidavit from a competing business.", "A screenshot of the advertisement on a third-party social media platform.", "Testimony from a single consumer who saw the advertisement.", "The person's proprietary mark appearing on or in the statement."],
+    correctAnswer: 3,
+    explanation: `A person's proprietary mark appearing on or in a statement described in Subsection (a) of this section is prima facie evidence that the person disseminated the statement.`
+  },
+  {
+    id: 46,
+    topic: "Contract Law",
+    question: `Once the auctioneer calls for bids on a lot in an auction "without reserve," the lot cannot be withdrawn under UCC 2.328 UNLESS:`,
+    options: ["The seller directs the auctioneer to do so immediately.", "The highest bid fails to meet the item's appraised fair market value.", "The auctioneer discovers a defect in the item during the bidding.", "No bid is made within a reasonable time."],
+    correctAnswer: 3,
+    explanation: `In an auction without reserve, after the auctioneer calls for bids on an article or lot, that article or lot cannot be withdrawn unless no bid is made within a reasonable time.`
+  },
+  {
+    id: 47,
+    topic: "State-Specific Laws",
+    question: `Knowingly making false or misleading statements of fact concerning the need for parts, replacement, or repair service is:`,
+    options: ["Considered acceptable marketing \"puffery.\"", "Exempt from the DTPA if the service costs less than $100.", "Only a violation if the consumer actually pays for the unnecessary service.", "An unlawful deceptive trade practice."],
+    correctAnswer: 3,
+    explanation: `Knowingly making false or misleading statements of fact concerning the need for parts, replacement, or repair service is an explicitly declared deceptive act under Sec. 17.46(b)(13).`
+  },
+  {
+    id: 48,
+    topic: "Record Keeping",
+    question: `For a record of a mortgage to be effective as a financing statement covering fixtures under Sec. 9.502, the record MUST:`,
+    options: ["Indicate that it is to be filed in the real property records.", "Omit the name of the secured party to protect privacy.", "Be renewed every 12 months.", "Satisfy standard financing statement requirements, though it need not explicitly indicate it is to be filed in the real property records if it is duly recorded."],
+    correctAnswer: 3,
+    explanation: `The record satisfies the requirements for a financing statement in this section, but... the record need not indicate that it is to be filed in the real property records... and the record is duly recorded.`
+  },
+  {
+    id: 49,
+    topic: "State-Specific Laws",
+    question: `Under Chapter 2 of the Business and Commerce Code, the terms "contract" and "agreement" are strictly limited to those relating to:`,
+    options: ["The provision of labor and services.", "Real estate conveyances.", "Secured transactions involving intangible assets.", "The present or future sale of goods."],
+    correctAnswer: 3,
+    explanation: `In this chapter unless the context otherwise requires "contract" and "agreement" are limited to those relating to the present or future sale of goods.`
+  },
+  {
+    id: 50,
+    topic: "Ethics and Professional Conduct",
+    question: `Delivering a solicitation that resembles a governmental notice or form that implies a criminal penalty may be imposed if payment is not remitted is:`,
+    options: ["Allowed for debt collection agencies.", "Legal as long as the document does not use the state seal.", "Outside the jurisdiction of the DTPA.", "A deceptive trade practice."],
+    correctAnswer: 3,
+    explanation: `Delivering or distributing a solicitation... that resembles a governmental notice or form that represents or implies that a criminal penalty may be imposed if the recipient does not remit payment for the good or service is an unlawful deceptive act.`
+  },
+  {
+    id: 51,
+    topic: "Consumer Protection",
+    question: `Under the definitions of the Deceptive Trade Practices Act (DTPA Sec. 17.45), which of the following is explicitly EXCLUDED from the definition of a "Business Consumer"?`,
+    options: ["A partnership seeking to lease goods for commercial use.", "A corporation with assets of exactly $10 million.", "This state or a subdivision or agency of this state.", "An individual acquiring services for business use."],
+    correctAnswer: 2,
+    explanation: `Under Sec. 17.45(10), "Business consumer" means an individual, partnership, or corporation who seeks or acquires by purchase or lease, any goods or services for commercial or business use. The term specifically does not include this state or a subdivision or agency of this state.`
+  },
+  {
+    id: 52,
+    topic: "Consumer Protection",
+    question: `According to DTPA Sec. 17.45, to prove an "unconscionable action or course of action," a consumer must demonstrate that the act or practice took advantage of their lack of knowledge, ability, experience, or capacity to what extent?`,
+    options: ["To an unreasonable degree.", "To a grossly unfair degree.", "To a financially detrimental degree.", "To a fraudulent degree."],
+    correctAnswer: 1,
+    explanation: `"Unconscionable action or course of action" means an act or practice which, to a consumer's detriment, takes advantage of the lack of knowledge, ability, experience, or capacity of the consumer to a grossly unfair degree.`
+  },
+  {
+    id: 53,
+    topic: "Consumer Protection",
+    question: `Under the DTPA (Sec. 17.45), which of the following elements is specifically included in the definition of "Goods"?`,
+    options: ["Only tangible personal property purchased for consumer use.", "Intangible property such as stocks and bonds.", "Tangible chattels or real property purchased or leased for use.", "Work, labor, or services purchased or leased for use."],
+    correctAnswer: 2,
+    explanation: `"Goods" means tangible chattels or real property purchased or leased for use.`
+  },
+  {
+    id: 54,
+    topic: "Consumer Protection",
+    question: `The DTPA defines "Economic damages" in Sec. 17.45. Which of the following is expressly INCLUDED in this definition?`,
+    options: ["Exemplary damages.", "Damages for physical pain and mental anguish.", "Loss of consortium.", "Costs of repair and replacement."],
+    correctAnswer: 3,
+    explanation: `"Economic damages" means compensatory damages for pecuniary loss, including costs of repair and replacement. The term does not include exemplary damages or damages for physical pain, mental anguish, loss of consortium, etc.`
+  },
+  {
+    id: 55,
+    topic: "State-Specific Laws",
+    question: `When determining if a defendant acted "intentionally" under Sec. 17.45(13), intent may be inferred from objective manifestations OR from facts showing that a defendant acted with:`,
+    options: ["Malice and aforethought.", "Gross negligence resulting in physical harm.", "Flagrant disregard of prudent and fair business practices.", "A systematic pattern of unintentional omissions."],
+    correctAnswer: 2,
+    explanation: `Intention may be inferred from objective manifestations... or from facts showing that a defendant acted with flagrant disregard of prudent and fair business practices to the extent that the defendant should be treated as having acted intentionally.`
+  },
+  {
+    id: 56,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.45(9), the term "knowingly" means actual awareness of the falsity, deception, or unfairness of the act. How may this actual awareness be established under the statute?`,
+    options: ["It must be proven by a written admission of guilt.", "It may be inferred where objective manifestations indicate that a person acted with actual awareness.", "It must be established through prior complaints filed with the Attorney General.", "It can only be proven if the defendant personally orchestrated the deceptive act."],
+    correctAnswer: 1,
+    explanation: `"...actual awareness may be inferred where objective manifestations indicate that a person acted with actual awareness."`
+  },
+  {
+    id: 57,
+    topic: "Consumer Protection",
+    question: `Under Sec. 17.45, what is the statutory threshold of assets that disqualifies a business consumer from being considered a "Consumer" under the DTPA?`,
+    options: ["$1 million or more", "$5 million or more", "$10 million or more", "$25 million or more"],
+    correctAnswer: 3,
+    explanation: `The term "consumer" does not include a business consumer that has assets of $25 million or more, or that is owned or controlled by a corporation or entity with assets of $25 million or more.`
+  },
+  {
+    id: 58,
+    topic: "Ethics and Professional Conduct",
+    question: `Under Sec. 17.11 regarding deceptive advertising, it is a misdemeanor to willfully misrepresent the nature of a business by using certain words. Which of the following words is NOT explicitly listed in this section as a restricted term?`,
+    options: ["Manufacturer", "Wholesaler", "Liquidator", "Retailer"],
+    correctAnswer: 2,
+    explanation: `No person may wilfully misrepresent the nature of his business by using in selling or advertising the word manufacturer, wholesaler, retailer, or other word of similar meaning.`
+  },
+  {
+    id: 59,
+    topic: "Ethics and Professional Conduct",
+    question: `What is the specific criminal penalty range for a person who willfully misrepresents the ownership of a business for the purpose of holding a "going out of business" auction sale under Sec. 17.11?`,
+    options: ["A fine of not less than $10 nor more than $200.", "A fine of not less than $100 nor more than $500.", "A fine of up to $1,000 and/or 30 days in county jail.", "A Class A misdemeanor punishable by up to $4,000."],
+    correctAnswer: 1,
+    explanation: `A person who violates a provision of Subsection (b) or (c) of this section is guilty of a misdemeanor and upon conviction is punishable by a fine of not less than $100 nor more than $500.`
+  },
+  {
+    id: 60,
+    topic: "Ethics and Professional Conduct",
+    question: `According to Sec. 17.12 (Deceptive Advertising), if a person solicits advertising in the name of a club or organization without written permission, they commit a misdemeanor. What is the penalty for this specific violation?`,
+    options: ["A fine of not less than $100 nor more than $500.", "A fine of not less than $500 nor more than $1,000.", "A fine of not less than $10 nor more than $200.", "Automatic revocation of all professional licenses."],
+    correctAnswer: 2,
+    explanation: `A person who violates a provision of Subsection (a) or (b) of this Section is guilty of a misdemeanor and upon conviction is punishable by a fine of not less than $10 nor more than $200.`
+  },
+  {
+    id: 61,
+    topic: "Advertising and Marketing",
+    question: `Under Sec. 17.12, what constitutes "prima facie evidence" that a specific person disseminated a deceptive statement in an advertisement?`,
+    options: ["The person's proprietary mark appearing on or in the statement.", "An invoice showing the person paid for the advertisement.", "Testimony from the publisher of the advertisement.", "The person's physical address being listed in the text."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `A person's proprietary mark appearing on or in a statement described in Subsection (a) of this section is prima facie evidence that the person disseminated the statement.`
   },
   {
-    id: 1009,
-    topic: 'Auction Basics',
-    question: `A sale by auction is complete when:`,
-    options: ["First bid is placed", "Auctioneer announces completion by hammer fall", "Buyer pays", "Seller signs receipt"],
+    id: 62,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.46(b)(10), it is deceptive to advertise goods or services with intent not to supply a reasonable expectable public demand, UNLESS:`,
+    options: ["The seller issues a raincheck to every consumer.", "The advertisements disclosed a limitation of quantity.", "The goods are priced over $1,000.", "The seller substitutes a higher-quality good at the same price."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Advertising goods or services with intent not to supply a reasonable expectable public demand, unless the advertisements disclosed a limitation of quantity, is an unlawful deceptive act.`
   },
   {
-    id: 1010,
-    topic: 'Bidding Procedures',
-    question: `An auction is presumed to be with reserve unless:`,
-    options: ["Seller is silent", "It is explicitly stated to be without reserve", "Auction is online", "Item is livestock"],
+    id: 63,
+    topic: "State-Specific Laws",
+    question: `A seller replaces an engine part with a used part but bills the consumer for a brand new part. Which specific provision of Sec. 17.46(b) addresses this exact scenario?`,
+    options: ["Representing that goods are original or new if they are deteriorated or secondhand.", "Representing that work or services have been performed on, or parts replaced in, goods when the work or services were not performed or the parts replaced.", "Disconnecting, turning back, or resetting an odometer.", "Causing confusion or misunderstanding as to the source of goods."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Sec. 17.46(b)(22) expressly prohibits "representing that work or services have been performed on, or parts replaced in, goods when the work or services were not performed or the parts replaced." (While representing a used part as new is also deceptive, billing for a replacement that didn't occur as claimed fits this specific statute).`
   },
   {
-    id: 1011,
-    topic: 'Bidding Procedures',
-    question: `In an auction with reserve, the auctioneer may withdraw the goods:`,
-    options: ["Only before bidding begins", "Any time until completion is announced", "Only after sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1012,
-    topic: 'Bidding Procedures',
-    question: `A bidder may retract a bid until:`,
-    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts bid privately", "Auction begins"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1013,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,000 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,000", "$3,300", "$3,600", "$3,150"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1014,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,100 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,100", "$3,410", "$3,720", "$3,255"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1015,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,200 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,200", "$3,520", "$3,840", "$3,360"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1016,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,300 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,300", "$3,630", "$3,960", "$3,465"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1017,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,400 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,400", "$3,740", "$4,080", "$3,570"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1018,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,500 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,500", "$3,850", "$4,200", "$3,675"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1019,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,600 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,600", "$3,960", "$4,320", "$3,780"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1020,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,700 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,700", "$4,070", "$4,440", "$3,885"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1021,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,800 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,800", "$4,180", "$4,560", "$3,990"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1022,
-    topic: 'Auction Math',
-    question: `A hammer price is $3,900 with a 10% buyer premium. Total due before tax?`,
-    options: ["$3,900", "$4,290", "$4,680", "$4,095"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1023,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,000 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,000", "$4,400", "$4,800", "$4,200"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1024,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,100 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,100", "$4,510", "$4,920", "$4,305"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1025,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,200 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,200", "$4,620", "$5,040", "$4,410"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1026,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,300 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,300", "$4,730", "$5,160", "$4,515"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1027,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,400 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,400", "$4,840", "$5,280", "$4,620"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1028,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,500 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,500", "$4,950", "$5,400", "$4,725"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1029,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,600 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,600", "$5,060", "$5,520", "$4,830"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1030,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,700 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,700", "$5,170", "$5,640", "$4,935"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1031,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,800 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,800", "$5,280", "$5,760", "$5,040"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1032,
-    topic: 'Auction Math',
-    question: `A hammer price is $4,900 with a 10% buyer premium. Total due before tax?`,
-    options: ["$4,900", "$5,390", "$5,880", "$5,145"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1033,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,000 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,000", "$5,500", "$6,000", "$5,250"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1034,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,100 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,100", "$5,610", "$6,120", "$5,355"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1035,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,200 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,200", "$5,720", "$6,240", "$5,460"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1036,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,300 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,300", "$5,830", "$6,360", "$5,565"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1037,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,400 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,400", "$5,940", "$6,480", "$5,670"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1038,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,500 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,500", "$6,050", "$6,600", "$5,775"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1039,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,600 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,600", "$6,160", "$6,720", "$5,880"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1040,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,700 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,700", "$6,270", "$6,840", "$5,985"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1041,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,800 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,800", "$6,380", "$6,960", "$6,090"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1042,
-    topic: 'Auction Math',
-    question: `A hammer price is $5,900 with a 10% buyer premium. Total due before tax?`,
-    options: ["$5,900", "$6,490", "$7,080", "$6,195"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1043,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,000 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,000", "$6,600", "$7,200", "$6,300"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1044,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,100 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,100", "$6,710", "$7,320", "$6,405"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1045,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,200 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,200", "$6,820", "$7,440", "$6,510"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1046,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,300 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,300", "$6,930", "$7,560", "$6,615"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1047,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,400 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,400", "$7,040", "$7,680", "$6,720"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1048,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,500 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,500", "$7,150", "$7,800", "$6,825"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1049,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,600 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,600", "$7,260", "$7,920", "$6,930"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1050,
-    topic: 'Auction Math',
-    question: `A hammer price is $6,700 with a 10% buyer premium. Total due before tax?`,
-    options: ["$6,700", "$7,370", "$8,040", "$7,035"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1051,
-    topic: 'Bidding Procedures',
-    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
-    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1052,
-    topic: 'Bidding Procedures',
-    question: `Auctions are presumed to be with reserve unless:`,
-    options: ["Seller is silent", "Explicitly stated without reserve", "Conducted online", "Conducted on government property"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1053,
-    topic: 'Bidding Procedures',
-    question: `A bidder may retract a bid:`,
-    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1054,
-    topic: 'Auction Math',
-    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1055,
-    topic: 'Auction Basics',
-    question: `Misrepresenting an item's authenticity could violate:`,
-    options: ["Only UCC rules", "Texas Deceptive Trade Practices Act", "Wildlife code", "Credit surcharge law"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1056,
-    topic: 'Auction Math',
-    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
+    id: 64,
+    topic: "Consumer Protection",
+    question: `An auction company requires customers to sign a written contract containing a prominent clause. If the company later files suit based on this obligation, under Sec. 17.46(b)(23), in which county must the suit legally be filed to avoid committing a deceptive trade practice?`,
+    options: ["Only in the county where the auction company's headquarters is located.", "In Travis County, Texas.", "In the county in which the defendant resides at the time of commencement or in the county in which the defendant in fact signed the contract.", "Any county in Texas, provided the contract contains a forum selection clause."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `Filing suit... in any county other than in the county in which the defendant resides at the time of the commencement of the action or in the county in which the defendant in fact signed the contract is deceptive.`
   },
   {
-    id: 1057,
-    topic: 'Auction Math',
-    question: `Hammer price is $4,775. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,073", "$5,252", "$5,551", "$5,751"],
+    id: 65,
+    topic: "Consumer Protection",
+    question: `Under the venue provision of the DTPA (Sec. 17.46(b)(23)), a plaintiff is exempt from a violation for filing suit in the wrong county ONLY if they can show:`,
+    options: ["The defendant waived their right to venue in writing.", "The plaintiff's attorney made a clerical error.", "The plaintiff neither knew nor had reason to know that the county in which suit was filed was neither the defendant's residence nor the county where the contract was signed.", "The total amount in controversy is less than $10,000."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `A violation shall not occur where it is shown by the person filing such suit that the person neither knew or had reason to know that the county... was neither the county in which the defendant resides... nor the county in which the defendant in fact signed.`
   },
   {
-    id: 1058,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,050. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,366", "$5,555", "$5,871", "$6,071"],
+    id: 66,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(b)(30), delivering a solicitation that resembles a check or negotiable instrument is a deceptive act UNLESS it includes which specific notice?`,
+    options: ["\"THIS IS NOT A BILL\"", "\"PROMOTIONAL MATERIAL ONLY\"", "\"SPECIMEN-NON-NEGOTIABLE\"", "\"VOID IF CASHED\""],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `The solicitation must include the following notice, clearly and conspicuously printed in at least 18-point type: "SPECIMEN-NON-NEGOTIABLE".`
   },
   {
-    id: 1059,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
-    correctAnswer: 2,
-    explanation: ``
+    id: 67,
+    topic: "State-Specific Laws",
+    question: `Regarding the required notice on a solicitation that resembles a check (Sec. 17.46(b)(30)), what is the minimum font size required for the disclaimer?`,
+    options: ["10-point type", "12-point type", "14-point type", "18-point type"],
+    correctAnswer: 3,
+    explanation: `The notice "SPECIMEN-NON-NEGOTIABLE" must be clearly and conspicuously printed in at least 18-point type.`
   },
   {
-    id: 1060,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1061,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,875. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$6,242", "$6,462", "$6,830", "$7,030"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1062,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,150. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$6,534", "$6,765", "$7,149", "$7,349"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1063,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,425. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$6,827", "$7,068", "$7,469", "$7,669"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1064,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,700. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,119", "$7,370", "$7,789", "$7,989"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1065,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1066,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1067,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1068,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1069,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,075. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,580", "$8,882", "$9,387", "$9,587"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1070,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,350. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,872", "$9,185", "$9,707", "$9,907"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1071,
-    topic: 'Auction Math',
-    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1072,
-    topic: 'Auction Math',
-    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
+    id: 68,
+    topic: "Advertising and Marketing",
+    question: `Under Sec. 17.46(b)(28), using a foreign language translation of the word "attorney" or "notary public" in an advertisement is a deceptive act if done to imply what?`,
+    options: ["That the person is a state-commissioned auctioneer.", "That the person is authorized to practice law in the United States, when they are not.", "That the person offers free legal advice.", "That the person is a federal immigration officer."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Using the translation... in reference to a person who is not an attorney in order to imply that the person is authorized to practice law in the United States is a deceptive act.`
   },
   {
-    id: 1073,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
+    id: 69,
+    topic: "Consumer Protection",
+    question: `A retail store declares a "Going Out of Business" sale but continues to order and receive new inventory for months. Under DTPA Sec. 17.46(b), this is:`,
+    options: ["Legal, provided they change the store name eventually.", "A violation only if the new inventory is marked up in price.", "Explicitly defined as a deceptive act for fraudulently representing that a person is going out of business.", "Outside the scope of the DTPA; it is a matter for the SEC."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `Advertising of any sale by fraudulently representing that a person is going out of business is explicitly listed as a deceptive act under 17.46(b)(17).`
   },
   {
-    id: 1074,
-    topic: 'Auction Math',
-    question: `Advertising 'no buyer premium' but charging one at settlement is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under DTPA", "Required practice", "Only a tax issue"],
+    id: 70,
+    topic: "State-Specific Laws",
+    question: `According to Sec. 17.46(b)(13), knowingly making false or misleading statements of fact concerning the need for parts, replacement, or repair service is:`,
+    options: ["Acceptable as long as the consumer consents to the repair.", "A Class C misdemeanor.", "A deceptive trade practice.", "A breach of the implied warranty of merchantability."],
+    correctAnswer: 2,
+    explanation: `"Knowingly making false or misleading statements of fact concerning the need for parts, replacement, or repair service" is item 13 on the laundry list of deceptive acts.`
+  },
+  {
+    id: 71,
+    topic: "Personal Property",
+    question: `A seller omits material information about a vehicle's mechanical history prior to sale. Under Sec. 17.46(b)(24), this omission is a deceptive act IF the failure to disclose was intended to:`,
+    options: ["Save the seller money on repair costs.", "Induce the consumer into a transaction into which the consumer would not have entered had the information been disclosed.", "Speed up the closing process at an auction.", "Protect a third-party mechanic from liability."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Failing to disclose information... if such failure to disclose such information was intended to induce the consumer into a transaction into which the consumer would not have entered had the information been disclosed.`
   },
   {
-    id: 1075,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
+    id: 72,
+    topic: "Consumer Protection",
+    question: `Under the DTPA definitions (Sec. 17.45), "Documentary material" includes all of the following EXCEPT:`,
+    options: ["A map or chart.", "A mechanical transcription.", "The verbal testimony of an eyewitness.", "A photograph or recording."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `"Documentary material" includes the original or a copy of any book, record, report, memorandum, paper, communication, tabulation, map, chart, photograph, mechanical transcription, or other tangible document or recording. It does not include oral testimony.`
   },
   {
-    id: 1076,
-    topic: 'Auction Math',
-    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1077,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1078,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1079,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1080,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,700. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,119", "$7,370", "$7,789", "$7,989"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1081,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,075. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,580", "$8,882", "$9,387", "$9,587"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1082,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1083,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,350. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,872", "$9,185", "$9,707", "$9,907"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1084,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1085,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,975. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,411", "$7,672", "$8,108", "$8,308"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1086,
-    topic: 'Bidding Procedures',
-    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
-    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
+    id: 73,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(c)(1), in construing whether an act is "false, misleading, or deceptive," Texas courts are statutorily directed to be guided to the extent possible by the interpretations given by:`,
+    options: ["The Texas Supreme Court only.", "The Federal Trade Commission and federal courts to Section 5(a)(1) of the Federal Trade Commission Act.", "The Uniform Commercial Code drafting committee.", "The Better Business Bureau's national standards."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `It is the intent of the legislature that... courts to the extent possible will be guided by Subsection (b) of this section and the interpretations given by the Federal Trade Commission and federal courts.`
   },
   {
-    id: 1087,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1088,
-    topic: 'Auction Math',
-    question: `Hammer price is $4,500. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$4,781", "$4,950", "$5,231", "$5,431"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1089,
-    topic: 'Bidding Procedures',
-    question: `A bidder may retract a bid:`,
-    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
+    id: 74,
+    topic: "State-Specific Laws",
+    question: `A business requires a buyer to purchase an item and promises them a $100 rebate for every subsequent buyer they refer, but the rebate is contingent on the referred buyer actually purchasing an item later. Under Sec. 17.46(b)(19), this practice is:`,
+    options: ["A perfectly legal affiliate marketing strategy.", "An unlawful chain referral sales plan.", "Only illegal if the item costs more than $500.", "Legal if a written contract is signed."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Using a chain referral sales plan... if receipt of the compensation is contingent upon the occurrence of an event subsequent to the time the buyer purchases the merchandise is a deceptive act.`
   },
   {
-    id: 1090,
-    topic: 'Bidding Procedures',
-    question: `If an auctioneer knowingly accepts a bid on behalf of the seller without notice, the buyer may:`,
-    options: ["Be forced to complete purchase", "Avoid the sale or take goods at last good faith bid", "Only sue for tax refund", "Automatically win item free"],
+    id: 75,
+    topic: "Consumer Protection",
+    question: `Under Sec. 17.46(b)(25), a business entity is committing a deceptive trade practice if it uses the term "corporation," "incorporated," or an abbreviation thereof in its name, UNLESS:`,
+    options: ["It has gross revenues exceeding $1 million annually.", "It has a board of directors with at least three members.", "It is incorporated under the laws of this state or another jurisdiction.", "It is registered with the county clerk as an assumed name."],
+    correctAnswer: 2,
+    explanation: `Using the term "corporation"... in the name of a business entity that is not incorporated under the laws of this state or another jurisdiction is an unlawful act.`
+  },
+  {
+    id: 76,
+    topic: "State-Specific Laws",
+    question: `If a disaster is declared by the governor, Sec. 17.46(b)(27) strictly prohibits taking advantage of the disaster by demanding an exorbitant or excessive price for which of the following necessities?`,
+    options: ["Luxury vehicles and watercraft.", "Fuel, food, medicine, lodging, and building materials.", "Electronics and entertainment devices.", "High-end clothing and jewelry."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `Taking advantage of a disaster... by selling or leasing fuel, food, medicine, lodging, building materials, construction tools, or another necessity at an exorbitant or excessive price is prohibited.`
   },
   {
-    id: 1091,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1092,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,800. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$8,288", "$8,580", "$9,068", "$9,268"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1093,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1094,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,150. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$6,534", "$6,765", "$7,149", "$7,349"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1095,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,600. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,950", "$6,160", "$6,510", "$6,710"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1096,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,525. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,995", "$8,278", "$8,748", "$8,948"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1097,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,325. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,658", "$5,858", "$6,190", "$6,390"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1098,
-    topic: 'Auction Math',
-    question: `Hammer price is $5,050. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$5,366", "$5,555", "$5,871", "$6,071"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1099,
-    topic: 'Bidding Procedures',
-    question: `A bidder may retract a bid:`,
-    options: ["At any time after payment", "Until the auctioneer announces completion", "Only if seller agrees", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1100,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,250. Buyer premium is 10%. Sales tax is 6.25% on hammer only. Total buyer cost?`,
-    options: ["$7,703", "$7,975", "$8,428", "$8,628"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1101,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1102,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1103,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1104,
-    topic: 'Auction Basics',
-    question: `Failing to provide required notice of collateral auction to the debtor may result in:`,
-    options: ["Automatic approval", "Liability and challenges to deficiency recovery", "Tax exemption", "Faster foreclosure"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1105,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `A secured party may purchase collateral at:`,
-    options: ["Any private sale always", "A public auction disposition", "Never", "Only if debtor bids"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1106,
-    topic: 'Auction Math',
-    question: `A secured debt is $15,000. Collateral sells at auction for $9,000. Sale costs are $600. What deficiency remains?`,
-    options: ["$6,600", "$6,000", "$8,400", "$0"],
+    id: 77,
+    topic: "State-Specific Laws",
+    question: `When a repair shop bases a charge for the repair of an item in whole or in part on a guaranty or warranty INSTEAD of on the value of the actual repairs made, this is a deceptive act under Sec. 17.46(b)(15) UNLESS:`,
+    options: ["The shop states the charges for the work and the charge for the warranty separately.", "The shop gives the customer a 10% discount.", "The consumer verbally agrees to the bundled price.", "The item being repaired is a motor vehicle."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Basing a charge... on a guaranty or warranty instead of on the value of the actual repairs made or work to be performed... without stating separately the charges for the work and the charge for the warranty or guaranty, if any, is deceptive.`
   },
   {
-    id: 1107,
-    topic: 'Auction Math',
-    question: `A secured debt is $15,500. Collateral sells at auction for $9,350. Sale costs are $620. What deficiency remains?`,
-    options: ["$6,770", "$6,150", "$8,730", "$0"],
+    id: 78,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(b)(29), delivering a solicitation that resembles a governmental notice or form is a deceptive act if it represents or implies that:`,
+    options: ["The recipient has won a state-sponsored lottery.", "A criminal penalty may be imposed if the recipient does not remit payment for the good or service.", "The recipient owes back taxes to the IRS.", "The solicitation is an official voter registration card."],
+    correctAnswer: 1,
+    explanation: `Delivering a solicitation... that resembles a governmental notice or form that represents or implies that a criminal penalty may be imposed if the recipient does not remit payment... is unlawful.`
+  },
+  {
+    id: 79,
+    topic: "Consumer Protection",
+    question: `Under DTPA Sec. 17.46(b)(12), representing that an agreement confers or involves rights, remedies, or obligations which it does not have or involve is a deceptive act. Which of the following is ALSO explicitly stated in this subsection?`,
+    options: ["Representing rights that are prohibited by law.", "Failing to read the agreement to the consumer out loud.", "Failing to notarize the agreement.", "Including a binding arbitration clause."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Representing that an agreement confers or involves rights, remedies, or obligations which it does not have or involve, or which are prohibited by law.`
   },
   {
-    id: 1108,
-    topic: 'Auction Math',
-    question: `A secured debt is $16,000. Collateral sells at auction for $9,700. Sale costs are $640. What deficiency remains?`,
-    options: ["$6,940", "$6,300", "$9,060", "$0"],
+    id: 80,
+    topic: "State-Specific Laws",
+    question: `Under the definitions in Sec. 17.45, what is the precise meaning of "Services"?`,
+    options: ["Any act performed for compensation by a licensed professional.", "Work, labor, or service purchased or leased for use, including services furnished in connection with the sale or repair of goods.", "Only intangible benefits provided by a corporation to a consumer.", "Any labor provided gratuitously or for charity."],
+    correctAnswer: 1,
+    explanation: `"Services" means work, labor, or service purchased or leased for use, including services furnished in connection with the sale or repair of goods.`
+  },
+  {
+    id: 81,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(b)(11), a seller who runs a commercial claiming "Prices Slashed Due to Factory Fire!" when no fire actually occurred commits a deceptive act because they are:`,
+    options: ["Disparaging the goods of another.", "Making false or misleading statements of fact concerning the reasons for, existence of, or amount of price reductions.", "Advertising goods with intent not to sell them.", "Causing confusion as to the geographic origin of the goods."],
+    correctAnswer: 1,
+    explanation: `Making false or misleading statements of fact concerning the reasons for, existence of, or amount of price reductions is explicitly prohibited.`
+  },
+  {
+    id: 82,
+    topic: "Consumer Protection",
+    question: `According to Sec. 17.46(b)(20), while it is deceptive to represent that a warranty confers rights it does not have, the DTPA specifically states that nothing in this subchapter shall be construed to expand:`,
+    options: ["The scope of an \"As-Is\" clause.", "The implied warranty of merchantability to involve obligations in excess of those which are appropriate to the goods.", "The statute of limitations for filing a breach of warranty claim.", "The definition of a \"consumer.\""],
+    correctAnswer: 1,
+    explanation: `...provided, however, that nothing in this subchapter shall be construed to expand the implied warranty of merchantability... to involve obligations in excess of those which are appropriate to the goods.`
+  },
+  {
+    id: 83,
+    topic: "State-Specific Laws",
+    question: `A consumer buys a unit in a multiunit structure where title is transferred under a cooperative system. Does this qualify as a "Residence" under Sec. 17.45(12)?`,
+    options: ["No, only single-family standalone houses are residences.", "No, cooperative systems are exclusively classified as commercial properties.", "Yes, provided it is occupied or to be occupied as the consumer's residence.", "Yes, but only if the consumer owns the underlying land in fee simple."],
+    correctAnswer: 2,
+    explanation: `"Residence" means a building... that is a single-family house, duplex, triplex, or quadruplex or a unit in a multiunit residential structure in which title to the individual units is transferred to the owners under a condominium or cooperative system; and that is occupied or to be occupied as the consumer's residence.`
+  },
+  {
+    id: 84,
+    topic: "Personal Property",
+    question: `Under Sec. 17.46(b)(34), a warrantor of a vehicle protection product commits a deceptive act if they use which of the following words in their name to describe their business?`,
+    options: ["\"Shield\" or \"Armor\"", "\"Casualty,\" \"Surety,\" \"Insurance,\" or \"Mutual\"", "\"Guarantee\" or \"Secure\"", "\"Automotive\" or \"Protection\""],
+    correctAnswer: 1,
+    explanation: `...using, in connection with the product, a name that includes "casualty," "surety," "insurance," "mutual," or any other word descriptive of an insurance business... or a surety business.`
+  },
+  {
+    id: 85,
+    topic: "Licensing Requirements",
+    question: `A licensed public insurance adjuster enters into a contract with an insured for the primary purpose of referring the insured to an attorney, with no intent to actually perform adjuster services. Under Sec. 17.46(b)(32), this is:`,
+    options: ["A standard referral fee arrangement and entirely legal.", "Legal if the insured signs a waiver of services.", "A false, misleading, or deceptive act.", "Only illegal if the attorney is unlicensed."],
+    correctAnswer: 2,
+    explanation: `...a licensed public insurance adjuster entering into a contract with an insured for the primary purpose of referring the insured to an attorney without the intent to actually perform the services customarily provided... is a deceptive act.`
+  },
+  {
+    id: 86,
+    topic: "Consumer Protection",
+    question: `Under Sec. 17.46(b)(33), it is a deceptive trade practice to own, operate, or advertise a massage establishment that:`,
+    options: ["Employs fewer than three licensed therapists.", "Does not offer deep tissue massage.", "Is not appropriately licensed under Chapter 455, Occupations Code, or is not in compliance with applicable local ordinances.", "Operates past 10:00 PM on weekends."],
+    correctAnswer: 2,
+    explanation: `Owning, operating, maintaining, or advertising a massage establishment... that is not appropriately licensed... or is not in compliance with an applicable local ordinance... is a deceptive act.`
+  },
+  {
+    id: 87,
+    topic: "Consumer Protection",
+    question: `For the purposes of the relief authorized in Section 17.50(a)(1) of the DTPA, what is the limitation placed on the term "false, misleading, or deceptive acts or practices" by Sec. 17.46(d)?`,
+    options: ["It is limited only to acts involving real estate.", "It is limited to the acts enumerated in the specific subdivisions of Subsection (b) of Section 17.46 (the \"laundry list\").", "It is limited to acts causing more than $5,000 in damages.", "It is limited to acts committed intentionally, not just knowingly."],
+    correctAnswer: 1,
+    explanation: `For the purposes of the relief authorized... the term "false, misleading, or deceptive acts or practices" is limited to the acts enumerated in specific subdivisions of Subsection (b) of this section.`
+  },
+  {
+    id: 88,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(b)(18), distributing a prescription drug identification card that offers a discount is deceptive if the seller represents that the card provides:`,
+    options: ["A discount of less than 10%.", "Insurance coverage of any kind, when it is not evidence of insurance coverage.", "Access to out-of-network doctors.", "Free medical devices."],
+    correctAnswer: 1,
+    explanation: `...which is not evidence of insurance coverage, unless... the seller does not represent that the card provides insurance coverage of any kind.`
+  },
+  {
+    id: 89,
+    topic: "Ethics and Professional Conduct",
+    question: `According to Sec. 17.46(b)(8), disparaging the goods, services, or business of another is only a violation if it is done by:`,
+    options: ["Publishing a subjective negative review online.", "False or misleading representation of facts.", "Refusing to do business with them.", "Hiring away their top employees."],
+    correctAnswer: 1,
+    explanation: `"Disparaging the goods, services, or business of another by false or misleading representation of facts" is the precise statutory language. Opinions or true facts do not violate this subsection.`
+  },
+  {
+    id: 90,
+    topic: "State-Specific Laws",
+    question: `A vendor sells a synthetic substance designed to mimic the effects of a controlled substance. Under Sec. 17.46(b)(31), the vendor commits a deceptive act if they:`,
+    options: ["Sell the substance to a minor.", "Fail to collect state sales tax on the substance.", "Make a deceptive representation about the substance or cause confusion as to the effects the substance causes when consumed.", "Sell the substance without a pharmacy license."],
+    correctAnswer: 2,
+    explanation: `...making a deceptive representation or designation about the synthetic substance; or causing confusion or misunderstanding as to the effects the synthetic substance causes when consumed or ingested.`
+  },
+  {
+    id: 91,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.45, which of the following mental states requires that the defendant act with the "specific intent that the consumer act in detrimental reliance on the falsity or deception"?`,
+    options: ["Negligently", "Recklessly", "Knowingly", "Intentionally"],
+    correctAnswer: 3,
+    explanation: `"Intentionally" means actual awareness... coupled with the specific intent that the consumer act in detrimental reliance on the falsity or deception or in detrimental ignorance of the unfairness.`
+  },
+  {
+    id: 92,
+    topic: "Consumer Protection",
+    question: `If a consumer claims an unconscionable action occurred under the DTPA, what is the ultimate standard the consumer must prove regarding the defendant's conduct under Sec. 17.45(5)?`,
+    options: ["The defendant violated a written contract.", "The defendant's act resulted in physical injury.", "The defendant took advantage of the consumer's lack of knowledge or capacity to a grossly unfair degree.", "The defendant acted with malicious intent to steal."],
+    correctAnswer: 2,
+    explanation: `"Unconscionable action or course of action" means an act or practice which... takes advantage of the lack of knowledge, ability, experience, or capacity of the consumer to a grossly unfair degree.`
+  },
+  {
+    id: 93,
+    topic: "Consumer Protection",
+    question: `Under Sec. 17.46(b)(14), misrepresenting the authority of a salesman, representative, or agent to do what is considered a deceptive trade practice?`,
+    options: ["To sign a binding arbitration agreement.", "To negotiate the final terms of a consumer transaction.", "To offer a refund after 30 days.", "To physically deliver the goods to the consumer's home."],
+    correctAnswer: 1,
+    explanation: `Misrepresenting the authority of a salesman, representative or agent to negotiate the final terms of a consumer transaction is item 14 on the list of deceptive acts.`
+  },
+  {
+    id: 94,
+    topic: "Advertising and Marketing",
+    question: `A retailer advertises a set of chairs as "Solid Oak" when they are actually pine with an oak veneer. Which specific provision of Sec. 17.46(b) is directly violated by this advertisement?`,
+    options: ["Sec. 17.46(b)(2) - causing confusion as to the source of goods.", "Sec. 17.46(b)(6) - representing goods are original or new.", "Sec. 17.46(b)(7) - representing that goods are of a particular standard, quality, or grade, if they are of another.", "Sec. 17.46(b)(16) - turning back an odometer."],
+    correctAnswer: 2,
+    explanation: `Representing that goods or services are of a particular standard, quality, or grade, or that goods are of a particular style or model, if they are of another.`
+  },
+  {
+    id: 95,
+    topic: "State-Specific Laws",
+    question: `To lawfully distribute a publication purporting to represent officially a club, association, or organization under Sec. 17.12, the distributor MUST have the written authority of the club AND:`,
+    options: ["Pay a royalty fee to the club.", "List in the publication the complete name and address of the club endorsing it.", "File a copy of the publication with the Secretary of State.", "Print the publication exclusively in Texas."],
+    correctAnswer: 1,
+    explanation: `No person may... distribute any publication purporting to represent officially a club... without the written authority... and without listing in such publication the complete name and address of the club, association, or organization endorsing it.`
+  },
+  {
+    id: 96,
+    topic: "Advertising and Marketing",
+    question: `Under Sec. 17.46(b)(9), it is unlawful to advertise goods or services with:`,
+    options: ["Prices higher than the manufacturer's suggested retail price.", "Intent not to sell them as advertised.", "Black-and-white photos instead of color.", "A disclaimer stating \"while supplies last.\""],
+    correctAnswer: 1,
+    explanation: `"Advertising goods or services with intent not to sell them as advertised" is a direct violation of Sec. 17.46(b)(9).`
+  },
+  {
+    id: 97,
+    topic: "Consumer Protection",
+    question: `If an individual purchases an investment property (real estate) to lease out for rental income, do they meet the DTPA definition of a "Consumer" regarding that purchase (assuming they do not exceed the asset threshold)?`,
+    options: ["Yes, because \"Goods\" includes real property purchased or leased for use.", "No, because real estate is never covered by the DTPA.", "No, because purchasing for rental income makes them a wholesaler.", "Yes, but only if they live in the property for at least 6 months."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `"Consumer" means an individual... who seeks or acquires by purchase or lease, any goods or services. "Goods" means tangible chattels or real property purchased or leased for use.`
   },
   {
-    id: 1109,
-    topic: 'Auction Math',
-    question: `A secured debt is $16,500. Collateral sells at auction for $10,050. Sale costs are $660. What deficiency remains?`,
-    options: ["$7,110", "$6,450", "$9,390", "$0"],
+    id: 98,
+    topic: "Consumer Protection",
+    question: `A business consumer is excluded from DTPA protections if they have assets of $25 million or more. What is the rule if a smaller subsidiary with $1 million in assets brings the claim, but it is wholly owned by a parent corporation with $50 million in assets?`,
+    options: ["The subsidiary is a protected consumer because its own assets are under $25 million.", "The subsidiary is excluded because it is owned or controlled by a corporation with assets of $25 million or more.", "The subsidiary is a protected consumer only if the parent corporation is headquartered out of state.", "The DTPA does not apply to corporate subsidiaries under any circumstances."],
+    correctAnswer: 1,
+    explanation: `The term "consumer" does not include a business consumer... that is owned or controlled by a corporation or entity with assets of $25 million or more.`
+  },
+  {
+    id: 99,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 17.46(b)(21), promoting a pyramid promotional scheme is listed as a deceptive act. Where in the Texas statutes is the specific definition of a "pyramid promotional scheme" for the purposes of this subdivision found?`,
+    options: ["Texas Penal Code", "Section 17.461 of the Business and Commerce Code", "The Uniform Commercial Code Article 9", "The Texas Occupations Code"],
+    correctAnswer: 1,
+    explanation: `Sec. 17.46(b)(21) explicitly refers to "promoting a pyramid promotional scheme, as defined by Section 17.461."`
+  },
+  {
+    id: 100,
+    topic: "Consumer Protection",
+    question: `A seller uses deceptive representations regarding the "geographic origin" of their goods (e.g., labeling salsa made in New York as "Authentic San Antonio Salsa"). Under which specific subdivision of the DTPA is this prohibited?`,
+    options: ["Sec. 17.46(b)(1)", "Sec. 17.46(b)(4)", "Sec. 17.46(b)(9)", "Sec. 17.46(b)(17)"],
+    correctAnswer: 1,
+    explanation: `Sec. 17.46(b)(4) specifically lists "using deceptive representations or designations of geographic origin in connection with goods or services" as a false, misleading, or deceptive act.`
+  },
+  {
+    id: 101,
+    topic: "State-Specific Laws",
+    question: `Under Chapter 432, which of the following statements accurately distinguishes the statutory definition of a "Device" from a "Drug" when both are intended to affect the structure or function of a human's or other animal's body?`,
+    options: ["A device must be prescribed by a physician, while a drug may be available over-the-counter.", "A device is an instrument, apparatus, or contrivance, whereas a drug is an article or substance that is not a device.", "A device is exclusively for human use, while a drug can be for human or veterinary use.", "A device must be recognized in the USP-NF, whereas a drug does not require such recognition."],
+    correctAnswer: 1,
+    explanation: `The statute explicitly separates the two by physical nature: a "Device" is an instrument, apparatus, or contrivance (or a component thereof), while a "Drug" is defined as an article or substance "other than a device".`
+  },
+  {
+    id: 102,
+    topic: "State-Specific Laws",
+    question: `According to Sec. 432.003, the statutory definition of a "Cosmetic" explicitly EXCLUDES which of the following common household items?`,
+    options: ["Toothpaste", "Deodorant", "Soap", "Perfume"],
+    correctAnswer: 2,
+    explanation: `The legal definition of a cosmetic includes substances intended to be rubbed, poured, sprinkled, or sprayed on the human body for cleansing or beautifying, but the statute expressly states, "The term does not include soap".`
+  },
+  {
+    id: 103,
+    topic: "Real Estate Auctions",
+    question: `Under the definition of "Distressed merchandise" in Sec. 432.003, goods may be classified as distressed if they have been subjected to abnormal environmental conditions. Which of the following is explicitly listed in the statute as an abnormal environmental condition?`,
+    options: ["Prolonged exposure to artificial fluorescent lighting.", "Storage in a facility lacking HVAC systems.", "Exposure to radiation.", "Transportation over rough terrain causing vibration damage."],
+    correctAnswer: 2,
+    explanation: `The statute specifically lists temperature extremes, humidity, smoke, water, fumes, pressure, or radiation as abnormal environmental conditions that render merchandise "distressed".`
+  },
+  {
+    id: 104,
+    topic: "State-Specific Laws",
+    question: `What specific requirement must a person meet to act as a "Salvage broker" without inadvertently acting as a "Salvage operator" under Chapter 432?`,
+    options: ["They must limit their inventory to non-consumable goods.", "They must engage in selling, distributing, or trafficking distressed or salvaged merchandise but must NOT operate a salvage establishment.", "They must only facilitate sales between a salvage establishment and a retail consumer.", "They must hold a concurrent license under Chapter 431 of the Health and Safety Code."],
+    correctAnswer: 1,
+    explanation: `A "Salvage broker" is strictly defined as a person who engages in trafficking distressed or salvaged merchandise "but who does not operate a salvage establishment".`
+  },
+  {
+    id: 105,
+    topic: "Licensing Requirements",
+    question: `Under Sec. 432.005, if an auctioneer obtains a salvage broker license to lawfully traffic in distressed merchandise within the scope of Chapter 432, what is their regulatory obligation regarding Chapter 431 (Texas Food, Drug, and Cosmetic Act)?`,
+    options: ["They must obtain a secondary license under Chapter 431 to legally handle any food items.", "They are strictly prohibited from possessing any merchandise regulated by Chapter 431.", "They are exempt from being licensed under Chapter 431 as long as they operate exclusively within the scope of their Chapter 432 license.", "They must register as an authorized manufacturer under Chapter 431."],
+    correctAnswer: 2,
+    explanation: `The law states that a salvage operator or salvage broker who is engaging only within the scope of the license issued under Chapter 432 is not required to also be licensed under Chapter 431.`
+  },
+  {
+    id: 106,
+    topic: "State-Specific Laws",
+    question: `For the purposes of the Texas Food, Drug, Device, and Cosmetic Salvage Act, an article of human food or drink explicitly includes which of the following?`,
+    options: ["Dietary supplements", "Chewing gum", "Soap", "Tobacco products"],
+    correctAnswer: 1,
+    explanation: `The statutory definition of "Food" means an article or a component of an article of human food or drink, and explicitly "includes chewing gum".`
+  },
+  {
+    id: 107,
+    topic: "State-Specific Laws",
+    question: `How does Sec. 432.003 define the difference between "Distressed merchandise" and "Salvaged merchandise"?`,
+    options: ["Distressed merchandise is intended for animal consumption, while salvaged merchandise is intended for human consumption.", "Distressed merchandise has lost its label, whereas salvaged merchandise merely has a damaged but legible label.", "Distressed merchandise is inherently unsafe, while salvaged merchandise was never subjected to abnormal conditions.", "Salvaged merchandise is distressed merchandise that has successfully undergone an appropriate reconditioning process."],
+    correctAnswer: 3,
+    explanation: `"Salvaged merchandise" is explicitly defined as "distressed merchandise that has been reconditioned".`
+  },
+  {
+    id: 108,
+    topic: "State-Specific Laws",
+    question: `Under the definitions of Chapter 432, "Sale or distribution" is defined broadly. Which of the following activities is explicitly included in this definition, regardless of whether compensation is received?`,
+    options: ["Personal consumption of the merchandise by the salvage operator.", "The act of auctioning the merchandise.", "The disposal of the merchandise in a municipal landfill.", "Transporting the merchandise out of state for immediate destruction."],
+    correctAnswer: 1,
+    explanation: `"Sale or distribution" includes delivery, holding or offering for sale, transfer, auction, storage, or any other means of handling or trafficking, whether or not for compensation.`
+  },
+  {
+    id: 109,
+    topic: "State-Specific Laws",
+    question: `To be considered a "Drug" (and not a device) under Sec. 432.003, an article or substance may be recognized in which of the following official publications or their supplements?`,
+    options: ["The Physician's Desk Reference (PDR)", "The American Medical Association (AMA) Drug Guide", "The United States Pharmacopeia and The National Formulary (USP-NF) or the Homoeopathic Pharmacopoeia of the United States (HPUS)", "The FDA Orange Book"],
+    correctAnswer: 2,
+    explanation: `A drug is an article or substance recognized in The United States Pharmacopeia and The National Formulary (USP-NF) or the Homoeopathic Pharmacopoeia of the United States (HPUS).`
+  },
+  {
+    id: 110,
+    topic: "State-Specific Laws",
+    question: `A person purifying and packing damaged cosmetics for retail sale represents themselves as the party responsible for the purity and proper labeling of the items. Under Sec. 432.003, this person fits the statutory definition of a:`,
+    options: ["Salvage broker", "Manufacturer", "Nonprofit organization", "Wholesale distributor"],
+    correctAnswer: 1,
+    explanation: `"Manufacturer" includes a person who represents himself as responsible for the purity and proper labeling of a food, drug, device, or cosmetic.`
+  },
+  {
+    id: 111,
+    topic: "Contract Law",
+    question: `What is the statutory standard for successful "Reconditioning" of distressed merchandise under Chapter 432?`,
+    options: ["The merchandise must pass a visual inspection by a licensed auctioneer.", "The merchandise must be restored to its original factory condition.", "The merchandise must be brought into compliance with departmental standards for consumption or use by the public.", "The merchandise must be repackaged with a label clearly stating it was previously distressed."],
+    correctAnswer: 2,
+    explanation: `Reconditioning means any appropriate process or procedure by which distressed merchandise can be brought into compliance with departmental standards for the consumption or use of that merchandise by the public.`
+  },
+  {
+    id: 112,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 432.003, which of the following is legally classified as a "Salvage warehouse"?`,
+    options: ["Any retail storefront that occasionally sells distressed goods.", "A temporary holding area used strictly during a live auction.", "A separate storage facility used by a salvage broker or salvage establishment to hold distressed or salvaged merchandise.", "A facility used exclusively for the mechanical destruction of contaminated cosmetics."],
+    correctAnswer: 2,
+    explanation: `A "Salvage warehouse" means a separate storage facility used by a salvage broker or salvage establishment to hold distressed or salvaged merchandise.`
+  },
+  {
+    id: 113,
+    topic: "State-Specific Laws",
+    question: `An entity receives distressed food, drugs, devices, and cosmetics, and it has an exemption from federal taxation under 26 U.S.C. Section 501(c)(3). Under Chapter 432, this entity is specifically defined as a:`,
+    options: ["Salvage broker", "Nonprofit organization", "Manufacturer", "Salvage operator"],
+    correctAnswer: 1,
+    explanation: `"Nonprofit organization" means an organization that has received an exemption from federal taxation under 26 U.S.C. Section 501 and is described by Subsection (c)(3) of that section.`
+  },
+  {
+    id: 114,
+    topic: "State-Specific Laws",
+    question: `Which of the following scenarios would render a food item "Distressed merchandise" under the definitions provided in Sec. 432.003?`,
+    options: ["The food item is being sold at a 50% discount due to an upcoming expiration date.", "The food item has lost its label or is otherwise unidentified.", "The food item was imported from Mexico by a maquiladora enterprise.", "The food item was transferred between two fully licensed salvage establishments."],
+    correctAnswer: 1,
+    explanation: `A food, drug, device, or cosmetic is considered distressed if it has "lost its label or is otherwise unidentified".`
+  },
+  {
+    id: 115,
+    topic: "Licensing Requirements",
+    question: `An individual wishes to open a facility that buys, sells, and distributes salvaged cosmetics for human use, but does not perform any actual reconditioning processes on-site. Under Sec. 432.005, what license must this person obtain?`,
+    options: ["No license is required since they are not performing reconditioning.", "A salvage broker license.", "A salvage operator license, because they operate a place of business that buys, sells, or distributes salvaged merchandise for human use.", "A Chapter 431 retail cosmetic distributor license."],
+    correctAnswer: 2,
+    explanation: `A "Salvage establishment" is a place of business engaged in reconditioning distressed merchandise OR that "buys, sells, or distributes salvaged merchandise for human use." A person operating such an establishment must hold a salvage operator license`
+  },
+  {
+    id: 116,
+    topic: "Licensing Requirements",
+    question: `Under Texas Real Estate Commission (TREC) Rule 535.5, what specific actions is a licensed auctioneer legally permitted to perform regarding real property WITHOUT holding a real estate broker or sales agent license?`,
+    options: ["Prepare the written earnest money contract and negotiate the final sales price.", "Show the real property to prospective bidders prior to the auction event.", "Only bid call or conduct the auction of the real property for sale.", "Draft the listing agreement and execute the transfer of the deed."],
+    correctAnswer: 2,
+    explanation: `Under Rule 535.5(e), auctioneers are not required to be licensed under the Real Estate Act when auctioning real property for sale, but they may not show the real property, prepare offers, or negotiate contracts without a real estate license.`
+  },
+  {
+    id: 117,
+    topic: "Licensing Requirements",
+    question: `According to the Texas Occupations Code Sec. 1802.051(c), a licensed auctioneer is generally prohibited from acting as an auctioneer for an entity unless the entity is an auction company owned by a licensed auctioneer. What is a specific statutory exception to this rule regarding real estate?`,
+    options: ["The entity is a title insurance company registered in Texas.", "The entity is a real estate brokerage firm operated by a broker licensed by the Texas Real Estate Commission.", "The entity is a commercial bank conducting a foreclosure under a deed of trust.", "The entity is an out-of-state auction firm holding a reciprocal license."],
+    correctAnswer: 1,
+    explanation: `Section 1802.051(c)(3) provides an exception allowing a licensed auctioneer to act for an entity if it is a real estate brokerage firm that is operated by a broker licensed by the Texas Real Estate Commission.`
+  },
+  {
+    id: 118,
+    topic: "Personal Property",
+    question: `Under the Texas Property Code Sec. 2.001, at what precise moment does a manufactured home legally transition from being considered personal property to being classified as real property?`,
+    options: ["When the wheels and axles are permanently removed from the structure.", "When it is connected to local municipal utilities such as water and electricity.", "When the statement of ownership and location reflects the owner's election to treat it as real property AND a certified copy is filed in the real property records in the county where the home is located.", "When the property is sold at a public auction conducted by a licensed retailer."],
+    correctAnswer: 2,
+    explanation: `A manufactured home is real property if the statement of ownership reflects the election to treat it as such, and a certified copy of the statement of ownership and location has been filed in the real property records in the county in which the home is located.`
+  },
+  {
+    id: 119,
+    topic: "State-Specific Laws",
+    question: `Regarding the auctioning of manufactured housing, under Title 10 Texas Administrative Code Rule 80.32, what licensing requirement applies to an individual acting as an agent for a person selling more than one manufactured home to consumers through an auction in a 12-month period?`,
+    options: ["They must hold a Texas Real Estate Broker's license.", "They must hold a Texas Manufactured Housing Salesperson license.", "They only need a standard Texas Auctioneer's license.", "They must hold a commercial salvage broker license."],
+    correctAnswer: 1,
+    explanation: `Rule 80.32(t) requires that a person selling more than one home must be licensed as a retailer, and each individual acting as their agent must be licensed as a salesperson.`
+  },
+  {
+    id: 120,
+    topic: "State-Specific Laws",
+    question: `An auctioneer is preparing to sell a farm. The property includes a mobile home that is currently resting on blocks but is not permanently affixed to land owned by the seller, nor is there a long-term lease in place. According to Sec. 1201.2055 of the Occupations Code, can the owner elect to treat this home as real property for the auction?`,
+    options: ["Yes, any manufactured home can be treated as real property upon the owner's written request.", "Yes, provided the auctioneer holds a real estate license.", "No, an owner may only elect to treat a manufactured home as real property if it is attached to real property owned by the owner or land leased under a long-term lease.", "No, manufactured homes are permanently classified as personal property under all Texas statutes."],
+    correctAnswer: 2,
+    explanation: `Section 1201.2055 strictly states an owner may elect to treat a manufactured home as real property only if the home is attached to real property that is owned by the owner or land leased to the owner of the home under a long-term lease.`
+  },
+  {
+    id: 121,
+    topic: "Real Estate Auctions",
+    question: `Under the Texas Business and Commerce Code Sec. 9.502 regarding Secured Transactions, if a financing statement is filed as a "fixture filing" covering goods that are or will become fixtures on real estate, what specific information MUST the statement include to be legally sufficient?`,
+    options: ["A professional appraisal of both the fixtures and the real property.", "A description of the real property to which the collateral is related sufficient to give constructive notice of a mortgage.", "The signature of the county clerk where the real property is located.", "A sworn affidavit from a licensed auctioneer regarding the fixtures' liquidation value."],
+    correctAnswer: 1,
+    explanation: `A financing statement filed as a fixture filing must provide a description of the real property to which the collateral is related sufficient to give constructive notice of a mortgage under the law of this state.`
+  },
+  {
+    id: 122,
+    topic: "Real Estate Auctions",
+    question: `According to Texas Occupations Code Section 1802.002, which of the following real estate auction scenarios is explicitly EXEMPT from the regulations of the Auctioneers Law?`,
+    options: ["An absolute auction of a residential estate conducted by a licensed real estate broker.", "A foreclosure sale of real property personally conducted by a trustee under a deed of trust.", "A multi-parcel auction of commercial real estate conducted by a non-resident auctioneer.", "A tax lien sale of real property conducted by an independent auction company hired by a municipality."],
+    correctAnswer: 1,
+    explanation: `Section 1802.002(a)(5) explicitly exempts a foreclosure sale of real property personally conducted by a trustee under a deed of trust from Chapter 1802.`
+  },
+  {
+    id: 123,
+    topic: "State-Specific Laws",
+    question: `An auctioneer is contracted to liquidate the assets of a defunct business, which includes real estate, heavy machinery, and office furniture. Under Rule 3.311 of the Texas Administrative Code (Tax Administration), how should the auctioneer handle the collection of state sales tax regarding the real estate portion of the auction?`,
+    options: ["The auctioneer must collect standard state sales tax on the hammer price of the real estate.", "The auctioneer must collect a reduced agricultural sales tax if the real estate is rural.", "The auctioneer should not collect sales tax on the sale of real property, as it is strictly exempt from sales tax.", "The auctioneer must collect sales tax but can immediately refund it using an exemption certificate."],
+    correctAnswer: 2,
+    explanation: `Rule 3.311 explicitly states: "An auctioneer should not collect tax on the sale of items that are exempt from sales tax such as motor vehicles, real property, or livestock".`
+  },
+  {
+    id: 124,
+    topic: "State-Specific Laws",
+    question: `Under the Texas Property Code Chapter 14 (Uniform Federal Lien Registration Act), if the United States government places a federal tax lien upon a parcel of real property scheduled for auction, where MUST the notice of this lien be legally filed?`,
+    options: ["In the office of the Secretary of State in Austin.", "With the Texas Department of Licensing and Regulation (TDLR).", "In the office of the county clerk in the county in which the real property subject to the liens is situated.", "With the Texas Real Estate Commission (TREC)."],
+    correctAnswer: 2,
+    explanation: `Sec. 14.002(b) mandates that notices of liens upon real property for obligations payable to the United States shall be filed in the office of the county clerk in the county in which the real property subject to the liens is situated.`
+  },
+  {
+    id: 125,
+    topic: "Consumer Protection",
+    question: `Under the Deceptive Trade Practices Act (DTP`,
+    options: ["Sec. 17.45, does the legal definition of \"Goods\" apply to real estate sold at auction? A) No, \"Goods\" only refers to tangible personal property and movable chattels.", "Yes, \"Goods\" is explicitly defined to include tangible chattels or real property purchased or leased for use.", "No, real estate is strictly categorized as an \"Investment\" rather than a \"Good\" under the DTPA.", "Yes, but only if the real property is sold in conjunction with a commercial business."],
+    correctAnswer: 1,
+    explanation: `Sec. 17.45(1) defines "Goods" as "tangible chattels or real property purchased or leased for use," bringing real estate transactions within the scope of the DTPA's consumer protections.`
+  },
+  {
+    id: 126,
+    topic: "Real Estate Auctions",
+    question: `Under NALLOA regulations and Texas licensing state requirements, if an auctioneer is selling real estate via an online auction platform, what is the precise licensing requirement regarding the real estate?`,
+    options: ["No auctioneer license is required for online real estate auctions under any circumstances.", "An auctioneer license is required if the auction involves a \"live bid\" component, but they still may not perform acts of a real estate broker or sales agent.", "Only a real estate license is required; auctioneer licenses are strictly for personal property.", "The auctioneer must hold an \"Auction Firm License\" to sell real estate online."],
+    correctAnswer: 1,
+    explanation: `According to the Texas profile in the NALLOA Licensing State Requirements, an auctioneer license is needed for online auctions "if live bid," and for live auctions a real estate license is not required just to call the auction. However, the auctioneer may not perform acts of a broker or sales agent (like preparing contracts).`
+  },
+  {
+    id: 127,
+    topic: "State-Specific Laws",
+    question: `If an auctioneer decides to host a scheduled, recurring auction of manufactured homes to Texas consumers, and plans to sell 5 homes over the next year at a specific location, what are the retailer's obligations to the Texas Department of Housing and Community Affairs under Rule 80.32?`,
+    options: ["The retailer must file a surety bond of $100,000 and submit a post-auction audit.", "The retailer must notify the Department in writing at least 30 calendar days prior to the auction, detailing the physical address and schedule of the recurring auctions.", "The retailer must obtain a special \"Auction Venue Permit\" from the local municipality.", "No notification is required if the auctioneer is licensed by TDLR."],
+    correctAnswer: 1,
+    explanation: `Rule 80.32(t)(3) states the retailer must notify this Department in writing at least thirty (30) calendar days prior to the auction with such notice to contain the date, time, and physical address and location of a proposed auction or, if they recur on a scheduled basis, of the schedule.`
+  },
+  {
+    id: 128,
+    topic: "State-Specific Laws",
+    question: `An auctioneer is preparing to auction an automated laying house and a commercial greenhouse. Under the Texas Comptroller's Tax Administration Rule 3.296 regarding agricultural exemptions, how are these specific structures classified for sales tax purposes?`,
+    options: ["They are classified as taxable real property improvements and do not qualify for any exemption.", "They are classified as equipment and are therefore exempt from sales tax because they are essentially items of machinery necessary for agricultural production that cannot be economically used for any other purpose.", "They are considered personal hobby structures unless located on more than 50 acres of land.", "They are taxable unless the buyer holds a federal tax identification number."],
+    correctAnswer: 1,
+    explanation: `Rule 3.296(g)(9)(C) classifies a building or structure that is essentially an item of equipment or machinery necessary for agricultural production (like automated laying houses and commercial greenhouses) as equipment, making them exempt if they meet qualifications.`
+  },
+  {
+    id: 129,
+    topic: "Personal Property",
+    question: `Under the Texas Occupations Code Sec. 1802.001, how is "Real Property" distinguished from "Personal Property" in the context of auctioneering definitions?`,
+    options: ["Real property applies only to land exceeding one acre in size.", "Personal property includes any property other than real property, while real property means land, improvements, fixtures, and other property appurtenant to the land.", "Real property is any property subject to federal taxation, while personal property is subject to state taxation.", "There is no statutory distinction in Chapter 1802; all auctioned items are treated as \"lots.\""],
+    correctAnswer: 1,
+    explanation: `Sec. 1802.001(11) defines real property as land, improvements, fixtures, and appurtenant property, while Sec. 1802.001(10) defines personal property as any property other than real property.`
+  },
+  {
+    id: 130,
+    topic: "Licensing Requirements",
+    question: `A licensed auctioneer is hired to sell a ranch. During the auction, a bidder asks the auctioneer detailed questions about the mineral rights, property lines, and financing options, and asks the auctioneer to draft a non-standard offer. Under TREC Rule 535.5, what is the auctioneer's legal boundary in this scenario?`,
+    options: ["The auctioneer may answer the questions and draft the offer as an implied agent of the seller.", "The auctioneer may negotiate the terms if they secure a signed \"waiver of representation\" from the bidder.", "The auctioneer may not show the property, prepare offers, or negotiate contracts without also holding a valid Texas real estate license.", "The auctioneer must pause the auction and consult the TDLR executive director."],
+    correctAnswer: 2,
+    explanation: `Rule 535.5(e) explicitly prohibits a licensed auctioneer from showing the real property, preparing offers, or negotiating contracts unless the auctioneer is also licensed under the Act.`
+  },
+  {
+    id: 131,
+    topic: "Licensing Requirements",
+    question: `Under Chapter 1802 of the Texas Occupations Code, if a licensed real estate broker wishes to conduct a live outcry auction of a residential property, what licensing requirements must they meet?`,
+    options: ["They do not need an auctioneer license because their real estate license covers all methods of property sale.", "They must hold an auctioneer license issued by the TDLR, as acting as an auctioneer of real or personal property requires an auctioneer license unless specifically exempt.", "They only need to register the auction event with the Texas Real Estate Commission 30 days prior.", "They must obtain a temporary \"Real Estate Auctioneer\" permit from the local county clerk."],
+    correctAnswer: 1,
+    explanation: `Section 1802.051(a) states a person may not act as an auctioneer of real or personal property in this state unless the person holds a license issued by the executive director under this chapter. There is no blanket exemption allowing real estate brokers to call live bids without an auctioneer license.`
+  },
+  {
+    id: 132,
+    topic: "State-Specific Laws",
+    question: `Under Title 31, Texas Administrative Code Rule 65.171, a person is generally prohibited from possessing or selling threatened or endangered nongame species. However, a person may legally sell goods made from a species listed as threatened if they possess which of the following?`,
+    options: ["A standard auctioneer license and a bill of lading.", "A federal tax exemption certificate.", "An out-of-state permit authorizing possession, a bill of sale identifying the source, or a notarized affidavit stating the specimen was legally obtained.", "An endangered species propagation permit."],
+    correctAnswer: 2,
+    explanation: `Any person may possess or sell goods made from fish or wildlife listed as threatened provided they possess a copy of an out-of-state permit valid at the time of entry, a bill of sale identifying the source, or a notarized affidavit stating lawful acquisition.`
+  },
+  {
+    id: 133,
+    topic: "State-Specific Laws",
+    question: `If an auctioneer wishes to sell a live species of wildlife that is listed by the department as endangered, what specific permit must the seller hold under Rule 65.171?`,
+    options: ["A wholesale fur dealer license.", "An endangered species propagation permit.", "A Class B dealer license.", "A state park vendor permit."],
+    correctAnswer: 1,
+    explanation: `No person may sell or propagate for sale any species of fish or wildlife listed as endangered unless that person also possesses an endangered species propagation permit.`
+  },
+  {
+    id: 134,
+    topic: "State-Specific Laws",
+    question: `Under Subchapter P (Alligator Proclamation) Rule 65.359, what documentation is required for a consumer to legally possess processed alligators and processed alligator meat products purchased at an auction?`,
+    options: ["A notarized affidavit of lawful take.", "A farming permit.", "An out-of-state transport permit.", "No permit or documentation requirements are necessary."],
+    correctAnswer: 3,
+    explanation: `A consumer may possess processed alligators and processed alligator meat products without permit or documentation requirements.`
+  },
+  {
+    id: 135,
+    topic: "State-Specific Laws",
+    question: `While processed alligator products require no documentation, if an auctioneer is selling unprocessed alligator parts (e.g., skulls or raw hides), what must accompany the items?`,
+    options: ["A farming permit.", "Evidence of lawful take and/or possession.", "A licensed trapper's seal.", "An endangered species propagation permit."],
+    correctAnswer: 1,
+    explanation: `All alligators or alligator parts possessed, sold, purchased, exported, or imported shall be accompanied by evidence of lawful take and/or possession.`
+  },
+  {
+    id: 136,
+    topic: "State-Specific Laws",
+    question: `According to Rule 65.359, if alligator eggs are possessed under a farming permit, where must they legally remain?`,
+    options: ["In a federally insured escrow account.", "At a certified veterinary clinic.", "At a farm facility.", "In a refrigerated storage unit at the auction house."],
+    correctAnswer: 2,
+    explanation: `Alligator eggs possessed under a farming permit must be at a farm facility.`
+  },
+  {
+    id: 137,
+    topic: "State-Specific Laws",
+    question: `Under Subchapter Q regarding the sale of fur-bearing animals, who is the ONLY person legally authorized to sell a live fur-bearing animal?`,
+    options: ["A licensed wholesale fur dealer.", "A licensed trapper.", "A licensed fur-bearing animal propagator.", "Any licensed Texas auctioneer."],
+    correctAnswer: 2,
+    explanation: `No person other than a licensed fur-bearing animal propagator may sell a live fur-bearing animal.`
+  },
+  {
+    id: 138,
+    topic: "State-Specific Laws",
+    question: `An auctioneer is consigned a collection of raw pelts and carcasses of fur-bearing animals. Under Rule 65.377, who is legally permitted to sell these specific items?`,
+    options: ["Any member of the public, provided the animals were taken during an open season.", "Only a licensed trapper or wholesale fur dealer.", "Only a licensed fur-bearing animal propagator.", "Any person with an agricultural tax exemption."],
+    correctAnswer: 1,
+    explanation: `No person other than a licensed trapper or wholesale fur dealer may sell the carcass or pelt of a fur-bearing animal.`
+  },
+  {
+    id: 139,
+    topic: "Licensing Requirements",
+    question: `To whom is a licensed trapper legally allowed to sell the carcass or pelt of a fur-bearing animal?`,
+    options: ["To any retail buyer at a public auction.", "Only to a licensed fur-bearing animal propagator.", "Only to a wholesale fur dealer or a purchaser outside of Texas.", "Only to a buyer who possesses a valid hunting license."],
+    correctAnswer: 2,
+    explanation: `A trapper may sell the carcass or pelt of a fur-bearing animal only to a wholesale fur dealer or purchaser outside of Texas.`
+  },
+  {
+    id: 140,
+    topic: "Licensing Requirements",
+    question: `If an auctioneer is selling vintage, finished fur coats (finished products made from fur-bearing animals), what specific wildlife license is required to execute the sale?`,
+    options: ["A wholesale fur dealer license.", "A trapper's license.", "A fur-bearing animal propagator permit.", "No specific wildlife license is required."],
+    correctAnswer: 3,
+    explanation: `Under Rule 65.377(a)(3), "Finished products may be sold by anyone."`
+  },
+  {
+    id: 141,
+    topic: "State-Specific Laws",
+    question: `A trapper lawfully takes a fur-bearing animal during an open commercial trapping season. When can the trapper possess and sell the carcass or pelt?`,
+    options: ["Only during the open commercial trapping season.", "At any time.", "Only within 30 days after the close of the season.", "Only between September 1 and December 31."],
+    correctAnswer: 1,
+    explanation: `A trapper may possess and sell the carcass or pelt of a fur-bearing animal lawfully taken during an open commercial trapping season at any time.`
+  },
+  {
+    id: 142,
+    topic: "Personal Property",
+    question: `Under the Texas Agriculture Code Sec. 146.001 regarding livestock, the actual delivery of a sold horse or head of cattle must be accompanied by a written transfer. What specific information MUST be included on this transfer?`,
+    options: ["The age and sex of the animal.", "The exact hammer price achieved at auction.", "The marks and brands of the animal, and the number transferred if more than one.", "The auctioneer's license number and TDLR contact information."],
+    correctAnswer: 2,
+    explanation: `The written transfer must give the marks and brands of the animal and, if more than one animal is transferred, must give the number transferred.`
+  },
+  {
+    id: 143,
+    topic: "Personal Property",
+    question: `On the trial of the right of property in a head of cattle sold under Sec. 146.001, what is the legal presumption if the animal is possessed without the required written transfer?`,
+    options: ["The possession of the animal is presumed to be illegal.", "The animal is presumed to belong to the state.", "The sale is considered an absolute auction.", "The auctioneer is liable for treble damages."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `On the trial of the right of property... the possession of the animal without the written transfer is presumed to be illegal.`
   },
   {
-    id: 1110,
-    topic: 'Auction Math',
-    question: `A secured debt is $17,000. Collateral sells at auction for $10,400. Sale costs are $680. What deficiency remains?`,
-    options: ["$7,280", "$6,600", "$9,720", "$0"],
+    id: 144,
+    topic: "Personal Property",
+    question: `Under Texas Transportation Code Sec. 503.024, what is the maximum number of vehicles of the same type a person can sell or offer to sell during a calendar year without being required to obtain a dealer general distinguishing number (GDN), assuming they are owned and registered in that person's name?`,
+    options: ["Fewer than 3 vehicles", "Fewer than 5 vehicles", "Fewer than 10 vehicles", "Up to 12 vehicles"],
+    correctAnswer: 1,
+    explanation: `A person is not required to obtain a dealer general distinguishing number if the person sells or offers to sell during a calendar year fewer than five vehicles of the same type that are owned and registered in that person's name.`
+  },
+  {
+    id: 145,
+    topic: "Licensing Requirements",
+    question: `An individual acquired 8 vehicles for their personal business use. According to House Bill 3215 and Sec. 503.024, how can this individual legally sell all 8 vehicles without obtaining a dealer license?`,
+    options: ["They cannot; selling more than 4 vehicles automatically makes them a dealer.", "They may sell them to any person IF the sale or offer is made through a licensed auctioneer.", "They must sell them strictly to a salvage vehicle dealer.", "They must sell them one at a time over an 8-year period."],
+    correctAnswer: 1,
+    explanation: `A person is not engaging in business as a dealer by selling a vehicle acquired for personal/business use to any person if the sale or offer is made through a licensed auctioneer. HB 3215 clarified that this exempts individuals selling 5 or more personal vehicles if processed through a licensed auctioneer.`
+  },
+  {
+    id: 146,
+    topic: "Licensing Requirements",
+    question: `A licensed auctioneer is hired to sell the physical assets of a defunct plumbing business, which includes the title to 15 commercial vans. Under Sec. 503.024(d), is the auctioneer engaging in business as a vehicle dealer?`,
+    options: ["Yes, because the number of vehicles exceeds the 5-vehicle limit.", "No, a licensed auctioneer is not engaging in business as a dealer by conducting the sale of a business that holds the title to any number of vehicles, provided legal title does not pass to the auctioneer.", "Yes, unless the auctioneer holds a wholesale motor vehicle auction GDN.", "No, but only if the vans are sold exclusively to out-of-state buyers."],
+    correctAnswer: 1,
+    explanation: `A licensed auctioneer is not engaging in business as a dealer by, as a bid caller, selling or offering to sell property, including a business that holds the title to any number of vehicles... if legal or equitable title does not pass to the auctioneer.`
+  },
+  {
+    id: 147,
+    topic: "Licensing Requirements",
+    question: `If a licensed auctioneer is conducting a bona fide auction of vehicles owned legally by a person who holds a dealer general distinguishing number (GDN), what strict location requirement applies under Sec. 503.024(d)(3)?`,
+    options: ["The auction must be held at a county courthouse.", "The auction must be held at an approved auction school facility.", "The auction must be conducted at the location for which the dealer's general distinguishing number was issued.", "The auction must take place on neutral, unlicensed grounds."],
+    correctAnswer: 2,
+    explanation: `For an auction of vehicles owned legally or equitably by a person who holds a general distinguishing number, the auction is conducted at the location for which the general distinguishing number was issued.`
+  },
+  {
+    id: 148,
+    topic: "Personal Property",
+    question: `At what age does a passenger car or truck qualify as an "antique" vehicle, allowing it to be sold at public auction without the seller engaging in business as a dealer?`,
+    options: ["At least 12 years of age.", "At least 20 years of age.", "At least 25 years of age.", "At least 50 years of age."],
+    correctAnswer: 2,
+    explanation: `A person is not engaging in business as a dealer by... selling an antique passenger car or truck that is at least 25 years of age.`
+  },
+  {
+    id: 149,
+    topic: "Licensing Requirements",
+    question: `A "special interest vehicle" may be sold without a dealer license by a collector. What is the minimum age requirement for a vehicle to be considered a special interest vehicle under this exemption?`,
+    options: ["At least 10 years of age.", "At least 12 years of age.", "At least 25 years of age.", "At least 30 years of age."],
+    correctAnswer: 1,
+    explanation: `A person is not engaging in business as a dealer by... selling a special interest vehicle that is at least 12 years of age if the person is a collector.`
+  },
+  {
+    id: 150,
+    topic: "Licensing Requirements",
+    question: `Under the exemptions in Sec. 503.024, an insurance company is NOT required to hold a dealer license when selling a vehicle if the vehicle was acquired:`,
+    options: ["As a corporate fleet vehicle used by insurance adjusters.", "As a repossession from a failed premium finance loan.", "From the vehicle's owner as a result of paying an insurance claim.", "As part of a bankruptcy liquidation."],
+    correctAnswer: 2,
+    explanation: `A person is not engaging in business as a dealer by... selling a vehicle the person acquired from the vehicle's owner as a result of paying an insurance claim if the person is an insurance company.`
+  },
+  {
+    id: 151,
+    topic: "Licensing Requirements",
+    question: `A domiciliary of another state holds a dealer license and bond issued by their home state. Under Texas law, may they buy, sell, or exchange vehicles at a public auction in Texas without a Texas GDN?`,
+    options: ["Yes, they may buy or sell ANY vehicle under reciprocity.", "Yes, but ONLY if they are buying or selling antique vehicles (25+ years) or special interest vehicles (12+ years/subject to retail sale).", "No, out-of-state dealers must always obtain a Texas wholesale GDN.", "Yes, provided they pay the Texas Auctioneer Recovery Fund fee."],
+    correctAnswer: 1,
+    explanation: `A domiciliary of another state who holds a dealer license... is not engaging in business as a dealer by... buying, selling, including by consignment, or exchanging at a public auction an antique vehicle (25+ years) or a special interest vehicle (12+ years).`
+  },
+  {
+    id: 152,
+    topic: "Bidding Procedures",
+    question: `If an auctioneer bid calls a vehicle auction, what critical factor must remain true regarding the vehicle's title for the auctioneer to avoid being classified as a "dealer"?`,
+    options: ["The title must be bonded.", "The title must pass directly from the owner to the buyer; legal or equitable title must NOT pass to the auctioneer.", "The title must be held in escrow for 72 hours.", "The title must be stamped \"Absolute.\""],
+    correctAnswer: 1,
+    explanation: `The exemption for bid callers applies if "legal or equitable title does not pass to the auctioneer."`
+  },
+  {
+    id: 153,
+    topic: "Personal Property",
+    question: `Which state agency enforces the regulations found in Chapter 503 of the Transportation Code regarding whether a person is acting as a vehicle dealer?`,
+    options: ["The Texas Department of Licensing and Regulation (TDLR).", "The Texas Department of Motor Vehicles (DMV).", "The Texas Comptroller of Public Accounts.", "The Department of Public Safety (DPS)."],
+    correctAnswer: 1,
+    explanation: `According to the FAQ on HB 3215, "This law is enforced by the Texas Department of Motor Vehicles."`
+  },
+  {
+    id: 154,
+    topic: "Personal Property",
+    question: `Are federal, state, or local governmental agencies required to obtain a dealer general distinguishing number to sell fleet vehicles at auction?`,
+    options: ["Yes, if they sell more than 5 vehicles.", "No, governmental agencies are explicitly excluded from the requirement.", "Yes, they must obtain a specialized government GDN.", "No, unless the vehicles are sold to retail consumers."],
+    correctAnswer: 1,
+    explanation: `A person is not required to obtain a dealer general distinguishing number if the person... is a federal, state, or local governmental agency.`
+  },
+  {
+    id: 155,
+    topic: "Personal Property",
+    question: `Is a bank or credit union that sells a vehicle in which it holds a security interest (a forced sale) considered to be engaging in business as a vehicle dealer?`,
+    options: ["Yes, financial institutions are considered wholesale dealers.", "No, selling a vehicle in a manner provided by law for forced sales of vehicles in which the person holds a security interest is an exemption.", "Yes, unless they sell the vehicle through an online-only auction.", "No, provided they sell fewer than 10 vehicles per year."],
+    correctAnswer: 1,
+    explanation: `A person is not engaging in business as a dealer by... selling, in a manner provided by law for the forced sale of vehicles, a vehicle in which the person holds a security interest.`
+  },
+  {
+    id: 156,
+    topic: "State-Specific Laws",
+    question: `Under the Texas Alcoholic Beverage Code (TABC) Chapter 53, a temporary auction permit allows the holder to auction alcoholic beverages strictly for what type of consumption?`,
+    options: ["On-premises consumption at the auction venue.", "Off-premises consumption.", "Either on-premises or off-premises, depending on the buyer's preference.", "Wholesale distribution only."],
+    correctAnswer: 1,
+    explanation: `The holder of a temporary auction permit may auction alcoholic beverages for consumption off premises to raise money to support the stated purpose.`
+  },
+  {
+    id: 157,
+    topic: "State-Specific Laws",
+    question: `What is the state fee to obtain a temporary auction permit from the TABC?`,
+    options: ["$25", "$50", "$100", "$250"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The state fee for a temporary auction permit is $25.`
   },
   {
-    id: 1111,
-    topic: 'Auction Math',
-    question: `A secured debt is $17,500. Collateral sells at auction for $10,750. Sale costs are $700. What deficiency remains?`,
-    options: ["$7,450", "$6,750", "$10,050", "$0"],
+    id: 158,
+    topic: "State-Specific Laws",
+    question: `A charity obtains a temporary auction permit to auction donated wine. What is the maximum duration for which this permit may be issued?`,
+    options: ["24 hours.", "3 days.", "5 days.", "14 days."],
+    correctAnswer: 2,
+    explanation: `A temporary auction permit may be issued for a period of not more than five days.`
+  },
+  {
+    id: 159,
+    topic: "State-Specific Laws",
+    question: `To be eligible for a temporary auction permit, the organization must be either a political group under the Election Code OR an organization exempt from taxation under which section of the Internal Revenue Code?`,
+    options: ["Section 501(c)(3)", "Section 501(c)(4)", "Section 501(c)(6)", "Section 527"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The commission may issue a temporary auction permit only to an organization that is exempt from taxation... by being listed under Section 501(c)(3).`
   },
   {
-    id: 1112,
-    topic: 'Auction Math',
-    question: `A secured debt is $18,000. Collateral sells at auction for $11,100. Sale costs are $720. What deficiency remains?`,
-    options: ["$7,620", "$6,900", "$10,380", "$0"],
+    id: 160,
+    topic: "State-Specific Laws",
+    question: `In what geographic areas is a temporary auction permit holder legally allowed to conduct an alcohol auction?`,
+    options: ["Anywhere in the state of Texas.", "Only in unincorporated rural areas.", "Only in any area where the sale of the type of alcoholic beverage to be auctioned is authorized by a local option election (a \"wet\" area).", "Only on state-owned property."],
+    correctAnswer: 2,
+    explanation: `The holder of a temporary auction permit may conduct an auction in any area where the sale of the type of alcoholic beverage to be auctioned is authorized by a local option election.`
+  },
+  {
+    id: 161,
+    topic: "State-Specific Laws",
+    question: `If a charity wishes to hold their auction at a venue that ALREADY holds a TABC permit (like a restaurant or bar), what strict condition applies to the auctioned beverages?`,
+    options: ["The venue owner must take a 10% commission on the auction.", "The auction beverages must be poured and served by the venue's bartenders.", "The beverages to be auctioned must be kept separate from the venue's stock, and all auctioned beverages must be removed from the premises immediately following the auction.", "Auctions cannot be held at locations that already possess a TABC permit."],
+    correctAnswer: 2,
+    explanation: `Sec. 53.005(b) allows it if the beverages are kept separate from the venue's inventory and are removed from the premises immediately following the auction.`
+  },
+  {
+    id: 162,
+    topic: "State-Specific Laws",
+    question: `Before holding an auction under a temporary auction permit, the permit holder must provide written notice to the closest TABC branch office. What must this notice include?`,
+    options: ["A background check of the auctioneer.", "The date, time, place of the auction, and the inventory of the alcoholic beverages to be auctioned.", "A copy of the winning bidders' driver's licenses.", "The starting bid price for each bottle."],
+    correctAnswer: 1,
+    explanation: `The holder shall provide written notice of: (1) the date, time, and place of the auction; and (2) the inventory of the alcoholic beverages to be auctioned.`
+  },
+  {
+    id: 163,
+    topic: "State-Specific Laws",
+    question: `Under Sec. 53.008 (Prohibited Activities), which of the following is an unlawful action for a temporary auction permit holder?`,
+    options: ["Auctioning wine that was donated by a private collector.", "Paying a commission to a person to arrange or conduct the auction.", "Depositing the proceeds into the permit holder's account.", "Auctioning alcoholic beverages in a sealed case."],
+    correctAnswer: 1,
+    explanation: `The holder may not pay a commission or promotional allowance to a person to arrange or conduct an auction under this chapter, or arrange the donation of beverages.`
+  },
+  {
+    id: 164,
+    topic: "State-Specific Laws",
+    question: `A charity purchases several cases of rare ale from a distributor to auction off at a premium to raise funds. Is this permitted under a temporary auction permit?`,
+    options: ["Yes, if they pay the $25 fee.", "Yes, if they hold a 501(c)(3) status.", "No, they may not auction distilled spirits, wine, ale, or malt liquor that has NOT been donated to the organization.", "No, ale is strictly prohibited from being auctioned under any circumstances."],
+    correctAnswer: 2,
+    explanation: `Sec. 53.008(1) prohibits auctioning distilled spirits, wine, ale, or malt liquor that has not been donated to the organization.`
+  },
+  {
+    id: 165,
+    topic: "State-Specific Laws",
+    question: `A commercial transport truck carrying liquor crashes, and the insurance salvor takes possession of the undamaged bottles. Under TABC Sec. 109.01, how may the salvor sell this salvaged alcoholic beverage without obtaining a TABC permit?`,
+    options: ["They may sell the bottles individually over a 30-day period.", "They must pour the alcohol out and sell only the glass.", "They may sell the beverages, but ONLY in one single lot or parcel.", "They may consign them to a licensed charity auction."],
+    correctAnswer: 2,
+    explanation: `If a person acquires possession... as an insurer or insurance salvor in the salvage or liquidation of an insured damage or loss... he may sell the beverages in one lot or parcel without being required to obtain a license.`
+  },
+  {
+    id: 166,
+    topic: "State-Specific Laws",
+    question: `Under the TABC rules, what happens to an auctioneer who auctions alcoholic beverages upon which state taxes are still owed?`,
+    options: ["The auctioneer must personally pay the taxes out of their buyer's premium.", "The auctioneer commits a prohibited activity under Sec. 53.008.", "The buyer becomes liable for the taxes.", "Taxes are legally waived for all charity auctions."],
+    correctAnswer: 1,
+    explanation: `The holder of a temporary charitable auction permit may not auction alcoholic beverages if any taxes are owed on the beverages.`
+  },
+  {
+    id: 167,
+    topic: "State-Specific Laws",
+    question: `Proceeds generated from an auction authorized by a temporary auction permit must legally be deposited where?`,
+    options: ["In the auctioneer's federally insured trust account for 15 banking days.", "To the account of the holder of the temporary auction permit (the charity/organization).", "Directly to the Texas Comptroller of Public Accounts.", "In a joint escrow account held by the FFL and the TABC."],
+    correctAnswer: 1,
+    explanation: `Sec. 53.007 states the proceeds from an auction authorized by this chapter shall be deposited to the account of the holder of a temporary auction permit.`
+  },
+  {
+    id: 168,
+    topic: "State-Specific Laws",
+    question: `According to ATF Rule 96-2, what determines whether an auction is classified as an "estate-type" auction regarding firearms?`,
+    options: ["The auctioneer takes physical possession of the firearms prior to the sale.", "The firearms belong to and are possessed by the executor of the estate, and the auctioneer acts merely as an agent assisting the sale.", "The firearms are sold exclusively to licensed dealers.", "The auction occurs on a recurring monthly basis."],
+    correctAnswer: 1,
+    explanation: `In estate-type auctions, the firearms are possessed by the estate and their sale to third parties is controlled by the estate; the auctioneer acts as an agent.`
+  },
+  {
+    id: 169,
+    topic: "Licensing Requirements",
+    question: `Does an auctioneer conducting an "estate-type" auction require a Federal Firearms License (FFL) to assist in selling the estate's firearms?`,
+    options: ["Yes, any sale of a firearm requires an FFL.", "Yes, if the estate has more than 5 firearms.", "No, because the auctioneer does not meet the definition of \"engaging in the business\" as a dealer, since the estate possesses and transfers the firearms.", "No, FFLs are only required for manufacturing ammunition."],
+    correctAnswer: 2,
+    explanation: `Held: Persons who conduct estate-type auctions... do not require a Federal firearms license.`
+  },
+  {
+    id: 170,
+    topic: "Licensing Requirements",
+    question: `In a "consignment-type" auction, the auctioneer takes possession of the firearms, inventories them, and has the exclusive right to sell them at a time and location of their choosing. If this is done on a regular basis, what is the ATF's ruling on licensure?`,
+    options: ["The auctioneer must obtain a Federal Firearms License because they are \"engaging in the business\" of dealing in firearms.", "The auctioneer only needs a Texas Auctioneer License.", "The auctioneer needs a Temporary FFL permit for each auction.", "No license is required if the firearms are sold as \"Curios and Relics.\""],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Held further: Persons who regularly conduct consignment-type auctions... where the auctioneer takes possession of the firearms pursuant to a consignment contract... are required to obtain a license as a dealer in firearms.`
   },
   {
-    id: 1113,
-    topic: 'Auction Math',
-    question: `A secured debt is $18,500. Collateral sells at auction for $11,450. Sale costs are $740. What deficiency remains?`,
-    options: ["$7,790", "$7,050", "$10,710", "$0"],
+    id: 171,
+    topic: "State-Specific Laws",
+    question: `Under 18 U.S.C. § 921(a)(11)(`,
+    options: [", how does the ATF define a firearm \"dealer\"? A) Anyone who owns more than 10 firearms.", "Any person engaged in the business of selling firearms at wholesale or retail.", "Only individuals who manufacture firearms.", "Any person who purchases a firearm online."],
+    correctAnswer: 1,
+    explanation: `The term “dealer” is defined to include any person engaged in the business of selling firearms at wholesale or retail.`
+  },
+  {
+    id: 172,
+    topic: "State-Specific Laws",
+    question: `For a person to be "engaged in the business" as a firearms dealer, do they legally have to take title to the firearms they are selling?`,
+    options: ["Yes, title transfer to the auctioneer is the sole trigger for FFL requirements.", "No, a dealer can be \"engaged in the business\" without taking title to the firearms that are sold.", "Yes, unless they are a non-profit organization.", "No, but they must hold the title for at least 72 hours."],
+    correctAnswer: 1,
+    explanation: `A dealer can be “engaged in the business” without taking title to the firearms that are sold (as is typical in consignment).`
+  },
+  {
+    id: 173,
+    topic: "State-Specific Laws",
+    question: `Which of the following activities is explicitly EXCLUDED from the definition of being "engaged in the business" of dealing firearms under 18 U.S.C. § 921(a)(21)(C)?`,
+    options: ["Taking consignments from multiple sellers every 2 months.", "Charging a buyer's premium on firearms sales.", "Making occasional sales, exchanges, or purchases of firearms for the enhancement of a personal collection or for a hobby.", "Operating a retail storefront selling used shotguns."],
+    correctAnswer: 2,
+    explanation: `The term does not include a person who makes occasional sales, exchanges, or purchases of firearms for the enhancement of a personal collection or for a hobby.`
+  },
+  {
+    id: 174,
+    topic: "Licensing Requirements",
+    question: `Licensed FFL dealers (including licensed FFL auctioneers) generally must conduct business from their licensed premises. However, ATF Rule 96-2 allows an FFL auctioneer to conduct an auction at an off-site location if they follow what specific procedure?`,
+    options: ["They display the firearms at the auction site, agree to the terms of sale, and then return the firearms to the licensed premises for delivery to the purchaser.", "They transfer the firearms directly to the buyer in the parking lot of the off-site location.", "They mail the firearms directly to the buyer's home address via USPS.", "They hold the auction exclusively on federal property."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `An auctioneer may conduct an auction at a location other than his licensed premises by displaying the firearms at the auction site, agreeing to the terms of sale... then returning the firearms to the licensed premises for delivery to the purchaser.`
   },
   {
-    id: 1114,
-    topic: 'Auction Math',
-    question: `A secured debt is $19,000. Collateral sells at auction for $11,800. Sale costs are $760. What deficiency remains?`,
-    options: ["$7,960", "$7,200", "$11,040", "$0"],
+    id: 175,
+    topic: "State-Specific Laws",
+    question: `What is the standard FFL fee for an applicant who is a dealer in firearms (who is NOT dealing in destructive devices or ammunition for destructive devices)?`,
+    options: ["$50 for 1 year.", "$200 for 3 years.", "$500 for 5 years.", "$1,000 per year."],
+    correctAnswer: 1,
+    explanation: `If the applicant is a dealer who is not a dealer in destructive devices, a fee of $200 for 3 years.`
+  },
+  {
+    id: 176,
+    topic: "Licensing Requirements",
+    question: `What is the fee for the renewal of a valid Federal Firearms License for a standard dealer?`,
+    options: ["$50 for 1 year.", "$90 for 3 years.", "$200 for 3 years.", "$1,000 per year."],
+    correctAnswer: 1,
+    explanation: `...except that the fee for renewal of a valid license shall be $90 for 3 years.`
+  },
+  {
+    id: 177,
+    topic: "Record Keeping",
+    question: `In a bankruptcy proceeding under U.S. Code Title 11, Chapter 7, who holds the authority to authorize a trustee to operate the business of the debtor for a limited period?`,
+    options: ["The creditors' committee.", "The state licensing board (TDLR).", "The bankruptcy court.", "The appointed auctioneer."],
+    correctAnswer: 2,
+    explanation: `Sec. 721: "The court may authorize the trustee to operate the business of the debtor for a limited period, if such operation is in the best interest of the estate."`
+  },
+  {
+    id: 178,
+    topic: "Auction Basics",
+    question: `Under the Federal Rules of Bankruptcy Procedure (Rule 6005), which of the following individuals is expressly INELIGIBLE to act as an appraiser or auctioneer for a bankruptcy estate?`,
+    options: ["A nonresident auctioneer who does not hold a local license.", "Any officer or employee of the Judicial Branch of the United States or the United States Department of Justice.", "An auctioneer who charges a buyer's premium.", "A person who has filed for bankruptcy themselves within the last 7 years."],
+    correctAnswer: 1,
+    explanation: `Rule 6005 states: "No officer or employee of the Judicial Branch of the United States or the United States Department of Justice shall be eligible to act as appraiser or auctioneer."`
+  },
+  {
+    id: 179,
+    topic: "Auction Basics",
+    question: `Under Rule 6005 of the Federal Rules of Bankruptcy Procedure, can a state residence or state licensing requirement automatically disqualify an appraiser or auctioneer from employment by the bankruptcy court?`,
+    options: ["Yes, state law supersedes federal bankruptcy procedure.", "No, no residence or licensing requirement shall disqualify an appraiser or auctioneer from employment.", "Yes, unless the auctioneer files a surety bond.", "No, but they must establish a physical office in the state of the court."],
+    correctAnswer: 1,
+    explanation: `"No residence or licensing requirement shall disqualify an appraiser or auctioneer from employment."`
+  },
+  {
+    id: 180,
+    topic: "State-Specific Laws",
+    question: `For a firearm to be considered an "antique" under standard definitions (and thus largely exempt from standard FFL transfer rules), it must have been manufactured before what year?`,
+    options: ["1898", "1914", "1968", "1986"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `According to the study guide definitions provided in the text, an antique firearm is one made before 1898.`
   },
   {
-    id: 1115,
-    topic: 'Auction Math',
-    question: `A secured debt is $19,500. Collateral sells at auction for $12,150. Sale costs are $780. What deficiency remains?`,
-    options: ["$8,130", "$7,350", "$11,370", "$0"],
+    id: 181,
+    topic: "State-Specific Laws",
+    question: `An auctioneer travels to a widow's home to call bids on her deceased husband's estate, which includes a gun safe containing 15 rifles. The widow retains the keys to the safe, takes the buyer's money directly, and physically hands the rifles to the winning bidders. Does the auctioneer need an FFL for this event?`,
+    options: ["Yes, because 15 rifles constitute \"engaging in business.\"", "Yes, because the auctioneer is receiving a commission on the total sales.", "No, this is an estate-type auction where the estate possesses and transfers the firearms, so the auctioneer is merely an agent and needs no FFL.", "No, provided the auctioneer registers the serial numbers with the ATF beforehand."],
+    correctAnswer: 2,
+    explanation: `In estate-type auctions where the firearms belong to and are possessed by the executor/estate, and sale is controlled by the estate, the auctioneer does not meet the definition of "engaging in the business" and requires no FFL.`
+  },
+  {
+    id: 182,
+    topic: "Contract Law",
+    question: `Under the Uniform Commercial Code (Sec. 2.106), what is the specific legal distinction between the "cancellation" of a contract and the "termination" of a contract?`,
+    options: ["Both end the contract, but termination requires a 30-day written notice, while cancellation is immediate.", "Termination discharges all obligations due to a breach, while cancellation discharges obligations by mutual agreement without penalty.", "Cancellation occurs when a party ends the contract for breach by the other and retains remedies for the breach, whereas termination puts an end to the contract otherwise than for its breach.", "There is no legal distinction; both terms are used interchangeably in the Texas Business and Commerce Code."],
+    correctAnswer: 2,
+    explanation: `"Termination" occurs when either party puts an end to the contract otherwise than for its breach. "Cancellation" occurs when either party puts an end to the contract for breach by the other, and the cancelling party retains any remedy for breach of the whole contract.`
+  },
+  {
+    id: 183,
+    topic: "Contract Law",
+    question: `According to the Statute of Frauds under UCC Sec. 2.201, a contract for the sale of goods is generally unenforceable unless there is a sufficient writing signed by the party against whom enforcement is sought if the price is at least:`,
+    options: ["$100", "$500", "$1,000", "$5,000"],
+    correctAnswer: 1,
+    explanation: `A contract for the sale of goods for the price of $500 or more is not enforceable by way of action or defense unless there is some writing sufficient to indicate that a contract for sale has been made.`
+  },
+  {
+    id: 184,
+    topic: "Contract Law",
+    question: `Two merchants agree to a contract for the sale of goods. If a writing in confirmation of the contract is received, it satisfies the Statute of Frauds requirement against the receiving party UNLESS the receiving party gives written notice of objection to its contents within:`,
+    options: ["3 days.", "5 days.", "10 days.", "15 days."],
+    correctAnswer: 2,
+    explanation: `Between merchants, if a writing in confirmation of the contract is received, it satisfies the requirements unless written notice of objection to its contents is given within ten days after it is received.`
+  },
+  {
+    id: 185,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.201, an unwritten/oral contract for goods priced over $500 may still be enforceable under which of the following specific conditions?`,
+    options: ["The goods are agricultural products intended for human consumption.", "The agreement was witnessed by a licensed Texas auctioneer.", "The buyer verbally promised to pay in cash within 48 hours.", "The goods are specially manufactured for the buyer and are not suitable for sale to others in the ordinary course of the seller's business."],
+    correctAnswer: 3,
+    explanation: `An exception to the written requirement exists if the goods are to be specially manufactured for the buyer, are not suitable for sale to others, and the seller has made a substantial beginning of their manufacture.`
+  },
+  {
+    id: 186,
+    topic: "Contract Law",
+    question: `According to UCC Sec. 2.204 on contract formation, what happens if the parties intended to make a contract for the sale of goods, but one or more terms are left open or undetermined?`,
+    options: ["The contract automatically fails for indefiniteness.", "The contract converts to a month-to-month lease.", "The contract does not fail for indefiniteness if there is a reasonably certain basis for giving an appropriate remedy.", "The contract is voidable at the sole discretion of the buyer."],
+    correctAnswer: 2,
+    explanation: `Even though one or more terms are left open, a contract for sale does not fail for indefiniteness if the parties have intended to make a contract and there is a reasonably certain basis for giving an appropriate remedy.`
+  },
+  {
+    id: 187,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.209, what is legally required to make an agreement modifying a contract within Chapter 2 (Sales) binding?`,
+    options: ["A newly negotiated exchange of monetary consideration.", "No consideration is needed.", "A mandatory 10-day cooling-off period.", "Approval from the Texas Secretary of State."],
+    correctAnswer: 1,
+    explanation: `An agreement modifying a contract within this chapter needs no consideration to be binding.`
+  },
+  {
+    id: 188,
+    topic: "Contract Law",
+    question: `If a signed agreement excludes modification except by a signed writing, and the form containing this requirement is supplied by a merchant to a non-merchant, what must happen for this clause to be valid?`,
+    options: ["The clause is automatically void against a non-merchant.", "The non-merchant must be given a 3-day right of rescission.", "The requirement on the form must be separately signed by the other party (the non-merchant).", "The clause must be printed in bold, red ink."],
+    correctAnswer: 2,
+    explanation: `Except as between merchants, such a requirement on a form supplied by the merchant must be separately signed by the other party.`
+  },
+  {
+    id: 189,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.209, if a party has made a waiver affecting an executory portion of a contract, can they retract that waiver?`,
+    options: ["Yes, by reasonable notification received by the other party that strict performance will be required, unless the retraction would be unjust due to reliance on the waiver.", "Yes, but only if the waiver was made verbally rather than in writing.", "No, waivers of executory portions of a contract are permanently binding in Texas.", "No, unless the party pays a statutory retraction fee."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `A party who has made a waiver affecting an executory portion of the contract may retract the waiver by reasonable notification... unless the retraction would be unjust in view of a material change of position in reliance on the waiver.`
   },
   {
-    id: 1116,
-    topic: 'Auction Math',
-    question: `A secured debt is $20,000. Collateral sells at auction for $12,500. Sale costs are $800. What deficiency remains?`,
-    options: ["$8,300", "$7,500", "$11,700", "$0"],
+    id: 190,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.328, if an auctioneer is calling a sale and a bid is made precisely while the hammer is falling in acceptance of a prior bid, the auctioneer:`,
+    options: ["Must strictly enforce the prior bid and reject the new bid.", "Must award the item to the new bidder if the bid increment is met.", "Must declare a \"no sale\" and withdraw the lot entirely.", "May, in their discretion, reopen the bidding or declare the goods sold under the bid on which the hammer was falling."],
+    correctAnswer: 3,
+    explanation: `Where a bid is made while the hammer is falling in acceptance of a prior bid the auctioneer may in his discretion reopen the bidding or declare the goods sold under the bid on which the hammer was falling.`
+  },
+  {
+    id: 191,
+    topic: "Bidding Procedures",
+    question: `In an auction "without reserve" (absolute auction), when does the auctioneer lose the legal right to withdraw an article or lot from the sale?`,
+    options: ["When the seller signs the listing agreement.", "As soon as the item is printed in an advertisement.", "After the auctioneer calls for bids on an article or lot, unless no bid is made within a reasonable time.", "Never; an auctioneer may withdraw any lot before the hammer falls to protect the seller's equity."],
+    correctAnswer: 2,
+    explanation: `In an auction without reserve, after the auctioneer calls for bids on an article or lot, that article or lot cannot be withdrawn unless no bid is made within a reasonable time.`
+  },
+  {
+    id: 192,
+    topic: "Contract Law",
+    question: `A bidder at a Texas auction decides to retract their bid before the auctioneer announces the completion of the sale. According to UCC 2.328, what is the effect of this retraction on the immediately preceding bid?`,
+    options: ["The retraction revives the immediately preceding bid, placing the prior bidder back in the winning position.", "The retraction does not revive any previous bid.", "The retraction revives the previous bid only if the auction is \"with reserve.\"", "Retractions are strictly prohibited once a bid is acknowledged by the auctioneer."],
+    correctAnswer: 1,
+    explanation: `In either case (reserve or absolute) a bidder may retract his bid until the auctioneer's announcement of completion of the sale, but a bidder's retraction does not revive any previous bid.`
+  },
+  {
+    id: 193,
+    topic: "Bidding Procedures",
+    question: `If an auctioneer knowingly receives a bid on the seller's behalf without giving notice that liberty for such bidding is reserved, what is the buyer's statutory remedy?`,
+    options: ["The buyer may sue the auctioneer for treble damages under the DTPA.", "The buyer must accept the goods but receives a 50% discount on the hammer price.", "The buyer may at his option avoid the sale or take the goods at the price of the last good faith bid prior to the completion of the sale.", "The buyer has no remedy, as seller bidding is permitted by default in Texas."],
+    correctAnswer: 2,
+    explanation: `The buyer may at his option avoid the sale or take the goods at the price of the last good faith bid prior to the completion of the sale.`
+  },
+  {
+    id: 194,
+    topic: "Contract Law",
+    question: `To which specific type of auction does the buyer's remedy for undisclosed seller bidding NOT apply under UCC 2.328?`,
+    options: ["A charity auction", "A real estate auction", "Any bid at a forced sale", "A heavy equipment liquidation"],
+    correctAnswer: 2,
+    explanation: `This subsection (regarding the buyer's remedy for undisclosed seller bidding) shall not apply to any bid at a forced sale.`
+  },
+  {
+    id: 195,
+    topic: "Record Keeping",
+    question: `According to Occupations Code Sec. 1802.121 and TAC 67.70, before any auction occurs, an auctioneer who agrees to provide services to a party must provide a written contract that includes:`,
+    options: ["An itemized inventory of property to be sold or offered for sale, agreed to in writing.", "The social security numbers of all anticipated bidders.", "A guaranteed minimum gross sales figure.", "A sworn affidavit of the auctioneer's net worth."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The auctioneer and party must agree in writing to an itemized inventory of property to be sold or offered for sale by the auctioneer at auction.`
   },
   {
-    id: 1117,
-    topic: 'Auction Math',
-    question: `A secured debt is $20,500. Collateral sells at auction for $12,850. Sale costs are $820. What deficiency remains?`,
-    options: ["$8,470", "$7,650", "$12,030", "$0"],
+    id: 196,
+    topic: "Record Keeping",
+    question: `Under the Texas Administrative Code standards of practice for auctioneers, how must an amendment to an itemized inventory be executed?`,
+    options: ["Verbally, immediately prior to the commencement of the auction.", "In writing and signed by both the auctioneer and the client/party.", "In writing and signed only by the auctioneer.", "It must be filed with the TDLR within 15 days."],
+    correctAnswer: 1,
+    explanation: `An amendment to the inventory must be in writing and signed by both parties.`
+  },
+  {
+    id: 197,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.106, the term "present sale" specifically means a sale which is:`,
+    options: ["Finalized upon the physical delivery of the goods.", "Accomplished by the making of the contract.", "Paid for entirely in cash at the time of the bid.", "Conducted strictly without reserve."],
+    correctAnswer: 1,
+    explanation: `A "present sale" means a sale which is accomplished by the making of the contract.`
+  },
+  {
+    id: 198,
+    topic: "Contract Law",
+    question: `Under UCC Sec. 2.106, goods or conduct are considered "conforming" to the contract when:`,
+    options: ["They meet the buyer's subjective expectations of quality.", "They match the highest commercial standard in the specific industry.", "They are in accordance with the obligations under the contract.", "They are accepted by the buyer without an immediate demand for a discount."],
+    correctAnswer: 2,
+    explanation: `Goods or conduct including any part of a performance are "conforming" or conform to the contract when they are in accordance with the obligations under the contract.`
+  },
+  {
+    id: 199,
+    topic: "Contract Law",
+    question: `If a verbal contract for the sale of goods priced over $500 is made, it can still become enforceable under UCC 2.201 if the party against whom enforcement is sought:`,
+    options: ["Refuses to answer phone calls from the seller.", "Admits in his pleading, testimony, or otherwise in court that a contract for sale was made.", "Hires an attorney to review the proposed terms.", "Is a licensed auctioneer or real estate broker."],
+    correctAnswer: 1,
+    explanation: `A contract which does not satisfy the requirements... is enforceable if the party against whom enforcement is sought admits in his pleading, testimony or otherwise in court that a contract for sale was made.`
+  },
+  {
+    id: 200,
+    topic: "Auction Basics",
+    question: `According to Occupations Code Sec. 1802.122, the Texas Commission of Licensing and Regulation (TCLR) is explicitly directed to adopt standards of practice for auctioneers regarding which of the following?`,
+    options: ["The exact percentage of buyer's premiums that may be charged.", "The maintenance and use of a trust or escrow account for funds belonging or owed to another.", "The dress code and professional attire of ringmen.", "The minimum speed at which an auctioneer must call bids."],
+    correctAnswer: 1,
+    explanation: `Sec. 1802.122 requires TCLR to adopt standards for the practice of auctioneers... including standards for the maintenance and use of a trust or escrow account for funds belonging or owed to another.`
+  },
+  {
+    id: 201,
+    topic: "Contract Law",
+    question: `According to UCC 2.328, the legal default for a Texas auction is:`,
+    options: ["Absolute, unless the auctioneer announces a starting bid.", "With reserve, unless the goods are in explicit terms put up without reserve.", "Without reserve, unless the seller is present at the auction.", "Subject to seller confirmation for 72 hours post-sale."],
+    correctAnswer: 1,
+    explanation: `Such a sale is with reserve unless the goods are in explicit terms put up without reserve.`
+  },
+  {
+    id: 202,
+    topic: "State-Specific Laws",
+    question: `Under Texas Comptroller Rule 3.281 regarding records required for state sales and use taxes, a person must keep exemption and resale certificates for a minimum of how long?`,
+    options: ["One year following the date of the auction.", "Two years from the date the certificate is signed.", "Four years following the completion of the last sale that is covered by the certificate.", "Indefinitely, as long as the business remains in operation."],
+    correctAnswer: 2,
+    explanation: `A person must keep exemption and resale certificates for a minimum of four years following the completion of the last sale that is covered by the certificate.`
+  },
+  {
+    id: 203,
+    topic: "State-Specific Laws",
+    question: `What is the primary purpose of a "resale certificate" under Rule 3.285?`,
+    options: ["It allows a purchaser to avoid paying sales tax on items they intend to consume personally.", "It allows a purchaser who holds a Texas sales and use tax permit to buy taxable items tax-free if they intend to resell, lease, or rent the items in the normal course of business.", "It allows an auctioneer to waive the buyer's premium for wholesale buyers.", "It provides a blanket exemption for all agricultural machinery."],
+    correctAnswer: 1,
+    explanation: `A purchaser who holds a Texas sales and use tax permit may issue a resale certificate instead of paying tax at the time of purchase of a taxable item that the purchaser intends to resell, lease, rent...`
+  },
+  {
+    id: 204,
+    topic: "State-Specific Laws",
+    question: `When calculating and collecting state sales tax, what practice is strictly PROHIBITED by Rule 3.286 regarding the statutory bracket system?`,
+    options: ["Calculating the tax based on the total sale rather than individual items.", "Rounding off the amount of sales or use tax that is due on the sale of a taxable item.", "Displaying the bracket system in the place of business.", "Collecting the tax in cash."],
+    correctAnswer: 1,
+    explanation: `Each seller must collect sales or use tax... in accordance with the statutory bracket system... The practice of rounding off the amount of sales or use tax that is due on the sale of a taxable item is prohibited.`
+  },
+  {
+    id: 205,
+    topic: "State-Specific Laws",
+    question: `If a buyer purchases two items at the same time for $0.07 each, how must the seller apply the sales tax under Rule 3.286?`,
+    options: ["The tax is applied to each item separately, resulting in zero tax due to the low individual price.", "The sales tax applies to the total sale sum of $0.14, not to each individual item.", "The seller must round the total to $0.15 before calculating the tax.", "Items under $0.10 are permanently exempt from Texas sales tax."],
+    correctAnswer: 1,
+    explanation: `The sales and use tax applies to each total sale, not to each item of each sale. For example, if two items are purchased at the same time and each item is sold for $.07, then the seller must collect the tax on the total sum of $.14.`
+  },
+  {
+    id: 206,
+    topic: "State-Specific Laws",
+    question: `What happens under Rule 3.286 if a seller under-collects sales tax from a purchaser using the bracket system?`,
+    options: ["The seller is absolved of the difference, provided they used the bracket chart in good faith.", "The Texas Comptroller must seek the difference directly from the purchaser.", "The seller is required to remit sales and use tax on the total receipts even though the seller did not collect the full tax from the purchasers.", "The transaction is voided, and the goods must be returned."],
+    correctAnswer: 2,
+    explanation: `When the sales and use tax collected under the bracket system is less than the sales and use tax due on the seller's total receipts, the seller is required to remit sales and use tax on the total receipts even though the seller did not collect sales and use tax from the purchasers.`
+  },
+  {
+    id: 207,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.286, a permit holder who reports less than what amount in state sales and use tax per quarter is permitted to file their tax returns on a quarterly basis rather than monthly?`,
+    options: ["$500", "$1,000", "$1,500", "$5,000"],
+    correctAnswer: 2,
+    explanation: `Permit holders who have less than $1,500 in state sales and use tax per quarter to report may file sales and use tax returns quarterly.`
+  },
+  {
+    id: 208,
+    topic: "State-Specific Laws",
+    question: `To qualify as a "Yearly Filer" for sales tax, a permit holder must have less than what amount in state sales and use tax to report during a calendar year?`,
+    options: ["$500", "$1,000", "$1,500", "$3,000"],
+    correctAnswer: 1,
+    explanation: `Permit holders who have less than $1,000 in state sales and use tax to report during a calendar year may file yearly sales and use tax returns upon`
+  },
+  {
+    id: 209,
+    topic: "State-Specific Laws",
+    question: `What happens if a permit holder authorized to file yearly suddenly accrues a state sales and use tax liability greater than $1,000 during the calendar year?`,
+    options: ["They must pay a 15% penalty at the end of the year.", "Authority to file on a yearly basis is automatically revoked, and they must file a return for the month or quarter in which the liability exceeded $1,000.", "They may continue to file yearly but lose their timely filing discount.", "They must immediately surrender their auctioneer license."],
+    correctAnswer: 1,
+    explanation: `Authority to file on a yearly basis is automatically revoked if a permit holder's state sales and use tax liability is greater than $1,000 during a calendar year.`
+  },
+  {
+    id: 210,
+    topic: "State-Specific Laws",
+    question: `As reimbursement for the expense of collecting and remitting sales and use tax, the comptroller offers a timely filing discount equal to what percentage of the tax due?`,
+    options: ["0.5%", "1.0%", "2.5%", "5.0%"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The discount is equal to 0.5% of the amount of sales and use tax due and may be claimed on the return for each reporting period.`
   },
   {
-    id: 1118,
-    topic: 'Auction Math',
-    question: `A secured debt is $21,000. Collateral sells at auction for $13,200. Sale costs are $840. What deficiency remains?`,
-    options: ["$8,640", "$7,800", "$12,360", "$0"],
+    id: 211,
+    topic: "State-Specific Laws",
+    question: `When making a sales tax prepayment under Rule 3.286, what constitutes a "reasonable estimate" of the tax liability?`,
+    options: ["At least 50% of the anticipated total amount due.", "An amount equal to exactly $1,500.", "At least 90% of the total amount due OR an amount equal to the actual net tax liability paid for the same reporting period of the previous year.", "At least 110% of the prior year's liability."],
+    correctAnswer: 2,
+    explanation: `"Reasonable estimate" means at least 90% of the total amount due or an amount equal to the actual net tax liability due and paid for the same reporting period of the immediately preceding year.`
+  },
+  {
+    id: 212,
+    topic: "State-Specific Laws",
+    question: `The Texas Comptroller is required by Tax Code §111.0046 to refuse to issue a sales and use tax permit to a person who:`,
+    options: ["Has been licensed as an auctioneer for less than one year.", "Operates exclusively as an itinerant vendor or kiosk operator.", "Is currently delinquent in the payment of any tax or fee collected by the comptroller.", "Cannot provide a $10,000 surety bond."],
+    correctAnswer: 2,
+    explanation: `The comptroller is required... to refuse to issue any sales and use tax permit to a person who... is currently delinquent in the payment of any tax or fee collected by the comptroller.`
+  },
+  {
+    id: 213,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.286, a sales and use tax permit is deemed "abandoned" and may be cancelled by the comptroller if the holder:`,
+    options: ["Fails to report any business activity (zero total sales, zero taxable sales, zero purchases) in the previous calendar year.", "Moves their primary place of business to a new county.", "Requests an extension on filing a quarterly return.", "Fails to utilize their 0.5% filing discount."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Any holder of a sales and use tax permit who reported no business activity in the previous calendar year is deemed to have abandoned the sales and use tax permit... "No business activity" means zero total sales, zero taxable sales, and zero taxable purchases.`
   },
   {
-    id: 1119,
-    topic: 'Auction Math',
-    question: `A secured debt is $21,500. Collateral sells at auction for $13,550. Sale costs are $860. What deficiency remains?`,
-    options: ["$8,810", "$7,950", "$12,690", "$0"],
+    id: 214,
+    topic: "State-Specific Laws",
+    question: `According to Rule 3.287 regarding exemption certificates, what is the default legal presumption concerning the gross receipts of a seller?`,
+    options: ["They are presumed exempt from sales tax if sold at a public auction.", "They are presumed subject to sales or use tax unless a valid and properly completed resale or exemption certificate is accepted by the seller.", "They are presumed to be wholesale transactions.", "They are presumed taxable only if they exceed $500."],
+    correctAnswer: 1,
+    explanation: `All gross receipts of a seller are presumed subject to sales or use tax unless a valid and properly completed resale or exemption certificate is accepted by the seller.`
+  },
+  {
+    id: 215,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.296 regarding agricultural exemptions, for machinery and equipment used by an agricultural cooperative to be exempt from sales tax, the comptroller must determine that:`,
+    options: ["The cooperative has at least 50 members.", "The equipment is used primarily to maintain private driveways.", "The cooperative itself is the original producer of all the agricultural products being processed, packed, or marketed.", "The cooperative is chartered by the federal government."],
+    correctAnswer: 2,
+    explanation: `Machinery and equipment exclusively used... by an agricultural cooperative... are not exempt unless the comptroller determines that: (A) the cooperative itself is the original producer of all the agricultural products...`
+  },
+  {
+    id: 216,
+    topic: "State-Specific Laws",
+    question: `Which of the following items qualifies as exempt "equipment" for agricultural production under Rule 3.296?`,
+    options: ["Hand tools, baling wire, and binders twine.", "Golf carts and dirt bikes used to check fences.", "Computers and software used for personal accounting.", "Furniture for the farm's main office."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The terms machinery or equipment include: (1) expendable supplies, such as hand tools, baling wire and binders twine.`
   },
   {
-    id: 1120,
-    topic: 'Auction Math',
-    question: `A secured debt is $22,000. Collateral sells at auction for $13,900. Sale costs are $880. What deficiency remains?`,
-    options: ["$8,980", "$8,100", "$13,020", "$0"],
+    id: 217,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.296, are fenceposts, gates, and cattleguards purchased by a commercial greenhouse to prevent public trespassing exempt from sales tax?`,
+    options: ["Yes, because a commercial greenhouse is an agricultural entity.", "Yes, all fencing is permanently exempt in Texas.", "No, these items purchased by commercial operations for the purpose of preventing trespassing by the public do not qualify for exemption.", "No, unless they are purchased with a maquiladora permit."],
+    correctAnswer: 2,
+    explanation: `These items purchased by persons operating commercial nurseries and greenhouses... for the purpose of preventing trespassing by the public do not qualify for exemption from tax. (Whereas fences used in connection with raising livestock are exempt).`
+  },
+  {
+    id: 218,
+    topic: "State-Specific Laws",
+    question: `For a storage facility on a farm to qualify for a sales tax exemption as agricultural equipment, it MUST be:`,
+    options: ["Used generally to store both farm produce and tractors.", "Specifically designed for and used ONLY to store bulk fungible commodities.", "A temporary, portable structure.", "Located within 100 feet of a processing plant."],
+    correctAnswer: 1,
+    explanation: `General purpose facilities... do not qualify. Only those facilities that cannot be used for any purpose other than the storage of fungible goods qualify as farm equipment.`
+  },
+  {
+    id: 219,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.296, which of the following structures is considered an item of equipment or machinery necessary for agricultural production, and therefore exempt from sales tax?`,
+    options: ["A general storage barn used for sheltering equipment.", "A commercial automated laying house.", "A residential home used by the farm manager.", "A concrete road built to access the farm."],
+    correctAnswer: 1,
+    explanation: `...a building or structure that is essentially an item of equipment... For example, automated laying houses, farrowing houses, and commercial greenhouses.`
+  },
+  {
+    id: 220,
+    topic: "Ethics and Professional Conduct",
+    question: `According to Rule 3.305, what is the criminal penalty for a seller who advertises to the public that they will absorb or refund any portion of the sales tax (e.g., "We Pay the Tax!")?`,
+    options: ["A Class C misdemeanor with a fine up to $2,000.", "A felony punishable by 1 year in state jail.", "A misdemeanor punishable by a fine of not more than $500 for each occurrence.", "It is not a criminal offense, only an administrative violation."],
+    correctAnswer: 2,
+    explanation: `A seller commits an offense if the seller directly or indirectly advertises... that the seller will assume, absorb, or refund any portion of the tax... This offense is a misdemeanor punishable by a fine of not more than $500 for each occurrence.`
+  },
+  {
+    id: 221,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.311 defining responsibilities for auctioneers regarding sales tax, who is generally responsible for collecting and remitting the tax due on taxable items sold at auction?`,
+    options: ["The original owner of the property.", "The auctioneer.", "The buyer must remit it directly to the state.", "The county clerk."],
+    correctAnswer: 1,
+    explanation: `An auctioneer is responsible for collecting and remitting to the comptroller any tax due on the sale of taxable items sold at auction by the auctioneer.`
+  },
+  {
+    id: 222,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.311, an auctioneer is NOT considered a seller responsible for the collection of sales tax if they meet ALL of the following criteria EXCEPT:`,
+    options: ["They do not receive payment for the item sold.", "They do not issue a bill of sale or invoice to the purchaser.", "They do not issue a check or other remittance to the owner of the item.", "They do not hold an active auctioneer license from the TDLR."],
+    correctAnswer: 3,
+    explanation: `The exception to tax collection responsibility applies if the auctioneer: does not receive payment, does not issue a bill of sale/invoice, and does not issue a check/remittance to the owner. Licensure status does not negate tax responsibility.`
+  },
+  {
+    id: 223,
+    topic: "State-Specific Laws",
+    question: `Which of the following items are explicitly listed in Rule 3.311 as EXEMPT from sales tax when sold at auction, and thus the auctioneer should not collect tax on them?`,
+    options: ["Antiques, fine art, and jewelry.", "Motor vehicles, real property, and livestock.", "Heavy machinery, office equipment, and electronics.", "Clothing, household goods, and tools."],
+    correctAnswer: 1,
+    explanation: `An auctioneer should not collect tax on the sale of items that are exempt from sales tax such as motor vehicles, real property, or livestock.`
+  },
+  {
+    id: 224,
+    topic: "State-Specific Laws",
+    question: `If the original owner of a taxable item bids on and subsequently reclaims their own property at an auction, is sales tax due on that transaction?`,
+    options: ["Yes, because a competitive bid was placed.", "Yes, but at a discounted rate of 0.5%.", "No, sales tax is not due on a sale of a taxable item when the owner of the item subsequently reclaims the property at the auction.", "No, but the auctioneer must still pay the tax out of pocket."],
+    correctAnswer: 2,
+    explanation: `Sales tax is not due on a sale of a taxable item when the owner of the item subsequently reclaims the property at the auction.`
+  },
+  {
+    id: 225,
+    topic: "Bidding Procedures",
+    question: `An individual applying for an auctioneer license who will act ONLY as a bid caller (never receiving payment or invoicing buyers) needs proof that no sales tax permit is required. What document can they request from the comptroller?`,
+    options: ["A Certificate of Good Standing.", "A Maquiladora Export Permit.", "A Letter of Waiver.", "A 501(c)(3) Exemption Form."],
+    correctAnswer: 2,
+    explanation: `A person, who is seeking an auctioneer's license and requires a letter of waiver as proof no sales tax permit is required, may request a letter of waiver from the comptroller.`
+  },
+  {
+    id: 226,
+    topic: "Contract Law",
+    question: `What happens to a "Letter of Waiver" for sales tax if the auctioneer's business model changes and they begin taking payments and invoicing buyers directly?`,
+    options: ["The letter remains valid for 4 years from the date of issue.", "The letter of waiver is only valid so long as there is no change in the fact situation as originally presented to the comptroller; the change invalidates it.", "The auctioneer must pay a $500 transfer fee.", "The letter automatically converts into a standard sales and use tax permit."],
+    correctAnswer: 1,
+    explanation: `A letter of waiver is valid only so long as there is no change in the fact situation as originally presented to the comptroller.`
+  },
+  {
+    id: 227,
+    topic: "State-Specific Laws",
+    question: `Under Rule 3.358, what is a "Maquiladora enterprise"?`,
+    options: ["A business entity chartered by the Texas government to export agricultural goods.", "A business entity chartered by the government of the United Mexican States and authorized to make duty-free imports of materials into Mexico for processing and export.", "Any auction company operating within 50 miles of the Texas-Mexico border.", "A charitable organization exempt from both US and Mexican taxes."],
+    correctAnswer: 1,
+    explanation: `Maquiladora enterprise means a business entity chartered by the government of the United Mexican States and authorized by that government to make duty-free imports of raw materials... into Mexico to be used in manufacturing... primarily for export from Mexico.`
+  },
+  {
+    id: 228,
+    topic: "State-Specific Laws",
+    question: `What must a Maquiladora enterprise provide to the Texas Comptroller when applying for a maquiladora export permit to make tax-free purchases in Texas?`,
+    options: ["A $10,000 cash deposit.", "Copies of their maquiladora authorization form issued by the Mexican Secretaria De Comercio Y Fomento Industrial.", "A US Federal Firearms License.", "A detailed inventory of every item they intend to purchase in Texas over the next year."],
+    correctAnswer: 1,
+    explanation: `The applicant must provide copies of their maquiladora authorization form issued by the Mexican Secretaria De Comercio Y Fomento Industrial showing the number by which they are listed...`
+  },
+  {
+    id: 229,
+    topic: "State-Specific Laws",
+    question: `Once issued by the Texas Comptroller, how long is a maquiladora export permit valid?`,
+    options: ["It expires annually on December 31st.", "It is valid for 4 years to match the record retention period.", "It is valid until canceled by either the maquiladora enterprise or the comptroller.", "It must be renewed prior to every individual auction purchase."],
+    correctAnswer: 2,
+    explanation: `The comptroller will issue at no charge a numbered maquiladora export permit which will be valid until canceled by either the maquiladora enterprise or the comptroller.`
+  },
+  {
+    id: 230,
+    topic: "State-Specific Laws",
+    question: `Under the sales tax rules, if a seller is processing a transaction and the buyer wishes to use a credit card instead of cash, the seller:`,
+    options: ["May impose a surcharge to cover the exact cost of the credit card processing fee.", "May not impose a surcharge on a buyer who uses a credit card for an extension of credit instead of cash or a check.", "Must offer a 0.5% discount to match the state timely filing discount.", "May impose a surcharge, but only if they are an agricultural cooperative."],
+    correctAnswer: 1,
+    explanation: `Under Sec. 604A.0021, in a sale of goods or services, a seller may not impose a surcharge on a buyer who uses a credit card for an extension of credit instead of cash, a check, or a similar means of payment.`
+  },
+  {
+    id: 231,
+    topic: "State-Specific Laws",
+    question: `Which of the following entities is explicitly EXEMPT from the law prohibiting the imposition of a surcharge for the use of a credit card?`,
+    options: ["A licensed Texas auctioneer.", "A wholesale fur dealer.", "A private school that accepts a credit card for the payment of fees.", "An out-of-state motor vehicle dealer."],
+    correctAnswer: 2,
+    explanation: `The prohibition does not apply to a state agency, county, local governmental entity, or a private school that accepts a credit card for the payment of fees or other charges.`
+  },
+  {
+    id: 232,
+    topic: "State-Specific Laws",
+    question: `Under the recent legislative changes (HB 4416) to the Texas Occupations Code Chapter 1802, what is the current maximum total payment allowed from the Auctioneer Education and Recovery Fund for claims against a single auctioneer arising from a single auction?`,
+    options: ["$15,000", "$30,000", "$100,000", "$350,000"],
+    correctAnswer: 2,
+    explanation: `The total payment of claims against a single auctioneer arising from a single auction may not exceed $100,000.`
+  },
+  {
+    id: 233,
+    topic: "Licensing Requirements",
+    question: `If the balance of the Auctioneer Education and Recovery Fund falls below $350,000, each license holder must pay a pro rata share or an additional $50 fee at their next license renewal. Under the updated statute, on what specific date is this balance evaluated each year?`,
+    options: ["January 1", "August 31", "September 1", "December 31"],
+    correctAnswer: 1,
+    explanation: `The date at which the balance in the fund is evaluated to determine if it is less than $350,000 was changed from December 31 to August 31.`
+  },
+  {
+    id: 234,
+    topic: "Bidding Procedures",
+    question: `Under the Texas Administrative Code (16 TAC § 67.72), what level of supervision is strictly required when an associate auctioneer is actively bid calling?`,
+    options: ["The sponsoring auctioneer must be available by phone within 30 minutes.", "The sponsoring auctioneer must provide direct, on-premises supervision.", "The sponsoring auctioneer must review the associate's clerk sheets within 24 hours.", "The associate auctioneer may bid call independently if they have participated in at least 5 previous auctions."],
+    correctAnswer: 1,
+    explanation: `When bid calling, an associate auctioneer must be under the direct on-premises supervision of the sponsoring auctioneer.`
+  },
+  {
+    id: 235,
+    topic: "Licensing Requirements",
+    question: `If an applicant for a Texas auctioneer license fails the required license examination twice within a one-year period, what is the mandatory waiting period before they may reapply?`,
+    options: ["30 days", "6 months", "1 year from the date of the second failure", "2 years from the date of the initial application"],
+    correctAnswer: 2,
+    explanation: `If the applicant fails the examination twice during a one-year period, the applicant may not reapply for one year from the date of the second failure.`
+  },
+  {
+    id: 236,
+    topic: "Licensing Requirements",
+    question: `According to the Texas Occupations Code § 1802.052, an individual can be exempt from taking the written auctioneer examination if they can show proof of employment as a licensed associate auctioneer for at least two years and participation in at least how many auctions during that employment?`,
+    options: ["5 auctions", "10 auctions", "15 auctions", "20 auctions"],
+    correctAnswer: 1,
+    explanation: `An individual is eligible for an auctioneer's license without an examination if they show proof of employment as a licensed associate auctioneer for at least two years and participation in at least 10 auctions during that employment.`
+  },
+  {
+    id: 237,
+    topic: "Licensing Requirements",
+    question: `Under the legislative changes brought by HB 4416, how is a non-resident applicant currently handled regarding "Licensing by Reciprocity" in Texas?`,
+    options: ["They must surrender their out-of-state license to receive a Texas license.", "The specific statutory section for \"Licensing by Reciprocity\" (1802.059) was repealed, but non-residents must still submit a written irrevocable consent to service of process.", "They are automatically granted a license if their home state borders Texas.", "They are strictly prohibited from receiving a Texas license unless they establish a physical business address in the state."],
+    correctAnswer: 1,
+    explanation: `Section 1802.059 regarding Licensing by Reciprocity was repealed, but the law retains provisions requiring a nonresident applicant to submit a written irrevocable consent to service of process with the license application.`
+  },
+  {
+    id: 238,
+    topic: "Record Keeping",
+    question: `Under 16 TAC § 67.70 (Auctioneer Standards of Practice), unless otherwise stipulated in a written contract, how many banking days does an auctioneer have to pay all amounts due to the seller or consignor after the auction?`,
+    options: ["3 banking days", "5 banking days", "10 banking days", "15 banking days"],
+    correctAnswer: 3,
+    explanation: `Each licensed auctioneer must pay all amounts due the seller or consignor within fifteen banking days of the auction unless otherwise required by statute or a written contract.`
+  },
+  {
+    id: 239,
+    topic: "Record Keeping",
+    question: `According to 16 TAC § 67.70, an auctioneer must deposit all funds belonging to others into a separate trust or escrow account in a federally insured bank or savings and loan association within what time frame?`,
+    options: ["By the close of the next business day", "Within 48 hours of the auction", "Within 72 hours of the auction", "Within 7 calendar days"],
+    correctAnswer: 2,
+    explanation: `An auctioneer must deposit all proceeds from an auction into the trust or escrow account within seventy-two hours of the auction unless the owner is paid immediately or the contract stipulates other terms.`
+  },
+  {
+    id: 240,
+    topic: "Auction Basics",
+    question: `The Texas Auctioneer Advisory Board advises the commission on educational matters and industry practices. Under current statutes, what is the term length for members of the Auctioneer Advisory Board?`,
+    options: ["Two-year terms", "Four-year terms", "Six-year staggered terms", "Lifetime appointments"],
+    correctAnswer: 2,
+    explanation: `Advisory board members serve six-year terms that expire on September 1 of each odd-numbered year.`
+  },
+  {
+    id: 241,
+    topic: "Licensing Requirements",
+    question: `A licensed auctioneer who intends to charge a buyer's premium at an auction must disclose this condition and the amount of the premium in which of the following?`,
+    options: ["Only verbally at the start of the auction.", "Only on the final settlement sheets.", "Exclusively on the auctioneer's website.", "In all advertising for the auction."],
+    correctAnswer: 3,
+    explanation: `An auctioneer who intends to charge a buyer's premium at an auction must state this condition and the amount of the buyer's premium in all advertising for the auction.`
+  },
+  {
+    id: 242,
+    topic: "Licensing Requirements",
+    question: `Which of the following actions constitutes a Class D administrative violation under the TDLR Enforcement Plan, carrying the heaviest penalty range of $3,500 to $5,000 and/or revocation?`,
+    options: ["Failing to report a change of address within 30 days.", "Allowing an unlicensed auctioneer to call bids.", "Commingling funds of another with own funds.", "Using or permitting the use of false bidders (shill bidding)."],
+    correctAnswer: 3,
+    explanation: `Using or permitting the use of false bidders is categorized as a Class D violation.`
+  },
+  {
+    id: 243,
+    topic: "Record Keeping",
+    question: `Under Texas Occupations Code § 1802.121 (Written Contracts), before any auction occurs, the auctioneer and the client must agree in writing to an itemized inventory of the property. If an amendment to this inventory is needed, how must it be executed?`,
+    options: ["It can be agreed upon verbally if witnessed by a third party.", "It must be in writing and signed only by the auctioneer.", "It must be in writing and signed by both parties.", "It must be filed with the TDLR prior to the sale."],
+    correctAnswer: 2,
+    explanation: `An amendment to the inventory must be in writing and signed by both parties.`
+  },
+  {
+    id: 244,
+    topic: "Licensing Requirements",
+    question: `If the TDLR determines that a claim from the Auctioneer Education and Recovery Fund should be paid, but the auctioneer disputes the amount, to which entity is the matter referred for a hearing?`,
+    options: ["The State Office of Administrative Hearings (SOAH)", "The Texas Supreme Court", "The Attorney General's Consumer Protection Division", "The Auctioneer Advisory Board"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `If the amount determined by TDLR is disputed by the auctioneer, TDLR must refer the matter to the State Office of Administrative Hearings for a hearing on the disputed claim.`
   },
   {
-    id: 1121,
-    topic: 'Auction Math',
-    question: `A secured debt is $22,500. Collateral sells at auction for $14,250. Sale costs are $900. What deficiency remains?`,
-    options: ["$9,150", "$8,250", "$13,350", "$0"],
+    id: 245,
+    topic: "State-Specific Laws",
+    question: `Under the definitions in Texas Occupations Code § 1802.001, what constitutes a "recurring basis" for someone engaged in the business of selling property at auction?`,
+    options: ["More than once every 3 months.", "More than once every 6 months.", "More than once every 12 months.", "More than once every 24 months."],
+    correctAnswer: 3,
+    explanation: `"Recurring basis" means more than once every 24 months.`
+  },
+  {
+    id: 246,
+    topic: "Licensing Requirements",
+    question: `When an auctioneer's license is revoked because the executive director makes a payment from the Recovery Fund, the auctioneer is generally ineligible for a new license until what condition is met?`,
+    options: ["A mandatory five-year waiting period has passed.", "The auctioneer completes an additional 80 hours of auction school.", "The auctioneer has repaid in full the amount paid from the fund, including interest.", "The auctioneer submits a $50,000 surety bond to the state."],
+    correctAnswer: 2,
+    explanation: `An auctioneer or associate auctioneer is not eligible for a new license until they have repaid in full the amount paid from the fund on the auctioneer's account, including interest.`
+  },
+  {
+    id: 247,
+    topic: "Licensing Requirements",
+    question: `According to 16 TAC § 67.25 (Continuing Education), how long is a licensee required to retain a copy of the certificate of completion for a continuing education course?`,
+    options: ["6 months after the date of completion", "1 year after the date of completion", "2 years after the date of completion", "4 years after the date of completion"],
+    correctAnswer: 1,
+    explanation: `A licensee must retain a copy of the certificate of completion for a course for one year after the date of completion.`
+  },
+  {
+    id: 248,
+    topic: "State-Specific Laws",
+    question: `Which of the following scenarios is explicitly EXEMPT from the licensing requirements of the Texas Auctioneers Law (Chapter 1802)?`,
+    options: ["An online-only auction where there is no live bid caller.", "A foreclosure sale of real property conducted by an independent auction firm hired by the bank.", "An auction of heavy machinery conducted by a licensed out-of-state auctioneer operating physically in Texas.", "An absolute auction of personal property exceeding $50,000 in value."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `An auction of property by live bid call, if the property is solely bid upon through the internet, is not subject to this chapter, and this chapter does not apply to a person providing an online platform to facilitate an auction.`
   },
   {
-    id: 1122,
-    topic: 'Auction Math',
-    question: `A secured debt is $23,000. Collateral sells at auction for $14,600. Sale costs are $920. What deficiency remains?`,
-    options: ["$9,320", "$8,400", "$13,680", "$0"],
+    id: 249,
+    topic: "Licensing Requirements",
+    question: `Under the TDLR Enforcement Plan, what is the penalty classification for an auctioneer who commingles the funds of another with their own funds?`,
+    options: ["Class A", "Class B", "Class C", "Class D"],
+    correctAnswer: 2,
+    explanation: `Commingling funds of another with own funds is classified as a Class C violation.`
+  },
+  {
+    id: 250,
+    topic: "State-Specific Laws",
+    question: `According to Occupations Code § 1802.205 regarding the payment of a claim from the Recovery Fund, the amount of actual damages paid to an aggrieved party may NOT include which of the following?`,
+    options: ["The hammer price of the item in dispute.", "The buyer's premium paid.", "Attorney's fees, speculative damages, or lost profits.", "State sales tax paid on the item."],
+    correctAnswer: 2,
+    explanation: `The amount of actual damages may not include attorney's fees, speculative damages, or lost profits.`
+  },
+  {
+    id: 251,
+    topic: "Licensing Requirements",
+    question: `Before beginning an auction, a licensee must announce or display a notice containing all of the following information EXCEPT:`,
+    options: ["That the auctioneer conducting the sale is licensed by the department.", "The terms and conditions of the sale, including whether a buyer's premium will be assessed.", "Whether the owner, consignor, or agent thereof has reserved the right to bid.", "The starting bid amounts for every item in the auction."],
+    correctAnswer: 3,
+    explanation: `A licensee must ensure the announcement of or display notice that the auctioneer is licensed by the department, the terms and conditions including buyer's premium, and if the owner or consignor has reserved the right to bid.`
+  },
+  {
+    id: 252,
+    topic: "Record Keeping",
+    question: `If an auctioneer uses a "sight draft" as a method of payment from a buyer, how does this affect the standard 72-hour rule for depositing proceeds into a trust or escrow account?`,
+    options: ["The proceeds must still be deposited within 72 hours, regardless of the payment method.", "The auctioneer is exempt from the 72-hour rule if the written contract stipulates other terms, such as sight drafts.", "The time limit is extended to 15 banking days automatically.", "Sight drafts are strictly prohibited in Texas auctions."],
+    correctAnswer: 1,
+    explanation: `Proceeds must be deposited within seventy-two hours unless the owner is paid immediately after the sale or the written contract stipulates other terms, such as sight drafts.`
+  },
+  {
+    id: 253,
+    topic: "Licensing Requirements",
+    question: `When a sponsoring auctioneer terminates the sponsorship of an associate auctioneer, the sponsor must provide signed documentation to the associate detailing their experience. Which of the following must be included in this documentation?`,
+    options: ["A recommendation letter regarding the associate's moral character.", "The total dollar volume of the auctions the associate participated in.", "The date and location of up to ten (10) auctions bid called by the associate, and specific tasks performed.", "Proof that the associate paid the sponsoring auctioneer's state fees."],
+    correctAnswer: 2,
+    explanation: `An auctioneer who terminates sponsorship must provide signed documentation showing the beginning and ending date of sponsorship, the date and location of up to ten auctions bid called by the associate, and the specific auction business tasks performed.`
+  },
+  {
+    id: 254,
+    topic: "Licensing Requirements",
+    question: `Under Texas Occupations Code § 1802.051, an individual licensed as an auctioneer may act as an auctioneer for an entity in which of the following circumstances?`,
+    options: ["If the entity is any out-of-state corporation.", "If the entity is an auction company owned or operated by an individual who is licensed under this chapter.", "If the entity is an un-licensed antique dealership.", "If the entity is a wholesale furniture manufacturer."],
+    correctAnswer: 1,
+    explanation: `An individual who is licensed under this chapter may not act as an auctioneer for an entity unless the entity is an auction company owned or operated by an individual who is licensed under this chapter, or meets other specific exceptions like a real estate brokerage.`
+  },
+  {
+    id: 255,
+    topic: "State-Specific Laws",
+    question: `If a claim is paid from the Recovery Fund against an auctioneer, and the auctioneer signs a reimbursement agreement with the department, what is the annual interest rate that accrues on the unpaid principal?`,
+    options: ["4 percent", "5 percent", "8 percent", "10 percent"],
+    correctAnswer: 2,
+    explanation: `The auctioneer must reimburse the Fund at the applicable rate plus the interest accrued on the unpaid principal during the prior month at the rate of 8 percent per year.`
+  },
+  {
+    id: 256,
+    topic: "Licensing Requirements",
+    question: `What is the standard application fee for an initial Associate Auctioneer license in Texas?`,
+    options: ["$25", "$50", "$75", "$100"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The application fee for an associate auctioneer license is $25.`
   },
   {
-    id: 1123,
-    topic: 'Auction Math',
-    question: `A secured debt is $23,500. Collateral sells at auction for $14,950. Sale costs are $940. What deficiency remains?`,
-    options: ["$9,490", "$8,550", "$14,010", "$0"],
+    id: 257,
+    topic: "Licensing Requirements",
+    question: `Under the Texas Administrative Code, how many hours of continuing education must an auctioneer complete to renew their license, and how many of those hours must be dedicated to laws and rules?`,
+    options: ["4 total hours, with 1 hour of laws and rules.", "6 total hours, with 2 hours of laws and rules.", "8 total hours, with 4 hours of laws and rules.", "10 total hours, with 2 hours of laws and rules."],
+    correctAnswer: 1,
+    explanation: `A licensee must complete six hours of continuing education, including two hours of instruction in laws and rules that regulate the conduct of auctioneers.`
+  },
+  {
+    id: 258,
+    topic: "State-Specific Laws",
+    question: `Which of the following describes the doctrine of "Subrogation" as it applies to the Auctioneer Education and Recovery Fund under § 1802.208?`,
+    options: ["The TDLR assumes the auctioneer's debts if the auctioneer declares bankruptcy.", "The auctioneer waives their right to an administrative hearing.", "If TDLR pays a claim against an auctioneer, TDLR acquires all rights of the aggrieved party against the auctioneer to the extent of the amount paid.", "The aggrieved party is permanently barred from filing a civil lawsuit."],
+    correctAnswer: 2,
+    explanation: `If TDLR pays a claim against an auctioneer, TDLR is subrogated to all rights of the aggrieved party against the auctioneer to the extent of the amount paid to the aggrieved party.`
+  },
+  {
+    id: 259,
+    topic: "Bidding Procedures",
+    question: `An auctioneer's advertisement contains the wording "many lots are without reserve," but some lots do have a minimum bid. What is the legal requirement for the title of this auction?`,
+    options: ["The auction may be titled an \"absolute auction\" as long as 50% of the lots are without reserve.", "The auction may not be titled, headed, or called an \"absolute\" or \"without reserve\" auction unless all lots meet the criteria.", "The auctioneer must place a disclaimer at the bottom of the ad in 14-point font.", "The auction must be titled a \"forced sale.\""],
+    correctAnswer: 1,
+    explanation: `The auction may not be titled, headed or called an 'absolute' or 'without reserve' auction unless all lots meet the criteria, though advertising may include the wording 'many lots are without reserve'.`
+  },
+  {
+    id: 260,
+    topic: "Licensing Requirements",
+    question: `If an auctioneer has their license placed on 'inactive' status pursuant to Texas Occupations Code § 51.4011, what is their requirement regarding continuing education (CE)?`,
+    options: ["They must complete half the normal CE hours (3 hours).", "They are not required to complete continuing education until they seek to change to 'active' status.", "They must pay a $250 fee in lieu of completing CE.", "They must complete 12 hours of CE upon renewal."],
+    correctAnswer: 1,
+    explanation: `A licensee whose license has been placed on inactive status is not required to complete continuing education as required by this section until the licensee seeks to change to 'active' status.`
+  },
+  {
+    id: 261,
+    topic: "Licensing Requirements",
+    question: `Under the TDLR Enforcement Plan, failing to furnish the department with the website or social media pages of an auction company owned or operated by the auctioneer is classified as a:`,
+    options: ["Class A Violation", "Class B Violation", "Class C Violation", "Class D Violation"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Failing to furnish to the Department the name, addresses, website, or social media pages, and phone numbers of all auction companies is a Class A violation.`
   },
   {
-    id: 1124,
-    topic: 'Auction Math',
-    question: `A secured debt is $24,000. Collateral sells at auction for $15,300. Sale costs are $960. What deficiency remains?`,
-    options: ["$9,660", "$8,700", "$14,340", "$0"],
+    id: 262,
+    topic: "Contract Law",
+    question: `Under the pre-licensure education requirements, an applicant must show proof of successful completion of at least how many hours of classroom instruction at an approved auction school?`,
+    options: ["40 hours", "60 hours", "80 hours", "120 hours"],
+    correctAnswer: 2,
+    explanation: `An applicant must show proof of successful completion of at least eighty hours of classroom instruction at an auction school with a curriculum approved by the department.`
+  },
+  {
+    id: 263,
+    topic: "Licensing Requirements",
+    question: `According to Occupations Code § 1802.301, what is the criminal penalty classification for a person who acts as an auctioneer without a license?`,
+    options: ["Class C Misdemeanor", "Class B Misdemeanor", "Class A Misdemeanor", "State Jail Felony"],
+    correctAnswer: 1,
+    explanation: `A person commits an offense if the person acts as an auctioneer without a license, and an offense under this section is a Class B misdemeanor.`
+  },
+  {
+    id: 264,
+    topic: "State-Specific Laws",
+    question: `A person institutes a claim against the Recovery Fund that they know is false, intending to harm the auctioneer. Under Texas Occupations Code § 1802.302, this action is:`,
+    options: ["Subject only to civil dismissal.", "A Class C administrative violation.", "A Class B misdemeanor offense for instituting a frivolous or false claim.", "Considered perjury and prosecuted as a felony."],
+    correctAnswer: 2,
+    explanation: `A person commits an offense if they institute under this chapter a frivolous suit or a claim that the person knows is false, which is a Class B misdemeanor.`
+  },
+  {
+    id: 265,
+    topic: "Licensing Requirements",
+    question: `Which of the following pieces of information MUST be included on the mandatory consumer notification provided by licensed auctioneers to direct complaints to the department?`,
+    options: ["The auctioneer's personal home address.", "The TDLR's name, mailing address, telephone number, and website.", "The name of the Governor of Texas.", "The current balance of the Recovery Fund."],
+    correctAnswer: 1,
+    explanation: `All licensed auctioneers shall notify consumers of the department's name, mailing address, telephone number, and website for purposes of directing complaints to the department.`
+  },
+  {
+    id: 266,
+    topic: "Licensing Requirements",
+    question: `In the process of an administrative hearing regarding a license denial or disciplinary action, the proceeding is formally considered a:`,
+    options: ["Contested case under Chapter 2001, Government Code.", "Criminal trial under the Penal Code.", "Mediation session under TDLR rules.", "Binding arbitration under the Federal Arbitration Act."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `A proceeding relating to a license denial or disciplinary action by TDLR under this chapter is a contested case under Chapter 2001 (Administrative Procedure), Government Code.`
   },
   {
-    id: 1125,
-    topic: 'Auction Math',
-    question: `A secured debt is $24,500. Collateral sells at auction for $15,650. Sale costs are $980. What deficiency remains?`,
-    options: ["$9,830", "$8,850", "$14,670", "$0"],
+    id: 267,
+    topic: "Licensing Requirements",
+    question: `To be eligible for an associate auctioneer license, an applicant must meet all of the following requirements EXCEPT:`,
+    options: ["Submit a completed application along with required fees.", "Be employed under the direct supervision of a licensed auctioneer.", "Be a citizen of the United States or a legal alien.", "Pass a written examination provided by the department."],
+    correctAnswer: 3,
+    explanation: `Passing a written examination is a requirement for a full auctioneer license, but it is not listed as a requirement for an associate auctioneer license.`
+  },
+  {
+    id: 268,
+    topic: "Licensing Requirements",
+    question: `According to 16 TAC § 67.70, how long must each licensed auctioneer keep records relative to all auctions?`,
+    options: ["A minimum of 1 year from the date of the sale.", "A minimum of 2 years from the date of the sale.", "A minimum of 4 years from the date of the sale.", "Indefinitely."],
+    correctAnswer: 1,
+    explanation: `Each licensed auctioneer shall keep records relative to all auctions for a minimum of two years from the date of the sale.`
+  },
+  {
+    id: 269,
+    topic: "Licensing Requirements",
+    question: `What is the fee to change an auctioneer license from 'inactive' status back to 'active' status?`,
+    options: ["No charge", "$25", "$50", "$100"],
+    correctAnswer: 1,
+    explanation: `The fee to change from 'inactive' status to 'active' status is $25.`
+  },
+  {
+    id: 270,
+    topic: "Licensing Requirements",
+    question: `According to the TDLR Enforcement Plan, failing to provide a party with a written contract with the terms of the agreement before the auction is classified as a:`,
+    options: ["Class A Violation", "Class B Violation", "Class C Violation", "Class D Violation"],
+    correctAnswer: 2,
+    explanation: `Failing to provide a party with a written contract with terms of the agreement is listed under Standards of Practice Violations as a Class C violation.`
+  },
+  {
+    id: 271,
+    topic: "State-Specific Laws",
+    question: `Under Occupations Code § 1802.003 regarding Preemption, a political subdivision of Texas (such as a city or county) is expressly prohibited from doing what?`,
+    options: ["Enforcing local zoning ordinances on auction houses.", "Requiring an auctioneer to pay a local license tax or fee as a regulatory or revenue measure.", "Inspecting the auction premises for fire code compliance.", "Imposing noise restrictions on outdoor auctions."],
+    correctAnswer: 1,
+    explanation: `A political subdivision of this state may not levy on or collect from an auctioneer a license tax or fee as a regulatory or revenue measure or require the licensing of an auctioneer.`
+  },
+  {
+    id: 272,
+    topic: "Licensing Requirements",
+    question: `In addition to the standard renewal fee, if the Auctioneer Education and Recovery Fund drops below $350,000, each license holder must pay an additional fee at their next renewal. What is the amount of this additional fee?`,
+    options: ["$15", "$25", "$50 or a pro rata share necessary to obtain a balance of $350,000.", "$100"],
+    correctAnswer: 2,
+    explanation: `Each license holder at the next license renewal shall pay, in addition to the renewal fee, a fee that is equal to the greater of $50 or a pro rata share of the amount necessary to obtain a balance in the fund of $350,000.`
+  },
+  {
+    id: 273,
+    topic: "Licensing Requirements",
+    question: `For an associate auctioneer to become eligible for full licensure without taking the examination, they must participate in at least ten auctions encompassing various aspects of the business. Which of the following is explicitly listed as one of these required aspects under 16 TAC § 67.72?`,
+    options: ["Selling real estate", "Lotting and clerking", "Firing a ringman", "Creating an LLC"],
+    correctAnswer: 1,
+    explanation: `The associate must participate in all aspects including appraising, inventorying, advertising, property make ready, site selection, lotting, registration, clerking, cashiering, bid-calling, etc.`
+  },
+  {
+    id: 274,
+    topic: "State-Specific Laws",
+    question: `Under the Texas Occupations Code, who serves as the manager of the Auctioneer Education and Recovery Fund?`,
+    options: ["The Texas Comptroller of Public Accounts", "The State Office of Administrative Hearings", "The Texas Department of Licensing and Regulation (TDLR)", "The Auctioneer Advisory Board"],
+    correctAnswer: 2,
+    explanation: `The department (TDLR) is the manager of the fund and shall maintain books and records as required.`
+  },
+  {
+    id: 275,
+    topic: "Licensing Requirements",
+    question: `A late renewal of an auctioneer license requires that the continuing education (CE) hours must have been completed within what specific timeframe?`,
+    options: ["During the standard active term of the expired license only.", "Within the one year period immediately prior to the date of renewal.", "Within 30 days after the late renewal application is submitted.", "CE is waived for late renewals subject to a penalty fee."],
+    correctAnswer: 1,
+    explanation: `For a late renewal, the continuing education hours must have been completed within the one year period immediately prior to the date of renewal.`
+  },
+  {
+    id: 276,
+    topic: "Licensing Requirements",
+    question: `What is the penalty range for a Class B administrative violation (such as performing as an auctioneer without a license) under the TDLR Enforcement Plan?`,
+    options: ["Warning to $1,500", "$1,000 to $3,000 and/or up to one-year full suspension", "$2,000 to $5,000 and/or up to revocation", "$3,500 up to $5,000 and/or revocation"],
+    correctAnswer: 1,
+    explanation: `The penalty range for a Class B violation is $1,000 to $3,000 and/or up to one-year full suspension.`
+  },
+  {
+    id: 277,
+    topic: "Record Keeping",
+    question: `An auctioneer's required records for each auction must include an itemized list of all expenses charged to whom?`,
+    options: ["The buyers", "The ringmen", "The consignor or seller", "The landlord of the auction venue"],
+    correctAnswer: 2,
+    explanation: `The records for each auction must state the name of the owners, gross proceeds, escrow account, and an itemized list of all expenses charged to the consignor or seller.`
+  },
+  {
+    id: 278,
+    topic: "Licensing Requirements",
+    question: `Under the updated Occupations Code (HB 4416), the TDLR or its executive director may take disciplinary action against an auctioneer for failing to account for or remit money OR what else belonging to another?`,
+    options: ["Marketing materials", "Unsold inventory (Property)", "Legal liabilities", "Tax deductions"],
+    correctAnswer: 1,
+    explanation: `Disciplinary action may be taken for failing to account for or remit, within a reasonable time, money or property belonging to another that is in the auctioneer's possession.`
+  },
+  {
+    id: 279,
+    topic: "State-Specific Laws",
+    question: `If an auctioneer has a $15,000 claim paid out of the Recovery Fund on their behalf, what is the maximum monthly installment percentage they must pay if the principal owed is over $3,000 and no specific agreement is reached?`,
+    options: ["20%", "10%", "5%", "3%"],
+    correctAnswer: 3,
+    explanation: `If an agreement is not reached, monthly installments shall be determined as a percentage of the initial principal amount, which is 3% for amounts $3,000.01 and over.`
+  },
+  {
+    id: 280,
+    topic: "Bidding Procedures",
+    question: `An auctioneer conducts an auction strictly online where there is NO live bid caller. Is this individual required to hold a Texas Auctioneer License for this event?`,
+    options: ["Yes, all auctions in Texas require a license.", "Yes, if the gross sales exceed $10,000.", "No, because internet auctions without a live bid call are exempt from the statute.", "No, but they must register as an Associate Auctioneer."],
+    correctAnswer: 2,
+    explanation: `An auction of property by live bid call, if the property is solely bid upon through the internet, is not subject to this chapter and is exempt.`
+  },
+  {
+    id: 281,
+    topic: "Personal Property",
+    question: `To act as an auctioneer for an entity selling motor vehicles without the auctioneer holding a dealer general distinguishing number themselves, the auctioneer must be conducting the auction for a person who holds what?`,
+    options: ["A valid 501(c)(3) tax exemption.", "A dealer general distinguishing number or a wholesale motor vehicle auction general distinguishing number.", "A real estate broker's license.", "A commercial driver's license."],
+    correctAnswer: 1,
+    explanation: `An individual licensed under this chapter may conduct an auction to sell motor vehicles for a person who holds a dealer general distinguishing number or a wholesale motor vehicle auction general distinguishing number.`
+  },
+  {
+    id: 282,
+    topic: "Personal Property",
+    question: `Under general auction practices and U.S. customs laws, an item is strictly classified as an "Antique" if it meets which of the following criteria?`,
+    options: ["It was manufactured prior to 1898.", "It has been appraised by a USPAP-certified appraiser as having historical significance.", "It was created or produced at least 100 years before the date of purchase.", "It was manufactured in a former period and is no longer in commercial production."],
+    correctAnswer: 2,
+    explanation: `According to U.S. customs laws and general auction definitions, an antique is any work of art, piece of furniture, decorative object, or the like, created or produced in a former period, or at least 100 years before the date of purchase.`
+  },
+  {
+    id: 283,
+    topic: "Auction Basics",
+    question: `In the context of an auction, the term "Conditions of Sale" is best described as:`,
+    options: ["The physical state of the property being offered (e.g., mint, good, fair, or poor).", "The legal terms that govern the auction, including acceptable payment terms, buyer’s premiums, possession/removal of goods, and whether the auction is absolute or reserve.", "A bank letter of guarantee ensuring the buyer has sufficient funds to participate.", "The formal appraisal document provided to bidders prior to the auction."],
+    correctAnswer: 1,
+    explanation: `The "Conditions of sale" are the legal terms that govern an auction, including acceptable payment terms, buyer’s premiums, possession and removal of goods (including storage), absolute or reserve auction, and other agreed-upon terms.`
+  },
+  {
+    id: 284,
+    topic: "Auction Basics",
+    question: `Which of the following correctly distinguishes a "Buyer's Premium" from a "Commission"?`,
+    options: ["A buyer's premium is charged to the seller based on the gross selling price, while a commission is added to the hammer price.", "A buyer's premium is a percentage of the high bid added to the hammer price of an item, whereas a commission is the fee charged to the seller by the auctioneer for providing services.", "A buyer's premium is an upfront deposit paid to register for the auction, while a commission is paid post-auction.", "There is no difference; both terms legally refer to the auctioneer's total gross compensation."],
+    correctAnswer: 1,
+    explanation: `A buyer’s premium is a percentage of the high bid added to the “hammer price” of an item. A commission is the fee charged to the seller by the auctioneer for providing services, usually established by the Listing Agreement.`
+  },
+  {
+    id: 285,
+    topic: "Bidding Procedures",
+    question: `In general auction practice, what is the primary purpose of requiring a "Deposit" from bidders, particularly on higher-valued property?`,
+    options: ["To cover the auctioneer's marketing and advertising expenses.", "To legally bind the seller to an absolute auction format.", "To prepay the state sales tax on the anticipated hammer price.", "To discourage casual or unqualified bidders."],
+    correctAnswer: 3,
+    explanation: `A deposit is a sum of money paid by the bidder for the privilege of bidding or as a percentage of the purchase price. It is commonly used to discourage casual or unqualified bidders. Unused deposits are returned at the end of the auction.`
+  },
+  {
+    id: 286,
+    topic: "Personal Property",
+    question: `When cataloging fine art or historical artifacts for an auction, documenting the "Provenance" is critical. What does this term legally and practically establish?`,
+    options: ["The baseline replacement value for insurance purposes.", "The place or source of origin and the history of ownership.", "The specific period of furniture design (e.g., Victorian vs. Edwardian).", "The amount the bid is expected to increase by during live outcry."],
+    correctAnswer: 1,
+    explanation: `Provenance refers to the place or source of origin; the history of ownership of an item.`
+  },
+  {
+    id: 287,
+    topic: "Personal Property",
+    question: `Congress adopted the USPAP in 1989 to establish professional standards for the industry. What does USPAP stand for?`,
+    options: ["United States Personal Asset Protection", "Uniform Standards of Professional Appraisal Practice", "Universal Sales and Property Auction Procedures", "Unified State Practices for Auction Professionals"],
+    correctAnswer: 1,
+    explanation: `USPAP stands for Uniform Standards of Professional Appraisal Practice, which contains standards for all types of appraisal services, including real estate, personal property, business, and mass appraisal.`
+  },
+  {
+    id: 288,
+    topic: "Personal Property",
+    question: `According to established auction industry practices regarding agricultural sales, what is generally considered the most advantageous month for selling consignment farm equipment?`,
+    options: ["February", "April", "August", "November"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The study guide explicitly notes: "The best month for selling consignment farm equipment is February."`
   },
   {
-    id: 1126,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1127,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1128,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1129,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1130,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1131,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1132,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1133,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1134,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1135,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1136,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1137,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1138,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1139,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1140,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1141,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1142,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1143,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1144,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1145,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1146,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1147,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1148,
-    topic: 'Auction Basics',
-    question: `All aspects of a collateral disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Free of notice requirements", "Tax exempt"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1149,
-    topic: 'Auction Basics',
-    question: `Collateral is best defined as:`,
-    options: ["Buyer premium", "Property subject to a security interest", "Auction license", "Sales tax"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1150,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `After default, a secured party may dispose of collateral by:`,
-    options: ["Only private sale", "Public or private sale, including auction", "Only court sale", "Never"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1151,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 521 primarily governs:`,
-    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1152,
-    topic: 'State-Specific Laws',
-    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
-    options: ["10 days", "30 days", "60 days", "1 year"],
+    id: 289,
+    topic: "Auction Basics",
+    question: `When an auctioneer is contracted to liquidate an estate, it is vital to know who holds the legal authority to sign the contract. If the deceased individual died without a will (intestate), the court-appointed representative is properly referred to as the:`,
+    options: ["Executor", "Executrix", "Administrator", "Trustee"],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `The person appointed to handle an estate when there is no will is called an administrator. (A person appointed to administer an estate with a will is an executor/executrix).`
   },
   {
-    id: 1153,
-    topic: 'Auction Basics',
-    question: `Sensitive personal information includes:`,
-    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
+    id: 290,
+    topic: "Personal Property",
+    question: `In livestock auction terminology, how is a "grade" animal defined?`,
+    options: ["An animal that has been certified by the USDA for prime meat quality.", "An animal with unknown ancestry or that has mixed ancestry.", "An animal that has been tested for diseases prior to transport off the farm.", "A purebred animal registered with a specific breed association."],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `A "grade" animal has unknown ancestry or has mixed ancestry.`
   },
   {
-    id: 1154,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 604A prohibits:`,
-    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1155,
-    topic: 'Auction Basics',
-    question: `A surcharge is best described as:`,
-    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1156,
-    topic: 'Bidding Procedures',
-    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
-    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1157,
-    topic: 'Auction Math',
-    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
-    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1158,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$6,000", "$6,600", "$6,675", "$6,825"],
+    id: 291,
+    topic: "Personal Property",
+    question: `When auctioning registered cattle, the estimated value is primarily based upon which of the following factors?`,
+    options: ["The animal's physical size and total weight.", "The animal's age and horn length.", "The animal's reproduction capabilities and history.", "The current market price of commercial beef."],
     correctAnswer: 2,
-    explanation: ``
+    explanation: `The value of registered cattle is estimated based on reproduction, not on their size.`
   },
   {
-    id: 1159,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$6,250", "$6,875", "$6,950", "$7,100"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1160,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$6,500", "$7,150", "$7,225", "$7,375"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1161,
-    topic: 'Auction Math',
-    question: `Hammer price is $6,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$6,750", "$7,425", "$7,500", "$7,650"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1162,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$7,000", "$7,700", "$7,775", "$7,925"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1163,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$7,250", "$7,975", "$8,050", "$8,200"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1164,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$7,500", "$8,250", "$8,325", "$8,475"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1165,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$7,750", "$8,525", "$8,600", "$8,750"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1166,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$8,000", "$8,800", "$8,875", "$9,025"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1167,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$8,250", "$9,075", "$9,150", "$9,300"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1168,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$8,500", "$9,350", "$9,425", "$9,575"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1169,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$8,750", "$9,625", "$9,700", "$9,850"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1170,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$9,000", "$9,900", "$9,975", "$10,125"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1171,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$9,250", "$10,175", "$10,250", "$10,400"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1172,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$9,500", "$10,450", "$10,525", "$10,675"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1173,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$9,750", "$10,725", "$10,800", "$10,950"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1174,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,000. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$10,000", "$11,000", "$11,075", "$11,225"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1175,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,250. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$10,250", "$11,275", "$11,350", "$11,500"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1176,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,500. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$10,500", "$11,550", "$11,625", "$11,775"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1177,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,750. Buyer premium is 10%. A flat clerking fee of $75 applies. Total due (ignore tax)?`,
-    options: ["$10,750", "$11,825", "$11,900", "$12,050"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1178,
-    topic: 'Auction Math',
-    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
-    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
+    id: 292,
+    topic: "Record Keeping",
+    question: `In auction team operations, which individual is specifically charged with recording the auction sales, noting what is being sold, tracking who bought it, and recording the final price paid?`,
+    options: ["The Ringman", "The Auction Clerk", "The Associate Auctioneer", "The Cashier"],
     correctAnswer: 1,
-    explanation: ``
+    explanation: `The auction clerk is the person charged with recording auction sales, what is being sold, who bought it, and the price paid.`
   },
   {
-    id: 1179,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 521 primarily governs:`,
-    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1180,
-    topic: 'State-Specific Laws',
-    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
-    options: ["10 days", "30 days", "60 days", "1 year"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1181,
-    topic: 'Auction Basics',
-    question: `Sensitive personal information includes:`,
-    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1182,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 604A prohibits:`,
-    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1183,
-    topic: 'Auction Basics',
-    question: `A surcharge is best described as:`,
-    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1184,
-    topic: 'Bidding Procedures',
-    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
-    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1185,
-    topic: 'Auction Math',
-    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
-    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1186,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 521 primarily governs:`,
-    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1187,
-    topic: 'State-Specific Laws',
-    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
-    options: ["10 days", "30 days", "60 days", "1 year"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1188,
-    topic: 'Auction Basics',
-    question: `Sensitive personal information includes:`,
-    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1189,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 604A prohibits:`,
-    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1190,
-    topic: 'Auction Basics',
-    question: `A surcharge is best described as:`,
-    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1191,
-    topic: 'Bidding Procedures',
-    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
-    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1192,
-    topic: 'Auction Math',
-    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
-    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1193,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 521 primarily governs:`,
-    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1194,
-    topic: 'State-Specific Laws',
-    question: `After determining a breach occurred, Texas law generally requires notice no later than:`,
-    options: ["10 days", "30 days", "60 days", "1 year"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1195,
-    topic: 'Auction Basics',
-    question: `Sensitive personal information includes:`,
-    options: ["Item lot number", "Social Security or driver\u2019s license number", "Hammer price only", "Auction chant notes"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1196,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 604A prohibits:`,
-    options: ["Cash discounts", "Certain credit card surcharges", "Buyer registration", "Seller commissions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1197,
-    topic: 'Auction Basics',
-    question: `A surcharge is best described as:`,
-    options: ["Buyer premium", "Extra fee for credit card payment", "Sales tax", "Deposit"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1198,
-    topic: 'Bidding Procedures',
-    question: `An auction company stores bidder SSNs insecurely and they are stolen. The company must:`,
-    options: ["Ignore unless asked", "Provide breach notification under Chapter 521", "Cancel all auctions permanently", "Raise buyer premiums"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1199,
-    topic: 'Auction Math',
-    question: `Charging buyers an extra 3% only when they use a credit card may violate:`,
-    options: ["UCC 2.328", "Chapter 604A surcharge prohibition", "Wildlife regulations", "Article 9 collateral rules"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1200,
-    topic: 'State-Specific Laws',
-    question: `Texas Chapter 521 primarily governs:`,
-    options: ["Livestock auctions", "Unauthorized use of identifying information and breach notification", "Buyer premiums", "Reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1201,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
-    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1202,
-    topic: 'Auction Basics',
-    question: `Auctioning a manufactured home requires attention to:`,
-    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1203,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
-    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1204,
-    topic: 'Auction Basics',
-    question: `Selling protected wildlife at auction without authorization may lead to:`,
-    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1205,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
-    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1206,
-    topic: 'Auction Math',
-    question: `If an auctioneer collects sales tax, they must:`,
-    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1207,
-    topic: 'Auction Basics',
-    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
-    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1208,
-    topic: 'Auction Basics',
-    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
-    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1209,
-    topic: 'Auction Math',
-    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
-    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1210,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,000. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$7,560", "$7,840", "$8,400", "$8,650"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1211,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,300. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$7,884", "$8,176", "$8,760", "$9,010"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1212,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,600. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$8,208", "$8,512", "$9,120", "$9,370"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1213,
-    topic: 'Auction Math',
-    question: `Hammer price is $7,900. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$8,532", "$8,848", "$9,480", "$9,730"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1214,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,200. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$8,856", "$9,184", "$9,840", "$10,090"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1215,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,500. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$9,180", "$9,520", "$10,200", "$10,450"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1216,
-    topic: 'Auction Math',
-    question: `Hammer price is $8,800. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$9,504", "$9,856", "$10,560", "$10,810"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1217,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,100. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$9,828", "$10,192", "$10,920", "$11,170"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1218,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,400. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$10,152", "$10,528", "$11,280", "$11,530"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1219,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,700. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$10,476", "$10,864", "$11,640", "$11,890"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1220,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,000. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$10,800", "$11,200", "$12,000", "$12,250"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1221,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,300. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$11,124", "$11,536", "$12,360", "$12,610"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1222,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,600. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$11,448", "$11,872", "$12,720", "$12,970"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1223,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,900. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$11,772", "$12,208", "$13,080", "$13,330"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1224,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,200. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$12,096", "$12,544", "$13,440", "$13,690"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1225,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,500. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$12,420", "$12,880", "$13,800", "$14,050"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1226,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,800. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$12,744", "$13,216", "$14,160", "$14,410"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1227,
-    topic: 'Auction Math',
-    question: `Hammer price is $12,100. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$13,068", "$13,552", "$14,520", "$14,770"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1228,
-    topic: 'Auction Math',
-    question: `Hammer price is $12,400. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$13,392", "$13,888", "$14,880", "$15,130"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1229,
-    topic: 'Auction Math',
-    question: `Hammer price is $12,700. Buyer premium is 12%. Sales tax is 8% on hammer only. Total buyer cost?`,
-    options: ["$13,716", "$14,224", "$15,240", "$15,490"],
-    correctAnswer: 2,
-    explanation: ``
-  },
-  {
-    id: 1230,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
-    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1231,
-    topic: 'Auction Basics',
-    question: `Selling protected wildlife at auction without authorization may lead to:`,
-    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1232,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
-    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1233,
-    topic: 'Auction Math',
-    question: `If an auctioneer collects sales tax, they must:`,
-    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1234,
-    topic: 'Auction Basics',
-    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
-    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1235,
-    topic: 'Auction Basics',
-    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
-    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1236,
-    topic: 'Auction Math',
-    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
-    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1237,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
-    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1238,
-    topic: 'Auction Basics',
-    question: `Auctioning a manufactured home requires attention to:`,
-    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1239,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
-    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1240,
-    topic: 'Auction Basics',
-    question: `Selling protected wildlife at auction without authorization may lead to:`,
-    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1241,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
-    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1242,
-    topic: 'Auction Math',
-    question: `If an auctioneer collects sales tax, they must:`,
-    options: ["Keep no records", "Remit collected tax according to state requirements", "Refund tax automatically", "Ignore out-of-state buyers"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1243,
-    topic: 'Auction Basics',
-    question: `An auctioneer sells a manufactured home but fails to provide proper title paperwork. This is most connected to:`,
-    options: ["UCC 2.328 only", "Manufactured housing administrative compliance", "Wildlife regulations", "Credit surcharge law"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1244,
-    topic: 'Auction Basics',
-    question: `An auction includes rare animal specimens. Before selling, the auctioneer should:`,
-    options: ["Ignore wildlife law", "Confirm legality under Texas wildlife regulations", "Charge extra premium", "Assume buyer responsibility only"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1245,
-    topic: 'Auction Math',
-    question: `Auctioneer collects sales tax on taxable goods. Best practice is to:`,
-    options: ["Spend immediately", "Hold separately and remit properly", "Never remit", "Remove tax line"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1246,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 10 Chapter 80 relates to:`,
-    options: ["Identity theft", "Manufactured housing regulations", "Buyer premiums", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1247,
-    topic: 'Auction Basics',
-    question: `Auctioning a manufactured home requires attention to:`,
-    options: ["Only bidder registration", "Proper title transfer and TDHCA compliance", "Ignoring installation rules", "No documentation"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1248,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 31 Chapter 65 primarily governs:`,
-    options: ["Credit card fees", "Wildlife and conservation rules", "Auction increments", "Bankruptcy sales"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1249,
-    topic: 'Auction Basics',
-    question: `Selling protected wildlife at auction without authorization may lead to:`,
-    options: ["Automatic exemption", "Regulatory penalties", "License renewal bonus", "No consequences"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1250,
-    topic: 'State-Specific Laws',
-    question: `Texas Administrative Code Title 34 Chapter 3 addresses:`,
-    options: ["Auction chant rules", "Tax administration and collection duties", "Identity theft", "Alcohol permits"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1251,
-    topic: 'Contract Law',
-    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
-    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1252,
-    topic: 'Bidding Procedures',
-    question: `Shill bidding is:`,
-    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1253,
-    topic: 'Auction Basics',
-    question: `Client funds should be handled by:`,
-    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1254,
-    topic: 'Bidding Procedures',
-    question: `If a bidder dispute occurs, the auctioneer should:`,
-    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1255,
-    topic: 'Ethics and Professional Conduct',
-    question: `If an auctioneer has a conflict of interest, they should:`,
-    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1256,
-    topic: 'Auction Math',
-    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1257,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `A secured party sells collateral at auction after default. The disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1258,
-    topic: 'Bidding Procedures',
-    question: `Bids may generally be retracted until:`,
-    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1259,
-    topic: 'State-Specific Laws',
-    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
-    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
-    correctAnswer: 1,
-    explanation: ``
-  },
-  {
-    id: 1260,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$7,650", "$9,000", "$1,350", "$8,150"],
+    id: 293,
+    topic: "Personal Property",
+    question: `When evaluating antique furniture for an upcoming estate auction, an auctioneer notes that an item was created during the "William and Mary" period. What specific date range does this period encompass?`,
+    options: ["1700 - 1725", "1725 - 1760", "1837 - 1901", "1900 - 1915"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `One of the earliest periods of American furnishings is William and Mary; 1700-1725.`
   },
   {
-    id: 1261,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$7,990", "$9,400", "$1,410", "$8,490"],
+    id: 294,
+    topic: "Personal Property",
+    question: `The Queen Anne period of art and furnishings is highly sought after by collectors. What years does the Queen Anne period cover?`,
+    options: ["1700 - 1725", "1725 - 1760", "1837 - 1901", "1924 - 1935"],
+    correctAnswer: 1,
+    explanation: `The Queen Anne period of furnishings and art was between the years of 1725 to 1760.`
+  },
+  {
+    id: 295,
+    topic: "Personal Property",
+    question: `The Arts and Crafts Period of furniture, characterized by simple, functional design, is also historically referred to as the:`,
+    options: ["Victorian period (1837-1901)", "Edwardian period (1900-1915)", "Art Deco period (1924-1935)", "William and Mary period (1700-1725)"],
+    correctAnswer: 1,
+    explanation: `The Arts and Crafts Period is also known as the Edwardian period; 1900-1915.`
+  },
+  {
+    id: 296,
+    topic: "Personal Property",
+    question: `When determining the age and origin of an antique clock, what is generally the most reliable indicator used by auctioneers and appraisers?`,
+    options: ["The type of wood used for the casing.", "The style of the clock hands.", "The material the gears are made from.", "The maker's name."],
+    correctAnswer: 3,
+    explanation: `Most clocks cannot be dated simply by the material they are made from; rather, they can be dated by the maker's name.`
+  },
+  {
+    id: 297,
+    topic: "Personal Property",
+    question: `"Folk art" is a specific category of artwork frequently sold at auction. What is the defining characteristic of folk art?`,
+    options: ["It is made exclusively from recycled or found materials.", "It is produced strictly between the years of 1900 and 1915.", "It is made by people with little to no formal training.", "It depicts early American landscapes."],
+    correctAnswer: 2,
+    explanation: `Folk art is a form of artwork characterized as such because it was made by people with little to no formal training.`
+  },
+  {
+    id: 298,
+    topic: "Personal Property",
+    question: `During an automobile auction, a vehicle is driven across the block while a "Yellow Light" is illuminated on the auction stand. What does this light communicate to the bidders?`,
+    options: ["The vehicle is sold completely \"As-Is\" and buyer beware.", "The vehicle has a salvage title that cannot be registered for highway use.", "Defects are being announced by the seller, and the bidder has a right to inspect.", "The vehicle has not yet met its reserve price."],
+    correctAnswer: 2,
+    explanation: `A yellow light at an automobile auction means defects are announced by the seller, and the bidder has a right to inspect.`
+  },
+  {
+    id: 299,
+    topic: "Personal Property",
+    question: `Conversely, what does a "Red Light" illuminated during an auto auction signify to the bidding audience?`,
+    options: ["Bidding is currently paused for a floor dispute.", "The vehicle is sold \"As-is; buyer beware.\"", "The vehicle has known mechanical defects but carries a limited 30-day warranty.", "The auctioneer has rejected the current bid increment."],
+    correctAnswer: 1,
+    explanation: `A red light at an automobile auction means "As-is; buyer beware."`
+  },
+  {
+    id: 300,
+    topic: "Auction Basics",
+    question: `An auctioneer is hired to liquidate assets. Which of the following legal instruments is correctly matched with the type of property it transfers?`,
+    options: ["A deed is used to transfer personal property, while a title transfers real property.", "A bill of sale is used to transfer personal property, while a deed is used to transfer real property.", "A title is the sole document used to voluntarily convey real estate.", "A bill of sale is used for real property, while a quit claim deed is used for personal chattels."],
+    correctAnswer: 1,
+    explanation: `A bill of sale is used to transfer personal property. A deed is the instrument used to transfer real property. A title is evidence of ownership of a property (like a car or intangible asset).`
+  },
+  {
+    id: 301,
+    topic: "Real Estate Auctions",
+    question: `When auctioning real estate, which type of deed passes the property with absolutely no warranty of title to the buyer?`,
+    options: ["General warranty deed", "Special warranty deed", "Quit claim deed", "Deed of trust"],
+    correctAnswer: 2,
+    explanation: `A quit claim deed passes real property with no warranty at all. (A general warranty deed provides the passing of the best title by warranting the title).`
+  },
+  {
+    id: 302,
+    topic: "Auction Basics",
+    question: `If an auctioneer is contracted by a court to conduct a Chapter 7 bankruptcy liquidation auction, what is the practical nature of a Chapter 7 proceeding?`,
+    options: ["The debtor repays the debt over 3 to 5 years under a court-ordered plan.", "The debtor’s business is reorganized while they continue to operate it.", "The debtor's debt is practically discharged, assets are liquidated, and creditors often get little to nothing.", "The debtor’s assets are placed into a blind trust for 10 years."],
+    correctAnswer: 2,
+    explanation: `A Chapter 7 bankruptcy, practically speaking, discharges the debt owed and creditors get little to nothing. It is a liquidation, unlike a Chapter 13 or Chapter 11 which involve repayment plans.`
+  },
+  {
+    id: 303,
+    topic: "Personal Property",
+    question: `In the cattle industry and livestock auctions, what does the term "sleeving" refer to?`,
+    options: ["Tagging an animal's ear with an electronic identification number.", "Testing a cow for pregnancy.", "Transporting cattle in divided livestock trailers.", "Removing the horns from a mature bull."],
+    correctAnswer: 1,
+    explanation: `"Sleeving" is a term used in the cattle industry used to test for pregnancy.`
+  },
+  {
+    id: 304,
+    topic: "State-Specific Laws",
+    question: `When a mother cow and her unweaned calf are brought into the auction ring to be sold together, how is the pricing unit structured?`,
+    options: ["They are sold by the pair (the bid is multiplied by two).", "They are sold by the total combined weight of both animals.", "They are sold by the head, as a single unit.", "The mother is sold by weight, and the calf is thrown in for free."],
+    correctAnswer: 2,
+    explanation: `A mother and her calf are sold by the head, as a unit. (The study guide specifically notes it is False that they are sold by the pair).`
+  },
+  {
+    id: 305,
+    topic: "Personal Property",
+    question: `An auctioneer is selling cattle destined for slaughter. What is the mandatory withdrawal period for cattle that have been administered hormones prior to slaughter?`,
+    options: ["At least 7 days", "At least 15 days", "At least 21 days", "At least 30 days"],
+    correctAnswer: 2,
+    explanation: `Cattle that will be slaughtered must be off hormones for at least 21 days.`
+  },
+  {
+    id: 306,
+    topic: "Personal Property",
+    question: `To be marketed and sold as "Certified Angus" beef at a livestock market, the cattle must meet specific physical and genetic criteria. What are these requirements?`,
+    options: ["They must be red and have at least 50% Angus genetics.", "They must be black and have at least 10% Angus in their genetic makeup.", "They must be black and have 100% purebred Angus genetics.", "They must be white-faced and have at least 25% Angus genetics."],
+    correctAnswer: 1,
+    explanation: `Certified Angus must be black and have 10% of Angus in its genetic makeup.`
+  },
+  {
+    id: 307,
+    topic: "Personal Property",
+    question: `In the commercial beef market, what is a "steer cow"?`,
+    options: ["A mature male cow kept exclusively for breeding purposes.", "A young, neutered male cow primarily raised for beef.", "A female cow that has not yet borne a calf.", "A draft animal used for plowing or pulling wagons."],
+    correctAnswer: 1,
+    explanation: `A "steer cow" is a young, neutered male cow primarily raised for beef.`
+  },
+  {
+    id: 308,
+    topic: "Real Estate Auctions",
+    question: `When assessing property for potential environmental hazards prior to an auction, an auctioneer observes a 2-inch pipe erupting from the ground that is turned back down 180 degrees. What does this specific feature strongly indicate?`,
+    options: ["A capped artesian water well.", "The presence of underground storage tanks.", "An abandoned natural gas line.", "A modern geothermal heating system."],
+    correctAnswer: 1,
+    explanation: `A 2" pipe erupting from the ground that is turned back down 180 degrees is an indicator of underground storage tanks, which could be an environmental hazard.`
+  },
+  {
+    id: 309,
+    topic: "Real Estate Auctions",
+    question: `An auctioneer is hired to sell an older residential home and must ensure proper disclosures are made. If the home was built prior to what year must the auctioneer ensure lead-based paint disclosures are provided?`,
+    options: ["1968", "1978", "1986", "1992"],
+    correctAnswer: 1,
+    explanation: `Homes built before 1978 may have lead-based paint which can be toxic. Disclosure must be made in that case.`
+  },
+  {
+    id: 310,
+    topic: "Real Estate Auctions",
+    question: `Asbestos is frequently found in older buildings slated for auction or demolition. Under what specific condition is asbestos considered an active environmental hazard?`,
+    options: ["It is always considered an active hazard, regardless of its state.", "Only when it is located near a primary water source.", "Only if it is released from its material form or product (i.e., becomes friable).", "Only when it is subjected to temperatures exceeding 230 degrees Fahrenheit."],
+    correctAnswer: 2,
+    explanation: `Asbestos is only dangerous if it is released from its material form or product.`
+  },
+  {
+    id: 311,
+    topic: "Real Estate Auctions",
+    question: `An auctioneer is assessing a property that includes an older basement. The auctioneer should be aware of Radon. What is Radon?`,
+    options: ["A toxic, blue-colored vapor emitted by deteriorating lead pipes.", "A tasteless, odorless, invisible radioactive gas that is found in rocks and soil.", "A synthetic chemical historically used in spray-on insulation.", "A highly flammable gas created by decaying organic matter in septic systems."],
+    correctAnswer: 1,
+    explanation: `Radon is a tasteless, odorless, or invisible radioactive gas that is found in rocks and soil.`
+  },
+  {
+    id: 312,
+    topic: "State-Specific Laws",
+    question: `Under the Federal Firearms Act and ATF regulations, an auctioneer is asked to sell a collection of weapons. One item is a shotgun with a barrel length of 16 inches. How is this legally classified?`,
+    options: ["A standard hunting shotgun.", "An antique firearm.", "A short-barreled shotgun.", "A destructive device."],
+    correctAnswer: 2,
+    explanation: `A "short-barreled shotgun" means it has a barrel that is less than 18 inches long. (A short-barreled rifle has a barrel that is less than 16" long).`
+  },
+  {
+    id: 313,
+    topic: "State-Specific Laws",
+    question: `An auctioneer is contracted to sell a "sawed-off shotgun" as part of an estate. What is the legal status of selling this item at a public auction?`,
+    options: ["It is legal provided the buyer passes a standard NICS background check.", "It is legal only if the auction is conducted by a licensed FFL dealer.", "It cannot be legally sold.", "It can only be sold to active law enforcement personnel."],
+    correctAnswer: 2,
+    explanation: `A sawed-off shotgun cannot be legally sold.`
+  },
+  {
+    id: 314,
+    topic: "Contract Law",
+    question: `Under the Uniform Commercial Code (UCC) regarding Secured Transactions (Chapter 9), what is the definition of "Collateral"?`,
+    options: ["The interest rate applied to a purchase-money obligation.", "Anything of value that a borrower pledges as security.", "A specialized bank account used to hold earnest money.", "The formal written contract between a debtor and an auctioneer."],
+    correctAnswer: 1,
+    explanation: `The definition of "collateral" is anything of value that a borrower pledges as security.`
+  },
+  {
+    id: 315,
+    topic: "Contract Law",
+    question: `When reviewing a UCC financing statement to determine if property is encumbered before an auction, the statement is only considered "sufficient" if it contains which three elements?`,
+    options: ["The debtor's name, the secured party's name, and the property being used as security (collateral).", "The debtor's signature, the loan amount, and the collateral.", "The date of the loan, the interest rate, and the secured party's signature.", "The auctioneer's license number, the debtor's name, and the collateral."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `A sufficient financing statement must include: The name of the debtor, the name of the secured party, and the property being used as security (collateral).`
   },
   {
-    id: 1262,
-    topic: 'Auction Math',
-    question: `Hammer price is $9,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$8,330", "$9,800", "$1,470", "$8,830"],
+    id: 316,
+    topic: "Personal Property",
+    question: `In the context of livestock pricing, which of the following statements is generally true regarding the market value of steers versus bulls?`,
+    options: ["Steers sell for a higher price than bulls due to meat quality.", "Bulls sell for more than steers.", "Steers and bulls are priced identically based purely on weight.", "Bulls are sold exclusively by the pair, inflating their price."],
+    correctAnswer: 1,
+    explanation: `The study guide clarifies it is False that steers sell for a higher price than bulls. Bulls actually sell for more than steers.`
+  },
+  {
+    id: 317,
+    topic: "Auction Basics",
+    question: `Under Federal Rules of Bankruptcy Procedure (Rule 6005), who is explicitly ineligible to act as an appraiser or auctioneer for a bankruptcy estate?`,
+    options: ["Any auctioneer who does not reside in the state where the court is located.", "Any auctioneer who charges a buyer's premium exceeding 10%.", "Any officer or employee of the Judicial Branch of the United States or the U.S. Department of Justice.", "Any person who does not hold a federal firearms license."],
+    correctAnswer: 2,
+    explanation: `Rule 6005 states: "No officer or employee of the Judicial Branch of the United States or the United States Department of Justice shall be eligible to act as appraiser or auctioneer."`
+  },
+  {
+    id: 318,
+    topic: "Licensing Requirements",
+    question: `If an auctioneer takes possession of a collection of firearms, inventories them, tags them, and holds an auction where they earn a commission on the sale (a consignment-type auction), what is the ATF's requirement regarding licensure?`,
+    options: ["The auctioneer needs a Federal Firearms License (FFL) because they are \"engaging in the business\" of dealing in firearms.", "The auctioneer does not need an FFL because they do not take legal title to the firearms.", "The auctioneer only needs an FFL if they sell more than 50 firearms in a calendar year.", "No FFL is required if the auction is conducted on the auctioneer's licensed premises."],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `ATF Rule 96-2 holds that persons who regularly conduct consignment-type auctions where the auctioneer takes possession of the firearms and has exclusive right to sell them are "engaging in the business" and require a license as a dealer in firearms.`
   },
   {
-    id: 1263,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$8,670", "$10,200", "$1,530", "$9,170"],
+    id: 319,
+    topic: "State-Specific Laws",
+    question: `Conversely, if an auctioneer is hired to call bids at a widow's home for her deceased husband's estate, and the firearms remain in the physical possession and control of the estate executor until handed to the buyer, does the auctioneer need an FFL?`,
+    options: ["Yes, because the auctioneer is receiving a commission on the sale.", "Yes, because any transfer of a firearm at a public auction requires an FFL.", "No, because in an estate-type auction where the estate possesses and transfers the firearms, the auctioneer acts merely as an agent and is not \"engaging in the business.\"", "No, provided the firearms are strictly antiques made before 1898."],
+    correctAnswer: 2,
+    explanation: `ATF Rule 96-2 holds that persons who conduct estate-type auctions at which the auctioneer assists the estate, and the firearms are possessed and transferred by the estate, do not require a Federal firearms license.`
+  },
+  {
+    id: 320,
+    topic: "Consumer Protection",
+    question: `According to the Texas Deceptive Trade Practices Act (DTP`,
+    options: [", what does the legal concept of \"Caveat Emptor\" translate to? A) Let the seller beware.", "Buyer beware.", "Goods sold as-is.", "Without reserve."],
+    correctAnswer: 1,
+    explanation: `Caveat Emptor translates to "buyer beware."`
+  },
+  {
+    id: 321,
+    topic: "Personal Property",
+    question: `What are the most common types of woods used in making furniture that is considered "antique" and highly valued at auction?`,
+    options: ["Pine, cedar, and spruce", "Mahogany, teak, and balsa", "Cherry, walnut, and oak", "Maple, ash, and bamboo"],
+    correctAnswer: 2,
+    explanation: `The most common woods used in making furniture that is considered "antique" are cherry, walnut, and oak.`
+  },
+  {
+    id: 322,
+    topic: "Personal Property",
+    question: `In auctioneering practice, what does the phrase "Cattle on the rail" mean?`,
+    options: ["Cattle that are currently being transported via train.", "Carcasses hanging in a slaughterhouse.", "Cattle that have been loaded into the auction ring chutes.", "Cattle that are being held in reserve pending a higher bid."],
+    correctAnswer: 1,
+    explanation: `Cattle "on the rail" refers to carcasses hanging in a slaughterhouse.`
+  },
+  {
+    id: 323,
+    topic: "Personal Property",
+    question: `If livestock is sold "off the farm" rather than through a regulated auction market, what health requirement must generally be met before transport?`,
+    options: ["They must be quarantined for 30 days.", "They must be veterinary tested.", "They must be branded with a new owner's mark immediately.", "They must be weighed on a state-certified scale."],
+    correctAnswer: 1,
+    explanation: `Livestock sold off the farm must be veterinary tested.`
+  },
+  {
+    id: 324,
+    topic: "Real Estate Auctions",
+    question: `When a piece of property is owned under "Joint Tenancy," what specific legal right distinguishes it from being owned as "Tenants in Common"?`,
+    options: ["The right to partition the property.", "The right of survivorship.", "The right to sell a fractional interest without approval.", "The right to use the property as collateral."],
+    correctAnswer: 1,
+    explanation: `Joint tenancy has a right to survivorship, meaning if one owner dies, their interest automatically passes to the surviving joint tenant(s), unlike tenants in common.`
+  },
+  {
+    id: 325,
+    topic: "Real Estate Auctions",
+    question: `In real estate auction terminology, what is the highest quality and most absolute form of ownership a buyer can obtain?`,
+    options: ["Leasehold estate", "Life estate", "Fee simple", "Equitable title"],
+    correctAnswer: 2,
+    explanation: `Fee simple is the highest quality form of ownership in real estate.`
+  },
+  {
+    id: 326,
+    topic: "Bidding Procedures",
+    question: `According to general auction practice, what is the core skill a good bid caller must be intimately familiar with to smoothly advance the price?`,
+    options: ["Appraisal methodologies", "Number brackets", "Accounting software", "The UCC statutory code"],
+    correctAnswer: 1,
+    explanation: `A good bid caller is very familiar with number brackets, which allows them to accurately and rapidly advance the bid increments.`
+  },
+  {
+    id: 327,
+    topic: "Auction Basics",
+    question: `An individual is looking to file for bankruptcy and liquidate their assets through an auction. How often does the law generally permit an individual to file for bankruptcy?`,
+    options: ["Once every 3 years", "Once every 5 years", "Once every 7 years", "Once every 8 years"],
+    correctAnswer: 3,
+    explanation: `The study guide specifies that an individual may file bankruptcy once every 8 years.`
+  },
+  {
+    id: 328,
+    topic: "Personal Property",
+    question: `If an auctioneer is tasked with liquidating a retail business, the term "Chattel" will apply to the inventory. What is the legal definition of Chattel?`,
+    options: ["Any property that is attached to the land (fixtures).", "Anything that is not real property; personal property.", "Only intangible assets such as patents and trademarks.", "Goods that are strictly intended for resale."],
+    correctAnswer: 1,
+    explanation: `Chattel is defined as anything that is not real property; it is personal property.`
+  },
+  {
+    id: 329,
+    topic: "Personal Property",
+    question: `When evaluating the title of a vehicle for an upcoming auto auction, what distinguishes a "title" from a "bill of sale"?`,
+    options: ["A title is used exclusively for real property, while a bill of sale is used for vehicles.", "A title transfers personal property, while a bill of sale acts as a warranty.", "A title is evidence of ownership of a property (like a car or intangible asset), whereas a bill of sale is the instrument used to transfer personal property.", "There is no legal difference; the terms are interchangeable in auto auctions."],
+    correctAnswer: 2,
+    explanation: `A bill of sale is used to transfer personal property. A title is evidence of ownership of a property such as a car or intangible asset like a trademark.`
+  },
+  {
+    id: 330,
+    topic: "Personal Property",
+    question: `An auctioneer is examining a piece of heavy machinery manufactured in 1950. Is this machinery legally considered an "Antique" under standard U.S. customs laws?`,
+    options: ["Yes, because it is over 50 years old.", "Yes, because it is an industrial artifact.", "No, because it was not created or produced at least 100 years before the date of purchase.", "No, because machinery cannot be classified as an antique, only decorative objects."],
+    correctAnswer: 2,
+    explanation: `According to U.S. customs laws, an item must be created or produced 100 years before the date of purchase to be considered an antique.`
+  },
+  {
+    id: 331,
+    topic: "Contract Law",
+    question: `Under the Uniform Commercial Code (UCC 2.106), what is the specific definition of a "Present Sale"?`,
+    options: ["A sale where the buyer pays entirely in cash at the time of the bid.", "A sale which is accomplished by the making of the contract.", "A sale where the goods are physically delivered to the buyer within 24 hours.", "A sale conducted without any reserve price."],
+    correctAnswer: 1,
+    explanation: `A "present sale" means a sale which is accomplished by the making of the contract.`
+  },
+  {
+    id: 332,
+    topic: "Auction Math",
+    question: `A tractor sells for a hammer price of $15,000. The auctioneer’s commission is 12%. What is the seller's net?`,
+    options: ["$13,200", "$14,520", "$11,880", "$15,180"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$15,000 × 0.12 = $1,800. $15,000 - $1,800 = $13,200.`
   },
   {
-    id: 1264,
-    topic: 'Auction Math',
-    question: `Hammer price is $10,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$9,010", "$10,600", "$1,590", "$9,510"],
+    id: 333,
+    topic: "Auction Math",
+    question: `An estate collection sells for a total hammer price of $45,000. The commission rate is 15%, and the seller agreed to pay a $500 advertising fee. What is the seller's net?`,
+    options: ["$37,750", "$41,525", "$33,975", "$43,412.50"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$45,000 × 0.15 = $6,750. $45,000 - $6,750 - $500 = $37,750.`
   },
   {
-    id: 1265,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$9,350", "$11,000", "$1,650", "$9,850"],
+    id: 334,
+    topic: "Auction Math",
+    question: `A commercial oven sells for $3,200. The commission is 20%. What is the seller's net?`,
+    options: ["$2,560", "$2,816", "$2,304", "$2,944"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$3,200 × 0.20 = $640. $3,200 - $640 = $2,560.`
   },
   {
-    id: 1266,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$9,690", "$11,400", "$1,710", "$10,190"],
+    id: 335,
+    topic: "Auction Math",
+    question: `Real estate is auctioned for $250,000. The auctioneer charges a 6% commission and a flat $1,500 make-ready fee deducted from the seller. What is the seller's net?`,
+    options: ["$233,500", "$256,850", "$210,150", "$268,525"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$250,000 × 0.06 = $15,000. $250,000 - $15,000 - $1,500 = $233,500.`
   },
   {
-    id: 1267,
-    topic: 'Auction Math',
-    question: `Hammer price is $11,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$10,030", "$11,800", "$1,770", "$10,530"],
+    id: 336,
+    topic: "Auction Math",
+    question: `A painting sells for $850. Commission is 25%. What is the seller's net?`,
+    options: ["$637.50", "$701.25", "$573.75", "$733.12"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$850 × 0.25 = $212.50. $850 - $212.50 = $637.50.`
   },
   {
-    id: 1268,
-    topic: 'Auction Math',
-    question: `Hammer price is $12,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$10,370", "$12,200", "$1,830", "$10,870"],
+    id: 337,
+    topic: "Auction Math",
+    question: `A seller consigns jewelry that hammers for $12,500. The commission is 10%, and the seller is charged $250 for cataloging. What is the seller's net?`,
+    options: ["$11,000", "$12,100", "$9,900", "$12,650"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$12,500 × 0.10 = $1,250. $12,500 - $1,250 - $250 = $11,000.`
   },
   {
-    id: 1269,
-    topic: 'Auction Math',
-    question: `Hammer price is $12,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$10,710", "$12,600", "$1,890", "$11,210"],
+    id: 338,
+    topic: "Auction Math",
+    question: `Heavy machinery sells for $80,000. Commission is 8%. What is the seller's net?`,
+    options: ["$73,600", "$80,960", "$66,240", "$84,640"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$80,000 × 0.08 = $6,400. $80,000 - $6,400 = $73,600.`
   },
   {
-    id: 1270,
-    topic: 'Auction Math',
-    question: `Hammer price is $13,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$11,050", "$13,000", "$1,950", "$11,550"],
+    id: 339,
+    topic: "Auction Math",
+    question: `A lot of vintage toys hammers for $400. Commission is 30%. What is the seller's net?`,
+    options: ["$280", "$308", "$252", "$322"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$400 × 0.30 = $120. $400 - $120 = $280.`
   },
   {
-    id: 1271,
-    topic: 'Auction Math',
-    question: `Hammer price is $13,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$11,390", "$13,400", "$2,010", "$11,890"],
+    id: 340,
+    topic: "Auction Math",
+    question: `An entire farm liquidation brings $300,000 at the hammer. Commission is 5%, and the seller pays $2,000 for the tent and chairs. What is the seller's net?`,
+    options: ["$283,000", "$311,300", "$254,700", "$325,450"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$300,000 × 0.05 = $15,000. $300,000 - $15,000 - $2,000 = $283,000.`
   },
   {
-    id: 1272,
-    topic: 'Auction Math',
-    question: `Hammer price is $13,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$11,730", "$13,800", "$2,070", "$12,230"],
+    id: 341,
+    topic: "Auction Math",
+    question: `A seller consigns a boat that hammers for $8,000. Commission is 12%. What is the seller's net?`,
+    options: ["$7,040", "$7,744", "$6,336", "$8,096"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$8,000 × 0.12 = $960. $8,000 - $960 = $7,040.`
   },
   {
-    id: 1273,
-    topic: 'Auction Math',
-    question: `Hammer price is $14,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$12,070", "$14,200", "$2,130", "$12,570"],
+    id: 342,
+    topic: "Auction Math",
+    question: `A buyer purchases a registered bull for $4,000. The buyer's premium (BP) is 10%. Livestock is exempt from sales tax. What is the buyer's total?`,
+    options: ["$4,400", "$4,840", "$3,960", "$5,060"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$4,000 × 0.10 = $400. $4,000 + $400 = $4,400. [Rule 3.311]`
   },
   {
-    id: 1274,
-    topic: 'Auction Math',
-    question: `Hammer price is $14,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$12,410", "$14,600", "$2,190", "$12,910"],
+    id: 343,
+    topic: "Auction Math",
+    question: `A buyer purchases a parcel of land for $150,000. BP is 10%. Real property is tax-exempt. What is the buyer's total?`,
+    options: ["$165,000", "$181,500", "$148,500", "$189,750"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `$150,000 × 0.10 = $15,000. $150,000 + $15,000 = $165,000.`
   },
   {
-    id: 1275,
-    topic: 'Auction Math',
-    question: `Hammer price is $15,000. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$12,750", "$15,000", "$2,250", "$13,250"],
+    id: 344,
+    topic: "Auction Math",
+    question: `A buyer with a valid resale certificate buys $2,500 in inventory. BP is 15%. What is the buyer's total?`,
+    options: ["$2,875", "$3,162.50", "$2,587.50", "$3,306.25"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `The certificate waives the tax. 2,500+15375) = $2,875. [Rule 3.285]`
   },
   {
-    id: 1276,
-    topic: 'Auction Math',
-    question: `Hammer price is $15,400. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$13,090", "$15,400", "$2,310", "$13,590"],
+    id: 345,
+    topic: "Auction Math",
+    question: `A buyer purchases a used motor vehicle for $10,000. BP is 12%. Motor vehicles are exempt from sales tax at the auction level (paid later at the DMV). What does the buyer pay the auctioneer?`,
+    options: ["$11,200", "$12,320", "$10,080", "$12,880"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `10,000+121,200) = $11,200. [Rule 3.311]`
   },
   {
-    id: 1277,
-    topic: 'Auction Math',
-    question: `Hammer price is $15,800. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$13,430", "$15,800", "$2,370", "$13,930"],
+    id: 346,
+    topic: "Auction Math",
+    question: `The original owner of a guitar bids on and reclaims their own item for a hammer price of $1,000. BP is 10%. What is their total?`,
+    options: ["$1,100", "$1,210", "$990", "$1,265"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `Under Rule 3.311, sales tax is not due when the owner reclaims their own property. $1,000 + $100 BP = $1,100.`
   },
   {
-    id: 1278,
-    topic: 'Auction Math',
-    question: `Hammer price is $16,200. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$13,770", "$16,200", "$2,430", "$14,270"],
+    id: 347,
+    topic: "Auction Math",
+    question: `A buyer purchases a dining set for $2,000. BP is 10%. Sales tax is 8.25%. What is the buyer's total?`,
+    options: ["$2,381.50", "$2,619.65", "$2,143.35", "$2,738.72"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `2,000+10200) = $2,200. $2,200 × 1.0825 = $2,381.50.`
   },
   {
-    id: 1279,
-    topic: 'Auction Math',
-    question: `Hammer price is $16,600. Seller commission is 15%. What is the seller’s net proceeds (ignore other fees)?`,
-    options: ["$14,110", "$16,600", "$2,490", "$14,610"],
+    id: 348,
+    topic: "Auction Math",
+    question: `A buyer purchases a laptop for $500. BP is 15%. Sales tax is 6.25%. What is the buyer's total?`,
+    options: ["$610.94", "$672.03", "$549.85", "$702.58"],
     correctAnswer: 0,
-    explanation: ``
+    explanation: `500+1575) = $575. $575 × 1.0625 = $610.9375 (rounds to $610.94).`
   },
   {
-    id: 1280,
-    topic: 'Auction Basics',
-    question: `Client funds should be handled by:`,
-    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 349,
+    topic: "Auction Math",
+    question: `A buyer purchases artwork for $10,000. BP is 12%. Sales tax is 8.25%. What is the buyer's total?`,
+    options: ["$12,124", "$13,336.40", "$10,911.60", "$13,942.60"],
+    correctAnswer: 0,
+    explanation: `10,000+121,200) = $11,200. $11,200 × 1.0825 = $12,124.`
   },
   {
-    id: 1281,
-    topic: 'Bidding Procedures',
-    question: `If a bidder dispute occurs, the auctioneer should:`,
-    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 350,
+    topic: "Auction Math",
+    question: `A buyer purchases office furniture for $850. BP is 20%. Sales tax is 8.0%. What is the buyer's total?`,
+    options: ["$1,101.60", "$1,211.76", "$991.44", "$1,266.84"],
+    correctAnswer: 0,
+    explanation: `850+20170) = $1,020. $1,020 × 1.08 = $1,101.60.`
   },
   {
-    id: 1282,
-    topic: 'Ethics and Professional Conduct',
-    question: `If an auctioneer has a conflict of interest, they should:`,
-    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 351,
+    topic: "Auction Math",
+    question: `A buyer purchases a watch for $3,500. BP is 10%. Sales tax is 8.25%. The buyer wants to pay with a credit card. Can the auctioneer add a 3% credit card surcharge, and what is the legal buyer's total?`,
+    options: ["No surcharge allowed; Total is $4,167.63", "Yes, surcharge allowed; Total is $4,292.66", "No surcharge allowed; Total is $3,959.25", "Yes, surcharge allowed; Total is $4,376.01"],
+    correctAnswer: 0,
+    explanation: `TX Business & Commerce Code Sec. 604A.0021 prohibits credit card surcharges. $3,500 + $350 = $3,850. $3,850 × 1.0825 = $4,167.63.`
   },
   {
-    id: 1283,
-    topic: 'Auction Math',
-    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 352,
+    topic: "Auction Math",
+    question: `A buyer purchases 4 identical small antique plates at the same time. The hammer price is $0.08 per plate. There is no BP. Sales tax is 8.25%. How is tax calculated under the bracket system?`,
+    options: ["$0.35", "$0.39", "$0.32", "$0.40"],
+    correctAnswer: 0,
+    explanation: `Rule 3.286 states tax applies to the total sale, not each item. 4 × $0.08 = $0.32 total hammer. $0.32 × 1.0825 = $0.3464 (Rounds to $0.35).`
   },
   {
-    id: 1284,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `A secured party sells collateral at auction after default. The disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 353,
+    topic: "Auction Math",
+    question: `A buyer buys a rug for $1,200. BP is 15%. Sales tax is 7.25%. What is the buyer's total?`,
+    options: ["$1,479.05", "$1,626.96", "$1,331.14", "$1,700.91"],
+    correctAnswer: 0,
+    explanation: `1,200+15180) = $1,380. $1,380 × 1.0725 = $1,480.05.`
   },
   {
-    id: 1285,
-    topic: 'Bidding Procedures',
-    question: `Bids may generally be retracted until:`,
-    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 354,
+    topic: "Auction Math",
+    question: `A buyer purchases a mirror for $400. BP is 18%. Sales tax is 8.25%. What is the buyer's total?`,
+    options: ["$510.94", "$562.03", "$459.85", "$587.58"],
+    correctAnswer: 0,
+    explanation: `400+1872) = $472. $472 × 1.0825 = $510.94.`
   },
   {
-    id: 1286,
-    topic: 'State-Specific Laws',
-    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
-    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 355,
+    topic: "Auction Math",
+    question: `A buyer purchases a collectible sign for $75. BP is 10%. Sales tax is 6.25%. What is the buyer's total?`,
+    options: ["$87.66", "$96.43", "$78.89", "$100.81"],
+    correctAnswer: 0,
+    explanation: `75+107.50) = $82.50. $82.50 × 1.0625 = $87.656 (Rounds to $87.66).`
   },
   {
-    id: 1287,
-    topic: 'Contract Law',
-    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
-    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 356,
+    topic: "Auction Math",
+    question: `A buyer purchases tools for $2,500. BP is 10%. Sales tax is 8.25%. What is the buyer's total?`,
+    options: ["$2,976.88", "$3,274.57", "$2,679.19", "$3,423.41"],
+    correctAnswer: 0,
+    explanation: `2,500+10250) = $2,750. $2,750 × 1.0825 = $2,976.875 (Rounds to $2,976.88).`
   },
   {
-    id: 1288,
-    topic: 'Bidding Procedures',
-    question: `Shill bidding is:`,
-    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 357,
+    topic: "Auction Math",
+    question: `A buyer purchases a farm tractor for $20,000 (exempt via Ag/Timber number) and a non-exempt flatbed trailer for $5,000. BP is 10% on all items. Sales tax is 8.25%. What is the total invoice?`,
+    options: ["$27,953.75", "$30,749.13", "$25,158.38", "$32,146.81"],
+    correctAnswer: 0,
+    explanation: `Tractor: $20k + 10% = $22,000 (Exempt). Trailer: $5k + 10% = $5,500. Trailer Tax: $5,500 × 0.0825 = $453.75. Total = $22,000 + $5,500 + $453.75 = $27,953.75.`
   },
   {
-    id: 1289,
-    topic: 'Auction Basics',
-    question: `Client funds should be handled by:`,
-    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 358,
+    topic: "Auction Math",
+    question: `A buyer purchases an ATV used for highway driving for $4,000 (taxable under Rule 3.296) and a portable farrowing house for $1,000 (exempt Ag equipment). BP is 15%. Sales tax is 8.25%. What is the total invoice?`,
+    options: ["$6,140.50", "$6,754.55", "$5,526.45", "$7,061.57"],
+    correctAnswer: 0,
+    explanation: `ATV: 4,000+15600) = $4,600. Tax on ATV: $4,600 × 0.0825 = $379.50. Farrowing House: 1,000+15150) = $1,150 (Exempt). Total = $4,600 + $379.50 + $1,150 = $6,129.50.`
   },
   {
-    id: 1290,
-    topic: 'Bidding Procedures',
-    question: `If a bidder dispute occurs, the auctioneer should:`,
-    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 359,
+    topic: "Auction Math",
+    question: `A buyer purchases a registered horse for $3,000 (exempt livestock) and a used saddle for $500 (taxable). BP is 10%. Sales tax is 6.25%. What is the total invoice?`,
+    options: ["$3,884.38", "$4,272.82", "$3,495.94", "$4,467.04"],
+    correctAnswer: 0,
+    explanation: `Horse: $3,300. Saddle: 550+6.2534.38) = $584.38. Total = $3,300 + $584.38 = $3,884.38.`
   },
   {
-    id: 1291,
-    topic: 'Ethics and Professional Conduct',
-    question: `If an auctioneer has a conflict of interest, they should:`,
-    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 360,
+    topic: "Auction Math",
+    question: `A buyer purchases a commercial building at auction for $500,000 (real property - exempt) and the office furniture inside it for $10,000 (taxable). BP is 5% across the board. Sales tax is 8.25%. What is the total invoice?`,
+    options: ["$536,366.25", "$590,002.88", "$482,729.62", "$616,821.19"],
+    correctAnswer: 0,
+    explanation: `Building: $500,000 + 5% = $525,000. Furniture: $10,000 + 5% = $10,500. Tax on furniture: $10,500 × 0.0825 = $866.25. Total = $525,000 + $10,500 + $866.25 = $536,366.25.`
   },
   {
-    id: 1292,
-    topic: 'Auction Math',
-    question: `An auctioneer advertises ‘no buyer premium’ but adds a 10% premium at settlement. This is most likely:`,
-    options: ["Acceptable", "Potentially deceptive under consumer protection rules", "Required in Texas", "Only a tax issue"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 361,
+    topic: "Auction Math",
+    question: `A maquiladora enterprise with a valid export permit purchases a manufacturing machine for $50,000. BP is 10%. Sales tax is 8.25%. What is their total invoice?`,
+    options: ["$55,000", "$60,500", "$49,500", "$63,250"],
+    correctAnswer: 0,
+    explanation: `Purchases with a maquiladora export permit are tax-free for export [Rule 3.358]. $50,000 + $5,000 = $55,000.`
   },
   {
-    id: 1293,
-    topic: 'UCC (Uniform Commercial Code)',
-    question: `A secured party sells collateral at auction after default. The disposition must be:`,
-    options: ["Secret", "Commercially reasonable", "Tax free", "Without notice"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 362,
+    topic: "Auction Math",
+    question: `Hammer price is $10,000. Commission is 10%. BP is 10%. What is the auctioneer's gross revenue?`,
+    options: ["$2,000", "$2,200", "$1,800", "$2,300"],
+    correctAnswer: 0,
+    explanation: `Commission = $1,000. BP = $1,000. Total = $2,000.`
   },
   {
-    id: 1294,
-    topic: 'Bidding Procedures',
-    question: `Bids may generally be retracted until:`,
-    options: ["Payment clears", "Auctioneer announces completion", "Seller accepts later", "One hour after auction"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 363,
+    topic: "Auction Math",
+    question: `Hammer price is $100,000. The auctioneer charges 0% commission to the seller, but charges a 15% BP to the buyer. What is the auctioneer's gross revenue?`,
+    options: ["$15,000", "$16,500", "$13,500", "$17,250"],
+    correctAnswer: 0,
+    explanation: `Commission = $0. BP = $15,000. Total = $15,000.`
   },
   {
-    id: 1295,
-    topic: 'State-Specific Laws',
-    question: `Sensitive bidder data is stolen in a breach. Texas law requires:`,
-    options: ["No action", "Timely breach notification under Chapter 521", "Only raising premiums", "Automatic license suspension"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 364,
+    topic: "Auction Math",
+    question: `Hammer price is $50,000. Commission is 5%. BP is 12%. The seller also agreed to pay a flat $500 marketing fee to the auctioneer. What is the auctioneer's gross revenue?`,
+    options: ["$9,000", "$9,900", "$8,100", "$10,350"],
+    correctAnswer: 0,
+    explanation: `Commission = $2,500. BP = $6,000. Marketing fee = $500. Total = $9,000.`
   },
   {
-    id: 1296,
-    topic: 'Contract Law',
-    question: `An auctioneer’s best practice when announcing terms of sale is to:`,
-    options: ["Keep terms vague", "Clearly disclose premiums, reserves, and payment requirements before bidding", "Announce only after sale", "Disclose only to sellers"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 365,
+    topic: "Auction Math",
+    question: `Hammer price is $5,000. Commission is 20%. There is no BP. What is the auctioneer's gross revenue?`,
+    options: ["$1,000", "$1,100", "$900", "$1,150"],
+    correctAnswer: 0,
+    explanation: `$5,000 × 0.20 = $1,000.`
   },
   {
-    id: 1297,
-    topic: 'Bidding Procedures',
-    question: `Shill bidding is:`,
-    options: ["Encouraged", "Using fake bids to artificially raise price", "A cash discount", "Required in reserve auctions"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 366,
+    topic: "Auction Math",
+    question: `Hammer price is $25,000. Commission is 8%. BP is 10%. What is the auctioneer's gross revenue?`,
+    options: ["$4,500", "$4,950", "$4,050", "$5,175"],
+    correctAnswer: 0,
+    explanation: `Commission = $2,000. BP = $2,500. Total = $4,500.`
   },
   {
-    id: 1298,
-    topic: 'Auction Basics',
-    question: `Client funds should be handled by:`,
-    options: ["Mixing with operating funds", "Separate accounting and prompt remittance", "Holding indefinitely", "Paying bonuses first"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 367,
+    topic: "Auction Math",
+    question: `HP = $2,000. BP = 10%. Commission = 15%. Tax = 8.25%. What does the buyer pay, what does the seller net, and what does the auctioneer keep?`,
+    options: ["Buyer Pays: $2,381.50 | Seller Nets: $1,700 | Auctioneer Keeps: 500∗", "Buyer Pays: $2,619.65 | Seller Nets: $1,530 | Auctioneer Keeps: 500∗", "Buyer Pays: $2,024.27 | Seller Nets: $2,040 | Auctioneer Keeps: 500∗", "Buyer Pays: $2,500.58 | Seller Nets: $1,615 | Auctioneer Keeps: 500∗"],
+    correctAnswer: 0,
+    explanation: `∗Buyer:(2,000 + $200) × 1.0825 = $2,381.50. Seller: 2,000−(2,000 × 0.15) = $1,700. Auctioneer: $300 (from seller) + $200 (from buyer) = $500.`
   },
   {
-    id: 1299,
-    topic: 'Bidding Procedures',
-    question: `If a bidder dispute occurs, the auctioneer should:`,
-    options: ["Ignore it", "Follow published conditions of sale and document the resolution", "Let bidders decide", "Cancel auction immediately"],
-    correctAnswer: 1,
-    explanation: ``
+    id: 368,
+    topic: "Auction Math",
+    question: `HP = $10,000 (taxable). BP = 12%. Commission = 10%. Tax = 6.25%. What does the buyer pay, what does the seller net, and what does the auctioneer keep?`,
+    options: ["Buyer Pays: $11,900 | Seller Nets: $9,000 | Auctioneer Keeps: 2,200∗", "Buyer Pays: $13,090 | Seller Nets: $8,100 | Auctioneer Keeps: 2,200∗", "Buyer Pays: $10,115 | Seller Nets: $10,800 | Auctioneer Keeps: 2,200∗", "Buyer Pays: $12,495 | Seller Nets: $8,550 | Auctioneer Keeps: 2,200∗"],
+    correctAnswer: 0,
+    explanation: `∗Buyer:(10,000 + $1,200) × 1.0625 = $11,900. Seller: $10,000 - $1,000 = $9,000. Auctioneer: $1,000 + $1,200 = $2,200.`
   },
   {
-    id: 1300,
-    topic: 'Ethics and Professional Conduct',
-    question: `If an auctioneer has a conflict of interest, they should:`,
-    options: ["Hide it", "Disclose it clearly", "Raise bids secretly", "Withdraw license permanently"],
-    correctAnswer: 1,
-    explanation: ``
-  }
+    id: 369,
+    topic: "Auction Math",
+    question: `HP = $50,000 (Motor vehicle, tax-exempt at auction). BP = 10%. Commission = 5%. What does the buyer pay, what does the seller net, and what does the auctioneer keep?`,
+    options: ["Buyer Pays: $55,000 | Seller Nets: $47,500 | Auctioneer Keeps: $7,500", "Buyer Pays: $60,500 | Seller Nets: $42,750 | Auctioneer Keeps: $8,625", "Buyer Pays: $46,750 | Seller Nets: $57,000 | Auctioneer Keeps: $6,000", "Buyer Pays: $57,750 | Seller Nets: $45,125 | Auctioneer Keeps: $8,250"],
+    correctAnswer: 0,
+    explanation: `Buyer: $50,000 + $5,000 = $55,000 (No tax collected by auctioneer). Seller: $50,000 - $2,500 = $47,500. Auctioneer: $2,500 + $5,000 = $7,500.`
+  },
+  {
+    id: 370,
+    topic: "Auction Math",
+    question: `HP = $1,000. BP = 15%. Commission = 20%. Seller pays $50 make-ready fee. Tax = 8.25%. What does the buyer pay, what does the seller net, and what does the auctioneer keep?`,
+    options: ["Buyer Pays: $1,244.88 | Seller Nets: $750 | Auctioneer Keeps: $400", "Buyer Pays: $1,369.37 | Seller Nets: $675 | Auctioneer Keeps: $460", "Buyer Pays: $1,058.15 | Seller Nets: $900 | Auctioneer Keeps: $320", "Buyer Pays: $1,307.12 | Seller Nets: $712.50 | Auctioneer Keeps: $440"],
+    correctAnswer: 0,
+    explanation: `Buyer: $1,150 × 1.0825 = $1,244.88. Seller: $1,000 - $200 (comm) - $50 (fee) = $750. Auctioneer: $200 (comm) + $150 (BP) + $50 (fee) = $400.`
+  },
+  {
+    id: 371,
+    topic: "Auction Math",
+    question: `HP = $200,000 (Real Estate, exempt). BP = 10%. Commission = 0%. What does the buyer pay, what does the seller net, and what does the auctioneer keep?`,
+    options: ["Buyer Pays: $220,000 | Seller Nets: $200,000 | Auctioneer Keeps: $20,000", "Buyer Pays: $242,000 | Seller Nets: $180,000 | Auctioneer Keeps: $23,000", "Buyer Pays: $187,000 | Seller Nets: $240,000 | Auctioneer Keeps: $16,000", "Buyer Pays: $231,000 | Seller Nets: $190,000 | Auctioneer Keeps: $22,000"],
+    correctAnswer: 0,
+    explanation: `Buyer: $200k + $20k = $220k. Seller: No commission deducted. Auctioneer: 10% BP = $20,000.`
+  },
+  {
+    id: 372,
+    topic: "Auction Math",
+    question: `An auctioneer collects exactly $4,000 in state sales and use tax during a reporting period. Under Rule 3.286, if they file their tax return and pay timely, what is the exact dollar amount of the discount they may claim as reimbursement?`,
+    options: ["$20", "$22", "$18", "$23"],
+    correctAnswer: 0,
+    explanation: `The timely filing discount is equal to 0.5% of the sales tax due. $4,000 × 0.005 = $20.`
+  },
+  {
+    id: 373,
+    topic: "Auction Math",
+    question: `An auctioneer collects $8,500 in sales tax. If they file timely, how much do they actually remit to the comptroller after taking their statutory discount?`,
+    options: ["$8,457.50", "$9,303.25", "$7,611.75", "$9,726.12"],
+    correctAnswer: 0,
+    explanation: `Discount = $8,500 × 0.005 = $42.50. Remittance = $8,500 - $42.50 = $8,457.50.`
+  },
+  {
+    id: 374,
+    topic: "Auction Math",
+    question: `An auction concludes on a Tuesday at 2:00 PM. By what day and time MUST the auctioneer deposit the funds into a trust account to avoid a Class C violation?`,
+    options: ["Friday at 2:00 PM", "Thursday at 2:00 PM", "Monday at 2:00 PM", "Saturday at 2:00 PM"],
+    correctAnswer: 0,
+    explanation: `TAC 67.70(b)(10)(B) dictates that funds must be deposited within exactly 72 hours of the auction.`
+  },
+  {
+    id: 375,
+    topic: "Auction Math",
+    question: `If the Auctioneer Education and Recovery Fund has a balance of $300,000 on August 31st, what is the mandatory minimum fee assessed to each renewing licensee?`,
+    options: ["$50", "$55", "$45", "$57.50"],
+    correctAnswer: 0,
+    explanation: `If the fund drops below $350,000, the fee is the greater of $50 or a pro-rata share to restore the balance.`
+  },
+  {
+    id: 376,
+    topic: "Auction Math",
+    question: `Recovery Fund for this single auction event, and how much will each party receive if prorated equally?`,
+    options: ["Total Payout: $100,000 | Each Party Receives: $20,000", "Total Payout: $110,000 | Each Party Receives: $18,000", "Total Payout: $85,000 | Each Party Receives: $24,000", "Total Payout: $105,000 | Each Party Receives: $19,000"],
+    correctAnswer: 0,
+    explanation: `HB 4416 caps the total payment per auction event at $100,000. $100,000 ÷ 5 = $20,000.`
+  },
+  {
+    id: 377,
+    topic: "Auction Math",
+    question: `If an auctioneer signs a reimbursement agreement with the TDLR for a $10,000 payout from the Recovery Fund, what is the annual interest rate that accrues on the unpaid principal?`,
+    options: ["8%", "8.8%", "7.2%", "9.2%"],
+    correctAnswer: 0,
+    explanation: `Statutory interest on Recovery Fund reimbursements is set at 8% per year [TAC 67.40(g)].`
+  },
+  {
+    id: 378,
+    topic: "Auction Math",
+    question: `If an auctioneer owes the Recovery Fund $5,000 in principal and no alternative agreement is reached, what is the mandatory monthly installment percentage, and what is their monthly payment amount?`,
+    options: ["3% | $150 per month", "3% | $135 per month", "3% | $180 per month", "3% | $142.50 per month"],
+    correctAnswer: 0,
+    explanation: `For principal amounts of $3,000.01 and over, the mandatory installment is 3%. $5,000 × 0.03 = $150. [TAC 67.40(j)]`
+  },
+  {
+    id: 379,
+    topic: "Auction Math",
+    question: `An auctioneer owes the Recovery Fund $800. What is the mandatory monthly installment percentage, and what is their payment?`,
+    options: ["10% | $80 per month", "10% | $72 per month", "10% | $96 per month", "10% | $76 per month"],
+    correctAnswer: 0,
+    explanation: `For amounts between $500.01 and $1,000.00, the rate is 10%. $800 × 0.10 = $80.`
+  },
+  {
+    id: 380,
+    topic: "Auction Math",
+    question: `An auction concludes on Friday, May 1st. Assuming no holidays, by what date must the auctioneer pay the consignor to comply with the 15-banking-day rule?`,
+    options: ["Friday, May 22nd", "Wednesday, May 20th", "Monday, May 25th", "Thursday, May 28th"],
+    correctAnswer: 0,
+    explanation: `Banking days exclude weekends. Three full business weeks (5 days each) from May 1st is exactly May 22nd.`
+  },
+  {
+    id: 381,
+    topic: "Auction Math",
+    question: `A business suffers a data breach affecting 300 Texas residents. What is the maximum number of days they have to notify the Texas Attorney General under Sec. 521.053?`,
+    options: ["60 days", "45 days", "90 days", "120 days"],
+    correctAnswer: 0,
+    explanation: `Because the breach involves at least 250 Texas residents, the AG must be notified not later than the 60th day after determining the breach occurred.`
+  },
   ],
   'Georgia': [
   {
@@ -18622,24 +19270,39 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// Get random questions for quiz
-export function getQuizQuestions(state, count, topic = 'All Topics') {
+// Get random questions for quiz, prioritizing unseen questions
+export function getQuizQuestions(state, count, topic = 'All Topics', excludeIds = []) {
   let questions = topic === 'All Topics' 
     ? getQuestionsByState(state)
     : getQuestionsByTopic(state, topic);
   
-  const shuffled = shuffleArray(questions);
-  return shuffled.slice(0, Math.min(count, shuffled.length));
+  const excludeSet = new Set(excludeIds.map(id => String(id)));
+  const unseen = questions.filter(q => !excludeSet.has(String(q.id)));
+  const seen = questions.filter(q => excludeSet.has(String(q.id)));
+  
+  // Prioritize unseen questions, then fill with seen if needed
+  const shuffledUnseen = shuffleArray(unseen);
+  const shuffledSeen = shuffleArray(seen);
+  const prioritized = [...shuffledUnseen, ...shuffledSeen];
+  
+  return prioritized.slice(0, Math.min(count, prioritized.length));
 }
 
-// Get practice test (75 questions, randomized)
-export function getPracticeTest(state) {
+// Get practice test (75 questions, randomized), prioritizing unseen
+export function getPracticeTest(state, excludeIds = []) {
   const allQuestions = getQuestionsByState(state);
   const needed = 75;
   
-  if (allQuestions.length >= needed) {
-    const shuffled = shuffleArray(allQuestions);
-    return shuffled.slice(0, needed);
+  const excludeSet = new Set(excludeIds.map(id => String(id)));
+  const unseen = allQuestions.filter(q => !excludeSet.has(String(q.id)));
+  const seen = allQuestions.filter(q => excludeSet.has(String(q.id)));
+  
+  const shuffledUnseen = shuffleArray(unseen);
+  const shuffledSeen = shuffleArray(seen);
+  const prioritized = [...shuffledUnseen, ...shuffledSeen];
+  
+  if (prioritized.length >= needed) {
+    return prioritized.slice(0, needed);
   } else {
     const result = [];
     const shuffled = shuffleArray(allQuestions);
@@ -18664,6 +19327,6 @@ export function getAvailableTopics(state) {
 }
 
 // Get random questions (alias for getQuizQuestions)
-export function getRandomQuestions(state, count) {
-  return getQuizQuestions(state, count, 'All Topics');
+export function getRandomQuestions(state, count, excludeIds = []) {
+  return getQuizQuestions(state, count, 'All Topics', excludeIds);
 }

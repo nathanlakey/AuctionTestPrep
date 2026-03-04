@@ -3,6 +3,32 @@ import { getRandomQuestions, getQuizQuestions } from '../data/questionBank';
 import { useAuth } from './AuthContext';
 import './Test.css';
 
+// --- Question History Helpers (localStorage) ---
+const HISTORY_KEY_PREFIX = 'auctionAcademy_seenQuestions_';
+
+function getSeenQuestionIds(state) {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY_PREFIX + state);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveSeenQuestionIds(state, questionIds) {
+  try {
+    const existing = getSeenQuestionIds(state);
+    const merged = [...new Set([...existing, ...questionIds.map(String)])];
+    localStorage.setItem(HISTORY_KEY_PREFIX + state, JSON.stringify(merged));
+  } catch { /* ignore storage errors */ }
+}
+
+function resetSeenQuestionIds(state) {
+  try {
+    localStorage.removeItem(HISTORY_KEY_PREFIX + state);
+  } catch { /* ignore */ }
+}
+
 const API_BASE = import.meta.env.VITE_API_URL || 'https://auctiontestprep.onrender.com';
 
 function Test({ state, questionCount, topic, timed = false, onExit }) {
@@ -23,11 +49,12 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   const { saveResult, getBookmarks, toggleBookmark } = useAuth();
 
   useEffect(() => {
-    // Load questions based on type
+    // Load questions, prioritizing ones the user hasn't seen yet
+    const seenIds = getSeenQuestionIds(state);
     if (questionCount === 75) {
-      setQuestions(getRandomQuestions(state, 75));
+      setQuestions(getRandomQuestions(state, 75, seenIds));
     } else {
-      setQuestions(getQuizQuestions(state, questionCount, topic));
+      setQuestions(getQuizQuestions(state, questionCount, topic, seenIds));
     }
   }, [state, questionCount, topic]);
 
@@ -121,6 +148,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   useEffect(() => {
     if (showResults && !resultSaved.current) {
       resultSaved.current = true;
+      // Record these question IDs as seen so they won't repeat next time
+      const usedIds = questions.map(q => q.id);
+      saveSeenQuestionIds(state, usedIds);
       const score = calculateScore();
       saveResult({
         state,
@@ -195,10 +225,11 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   const handleRetake = () => {
     resultSaved.current = false;
     autoSubmitted.current = false;
+    const seenIds = getSeenQuestionIds(state);
     if (questionCount === 75) {
-      setQuestions(getRandomQuestions(state, 75));
+      setQuestions(getRandomQuestions(state, 75, seenIds));
     } else {
-      setQuestions(getQuizQuestions(state, questionCount, topic));
+      setQuestions(getQuizQuestions(state, questionCount, topic, seenIds));
     }
     setCurrentQuestionIndex(0);
     setAnswers({});
