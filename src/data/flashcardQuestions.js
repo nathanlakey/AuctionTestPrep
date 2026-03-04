@@ -905,13 +905,17 @@ const flashcardQuestions = [
   }
 ];
 
+import txFlashcardQuestions from './txFlashcards';
+
 export const getFlashcardQuestions = () => {
   return flashcardQuestions;
 };
 
-export const getRandomFlashcards = (count = 20) => {
-  const shuffled = [...flashcardQuestions].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, Math.min(count, flashcardQuestions.length));
+export const getRandomFlashcards = (count = 20, state = null) => {
+  // Use state-specific flashcards when available
+  const pool = state === 'Texas' ? txFlashcardQuestions : flashcardQuestions;
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
 };
 
 export default flashcardQuestions;
