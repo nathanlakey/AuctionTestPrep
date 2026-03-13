@@ -11965,2181 +11965,3346 @@ export const questionBank = {
   ],
   'Tennessee': [
   {
-    "topic": "Definitions (T.C.A. \u00a7 62-19-101)",
-    "question": "Under Tennessee law, which role is defined as an individual responsible for management and supervision of an auction company and who offers and executes listing contracts and auctions?",
-    "options": ["Bid caller auctioneer", "Affiliate auctioneer", "Principal auctioneer", "Ringperson"],
-    "correctAnswer": 2,
-    "explanation": "A principal auctioneer is responsible for the management and supervision of an auction company and for offering and executing auction listing contracts and sales.",
-    "id": 1
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "A principal auctioneer is responsible for the management and supervision of an auction company and for offering and executing auction listing contracts and sales. Which definition best matches a \u201ctimed listing\u201d in Tennessee?",
-    "options": ["A live auction that extends if bids are placed", "A fixed ending time and date that does not extend based on bidding activity", "Any auction conducted in person", "A sale where only dealers may bid"],
-    "correctAnswer": 1,
-    "explanation": "A timed listing is offered with a fixed ending time and date that does not extend because of bidding activity.",
-    "id": 2
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "A timed listing is offered with a fixed ending time and date that does not extend because of bidding activity. In Tennessee\u2019s auction law, \u201cauction\u201d is best described as:",
-    "options": ["Any sale where prices are negotiated privately", "A sales transaction conducted by oral, written, or electronic exchange culminating in acceptance of the highest or most favorable offer", "A sale limited to motor vehicles", "A fixed-price online listing only"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee defines an auction as a transaction conducted by oral, written, or electronic exchange with invitations for offers and acceptance of the highest or most favorable offer.",
-    "id": 3
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Tennessee defines an auction as a transaction conducted by oral, written, or electronic exchange with invitations for offers and acceptance of the highest or most favorable offer. Which term includes an individual, association, partnership, and corporation (including officers/directors/employees of a corporation)?",
-    "options": ["Goods", "Person", "Commission", "Affiliate auctioneer"],
-    "correctAnswer": 1,
-    "explanation": "The statutory definition of \u201cperson\u201d is broad and includes individuals and business entities (and certain corporate personnel).",
-    "id": 4
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The statutory definition of \u201cperson\u201d is broad and includes individuals and business entities (and certain corporate personnel). Which of the following is included in Tennessee\u2019s definition of \u201cgoods\u201d for auction purposes?",
-    "options": ["Only chattels and merchandise", "Only real estate", "Chattels, merchandise, real or personal property, or commodities that may lawfully be offered for sale", "Only motor vehicles"],
-    "correctAnswer": 2,
-    "explanation": "\u201cGoods\u201d includes many forms of property that may lawfully be kept or offered for sale, including real or personal property and commodities.",
-    "id": 5
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u201cGoods\u201d includes many forms of property that may lawfully be kept or offered for sale, including real or personal property and commodities. A \u201cbid caller auctioneer\u201d is best described as:",
-    "options": ["The owner of the goods", "An individual hired to solicit bids for the purchase of goods at an auction", "A person who runs only timed listings", "A person who clerks and never calls bids"],
-    "correctAnswer": 1,
-    "explanation": "A bid caller auctioneer is hired by a principal auctioneer/public automobile auction/public automobile auctioneer to solicit bids.",
-    "id": 6
-  },
-  {
-    "topic": "License Requirements (T.C.A. \u00a7 62-19-102 and \u00a7 62-19-111)",
-    "question": "A bid caller auctioneer is hired by a principal auctioneer/public automobile auction/public automobile auctioneer to solicit bids. It is unlawful in Tennessee to act as, advertise as, or represent to be an auctioneer without:",
-    "options": ["A business license only", "A valid license issued by the Tennessee Auctioneer Commission", "A notary commission", "A real estate broker license only"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee law makes it unlawful to act as or represent to be an auctioneer without a valid commission-issued license.",
-    "id": 7
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Tennessee law makes it unlawful to act as or represent to be an auctioneer without a valid commission-issued license. To conduct or offer to conduct an auction of real property in Tennessee, a person generally must be licensed as:",
-    "options": ["Auctioneer only", "Affiliate auctioneer only", "Auctioneer/affiliate auctioneer AND broker/affiliate broker under the real estate broker law", "Motor vehicle dealer only"],
-    "correctAnswer": 2,
-    "explanation": "Tennessee requires auctioneer licensing and real estate broker licensing for real property auctions, with limited clarifications for non-vocal helpers like ringpersons.",
-    "id": 8
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Tennessee requires auctioneer licensing and real estate broker licensing for real property auctions, with limited clarifications for non-vocal helpers like ringpersons. For an affiliate auctioneer to conduct an auction of real property, which additional condition applies regarding the supervising auctioneer?",
-    "options": ["The supervising auctioneer must be in another county", "The supervising auctioneer must be on the premises of the property during the auction", "The supervising auctioneer must be available by phone only", "There is no additional condition"],
-    "correctAnswer": 1,
-    "explanation": "The statute requires the auctioneer employing the affiliate auctioneer to be on the premises of the property during the auction when the affiliate conducts/ offers to conduct a real property auction.",
-    "id": 9
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The statute requires the auctioneer employing the affiliate auctioneer to be on the premises of the property during the auction when the affiliate conducts/ offers to conduct a real property auction. All auctions arranged by or through a principal auctioneer must be conducted exclusively by:",
-    "options": ["Any staff member", "Individuals licensed under Tennessee auction law", "Only licensed real estate brokers", "Only the property owner"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee requires that auctions arranged by or through a principal auctioneer be conducted exclusively by individuals licensed under the chapter.",
-    "id": 10
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Tennessee requires that auctions arranged by or through a principal auctioneer be conducted exclusively by individuals licensed under the chapter. To apply for a bid caller auctioneer license, an applicant must be at least:",
-    "options": ["16 years old", "18 years old", "21 years old", "25 years old"],
-    "correctAnswer": 1,
-    "explanation": "The bid caller auctioneer applicant must be at least 18 years old.",
-    "id": 11
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The bid caller auctioneer applicant must be at least 18 years old. Auction chant instruction for the basic fundamentals requirement is:",
-    "options": ["Required and may be completed online", "Optional and may be completed online", "Optional and may not be completed online", "Required and must be completed online"],
-    "correctAnswer": 2,
-    "explanation": "Tennessee law specifies auction chant instruction is optional, not included in the basic fundamentals hours, and may not be completed online.",
-    "id": 12
-  },
-  {
-    "topic": "Exemptions (T.C.A. \u00a7 62-19-103)",
-    "question": "Tennessee law specifies auction chant instruction is optional, not included in the basic fundamentals hours, and may not be completed online. Which situation is specifically exempt from Tennessee\u2019s auctioneer licensing chapter?",
-    "options": ["A person acting under court order as a trustee in bankruptcy", "A compensated individual conducting a charity auction while advertising themselves as available for auctions", "A principal auctioneer arranging an auction through unlicensed staff", "A public automobile auctioneer acting without a dealer license"],
-    "correctAnswer": 0,
-    "explanation": "Exemptions include certain court-appointed roles like receivers and trustees in bankruptcy acting under order of a court.",
-    "id": 13
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Exemptions include certain court-appointed roles like receivers and trustees in bankruptcy acting under order of a court. A secured party selling collateral after default in accordance with Title 47, Chapter 9 is:",
-    "options": ["Always unlawful without an auctioneer license", "Exempt from the auctioneer licensing chapter", "Required to be a principal auctioneer", "Required to use a bid caller licensee only"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee exempts a trustee or secured party selling collateral after default consistent with UCC Article 9 (Title 47, Chapter 9).",
-    "id": 14
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Tennessee exempts a trustee or secured party selling collateral after default consistent with UCC Article 9 (Title 47, Chapter 9). Which is an exemption related to online sales in Tennessee\u2019s auction law?",
-    "options": ["Any online sale is regulated as an auction", "Fixed price or timed listings that allow bidding online but do not simulcast a live auction", "Any simulcast auction is exempt", "Only auctions of real estate are exempt online"],
-    "correctAnswer": 1,
-    "explanation": "The law exempts certain fixed price or timed listings that allow bidding online, as long as they are not a simulcast of a live auction.",
-    "id": 15
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The law exempts certain fixed price or timed listings that allow bidding online, as long as they are not a simulcast of a live auction. An individual who generates less than $25,000 in revenue in a calendar year from the sale of property in online auctions is:",
-    "options": ["Automatically a principal auctioneer", "Exempt under Tennessee\u2019s auctioneer law", "Required to be a public automobile auctioneer", "Required to hold a broker license"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee provides an exemption for individuals below the $25,000 annual revenue threshold from online auctions.",
-    "id": 16
-  },
-  {
-    "topic": "Commission Structure + Continuing Education (T.C.A. \u00a7 62-19-104 to \u00a7 62-19-107 and \u00a7 62-19-106(e))",
-    "question": "Tennessee provides an exemption for individuals below the $25,000 annual revenue threshold from online auctions. The Tennessee Auctioneer Commission is composed of:",
-    "options": ["Three members, all auctioneers", "Five members; four auctioneers and one public member not engaged in the auction business", "Seven members; all public", "Five members; all brokers"],
-    "correctAnswer": 1,
-    "explanation": "The commission has five members: four auctioneers and one member not engaged in the auction business.",
-    "id": 17
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The commission has five members: four auctioneers and one member not engaged in the auction business. A quorum for a Tennessee Auctioneer Commission meeting is:",
-    "options": ["Two members", "Three members", "Four members", "Five members"],
-    "correctAnswer": 1,
-    "explanation": "Three members constitute a quorum.",
-    "id": 18
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Three members constitute a quorum. The standard continuing education requirement defined in the chapter is:",
-    "options": ["2 hours per year", "6 hours each renewal period", "10 hours each quarter", "No CE is allowed"],
-    "correctAnswer": 1,
-    "explanation": "Continuing education is defined as six hours each renewal period.",
-    "id": 19
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Continuing education is defined as six hours each renewal period. Which licensee is NOT eligible for any continuing education exemption under the statute?",
-    "options": ["Affiliate auctioneer", "Auctioneer age 60 licensed 10+ years", "Auctioneer licensed since July 1, 1999", "Bid caller licensee"],
-    "correctAnswer": 0,
-    "explanation": "The statute specifies that no affiliate auctioneer is exempt from continuing education requirements.",
-    "id": 20
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The statute specifies that no affiliate auctioneer is exempt from continuing education requirements. All licenses issued by the Tennessee Auctioneer Commission expire:",
-    "options": ["Every year on December 31", "Two years from the original date the license was issued", "Three years from issue date", "Only after a complaint"],
-    "correctAnswer": 1,
-    "explanation": "Licenses expire two years from the original issuance date.",
-    "id": 21
-  },
-  {
-    "topic": "Discipline, Penalties, and Citations (T.C.A. \u00a7 62-19-112, \u00a7 62-19-121, \u00a7 62-19-126)",
-    "question": "Licenses expire two years from the original issuance date. Which is a listed ground for suspension/revocation/refusal to renew in Tennessee auction law?",
-    "options": ["Charging a buyer\u2019s premium", "Failing to account for or remit money belonging to others within a reasonable time, or commingling funds", "Holding auctions on weekends", "Using an auction clerk"],
-    "correctAnswer": 1,
-    "explanation": "The statute lists failure to account for/remit funds belonging to others and commingling as disciplinary grounds.",
-    "id": 22
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The statute lists failure to account for/remit funds belonging to others and commingling as disciplinary grounds. Knowingly using false bidders, cappers, or pullers is:",
-    "options": ["A permitted sales technique", "A listed cause for discipline", "Required in reserve auctions", "Allowed only online"],
-    "correctAnswer": 1,
-    "explanation": "Using false bidders/cappers/pullers is explicitly identified as a cause for commission discipline.",
-    "id": 23
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Using false bidders/cappers/pullers is explicitly identified as a cause for commission discipline. A violation of this chapter or any rule or regulation of the commission is a:",
-    "options": ["Civil infraction only", "Class C misdemeanor", "Felony", "No penalty"],
-    "correctAnswer": 1,
-    "explanation": "The chapter states violations are a Class C misdemeanor.",
-    "id": 24
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The chapter states violations are a Class C misdemeanor. A citation for unlicensed auction activity may assess a civil penalty in what range per violation?",
-    "options": ["$0 to $500", "$50 to $2,500", "$500 to $10,000", "$2,500 to $25,000"],
-    "correctAnswer": 1,
-    "explanation": "Citations may assess a civil penalty not less than $50 and not more than $2,500 per violation.",
-    "id": 25
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Citations may assess a civil penalty not less than $50 and not more than $2,500 per violation. A person served with a citation may appeal to the administrative director by written notice postmarked within:",
-    "options": ["5 working days", "10 working days", "15 working days", "30 working days"],
-    "correctAnswer": 2,
-    "explanation": "The statute provides 15 working days after service of the citation for written notice of appeal.",
-    "id": 26
-  },
-  {
-    "topic": "Additional Compliance Concepts (Liens, Reciprocity, Hearings, Display Requirements)",
-    "question": "The statute provides 15 working days after service of the citation for written notice of appeal. Notice of an auctioneer\u2019s lien for unpaid commission must be filed within how many days after the date of the auction?",
-    "options": ["30 days", "45 days", "60 days", "90 days"],
-    "correctAnswer": 2,
-    "explanation": "The lien notice must be filed within 60 days after the auction date with the register\u2019s office in the county where the property is located.",
-    "id": 27
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The lien notice must be filed within 60 days after the auction date with the register\u2019s office in the county where the property is located. An auctioneer\u2019s lien for unpaid commission continues for how long from the date of filing (and until final termination of any suit filed within that period)?",
-    "options": ["30 days", "60 days", "90 days", "1 year"],
-    "correctAnswer": 2,
-    "explanation": "The lien continues for 90 days from the date of filing and until final termination of any suit for enforcement brought within that 90-day period.",
-    "id": 28
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The lien continues for 90 days from the date of filing and until final termination of any suit for enforcement brought within that 90-day period. Under Tennessee reciprocity provisions, a nonresident regularly engaged in auction business in another state is not required to:",
-    "options": ["Hold any Tennessee license", "Maintain a place of business in Tennessee", "Pay any fee", "File consent to service of process"],
-    "correctAnswer": 1,
-    "explanation": "Nonresidents may be excused from maintaining a Tennessee place of business if they maintain a definite place of business in another state and otherwise comply with Tennessee requirements.",
-    "id": 29
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Nonresidents may be excused from maintaining a Tennessee place of business if they maintain a definite place of business in another state and otherwise comply with Tennessee requirements. A licensed affiliate auctioneer\u2019s license is automatically suspended upon:",
-    "options": ["Any missed CE course", "Revocation or suspension of the employing auctioneer\u2019s license", "Moving to another county", "Changing phone number"],
-    "correctAnswer": 1,
-    "explanation": "The affiliate\u2019s license is automatically suspended when the employing auctioneer\u2019s license is revoked or suspended.",
-    "id": 30
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The affiliate\u2019s license is automatically suspended when the employing auctioneer\u2019s license is revoked or suspended. After the employing auctioneer\u2019s license is revoked/suspended, the affiliate auctioneer may retain the affiliate license by transferring employment within:",
-    "options": ["7 days", "14 days", "21 days", "60 days"],
-    "correctAnswer": 2,
-    "explanation": "The affiliate may retain the license by transferring to another licensed auctioneer within 21 days of the effective date of revocation or suspension.",
-    "id": 31
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The affiliate may retain the license by transferring to another licensed auctioneer within 21 days of the effective date of revocation or suspension. The Uniform Administrative Procedures Act governs:",
-    "options": ["Only criminal trials", "Hearings and judicial review of contested cases under the auctioneer chapter", "Buyer premium calculations", "Real estate broker renewals only"],
-    "correctAnswer": 1,
-    "explanation": "The chapter states the Uniform Administrative Procedures Act governs hearing procedures and judicial review for contested cases under the commission.",
-    "id": 32
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "The chapter states the Uniform Administrative Procedures Act governs hearing procedures and judicial review for contested cases under the commission. A license must be conspicuously displayed:",
-    "options": ["Only at the auction site", "At all times in the office of the licensee", "Only on the licensee\u2019s website", "Only when requested by a bidder"],
-    "correctAnswer": 1,
-    "explanation": "Tennessee requires the license to be conspicuously displayed at all times in the office of the licensee.",
-    "id": 33
-  },
-  {
-    "topic": "Auction Math + Compliance Math (Exam Arithmetic)",
-    "question": "Tennessee requires the license to be conspicuously displayed at all times in the office of the licensee. A seller\u2019s contract provides for a 12% commission. The hammer price totals $38,500. What commission is owed?",
-    "options": ["$3,850", "$4,620", "$5,500", "$6,420"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Convert percent to decimal: 12% = 0.12 Step 2: Multiply: 0.12 \u00d7 38,500 = 4,620 So the commission owed is $4,620.",
-    "id": 34
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Convert percent to decimal: 12% = 0.12 Step 2: Multiply: 0.12 \u00d7 38,500 = 4,620 So the commission owed is $4,620. A buyer\u2019s premium is 10% and sales tax is 9.25%, both calculated on the hammer price. Hammer price is $3,200. What is the total amount due?",
-    "options": ["$3,200.00", "$3,520.00", "$3,816.00", "$3,816.00 plus tax on premium"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Buyer\u2019s premium = 10% \u00d7 3,200 = 0.10 \u00d7 3,200 = 320 Step 2: Sales tax = 9.25% \u00d7 3,200 = 0.0925 \u00d7 3,200 = 296 Step 3: Total due = 3,200 + 320 + 296 = 3,816 So the total due is $3,816.",
-    "id": 35
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Buyer\u2019s premium = 10% \u00d7 3,200 = 0.10 \u00d7 3,200 = 320 Step 2: Sales tax = 9.25% \u00d7 3,200 = 0.0925 \u00d7 3,200 = 296 Step 3: Total due = 3,200 + 320 + 296 = 3,816 So the total due is $3,816. A license expires two years from the issue date. A license was issued on April 15, 2025. When does it expire?",
-    "options": ["April 15, 2026", "April 15, 2027", "December 31, 2027", "April 30, 2027"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Add 2 years to April 15, 2025. Step 2: April 15, 2025 \u2192 April 15, 2027. So it expires April 15, 2027.",
-    "id": 36
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Add 2 years to April 15, 2025. Step 2: April 15, 2025 \u2192 April 15, 2027. So it expires April 15, 2027. A lien notice for unpaid commission must be filed within 60 days after the date of the auction. If the auction date is June 1, what is the last day to file within 60 days?",
-    "options": ["June 30", "July 1", "July 31", "August 30"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Count 60 days from June 1. June has 30 days. From June 1 to June 30 is 29 days after June 1. Remaining days: 60 \u2212 29 = 31 days into July. Step 2: 31 days into July lands on July 31. So the last day within 60 days is July 31.",
-    "id": 37
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Count 60 days from June 1. June has 30 days. From June 1 to June 30 is 29 days after June 1. Remaining days: 60 \u2212 29 = 31 days into July. Step 2: 31 days into July lands on July 31. So the last day within 60 days is July 31. The recovery account\u2019s minimum balance is $150,000. If the balance is $148,750, how much is needed to reach the minimum?",
-    "options": ["$1,150", "$1,250", "$2,250", "$12,500"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Subtract current balance from minimum. 150,000 \u2212 148,750 = 1,250. So $1,250 is needed.",
-    "id": 38
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Subtract current balance from minimum. 150,000 \u2212 148,750 = 1,250. So $1,250 is needed. An auction uses a buyer\u2019s premium of 10% and sales tax of 9.75%, both calculated on the hammer price. Hammer price is $4,250. Total due?",
-    "options": ["$4,250.00", "$4,675.00", "$5,089.38", "$5,189.38"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Premium = 10% \u00d7 4,250 = 0.10 \u00d7 4,250 = 425.00 Step 2: Tax = 9.75% \u00d7 4,250 = 0.0975 \u00d7 4,250 = 414.38 Step 3: Total = 4,250.00 + 425.00 + 414.38 = 5,089.38",
-    "id": 39
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Premium = 10% \u00d7 4,250 = 0.10 \u00d7 4,250 = 425.00 Step 2: Tax = 9.75% \u00d7 4,250 = 0.0975 \u00d7 4,250 = 414.38 Step 3: Total = 4,250.00 + 425.00 + 414.38 = 5,089.38 An auction uses a buyer\u2019s premium of 12% and sales tax of 9.25%, both calculated on the hammer price. Hammer price is $7,850. Total due?",
-    "options": ["$7,850.00", "$8,792.00", "$9,518.12", "$9,618.12"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Premium = 12% \u00d7 7,850 = 0.12 \u00d7 7,850 = 942.00 Step 2: Tax = 9.25% \u00d7 7,850 = 0.0925 \u00d7 7,850 = 726.12 Step 3: Total = 7,850.00 + 942.00 + 726.12 = 9,518.12",
-    "id": 40
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Premium = 12% \u00d7 7,850 = 0.12 \u00d7 7,850 = 942.00 Step 2: Tax = 9.25% \u00d7 7,850 = 0.0925 \u00d7 7,850 = 726.12 Step 3: Total = 7,850.00 + 942.00 + 726.12 = 9,518.12 An auction uses a buyer\u2019s premium of 8% and sales tax of 7.00%, both calculated on the hammer price. Hammer price is $12,950. Total due?",
-    "options": ["$12,950.00", "$13,986.00", "$14,892.50", "$14,992.50"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Premium = 8% \u00d7 12,950 = 0.08 \u00d7 12,950 = 1,036.00 Step 2: Tax = 7.00% \u00d7 12,950 = 0.0700 \u00d7 12,950 = 906.50 Step 3: Total = 12,950.00 + 1,036.00 + 906.50 = 14,892.50",
-    "id": 41
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Premium = 8% \u00d7 12,950 = 0.08 \u00d7 12,950 = 1,036.00 Step 2: Tax = 7.00% \u00d7 12,950 = 0.0700 \u00d7 12,950 = 906.50 Step 3: Total = 12,950.00 + 1,036.00 + 906.50 = 14,892.50 An auction uses a buyer\u2019s premium of 15% and sales tax of 9.50%, both calculated on the hammer price. Hammer price is $5,600. Total due?",
-    "options": ["$5,600.00", "$6,440.00", "$6,972.00", "$7,072.00"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Premium = 15% \u00d7 5,600 = 0.15 \u00d7 5,600 = 840.00 Step 2: Tax = 9.50% \u00d7 5,600 = 0.0950 \u00d7 5,600 = 532.00 Step 3: Total = 5,600.00 + 840.00 + 532.00 = 6,972.00",
-    "id": 42
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Premium = 15% \u00d7 5,600 = 0.15 \u00d7 5,600 = 840.00 Step 2: Tax = 9.50% \u00d7 5,600 = 0.0950 \u00d7 5,600 = 532.00 Step 3: Total = 5,600.00 + 840.00 + 532.00 = 6,972.00 An affiliate auctioneer must complete 16 hours of basic fundamentals and 34 additional hours of fundamentals. How many total hours is that?",
-    "options": ["34", "16", "50", "66"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: Add: 16 + 34 = 50. So the total instruction hours are 50.",
-    "id": 43
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Add: 16 + 34 = 50. So the total instruction hours are 50. A principal auctioneer must serve as an affiliate auctioneer for 6 months. If supervision begins March 10, 2026, what is the earliest date 6 months later?",
-    "options": ["August 10, 2026", "September 10, 2026", "October 10, 2026", "March 10, 2027"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Add 6 months to March 10, 2026. March\u2192April (1), May (2), June (3), July (4), August (5), September (6). Earliest date is September 10, 2026.",
-    "id": 44
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Add 6 months to March 10, 2026. March\u2192April (1), May (2), June (3), July (4), August (5), September (6). Earliest date is September 10, 2026. A citation penalty can be up to $2,500 per violation. If 4 violations are cited at the maximum, what is the total potential penalty?",
-    "options": ["$2,500", "$5,000", "$7,500", "$10,000"],
-    "correctAnswer": 3,
-    "explanation": "Step 1: 2,500 \u00d7 4 = 10,000. Total potential penalty is $10,000.",
-    "id": 45
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: 2,500 \u00d7 4 = 10,000. Total potential penalty is $10,000. The recovery account is capped at $10,000 per transaction. If actual damages are $14,500 in one transaction, what is the maximum the account could pay for that transaction?",
-    "options": ["$14,500", "$10,000", "$20,000", "$4,500"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: Identify the cap: $10,000 per transaction. Step 2: Since damages exceed the cap, the maximum payable is $10,000.",
-    "id": 46
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: Identify the cap: $10,000 per transaction. Step 2: Since damages exceed the cap, the maximum payable is $10,000. If an auctioneer\u2019s acts lead to court-authorized payments from the recovery account totaling $20,000 on the auctioneer\u2019s behalf, the account\u2019s liability for that licensee\u2019s acts is:",
-    "options": ["Unlimited", "Terminated after $20,000 aggregate", "Terminated after $10,000 aggregate", "Increased automatically"],
-    "correctAnswer": 1,
-    "explanation": "Step 1: The statute sets an aggregate cap of $20,000 for acts of a licensee. Step 2: Once orders authorize payments totaling $20,000, the account\u2019s liability for that licensee\u2019s acts terminates.",
-    "id": 47
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: The statute sets an aggregate cap of $20,000 for acts of a licensee. Step 2: Once orders authorize payments totaling $20,000, the account\u2019s liability for that licensee\u2019s acts terminates. A public automobile auction requires a surety bond of $50,000. If the premium is 3% annually, what is the annual cost?",
-    "options": ["$500", "$1,000", "$1,500", "$5,000"],
-    "correctAnswer": 2,
-    "explanation": "Step 1: 3% = 0.03 Step 2: 0.03 \u00d7 50,000 = 1,500 Annual cost is $1,500.",
-    "id": 48
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Step 1: 3% = 0.03 Step 2: 0.03 \u00d7 50,000 = 1,500 Annual cost is $1,500. The commission meets at least once each quarter. How many meetings is that per year at minimum?",
-    "options": ["1", "2", "3", "4"],
-    "correctAnswer": 3,
-    "explanation": "There are 4 quarters in a year. At least one meeting per quarter means at least 4 meetings.",
-    "id": 49
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "There are 4 quarters in a year. At least one meeting per quarter means at least 4 meetings. A public automobile auction requires minimum net worth of $100,000. If net worth is $86,250, what increase is needed to meet the minimum?",
-    "options": ["$13,750", "$14,750", "$16,250", "$23,750"],
-    "correctAnswer": 0,
-    "explanation": "Step 1: 100,000 \u2212 86,250 = 13,750. So $13,750 is needed.",
-    "id": 50
-  },
-  {
-    "topic": "Chapter Definitions + Scope (T.C.A. Title 62, Ch. 19)",
-    "question": "Step 1: 100,000 \u2212 86,250 = 13,750. So $13,750 is needed. Under Tennessee law, which best matches the definition of an \u201cauction\u201d?",
-    "options": ["Any retail sale with a posted price", "A transaction with a series of invitations for offers, ending with acceptance of the highest or most favorable offer", "Any sale of real estate by a broker", "A sale that must be in-person and oral only"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-101(2) defines an auction as a sales transaction conducted by oral, written, or electronic exchange, involving invitations for offers and acceptance of the highest or most favorable offer.",
-    "id": 51
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-101(2) defines an auction as a sales transaction conducted by oral, written, or electronic exchange, involving invitations for offers and acceptance of the highest or most favorable offer. Which role is responsible for management and supervision of an auction company (including wholly owned subsidiary or affiliate company)?",
-    "options": ["Bid caller auctioneer", "Affiliate auctioneer", "Principal auctioneer", "Ringperson"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-101(9) defines a principal auctioneer as the person responsible for management and supervision of an auction company and who offers and executes listing contracts, sales, purchases, or exchanges of goods by auction.",
-    "id": 52
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-101(9) defines a principal auctioneer as the person responsible for management and supervision of an auction company and who offers and executes listing contracts, sales, purchases, or exchanges of goods by auction. Which statement is TRUE about \u201ctimed listings\u201d under the chapter definition?",
-    "options": ["They must extend automatically when bids come in", "They end at a fixed ending time and date that does not extend based on bidding activity", "They are always considered a simulcast of a live auction", "They are prohibited in Tennessee"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-101(12) defines a timed listing as offering goods for sale with a fixed ending time/date that does not extend based on bidding activity.",
-    "id": 53
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-101(12) defines a timed listing as offering goods for sale with a fixed ending time/date that does not extend based on bidding activity. Which of the following is included in the definition of \u201cgoods\u201d for Tennessee auction law purposes?",
-    "options": ["Only tangible personal property", "Only real estate", "Chattels, merchandise, real or personal property, or commodities that may lawfully be offered for sale", "Only motor vehicles"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-101(7) defines goods broadly and includes real or personal property and commodities of any form/type that may lawfully be offered for sale.",
-    "id": 54
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-101(7) defines goods broadly and includes real or personal property and commodities of any form/type that may lawfully be offered for sale. A \u201cbid caller auctioneer\u201d is best described as:",
-    "options": ["A person who owns the auction company", "A person hired to solicit bids for the purchase of goods at an auction", "A person who only writes closing statements", "A person who can independently sign listing contracts on behalf of sellers"],
-    "correctAnswer": 1,
-    "explanation": "Under T.C.A. \u00a7 62-19-101(4), a bid caller auctioneer is hired by a principal auctioneer/public auto auction/public auto auctioneer to solicit bids at an auction.",
-    "id": 55
-  },
-  {
-    "topic": "Licensing + Renewal + Continuing Education",
-    "question": "Under T.C.A. \u00a7 62-19-101(4), a bid caller auctioneer is hired by a principal auctioneer/public auto auction/public auto auctioneer to solicit bids at an auction. It is unlawful in Tennessee to act as or advertise as an auctioneer without:",
-    "options": ["A business tax license only", "A valid license issued by the Tennessee Auctioneer Commission", "A real estate broker license only", "A notary commission"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-102(a)(1) makes it unlawful to act as, advertise as, or represent to be an auctioneer without a valid license issued by the commission.",
-    "id": 56
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-102(a)(1) makes it unlawful to act as, advertise as, or represent to be an auctioneer without a valid license issued by the commission. Which is required to conduct or offer to conduct an auction of real property in Tennessee?",
-    "options": ["Auctioneer license only", "Broker license only", "Auctioneer (or affiliate auctioneer) license AND broker (or affiliate broker) license under Title 62, Chapter 13", "No license if it is a charity auction"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-102(a)(2) requires dual licensure for real property auctions: auctioneer/affiliate auctioneer plus broker/affiliate broker licensure.",
-    "id": 57
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-102(a)(2) requires dual licensure for real property auctions: auctioneer/affiliate auctioneer plus broker/affiliate broker licensure. For an affiliate auctioneer to conduct a real property auction, the auctioneer employing the affiliate for that purpose must:",
-    "options": ["Be present anywhere in Tennessee", "Be on the premises of the property during the auction", "Approve the bid increments in writing", "Hold a public automobile auction license"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-102(a)(2) requires the employing auctioneer to be on the premises during the real property auction when an affiliate auctioneer is conducting it.",
-    "id": 58
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-102(a)(2) requires the employing auctioneer to be on the premises during the real property auction when an affiliate auctioneer is conducting it. All auctions arranged by or through a principal auctioneer must be conducted exclusively by:",
-    "options": ["Any experienced salesperson", "Individuals licensed under Title 62, Chapter 19", "Only principal auctioneers (no one else)", "Only out-of-state auctioneers"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-102(b) states auctions arranged by/through a principal auctioneer must be conducted exclusively by individuals licensed under the chapter.",
-    "id": 59
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-102(b) states auctions arranged by/through a principal auctioneer must be conducted exclusively by individuals licensed under the chapter. How long do Tennessee auctioneer licenses generally last from the original date issued?",
-    "options": ["1 year", "18 months", "2 years", "3 years"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-111(i) provides that licenses expire two (2) years from the original date issued. The Commission\u2019s renewal guidance also reflects a two-year license period. citeturn0search5",
-    "id": 60
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(i) provides that licenses expire two (2) years from the original date issued. The Commission\u2019s renewal guidance also reflects a two-year license period. citeturn0search5 Continuing education for Tennessee auctioneer renewal is generally:",
-    "options": ["3 hours every year", "6 hours each renewal period", "10 hours every 3 years", "No CE required"],
-    "correctAnswer": 1,
-    "explanation": "\u201cContinuing education\u201d is defined as six (6) hours each renewal period (T.C.A. \u00a7 62-19-101(6)). Commission rules and guidance also reflect 6 hours per renewal cycle. citeturn0search5turn0search20",
-    "id": 61
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u201cContinuing education\u201d is defined as six (6) hours each renewal period (T.C.A. \u00a7 62-19-101(6)). Commission rules and guidance also reflect 6 hours per renewal cycle. citeturn0search5turn0search20 Which licensee is NOT eligible for a continuing education exemption under T.C.A. \u00a7 62-19-106(e)?",
-    "options": ["Auctioneer age 60+ with 10+ years licensed", "Auctioneer licensed pursuant to the chapter since July 1, 1999", "Bid caller licensee", "Affiliate auctioneer"],
-    "correctAnswer": 3,
-    "explanation": "T.C.A. \u00a7 62-19-106(e)(3) states no affiliate auctioneer is exempt from continuing education requirements.",
-    "id": 62
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-106(e)(3) states no affiliate auctioneer is exempt from continuing education requirements. A licensee who fails to renew by the expiration date may be allowed to renew within:",
-    "options": ["10 days", "30 days", "2 months", "6 months"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-111(j) allows discretionary renewal upon application within two (2) months of expiration, with fee and penalty; later than two months requires reapplying for licensure.",
-    "id": 63
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(j) allows discretionary renewal upon application within two (2) months of expiration, with fee and penalty; later than two months requires reapplying for licensure. Mailing a renewal fee to the Commission: the date of payment is determined by:",
-    "options": ["When the Commission opens the mail", "The date the check clears", "The official postmark", "The date the online portal updates"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-111(k) states that when fees are remitted by mail, the date of payment is determined by the official postmark.",
-    "id": 64
-  },
-  {
-    "topic": "Exemptions + Special Cases",
-    "question": "T.C.A. \u00a7 62-19-111(k) states that when fees are remitted by mail, the date of payment is determined by the official postmark. Which of the following is an exemption from the Tennessee auctioneer licensing chapter?",
-    "options": ["Any person running an online timed listing", "A person acting as a receiver, trustee in bankruptcy, guardian, administrator, executor, or similar person under court order", "Any paid charity auctioneer", "Any auction of real estate"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-103(1) exempts certain court-appointed roles (receiver, trustee in bankruptcy, guardian, administrator, executor) acting under court order.",
-    "id": 65
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-103(1) exempts certain court-appointed roles (receiver, trustee in bankruptcy, guardian, administrator, executor) acting under court order. Which exemption applies to certain political party, church, or charitable auctions?",
-    "options": ["Always exempt regardless of payment", "Exempt if the individual receives no compensation and does not hold themselves out as available to engage in auction sales", "Exempt only if the auction is online", "Exempt only for real estate"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-103(4) exempts auctions conducted by/on behalf of political party/church/charitable entity if the individual receives no compensation and does not advertise availability to auction.",
-    "id": 66
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-103(4) exempts auctions conducted by/on behalf of political party/church/charitable entity if the individual receives no compensation and does not advertise availability to auction. A \u201cfixed price or timed listing\u201d that allows bidding on an internet website is exempt if it:",
-    "options": ["Is a simulcast of a live auction", "Does not constitute a simulcast of a live auction", "Includes a reserve price", "Includes a buyer\u2019s premium"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-103(9) exempts fixed price or timed listings with internet bidding that do not constitute a simulcast of a live auction.",
-    "id": 67
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-103(9) exempts fixed price or timed listings with internet bidding that do not constitute a simulcast of a live auction. An individual who generates less than $25,000 per year in revenue from the sale of property in online auctions is:",
-    "options": ["Always required to be licensed", "Exempt from the chapter", "Required to hold a broker license", "Only allowed to sell livestock"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-103(12) exempts an individual who generates less than $25,000 in a calendar year from the sale of property in online auctions.",
-    "id": 68
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-103(12) exempts an individual who generates less than $25,000 in a calendar year from the sale of property in online auctions. Which statement about public automobile auctions is TRUE under the chapter definitions?",
-    "options": ["Buyers must be licensed dealers only", "A public automobile auction sells to members of the public and uses a licensed public automobile auctioneer", "Public automobile auctions are unregulated by Tennessee", "Public automobile auctions never require a motor vehicle dealer license"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-101(10) defines a public automobile auction as one that offers vehicles to the highest bidder with buyers who are members of the public, and uses a licensed public automobile auctioneer.",
-    "id": 69
-  },
-  {
-    "topic": "Commission Powers, Enforcement, Liens, Recovery Account + Math Scenarios",
-    "question": "T.C.A. \u00a7 62-19-101(10) defines a public automobile auction as one that offers vehicles to the highest bidder with buyers who are members of the public, and uses a licensed public automobile auctioneer. The Tennessee Auctioneer Commission is composed of:",
-    "options": ["3 members total", "5 members total, with 4 auctioneers and 1 public member not engaged in the auction business", "7 members all auctioneers", "5 members all public members"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-104(b) sets a 5-member commission: 4 auctioneers and 1 member not engaged in the auction business.",
-    "id": 70
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-104(b) sets a 5-member commission: 4 auctioneers and 1 member not engaged in the auction business. The commission must meet at least:",
-    "options": ["Monthly", "Twice per year", "One time each quarter", "Only when complaints are filed"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-107(a) requires the commission to meet at least one time each quarter of every calendar year.",
-    "id": 71
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-107(a) requires the commission to meet at least one time each quarter of every calendar year. How many members constitute a quorum at a commission meeting?",
-    "options": ["2", "3", "4", "5"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-107(c) provides that three (3) members constitute a quorum.",
-    "id": 72
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-107(c) provides that three (3) members constitute a quorum. A violation of the chapter or commission rules is a:",
-    "options": ["Civil infraction only", "Class A misdemeanor", "Class C misdemeanor", "Felony"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-121 states that a violation of the chapter or any rule/regulation of the commission is a Class C misdemeanor.",
-    "id": 73
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-121 states that a violation of the chapter or any rule/regulation of the commission is a Class C misdemeanor. Under the citation process for unlicensed activity, the civil penalty range per violation is:",
-    "options": ["$0 to $100", "$10 to $500", "$50 to $2,500", "$2,500 to $10,000"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-126(a)(3) authorizes a civil penalty of not less than $50 and not more than $2,500 per violation for citations. citeturn0search2",
-    "id": 74
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-126(a)(3) authorizes a civil penalty of not less than $50 and not more than $2,500 per violation for citations. citeturn0search2 How long after the underlying act/omission does the administrative director or investigator have to issue a citation?",
-    "options": ["30 days", "6 months", "1 year", "2 years"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-126(d) provides a citation must be issued within one (1) year after the act or omission that is the basis for the citation. citeturn0search2",
-    "id": 75
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-126(d) provides a citation must be issued within one (1) year after the act or omission that is the basis for the citation. citeturn0search2 A person served with a citation may appeal by written notice postmarked within:",
-    "options": ["5 working days", "10 working days", "15 working days", "30 calendar days"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-126(e) provides a 15 working day deadline after service for appeal by written notice postmarked. citeturn0search2",
-    "id": 76
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-126(e) provides a 15 working day deadline after service for appeal by written notice postmarked. citeturn0search2 An auctioneer lien for unpaid commissions/fees must be filed within how many days after the date of the auction?",
-    "options": ["30 days", "60 days", "90 days", "120 days"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-108(b) requires notice of lien be filed within sixty (60) days after the auction with the register\u2019s office where the property is located.",
-    "id": 77
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-108(b) requires notice of lien be filed within sixty (60) days after the auction with the register\u2019s office where the property is located. Once filed, the auctioneer lien continues for a period of:",
-    "options": ["30 days", "60 days", "90 days", "1 year"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-108(c) provides the lien continues for ninety (90) days from filing and until final termination of any suit for enforcement brought within that period.",
-    "id": 78
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-108(c) provides the lien continues for ninety (90) days from filing and until final termination of any suit for enforcement brought within that period. Recovery from the Auctioneer Education and Recovery Account is capped at:",
-    "options": ["$5,000 per transaction", "$10,000 per transaction", "$20,000 per transaction", "Unlimited"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-116(d)(1) caps liability at $10,000 per transaction. The Commission\u2019s consumer page reflects the same cap. citeturn0search3turn0search7",
-    "id": 79
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-116(d)(1) caps liability at $10,000 per transaction. The Commission\u2019s consumer page reflects the same cap. citeturn0search3turn0search7 The maximum aggregate liability of the account for acts of a single licensee is:",
-    "options": ["$10,000", "$15,000", "$20,000", "$50,000"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-116(d)(2) limits aggregate liability for the acts of one licensee to $20,000. citeturn0search3turn0search7",
-    "id": 80
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-116(d)(2) limits aggregate liability for the acts of one licensee to $20,000. citeturn0search3turn0search7 An auction occurred on March 1. To be timely, the auctioneer\u2019s lien notice must be filed no later than:",
-    "options": ["March 31", "April 15", "April 30", "May 30"],
-    "correctAnswer": 2,
-    "explanation": "Rule: lien notice must be filed within 60 days after the auction (T.C.A. \u00a7 62-19-108(b)). 60 days after March 1 is April 30 (counting March 2 as day 1).",
-    "id": 81
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Rule: lien notice must be filed within 60 days after the auction (T.C.A. \u00a7 62-19-108(b)). 60 days after March 1 is April 30 (counting March 2 as day 1). A lien notice was filed on June 10. Absent a suit filed within the lien period, the lien would generally continue through:",
-    "options": ["July 10", "August 8", "September 8", "December 10"],
-    "correctAnswer": 2,
-    "explanation": "Rule: lien continues 90 days from filing (T.C.A. \u00a7 62-19-108(c)). 90 days after June 10 is September 8.",
-    "id": 82
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Rule: lien continues 90 days from filing (T.C.A. \u00a7 62-19-108(c)). 90 days after June 10 is September 8. A license expired on July 1. Under the chapter\u2019s discretionary late-renewal window, the latest date to apply without reapplying for licensure is:",
-    "options": ["July 31", "August 1", "August 31", "September 1"],
-    "correctAnswer": 3,
-    "explanation": "Rule: late renewal may be allowed within 2 months after expiration (T.C.A. \u00a7 62-19-111(j)). Two months after July 1 is September 1.",
-    "id": 83
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Rule: late renewal may be allowed within 2 months after expiration (T.C.A. \u00a7 62-19-111(j)). Two months after July 1 is September 1. An aggrieved person wins a judgment on May 5. Under the statute, the judgment must remain unpaid for how many days before the person may apply to the court for an order directing payment from the Recovery Account (after appeals are done)?",
-    "options": ["30 days", "45 days", "60 days", "90 days"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-116(f) allows application when all proceedings are terminated and the judgment is unpaid 60 days after the date of the judgment.",
-    "id": 84
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-116(f) allows application when all proceedings are terminated and the judgment is unpaid 60 days after the date of the judgment. If an affiliate auctioneer\u2019s employment is terminated, the employing auctioneer must:",
-    "options": ["Do nothing until renewal", "Immediately deliver or send the affiliate license to the Commission", "Allow the affiliate to keep working for 30 days", "Issue a new pocket card themselves"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-111(l) requires the auctioneer to immediately deliver or send by registered mail the affiliate\u2019s license to the Commission. The affiliate cannot practice until a new license/pocket card reflecting the new employer is issued.",
-    "id": 85
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(l) requires the auctioneer to immediately deliver or send by registered mail the affiliate\u2019s license to the Commission. The affiliate cannot practice until a new license/pocket card reflecting the new employer is issued. No more than how many affiliate auctioneer licenses may be in effect at one time for an affiliate auctioneer?",
-    "options": ["One", "Two", "Three", "Unlimited"],
-    "correctAnswer": 0,
-    "explanation": "T.C.A. \u00a7 62-19-111(m) states no more than one license may be issued to an affiliate auctioneer to be in effect at any one time.",
-    "id": 86
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(m) states no more than one license may be issued to an affiliate auctioneer to be in effect at any one time. A license may authorize business at:",
-    "options": ["Any location in Tennessee", "Only the location stated on the license", "Any location if advertised online", "Only at county fairs"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-111(n) states no license authorizes business at a location other than what is stated; changes must be promptly reported with required materials/fee.",
-    "id": 87
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(n) states no license authorizes business at a location other than what is stated; changes must be promptly reported with required materials/fee. A principal auctioneer may sponsor an affiliate auctioneer after the principal auctioneer has been licensed for:",
-    "options": ["6 months", "1 year", "2 years", "5 years"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-115(b) provides a principal auctioneer may sponsor an affiliate auctioneer after one (1) year of licensure.",
-    "id": 88
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-115(b) provides a principal auctioneer may sponsor an affiliate auctioneer after one (1) year of licensure. When a principal auctioneer\u2019s license is suspended, what happens to the license of an affiliate auctioneer employed by that principal?",
-    "options": ["Nothing happens", "The affiliate\u2019s license is automatically suspended", "The affiliate is automatically promoted to principal", "The affiliate may continue until renewal"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-120 provides the affiliate\u2019s license is automatically suspended upon revocation or suspension of the employing auctioneer\u2019s license.",
-    "id": 89
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-120 provides the affiliate\u2019s license is automatically suspended upon revocation or suspension of the employing auctioneer\u2019s license. To keep an affiliate license after the principal\u2019s license is suspended/revoked, the affiliate must transfer employment to another licensed auctioneer within:",
-    "options": ["7 days", "14 days", "21 days", "60 days"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-120 gives 21 days from the effective date of revocation/suspension to transfer.",
-    "id": 90
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-120 gives 21 days from the effective date of revocation/suspension to transfer. An auctioneer (or affiliate auctioneer) cannot bring an action in Tennessee courts to collect compensation unless they:",
-    "options": ["Prove they were duly licensed when the cause of action arose", "Prove the buyer was wealthy", "Show the auction was advertised", "Show the item was personal property only"],
-    "correctAnswer": 0,
-    "explanation": "T.C.A. \u00a7 62-19-119(a) requires alleging and proving licensure at the time the cause of action arose to collect compensation for services.",
-    "id": 91
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-119(a) requires alleging and proving licensure at the time the cause of action arose to collect compensation for services. Which is TRUE about an affiliate auctioneer suing to recover commissions for auction services?",
-    "options": ["The affiliate can sue the seller directly in their own name", "Any action for the affiliate\u2019s compensation must be brought by the employing auctioneer, but the affiliate can sue the employing auctioneer", "The affiliate can never sue anyone for compensation", "The affiliate can sue only in federal court"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-119(b)-(c): affiliate cannot sue in their own name for compensation from third parties; the employing auctioneer brings that action. The affiliate may sue their employing auctioneer for compensation due.",
-    "id": 92
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-119(b)-(c): affiliate cannot sue in their own name for compensation from third parties; the employing auctioneer brings that action. The affiliate may sue their employing auctioneer for compensation due. Under reciprocity, Tennessee may recognize another state\u2019s license if:",
-    "options": ["The other state requires no exam", "The other state reciprocates and has exam standards equal or higher than Tennessee\u2019s", "The applicant lives in Tennessee", "The applicant has 1 month experience"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-117(b) requires reciprocity and exam standards equal or higher, and the applicant must be domiciled in the other state.",
-    "id": 93
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-117(b) requires reciprocity and exam standards equal or higher, and the applicant must be domiciled in the other state. A nonresident auctioneer doing auctions in Tennessee must maintain:",
-    "options": ["No bank account requirements", "An escrow account for all funds belonging to others that come into possession from a Tennessee auction", "Only a personal checking account", "Only a trust agreement"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-117(c) requires every nonresident auctioneer to maintain an escrow account for funds belonging to others from Tennessee auction sales.",
-    "id": 94
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-117(c) requires every nonresident auctioneer to maintain an escrow account for funds belonging to others from Tennessee auction sales. Which is TRUE about the commission\u2019s authority regarding continuing education standards?",
-    "options": ["The commission cannot set CE requirements", "The commission may establish CE requirements and standards for individual licensees", "CE requirements only apply to affiliate auctioneers", "CE is always optional"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-106(e)(1) gives the commission authority to establish continuing education requirements and standards for individual licensees (with listed exemptions).",
-    "id": 95
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-106(e)(1) gives the commission authority to establish continuing education requirements and standards for individual licensees (with listed exemptions). Under the chapter, the commission may deny an applicant the right to take an exam for up to two years if the applicant:",
-    "options": ["Misspells words on the application", "Conducted business as an auctioneer or affiliate auctioneer in Tennessee without being licensed", "Is under 30 years old", "Failed to renew once"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-111(q) authorizes denial of the right to take an examination for up to two years for unlicensed practice.",
-    "id": 96
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(q) authorizes denial of the right to take an examination for up to two years for unlicensed practice. The examination described in T.C.A. \u00a7 62-19-111(e) must include (at minimum):",
-    "options": ["Only auction chant", "Reading, writing, spelling, elementary arithmetic, ethics, and Tennessee law relating to bulk sales, auctions, and brokerage", "Only motor vehicle law", "Only real estate appraisal"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-111(e) lists exam content areas including reading/writing/spelling, elementary arithmetic, land economics, ethics, and state law relating to bulk sales, auctions, and brokerage.",
-    "id": 97
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(e) lists exam content areas including reading/writing/spelling, elementary arithmetic, land economics, ethics, and state law relating to bulk sales, auctions, and brokerage. A license must be conspicuously displayed:",
-    "options": ["Only at the auction site", "Only in the licensee\u2019s office at all times", "Only on social media", "Only when requested by police"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-111(g) requires the license to be conspicuously displayed at all times in the office of the licensee.",
-    "id": 98
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-111(g) requires the license to be conspicuously displayed at all times in the office of the licensee. A principal auctioneer must provide which of the following upon request at least 24 hours prior to an auction?",
-    "options": ["A list of properties to be sold to the chief of police or sheriff where the auction will be held", "A list of bidders to the mayor", "A copy of all bid paddles to the county clerk", "A copy of all contracts to the registrar of deeds"],
-    "correctAnswer": 0,
-    "explanation": "T.C.A. \u00a7 62-19-115(a) requires the licensee, upon request, to furnish a list of properties to be sold to the chief of police or sheriff in the city/county where the auction is to be held at least 24 hours prior.",
-    "id": 99
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-115(a) requires the licensee, upon request, to furnish a list of properties to be sold to the chief of police or sheriff in the city/county where the auction is to be held at least 24 hours prior. Which is a stated ground for suspension or revocation related to funds handling?",
-    "options": ["Holding a louder chant practice", "Failing to account for or remit money belonging to others, or commingling funds, or failing to keep funds in escrow/trustee account", "Wearing casual attire", "Using online advertising"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(4) lists funds-handling violations including failure to remit, commingling, or failure to keep funds in an escrow/trustee account (with a specific exception noted for certain auto auctions).",
-    "id": 100
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(4) lists funds-handling violations including failure to remit, commingling, or failure to keep funds in an escrow/trustee account (with a specific exception noted for certain auto auctions). Using false bidders, cappers, or pullers is:",
-    "options": ["Encouraged to raise price", "A basis for discipline by the Commission", "Required in a reserve auction", "Legal if disclosed after the auction"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(11) identifies knowingly using false bidders, cappers, or pullers as a disciplinary ground.",
-    "id": 101
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(11) identifies knowingly using false bidders, cappers, or pullers as a disciplinary ground. To retire a license, a licensee must generally:",
-    "options": ["Stop working and do nothing else", "Request retirement in writing, pay required fees, and submit the license certificate and pocket card", "Mail only the pocket card", "Wait until the Commission removes the license"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(d) describes retirement of license by written request with appropriate fees and returning the license certificate and pocket card.",
-    "id": 102
-  },
-  {
-    "topic": "Disciplinary Grounds (T.C.A. \u00a7 62-19-112)",
-    "question": "T.C.A. \u00a7 62-19-112(d) describes retirement of license by written request with appropriate fees and returning the license certificate and pocket card. Which is a specific ground for suspension or revocation of a Tennessee auctioneer license?",
-    "options": ["Charging a buyer\u2019s premium", "Obtaining a license by false or fraudulent representations", "Conducting auctions outside Tennessee", "Advertising auction dates"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b) authorizes discipline if a license was obtained by false or fraudulent representations.",
-    "id": 103
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b) authorizes discipline if a license was obtained by false or fraudulent representations. A bid caller auctioneer holding themselves out as a principal auctioneer is an example of:",
-    "options": ["Acceptable marketing", "Substantial misrepresentation", "A continuing education exemption", "A lawful timed listing"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(1) lists substantial misrepresentation including bid callers holding themselves out as principal or public automobile auctioneers.",
-    "id": 104
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(1) lists substantial misrepresentation including bid callers holding themselves out as principal or public automobile auctioneers. An affiliate auctioneer may accept valuable consideration for auction acts only from:",
-    "options": ["Any member of the public", "The licensee\u2019s employer auctioneer", "The auctioneer commission", "The buyer directly"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(3) prohibits affiliate auctioneers from accepting consideration from anyone except their employer auctioneer.",
-    "id": 105
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(3) prohibits affiliate auctioneers from accepting consideration from anyone except their employer auctioneer. Failing to account for or remit money belonging to others, or commingling funds, is:",
-    "options": ["Permitted if disclosed", "A disciplinary ground", "Required for livestock auctions", "Only a civil issue outside commission authority"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(4) lists failure to remit or commingling of funds as a cause for discipline.",
-    "id": 106
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(4) lists failure to remit or commingling of funds as a cause for discipline. Knowingly using false bidders, cappers, or pullers is:",
-    "options": ["A best practice", "A cause for discipline", "Required in reserve auctions", "Allowed if the seller requests it"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(11) lists knowingly using false bidders/cappers/pullers as a disciplinary ground.",
-    "id": 107
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(11) lists knowingly using false bidders/cappers/pullers as a disciplinary ground. Engaging in the business of auctioning real property without also holding a broker or affiliate broker license is:",
-    "options": ["Always exempt", "A cause for discipline", "Required for timed listings", "Allowed for bid callers only"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(10) identifies auctioning real property without broker licensure as a disciplinary ground.",
-    "id": 108
-  },
-  {
-    "topic": "Contracts + Written Instruments + Closing Statements",
-    "question": "T.C.A. \u00a7 62-19-112(b)(10) identifies auctioning real property without broker licensure as a disciplinary ground. Prior to selling property at public auction, a licensee must generally:",
-    "options": ["Enter into a written contract with the owner/consignee containing the terms and conditions", "Only post an online advertisement", "Obtain a notarized buyer registration form", "File the seller contract with the sheriff"],
-    "correctAnswer": 0,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(9) provides discipline for failing prior to sale to enter into a written contract with the owner/consignee with terms/conditions.",
-    "id": 109
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-112(b)(9) provides discipline for failing prior to sale to enter into a written contract with the owner/consignee with terms/conditions. Failing to furnish copies of written instruments to interested parties at execution is:",
-    "options": ["Encouraged", "A disciplinary ground", "A continuing education credit", "Required for auto auctions only"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-112(b)(8) lists failing to provide copies of written instruments at execution as a disciplinary cause.",
-    "id": 110
-  },
-  {
-    "topic": "Public Automobile Auctions + Minimum Requirements (\u00a7 62-19-128)",
-    "question": "T.C.A. \u00a7 62-19-112(b)(8) lists failing to provide copies of written instruments at execution as a disciplinary cause. Which is a minimum insurance requirement for a licensed public automobile auction?",
-    "options": ["$50,000 liability insurance", "Garagekeeper\u2019s legal liability insurance of at least $500,000", "No insurance required", "Workers compensation only"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-128(b)(2) requires garagekeeper\u2019s legal liability insurance of not less than $500,000.",
-    "id": 111
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-128(b)(2) requires garagekeeper\u2019s legal liability insurance of not less than $500,000. A licensed public automobile auction must have a surety bond of:",
-    "options": ["$10,000", "$25,000", "$50,000", "$100,000"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-128(b)(3) requires a $50,000 surety bond.",
-    "id": 112
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-128(b)(3) requires a $50,000 surety bond. Before a motor vehicle is auctioned, the public automobile auctioneer must verify clean title by obtaining:",
-    "options": ["A buyer\u2019s premium schedule", "A valid motor vehicle title history from the department of revenue or other state titling agency", "A sheriff\u2019s certificate", "A broker opinion of value"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-128(c) requires verifying clean and unencumbered title through a title history.",
-    "id": 113
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-128(c) requires verifying clean and unencumbered title through a title history. A public automobile auction may NOT sell:",
-    "options": ["Previously titled used vehicles", "New or unused vehicles with a manufacturer\u2019s statement of origin", "Vehicles with clear title", "Vehicles consigned by owners"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-128(e) prohibits sale of new/unused vehicles or those with a manufacturer\u2019s statement of origin.",
-    "id": 114
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-128(e) prohibits sale of new/unused vehicles or those with a manufacturer\u2019s statement of origin. A public automobile auction must take possession of and retain title to each vehicle offered, and is deemed:",
-    "options": ["A broker only", "The seller of the motor vehicle with duties of licensed dealers", "Not responsible for title transfer", "Exempt from all motor vehicle laws"],
-    "correctAnswer": 1,
-    "explanation": "T.C.A. \u00a7 62-19-128(f) deems the public automobile auction the seller with duties/responsibilities as licensed dealers.",
-    "id": 115
-  },
-  {
-    "topic": "Math + Deadlines + Enforcement Scenarios",
-    "question": "T.C.A. \u00a7 62-19-128(f) deems the public automobile auction the seller with duties/responsibilities as licensed dealers. A citation for unlicensed auction activity may assess a civil penalty up to:",
-    "options": ["$500", "$1,000", "$2,500", "$10,000"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-126(a)(3) sets the maximum civil penalty at $2,500 per violation.",
-    "id": 116
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-126(a)(3) sets the maximum civil penalty at $2,500 per violation. If a person is cited and wants to appeal, the written notice must be postmarked within:",
-    "options": ["5 working days", "10 working days", "15 working days", "30 working days"],
-    "correctAnswer": 2,
-    "explanation": "T.C.A. \u00a7 62-19-126(e) provides 15 working days after service for appeal notice.",
-    "id": 117
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "T.C.A. \u00a7 62-19-126(e) provides 15 working days after service for appeal notice. A lien notice for unpaid auctioneer commission must be filed within 60 days. An auction is held on January 10. The last timely day to file is approximately:",
-    "options": ["February 9", "March 11", "April 10", "May 10"],
-    "correctAnswer": 1,
-    "explanation": "60 days from January 10 is about March 11. Under \u00a7 62-19-108(b), filing must occur within 60 days after the date of the auction.",
-    "id": 118
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "60 days from January 10 is about March 11. Under \u00a7 62-19-108(b), filing must occur within 60 days after the date of the auction. A lien filed on August 1 continues for 90 days. It would generally continue through:",
-    "options": ["August 31", "September 30", "October 30", "December 1"],
-    "correctAnswer": 2,
-    "explanation": "90 days after August 1 is approximately October 30. \u00a7 62-19-108(c) provides a 90-day continuation from filing.",
-    "id": 119
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "90 days after August 1 is approximately October 30. \u00a7 62-19-108(c) provides a 90-day continuation from filing. The Recovery Account maximum payout per transaction is $10,000. If damages are $18,000, the maximum the account may pay is:",
-    "options": ["$18,000", "$10,000", "$20,000", "$0"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(d)(1) caps the account\u2019s liability at $10,000 per transaction regardless of the number of aggrieved persons.",
-    "id": 120
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(d)(1) caps the account\u2019s liability at $10,000 per transaction regardless of the number of aggrieved persons. Hammer price is $4,000 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,000", "$400", "$4,400", "$4,600"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,000 = 400. Total = hammer + premium = 4,000 + 400 = 4,400.",
-    "id": 121
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,000 = 400. Total = hammer + premium = 4,000 + 400 = 4,400. Hammer price is $4,150 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,150", "$415", "$4,565", "$4,765"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,150 = 415. Total = hammer + premium = 4,150 + 415 = 4,565.",
-    "id": 122
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,150 = 415. Total = hammer + premium = 4,150 + 415 = 4,565. Hammer price is $4,300 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,300", "$430", "$4,730", "$4,930"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,300 = 430. Total = hammer + premium = 4,300 + 430 = 4,730.",
-    "id": 123
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,300 = 430. Total = hammer + premium = 4,300 + 430 = 4,730. Hammer price is $4,450 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,450", "$445", "$4,895", "$5,095"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,450 = 445. Total = hammer + premium = 4,450 + 445 = 4,895.",
-    "id": 124
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,450 = 445. Total = hammer + premium = 4,450 + 445 = 4,895. Hammer price is $4,600 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,600", "$460", "$5,060", "$5,260"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,600 = 460. Total = hammer + premium = 4,600 + 460 = 5,060.",
-    "id": 125
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,600 = 460. Total = hammer + premium = 4,600 + 460 = 5,060. Hammer price is $4,750 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,750", "$475", "$5,225", "$5,425"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,750 = 475. Total = hammer + premium = 4,750 + 475 = 5,225.",
-    "id": 126
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,750 = 475. Total = hammer + premium = 4,750 + 475 = 5,225. Hammer price is $4,900 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$4,900", "$490", "$5,390", "$5,590"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 4,900 = 490. Total = hammer + premium = 4,900 + 490 = 5,390.",
-    "id": 127
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 4,900 = 490. Total = hammer + premium = 4,900 + 490 = 5,390. Hammer price is $5,050 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,050", "$505", "$5,555", "$5,755"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,050 = 505. Total = hammer + premium = 5,050 + 505 = 5,555.",
-    "id": 128
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,050 = 505. Total = hammer + premium = 5,050 + 505 = 5,555. Hammer price is $5,200 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,200", "$520", "$5,720", "$5,920"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,200 = 520. Total = hammer + premium = 5,200 + 520 = 5,720.",
-    "id": 129
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,200 = 520. Total = hammer + premium = 5,200 + 520 = 5,720. Hammer price is $5,350 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,350", "$535", "$5,885", "$6,085"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,350 = 535. Total = hammer + premium = 5,350 + 535 = 5,885.",
-    "id": 130
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,350 = 535. Total = hammer + premium = 5,350 + 535 = 5,885. Hammer price is $5,500 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,500", "$550", "$6,050", "$6,250"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,500 = 550. Total = hammer + premium = 5,500 + 550 = 6,050.",
-    "id": 131
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,500 = 550. Total = hammer + premium = 5,500 + 550 = 6,050. Hammer price is $5,650 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,650", "$565", "$6,215", "$6,415"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,650 = 565. Total = hammer + premium = 5,650 + 565 = 6,215.",
-    "id": 132
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,650 = 565. Total = hammer + premium = 5,650 + 565 = 6,215. Hammer price is $5,800 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,800", "$580", "$6,380", "$6,580"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,800 = 580. Total = hammer + premium = 5,800 + 580 = 6,380.",
-    "id": 133
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,800 = 580. Total = hammer + premium = 5,800 + 580 = 6,380. Hammer price is $5,950 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$5,950", "$595", "$6,545", "$6,745"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,950 = 595. Total = hammer + premium = 5,950 + 595 = 6,545.",
-    "id": 134
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,950 = 595. Total = hammer + premium = 5,950 + 595 = 6,545. Hammer price is $6,100 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,100", "$610", "$6,710", "$6,910"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,100 = 610. Total = hammer + premium = 6,100 + 610 = 6,710.",
-    "id": 135
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,100 = 610. Total = hammer + premium = 6,100 + 610 = 6,710. Hammer price is $6,250 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,250", "$625", "$6,875", "$7,075"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,250 = 625. Total = hammer + premium = 6,250 + 625 = 6,875.",
-    "id": 136
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,250 = 625. Total = hammer + premium = 6,250 + 625 = 6,875. Hammer price is $6,400 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,400", "$640", "$7,040", "$7,240"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,400 = 640. Total = hammer + premium = 6,400 + 640 = 7,040.",
-    "id": 137
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,400 = 640. Total = hammer + premium = 6,400 + 640 = 7,040. Hammer price is $6,550 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,550", "$655", "$7,205", "$7,405"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,550 = 655. Total = hammer + premium = 6,550 + 655 = 7,205.",
-    "id": 138
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,550 = 655. Total = hammer + premium = 6,550 + 655 = 7,205. Hammer price is $6,700 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,700", "$670", "$7,370", "$7,570"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,700 = 670. Total = hammer + premium = 6,700 + 670 = 7,370.",
-    "id": 139
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,700 = 670. Total = hammer + premium = 6,700 + 670 = 7,370. Hammer price is $6,850 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$6,850", "$685", "$7,535", "$7,735"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,850 = 685. Total = hammer + premium = 6,850 + 685 = 7,535.",
-    "id": 140
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,850 = 685. Total = hammer + premium = 6,850 + 685 = 7,535. Hammer price is $7,000 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,000", "$700", "$7,700", "$7,900"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,000 = 700. Total = hammer + premium = 7,000 + 700 = 7,700.",
-    "id": 141
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,000 = 700. Total = hammer + premium = 7,000 + 700 = 7,700. Hammer price is $7,150 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,150", "$715", "$7,865", "$8,065"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,150 = 715. Total = hammer + premium = 7,150 + 715 = 7,865.",
-    "id": 142
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,150 = 715. Total = hammer + premium = 7,150 + 715 = 7,865. Hammer price is $7,300 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,300", "$730", "$8,030", "$8,230"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,300 = 730. Total = hammer + premium = 7,300 + 730 = 8,030.",
-    "id": 143
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,300 = 730. Total = hammer + premium = 7,300 + 730 = 8,030. Hammer price is $7,450 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,450", "$745", "$8,195", "$8,395"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,450 = 745. Total = hammer + premium = 7,450 + 745 = 8,195.",
-    "id": 144
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,450 = 745. Total = hammer + premium = 7,450 + 745 = 8,195. Hammer price is $7,600 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,600", "$760", "$8,360", "$8,560"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,600 = 760. Total = hammer + premium = 7,600 + 760 = 8,360.",
-    "id": 145
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,600 = 760. Total = hammer + premium = 7,600 + 760 = 8,360. Hammer price is $7,750 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,750", "$775", "$8,525", "$8,725"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,750 = 775. Total = hammer + premium = 7,750 + 775 = 8,525.",
-    "id": 146
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,750 = 775. Total = hammer + premium = 7,750 + 775 = 8,525. Hammer price is $7,900 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$7,900", "$790", "$8,690", "$8,890"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,900 = 790. Total = hammer + premium = 7,900 + 790 = 8,690.",
-    "id": 147
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,900 = 790. Total = hammer + premium = 7,900 + 790 = 8,690. Hammer price is $8,050 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$8,050", "$805", "$8,855", "$9,055"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,050 = 805. Total = hammer + premium = 8,050 + 805 = 8,855.",
-    "id": 148
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,050 = 805. Total = hammer + premium = 8,050 + 805 = 8,855. Hammer price is $8,200 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$8,200", "$820", "$9,020", "$9,220"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,200 = 820. Total = hammer + premium = 8,200 + 820 = 9,020.",
-    "id": 149
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,200 = 820. Total = hammer + premium = 8,200 + 820 = 9,020. Hammer price is $8,350 with a 10% buyer\u2019s premium. Total due before tax is:",
-    "options": ["$8,350", "$835", "$9,185", "$9,385"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,350 = 835. Total = hammer + premium = 8,350 + 835 = 9,185.",
-    "id": 150
-  },
-  {
-    "topic": "Reciprocity + Nonresident Requirements (\u00a7 62-19-117)",
-    "question": "Premium = 10% \u00d7 8,350 = 835. Total = hammer + premium = 8,350 + 835 = 9,185. Tennessee may recognize another state\u2019s auctioneer license through reciprocity if:",
-    "options": ["The other state requires no exam", "The other state reciprocates and has exam standards equal or higher than Tennessee\u2019s", "The applicant has never held a license", "The applicant is under age 18"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-117(b) requires reciprocity and exam standards equal or higher than Tennessee\u2019s. The applicant must be domiciled in the issuing state.",
-    "id": 151
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-117(b) requires reciprocity and exam standards equal or higher than Tennessee\u2019s. The applicant must be domiciled in the issuing state. A nonresident auctioneer regularly engaged in auction business in another state is NOT required to:",
-    "options": ["Obtain a Tennessee license", "Maintain a place of business in Tennessee", "File an application and fee", "Submit a certified copy of the other state license"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-117(a) provides nonresident auctioneers are not required to maintain a Tennessee place of business if regularly engaged elsewhere and licensed.",
-    "id": 152
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-117(a) provides nonresident auctioneers are not required to maintain a Tennessee place of business if regularly engaged elsewhere and licensed. Every nonresident auctioneer conducting auctions in Tennessee must maintain:",
-    "options": ["No special account", "An escrow account for all funds belonging to others from Tennessee auction sales", "Only a personal checking account", "Only cash payments"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-117(c) requires a nonresident auctioneer to maintain an escrow account for funds belonging to others arising from Tennessee auction sales.",
-    "id": 153
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-117(c) requires a nonresident auctioneer to maintain an escrow account for funds belonging to others arising from Tennessee auction sales. Nonresident applicants must file an irrevocable consent allowing service of process by serving:",
-    "options": ["The governor", "The Tennessee Auctioneer Commission", "The sheriff only", "Any auction school"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-117(d) requires consent that lawsuits may be served through the commission or its designated deputy.",
-    "id": 154
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-117(d) requires consent that lawsuits may be served through the commission or its designated deputy. No default judgment may be taken against a nonresident in such service-of-process cases until:",
-    "options": ["Immediately upon filing", "10 days after mailing", "20 days after the process is mailed", "90 days after auction"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-117(e)(3) prevents default judgment within 20 days after mailing of process/pleadings to the nonresident defendant.",
-    "id": 155
-  },
-  {
-    "topic": "Sponsorship + Affiliate Responsibility (\u00a7 62-19-115)",
-    "question": "\u00a7 62-19-117(e)(3) prevents default judgment within 20 days after mailing of process/pleadings to the nonresident defendant. A principal auctioneer may sponsor an affiliate auctioneer after:",
-    "options": ["6 months of licensure", "1 year of licensure", "2 years of licensure", "5 years of licensure"],
-    "correctAnswer": 1,
-    "explanation": "",
-    "id": 156
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-115(b) provides a principal auctioneer may sponsor an affiliate auctioneer after one year of licensure. There is no limit on how many affiliate auctioneers a principal auctioneer may sponsor:",
-    "options": ["True", "False"],
-    "correctAnswer": 0,
-    "explanation": "\u00a7 62-19-115(b) explicitly states there is no limit on the number of affiliate auctioneers a principal or public automobile auctioneer may sponsor.",
-    "id": 157
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-115(b) explicitly states there is no limit on the number of affiliate auctioneers a principal or public automobile auctioneer may sponsor. If an affiliate auctioneer is employed by an auctioneer who is not the sponsor, the employing auctioneer is:",
-    "options": ["Not responsible for the affiliate\u2019s actions", "Responsible for the affiliate\u2019s actions while under that employment", "Automatically becomes the sponsor", "Prohibited from hiring affiliates"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-111(p) provides the employing auctioneer is responsible for the affiliate\u2019s actions while the affiliate works under that auctioneer\u2019s employment.",
-    "id": 158
-  },
-  {
-    "topic": "Business Location + Sign Requirements (\u00a7 62-19-118)",
-    "question": "\u00a7 62-19-111(p) provides the employing auctioneer is responsible for the affiliate\u2019s actions while the affiliate works under that auctioneer\u2019s employment. Generally, every Tennessee auctioneer must maintain:",
-    "options": ["No office", "A definite place of business in Tennessee (with nonresident exception)", "Only a mailing address", "Only an online profile"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-118(a) requires a definite place of business in Tennessee, except as provided for nonresidents under \u00a7 62-19-117.",
-    "id": 159
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-118(a) requires a definite place of business in Tennessee, except as provided for nonresidents under \u00a7 62-19-117. The required sign at the principal office must:",
-    "options": ["Have letters at least 2 inches high and clearly indicate auctioneer/auction business", "Be handwritten", "Be placed inside a drawer", "Only list the auctioneer\u2019s phone number"],
-    "correctAnswer": 0,
-    "explanation": "\u00a7 62-19-118(b)(1) requires clear, legible letters at least 2 inches high showing the name and indicating the person is an auctioneer or the firm is in the auction business.",
-    "id": 160
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-118(b)(1) requires clear, legible letters at least 2 inches high showing the name and indicating the person is an auctioneer or the firm is in the auction business. In multistory office buildings, compliance with the sign requirement can be satisfied by:",
-    "options": ["No display at all", "Listing name and profession on building directories in the usual manner", "Posting signs in the street only", "Using social media ads only"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-118(b)(2) provides directory listings are deemed compliance for multistory office buildings.",
-    "id": 161
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-118(b)(2) provides directory listings are deemed compliance for multistory office buildings. The commission may waive sign/location requirements if:",
-    "options": ["The auctioneer requests it for convenience only", "There is a conflict with local ordinances or unusual circumstances", "The auctioneer is under age 30", "The auction is charitable"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-118(c) allows waivers for conflicts with local ordinances or other unusual circumstances.",
-    "id": 162
-  },
-  {
-    "topic": "Ethics + Misconduct + Enforcement Scenarios",
-    "question": "\u00a7 62-19-118(c) allows waivers for conflicts with local ordinances or other unusual circumstances. Any conduct demonstrating improper, fraudulent, incompetent, or dishonest dealings is:",
-    "options": ["Allowed if disclosed later", "A disciplinary ground under \u00a7 62-19-112", "Only a civil matter outside commission jurisdiction", "Required for auto auctions"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-112(b)(12) provides discipline for conduct demonstrating improper, fraudulent, incompetent, or dishonest dealings.",
-    "id": 163
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-112(b)(12) provides discipline for conduct demonstrating improper, fraudulent, incompetent, or dishonest dealings. Paying valuable consideration to any person for services performed in violation of the chapter is:",
-    "options": ["Permitted", "A cause for discipline", "Required for sponsorship", "Only applies to brokers"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-112(b)(5) lists paying valuable consideration for services performed in violation of the chapter as disciplinary cause.",
-    "id": 164
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-112(b)(5) lists paying valuable consideration for services performed in violation of the chapter as disciplinary cause. A violation of the auctioneer chapter is classified as:",
-    "options": ["Civil only", "Class C misdemeanor", "Class A felony", "No penalty exists"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-121 provides violations are a Class C misdemeanor.",
-    "id": 165
-  },
-  {
-    "topic": "Mixed Auction Math + Application Deadlines",
-    "question": "\u00a7 62-19-121 provides violations are a Class C misdemeanor. Hammer price is $5,000 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$5,000", "$500", "$5,500", "$5,600"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,000 = 500. Total = 5,000 + 500 = 5,500.",
-    "id": 166
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,000 = 500. Total = 5,000 + 500 = 5,500. Hammer price is $5,200 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$5,200", "$520", "$5,720", "$5,820"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,200 = 520. Total = 5,200 + 520 = 5,720.",
-    "id": 167
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,200 = 520. Total = 5,200 + 520 = 5,720. Hammer price is $5,400 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$5,400", "$540", "$5,940", "$6,040"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,400 = 540. Total = 5,400 + 540 = 5,940.",
-    "id": 168
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,400 = 540. Total = 5,400 + 540 = 5,940. Hammer price is $5,600 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$5,600", "$560", "$6,160", "$6,260"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,600 = 560. Total = 5,600 + 560 = 6,160.",
-    "id": 169
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,600 = 560. Total = 5,600 + 560 = 6,160. Hammer price is $5,800 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$5,800", "$580", "$6,380", "$6,480"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 5,800 = 580. Total = 5,800 + 580 = 6,380.",
-    "id": 170
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 5,800 = 580. Total = 5,800 + 580 = 6,380. Hammer price is $6,000 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$6,000", "$600", "$6,600", "$6,700"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,000 = 600. Total = 6,000 + 600 = 6,600.",
-    "id": 171
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,000 = 600. Total = 6,000 + 600 = 6,600. Hammer price is $6,200 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$6,200", "$620", "$6,820", "$6,920"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,200 = 620. Total = 6,200 + 620 = 6,820.",
-    "id": 172
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,200 = 620. Total = 6,200 + 620 = 6,820. Hammer price is $6,400 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$6,400", "$640", "$7,040", "$7,140"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,400 = 640. Total = 6,400 + 640 = 7,040.",
-    "id": 173
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,400 = 640. Total = 6,400 + 640 = 7,040. Hammer price is $6,600 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$6,600", "$660", "$7,260", "$7,360"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,600 = 660. Total = 6,600 + 660 = 7,260.",
-    "id": 174
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,600 = 660. Total = 6,600 + 660 = 7,260. Hammer price is $6,800 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$6,800", "$680", "$7,480", "$7,580"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,800 = 680. Total = 6,800 + 680 = 7,480.",
-    "id": 175
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,800 = 680. Total = 6,800 + 680 = 7,480. Hammer price is $7,000 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$7,000", "$700", "$7,700", "$7,800"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,000 = 700. Total = 7,000 + 700 = 7,700.",
-    "id": 176
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,000 = 700. Total = 7,000 + 700 = 7,700. Hammer price is $7,200 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$7,200", "$720", "$7,920", "$8,020"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,200 = 720. Total = 7,200 + 720 = 7,920.",
-    "id": 177
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,200 = 720. Total = 7,200 + 720 = 7,920. Hammer price is $7,400 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$7,400", "$740", "$8,140", "$8,240"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,400 = 740. Total = 7,400 + 740 = 8,140.",
-    "id": 178
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,400 = 740. Total = 7,400 + 740 = 8,140. Hammer price is $7,600 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$7,600", "$760", "$8,360", "$8,460"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,600 = 760. Total = 7,600 + 760 = 8,360.",
-    "id": 179
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,600 = 760. Total = 7,600 + 760 = 8,360. Hammer price is $7,800 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$7,800", "$780", "$8,580", "$8,680"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,800 = 780. Total = 7,800 + 780 = 8,580.",
-    "id": 180
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,800 = 780. Total = 7,800 + 780 = 8,580. Hammer price is $8,000 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$8,000", "$800", "$8,800", "$8,900"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,000 = 800. Total = 8,000 + 800 = 8,800.",
-    "id": 181
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,000 = 800. Total = 8,000 + 800 = 8,800. Hammer price is $8,200 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$8,200", "$820", "$9,020", "$9,120"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,200 = 820. Total = 8,200 + 820 = 9,020.",
-    "id": 182
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,200 = 820. Total = 8,200 + 820 = 9,020. Hammer price is $8,400 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$8,400", "$840", "$9,240", "$9,340"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,400 = 840. Total = 8,400 + 840 = 9,240.",
-    "id": 183
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,400 = 840. Total = 8,400 + 840 = 9,240. Hammer price is $8,600 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$8,600", "$860", "$9,460", "$9,560"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,600 = 860. Total = 8,600 + 860 = 9,460.",
-    "id": 184
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,600 = 860. Total = 8,600 + 860 = 9,460. Hammer price is $8,800 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$8,800", "$880", "$9,680", "$9,780"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,800 = 880. Total = 8,800 + 880 = 9,680.",
-    "id": 185
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,800 = 880. Total = 8,800 + 880 = 9,680. Hammer price is $9,000 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$9,000", "$900", "$9,900", "$10,000"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,000 = 900. Total = 9,000 + 900 = 9,900.",
-    "id": 186
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,000 = 900. Total = 9,000 + 900 = 9,900. Hammer price is $9,200 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$9,200", "$920", "$10,120", "$10,220"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,200 = 920. Total = 9,200 + 920 = 10,120.",
-    "id": 187
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,200 = 920. Total = 9,200 + 920 = 10,120. Hammer price is $9,400 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$9,400", "$940", "$10,340", "$10,440"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,400 = 940. Total = 9,400 + 940 = 10,340.",
-    "id": 188
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,400 = 940. Total = 9,400 + 940 = 10,340. Hammer price is $9,600 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$9,600", "$960", "$10,560", "$10,660"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,600 = 960. Total = 9,600 + 960 = 10,560.",
-    "id": 189
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,600 = 960. Total = 9,600 + 960 = 10,560. Hammer price is $9,800 with a 10% buyer\u2019s premium. Total buyer amount before tax is:",
-    "options": ["$9,800", "$980", "$10,780", "$10,880"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,800 = 980. Total = 9,800 + 980 = 10,780.",
-    "id": 190
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,800 = 980. Total = 9,800 + 980 = 10,780. A license expired on October 1. The latest date for discretionary renewal within the 2-month window is:",
-    "options": ["October 31", "November 1", "December 1", "January 1"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-111(j) allows renewal within 2 months after expiration. Two months after October 1 is December 1.",
-    "id": 191
-  },
-  {
-    "topic": "Auctioneer Education & Recovery Account (\u00a7 62-19-116)",
-    "question": "\u00a7 62-19-111(j) allows renewal within 2 months after expiration. Two months after October 1 is December 1. No new auctioneer or affiliate auctioneer license may be issued unless the applicant pays an additional fee of:",
-    "options": ["$10", "$25", "$50", "$100"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-116(c)(1) requires a $50 fee (or lesser amount set by rule) for deposit into the education and recovery account.",
-    "id": 192
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(c)(1) requires a $50 fee (or lesser amount set by rule) for deposit into the education and recovery account. The commission must maintain a minimum Recovery Account balance of:",
-    "options": ["$50,000", "$100,000", "$150,000", "$500,000"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-116(a) requires the commission to maintain a minimum balance of $150,000 in the account.",
-    "id": 193
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(a) requires the commission to maintain a minimum balance of $150,000 in the account. The maximum liability of the Recovery Account per transaction is:",
-    "options": ["$5,000", "$10,000", "$20,000", "Unlimited"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(d)(1) caps liability at $10,000 per transaction regardless of number of aggrieved persons.",
-    "id": 194
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(d)(1) caps liability at $10,000 per transaction regardless of number of aggrieved persons. The aggregate liability of the account for the acts of one licensee terminates after payments totaling:",
-    "options": ["$10,000", "$15,000", "$20,000", "$50,000"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-116(d)(2) terminates liability after aggregate payments of $20,000 on behalf of a licensee.",
-    "id": 195
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(d)(2) terminates liability after aggregate payments of $20,000 on behalf of a licensee. A licensee acting as such has:",
-    "options": ["A direct claim against the account", "No claim against the account", "Unlimited reimbursement rights", "Automatic access to funds"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(d)(3) states a licensee acting as such shall have no claim against the account.",
-    "id": 196
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(d)(3) states a licensee acting as such shall have no claim against the account. If the commission pays from the account on behalf of a licensee, the commission may:",
-    "options": ["Do nothing further", "Suspend or revoke the license and require repayment with interest before re-licensure", "Automatically renew the license", "Cancel all future claims"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(g) allows suspension/revocation and requires repayment plus interest before eligibility for a new license.",
-    "id": 197
-  },
-  {
-    "topic": "Citations + Civil Penalties (\u00a7 62-19-126)",
-    "question": "\u00a7 62-19-116(g) allows suspension/revocation and requires repayment plus interest before eligibility for a new license. Citations for unlicensed auction activity may assess a civil penalty per violation between:",
-    "options": ["$0 and $500", "$10 and $1,000", "$50 and $2,500", "$2,500 and $10,000"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-126(a)(3) provides penalties not less than $50 and not more than $2,500 per violation.",
-    "id": 198
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-126(a)(3) provides penalties not less than $50 and not more than $2,500 per violation. A citation must be issued within:",
-    "options": ["30 days", "6 months", "1 year", "5 years"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-126(d) requires citation issuance within one year after the act/omission.",
-    "id": 199
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-126(d) requires citation issuance within one year after the act/omission. A person appealing a citation must provide notice postmarked within:",
-    "options": ["5 working days", "10 working days", "15 working days", "30 working days"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-126(e) provides a 15 working day appeal deadline.",
-    "id": 200
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-126(e) provides a 15 working day appeal deadline. After administrative appeals are exhausted, the administrative director may apply to court for:",
-    "options": ["Only imprisonment", "Judgment for the civil penalty plus court costs and an order to cease violations", "Automatic license issuance", "Dismissal of the citation"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-126(g) authorizes court judgment for civil penalty plus costs and cease-and-desist type orders.",
-    "id": 201
-  },
-  {
-    "topic": "Liens for Unpaid Commissions (\u00a7 62-19-108)",
-    "question": "\u00a7 62-19-126(g) authorizes court judgment for civil penalty plus costs and cease-and-desist type orders. An auctioneer lien applies only to property:",
-    "options": ["Owned by any bidder", "Owned by the person who denied payment for services", "Owned by the commission", "Located outside Tennessee"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-108(a) limits the lien to property owned by the person who denied payment.",
-    "id": 202
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-108(a) limits the lien to property owned by the person who denied payment. Notice of lien must be filed within how many days after the auction?",
-    "options": ["30", "60", "90", "120"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-108(b) requires filing within 60 days after the auction.",
-    "id": 203
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-108(b) requires filing within 60 days after the auction. The lien is not effective against:",
-    "options": ["The auctioneer", "A bona fide purchaser for value", "The original seller", "The commission"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-108(b) provides the lien is not effective against a bona fide purchaser for value.",
-    "id": 204
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-108(b) provides the lien is not effective against a bona fide purchaser for value. The lien continues for 90 days from filing unless suit is brought within that time. A lien filed April 1 continues through approximately:",
-    "options": ["May 1", "June 30", "July 1", "October 1"],
-    "correctAnswer": 2,
-    "explanation": "90 days from April 1 is approximately July 1. \u00a7 62-19-108(c) provides the 90-day continuation.",
-    "id": 205
-  },
-  {
-    "topic": "Public Automobile Auction Compliance (\u00a7 62-19-128)",
-    "question": "90 days from April 1 is approximately July 1. \u00a7 62-19-108(c) provides the 90-day continuation. A public automobile auction must have a minimum net worth of:",
-    "options": ["$25,000", "$50,000", "$100,000", "$500,000"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-128(b)(5) requires minimum net worth of at least $100,000.",
-    "id": 206
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-128(b)(5) requires minimum net worth of at least $100,000. A business telephone in the auction company name is required, and cellular phones are:",
-    "options": ["Acceptable", "Not acceptable", "Required", "Optional"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-128(b)(6) states cellular telephones are not acceptable for this requirement.",
-    "id": 207
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-128(b)(6) states cellular telephones are not acceptable for this requirement. Public automobile auction signs must have letters at least:",
-    "options": ["2 inches tall", "4 inches tall", "8 inches tall", "12 inches tall"],
-    "correctAnswer": 2,
-    "explanation": "\u00a7 62-19-128(b)(7) requires letters at least 8 inches tall for the permanent professional business sign.",
-    "id": 208
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-128(b)(7) requires letters at least 8 inches tall for the permanent professional business sign. The public automobile auction is deemed the seller of the vehicle with the same duties as:",
-    "options": ["Licensed motor vehicle dealers", "Real estate brokers", "Building contractors", "Bankruptcy trustees"],
-    "correctAnswer": 0,
-    "explanation": "\u00a7 62-19-128(f) deems the auction the seller with duties/responsibilities as other licensed motor vehicle dealers.",
-    "id": 209
-  },
-  {
-    "topic": "Mixed Math + Scenario Practice",
-    "question": "\u00a7 62-19-128(f) deems the auction the seller with duties/responsibilities as other licensed motor vehicle dealers. Hammer price is $8,000. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$8,000", "$960", "$8,960", "$9,260"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 8,000 = 960. Total = hammer + premium = 8,000 + 960 = 8,960.",
-    "id": 210
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 8,000 = 960. Total = hammer + premium = 8,000 + 960 = 8,960. Hammer price is $8,250. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$8,250", "$990", "$9,240", "$9,540"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 8,250 = 990. Total = hammer + premium = 8,250 + 990 = 9,240.",
-    "id": 211
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 8,250 = 990. Total = hammer + premium = 8,250 + 990 = 9,240. Hammer price is $8,500. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$8,500", "$1,020", "$9,520", "$9,820"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 8,500 = 1,020. Total = hammer + premium = 8,500 + 1,020 = 9,520.",
-    "id": 212
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 8,500 = 1,020. Total = hammer + premium = 8,500 + 1,020 = 9,520. Hammer price is $8,750. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$8,750", "$1,050", "$9,800", "$10,100"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 8,750 = 1,050. Total = hammer + premium = 8,750 + 1,050 = 9,800.",
-    "id": 213
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 8,750 = 1,050. Total = hammer + premium = 8,750 + 1,050 = 9,800. Hammer price is $9,000. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$9,000", "$1,080", "$10,080", "$10,380"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 9,000 = 1,080. Total = hammer + premium = 9,000 + 1,080 = 10,080.",
-    "id": 214
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 9,000 = 1,080. Total = hammer + premium = 9,000 + 1,080 = 10,080. Hammer price is $9,250. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$9,250", "$1,110", "$10,360", "$10,660"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 9,250 = 1,110. Total = hammer + premium = 9,250 + 1,110 = 10,360.",
-    "id": 215
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 9,250 = 1,110. Total = hammer + premium = 9,250 + 1,110 = 10,360. Hammer price is $9,500. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$9,500", "$1,140", "$10,640", "$10,940"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 9,500 = 1,140. Total = hammer + premium = 9,500 + 1,140 = 10,640.",
-    "id": 216
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 9,500 = 1,140. Total = hammer + premium = 9,500 + 1,140 = 10,640. Hammer price is $9,750. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$9,750", "$1,170", "$10,920", "$11,220"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 9,750 = 1,170. Total = hammer + premium = 9,750 + 1,170 = 10,920.",
-    "id": 217
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 9,750 = 1,170. Total = hammer + premium = 9,750 + 1,170 = 10,920. Hammer price is $10,000. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$10,000", "$1,200", "$11,200", "$11,500"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 10,000 = 1,200. Total = hammer + premium = 10,000 + 1,200 = 11,200.",
-    "id": 218
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 10,000 = 1,200. Total = hammer + premium = 10,000 + 1,200 = 11,200. Hammer price is $10,250. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$10,250", "$1,230", "$11,480", "$11,780"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 10,250 = 1,230. Total = hammer + premium = 10,250 + 1,230 = 11,480.",
-    "id": 219
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 10,250 = 1,230. Total = hammer + premium = 10,250 + 1,230 = 11,480. Hammer price is $10,500. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$10,500", "$1,260", "$11,760", "$12,060"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 10,500 = 1,260. Total = hammer + premium = 10,500 + 1,260 = 11,760.",
-    "id": 220
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 10,500 = 1,260. Total = hammer + premium = 10,500 + 1,260 = 11,760. Hammer price is $10,750. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$10,750", "$1,290", "$12,040", "$12,340"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 10,750 = 1,290. Total = hammer + premium = 10,750 + 1,290 = 12,040.",
-    "id": 221
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 10,750 = 1,290. Total = hammer + premium = 10,750 + 1,290 = 12,040. Hammer price is $11,000. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$11,000", "$1,320", "$12,320", "$12,620"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 11,000 = 1,320. Total = hammer + premium = 11,000 + 1,320 = 12,320.",
-    "id": 222
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 11,000 = 1,320. Total = hammer + premium = 11,000 + 1,320 = 12,320. Hammer price is $11,250. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$11,250", "$1,350", "$12,600", "$12,900"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 11,250 = 1,350. Total = hammer + premium = 11,250 + 1,350 = 12,600.",
-    "id": 223
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 11,250 = 1,350. Total = hammer + premium = 11,250 + 1,350 = 12,600. Hammer price is $11,500. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$11,500", "$1,380", "$12,880", "$13,180"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 11,500 = 1,380. Total = hammer + premium = 11,500 + 1,380 = 12,880.",
-    "id": 224
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 11,500 = 1,380. Total = hammer + premium = 11,500 + 1,380 = 12,880. Hammer price is $11,750. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$11,750", "$1,410", "$13,160", "$13,460"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 11,750 = 1,410. Total = hammer + premium = 11,750 + 1,410 = 13,160.",
-    "id": 225
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 11,750 = 1,410. Total = hammer + premium = 11,750 + 1,410 = 13,160. Hammer price is $12,000. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$12,000", "$1,440", "$13,440", "$13,740"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 12,000 = 1,440. Total = hammer + premium = 12,000 + 1,440 = 13,440.",
-    "id": 226
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 12,000 = 1,440. Total = hammer + premium = 12,000 + 1,440 = 13,440. Hammer price is $12,250. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$12,250", "$1,470", "$13,720", "$14,020"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 12,250 = 1,470. Total = hammer + premium = 12,250 + 1,470 = 13,720.",
-    "id": 227
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 12,250 = 1,470. Total = hammer + premium = 12,250 + 1,470 = 13,720. Hammer price is $12,500. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$12,500", "$1,500", "$14,000", "$14,300"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 12,500 = 1,500. Total = hammer + premium = 12,500 + 1,500 = 14,000.",
-    "id": 228
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 12,500 = 1,500. Total = hammer + premium = 12,500 + 1,500 = 14,000. Hammer price is $12,750. Buyer\u2019s premium is 12%. Total due before tax is:",
-    "options": ["$12,750", "$1,530", "$14,280", "$14,580"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 12% \u00d7 12,750 = 1,530. Total = hammer + premium = 12,750 + 1,530 = 14,280.",
-    "id": 229
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 12% \u00d7 12,750 = 1,530. Total = hammer + premium = 12,750 + 1,530 = 14,280. Filing a false or materially misleading document with the commission under the Recovery Account section is:",
-    "options": ["Encouraged", "Unlawful", "Required for claims", "Only a civil issue"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(k) makes it unlawful to file any required notice or document that is false or contains a material misstatement of fact.",
-    "id": 230
-  },
-  {
-    "topic": "Final Mixed Licensing + Practice Rules",
-    "question": "\u00a7 62-19-116(k) makes it unlawful to file any required notice or document that is false or contains a material misstatement of fact. It is unlawful to advertise as an auctioneer in Tennessee without:",
-    "options": ["A business card", "A valid license issued by the Tennessee Auctioneer Commission", "A broker license only", "A charity registration"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-102(a)(1) makes it unlawful to act as, advertise as, or represent to be an auctioneer without a valid commission-issued license.",
-    "id": 231
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-102(a)(1) makes it unlawful to act as, advertise as, or represent to be an auctioneer without a valid commission-issued license. An affiliate auctioneer may not independently negotiate or execute an auction contract to sell goods because that is prohibited for bid caller licensees under:",
-    "options": ["\u00a7 62-19-112(b)(14)", "\u00a7 62-19-103(6)", "\u00a7 62-19-128(e)", "\u00a7 62-19-107(c)"],
-    "correctAnswer": 0,
-    "explanation": "\u00a7 62-19-112(b)(14) prohibits negotiating/executing auction contracts or handling seller assets/proceeds as a bid caller auctioneer.",
-    "id": 232
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-112(b)(14) prohibits negotiating/executing auction contracts or handling seller assets/proceeds as a bid caller auctioneer. Which is an exemption from the chapter?",
-    "options": ["Paid professional auction company", "Court-appointed trustee in bankruptcy acting under court order", "Principal auctioneer running a simulcast", "Affiliate auctioneer selling real estate without broker license"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-103(1) exempts receivers, trustees in bankruptcy, guardians, executors, and similar persons acting under court order.",
-    "id": 233
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-103(1) exempts receivers, trustees in bankruptcy, guardians, executors, and similar persons acting under court order. A violation of the chapter is classified as a:",
-    "options": ["Civil infraction only", "Class C misdemeanor", "Class A felony", "No penalty exists"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-121 provides violations are Class C misdemeanors.",
-    "id": 234
-  },
-  {
-    "topic": "Ethics + Misconduct + Consumer Protection Style Scenarios",
-    "question": "\u00a7 62-19-121 provides violations are Class C misdemeanors. Failing to remit money belonging to others and commingling funds is:",
-    "options": ["Acceptable with disclosure", "A disciplinary ground", "Exempt for all auctions", "Required for auto auctions"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-112(b)(4) lists failure to remit funds and commingling as cause for suspension/revocation.",
-    "id": 235
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-112(b)(4) lists failure to remit funds and commingling as cause for suspension/revocation. Knowingly using false bidders (cappers/pullers) is:",
-    "options": ["Permitted if seller agrees", "A disciplinary violation", "Required for reserve auctions", "Not addressed in Tennessee law"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-112(b)(11) identifies knowingly using false bidders as a basis for discipline.",
-    "id": 236
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-112(b)(11) identifies knowingly using false bidders as a basis for discipline. Any improper, fraudulent, incompetent, or dishonest dealings by an auctioneer may result in:",
-    "options": ["Automatic exemption", "Commission discipline", "Mandatory promotion", "No consequences"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-112(b)(12) allows discipline for improper or dishonest conduct.",
-    "id": 237
-  },
-  {
-    "topic": "Commission Authority + Hearings + Judicial Review",
-    "question": "\u00a7 62-19-112(b)(12) allows discipline for improper or dishonest conduct. Hearings and judicial review of contested cases under this chapter are governed by:",
-    "options": ["Federal bankruptcy code", "Uniform Administrative Procedures Act (Title 4, Chapter 5)", "Motor vehicle commission only", "Local ordinances only"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-123 provides that the Uniform Administrative Procedures Act governs hearings and judicial review.",
-    "id": 238
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-123 provides that the Uniform Administrative Procedures Act governs hearings and judicial review. The commission may petition directly to circuit or chancery court to:",
-    "options": ["Approve buyer premiums", "Enjoin a person from continuing violations of the chapter", "Set auction increments statewide", "Waive criminal penalties"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-127 empowers the commission to petition courts to enjoin violations.",
-    "id": 239
-  },
-  {
-    "topic": "Recovery Account + Claims",
-    "question": "\u00a7 62-19-127 empowers the commission to petition courts to enjoin violations. Maximum Recovery Account payout per transaction is:",
-    "options": ["$5,000", "$10,000", "$20,000", "Unlimited"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(d)(1) caps payouts at $10,000 per transaction.",
-    "id": 240
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "\u00a7 62-19-116(d)(1) caps payouts at $10,000 per transaction. If the account pays on behalf of a licensee, the licensee must repay:",
-    "options": ["Nothing", "Amount paid plus interest before new license eligibility", "Only half the amount", "Only court costs"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-116(g) requires full repayment plus interest before eligibility for a new license.",
-    "id": 241
-  },
-  {
-    "topic": "Final Auction Math + Practical Application",
-    "question": "\u00a7 62-19-116(g) requires full repayment plus interest before eligibility for a new license. Hammer price is $6,000. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$6,600", "$6,420", "$7,020", "$7,270"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,000 = 600. Tax = 7% \u00d7 6,000 = 420. Total = 6,000+600+420 = 7,020.",
-    "id": 242
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,000 = 600. Tax = 7% \u00d7 6,000 = 420. Total = 6,000+600+420 = 7,020. Hammer price is $6,300. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$6,930", "$6,741", "$7,371", "$7,621"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,300 = 630. Tax = 7% \u00d7 6,300 = 441. Total = 6,300+630+441 = 7,371.",
-    "id": 243
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,300 = 630. Tax = 7% \u00d7 6,300 = 441. Total = 6,300+630+441 = 7,371. Hammer price is $6,600. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$7,260", "$7,062", "$7,722", "$7,972"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,600 = 660. Tax = 7% \u00d7 6,600 = 462. Total = 6,600+660+462 = 7,722.",
-    "id": 244
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,600 = 660. Tax = 7% \u00d7 6,600 = 462. Total = 6,600+660+462 = 7,722. Hammer price is $6,900. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$7,590", "$7,383", "$8,073", "$8,323"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 6,900 = 690. Tax = 7% \u00d7 6,900 = 483. Total = 6,900+690+483 = 8,073.",
-    "id": 245
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 6,900 = 690. Tax = 7% \u00d7 6,900 = 483. Total = 6,900+690+483 = 8,073. Hammer price is $7,200. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$7,920", "$7,704", "$8,424", "$8,674"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,200 = 720. Tax = 7% \u00d7 7,200 = 504. Total = 7,200+720+504 = 8,424.",
-    "id": 246
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,200 = 720. Tax = 7% \u00d7 7,200 = 504. Total = 7,200+720+504 = 8,424. Hammer price is $7,500. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$8,250", "$8,025", "$8,775", "$9,025"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,500 = 750. Tax = 7% \u00d7 7,500 = 525. Total = 7,500+750+525 = 8,775.",
-    "id": 247
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,500 = 750. Tax = 7% \u00d7 7,500 = 525. Total = 7,500+750+525 = 8,775. Hammer price is $7,800. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$8,580", "$8,346", "$9,126", "$9,376"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 7,800 = 780. Tax = 7% \u00d7 7,800 = 546. Total = 7,800+780+546 = 9,126.",
-    "id": 248
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 7,800 = 780. Tax = 7% \u00d7 7,800 = 546. Total = 7,800+780+546 = 9,126. Hammer price is $8,100. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$8,910", "$8,667", "$9,477", "$9,727"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,100 = 810. Tax = 7% \u00d7 8,100 = 567. Total = 8,100+810+567 = 9,477.",
-    "id": 249
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,100 = 810. Tax = 7% \u00d7 8,100 = 567. Total = 8,100+810+567 = 9,477. Hammer price is $8,400. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$9,240", "$8,988", "$9,828", "$10,078"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,400 = 840. Tax = 7% \u00d7 8,400 = 588. Total = 8,400+840+588 = 9,828.",
-    "id": 250
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,400 = 840. Tax = 7% \u00d7 8,400 = 588. Total = 8,400+840+588 = 9,828. Hammer price is $8,700. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$9,570", "$9,309", "$10,179", "$10,429"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 8,700 = 870. Tax = 7% \u00d7 8,700 = 609. Total = 8,700+870+609 = 10,179.",
-    "id": 251
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 8,700 = 870. Tax = 7% \u00d7 8,700 = 609. Total = 8,700+870+609 = 10,179. Hammer price is $9,000. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$9,900", "$9,630", "$10,530", "$10,780"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,000 = 900. Tax = 7% \u00d7 9,000 = 630. Total = 9,000+900+630 = 10,530.",
-    "id": 252
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,000 = 900. Tax = 7% \u00d7 9,000 = 630. Total = 9,000+900+630 = 10,530. Hammer price is $9,300. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$10,230", "$9,951", "$10,881", "$11,131"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,300 = 930. Tax = 7% \u00d7 9,300 = 651. Total = 9,300+930+651 = 10,881.",
-    "id": 253
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,300 = 930. Tax = 7% \u00d7 9,300 = 651. Total = 9,300+930+651 = 10,881. Hammer price is $9,600. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$10,560", "$10,272", "$11,232", "$11,482"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,600 = 960. Tax = 7% \u00d7 9,600 = 672. Total = 9,600+960+672 = 11,232.",
-    "id": 254
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,600 = 960. Tax = 7% \u00d7 9,600 = 672. Total = 9,600+960+672 = 11,232. Hammer price is $9,900. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$10,890", "$10,593", "$11,583", "$11,833"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 9,900 = 990. Tax = 7% \u00d7 9,900 = 693. Total = 9,900+990+693 = 11,583.",
-    "id": 255
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 9,900 = 990. Tax = 7% \u00d7 9,900 = 693. Total = 9,900+990+693 = 11,583. Hammer price is $10,200. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$11,220", "$10,914", "$11,934", "$12,184"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 10,200 = 1,020. Tax = 7% \u00d7 10,200 = 714. Total = 10,200+1,020+714 = 11,934.",
-    "id": 256
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 10,200 = 1,020. Tax = 7% \u00d7 10,200 = 714. Total = 10,200+1,020+714 = 11,934. Hammer price is $10,500. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$11,550", "$11,235", "$12,285", "$12,535"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 10,500 = 1,050. Tax = 7% \u00d7 10,500 = 735. Total = 10,500+1,050+735 = 12,285.",
-    "id": 257
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 10,500 = 1,050. Tax = 7% \u00d7 10,500 = 735. Total = 10,500+1,050+735 = 12,285. Hammer price is $10,800. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$11,880", "$11,556", "$12,636", "$12,886"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 10,800 = 1,080. Tax = 7% \u00d7 10,800 = 756. Total = 10,800+1,080+756 = 12,636.",
-    "id": 258
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 10,800 = 1,080. Tax = 7% \u00d7 10,800 = 756. Total = 10,800+1,080+756 = 12,636. Hammer price is $11,100. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$12,210", "$11,877", "$12,987", "$13,237"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 11,100 = 1,110. Tax = 7% \u00d7 11,100 = 777. Total = 11,100+1,110+777 = 12,987.",
-    "id": 259
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 11,100 = 1,110. Tax = 7% \u00d7 11,100 = 777. Total = 11,100+1,110+777 = 12,987. Hammer price is $11,400. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$12,540", "$12,198", "$13,338", "$13,588"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 11,400 = 1,140. Tax = 7% \u00d7 11,400 = 798. Total = 11,400+1,140+798 = 13,338.",
-    "id": 260
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 11,400 = 1,140. Tax = 7% \u00d7 11,400 = 798. Total = 11,400+1,140+798 = 13,338. Hammer price is $11,700. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$12,870", "$12,519", "$13,689", "$13,939"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 11,700 = 1,170. Tax = 7% \u00d7 11,700 = 819. Total = 11,700+1,170+819 = 13,689.",
-    "id": 261
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 11,700 = 1,170. Tax = 7% \u00d7 11,700 = 819. Total = 11,700+1,170+819 = 13,689. Hammer price is $12,000. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$13,200", "$12,840", "$14,040", "$14,290"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 12,000 = 1,200. Tax = 7% \u00d7 12,000 = 840. Total = 12,000+1,200+840 = 14,040.",
-    "id": 262
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 12,000 = 1,200. Tax = 7% \u00d7 12,000 = 840. Total = 12,000+1,200+840 = 14,040. Hammer price is $12,300. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$13,530", "$13,161", "$14,391", "$14,641"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 12,300 = 1,230. Tax = 7% \u00d7 12,300 = 861. Total = 12,300+1,230+861 = 14,391.",
-    "id": 263
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 12,300 = 1,230. Tax = 7% \u00d7 12,300 = 861. Total = 12,300+1,230+861 = 14,391. Hammer price is $12,600. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$13,860", "$13,482", "$14,742", "$14,992"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 12,600 = 1,260. Tax = 7% \u00d7 12,600 = 882. Total = 12,600+1,260+882 = 14,742.",
-    "id": 264
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 12,600 = 1,260. Tax = 7% \u00d7 12,600 = 882. Total = 12,600+1,260+882 = 14,742. Hammer price is $12,900. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$14,190", "$13,803", "$15,093", "$15,343"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 12,900 = 1,290. Tax = 7% \u00d7 12,900 = 903. Total = 12,900+1,290+903 = 15,093.",
-    "id": 265
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 12,900 = 1,290. Tax = 7% \u00d7 12,900 = 903. Total = 12,900+1,290+903 = 15,093. Hammer price is $13,200. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$14,520", "$14,124", "$15,444", "$15,694"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 13,200 = 1,320. Tax = 7% \u00d7 13,200 = 924. Total = 13,200+1,320+924 = 15,444.",
-    "id": 266
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 13,200 = 1,320. Tax = 7% \u00d7 13,200 = 924. Total = 13,200+1,320+924 = 15,444. Hammer price is $13,500. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$14,850", "$14,445", "$15,795", "$16,045"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 13,500 = 1,350. Tax = 7% \u00d7 13,500 = 945. Total = 13,500+1,350+945 = 15,795.",
-    "id": 267
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 13,500 = 1,350. Tax = 7% \u00d7 13,500 = 945. Total = 13,500+1,350+945 = 15,795. Hammer price is $13,800. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$15,180", "$14,766", "$16,146", "$16,396"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 13,800 = 1,380. Tax = 7% \u00d7 13,800 = 966. Total = 13,800+1,380+966 = 16,146.",
-    "id": 268
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 13,800 = 1,380. Tax = 7% \u00d7 13,800 = 966. Total = 13,800+1,380+966 = 16,146. Hammer price is $14,100. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$15,510", "$15,087", "$16,497", "$16,747"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 14,100 = 1,410. Tax = 7% \u00d7 14,100 = 987. Total = 14,100+1,410+987 = 16,497.",
-    "id": 269
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 14,100 = 1,410. Tax = 7% \u00d7 14,100 = 987. Total = 14,100+1,410+987 = 16,497. Hammer price is $14,400. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$15,840", "$15,408", "$16,848", "$17,098"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 14,400 = 1,440. Tax = 7% \u00d7 14,400 = 1,008. Total = 14,400+1,440+1,008 = 16,848.",
-    "id": 270
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 14,400 = 1,440. Tax = 7% \u00d7 14,400 = 1,008. Total = 14,400+1,440+1,008 = 16,848. Hammer price is $14,700. Buyer premium is 10%. Sales tax is 7% on hammer only. Total buyer cost is:",
-    "options": ["$16,170", "$15,729", "$17,199", "$17,449"],
-    "correctAnswer": 2,
-    "explanation": "Premium = 10% \u00d7 14,700 = 1,470. Tax = 7% \u00d7 14,700 = 1,029. Total = 14,700+1,470+1,029 = 17,199.",
-    "id": 271
-  },
-  {
-    "topic": "General Auction Knowledge",
-    "question": "Premium = 10% \u00d7 14,700 = 1,470. Tax = 7% \u00d7 14,700 = 1,029. Total = 14,700+1,470+1,029 = 17,199. An auctioneer lien notice must be filed within:",
-    "options": ["30 days", "60 days", "90 days", "120 days"],
-    "correctAnswer": 1,
-    "explanation": "\u00a7 62-19-108(b) requires lien notice filing within 60 days after the auction.",
-    "id": 272
-  },
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following activities specifically falls under the legal definition of a \"principal auctioneer\" rather than a \"bid caller auctioneer\" in Tennessee?",
+      "options": [
+          "Soliciting bids for the purchase of goods at an auction",
+          "Offering, negotiating, and executing a listing contract for an auction",
+          "Selling motor vehicles at a public auto auction",
+          "Serving as a ringperson to acknowledge bids from the audience"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Offering, negotiating, and executing a listing contract for an auction",
+      "id": 1
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "According to TN law, what legally differentiates a \"public automobile auction\" from a standard auction?",
+      "options": [
+          "It restricts the auctioning of used motor vehicles exclusively to licensed motor vehicle dealers.",
+          "It is conducted exclusively online for out-of-state buyers.",
+          "It offers motor vehicles for sale to the highest bidder where buyers are members of the public, utilizing a licensed public automobile auctioneer.",
+          "It requires a garagekeeper's legal liability insurance policy of $1,000,000."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. It offers motor vehicles for sale to the highest bidder where buyers are members of the public, utilizing a licensed public automobile auctioneer.",
+      "id": 2
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "How does the Tennessee code define a \"timed listing\"?",
+      "options": [
+          "An auction that extends its duration by 5 minutes every time a new bid is placed.",
+          "An absolute auction where the hammer must fall within 60 seconds of the opening bid.",
+          "Offering goods for sale with a fixed ending time and date that does not extend based on bidding activity.",
+          "An online auction strictly limited to one hour of live bid calling."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Offering goods for sale with a fixed ending time and date that does not extend based on bidding activity.",
+      "id": 3
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An \"affiliate auctioneer\" is best defined legally as an individual who:",
+      "options": [
+          "Conducts auctions independently but shares profits with a principal auctioneer.",
+          "Is employed, directly or indirectly, by a principal auctioneer to deal or engage in an auction activity.",
+          "Solely performs administrative and marketing duties for an auction firm.",
+          "Has completed their apprenticeship and is awaiting a principal license from the state."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Is employed, directly or indirectly, by a principal auctioneer to deal or engage in an auction activity.",
+      "id": 4
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following scenarios would explicitly require a Tennessee auctioneer license?",
+      "options": [
+          "A trustee selling collateral after default by a debtor under a deed of trust.",
+          "An individual selling personal property they have owned for 5 years that was not purchased for resale.",
+          "A volunteer calling bids at a church fundraiser without receiving any compensation.",
+          "An individual conducting a fixed price or timed listing that involves a simulcast of a live auction."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. An individual conducting a fixed price or timed listing that involves a simulcast of a live auction.",
+      "id": 5
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a person manages and invests in property they own, under what specific condition would they NOT be exempt from auctioneer licensing if they decide to sell it at auction?",
+      "options": [
+          "If they sell the property at a fixed-price timed listing online.",
+          "If the property was acquired specifically for the purpose of resale, which is presumed if no sales tax was levied upon purchase.",
+          "If the property's total market value exceeds $25,000.",
+          "If they conduct the sale via a receiver or trustee in bankruptcy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. If the property was acquired specifically for the purpose of resale, which is presumed if no sales tax was levied upon purchase.",
+      "id": 6
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An individual generates $20,000 in revenue in a calendar year strictly from selling personal property in online auctions. Do they need an auctioneer license?",
+      "options": [
+          "Yes, because all online auctions require a license in Tennessee.",
+          "No, because individuals generating less than $25,000 in revenue a calendar year from online auctions are exempt.",
+          "Yes, because the monetary exemption limit is capped at $10,000.",
+          "No, provided they only sell real estate and not tangible goods."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, because individuals generating less than $25,000 in revenue a calendar year from online auctions are exempt.",
+      "id": 7
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Are ringpersons required to hold an auctioneer license in Tennessee?",
+      "options": [
+          "Yes, all individuals assisting in an auction must be licensed.",
+          "No, unless they vocally conduct the auction or act as an affiliate broker within the meaning of the Real Estate Broker License Act.",
+          "Yes, they must hold at least a bid caller license.",
+          "No, ringpersons are completely unregulated regardless of their actions on the floor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, unless they vocally conduct the auction or act as an affiliate broker within the meaning of the Real Estate Broker License Act.",
+      "id": 8
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A governmental entity is directing an auction of surplus equipment. The individual conducting it:",
+      "options": [
+          "Must be a licensed principal auctioneer.",
+          "Is exempt from the provisions of the auctioneer chapter.",
+          "Must have at least a bid caller license and 16 hours of education.",
+          "Must be bonded for at least $50,000."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Is exempt from the provisions of the auctioneer chapter.",
+      "id": 9
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A livestock auction sale is regulated by the USDA Packers and Stockyards Administration. What specific combination makes this sale exempt from the standard TN auctioneer laws?",
+      "options": [
+          "It only sells cattle and horses, and generates less than $50,000.",
+          "It uses the shipper's proceeds account required by federal regulations and uses a TN licensed auctioneer.",
+          "The auctioneer is an employee of the state department of agriculture.",
+          "It is a timed online listing without a live caller."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It uses the shipper's proceeds account required by federal regulations and uses a TN licensed auctioneer.",
+      "id": 10
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The Tennessee Auctioneer Commission consists of how many members, and who has the authority to appoint them?",
+      "options": [
+          "5 members appointed by the state legislature.",
+          "7 members appointed by the governor.",
+          "5 members appointed by the governor.",
+          "3 members appointed by the director of the division of regulatory boards."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. 5 members appointed by the governor.",
+      "id": 11
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What are the specific demographic and professional requirements for the members of the TN Auctioneer Commission?",
+      "options": [
+          "All 5 must be licensed principal auctioneers.",
+          "3 must be auctioneers, 2 must be public members.",
+          "4 must be auctioneers with at least 5 years of active experience, and 1 must be a non-auctioneer from the state at large.",
+          "2 must be from each grand division of the state."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. 4 must be auctioneers with at least 5 years of active experience, and 1 must be a non-auctioneer from the state at large.",
+      "id": 12
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In making appointments to the Commission, the governor must strive to ensure that at least one member fits which of the following criteria?",
+      "options": [
+          "Is an actively practicing affiliate auctioneer.",
+          "Is sixty (60) years of age or older.",
+          "Is a public automobile auctioneer.",
+          "Is a licensed real estate broker."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Is sixty (60) years of age or older.",
+      "id": 13
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What constitutes a quorum for the Tennessee Auctioneer Commission to legally transact business?",
+      "options": [
+          "2 members.",
+          "3 members.",
+          "4 members.",
+          "5 members."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. 3 members.",
+      "id": 14
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "How frequently is the TN Auctioneer Commission legally required to meet at a minimum?",
+      "options": [
+          "Once every month.",
+          "Once each quarter of every calendar year.",
+          "Twice a year.",
+          "Annually."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Once each quarter of every calendar year.",
+      "id": 15
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The TN Auctioneer Commission has the power to adopt a seal. Who is legally tasked with the care and custody of this seal?",
+      "options": [
+          "The Governor of Tennessee.",
+          "The Chair of the Commission.",
+          "The administrative director of the commission.",
+          "The state's Attorney General."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The administrative director of the commission.",
+      "id": 16
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Who serves as the administrative director for the TN Auctioneer Commission?",
+      "options": [
+          "The governor's chief of staff.",
+          "A member elected by the 5-person commission.",
+          "The director of the division of regulatory boards in the department of commerce and insurance (or their designee).",
+          "An appointed official from the Attorney General's office."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The director of the division of regulatory boards in the department of commerce and insurance (or their designee).",
+      "id": 17
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What action can the Commission take regarding a licensee's failure to renew their license before the expiration date?",
+      "options": [
+          "They must permanently revoke the license.",
+          "They may renew it upon application within two months of expiration, provided the prescribed fee and a monetary penalty are paid.",
+          "They allow a 6-month grace period with no penalties.",
+          "They automatically convert the license to \"retired\" status."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They may renew it upon application within two months of expiration, provided the prescribed fee and a monetary penalty are paid.",
+      "id": 18
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A person served with a citation by the administrative director has how many days to appeal the citation regarding the alleged violations or penalty amount?",
+      "options": [
+          "10 calendar days.",
+          "15 working days.",
+          "30 calendar days.",
+          "60 days."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. 15 working days.",
+      "id": 19
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Within what maximum timeframe must a citation be issued by the administrative director or investigator after an alleged act or omission?",
+      "options": [
+          "6 months.",
+          "1 year.",
+          "2 years.",
+          "5 years."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. 1 year.",
+      "id": 20
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An applicant for an affiliate auctioneer license must successfully complete how many total hours of approved classroom or online instruction?",
+      "options": [
+          "16 hours.",
+          "30 hours.",
+          "50 hours (16 basic + 34 fundamentals).",
+          "80 hours."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. 50 hours (16 basic + 34 fundamentals).",
+      "id": 21
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can an applicant for a bid caller license complete their auction chant instruction online to satisfy their educational requirements?",
+      "options": [
+          "Yes, if the school is accredited by the Commission.",
+          "Yes, but only for up to 8 hours.",
+          "No, auction chant instruction cannot be completed online and is actually optional, not counting toward the 16 hours.",
+          "No, it must be completed as part of the 50-hour affiliate requirement."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, auction chant instruction cannot be completed online and is actually optional, not counting toward the 16 hours.",
+      "id": 22
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the minimum age requirement for all auctioneer license types (affiliate, principal, bid caller) in Tennessee?",
+      "options": [
+          "18 years of age.",
+          "21 years of age.",
+          "18 for affiliate, 21 for principal.",
+          "16 with parental consent."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. 18 years of age.",
+      "id": 23
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "To become a principal auctioneer, an applicant must serve as an affiliate auctioneer under a licensed principal for what minimum period?",
+      "options": [
+          "6 months.",
+          "1 year.",
+          "2 years.",
+          "5 years."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. 6 months.",
+      "id": 24
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Before being eligible to apply for a principal auctioneer license, an affiliate auctioneer must log a minimum of how many points during their affiliation?",
+      "options": [
+          "500 points.",
+          "1,000 points.",
+          "1,500 points.",
+          "2,000 points."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. 1,000 points.",
+      "id": 25
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What educational credential is specifically required by law for a principal auctioneer license but NOT explicitly required for an affiliate or bid caller?",
+      "options": [
+          "A bachelor's degree.",
+          "An associate's degree in business.",
+          "A high school diploma or high school equivalency credential.",
+          "A certificate in land economics."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. A high school diploma or high school equivalency credential.",
+      "id": 26
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When applying for a public automobile auctioneer license, what additional specific education is required beyond the affiliate requirement?",
+      "options": [
+          "15 hours of more rigorous classroom or online instruction in automobile auctioneering.",
+          "30 hours of motor vehicle dealer training.",
+          "16 hours of auto-specific bid calling.",
+          "No additional education is required, only 2 years as a principal."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. 15 hours of more rigorous classroom or online instruction in automobile auctioneering.",
+      "id": 27
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the non-refundable application fee for obtaining an affiliate auctioneer license?",
+      "options": [
+          "$50.",
+          "$125.",
+          "$175.",
+          "$225."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. $50.",
+      "id": 28
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the total combined fee required to be submitted to the Commission to obtain a Principal Auctioneer License (Application + License + Recovery Fund)?",
+      "options": [
+          "$225.",
+          "$250.",
+          "$275.",
+          "$325."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. $275.",
+      "id": 29
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The written examination for a principal auctioneer is legally described as being:",
+      "options": [
+          "Identical to the affiliate exam but with a higher passing score requirement.",
+          "More specific in nature and scope than the examination for an affiliate auctioneer's license.",
+          "Solely focused on real estate, escrow accounting, and bulk sales laws.",
+          "An oral examination only."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. More specific in nature and scope than the examination for an affiliate auctioneer's license.",
+      "id": 30
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Are nonresidents required to maintain a physical place of business in Tennessee to hold a TN auctioneer license?",
+      "options": [
+          "Yes, all licensees must maintain a physical office in TN.",
+          "No, if they are regularly engaged in the auction business as a vocation and maintain a definite place of business in some other state.",
+          "Yes, unless they hold only a bid caller license.",
+          "No, but they must partner with a resident principal auctioneer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, if they are regularly engaged in the auction business as a vocation and maintain a definite place of business in some other state.",
+      "id": 31
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "For an individual attempting to renew an auctioneer license that has been expired for 3 months, what is the required protocol?",
+      "options": [
+          "Pay a $50 late fee and renew immediately online.",
+          "Reapply for licensure entirely, though the commission may waive reexamination or additional education in its discretion.",
+          "They are permanently barred from the profession.",
+          "They must complete an additional 50 hours of CE before renewing."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Reapply for licensure entirely, though the commission may waive reexamination or additional education in its discretion.",
+      "id": 32
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the required continuing education (CE) standard for auctioneers to successfully renew their license?",
+      "options": [
+          "16 hours every year.",
+          "6 hours every two years.",
+          "30 hours every two years.",
+          "No CE is required in Tennessee."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. 6 hours every two years.",
+      "id": 33
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under what circumstance is an auctioneer completely exempt from continuing education requirements?",
+      "options": [
+          "If they have been licensed for 5 years.",
+          "If they hold only a bid caller license.",
+          "If they are over 50 years of age.",
+          "If they conduct fewer than 3 auctions a year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. If they hold only a bid caller license.",
+      "id": 34
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When an affiliate auctioneer's employment is terminated, what is the immediate legal responsibility of the sponsoring principal auctioneer?",
+      "options": [
+          "Notify the Commission via a phone call within 10 days.",
+          "Immediately deliver or send by registered mail the affiliate auctioneer's license to the Commission.",
+          "Shred the affiliate's pocket card and notify the local zoning authority.",
+          "Retain the license in escrow until the affiliate finds a new sponsor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Immediately deliver or send by registered mail the affiliate auctioneer's license to the Commission.",
+      "id": 35
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can an affiliate auctioneer hold multiple active licenses with different sponsors simultaneously?",
+      "options": [
+          "Yes, if they pay an additional fee.",
+          "No, no more than one license may be issued to an affiliate to be in effect at any one time.",
+          "Yes, if one is for real estate and the other is for personal property.",
+          "No, unless they operate in different grand divisions of the state."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, no more than one license may be issued to an affiliate to be in effect at any one time.",
+      "id": 36
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "May an affiliate auctioneer be legally employed by a licensed auctioneer who is NOT their designated sponsor?",
+      "options": [
+          "Never, this is strictly prohibited.",
+          "Yes, upon receiving written permission from the affiliate's sponsor and notifying the commission in the proper form.",
+          "Yes, but only for charity and non-profit auctions.",
+          "Yes, without any notification as long as it is an absolute auction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Yes, upon receiving written permission from the affiliate's sponsor and notifying the commission in the proper form.",
+      "id": 37
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an affiliate is working for an auctioneer who is NOT their sponsor (with proper written permission), who is liable for the affiliate's actions during that specific employment?",
+      "options": [
+          "The affiliate's official sponsor is liable at all times.",
+          "The affiliate is solely responsible.",
+          "The auctioneer employing the affiliate for that specific event is responsible.",
+          "The Tennessee Auctioneer Commission."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The auctioneer employing the affiliate for that specific event is responsible.",
+      "id": 38
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A principal auctioneer can legally sponsor an affiliate auctioneer only after they have been licensed as a principal for how long?",
+      "options": [
+          "Immediately upon licensure.",
+          "6 months.",
+          "1 year.",
+          "2 years."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. 1 year.",
+      "id": 39
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Is there a maximum limit to how many affiliate auctioneers a principal auctioneer or public automobile auctioneer can sponsor?",
+      "options": [
+          "Yes, a maximum of 3.",
+          "Yes, a maximum of 5.",
+          "Yes, up to 10.",
+          "No, there is no limit."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. No, there is no limit.",
+      "id": 40
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What happens to the license of an affiliate auctioneer if the license of their sponsoring principal auctioneer is revoked or suspended?",
+      "options": [
+          "The affiliate's license is permanently revoked as well.",
+          "The affiliate's license is automatically suspended, but they may retain it by transferring to a new sponsor within 21 days.",
+          "The affiliate is automatically promoted to principal auctioneer.",
+          "The affiliate can continue operating independently for 6 months."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affiliate's license is automatically suspended, but they may retain it by transferring to a new sponsor within 21 days.",
+      "id": 41
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An affiliate auctioneer wishes to sue a client for an unpaid commission. How must this legal action be brought?",
+      "options": [
+          "The affiliate must sue in small claims court independently.",
+          "The affiliate cannot sue a client directly; the action must be instituted and brought by the licensed auctioneer employing the affiliate.",
+          "The affiliate must file a claim against the Auctioneer Education and Recovery Account.",
+          "The affiliate can only sue if they hold a real estate license."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affiliate cannot sue a client directly; the action must be instituted and brought by the licensed auctioneer employing the affiliate.",
+      "id": 42
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Does Tennessee law prevent a licensed affiliate auctioneer from suing their employing principal auctioneer for unpaid compensation?",
+      "options": [
+          "Yes, affiliate auctioneers have no legal recourse against their sponsors.",
+          "No, the law explicitly states it does not prevent an affiliate from suing their employing auctioneer for compensation due.",
+          "No, but only through binding arbitration provided by the Commission.",
+          "Yes, they must file a complaint with the USDA instead."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, the law explicitly states it does not prevent an affiliate from suing their employing auctioneer for compensation due.",
+      "id": 43
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "To legally conduct an auction of real property, an affiliate auctioneer must be licensed as an affiliate broker, AND what other specific condition must be met?",
+      "options": [
+          "They must have been an affiliate for at least 5 years.",
+          "They must hold a $50,000 surety bond.",
+          "The auctioneer for whom they are employed for such purposes must be on the premises of the property during the auction.",
+          "They must conduct the auction exclusively online."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The auctioneer for whom they are employed for such purposes must be on the premises of the property during the auction.",
+      "id": 44
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "How must an affiliate auctioneer format their advertising according to Commission rules?",
+      "options": [
+          "In their own name only, to build their brand.",
+          "Without any license numbers to save advertising space.",
+          "By clearly and conspicuously identifying themselves as an affiliate, displaying their license number, and the name and license number of their sponsor.",
+          "Only the firm's name is required."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. By clearly and conspicuously identifying themselves as an affiliate, displaying their license number, and the name and license number of their sponsor.",
+      "id": 45
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A nonresident auctioneer holding a license in a reciprocal state applies for a TN license. What must they file to ensure legal accountability in TN courts?",
+      "options": [
+          "A $100,000 surety bond.",
+          "An irrevocable consent that suits and actions may be commenced against them in the proper TN court by service of process on the commission.",
+          "A declaration of intent to move to TN within 1 year.",
+          "A letter of recommendation from the TN Governor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. An irrevocable consent that suits and actions may be commenced against them in the proper TN court by service of process on the commission.",
+      "id": 46
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If the Commission denies an applicant the right to take an exam because they were found conducting business without a license, how long can this denial period last?",
+      "options": [
+          "6 months.",
+          "1 year.",
+          "Up to 2 years.",
+          "Permanently."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Up to 2 years.",
+      "id": 47
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What must an auctioneer do if they change their physical business location?",
+      "options": [
+          "Nothing, the license covers the whole state.",
+          "Notify the commission within 30 days and wait for renewal.",
+          "Immediately notify the commission in writing, accompanied by the current license, pocket card, and a fee.",
+          "Publish a notice in a local newspaper."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Immediately notify the commission in writing, accompanied by the current license, pocket card, and a fee.",
+      "id": 48
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can a bid caller licensee negotiate or execute an auction contract to sell goods?",
+      "options": [
+          "Yes, if the goods are valued under $1,000.",
+          "Yes, if they are supervised by a principal auctioneer.",
+          "No, negotiating or executing an auction contract as a bid caller is cause for license suspension or revocation.",
+          "No, unless it is a charitable auction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, negotiating or executing an auction contract as a bid caller is cause for license suspension or revocation.",
+      "id": 49
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the 2020 rule changes, a licensee applying to renew a license one month after the expiration date must pay a penalty of what amount, in addition to standard renewal fees?",
+      "options": [
+          "$25",
+          "$50",
+          "$150",
+          "$200"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. $50",
+      "id": 50
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under Tennessee Auctioneer Commission Rule 0160-01-.26, what is the precise requirement for a principal auctioneer regarding escrow accounts?",
+      "options": [
+          "They must establish an individual, dedicated escrow account for each specific auction event to avoid any cross-contamination of funds.",
+          "They must maintain or have written authorization granting access to an escrow or trustee account for all funds belonging to others coming into their possession.",
+          "They must utilize a state-managed, interest-bearing escrow account for any single transaction or property sale exceeding $10,000.",
+          "They must secure a $50,000 surety bond in lieu of maintaining a dedicated escrow or trustee account for client funds."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must maintain or have written authorization granting access to an escrow or trustee account for all funds belonging to others coming into their possession.",
+      "id": 51
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An affiliate auctioneer places an advertisement for an upcoming estate auction in a local newspaper. According to the 2020 rule changes, what information MUST be clearly and conspicuously included?",
+      "options": [
+          "The affiliate's name, their license number, and the physical address of their designated sponsor's principal office.",
+          "The affiliate's name, their license number, and the name and license number of their designated sponsor.",
+          "The auction firm's name, the firm's license number, and the affiliate's individual contact information.",
+          "The affiliate's name, their sponsor's name, and a disclaimer indicating their apprentice status to the public."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affiliate's name, their license number, and the name and license number of their designated sponsor.",
+      "id": 52
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Regarding the \"10-day rule\" in auction closings, what is the auctioneer's specific legal obligation?",
+      "options": [
+          "To hold all buyer funds in a secure escrow account for exactly 10 consecutive days before disbursing to the seller.",
+          "To provide the seller with a detailed statement of proceeds (closing statement) within 10 days after the auction's conclusion.",
+          "To allow buyers a mandatory 10-day grace period to remit final payment for any high-value item purchased.",
+          "To notify the Tennessee Auctioneer Commission 10 days prior to issuing the final closing statement to any consignor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. To provide the seller with a detailed statement of proceeds (closing statement) within 10 days after the auction's conclusion.",
+      "id": 53
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A public automobile auction only accepts payments via floor-plan financing directly to the sellers and never accepts or deposits buyer funds. Under Tennessee law, must this auto auction maintain an escrow account?",
+      "options": [
+          "Yes, all licensed public automobile auctions are required by statute to maintain a minimum $50,000 escrow balance.",
+          "Yes, because they facilitate the transaction and assume liability, regardless of who deposits the actual funds.",
+          "No, auto auctions are not required to maintain or use an escrow account when they do not accept and deposit funds of others.",
+          "No, provided they maintain a current $500,000 garagekeeper's legal liability insurance policy to cover potential buyer losses."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, auto auctions are not required to maintain or use an escrow account when they do not accept and deposit funds of others.",
+      "id": 54
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following scenarios strictly defines \"commingling\" and would be grounds for license revocation?",
+      "options": [
+          "Depositing earnest money from five different buyers for five different properties into a single, shared auctioneer trust account.",
+          "Using client proceeds held in an escrow account to pay the auction firm's monthly office rent before disbursing the seller's net proceeds.",
+          "Transferring escrow funds directly to a third-party title company to facilitate the closing of a real estate transaction.",
+          "Placing the auctioneer's earned commission into a dedicated business operating account after the seller has been fully paid."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Using client proceeds held in an escrow account to pay the auction firm's monthly office rent before disbursing the seller's net proceeds.",
+      "id": 55
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A principal auctioneer decides to change the physical location of their auction house. What must they do to comply with state operations laws?",
+      "options": [
+          "Immediately notify the commission in writing, accompanied by the current license, pocket card, and the prescribed fee.",
+          "Wait until the next two-year license renewal cycle to update the physical address through the official online portal.",
+          "Publish a notice of relocation in a newspaper of general circulation in both the old and new counties for ten consecutive days.",
+          "Update all print and digital advertising within thirty days; the state does not require immediate physical location updates."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. Immediately notify the commission in writing, accompanied by the current license, pocket card, and the prescribed fee.",
+      "id": 56
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Prior to a public auction, what is the auctioneer legally required to do regarding the seller's property?",
+      "options": [
+          "Conduct a formal, certified appraisal of all items to establish a baseline value for the final closing statement.",
+          "Enter into a written contract with the owner or consignee containing the terms and conditions upon which the licensee receives the property.",
+          "Issue a public notice in a local newspaper listing all items valued over $500 that will be sold at the upcoming event.",
+          "Take physical possession and move all consigned property to the auctioneer's licensed and bonded place of business."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Enter into a written contract with the owner or consignee containing the terms and conditions upon which the licensee receives the property.",
+      "id": 57
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is an auctioneer's fiduciary duty concerning material defects of an item being sold?",
+      "options": [
+          "To independently repair any known defects and deduct the cost from the auctioneer's commission prior to the sale.",
+          "To disclose all known material defects to potential buyers to ensure transparency and avoid allegations of misrepresentation.",
+          "To minimize the public disclosure of defects in order to fulfill the primary duty of maximizing the seller's net proceeds.",
+          "To sell the item strictly \"as is\" and \"where is,\" which legally absolves the auctioneer of any obligation to disclose hidden defects."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. To disclose all known material defects to potential buyers to ensure transparency and avoid allegations of misrepresentation.",
+      "id": 58
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under Tennessee law, is a firm license number required on all auction advertisements?",
+      "options": [
+          "Yes, all advertising must clearly display the firm license number to maintain compliance with 2020 advertising rules.",
+          "Yes, but only for print advertising distributed locally; digital or social media advertising is exempt from this requirement.",
+          "No, due to the deletion of firm licenses, the firm license number is no longer required, but the principal auctioneer's details are.",
+          "No, only the affiliate auctioneer's name and the physical address of the auction event are legally required on the advertising."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, due to the deletion of firm licenses, the firm license number is no longer required, but the principal auctioneer's details are.",
+      "id": 59
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An affiliate auctioneer conducts an auction and is offered a $500 cash bonus directly from a highly satisfied seller. Can the affiliate legally accept this bonus?",
+      "options": [
+          "Yes, provided the bonus is thoroughly documented on the final closing statement and reported on their annual tax return.",
+          "Yes, because it is considered a voluntary gratuity and not part of the formally negotiated commission structure.",
+          "No, an affiliate may only accept valuable consideration for auctioneering services directly from their employer auctioneer.",
+          "No, unless the tip is less than $100 and does not influence the affiliate's handling of the seller's overall proceeds."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, an affiliate may only accept valuable consideration for auctioneering services directly from their employer auctioneer.",
+      "id": 60
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the legal requirement for maintaining copies of written instruments prepared by the auctioneer?",
+      "options": [
+          "They must be furnished voluntarily to all interested parties at the time of execution without requiring a formal request.",
+          "They must be kept sealed in the principal auctioneer's escrow account file for a minimum of five years post-auction.",
+          "They are strictly confidential and only provided to the seller upon a formal, written request following the auction's conclusion.",
+          "They must be submitted directly to the Tennessee Auctioneer Commission within 10 days of the auction's final settlement."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. They must be furnished voluntarily to all interested parties at the time of execution without requiring a formal request.",
+      "id": 61
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A nonresident auctioneer holding a reciprocal license conducts an auction in Tennessee. Are they required to maintain an escrow account?",
+      "options": [
+          "No, nonresident auctioneers are completely exempt from Tennessee escrow requirements due to interstate commerce laws.",
+          "Yes, they must maintain an escrow account for all funds belonging to others that come into their possession from a TN auction.",
+          "Yes, but only if the total gross proceeds of the specific Tennessee auction event exceed the statutory threshold of $50,000.",
+          "No, they may use their out-of-state personal or business checking account, provided they hold a valid reciprocal license."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Yes, they must maintain an escrow account for all funds belonging to others that come into their possession from a TN auction.",
+      "id": 62
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What are \"cappers\" or \"pullers\" in the context of auction ethics?",
+      "options": [
+          "Employees who are specifically hired to physically move heavy furniture and equipment across the auction block during an event.",
+          "False bidders used knowingly by the auctioneer to artificially inflate the bidding price and stimulate market momentum.",
+          "Administrative staff members who are responsible for pulling the final closing statements and finalizing buyer invoices.",
+          "Marketing agents who are contracted to \"pull\" large crowds into the auction venue through aggressive street-level promotions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. False bidders used knowingly by the auctioneer to artificially inflate the bidding price and stimulate market momentum.",
+      "id": 63
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer knowingly uses false bidders, what is the potential penalty from the Commission?",
+      "options": [
+          "A mandatory 10-day jail sentence and a permanent ban from operating any business within the state of Tennessee.",
+          "Suspension, revocation, or refusal to renew their license, along with potential civil penalties assessed by the Commission.",
+          "A written warning for the first three offenses, followed by a mandatory 30-hour ethics continuing education course.",
+          "They must forfeit their entire earned commission from that specific lot to the highest legitimate bidder of the auction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Suspension, revocation, or refusal to renew their license, along with potential civil penalties assessed by the Commission.",
+      "id": 64
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What must an auctioneer do if local law enforcement (chief of police or sheriff) requests a list of properties to be sold?",
+      "options": [
+          "Refuse the request under client confidentiality laws unless the officer presents a valid, court-issued subpoena or search warrant.",
+          "Furnish the requested list of properties to be sold twenty-four (24) hours prior to the scheduled start of the auction.",
+          "Furnish the requested list of properties within 10 days after the auction concludes, alongside the seller's closing statement.",
+          "Require the law enforcement officer to submit a formal request through the Tennessee Auctioneer Commission's administrative director."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Furnish the requested list of properties to be sold twenty-four (24) hours prior to the scheduled start of the auction.",
+      "id": 65
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When operating a public automobile auction, what is the specific signage requirement for the permanent professional business sign?",
+      "options": [
+          "Letters must be at least two inches (2\") in height and clearly indicate the business is a licensed motor vehicle dealership.",
+          "Letters must be at least eight inches (8\") in height and installed permanently at the established place of business.",
+          "The sign must be actively illuminated 24 hours a day to ensure visibility for regulatory inspectors and law enforcement.",
+          "The sign must prominently display the garagekeeper's liability insurance policy number alongside the auctioneer's license number."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Letters must be at least eight inches (8\") in height and installed permanently at the established place of business.",
+      "id": 66
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Who is legally responsible for all funds deposited into a shared or authorized escrow/trustee account?",
+      "options": [
+          "The bank or financial institution holding the account, provided it is an FDIC-insured institution operating within the state.",
+          "All principal or public automobile auctioneers who utilize the account and have authorized access to those specific funds.",
+          "The specific affiliate auctioneer who collected the initial deposits from the buyers and drafted the preliminary receipts.",
+          "The seller of the goods, who retains ultimate liability for the funds until the bank formally clears the buyer's payment."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. All principal or public automobile auctioneers who utilize the account and have authorized access to those specific funds.",
+      "id": 67
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an affiliate auctioneer wishes to sue a seller for an unpaid 10% commission, what is the correct legal procedure?",
+      "options": [
+          "The affiliate must independently file a mechanic's lien against the seller's property within sixty days of the auction.",
+          "The affiliate must sue the seller directly in small claims court, provided the disputed amount is under the $10,000 threshold.",
+          "The affiliate has no right to institute a suit in their own name; the action must be brought by the employing licensed auctioneer.",
+          "The affiliate must petition the Auctioneer Education and Recovery Account for direct reimbursement of the unpaid commission."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The affiliate has no right to institute a suit in their own name; the action must be brought by the employing licensed auctioneer.",
+      "id": 68
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can an affiliate auctioneer sue their sponsoring principal auctioneer for unpaid compensation due to them?",
+      "options": [
+          "No, affiliates automatically forfeit the right to pursue civil litigation against their sponsors upon receiving their state licensure.",
+          "Yes, the law explicitly states it does not prevent an affiliate from suing their employing auctioneer for compensation due to them.",
+          "No, they must submit a formal complaint to the Commission and submit to binding arbitration as the exclusive remedy.",
+          "Yes, but only if the disputed compensation amount exceeds the $10,000 transaction limit set by the Recovery Account."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Yes, the law explicitly states it does not prevent an affiliate from suing their employing auctioneer for compensation due to them.",
+      "id": 69
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "How long must a licensee personally maintain proof of completion for each continuing education course?",
+      "options": [
+          "Licensees must maintain proof of completion for one full calendar year following the submission of their license renewal application.",
+          "Licensees must personally maintain proof of completion of each continuing education course for two renewal cycles (four years).",
+          "Licensees must submit all original certificates to the Commission and are not required to maintain personal copies afterward.",
+          "Licensees must retain all educational records indefinitely and produce them within 24 hours of any request by the administrative director."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Licensees must personally maintain proof of completion of each continuing education course for two renewal cycles (four years).",
+      "id": 70
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer mistakenly announces a vintage guitar as \"sold\" for $1,500 when the highest actual bid acknowledged was $1,000. According to standard auction ethics and contract principles, what is the risk?",
+      "options": [
+          "The auctioneer faces no risk, as verbal mistakes are non-binding and can be corrected before the buyer signs the invoice.",
+          "The auctioneer is legally protected by the \"fall of the hammer\" absolute immunity clause, which nullifies verbal discrepancies.",
+          "The erroneous announcement creates a binding contract, and the auctioneer may be held liable for damages resulting from the mistake.",
+          "The item must be immediately withdrawn from the current auction and legally re-auctioned at the next scheduled public event."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The erroneous announcement creates a binding contract, and the auctioneer may be held liable for damages resulting from the mistake.",
+      "id": 71
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the penalty for a licensee applying to renew a license more than two months, but less than six months, after the expiration date?",
+      "options": [
+          "Pay a standard $50 late penalty, submit a written explanation to the commission, and wait for automatic renewal processing.",
+          "Submit an application for licensure, satisfy any outstanding continuing education requirements, and pay a penalty of $150.",
+          "Submit an application for licensure, satisfy any outstanding continuing education requirements, and pay a penalty of $200.",
+          "The license is subject to permanent revocation, requiring the individual to repeat the entire 6-month apprenticeship process."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Submit an application for licensure, satisfy any outstanding continuing education requirements, and pay a penalty of $150.",
+      "id": 72
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is preparing a print advertisement for an upcoming estate sale. Which of the following is NOT legally required to be on the advertisement?",
+      "options": [
+          "The full legal name of the principal auctioneer responsible for overseeing the sale and managing the escrow account.",
+          "The officially issued state license number of the principal auctioneer overseeing the transaction and the event.",
+          "The auctioneer's physical home address, unless they strictly operate out of a commercially zoned business location.",
+          "The affiliate auctioneer's sponsor information, including the sponsor's name and license number, if placed by an affiliate."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The auctioneer's physical home address, unless they strictly operate out of a commercially zoned business location.",
+      "id": 73
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An affiliate auctioneer's employment is terminated. How long does the affiliate have to transfer to a new sponsor before their license is automatically suspended due to the principal's revocation/suspension?",
+      "options": [
+          "The affiliate must transfer to a new sponsor within 10 days to avoid a mandatory hearing before the Auctioneer Commission.",
+          "The affiliate may retain their license by transferring to the employment of another licensed auctioneer within 21 days.",
+          "The affiliate is granted a 30-day grace period to secure a new sponsor before their pocket card is officially confiscated.",
+          "The affiliate has 60 days to complete a transfer, during which they may continue to independently call bids at charity events."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affiliate may retain their license by transferring to the employment of another licensed auctioneer within 21 days.",
+      "id": 74
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In the context of escrow accounts, what must a principal auctioneer do if they do not maintain their own independent escrow account?",
+      "options": [
+          "They must use their primary business operating account to hold client funds, provided they maintain a strict separate ledger.",
+          "They must hold all client funds in cash within a secured, fireproof safe located at their registered business address.",
+          "They must have written authorization from a principal or public automobile auctioneer granting access to an escrow or trustee account.",
+          "They are required to forfeit their license immediately if they cannot independently secure a commercial escrow trust account."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. They must have written authorization from a principal or public automobile auctioneer granting access to an escrow or trustee account.",
+      "id": 75
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer completes the sale of registered livestock. Who is legally permitted to issue the closing statements and disburse funds instead of the auctioneer?",
+      "options": [
+          "The highest bidder of the livestock, who assumes full legal responsibility for drafting the final transfer documentation.",
+          "A duly chartered livestock association or livestock breed association, which exempts the auctioneer from issuing the statements.",
+          "The local county clerk's office, provided the livestock sale occurs at a venue managed by the state department of agriculture.",
+          "The USDA Packers and Stockyards Administration, acting as the federal oversight authority for the transaction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A duly chartered livestock association or livestock breed association, which exempts the auctioneer from issuing the statements.",
+      "id": 76
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An unlicensed individual acts as an auctioneer. The administrative director issues a citation. What is the maximum civil penalty that can be assessed per violation?",
+      "options": [
+          "An assessment of a civil penalty up to $500 for each violation, along with a mandatory cease and desist order.",
+          "An assessment of a civil penalty up to $1,000 for each violation, and a permanent ban from applying for a state license.",
+          "An assessment of a civil penalty up to $2,500 for each violation, along with an order to cease all violations of the chapter.",
+          "An assessment of a civil penalty up to $5,000 for each violation, and potential referral to the local district attorney."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. An assessment of a civil penalty up to $2,500 for each violation, along with an order to cease all violations of the chapter.",
+      "id": 77
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A person served with a citation for an operations violation has how many days to appeal it to the administrative director?",
+      "options": [
+          "Submit a written notice of appeal postmarked within 10 calendar days after the official service of the citation.",
+          "Submit a written notice of appeal postmarked within 15 working days after the official service of the citation.",
+          "Submit a formal appeal to the Chancery Court postmarked within 30 calendar days after the official service of the citation.",
+          "Submit a sworn affidavit to the Commission's investigator within 45 days after receiving the initial notice of violation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Submit a written notice of appeal postmarked within 15 working days after the official service of the citation.",
+      "id": 78
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Is an individual licensed strictly as a \"bid caller\" permitted to negotiate and sign a listing contract with a seller?",
+      "options": [
+          "Yes, provided they have been actively licensed for over a year and the contract value is independently appraised under $10,000.",
+          "Yes, provided they are directly supervised by a principal auctioneer who physically signs the final listing agreement.",
+          "No, negotiating or executing an auction contract as a bid caller is strictly prohibited and constitutes cause for license revocation.",
+          "No, unless the auction is conducted exclusively on behalf of a registered 501(c)(3) charitable corporation or association."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, negotiating or executing an auction contract as a bid caller is strictly prohibited and constitutes cause for license revocation.",
+      "id": 79
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the liability limit of the Auctioneer Education and Recovery Account per transaction, regardless of the number of persons aggrieved by the auctioneer's actions?",
+      "options": [
+          "The liability of the account shall not exceed $5,000 per transaction, provided the aggrieved party filed within 30 days.",
+          "The liability of the account shall not exceed $10,000 per transaction, regardless of the number of persons aggrieved.",
+          "The liability of the account shall not exceed $20,000 per transaction, provided multiple buyers filed a joint formal complaint.",
+          "The liability of the account shall not exceed $50,000 per transaction, provided the auction involved commercial real estate."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The liability of the account shall not exceed $10,000 per transaction, regardless of the number of persons aggrieved.",
+      "id": 80
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the aggregate liability limit of the Recovery Account for the acts of a single licensee?",
+      "options": [
+          "The total liability of the account for the acts of a single licensee shall be terminated upon reaching an aggregate of $10,000.",
+          "The total liability of the account for the acts of a single licensee shall be terminated upon reaching an aggregate of $20,000.",
+          "The total liability of the account for the acts of a single licensee shall be terminated upon reaching an aggregate of $50,000.",
+          "The total liability of the account for the acts of a single licensee shall be terminated upon reaching an aggregate of $100,000."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The total liability of the account for the acts of a single licensee shall be terminated upon reaching an aggregate of $20,000.",
+      "id": 81
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is denied payment by a seller for services performed. The auctioneer files a lien upon the property auctioned. Within how many days after the auction must this lien be filed?",
+      "options": [
+          "Notice of the lien must be filed within 10 days after the date of the auction with the local municipal zoning authority.",
+          "Notice of the lien must be filed within 30 days after the date of the auction with the state department of commerce and insurance.",
+          "Notice of the lien must be filed within 60 days after the date of the auction with the register's office in the county where the property is located.",
+          "Notice of the lien must be filed within 90 days after the date of the auction with the administrative director of the Commission."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Notice of the lien must be filed within 60 days after the date of the auction with the register's office in the county where the property is located.",
+      "id": 82
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "How long does a properly filed auctioneer's lien for unpaid commissions continue from the date of filing?",
+      "options": [
+          "The lien shall continue for a strict period of 30 days from the date of filing, after which it must be manually renewed.",
+          "The lien shall continue for a strict period of 60 days from the date of filing, pending the outcome of a small claims court hearing.",
+          "The lien shall continue for a period of 90 days from the date of filing and until the final termination of any suit for enforcement.",
+          "The lien shall continue for a period of 120 days from the date of filing, provided the auctioneer submits monthly status updates."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The lien shall continue for a period of 90 days from the date of filing and until the final termination of any suit for enforcement.",
+      "id": 83
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A buyer files a lawsuit against a principal auctioneer and receives a court order for a $5,000 payment from the Recovery Account. What happens to the principal auctioneer's license?",
+      "options": [
+          "The license is permanently revoked with no possibility of reinstatement under any circumstances within the state of Tennessee.",
+          "The commission may revoke the license, and the auctioneer cannot apply for a new license until they repay the account in full plus interest.",
+          "The license is suspended for a mandatory period of exactly 6 months, after which they must pass a rigorous ethics examination.",
+          "The commission takes no action against the license, as the Recovery Fund functions as state-mandated liability insurance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission may revoke the license, and the auctioneer cannot apply for a new license until they repay the account in full plus interest.",
+      "id": 84
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What must an affiliate auctioneer include in all advertising to comply with the 2020 rule changes regarding the publication of names?",
+      "options": [
+          "The advertisement must include a recent photograph of the affiliate and a clear disclaimer regarding their apprentice status.",
+          "The advertisement must clearly identify the affiliate as such, contain their license number, and the name and license number of their sponsor.",
+          "The advertisement must feature the exact physical address of the auction firm and the direct phone number of the principal auctioneer.",
+          "The advertisement must prominently display the official seal of the Tennessee Auctioneer Commission in the bottom right corner."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The advertisement must clearly identify the affiliate as such, contain their license number, and the name and license number of their sponsor.",
+      "id": 85
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In auction terminology, when calculating the \"Net to Seller,\" which of the following is deducted from the gross proceeds?",
+      "options": [
+          "The gross proceeds minus only the auctioneer's negotiated commission, leaving all other expenses to be billed separately to the buyer.",
+          "The gross proceeds minus the auctioneer's commission, advertising costs, and any seller-paid taxes or agreed-upon expenses.",
+          "The gross proceeds minus only the buyer's premium, which must be legally remitted to the state department of revenue.",
+          "The gross proceeds minus the mandated escrow account maintenance fees and the principal auctioneer's annual recovery fund assessment."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The gross proceeds minus the auctioneer's commission, advertising costs, and any seller-paid taxes or agreed-upon expenses.",
+      "id": 86
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the Uniform Commercial Code (UCC) Article 2, when an auctioneer announces the sale is complete by the fall of the hammer, what legal threshold has been met?",
+      "options": [
+          "The immediate legal transfer of the physical deed or title, requiring the buyer to take instant physical possession of the asset.",
+          "The official acceptance of the highest bid, which legally completes the sale and creates a binding contract between buyer and seller.",
+          "The immediate transfer of physical risk, mandating that the buyer secure personal property insurance before leaving the premises.",
+          "The formal beginning of the buyer's 10-day payment window, after which the auctioneer may legally repossess the purchased goods."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The official acceptance of the highest bid, which legally completes the sale and creates a binding contract between buyer and seller.",
+      "id": 87
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a principal auctioneer's license is suspended, what immediately happens to the licenses of all their sponsored affiliates?",
+      "options": [
+          "They are automatically upgraded to temporary principal auctioneers for 30 days to ensure the completion of any scheduled auctions.",
+          "They are automatically suspended, but they may retain their license by transferring to the employment of another sponsor within 21 days.",
+          "They must pay a $50 administrative fee to the Commission in order to continue operating independently for the remainder of the year.",
+          "They must immediately surrender their pocket card and retake the state affiliate examination before seeking a new sponsor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They are automatically suspended, but they may retain their license by transferring to the employment of another sponsor within 21 days.",
+      "id": 88
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Does the law require \"ringpersons\" (individuals who spot bids but do not vocally conduct the auction) to hold an auctioneer license?",
+      "options": [
+          "Yes, all floor personnel who actively interact with bidders must be fully licensed as bid callers under state regulations.",
+          "Yes, they must hold an active affiliate license and log their floor hours toward their principal auctioneer apprenticeship points.",
+          "No, unless they act as an affiliate broker or broker for a real estate auction, or vocally conduct the auction themselves.",
+          "No, ringpersons are completely unregulated by the commission and face no restrictions regardless of their specific duties."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, unless they act as an affiliate broker or broker for a real estate auction, or vocally conduct the auction themselves.",
+      "id": 89
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer pays a $500 finder's fee to an unlicensed friend for referring a seller. Is this legal?",
+      "options": [
+          "Yes, referral fees are standard business practices provided they are properly documented in the auctioneer's escrow account ledger.",
+          "Yes, as long as the fee is explicitly disclosed to the seller in the written contract prior to the commencement of the auction.",
+          "No, paying valuable consideration to any person for services performed in violation of the chapter is cause for license revocation.",
+          "No, finder's fees cannot legally exceed $100 per transaction and must be paid out of the principal auctioneer's personal funds."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, paying valuable consideration to any person for services performed in violation of the chapter is cause for license revocation.",
+      "id": 90
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A public automobile auctioneer must verify what specific document prior to subjecting a motor vehicle to auction?",
+      "options": [
+          "The vehicle's original manufacturer's sticker, ensuring that all factory specifications match the physical condition of the vehicle.",
+          "A valid motor vehicle title history from the department of revenue demonstrating that the motor vehicle has a clean and unencumbered title.",
+          "The prospective buyer's comprehensive auto insurance policy, ensuring they are legally permitted to operate the vehicle off the lot.",
+          "The vehicle's previous comprehensive maintenance logs, provided by a certified mechanic within 30 days of the auction date."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A valid motor vehicle title history from the department of revenue demonstrating that the motor vehicle has a clean and unencumbered title.",
+      "id": 91
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under TN law, what type of motor vehicles are public automobile auctions strictly prohibited from selling?",
+      "options": [
+          "Vehicles older than 25 years that do not possess a specialized antique or historical vehicle registration certificate.",
+          "Salvage vehicles that have not been fully rebuilt and inspected by the state highway patrol's commercial vehicle division.",
+          "New or unused motor vehicles, or any vehicles that are accompanied by a manufacturer's statement of origin instead of a standard title.",
+          "Vehicles registered out of state that lack a certified emissions inspection report from a recognized federal environmental agency."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. New or unused motor vehicles, or any vehicles that are accompanied by a manufacturer's statement of origin instead of a standard title.",
+      "id": 92
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a sale is finalized on a motor vehicle at a public auto auction, who must the owner sign the title over to first?",
+      "options": [
+          "The seller must sign the title directly over to the highest bidder at the conclusion of the auction to avoid intermediary liability.",
+          "The owner must sign the title over to the public automobile auction, who must then sign it over and deliver it to the buyer.",
+          "The owner must sign the title over to the Department of Revenue, which will then issue a new title to the highest bidder.",
+          "The owner must sign the title over to the principal auctioneer's personal holding company until the buyer's funds fully clear."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The owner must sign the title over to the public automobile auction, who must then sign it over and deliver it to the buyer.",
+      "id": 93
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is found to have obtained their license by false or fraudulent representation. What action MUST the commission take upon a verified written complaint that makes a prima facie case?",
+      "options": [
+          "Assess an immediate $500 fine and require the auctioneer to complete an additional 30 hours of rigorous ethics training.",
+          "Hold a formal hearing to investigate the actions of the auctioneer, provided the verified written complaint makes a prima facie case.",
+          "Immediately confiscate the auctioneer's business assets and freeze all associated escrow accounts pending a federal review.",
+          "Hand the case over to the state Attorney General's office for immediate criminal prosecution under federal wire fraud statutes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Hold a formal hearing to investigate the actions of the auctioneer, provided the verified written complaint makes a prima facie case.",
+      "id": 94
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A licensee holding a firm license (from prior to the 2020 rules) no longer needs to display the firm license number. What must they display instead on their standard business sign?",
+      "options": [
+          "The word \"AUCTION\" printed in bold, 12-inch letters, clearly visible from the nearest public roadway or intersection.",
+          "The person's name indicating they are an auctioneer, or the firm name indicating the firm is in the auction business, in letters at least two inches high.",
+          "The current balance of the Auctioneer Education and Recovery Fund, updated annually to reflect the firm's financial standing.",
+          "The principal auctioneer's physical home address and personal contact number, ensuring 24-hour accessibility for clients."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The person's name indicating they are an auctioneer, or the firm name indicating the firm is in the auction business, in letters at least two inches high.",
+      "id": 95
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer decides to host a real property auction. Besides their auctioneer license, what else MUST they or their affiliate hold?",
+      "options": [
+          "A commercial driver's license, if they intend to transport any physical assets or heavy machinery associated with the real estate.",
+          "A federal securities license, as real estate transactions at auction are heavily regulated by the Securities and Exchange Commission.",
+          "A broker or affiliate broker license issued under the provisions of the Tennessee Real Estate Broker License Act of 1973.",
+          "A mortgage loan originator license, ensuring they can legally facilitate financing options for the winning bidder."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. A broker or affiliate broker license issued under the provisions of the Tennessee Real Estate Broker License Act of 1973.",
+      "id": 96
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Regarding buyer's premiums, what is an auctioneer's ethical and operational requirement?",
+      "options": [
+          "They must be incorporated directly into the final hammer price without separate disclosure to maximize the seller's perceived value.",
+          "They must be clearly disclosed to all potential bidders in the official auction terms before the bidding process formally begins.",
+          "They are strictly illegal in the state of Tennessee and any attempt to charge one will result in immediate license suspension.",
+          "They must exactly match the percentage of the seller's commission to ensure equitable financial treatment of all participating parties."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must be clearly disclosed to all potential bidders in the official auction terms before the bidding process formally begins.",
+      "id": 97
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A principal auctioneer uses their escrow account to temporarily hold personal funds to meet a bank's minimum balance requirement. What violation has occurred?",
+      "options": [
+          "Embezzlement, as the auctioneer has permanently deprived the rightful owners of their funds for personal financial gain.",
+          "Commingling, which involves mixing personal or operating funds with client funds in a trustee or escrow account.",
+          "Fraudulent misrepresentation, as the auctioneer falsely inflated their financial standing to deceive the banking institution.",
+          "Failure to furnish a closing statement, as the movement of funds delayed the final settlement of the auction accounts."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Commingling, which involves mixing personal or operating funds with client funds in a trustee or escrow account.",
+      "id": 98
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the \"10-day rule,\" what specific document must the seller receive?",
+      "options": [
+          "A certified copy of the buyer's personal check or wire transfer receipt to definitively prove that funds have been secured.",
+          "A comprehensive closing statement detailing the gross proceeds, all deducted expenses such as commission, and the final net proceeds.",
+          "A formal, certified appraisal of all unsold items, providing the seller with an updated market valuation for future reference.",
+          "The auctioneer's official bank statement for the month, demonstrating that the seller's funds were properly routed through escrow."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A comprehensive closing statement detailing the gross proceeds, all deducted expenses such as commission, and the final net proceeds.",
+      "id": 99
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A licensee who has been delinquent in the renewal of their license for one (1) year or more must do what to resume practicing?",
+      "options": [
+          "Pay a $200 late fee, submit a comprehensive continuing education log, and wait 30 days for administrative approval.",
+          "Petition the governor's office for a special reinstatement exemption, provided they have over ten years of prior experience.",
+          "Reapply for licensure entirely and satisfy all current requirements for obtaining such license, including re-application and reexamination.",
+          "Serve a mandatory 6-month apprenticeship under a new principal auctioneer before they are eligible to independently call bids again."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Reapply for licensure entirely and satisfy all current requirements for obtaining such license, including re-application and reexamination.",
+      "id": 100
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the specific legal threshold required for the Tennessee Auctioneer Commission to formally hold a hearing to investigate the actions of an auctioneer based on a verified written complaint?",
+      "options": [
+          "The complaint must be accompanied by a sworn affidavit from a licensed attorney and demonstrate that actual financial damages exceeding $5,000 have occurred as a direct result of the auctioneer's actions.",
+          "The complaint, along with any evidence, documentary or otherwise, presented in connection with the complaint, must make out a prima facie case against the licensee in question.",
+          "The complaint must be filed directly with the state attorney general's office and result in a preliminary criminal indictment for fraud, moral turpitude, or embezzlement before the commission can act.",
+          "The complaint must be submitted within 30 days of the auction event and be signed by at least two independent witnesses who were physically present and participated in the auction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The complaint, along with any evidence, documentary or otherwise, presented in connection with the complaint, must make out a prima facie case against the licensee in question.",
+      "id": 101
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under T.C.A. § 62-19-112, an affiliate auctioneer's license can be suspended or revoked for accepting valuable consideration for the performance of auctioneering acts from whom?",
+      "options": [
+          "Any person or entity, except for the specific seller or consignor who formally contracted the auction firm for the specific event in question and agreed to a performance bonus.",
+          "Any person or entity, except the licensee's employer auctioneer who serves as their official sponsor and maintains liability for their professional actions.",
+          "Any person or entity that does not hold a valid Tennessee auctioneer firm or principal license, regardless of the specific nature or scope of the transaction.",
+          "Any person or entity, unless the consideration is an unsolicited gratuity under $500 that has been fully documented and disclosed to the principal auctioneer prior to acceptance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Any person or entity, except the licensee's employer auctioneer who serves as their official sponsor and maintains liability for their professional actions.",
+      "id": 102
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the specific legal consequence if an affiliate auctioneer is found to have paid valuable consideration to an unlicensed person for services performed in violation of the chapter?",
+      "options": [
+          "The affiliate auctioneer is subjected to a mandatory $2,500 fine and must complete an additional 16 hours of ethics continuing education before their next license renewal cycle.",
+          "The affiliate auctioneer's sponsor is held strictly liable, and the sponsor's principal license is automatically suspended for a minimum mandatory period of 60 days.",
+          "The commission may suspend, revoke, or refuse to renew the affiliate auctioneer's license, as this action constitutes a direct violation of the causes outlined in the state statute.",
+          "The commission will issue a formal written warning for the first offense, but subsequent offenses will result in a permanent ban from operating within the auction profession in Tennessee."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The commission may suspend, revoke, or refuse to renew the affiliate auctioneer's license, as this action constitutes a direct violation of the causes outlined in the state statute.",
+      "id": 103
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following scenarios describes a specific, actionable violation regarding the handling of written instruments under Tennessee auction law?",
+      "options": [
+          "Failing to submit certified copies of all executed written instruments to the Tennessee Auctioneer Commission's administrative director within 10 business days following the conclusion of an auction.",
+          "Failing to furnish voluntarily to all interested parties, at the exact time of execution, copies of all written instruments prepared by the auctioneer or the affiliate auctioneer.",
+          "Failing to retain original copies of all written instruments in a secure, fireproof location at the principal auctioneer's primary registered place of business for a period of five full calendar years.",
+          "Failing to provide the local chief of police or county sheriff with comprehensive copies of all written instruments 24 hours prior to the commencement of a public auction event."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Failing to furnish voluntarily to all interested parties, at the exact time of execution, copies of all written instruments prepared by the auctioneer or the affiliate auctioneer.",
+      "id": 104
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is preparing to sell property at a public auction but has not yet signed a formal agreement with the owner. What specific legal requirement must be met prior to the commencement of the sale?",
+      "options": [
+          "The auctioneer must enter into a written contract with the owner or consignee containing the specific terms and conditions upon which the licensee receives the property for sale.",
+          "The auctioneer must obtain a verbal agreement witnessed by a licensed notary public detailing the exact commission structure, advertising expenses, and targeted marketing strategy.",
+          "The auctioneer must secure a certified independent appraisal of the property and submit a preliminary closing statement to the owner outlining the expected gross proceeds of the event.",
+          "The auctioneer must file a temporary, protective lien on the property to be sold to ensure the financial protection of the firm's anticipated commission and upfront marketing costs."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The auctioneer must enter into a written contract with the owner or consignee containing the specific terms and conditions upon which the licensee receives the property for sale.",
+      "id": 105
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In the context of disciplinary actions and auction ethics, what constitutes the illegal use of \"cappers\" or \"pullers\" during a live auction event?",
+      "options": [
+          "Employing unlicensed individuals to physically move or transport heavy items across the auction block without maintaining adequate garagekeeper's legal liability insurance.",
+          "Knowingly using false bidders whose sole purpose is to artificially inflate the bidding price of an item without any genuine, good-faith intention of actually purchasing the property.",
+          "Utilizing aggressive, unapproved marketing tactics to actively \"pull\" prospective buyers away from competing auction events taking place simultaneously within the same local jurisdiction.",
+          "Hiring specialized administrative staff to independently finalize closing statements and collect buyer's premiums without direct, on-site supervision from a licensed principal auctioneer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Knowingly using false bidders whose sole purpose is to artificially inflate the bidding price of an item without any genuine, good-faith intention of actually purchasing the property.",
+      "id": 106
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer engages in the business of auctioning real property without holding a valid broker or affiliate broker license under the Tennessee Real Estate Broker License Act, what is the disciplinary outcome?",
+      "options": [
+          "The auctioneer is restricted to selling only residential properties valued under $250,000 until they complete a 30-hour supplemental real estate training course.",
+          "The auctioneer's actions constitute a direct cause for the commission to suspend, revoke, or refuse to renew their auctioneer license, alongside potential civil penalties.",
+          "The auctioneer must forfeit their entire earned commission from the real estate transaction to the Auctioneer Education and Recovery Account to avoid license revocation.",
+          "The auctioneer faces no disciplinary action from the Auctioneer Commission, as real estate violations fall strictly under the exclusive jurisdiction of the Real Estate Commission."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auctioneer's actions constitute a direct cause for the commission to suspend, revoke, or refuse to renew their auctioneer license, alongside potential civil penalties.",
+      "id": 107
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An individual licensed strictly as a \"bid caller auctioneer\" decides to negotiate and execute an auction contract with a local estate executor. How does Tennessee law view this action?",
+      "options": [
+          "It is legally permissible provided the total value of the estate is independently appraised at less than $50,000 and the bid caller uses a state-approved contract template.",
+          "It is a direct violation of the chapter, as negotiating or executing an auction contract as a bid caller auctioneer licensee is specific cause for license suspension or revocation.",
+          "It is acceptable only if the bid caller immediately transfers the executed contract to a licensed principal auctioneer within 48 hours of obtaining the executor's signature.",
+          "It is considered a minor administrative infraction that typically results in a small civil penalty, provided the subsequent auction is conducted fairly and without misrepresentation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It is a direct violation of the chapter, as negotiating or executing an auction contract as a bid caller auctioneer licensee is specific cause for license suspension or revocation.",
+      "id": 108
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under what circumstances can an auto auction, as defined in § 55-17-102, be legally exempt from the standard requirement of maintaining and using an escrow or trustee account?",
+      "options": [
+          "Auto auctions are completely exempt from escrow requirements provided they maintain a garagekeeper's legal liability insurance policy of at least $500,000 to cover potential losses.",
+          "Auto auctions are exempt from maintaining or using an escrow account specifically when the auction does not accept and deposit funds belonging to others during the transaction process.",
+          "Auto auctions are exempt only if they exclusively sell fleet vehicles or repossessions on behalf of federally insured financial institutions and banks.",
+          "Auto auctions are never exempt from escrow requirements; the strict prohibition against commingling applies universally to all auction entities operating within the state."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Auto auctions are exempt from maintaining or using an escrow account specifically when the auction does not accept and deposit funds belonging to others during the transaction process.",
+      "id": 109
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A principal auctioneer is convicted of a felony involving moral turpitude in a federal court outside of Tennessee. How does this impact their Tennessee auctioneer license?",
+      "options": [
+          "The out-of-state federal conviction has no direct bearing on their Tennessee license unless the specific crime was committed while actively conducting a licensed auction in Tennessee.",
+          "Being convicted in a court of competent jurisdiction of this or any other state, or of the United States, of a criminal offense involving moral turpitude or a felony is cause for license revocation.",
+          "The auctioneer's license is placed on a mandatory two-year probationary status, during which they must undergo quarterly audits by the commission's administrative investigator.",
+          "The auctioneer must voluntarily retire their license immediately; if they fail to do so, they forfeit their right to ever apply for reinstatement under the Fresh Start Act."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Being convicted in a court of competent jurisdiction of this or any other state, or of the United States, of a criminal offense involving moral turpitude or a felony is cause for license revocation.",
+      "id": 110
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What action is required by the commission if they determine that a licensee has pursued a continued and flagrant course of misrepresentation or made false promises through advertising?",
+      "options": [
+          "The commission is legally required to refer the case to the state's consumer protection agency for criminal prosecution before taking any administrative action against the license.",
+          "The commission has the authority to suspend, revoke, or refuse to renew the license, as this behavior directly violates the statutory standards of ethical and honest dealing.",
+          "The commission must issue a formal cease and desist order and allow the licensee a 30-day grace period to correct the misleading advertising before assessing any penalties.",
+          "The commission will immediately confiscate the auctioneer's escrow account funds to reimburse any affected consumers, but the auctioneer may continue operating under a restricted license."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission has the authority to suspend, revoke, or refuse to renew the license, as this behavior directly violates the statutory standards of ethical and honest dealing.",
+      "id": 111
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer or affiliate auctioneer wishes to voluntarily retire their license. What specific condition must be met for this request to be valid and approved by the commission?",
+      "options": [
+          "The licensee must have been actively practicing in the state of Tennessee for a minimum of ten consecutive years without a single disciplinary citation on their official record.",
+          "The licensee must submit the request in writing, pay the appropriate fees, return the license certificate and pocket card, and ensure the license is current and in good standing.",
+          "The licensee must provide a comprehensive, audited financial statement proving that all pending escrow funds have been fully disbursed to their rightful owners.",
+          "The licensee must complete a final 6-hour continuing education course focused on license transition and retirement protocols prior to submitting the formal written request."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The licensee must submit the request in writing, pay the appropriate fees, return the license certificate and pocket card, and ensure the license is current and in good standing.",
+      "id": 112
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A buyer files a civil lawsuit against a licensed auctioneer for gross negligence and fraud, subsequently recovering a judgment in a court of record. What independent action may the court take regarding the auctioneer's license?",
+      "options": [
+          "The court may, as part of its judgment or decree, mandate that the auctioneer complete an additional 50 hours of rigorous ethics training at an accredited auction school.",
+          "The court may, as part of its judgment or decree, officially revoke the defendant's license, which then cannot be reissued except upon the unanimous vote of all commission members.",
+          "The court has no jurisdiction over the professional license; it may only award monetary damages, leaving all licensing decisions exclusively to the administrative director.",
+          "The court may temporarily suspend the license until the monetary judgment is paid in full, at which point the license is automatically and immediately reinstated without commission review."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The court may, as part of its judgment or decree, officially revoke the defendant's license, which then cannot be reissued except upon the unanimous vote of all commission members.",
+      "id": 113
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a court formally revokes an auctioneer's license as part of a civil judgment for fraud, what is the mandatory waiting period before the license can even be considered for reissuance by the commission?",
+      "options": [
+          "The license cannot be reissued until a mandatory lapse of a period of thirty (30) days from the exact date of the judicial revocation order.",
+          "The license cannot be reissued until a mandatory lapse of a period of ninety (90) days from the exact date of the judicial revocation order.",
+          "The license cannot be reissued until a mandatory lapse of a period of one (1) full calendar year from the exact date of the judicial revocation order.",
+          "The license is permanently and irrevocably revoked, and the individual is barred for life from engaging in the auction business within the state of Tennessee."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The license cannot be reissued until a mandatory lapse of a period of ninety (90) days from the exact date of the judicial revocation order.",
+      "id": 114
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under T.C.A. § 62-19-126, who specifically possesses the legal authority to issue formal citations against persons acting in the capacity of engaging in the auction business without a license?",
+      "options": [
+          "Any active member of the Tennessee Auctioneer Commission, provided they secure a majority vote during a properly convened quarterly public meeting.",
+          "The administrative director and the investigator, acting directly on behalf of the commission, are authorized to issue such citations.",
+          "The local district attorney or the county sheriff in the specific jurisdiction where the unlicensed auction activity is actively taking place.",
+          "Any licensed principal auctioneer who formally witnesses and documents the unlicensed activity and submits a sworn affidavit to the state regulatory board."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The administrative director and the investigator, acting directly on behalf of the commission, are authorized to issue such citations.",
+      "id": 115
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When a citation is issued for a violation of the auctioneer chapter, what specific elements must the written citation explicitly contain to be considered legally valid?",
+      "options": [
+          "A detailed history of the licensee's past infractions, a demand for immediate surrender of the pocket card, and a scheduled date for a mandatory court appearance.",
+          "An order to cease all violations of the chapter and an assessment of a civil penalty in an amount of not less than $50 nor more than $2,500 for each violation.",
+          "A formal notice of criminal indictment, a requirement to freeze all business operating accounts, and a preliminary assessment of consumer restitution damages.",
+          "An immediate and permanent revocation order, a demand for a comprehensive escrow audit, and a referral to the state attorney general for wire fraud investigation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. An order to cease all violations of the chapter and an assessment of a civil penalty in an amount of not less than $50 nor more than $2,500 for each violation.",
+      "id": 116
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the legally defined statute of limitations for the administrative director or investigator to issue a citation after an alleged act or omission has occurred?",
+      "options": [
+          "A citation must be issued within six (6) months after the specific act or omission that serves as the fundamental basis for the citation.",
+          "A citation must be issued within one (1) year after the specific act or omission that serves as the fundamental basis for the citation.",
+          "A citation must be issued within two (2) years after the specific act or omission, aligning with the standard biennial license renewal cycle.",
+          "There is no statute of limitations for issuing a citation; the commission retains perpetual authority to penalize violations regardless of when they occurred."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A citation must be issued within one (1) year after the specific act or omission that serves as the fundamental basis for the citation.",
+      "id": 117
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A person is served with a formal citation and wishes to appeal the violations alleged or the amount of the civil penalty assessed. What is the precise required timeframe and method for this appeal?",
+      "options": [
+          "They must appeal to the administrative director by written notice postmarked within ten (10) calendar days after the official service of the citation.",
+          "They must appeal to the administrative director by written notice postmarked within fifteen (15) working days after the official service of the citation.",
+          "They must file a formal petition for a hearing with the Chancery Court within thirty (30) days of receiving the initial citation via certified mail.",
+          "They must verbally request an appeal hearing during the next publicly scheduled quarterly meeting of the Tennessee Auctioneer Commission."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must appeal to the administrative director by written notice postmarked within fifteen (15) working days after the official service of the citation.",
+      "id": 118
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a cited individual timely and properly notifies the administrative director of their intent to contest a citation, what specific legal proceeding must the director afford them?",
+      "options": [
+          "A binding arbitration session overseen by a neutral, third-party mediator selected jointly by the commission and the cited individual.",
+          "An opportunity for a contested case hearing conducted strictly pursuant to the provisions of the Uniform Administrative Procedures Act (Title 4, Chapter 5).",
+          "A preliminary injunction hearing before a state circuit court judge to determine the immediate validity of the assessed civil penalties.",
+          "A closed-door review session with the five appointed members of the Auctioneer Commission, whose subsequent majority decision shall be final and unappealable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. An opportunity for a contested case hearing conducted strictly pursuant to the provisions of the Uniform Administrative Procedures Act (Title 4, Chapter 5).",
+      "id": 119
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "After all administrative appeals have been exhausted regarding a citation, how does the administrative director enforce the collection of an unpaid civil penalty and a cease order?",
+      "options": [
+          "By automatically seizing the funds directly from the auctioneer's registered escrow or trustee account without requiring further judicial intervention.",
+          "By applying to the appropriate court for judgment in the amount of the civil penalty, plus applicable court costs, using a certified copy of the final hearing order.",
+          "By permanently revoking the individual's license and transferring the outstanding debt to a private, third-party collection agency for aggressive pursuit.",
+          "By deducting the owed penalty amount directly from the Auctioneer Education and Recovery Account, thereby holding the fund liable for the licensee's infractions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. By applying to the appropriate court for judgment in the amount of the civil penalty, plus applicable court costs, using a certified copy of the final hearing order.",
+      "id": 120
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can the Tennessee Auctioneer Commission completely waive an assessed civil penalty, and if so, what is the required administrative procedure to do so legally?",
+      "options": [
+          "No, the commission is strictly prohibited by statute from waiving any civil penalties once they have been formally assessed and finalized by an administrative judge.",
+          "Yes, the commission may waive any or all of a civil penalty by explicitly stating the specific reasons for the waiver in the official, permanent minutes of the commission.",
+          "Yes, but only if the cited individual proves severe financial hardship through the submission of audited tax returns and files a formal petition with the governor's office.",
+          "Yes, the administrative director can independently waive the penalty at their own discretion, provided the violation did not involve the commingling of client funds."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Yes, the commission may waive any or all of a civil penalty by explicitly stating the specific reasons for the waiver in the official, permanent minutes of the commission.",
+      "id": 121
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In addition to administrative citations, the commission is empowered to petition directly any circuit or chancery court having jurisdiction over a violating person for what specific legal remedy?",
+      "options": [
+          "To secure a criminal arrest warrant for the individual based on fraudulent misrepresentation and gross negligence in the handling of fiduciary duties.",
+          "To obtain an immediate writ of attachment to seize the physical assets of the auction firm to secure pending financial restitution for aggrieved consumers.",
+          "To enjoin the person from continuing the violation, whether they operate with or without a license, effectively seeking a judicial injunction against the illegal activity.",
+          "To force the immediate liquidation of the individual's business assets and mandate the distribution of the proceeds to the Auctioneer Education and Recovery Account."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. To obtain an immediate writ of attachment to seize the physical assets of the auction firm to secure pending financial restitution for aggrieved consumers.",
+      "id": 122
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the statutorily mandated minimum balance that the commission must maintain within the Auctioneer Education and Recovery Account at all times?",
+      "options": [
+          "The commission must maintain a minimum balance of fifty thousand dollars (50,000)toensureadequatefundsareavailableforminorconsumerdisputes.",
+          "Thecommissionmustmaintainaminimumbalanceofonehundredfiftythousanddollars(150,000) in the account, held solely for the purposes defined by the statute.",
+          "The commission must maintain a minimum balance of two hundred fifty thousand dollars (250,000),investedaggressivelytocombatinflationandrisinglegalcosts.",
+          "Thecommissionmustmaintainaminimumbalanceoffivehundredthousanddollars(500,000), which acts as a collective surety bond for all licensed principal auctioneers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Thecommissionmustmaintainaminimumbalanceofonehundredfiftythousanddollars(150,000) in the account, held solely for the purposes defined by the statute.",
+      "id": 123
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When a new or renewal auctioneer or affiliate auctioneer license is issued, what specific fee is assessed to fund the Auctioneer Education and Recovery Account?",
+      "options": [
+          "A variable fee based entirely on the licensee's gross annual sales volume, capped at a maximum of 100perrenewalcycletoensureequitablecontribution.",
+          "Astrictfeeoffiftydollars(50.00), or a lesser amount established by commission rule, paid in addition to the standard application or renewal license fee.",
+          "A mandatory one-time initiation fee of $250 for new applicants, while renewing licensees are entirely exempt from contributing to the recovery fund.",
+          "A fee equivalent to 1% of the auctioneer's total collected buyer's premiums from the previous calendar year, transferred directly into the state's general operating fund."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Astrictfeeoffiftydollars(50.00), or a lesser amount established by commission rule, paid in addition to the standard application or renewal license fee.",
+      "id": 124
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an aggrieved person seeks to recover damages from the Auctioneer Education and Recovery Account, what types of damages are explicitly excluded from potential recovery?",
+      "options": [
+          "The account will not cover any actual out-of-pocket losses sustained directly from the auctioneer's failure to remit the net proceeds of a consigned sale.",
+          "The account allows for the recovery of actual or compensatory damages, but it strictly prohibits the inclusion of any interest and accumulated court costs.",
+          "The account will not cover damages resulting from violations that occurred after June 30, 1987, as the fund is only designed for retroactive compensation.",
+          "The account strictly prohibits the recovery of damages related to the sale of motor vehicles, which must be handled exclusively by the Motor Vehicle Commission."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The account allows for the recovery of actual or compensatory damages, but it strictly prohibits the inclusion of any interest and accumulated court costs.",
+      "id": 125
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the absolute maximum liability limit of the Recovery Account for a single, specific transaction, regardless of how many individuals were defrauded or aggrieved during that event?",
+      "options": [
+          "The liability of the account shall not exceed five thousand dollars (5,000)pertransaction,providedallclaimsarefiledwithin60daysoftheauction.",
+          "Theliabilityoftheaccountshallnotexceedtenthousanddollars(10,000) per transaction, completely regardless of the total number of persons aggrieved.",
+          "The liability of the account shall not exceed twenty thousand dollars (20,000)pertransaction,assumingtheauctioninvolvedthesaleofcommercialrealestate.",
+          "Theliabilityoftheaccountshallnotexceedfiftythousanddollars(50,000) per transaction, which aligns with the mandatory surety bond requirement for auto auctions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Theliabilityoftheaccountshallnotexceedtenthousanddollars(10,000) per transaction, completely regardless of the total number of persons aggrieved.",
+      "id": 126
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the absolute maximum aggregate liability limit of the Recovery Account for the combined, total acts of a single licensed auctioneer?",
+      "options": [
+          "The aggregate liability of the account for the acts of a single licensee is strictly capped at ten thousand dollars (10,000)overtheirentireprofessionalcareer.",
+          "Theaggregateliabilityoftheaccountfortheactsofasinglelicenseeisterminatedupontheissuanceofcourtordersauthorizingpaymentstotalingtwentythousanddollars(20,000).",
+          "The aggregate liability of the account for the acts of a single licensee is limited to fifty thousand dollars ($50,000), provided the acts occurred within the same calendar year.",
+          "The aggregate liability of the account is theoretically unlimited, provided the aggrieved parties can successfully prove gross, intentional fraud in a court of competent jurisdiction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Theaggregateliabilityoftheaccountfortheactsofasinglelicenseeisterminatedupontheissuanceofcourtordersauthorizingpaymentstotalingtwentythousanddollars(20,000).",
+      "id": 127
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An aggrieved person decides to sue an auctioneer and hopes to eventually collect from the Recovery Account. What specific action MUST they take when they commence this lawsuit?",
+      "options": [
+          "They must immediately freeze the auctioneer's primary business operating account using a writ of garnishment to secure the funds before the trial begins.",
+          "They must promptly notify the Tennessee Auctioneer Commission to this effect in writing, specifically utilizing certified mail, return receipt requested.",
+          "They must file a preliminary claim directly with the state's Attorney General, detailing the expected compensatory damages and outlining the auctioneer's specific violations.",
+          "They must post a personal surety bond equivalent to 10% of their total claimed damages to deter the filing of frivolous or malicious lawsuits against licensed professionals."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must promptly notify the Tennessee Auctioneer Commission to this effect in writing, specifically utilizing certified mail, return receipt requested.",
+      "id": 128
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "After obtaining a valid judgment against an auctioneer, how long must an aggrieved person wait for the judgment to remain unpaid before they can apply to the court for an order directing payment from the Recovery Account?",
+      "options": [
+          "The judgment must remain completely or partially unpaid for a period of thirty (30) days after the official date the judgment was entered by the court.",
+          "The judgment must remain completely or partially unpaid for a period of sixty (60) days after the official date the judgment was entered by the court.",
+          "The judgment must remain completely or partially unpaid for a period of ninety (90) days after the official date the judgment was entered by the court.",
+          "The aggrieved person may apply for payment immediately on the day the judgment is finalized, provided the auctioneer has formally declared bankruptcy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The judgment must remain completely or partially unpaid for a period of sixty (60) days after the official date the judgment was entered by the court.",
+      "id": 129
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If the commission is ordered by a court to pay a sum from the Recovery Account on behalf of a licensed auctioneer, what is the immediate, discretionary power of the commission regarding that auctioneer's license?",
+      "options": [
+          "The commission is required to issue a mandatory 30-day suspension, during which the auctioneer must negotiate a feasible repayment plan with the state treasurer.",
+          "The commission may, entirely at its own discretion, choose to officially suspend or revoke the license of the auctioneer or affiliate auctioneer responsible for the damages.",
+          "The commission must automatically downgrade the principal auctioneer to an affiliate status, requiring them to work under a new sponsor for a minimum of two years.",
+          "The commission has no discretionary power; the license is permanently and irrevocably revoked by statute the moment the funds are physically disbursed from the account."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission may, entirely at its own discretion, choose to officially suspend or revoke the license of the auctioneer or affiliate auctioneer responsible for the damages.",
+      "id": 130
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer whose license was revoked because the commission paid a claim from the Recovery Account on their behalf wants to apply for a new license. What are the mandatory financial prerequisites?",
+      "options": [
+          "They must wait a minimum of five years and pay a specialized reinstatement penalty of $2,500 directly to the administrative director's operating budget.",
+          "They are not eligible to apply for a new license until they have repaid in full the amount paid from the account on their behalf, plus interest at the effective earnings rate for the period the claim was unpaid.",
+          "They must secure a $100,000 high-risk surety bond from a licensed bonding company and agree to forfeit all future commissions until the fund is fully replenished.",
+          "They must repay 50% of the disbursed amount and agree to a mandatory wage garnishment plan for the remaining balance, overseen by the state department of revenue."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They are not eligible to apply for a new license until they have repaid in full the amount paid from the account on their behalf, plus interest at the effective earnings rate for the period the claim was unpaid.",
+      "id": 131
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When the commission pays a judgment creditor from the Recovery Account, what happens to the judgment creditor's legal rights against the auctioneer?",
+      "options": [
+          "The judgment creditor retains full rights to aggressively pursue the auctioneer for the remaining balance of the judgment, including punitive damages and legal fees.",
+          "The commission is formally subrogated to all of the rights of the judgment creditor in the judgment, meaning the commission now holds the legal right to collect the debt from the auctioneer.",
+          "The judgment is legally nullified and completely expunged from the auctioneer's public record, as the state has assumed the role of liability insurer for the transaction.",
+          "The judgment creditor must sign a non-disclosure agreement protecting the auctioneer's reputation before the state will release the funds from the recovery account."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission is formally subrogated to all of the rights of the judgment creditor in the judgment, meaning the commission now holds the legal right to collect the debt from the auctioneer.",
+      "id": 132
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If the commission successfully collects on a subrogated judgment against an auctioneer and recovers MORE than they originally paid out from the account (plus interest and costs), what may they do with the overage?",
+      "options": [
+          "The commission must deposit the entire overage directly into the state's general education fund to support public agricultural initiatives and livestock programs.",
+          "The commission may elect to pay the overage or reassign the remaining interest in the judgment back to the original judgment creditor who filed the initial lawsuit.",
+          "The commission is legally required to hold the overage in a blind trust for a period of ten years, after which it reverts to the auctioneer if no further complaints are filed.",
+          "The commission must use the exact overage amount to proportionately reduce the annual license renewal fees for all currently active principal auctioneers in the state."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission may elect to pay the overage or reassign the remaining interest in the judgment back to the original judgment creditor who filed the initial lawsuit.",
+      "id": 133
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What happens if an aggrieved person follows all court procedures to claim funds, but the money currently deposited in the Recovery Account is insufficient to satisfy their duly authorized claim?",
+      "options": [
+          "The claim is permanently dismissed due to lack of funding, and the aggrieved party must attempt to recover the funds through standard bankruptcy proceedings against the auctioneer.",
+          "The commission shall, when sufficient money has been deposited, satisfy the unpaid claims in the order they were originally filed, plus interest at the effective earnings rate for the period the claim is unpaid.",
+          "The commission will assess an emergency, mandatory special fee of $100 on every active licensee in the state to immediately replenish the fund and satisfy the pending claim within 30 days.",
+          "The state's general treasury will automatically issue a supplemental grant to cover the shortfall, ensuring that the consumer is paid without requiring them to wait for the account to replenish."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The commission shall, when sufficient money has been deposited, satisfy the unpaid claims in the order they were originally filed, plus interest at the effective earnings rate for the period the claim is unpaid.",
+      "id": 134
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An aggrieved party fails to notify the commission by certified mail when they commence their lawsuit against an auctioneer. According to the statute, what is the consequence of failing to comply with this specific provision?",
+      "options": [
+          "The aggrieved party will be assessed a minor administrative penalty of $50, which will simply be deducted from their final payout from the Recovery Account.",
+          "The failure of an aggrieved person to comply with this section constitutes a complete and absolute waiver of any rights to claim funds under the Recovery Account provisions.",
+          "The aggrieved party's claim will be placed at the very bottom of the waitlist, ensuring that all other compliant claimants are paid in full before their case is even reviewed.",
+          "The lawsuit must be entirely dismissed by the presiding judge, and the aggrieved party is forced to refile the case, paying all associated court costs a second time."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The failure of an aggrieved person to comply with this section constitutes a complete and absolute waiver of any rights to claim funds under the Recovery Account provisions.",
+      "id": 135
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Is a licensed bonding company that issued a surety bond for a public automobile auction permitted to file a claim against the Auctioneer Education and Recovery Account to recoup their losses?",
+      "options": [
+          "Yes, bonding companies are explicitly protected under the statute and may claim up to $50,000 per incident if the automobile auctioneer commits verifiable fraud.",
+          "No, a bonding company not involved in an auction shall have absolutely no claim against the account under any circumstances outlined in the state statute.",
+          "Yes, but only if they first exhaust all traditional legal remedies against the principal auctioneer and secure a final, unappealable judgment in a state appellate court.",
+          "No, unless the bonding company can definitively prove that the Tennessee Auctioneer Commission was grossly negligent in their initial issuance of the auctioneer's license."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, a bonding company not involved in an auction shall have absolutely no claim against the account under any circumstances outlined in the state statute.",
+      "id": 136
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following is a legally authorized use for the return on investment of funds in the Recovery Account, and any balance exceeding $150,000?",
+      "options": [
+          "To completely eliminate the biennial license renewal fees for all principal auctioneers who have maintained an unblemished record for at least five consecutive years.",
+          "To sponsor, conduct, or assist in conducting education, training, or research designed to improve the competence, effectiveness, or professionalism of licensees, commission members, or staff.",
+          "To provide low-interest, state-backed business loans to newly licensed affiliate auctioneers to help them secure commercial office space and launch their marketing campaigns.",
+          "To fund aggressive, nationwide television advertising campaigns explicitly designed to promote the general Tennessee auction industry to out-of-state buyers and investors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. To sponsor, conduct, or assist in conducting education, training, or research designed to improve the competence, effectiveness, or professionalism of licensees, commission members, or staff.",
+      "id": 137
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The commission utilizes excess funds from the Recovery Account to employ a dedicated investigator. What specific, immediate authority does this investigator possess while in the field?",
+      "options": [
+          "The investigator has the authority to issue immediate, on-the-spot criminal arrest warrants for any individual caught calling bids without displaying a valid pocket card.",
+          "The investigator has the authority to stop any auction activity that is being promoted, managed, or supervised by unlicensed individuals in direct violation of the chapter.",
+          "The investigator has the authority to forcibly seize all property scheduled for auction and transport it to a state-controlled warehouse pending a formal administrative hearing.",
+          "The investigator has the authority to unilaterally revoke an auctioneer's license on site if they discover that the auctioneer has commingled funds in a personal checking account."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The investigator has the authority to stop any auction activity that is being promoted, managed, or supervised by unlicensed individuals in direct violation of the chapter.",
+      "id": 138
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Are licensees acting in their professional capacity as auctioneers permitted to file a claim against the Auctioneer Education and Recovery Account to recover an unpaid commission from a fraudulent seller?",
+      "options": [
+          "Yes, the account is designed to protect both the consumer and the professional auctioneer from financial harm resulting from deceptive practices during a transaction.",
+          "No, the statute explicitly states that a licensee acting as such shall have absolutely no claim against the account to recover lost wages, commissions, or fees.",
+          "Yes, provided the unpaid commission strictly exceeds the $10,000 threshold and the auctioneer successfully files a mechanic's lien against the seller's property first.",
+          "No, auctioneers must instead petition the state's general treasury fund for reimbursement, as the Recovery Account is exclusively reserved for out-of-state buyers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, the statute explicitly states that a licensee acting as such shall have absolutely no claim against the account to recover lost wages, commissions, or fees.",
+      "id": 139
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the criminal classification for violating any provision of the auctioneer chapter or any rule or regulation promulgated by the commission?",
+      "options": [
+          "It is classified as a Class A Misdemeanor, punishable by up to 11 months and 29 days in the county jail.",
+          "It is classified as a Class C Misdemeanor, making it a criminal offense in addition to any administrative penalties assessed by the commission.",
+          "It is classified as a Class E Felony, which permanently strips the individual of their right to vote or hold a professional license in the state of Tennessee.",
+          "It is not classified as a criminal offense at all; violations are strictly civil matters handled exclusively through administrative fines and license revocation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It is classified as a Class C Misdemeanor, making it a criminal offense in addition to any administrative penalties assessed by the commission.",
+      "id": 140
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A licensee makes a material misstatement of fact on a document filed with the commission to claim funds from the Recovery Account. What is the legal implication of this specific action?",
+      "options": [
+          "It is considered a minor administrative error requiring the submission of an amended document and the payment of a $50 processing fee to the director.",
+          "It is explicitly unlawful for any person to file or cause to be filed with the commission any notice, statement, or document required under the recovery section that is false or contains a material misstatement.",
+          "The commission will simply reject the claim and bar the individual from refiling for a period of six months, but no formal legal charges can be brought for the misstatement.",
+          "It is considered an acceptable practice if the misstatement was made in a good faith attempt to estimate actual damages without the benefit of a certified public accountant."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It is explicitly unlawful for any person to file or cause to be filed with the commission any notice, statement, or document required under the recovery section that is false or contains a material misstatement.",
+      "id": 141
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which entity is responsible for investing the monies held within the Auctioneer Education and Recovery Account to generate a return for the fund?",
+      "options": [
+          "A private, third-party wealth management firm selected by the principal auctioneers through an annual competitive bidding process.",
+          "The State Treasurer, who is mandated to invest the funds in accordance with § 9-4-603 for the sole, exclusive benefit of the account.",
+          "The five appointed members of the Tennessee Auctioneer Commission, who act as a unified fiduciary board directing the purchase of high-yield corporate bonds.",
+          "The administrative director of the division of regulatory boards, who allocates the funds into highly liquid, short-term municipal securities."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The State Treasurer, who is mandated to invest the funds in accordance with § 9-4-603 for the sole, exclusive benefit of the account.",
+      "id": 142
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A principal auctioneer fails to account for or remit $15,000 belonging to a seller within a reasonable time. The commission holds a hearing and revokes the license. Can the seller immediately access the Recovery Account for the $15,000?",
+      "options": [
+          "Yes, the commission's administrative revocation automatically triggers an immediate, full disbursement of the $15,000 to the seller to ensure swift consumer protection.",
+          "No, the seller must first commence a civil action, obtain a valid court judgment, wait 60 days for it to remain unpaid, and then apply to the court for an order directing payment, which is capped at $10,000.",
+          "Yes, provided the seller files a sworn affidavit with the investigator, the account will immediately release the maximum $10,000, and the remaining $5,000 will be paid the following fiscal year.",
+          "No, the seller is completely barred from accessing the account because the failure to remit funds is considered a breach of contract, which is excluded from recovery fund protections."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. No, the seller must first commence a civil action, obtain a valid court judgment, wait 60 days for it to remain unpaid, and then apply to the court for an order directing payment, which is capped at $10,000.",
+      "id": 143
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If the commission wants to use excess funds from the Recovery Account to prepare and disseminate educational information for the benefit of the general public, what financial constraint must they strictly observe?",
+      "options": [
+          "They must limit their educational expenditures to no more than 10% of the total revenue generated by license renewal fees during the previous calendar year.",
+          "They shall not expend or commit sums that would reduce the balance of the Recovery Account to an amount less than the statutory minimum of one hundred fifty thousand dollars ($150,000).",
+          "They must obtain unanimous written consent from the state legislature's commerce committee before allocating any funds exceeding $5,000 toward public relations or advertising.",
+          "They are completely prohibited from using the fund for public information; all excess funds must be returned proportionately to the licensees as a dividend at the end of the fiscal year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They shall not expend or commit sums that would reduce the balance of the Recovery Account to an amount less than the statutory minimum of one hundred fifty thousand dollars ($150,000).",
+      "id": 144
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the commission's authority regarding an auctioneer who is actively negotiating an auction contract, but whose license is currently expired because they missed the renewal deadline by three weeks?",
+      "options": [
+          "The commission has no authority to intervene until a formal consumer complaint is filed demonstrating that the expired auctioneer caused direct financial harm to the client.",
+          "The investigator, acting on behalf of the commission, is authorized to issue a citation and a cease-and-desist order, along with a civil penalty, for engaging in the auction business without a valid license.",
+          "The commission must immediately refer the case to the local district attorney for criminal prosecution, as operating with an expired license is an automatic felony offense.",
+          "The commission must grant a mandatory 30-day grace period for the auctioneer to complete the negotiation and finalize the contract before any administrative action can be legally initiated."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The investigator, acting on behalf of the commission, is authorized to issue a citation and a cease-and-desist order, along with a civil penalty, for engaging in the auction business without a valid license.",
+      "id": 145
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A consumer is defrauded by an auctioneer and is awarded $12,000 in actual damages and $3,000 in punitive damages by a court. How much can the consumer potentially recover from the Auctioneer Education and Recovery Account?",
+      "options": [
+          "$15,000, as the fund covers both actual and punitive damages up to the aggregate limit of $20,000 per licensee.",
+          "$10,000, because the fund does not cover punitive damages, interest, or costs, and the maximum liability per specific transaction is strictly capped at $10,000.",
+          "$12,000, because the fund covers the full extent of actual damages but explicitly excludes punitive damages from any payout.",
+          "$0, because the inclusion of punitive damages in a judicial decree automatically disqualifies the entire claim from being processed by the commission's administrative director."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. $10,000, because the fund does not cover punitive damages, interest, or costs, and the maximum liability per specific transaction is strictly capped at $10,000.",
+      "id": 146
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If the commission revokes an auctioneer's license under the provisions of T.C.A. § 62-19-112, how many votes from the five-member commission are required to finalize this severe disciplinary action?",
+      "options": [
+          "The unanimous vote of all five sitting members of the commission is necessary to permanently revoke a professional license.",
+          "The affirmative vote of a simple majority of the commission (at least three members) shall be necessary to legally revoke or suspend a license.",
+          "A two-thirds supermajority vote is required, meaning at least four out of the five members must agree to the revocation to prevent arbitrary disciplinary actions.",
+          "Only the vote of the administrative director is required, provided they have the documented backing of the state attorney general's office."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affirmative vote of a simple majority of the commission (at least three members) shall be necessary to legally revoke or suspend a license.",
+      "id": 147
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer accepts a valuable antique clock on consignment but fails to provide the owner with a written contract containing the terms and conditions of the sale prior to the auction. What is the legal status of this action?",
+      "options": [
+          "It is considered a standard, acceptable industry practice for items valued under $1,000, provided the auctioneer issues a detailed closing statement after the sale concludes.",
+          "It is a specific violation of the chapter and a direct cause for the commission to suspend, revoke, or refuse to renew the auctioneer's license.",
+          "It is legally permissible if the auctioneer and the seller have a documented, pre-existing business relationship that spans at least three previous, successful auction events.",
+          "It is a minor infraction that strictly requires the auctioneer to forfeit their commission on that specific item, but it does not threaten their overall license status."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It is a specific violation of the chapter and a direct cause for the commission to suspend, revoke, or refuse to renew the auctioneer's license.",
+      "id": 148
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An aggrieved party files a notice with the commission indicating they have commenced an action for a judgment that may result in collection from the Recovery Account. Who must approve any action the commission takes to protect the integrity of the account during this process?",
+      "options": [
+          "The Governor of the State of Tennessee, who maintains ultimate executive oversight over all special state financial accounts and funds.",
+          "The state Attorney General and Reporter, whose approval is required before the commission can take appropriate action to protect the integrity of the account.",
+          "The Director of the Division of Regulatory Boards, who acts as the primary administrative safeguard for all professional licensing recovery accounts.",
+          "A panel of three randomly selected, independent principal auctioneers who serve as a peer-review board to ensure the commission's actions are fair and unbiased."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The state Attorney General and Reporter, whose approval is required before the commission can take appropriate action to protect the integrity of the account.",
+      "id": 149
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An investigator for the commission stops an auction in progress after determining the managers are completely unlicensed. What must the investigator ensure is included when they subsequently issue a formal citation to the violators?",
+      "options": [
+          "A mandate requiring the violators to immediately refund all collected buyer's premiums in cash, and a summons to appear before a grand jury.",
+          "An order to cease all violations of the chapter and an assessment of a civil penalty in an amount of not less than $50 nor more than $2,500 for each specific violation.",
+          "A physical confiscation order for all remaining auction inventory and a requirement that the violators publicly apologize in a newspaper of general circulation.",
+          "A permanent injunction barring the individuals from ever attending a public auction in the state, and a mandatory referral to the federal Bureau of Alcohol, Tobacco, Firearms and Explosives."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. An order to cease all violations of the chapter and an assessment of a civil penalty in an amount of not less than $50 nor more than $2,500 for each specific violation.",
+      "id": 150
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the specific provisions of the Uniform Commercial Code (UCC) Section 2-328 regarding a sale by auction, what is the legal presumption when an auctioneer offers goods to the public by placing them into distinct, individual lots?",
+      "options": [
+          "The entire collection of lots is legally treated as a single, indivisible commercial transaction until the auctioneer explicitly announces the sale of the final lot on the block.",
+          "Each individual lot is legally considered the subject of an entirely separate and distinct contract of sale, independent of any other lots offered during the event.",
+          "The auctioneer retains the legal authority to unilaterally combine the individual lots into a single bulk transaction after bidding concludes to maximize the seller's total revenue.",
+          "The seller is strictly prohibited from setting individual reserve prices for each lot and must instead rely on the aggregate total of the bids placed across the entire auction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. Each individual lot is legally considered the subject of an entirely separate and distinct contract of sale, independent of any other lots offered during the event.",
+      "id": 151
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "According to the Uniform Commercial Code, when exactly is a sale by auction deemed legally complete and binding upon the participating parties?",
+      "options": [
+          "The sale is complete the moment the highest bidder physically signs the auctioneer's memorandum of sale and formally transfers the required earnest money deposit into escrow.",
+          "The sale is complete only after the buyer's designated payment method successfully clears the auction firm's primary operating account, transferring the final legal title.",
+          "The sale is complete when the auctioneer so announces by the fall of the hammer or in another customary manner recognized within the established practices of the auction industry.",
+          "The sale is complete precisely ten days following the conclusion of the auction event, aligning with the statutory timeframe mandated for issuing the seller's final closing statement."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The sale is complete when the auctioneer so announces by the fall of the hammer or in another customary manner recognized within the established practices of the auction industry.",
+      "id": 152
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "During a highly competitive auction, a new bid is shouted out by an attendee at the exact moment the auctioneer's hammer is actively falling in acceptance of a prior, established bid. What legal authority does the UCC explicitly grant the auctioneer in this specific scenario?",
+      "options": [
+          "The auctioneer is legally mandated to ignore the late bid and finalize the sale to the prior bidder in order to strictly maintain the integrity of the established bidding timeline and avoid disputes.",
+          "The auctioneer may, in their sole discretion, choose to completely reopen the bidding process or definitively declare the goods sold under the specific bid on which the hammer was falling.",
+          "The auctioneer must immediately pause the auction and submit the timing dispute to a formal, binding vote among all registered bidders currently present on the active auction floor.",
+          "The auctioneer is legally required to automatically award the item to the new bidder, provided the new bid represents a mathematical increase of at least ten percent over the prior established bid."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auctioneer may, in their sole discretion, choose to completely reopen the bidding process or definitively declare the goods sold under the specific bid on which the hammer was falling.",
+      "id": 153
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer begins offering an item to the audience without making any explicit announcements regarding the specific reserve status of the goods, how does the Uniform Commercial Code legally classify the resulting auction?",
+      "options": [
+          "The auction is automatically legally classified as a \"without reserve\" or absolute auction, meaning the seller is obligated to accept the highest bid regardless of the final hammer price.",
+          "The auction is legally classified as \"with reserve,\" meaning the auctioneer retains the right to withdraw the goods from the sale at any time prior to announcing the completion of the sale.",
+          "The auction is legally classified as a conditional sale, meaning the highest bidder must submit their offer to the seller for final written approval within twenty-four hours of the event's conclusion.",
+          "The auction is deemed legally voidable by the state regulatory commission, as auctioneers are strictly mandated to announce the reserve status of every lot prior to opening the floor for bids."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auction is legally classified as \"with reserve,\" meaning the auctioneer retains the right to withdraw the goods from the sale at any time prior to announcing the completion of the sale.",
+      "id": 154
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In an auction that is legally conducted \"with reserve,\" at what specific point does the auctioneer definitively lose the legal right to withdraw the goods from the active bidding block?",
+      "options": [
+          "The auctioneer permanently loses the ability to withdraw the goods the precise moment the first legitimate bid is vocally acknowledged and recorded by the auction clerk.",
+          "The auctioneer permanently loses the ability to withdraw the goods once the active bidding strictly surpasses the pre-determined, confidential reserve price established by the seller.",
+          "The auctioneer may withdraw the goods at any time until they formally announce the completion of the sale by the fall of the hammer or in another established, customary manner.",
+          "The auctioneer may withdraw the goods only within a reasonable, specified time frame after initially calling for bids, provided no secondary or competing bids have been subsequently placed."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The auctioneer may withdraw the goods at any time until they formally announce the completion of the sale by the fall of the hammer or in another established, customary manner.",
+      "id": 155
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In an auction that is explicitly advertised and conducted \"without reserve\" (an absolute auction), under what precise circumstance is the auctioneer legally permitted to withdraw an article or lot after they have called for bids?",
+      "options": [
+          "The auctioneer may withdraw the article only if they discover a significant, previously undisclosed material defect that dramatically alters the fundamental value of the specific lot.",
+          "The auctioneer may withdraw the article or lot only if absolutely no bid is made within a reasonable time following the auctioneer's initial call for offers from the audience.",
+          "The auctioneer may withdraw the article if the highest recorded bid falls substantially below fifty percent of the item's independently appraised fair market value prior to the sale.",
+          "The auctioneer may withdraw the article at any point before the fall of the hammer, provided they immediately compensate the highest current bidder with a standard cancellation fee."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auctioneer may withdraw the article or lot only if absolutely no bid is made within a reasonable time following the auctioneer's initial call for offers from the audience.",
+      "id": 156
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A bidder places a high bid during an auction but immediately regrets the decision. They vocally retract their bid before the auctioneer drops the hammer to signal the completion of the sale. What is the legal effect of this retraction under the UCC?",
+      "options": [
+          "The bidder is strictly prohibited from retracting their bid once it is vocally acknowledged by the auctioneer, and they remain legally bound to the contract if they are the highest bidder.",
+          "The bidder may retract their bid, which automatically and immediately revives the second-highest bid, thereby seamlessly maintaining the established momentum of the ongoing auction.",
+          "The bidder may retract their bid at any time until the auctioneer's announcement of completion, but the bidder's formal retraction does not legally revive any previous or underlying bid.",
+          "The bidder may retract their bid only if they can definitively prove to the auctioneer that they made a substantial mathematical error in calculating their absolute maximum spending limit."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The bidder may retract their bid at any time until the auctioneer's announcement of completion, but the bidder's formal retraction does not legally revive any previous or underlying bid.",
+      "id": 157
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer knowingly accepts a bid placed by the seller's agent in an attempt to artificially drive up the final hammer price, but explicit notice that liberty for such bidding was reserved was NOT given to the audience. What is the buyer's legal recourse under the UCC?",
+      "options": [
+          "The buyer is legally obligated to accept the goods at the final hammer price but may formally petition the state auctioneer commission for a complete refund of the associated buyer's premium.",
+          "The buyer must immediately submit to binding arbitration overseen by the administrative director to determine a fair market value adjustment for the disputed goods in question.",
+          "The buyer may immediately demand the permanent revocation of the auctioneer's state license and claim the auctioned goods at absolutely no cost due to fraudulent misrepresentation.",
+          "The buyer may at their option completely void the sale or choose to take the goods at the exact price of the last good-faith bid made prior to the completion of the sale."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The buyer may at their option completely void the sale or choose to take the goods at the exact price of the last good-faith bid made prior to the completion of the sale.",
+      "id": 158
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The Uniform Commercial Code allows a buyer to void a sale or take goods at the last good-faith bid if the auctioneer knowingly receives an undisclosed bid on the seller's behalf. In what specific scenario does this protective rule completely fail to apply?",
+      "options": [
+          "The rule does not apply to any bid placed during a forced sale, such as a legally mandated judicial auction or a bankruptcy liquidation conducted under court order.",
+          "The rule does not apply if the undisclosed seller's bid was placed strictly during an online-only, timed listing where no live auctioneer was actively calling bids in real-time.",
+          "The rule does not apply if the auctioned property consists entirely of commercial real estate, as real property transactions are strictly governed by the state's Real Estate Broker License Act.",
+          "The rule does not apply if the final hammer price of the goods in question remains below the independently appraised fair market value established prior to the commencement of the auction."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The rule does not apply to any bid placed during a forced sale, such as a legally mandated judicial auction or a bankruptcy liquidation conducted under court order.",
+      "id": 159
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the primary legal objective of bulk sales laws when a commercial entity decides to sell a substantial portion of its business inventory at a public auction?",
+      "options": [
+          "To completely prevent licensed auctioneers from flooding the local market with heavily discounted commercial goods, thereby protecting the pricing structures of competing retail businesses.",
+          "To strictly limit the total number of individual lots an auctioneer can legally process during a single calendar day to ensure adequate time for mandatory state tax assessments.",
+          "To protect existing creditors by legally requiring sellers to notify them and sometimes file a formal statement before disposing of a major portion of the business's assets or inventory.",
+          "To mandate that the auctioneer secure a specialized commercial appraiser to formally evaluate every individual piece of inventory before it crosses the active auction block."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. To protect existing creditors by legally requiring sellers to notify them and sometimes file a formal statement before disposing of a major portion of the business's assets or inventory.",
+      "id": 160
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "During the active calling of an auction, the auctioneer utilizes a specific \"bid increment.\" Which of the following best defines the legal and practical application of this term?",
+      "options": [
+          "It represents the absolute maximum financial amount a registered bidder is legally permitted to bid on a single lot during a high-stakes commercial or real estate auction.",
+          "It represents the predetermined, fixed step amount by which each successive new bid must exceed the previously acknowledged bid to be considered valid by the auctioneer.",
+          "It represents the exact financial difference between the seller's confidential reserve price and the final, accepted hammer price at the conclusion of the bidding process.",
+          "It represents the specific percentage added to the final hammer price to calculate the buyer's premium, which must be fully disclosed in the terms and conditions prior to the sale."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It represents the predetermined, fixed step amount by which each successive new bid must exceed the previously acknowledged bid to be considered valid by the auctioneer.",
+      "id": 161
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Beyond simply talking quickly to entertain the audience, what is the primary operational purpose of the auctioneer's rhythmic chant during a live public auction event?",
+      "options": [
+          "To intentionally confuse inexperienced bidders, thereby artificially inflating the final hammer price and maximizing the total commission earned by the auction firm.",
+          "To clearly communicate the current bid and the requested next bid increments, maintain the overall pace of the event, and actively encourage further participation from the audience.",
+          "To serve as a legally binding, verbal contract that explicitly outlines the detailed terms and conditions of the sale for every individual lot presented on the auction block.",
+          "To effectively mask the presence of \"cappers\" or \"pullers\" operating within the crowd by maintaining a constant wall of sound that discourages direct communication between buyers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. To clearly communicate the current bid and the requested next bid increments, maintain the overall pace of the event, and actively encourage further participation from the audience.",
+      "id": 162
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the legal framework governing auctions, how does the \"Memorandum of Sale\" function within the context of the Uniform Commercial Code and the Statute of Frauds?",
+      "options": [
+          "It functions primarily as an internal accounting document used by the auction clerk to calculate the exact state sales tax liability for the state's Department of Revenue.",
+          "It functions as a formal, written receipt provided exclusively to the buyer to definitively prove they have successfully paid the required buyer's premium in full.",
+          "It functions as the necessary written evidence of the contract between the buyer and seller, satisfying the Statute of Frauds for the sale of goods exceeding a specific statutory value.",
+          "It functions as a temporary, non-binding preliminary agreement that must be completely replaced by a formalized, notarized contract within ten days of the auction's conclusion."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. It functions as the necessary written evidence of the contract between the buyer and seller, satisfying the Statute of Frauds for the sale of goods exceeding a specific statutory value.",
+      "id": 163
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Which of the following statements accurately describes the operational role and legal responsibilities of a \"Ringman\" during a live auction event?",
+      "options": [
+          "The Ringman is strictly responsible for physically securing all high-value merchandise on the auction block to prevent theft or accidental damage while the bidding is actively occurring.",
+          "The Ringman assists the principal auctioneer by spotting and relaying bids from the audience that might otherwise be missed, but they do not actively vocally conduct the sale themselves.",
+          "The Ringman is legally required to hold a principal auctioneer license, as their interaction with the crowd constitutes negotiating the final terms of the listing contract with the buyer.",
+          "The Ringman acts as the final arbiter in any bidding dispute, possessing the unilateral legal authority to overrule the principal auctioneer and award the lot to a differing bidder."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The Ringman assists the principal auctioneer by spotting and relaying bids from the audience that might otherwise be missed, but they do not actively vocally conduct the sale themselves.",
+      "id": 164
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When establishing the \"Rules of the Auction\" that govern the bidding process, which of the following clauses is considered absolutely essential to ensure the legal enforceability of the sale?",
+      "options": [
+          "A comprehensive clause explicitly stating that the auctioneer permanently reserves the right to retroactively alter the percentage of the buyer's premium up to ten days after the event.",
+          "A comprehensive clause explicitly stating that all bids placed by registered attendees become final, binding contractual offers the moment the auctioneer declares the item \"sold.\"",
+          "A comprehensive clause explicitly stating that the seller is completely exempt from paying any state or federal taxes on the gross proceeds generated by the auction event.",
+          "A comprehensive clause explicitly stating that the auctioneer possesses the unilateral authority to cancel any completed transaction if a higher offer is received within twenty-four hours."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A comprehensive clause explicitly stating that all bids placed by registered attendees become final, binding contractual offers the moment the auctioneer declares the item \"sold.\"",
+      "id": 165
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In an auction scenario involving the sale of tangible personal property, what is the standard legal protocol for calculating and applying a \"buyer's premium\"?",
+      "options": [
+          "The premium must be incorporated directly into the final hammer price without separate disclosure to the audience to maximize the seller's perceived value of the transaction.",
+          "The premium is calculated as a specific, predetermined percentage of the final hammer price, and its existence and exact rate must be clearly disclosed to bidders before the auction begins.",
+          "The premium is strictly regulated by state statute and cannot exceed a flat, maximum fee of five hundred dollars per lot, regardless of the final accepted bid amount.",
+          "The premium is assessed only on lots that successfully surpass the seller's confidential reserve price and is typically split evenly between the principal auctioneer and the local municipality."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The premium is calculated as a specific, predetermined percentage of the final hammer price, and its existence and exact rate must be clearly disclosed to bidders before the auction begins.",
+      "id": 166
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is preparing to conduct a hybrid auction featuring both live in-person bidding and simultaneous online bidding. In this context, what is the specific operational purpose of utilizing a \"soft close\"?",
+      "options": [
+          "It allows the auctioneer to manually pause the entire auction for a brief period to thoroughly verify the financial credentials of every online bidder before accepting their final offers.",
+          "It automatically extends the auction's scheduled ending time by a set number of minutes following the placement of a late bid, thereby preventing \"sniping\" and encouraging true market competition.",
+          "It serves as a strict, unyielding deadline that instantly rejects any digital bids received after the scheduled closing time, prioritizing the bids placed by the in-person attendees.",
+          "It provides a designated window of time after the auction concludes where the highest bidder can negotiate the final inclusion of the buyer's premium with the principal auctioneer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It automatically extends the auction's scheduled ending time by a set number of minutes following the placement of a late bid, thereby preventing \"sniping\" and encouraging true market competition.",
+      "id": 167
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under Tennessee law, what are the precise dual-licensing requirements for an individual who wishes to legally conduct or offer to conduct an auction of real property?",
+      "options": [
+          "The individual must hold an active principal auctioneer license issued by the Tennessee Auctioneer Commission and must simultaneously secure a specialized commercial real estate endorsement from the local municipal zoning board.",
+          "The individual must be duly licensed as an auctioneer or affiliate auctioneer under the auctioneer chapter and simultaneously licensed as a broker or affiliate broker under the Tennessee Real Estate Broker License Act.",
+          "The individual must obtain a standard bid caller license from the Auctioneer Commission and formally partner with a licensed title agency that assumes full legal liability for the transfer of the real property deed.",
+          "The individual must possess a valid firm license that explicitly includes a real property designation and ensure that a licensed real estate attorney is physically present to oversee the signing of the final memorandum of sale."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The individual must be duly licensed as an auctioneer or affiliate auctioneer under the auctioneer chapter and simultaneously licensed as a broker or affiliate broker under the Tennessee Real Estate Broker License Act.",
+      "id": 168
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An affiliate auctioneer is preparing to vocally conduct an auction that involves a substantial parcel of commercial real estate. What specific legal condition must be met regarding supervision during the actual event?",
+      "options": [
+          "The affiliate auctioneer must secure written permission from the Tennessee Real Estate Commission and post a copy of their affiliate broker license prominently at the registration desk before calling bids.",
+          "The affiliate auctioneer must ensure that the principal auctioneer for whom they are employed for such purposes is physically present on the premises of the property during the entirety of the auction.",
+          "The affiliate auctioneer is strictly prohibited from vocally conducting any real estate auction, as this specific duty is exclusively reserved for individuals holding a full principal auctioneer license.",
+          "The affiliate auctioneer must independently hold a one-million-dollar surety bond and submit a detailed pre-auction appraisal report to the administrative director of the division of regulatory boards."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The affiliate auctioneer must ensure that the principal auctioneer for whom they are employed for such purposes is physically present on the premises of the property during the entirety of the auction.",
+      "id": 169
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In the context of a real estate auction, how do Tennessee licensing laws apply to \"ringpersons\" or other individuals who assist on the floor but do not vocally conduct the auction?",
+      "options": [
+          "All individuals assisting on the floor must hold a valid bid caller license from the Auctioneer Commission, regardless of whether they are directly handling the transfer of real property deeds or simply spotting bids.",
+          "They are not required to be duly licensed as auctioneers, nor licensed under the Real Estate Broker License Act, unless they actively act as an affiliate broker or broker within the meaning of that specific chapter.",
+          "They must hold an active affiliate auctioneer license and formally log their floor hours toward their principal auctioneer apprenticeship points, ensuring they receive proper credit for the real estate transaction.",
+          "They are completely unregulated by both the Auctioneer Commission and the Real Estate Commission, meaning they face absolutely no licensing restrictions regardless of their specific duties during the event."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They are not required to be duly licensed as auctioneers, nor licensed under the Real Estate Broker License Act, unless they actively act as an affiliate broker or broker within the meaning of that specific chapter.",
+      "id": 170
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer engages in the business of auctioning real property without being duly licensed as a broker or affiliate broker, what is the specific consequence outlined in the auctioneer disciplinary statutes?",
+      "options": [
+          "The auctioneer is restricted to selling only residential properties valued under two hundred and fifty thousand dollars until they successfully complete a thirty-hour supplemental real estate training course.",
+          "The auctioneer's actions constitute a direct cause for the Auctioneer Commission to suspend, revoke, or refuse to renew their auctioneer license, alongside potential civil penalties for statutory violations.",
+          "The auctioneer must forfeit their entire earned commission from the real estate transaction to the Auctioneer Education and Recovery Account to avoid a mandatory judicial revocation of their professional license.",
+          "The auctioneer faces no disciplinary action from the Auctioneer Commission, as real estate violations fall strictly under the exclusive jurisdiction and enforcement powers of the Tennessee Real Estate Commission."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auctioneer's actions constitute a direct cause for the Auctioneer Commission to suspend, revoke, or refuse to renew their auctioneer license, alongside potential civil penalties for statutory violations.",
+      "id": 171
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "To become licensed as a public automobile auctioneer in Tennessee, an applicant must have already served as a principal auctioneer for a minimum of two years and meet what specific additional educational requirement?",
+      "options": [
+          "They must complete a mandatory eighty-hour apprenticeship under a currently licensed public automobile auctioneer and pass a specialized oral examination focused entirely on automotive terminology.",
+          "They must successfully complete, in addition to the standard auctioneer education, fifteen hours of more rigorous classroom or online instruction in automobile auctioneering as approved by the commission.",
+          "They must secure a specialized certificate in motor vehicle valuation from an accredited technical college and submit proof of continuous employment at a licensed dealership for three consecutive years.",
+          "They must complete a thirty-hour continuing education course focusing exclusively on federal emissions standards and the interstate transportation of commercial fleet vehicles across state lines."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must successfully complete, in addition to the standard auctioneer education, fifteen hours of more rigorous classroom or online instruction in automobile auctioneering as approved by the commission.",
+      "id": 172
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A public automobile auction must obtain, hold, and display two distinct licenses on its premises to operate legally. What are these two specific licenses?",
+      "options": [
+          "A valid garagekeeper's operational permit from the state highway patrol and a standard commercial business license issued by the local municipal zoning authority in the county of operation.",
+          "A valid motor vehicle dealer license issued by the Tennessee Motor Vehicle Commission and a valid auction license issued by the Tennessee Auctioneer Commission.",
+          "A federal automotive wholesale license issued by the Department of Transportation and a state-issued principal auctioneer license registered under the name of the managing partner.",
+          "A specialized salvage vehicle distribution license from the Department of Revenue and a standard firm license from the Auctioneer Commission, despite the 2020 rule changes deleting the firm requirement."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. A valid motor vehicle dealer license issued by the Tennessee Motor Vehicle Commission and a valid auction license issued by the Tennessee Auctioneer Commission.",
+      "id": 173
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under Tennessee law, what is the exact minimum requirement for garagekeeper's legal liability insurance that a licensed public automobile auction must consistently maintain?",
+      "options": [
+          "The auction must maintain a policy providing no less than one hundred thousand dollars in coverage to ensure adequate protection for all consigned vehicles stored on the primary commercial lot.",
+          "The auction must maintain a policy providing no less than two hundred and fifty thousand dollars in coverage, which must be verified annually during the biennial license renewal process.",
+          "The auction must maintain a policy providing no less than five hundred thousand dollars in coverage, protecting against potential losses or damages to vehicles while under the auction's care and custody.",
+          "The auction must maintain a policy providing no less than one million dollars in coverage, specifically structured to cover catastrophic environmental damage caused by leaking automotive fluids."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auction must maintain a policy providing no less than two hundred and fifty thousand dollars in coverage, which must be verified annually during the biennial license renewal process.",
+      "id": 174
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A newly established public automobile auction is preparing to submit its initial application for licensure. What specific financial documentation must they provide to demonstrate their required minimum net worth?",
+      "options": [
+          "They must submit a certified copy of their primary corporate bank account statement showing a continuous daily balance of at least fifty thousand dollars for the preceding six consecutive calendar months.",
+          "They must submit a compiled financial statement prepared in accordance with generally accepted accounting principles by a CPA or public accountant, dated not earlier than twelve months prior to the application, indicating a minimum net worth of at least one hundred thousand dollars.",
+          "They must provide a formalized letter of credit from a federally insured financial institution guaranteeing immediate access to two hundred and fifty thousand dollars in liquid operational capital.",
+          "They must submit a comprehensive, five-year projected business plan detailing expected revenue streams and a guaranteed surety bond valued at exactly one hundred thousand dollars issued by a licensed bonding company."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must submit a compiled financial statement prepared in accordance with generally accepted accounting principles by a CPA or public accountant, dated not earlier than twelve months prior to the application, indicating a minimum net worth of at least one hundred thousand dollars.",
+      "id": 175
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the specific operational requirement regarding the physical signage displayed at a licensed public automobile auction's established place of business?",
+      "options": [
+          "The signage must feature fully illuminated letters that are at least two inches in height and clearly indicate that the business operates as a licensed motor vehicle dealership to passing traffic.",
+          "The signage must be a permanent professional business sign that is clearly visible and installed with letters that are at least eight inches tall, providing clear identification to the general public.",
+          "The signage must prominently display the garagekeeper's legal liability insurance policy number immediately alongside the principal auctioneer's state license number for regulatory transparency.",
+          "The signage must clearly display the word \"AUCTION\" printed in bold, twelve-inch letters, visibly positioned from the nearest public roadway, highway, or major intersection in the county."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The signage must be a permanent professional business sign that is clearly visible and installed with letters that are at least eight inches tall, providing clear identification to the general public.",
+      "id": 176
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Prior to subjecting a motor vehicle to the active bidding block, what specific verification step is the public automobile auctioneer legally mandated to complete?",
+      "options": [
+          "The auctioneer must verify that the vehicle possesses its original manufacturer's sticker, ensuring that all factory specifications accurately match the current physical condition of the automobile.",
+          "The auctioneer must verify that the motor vehicle has a clean and unencumbered title by obtaining a valid motor vehicle title history from the department of revenue or appropriate out-of-state titling agency.",
+          "The auctioneer must verify the prospective buyer's comprehensive auto insurance policy, ensuring they are legally permitted to operate the vehicle off the lot immediately following the sale.",
+          "The auctioneer must verify the vehicle's comprehensive maintenance logs, which must be provided by a certified, independent mechanic within thirty days prior to the scheduled date of the auction event."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The auctioneer must verify that the motor vehicle has a clean and unencumbered title by obtaining a valid motor vehicle title history from the department of revenue or appropriate out-of-state titling agency.",
+      "id": 177
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What specific category of motor vehicles is a licensed public automobile auction strictly prohibited from selling under Tennessee law?",
+      "options": [
+          "The auction is strictly prohibited from selling vehicles older than twenty-five years that do not possess a specialized antique or historical vehicle registration certificate issued by the state.",
+          "The auction is strictly prohibited from selling salvage vehicles that have not been fully rebuilt, inspected, and certified by the state highway patrol's commercial vehicle division.",
+          "The auction is strictly prohibited from selling new or unused motor vehicles or vehicles that are accompanied by a manufacturer's statement of origin instead of a standard motor vehicle title.",
+          "The auction is strictly prohibited from selling any vehicles registered out of state that lack a certified emissions inspection report from a recognized federal or state environmental agency."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The auction is strictly prohibited from selling new or unused motor vehicles or vehicles that are accompanied by a manufacturer's statement of origin instead of a standard motor vehicle title.",
+      "id": 178
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When a sale is finalized on a motor vehicle at a public auto auction, what is the precise legal mechanism required for transferring the title from the seller to the ultimate buyer?",
+      "options": [
+          "The original owner of the vehicle must sign the title directly over to the highest bidder at the conclusion of the auction to avoid intermediary chain-of-title liability and reduce state processing fees.",
+          "The owner must sign the title over to the public automobile auction, who must then take possession, retain title, and sign the title over to and deliver the title to the buyer on the date of the sale.",
+          "The owner must sign the title over to the Department of Revenue, which will then formally process the transaction and issue a completely new, computerized title directly to the highest bidder.",
+          "The owner must sign the title over to the principal auctioneer's personal holding company, where it remains in a secure escrow status until the buyer's funds fully clear the regional banking system."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The owner must sign the title over to the public automobile auction, who must then take possession, retain title, and sign the title over to and deliver the title to the buyer on the date of the sale.",
+      "id": 179
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Under the Federal Gun Control Act (GC",
+      "options": [
+          "and ATF guidelines, what is the core legal requirement for an individual to need a Federal Firearms License (FFL)? A) They must exclusively sell firearms that were manufactured after the year 1968, regardless of the quantity sold or the specific intent behind the transactions.",
+          "They must engage in the business of dealing in firearms, which means devoting time, attention, and labor to dealing in firearms as a regular course of trade or business to predominantly earn a profit through repetitive purchase and resale.",
+          "They must sell more than fifty individual firearms within a single calendar year, crossing the statutory numeric threshold that automatically triggers federal oversight and mandatory background checks.",
+          "They must operate a physical, brick-and-mortar storefront dedicated exclusively to the sale of sporting goods and ammunition, completely separate from their primary residential dwelling."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must engage in the business of dealing in firearms, which means devoting time, attention, and labor to dealing in firearms as a regular course of trade or business to predominantly earn a profit through repetitive purchase and resale.",
+      "id": 180
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The Bipartisan Safer Communities Act (BSC",
+      "options": [
+          "of 2022 revised the legal intent language determining who is \"engaged in the business\" of dealing in firearms. How did the standard change? A) It replaced the previous requirement of selling strictly from a commercial storefront with a new standard that regulates all internet and gun show sales regardless of the seller's intent.",
+          "It replaced the phrase \"with the principal objective of livelihood and profit\" with the broader standard of buying and selling firearms \"to predominantly earn a profit.\"",
+          "It completely eliminated the profit motive requirement, dictating that any individual who sells more than two firearms in their lifetime must immediately secure a federal license.",
+          "It introduced a strict numeric threshold, stating that the intent to profit is automatically legally presumed the moment an individual conducts their fifth firearms transaction in a year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. It replaced the phrase \"with the principal objective of livelihood and profit\" with the broader standard of buying and selling firearms \"to predominantly earn a profit.\"",
+      "id": 181
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "According to ATF guidance, what specific activity explicitly falls OUTSIDE the definition of being \"engaged in the business\" of dealing in firearms, and thus does not require an FFL?",
+      "options": [
+          "Making occasional sales, exchanges, or purchases of firearms for the enhancement of a personal collection or for a hobby, or selling all or part of a personal collection of firearms.",
+          "Repetitively buying and selling firearms to supplement income from a full-time job, provided the individual conducts the transactions exclusively at weekend gun shows.",
+          "Purchasing firearms in original, unopened packaging at a significant discount and reselling them a few weeks later to acquaintances at a local shooting range to fund a vacation.",
+          "Using a Curio and Relics Collector's license (C&R) to repetitively purchase and resell historical firearms with the predominant motive of generating a steady stream of secondary income."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. Making occasional sales, exchanges, or purchases of firearms for the enhancement of a personal collection or for a hobby, or selling all or part of a personal collection of firearms.",
+      "id": 182
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer is hired by the executor of an estate to travel to the estate's location and assist in auctioning the deceased's property, which includes several firearms. The firearms remain the property of the estate until they are transferred directly to the buyers. Does the auctioneer need an FFL?",
+      "options": [
+          "Yes, because any individual who vocally calls bids for the sale of a firearm is automatically classified as a dealer under the strict definitions of the Federal Gun Control Act.",
+          "Yes, because the auctioneer is receiving a commission for their services, which legally constitutes engaging in the business of dealing in firearms for a profit.",
+          "No, if the auctioneer simply offers auctioneer services without having the firearms transferred to them and does not otherwise engage in the business of dealing firearms, they need not be licensed.",
+          "No, provided the auctioneer ensures that all prospective buyers hold a valid concealed carry permit from the state in which the auction is physically taking place."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, if the auctioneer simply offers auctioneer services without having the firearms transferred to them and does not otherwise engage in the business of dealing firearms, they need not be licensed.",
+      "id": 183
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auctioneer decides to establish a new business model where they repeatedly take consignment of firearms from various local individuals, bring them to their auction house, and sell them to the highest bidder to make a profit from the commissions. Does this auctioneer need an FFL?",
+      "options": [
+          "Yes, if the auctioneer repeatedly conducts auctions for firearms that are first consigned to them for sale, and they intend to make money from those sales, they are engaged in the business and need a license.",
+          "Yes, but only if the total gross revenue generated from the firearms commissions exceeds twenty-five percent of the auction house's total annual operational income.",
+          "No, because the auctioneer is acting merely as a temporary agent for the consignor and never legally takes full, permanent title to the firearms in question.",
+          "No, provided the auctioneer explicitly advertises the events as \"consignment auctions\" and requires the original owners to be physically present on the floor during the bidding process."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. Yes, if the auctioneer repeatedly conducts auctions for firearms that are first consigned to them for sale, and they intend to make money from those sales, they are engaged in the business and need a license.",
+      "id": 184
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A hobbyist inherits a collection of twenty firearms from their grandfather. Preferring cash, they post them all online and sell them over the next year in a series of different transactions. Do they need an FFL?",
+      "options": [
+          "Yes, because utilizing the internet to facilitate the sale of firearms to an expansive market automatically categorizes the seller as a commercial dealer under ATF regulations.",
+          "Yes, because selling twenty firearms within a single twelve-month period strictly exceeds the federal numeric threshold separating hobbyists from licensed dealers.",
+          "No, because they are merely liquidating a personal collection they inherited, and they are not engaging in the repetitive purchase and resale of firearms as a regular course of trade.",
+          "No, provided they ensure that all online buyers travel to their home state to complete the physical transfer of the weapons in the presence of local law enforcement."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, because they are merely liquidating a personal collection they inherited, and they are not engaging in the repetitive purchase and resale of firearms as a regular course of trade.",
+      "id": 185
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an unlicensed individual repeatedly buys firearms from a local dealer and shortly thereafter resells them at a marked-up price in their original packaging to acquaintances, what is the ATF's likely determination?",
+      "options": [
+          "They do not need a license, as selling strictly to known acquaintances qualifies as a private, localized transfer completely exempt from federal commercial oversight.",
+          "They must obtain a license because repetitively acquiring and reselling firearms in original packaging at a marked-up price strongly indicates an intent to predominantly earn a profit as a regular business.",
+          "They do not need a license as long as they reinvest all of the profits directly back into expanding their own personal collection of hunting and sporting equipment.",
+          "They must obtain a license only if they create a formal business entity, such as a Limited Liability Company, and secure a state tax identification number for the enterprise."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must obtain a license because repetitively acquiring and reselling firearms in original packaging at a marked-up price strongly indicates an intent to predominantly earn a profit as a regular business.",
+      "id": 186
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Can an individual be considered \"engaged in the business\" of dealing in firearms if their firearm-related activities are not their primary source of livelihood and they actually fail to turn a profit?",
+      "options": [
+          "No, the individual must successfully generate a documented net profit at the end of the fiscal year to meet the statutory definition of predominantly earning a profit.",
+          "No, the regulations specifically exempt individuals who have a full-time job in a different industry and only conduct firearms transactions on a casual, part-time basis.",
+          "Yes, courts have made clear that a person can be engaged in the business without actually making a profit, as the key factor is the seller's underlying intent or objective to earn a profit.",
+          "Yes, but only if the individual publicly markets themselves as a primary source of firearms and utilizes digital wallets or credit card merchants to process their failing transactions."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. Yes, courts have made clear that a person can be engaged in the business without actually making a profit, as the key factor is the seller's underlying intent or objective to earn a profit.",
+      "id": 187
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the specific criminal penalty for an individual who willfully engages in the business of dealing in firearms without the required Federal Firearms License?",
+      "options": [
+          "The individual is subject to a mandatory lifetime ban from owning firearms and a civil penalty not to exceed ten thousand dollars per undocumented transaction.",
+          "The individual is subject to criminal prosecution and can be sentenced to up to five years in prison, fined up to two hundred and fifty thousand dollars, or both.",
+          "The individual is subject to a maximum of one year in a federal penitentiary and the immediate, permanent forfeiture of all business assets and real property used in the enterprise.",
+          "The individual is subject to a strict administrative citation from the ATF requiring them to retroactively pay all associated licensing fees plus a fifty percent punitive surcharge."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The individual is subject to criminal prosecution and can be sentenced to up to five years in prison, fined up to two hundred and fifty thousand dollars, or both.",
+      "id": 188
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When a licensed firearms dealer (FFL holder) conducts business, what specific federal obligations must they fulfill regarding background checks and safety devices?",
+      "options": [
+          "They must run background checks on out-of-state buyers only and offer a state-approved safety course voucher with every long gun sold at a public event.",
+          "They must run background checks on any non-licensed person prior to transferring a firearm and ensure safety locks are provided with every handgun and available in any location where firearms are sold.",
+          "They must run background checks strictly for handgun purchases and mandate that all buyers independently purchase a biometric safety lock prior to leaving the licensed premises.",
+          "They are exempt from running background checks if the buyer holds a valid hunting license, but they must provide a complimentary locking cabinet for any transaction exceeding three firearms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must run background checks on any non-licensed person prior to transferring a firearm and ensure safety locks are provided with every handgun and available in any location where firearms are sold.",
+      "id": 189
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Is it possible for an individual to be engaged in the business of dealing in firearms if they exclusively conduct their sales at weekend flea markets and never operate a traditional brick-and-mortar store?",
+      "options": [
+          "Yes, a person can be engaged in the business regardless of the location; however, to obtain an actual license, the dealer must eventually establish a fixed premises from which to conduct business.",
+          "Yes, and the ATF provides a specialized \"mobile dealer\" license specifically designed for individuals who exclusively operate out of temporary booths at flea markets and gun shows.",
+          "No, federal law explicitly requires continuous sales from a commercially zoned, permanent structure before an individual's actions can be legally classified as a trade or business.",
+          "No, sales conducted at weekend flea markets are universally categorized as occasional hobbyist exchanges and are permanently exempt from federal licensing requirements."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. Yes, a person can be engaged in the business regardless of the location; however, to obtain an actual license, the dealer must eventually establish a fixed premises from which to conduct business.",
+      "id": 190
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A private, unlicensed seller wishes to sell a firearm from their personal collection to an acquaintance but wants to ensure a background check is run. How can they achieve this under federal guidelines?",
+      "options": [
+          "They can submit a formal, written request to the local sheriff's department, which is legally mandated to perform a background check for any private transfer within seventy-two hours.",
+          "They can use a licensed dealer to voluntarily facilitate the sale; for a small fee, many licensed dealers will run the comprehensive background check and process the transfer between unlicensed individuals.",
+          "They can log into the FBI's public NICS portal and independently verify the buyer's criminal history using their social security number and state-issued driver's license.",
+          "They are strictly prohibited from utilizing the background check system, as it is a federal offense for an unlicensed individual to initiate or request a formal firearms background check."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They can use a licensed dealer to voluntarily facilitate the sale; for a small fee, many licensed dealers will run the comprehensive background check and process the transfer between unlicensed individuals.",
+      "id": 191
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Does holding a Curio and Relics (C&R) Collector's license permit an individual to repetitively buy and sell historical firearms with the predominant motive of making a profit?",
+      "options": [
+          "Yes, the C&R license is specifically designed to allow collectors to operate as specialized commercial dealers, provided the firearms are officially classified as fifty years or older.",
+          "Yes, the C&R license grants full commercial dealing privileges, but only for transactions conducted exclusively at qualified historical gun shows or through specialized collector auctions.",
+          "No, the C&R license does not authorize the licensee to repetitively buy and sell firearms to make a profit; if they wish to engage in the business of dealing, they must apply for a different type of license.",
+          "No, the C&R license strictly limits the holder to purchasing historical firearms; they are absolutely prohibited from ever selling or exchanging any item within their personal collection."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. No, the C&R license does not authorize the licensee to repetitively buy and sell firearms to make a profit; if they wish to engage in the business of dealing, they must apply for a different type of license.",
+      "id": 192
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the primary purpose of the IRS Form 8300, and which federal agencies utilize the information collected from it?",
+      "options": [
+          "The form is utilized strictly by the Federal Bureau of Investigation to monitor interstate commerce and verify the collection of state sales taxes on high-value luxury goods.",
+          "The form provides valuable information to the IRS and the Financial Crimes Enforcement Network (FinCEN) in their efforts to combat money laundering, tax evasion, and terrorist financing.",
+          "The form is a protective measure managed by the Federal Trade Commission to ensure consumers are not defrauded when purchasing items valued over the statutory threshold at public auctions.",
+          "The form is an internal accounting document used exclusively by the IRS to audit the annual income statements of principal auctioneers and motor vehicle dealers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The form provides valuable information to the IRS and the Financial Crimes Enforcement Network (FinCEN) in their efforts to combat money laundering, tax evasion, and terrorist financing.",
+      "id": 193
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Generally, under what specific financial condition is a person in a trade or business legally required to file an IRS Form 8300?",
+      "options": [
+          "If they receive more than ten thousand dollars in any combination of cash, personal checks, or highly liquid publicly traded stocks during a single calendar month.",
+          "If they receive more than ten thousand dollars in cash in a single transaction or in related transactions occurring within their trade or business.",
+          "If they conduct any singular business transaction that results in a net profit exceeding ten thousand dollars, regardless of the specific payment method utilized by the buyer.",
+          "If they transfer more than ten thousand dollars in cash directly to a foreign financial institution to purchase inventory for their domestic commercial enterprise."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. If they receive more than ten thousand dollars in cash in a single transaction or in related transactions occurring within their trade or business.",
+      "id": 194
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "After receiving a reportable cash payment of over $10,000, what is the strict deadline for the business to file the Form 8300 with the government?",
+      "options": [
+          "The form must be filed by the last business day of the month in which the specific cash transaction occurred.",
+          "The form must be filed within fifteen days after the exact date the qualifying cash transaction occurred.",
+          "The form must be filed concurrently with the business's quarterly estimated tax returns to ensure proper reconciliation of gross receipts.",
+          "The form must be filed no later than January 31 of the calendar year immediately following the reportable transaction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The form must be filed within fifteen days after the exact date the qualifying cash transaction occurred.",
+      "id": 195
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "In addition to filing the Form 8300 with the government, what specific obligation does the business have toward the customer who provided the cash?",
+      "options": [
+          "The business must immediately provide the customer with a duplicate, stamped copy of the filed Form 8300 before they are permitted to leave the commercial premises.",
+          "The business must provide a written statement to each party whose name is included on the form by January 31 of the year following the transaction, indicating the information was furnished to the IRS.",
+          "The business must mandate that the customer sign a sworn affidavit confirming the legal source of the cash funds prior to finalizing the sale and delivering the purchased goods.",
+          "The business has no further obligation to the customer, as all Form 8300 filings are strictly confidential and disclosing the filing to the subject is a federal offense."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The business must provide a written statement to each party whose name is included on the form by January 31 of the year following the transaction, indicating the information was furnished to the IRS.",
+      "id": 196
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "As of January 1, 2024, the IRS instituted an electronic filing (e-file) mandate for Form 8300. What is the specific threshold that triggers this mandatory e-filing requirement for a business?",
+      "options": [
+          "The business must e-file their Forms 8300 if they generate more than one million dollars in gross annual revenue across all their commercial locations.",
+          "The business must e-file their Forms 8300 if they are required to file at least 10 information returns of one or more types (other than Form 8300) during a calendar year.",
+          "The business must e-file their Forms 8300 only if they execute more than ten individual cash transactions exceeding the $10,000 threshold within a single quarter.",
+          "The business is mandated to e-file all Forms 8300 without exception; paper filing was completely and permanently abolished for all entities operating within the United States."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The business must e-file their Forms 8300 if they are required to file at least 10 information returns of one or more types (other than Form 8300) during a calendar year.",
+      "id": 197
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a business files five Forms W-2 and five Forms 1099-INT during the year, how does this impact their requirement to file Form 8300 electronically?",
+      "options": [
+          "Because the forms are of different types, they are counted separately; since neither reaches the threshold of ten, the business may continue to file Form 8300 on paper.",
+          "The business must file Form 8300 electronically, because the aggregate total of other information returns equals ten, which meets the threshold requiring electronic filing of certain returns including Form 8300.",
+          "Forms W-2 and 1099 are strictly excluded from the threshold calculation; the requirement is based entirely on how many Form 8300s the business filed in the previous year.",
+          "The business is exempt from electronic filing because the mandate only applies to entities that file corporate tax returns, not those that merely file employee wage statements."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The business must file Form 8300 electronically, because the aggregate total of other information returns equals ten, which meets the threshold requiring electronic filing of certain returns including Form 8300.",
+      "id": 198
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A business owner has deeply held religious beliefs that conflict with using the technology required to e-file. How must they handle their Form 8300 filing obligations?",
+      "options": [
+          "They must submit a formal petition to the IRS Commissioner requesting a specialized exemption hearing before they are permitted to file any paper documents.",
+          "They are automatically exempt from filing electronically and must physically mail the paper returns with the words \"RELIGIOUS EXEMPTION\" written on the center top of each Form 8300 (Page 1).",
+          "They must pay a nominal processing fee to a third-party digital accounting firm to e-file the documents on their behalf to ensure compliance with the technological mandate.",
+          "They are completely exempt from filing the Form 8300 entirely, as federal law protects religious entities from invasive financial reporting requirements."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They are automatically exempt from filing electronically and must physically mail the paper returns with the words \"RELIGIOUS EXEMPTION\" written on the center top of each Form 8300 (Page 1).",
+      "id": 199
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a business experiences an undue hardship and cannot e-file, they may request a waiver using Form 8508. If the waiver is granted, how must they format their paper Form 8300 submissions?",
+      "options": [
+          "They must attach a notarized copy of the approved Form 8508 to every individual Form 8300 they mail to the centralized processing center in Detroit.",
+          "They must include the word \"WAIVER\" on the center top of each Form 8300 (Page 1) when submitting the paper filed returns to the Internal Revenue Service.",
+          "They must highlight the aggregate cash amount in yellow ink and write the designated waiver approval number in the margins of the document.",
+          "They must submit all paper returns via certified mail within five business days of the transaction, rather than the standard fifteen-day window."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must include the word \"WAIVER\" on the center top of each Form 8300 (Page 1) when submitting the paper filed returns to the Internal Revenue Service.",
+      "id": 200
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A business identifies a highly suspicious cash transaction that falls UNDER the $10,000 reporting threshold. They decide to voluntarily file a Form 8300. What specific protocol must they follow regarding the customer?",
+      "options": [
+          "They must immediately notify the customer in writing that their transaction has been flagged as suspicious and reported to the Financial Crimes Enforcement Network.",
+          "They must check box 1b on the form to indicate suspicious activity, and they must NOT provide the annual written statement to the individuals identified on the form.",
+          "They must hold the customer's funds in a frozen escrow account for fifteen days pending a preliminary investigation by local law enforcement authorities.",
+          "They are prohibited from filing the form because the IRS strictly rejects any Form 8300 that does not meet or exceed the mandatory ten-thousand-dollar minimum threshold."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must check box 1b on the form to indicate suspicious activity, and they must NOT provide the annual written statement to the individuals identified on the form.",
+      "id": 201
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "What is the legal requirement regarding the retention of records for filed Forms 8300?",
+      "options": [
+          "The business must retain a physical or digital copy of every filed Form 8300 for a strict period of three years from the date of the initial transaction.",
+          "The business must keep a copy of Form 8300 for five years, and when e-filing, they must save a copy of the form before submitting, as confirmation receipts do not meet the requirement.",
+          "The business must retain the records indefinitely and must transmit all original documents to the state department of revenue at the conclusion of every fiscal year.",
+          "The business is only required to retain the automated confirmation receipt generated by the FinCEN BSA E-Filing System to prove compliance in the event of an audit."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The business must keep a copy of Form 8300 for five years, and when e-filing, they must save a copy of the form before submitting, as confirmation receipts do not meet the requirement.",
+      "id": 202
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A business realizes they missed the 15-day deadline to file a Form 8300. How must they properly submit the late return electronically?",
+      "options": [
+          "They must file the return electronically just like a timely return, but they must include the word \"LATE\" in the comments section of the electronic return.",
+          "They are prohibited from e-filing a late return; they must print the document, write \"LATE\" in red ink across the top, and mail it directly to the Detroit Federal Building.",
+          "They must wait until the end of the calendar year and submit all late forms as a specialized batch file to avoid triggering automated systemic penalties.",
+          "They must immediately contact the IRS Help Line to request a specialized digital access code that unlocks the portal for submitting delinquent informational returns."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They are prohibited from e-filing a late return; they must print the document, write \"LATE\" in red ink across the top, and mail it directly to the Detroit Federal Building.",
+      "id": 203
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a business is explicitly required to e-file their Forms 8300 based on the 10-return threshold, but they choose to file by paper without holding a valid waiver or religious exemption, what is the consequence?",
+      "options": [
+          "The IRS will simply digitize the paper form upon receipt at the processing center and assess a standard ten-dollar administrative conversion fee.",
+          "The form will be considered a failure to file in the required manner, treating the submission as a late return, and the business will be subject to a late file penalty.",
+          "The IRS will immediately confiscate the ten thousand dollars in cash associated with the transaction pending a full audit of the business's accounting practices.",
+          "The form will be returned to the business unread, and the transaction will be permanently expunged from the Financial Crimes Enforcement Network database."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The form will be considered a failure to file in the required manner, treating the submission as a late return, and the business will be subject to a late file penalty.",
+      "id": 204
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Who exactly falls under the definition of a \"person\" required to file Form 8300 when receiving more than $10,000 in cash in a trade or business?",
+      "options": [
+          "The definition is strictly limited to heavily regulated commercial entities, specifically excluding individual sole proprietors, charitable organizations, and private family trusts.",
+          "The definition of a \"person\" includes an individual, company, corporation, partnership, association, trust, or estate that operates a trade or business.",
+          "The definition applies exclusively to licensed professionals such as auctioneers, real estate brokers, and motor vehicle dealers who routinely handle large monetary transactions.",
+          "The definition is restricted to C-corporations and S-corporations that generate over five hundred thousand dollars in gross annual revenue across state lines."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The definition of a \"person\" includes an individual, company, corporation, partnership, association, trust, or estate that operates a trade or business.",
+      "id": 205
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If a business is NOT required to file their Forms 8300 electronically (because they file fewer than 10 other information returns) and they choose to file by paper, where must they mail the forms?",
+      "options": [
+          "They must mail the forms directly to the central IRS processing facility located in Austin, Texas, using certified mail with a return receipt requested.",
+          "They must physically mail their Forms 8300 to the Internal Revenue Service at The Rosa Parks Federal Building (formally The Detroit Federal Building) in Detroit, Michigan.",
+          "They must deliver the forms in person to the nearest regional IRS field office to ensure the secure chain of custody for documents detailing large cash transactions.",
+          "They must mail the forms to the Financial Crimes Enforcement Network's primary headquarters located in Washington, D.C., within fifteen days of the transaction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. They must physically mail their Forms 8300 to the Internal Revenue Service at The Rosa Parks Federal Building (formally The Detroit Federal Building) in Detroit, Michigan.",
+      "id": 206
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "Based on the standard auction math formulas, if a property has a gross income of $150,000 and the documented expenses are $45,000, what is the correct Net Income?",
+      "options": [
+          "The final resulting figure is precisely $195,000.00, which is derived by adding the expenses directly to the gross income to determine the overall operational flow.",
+          "The final resulting figure is precisely $67,500.00, which is derived by multiplying the gross income by the decimal equivalent of the listed operational expenses.",
+          "The final resulting figure is precisely $105,000.00, which is derived by subtracting the expenses from the gross income to accurately determine the final net income.",
+          "The final resulting figure is precisely $333,333.33, which is derived by dividing the gross income by the expenses to establish the foundational net operational ratio."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $105,000.00, which is derived by subtracting the expenses from the gross income to accurately determine the final net income.",
+      "id": 207
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer sells a piece of heavy machinery for a final sale price of $85,000 and the initial cost of the item was $62,000, what is the resulting Profit?",
+      "options": [
+          "The final resulting figure is precisely $147,000.00, which is derived by adding the initial cost directly to the final sale price to determine the total gross margin.",
+          "The final resulting figure is precisely $23,000.00, which is derived by subtracting the initial cost from the final sale price to accurately determine the final profit.",
+          "The final resulting figure is precisely $52,700.00, which is derived by multiplying the final sale price by the decimal equivalent of the underlying cost structure.",
+          "The final resulting figure is precisely $137,096.77, which is derived by dividing the final sale price by the initial cost to establish the standard profit percentage."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $23,000.00, which is derived by subtracting the initial cost from the final sale price to accurately determine the final profit.",
+      "id": 208
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auction firm executes the sale of a commercial property for a final sale price of $400,000 at an agreed-upon commission rate of 7%. What is the earned Commission?",
+      "options": [
+          "The final resulting figure is precisely $5,714.28, which is derived by dividing the final sale price by the commission rate expressed as a whole integer.",
+          "The final resulting figure is precisely $428,000.00, which is derived by adding the calculated commission margin directly to the original principal sale price.",
+          "The final resulting figure is precisely $28,000.00, which is derived by multiplying the final sale price by the decimal equivalent of the agreed-upon commission rate.",
+          "The final resulting figure is precisely $5,714,285.71, which is derived by dividing the final sale price by the decimal equivalent of the established commission rate."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $28,000.00, which is derived by multiplying the final sale price by the decimal equivalent of the agreed-upon commission rate.",
+      "id": 209
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "To determine the correct accounting figures, if a business asset holds a value of $50,000 and is subject to a depreciation rate of 12%, what is the Depreciation amount?",
+      "options": [
+          "The final resulting figure is precisely $4,166.66, which is derived by dividing the total assessed value by the annual depreciation rate expressed as a whole number.",
+          "The final resulting figure is precisely $6,000.00, which is derived by multiplying the total assessed value by the decimal equivalent of the specific depreciation rate.",
+          "The final resulting figure is precisely $56,000.00, which is derived by adding the calculated depreciation margin directly to the original principal assessed value.",
+          "The final resulting figure is precisely $416,666.66, which is derived by dividing the total assessed value by the decimal equivalent of the operational depreciation rate."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $6,000.00, which is derived by multiplying the total assessed value by the decimal equivalent of the specific depreciation rate.",
+      "id": 210
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "If an auctioneer needs to determine the total square footage of a rectangular commercial lot that measures 200 feet in length and 150 feet in width, what is the resulting Area?",
+      "options": [
+          "The final calculated measurement is 350 square feet, which is derived by adding the length and the width together to establish the complete foundational perimeter.",
+          "The final calculated measurement is 700 square feet, which is derived by doubling the sum of the length and width to account for all four corresponding boundary lines.",
+          "The final calculated measurement is 30,000 square feet, which is derived by multiplying the total length by the width to accurately establish the total usable surface area.",
+          "The final calculated measurement is 1.33 square feet, which is derived by dividing the total length by the width to establish the standard commercial base mathematical ratio."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final calculated measurement is 30,000 square feet, which is derived by multiplying the total length by the width to accurately establish the total usable surface area.",
+      "id": 211
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A borrower takes out a commercial mortgage for $150,000 at an annual interest rate of 6%. Based on the standard auction math formulas, calculate the annual interest owed.",
+      "options": [
+          "The final resulting figure is precisely $900.00, which is derived by dividing the principal loan amount by the interest rate to account for the monthly amortization schedule.",
+          "The final resulting figure is precisely $9,000.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+          "The final resulting figure is precisely $2,500,000.00, which is derived by dividing the principal mortgage amount by the decimal equivalent of the commercial interest rate.",
+          "The final resulting figure is precisely $159,000.00, which is derived by adding the calculated annual interest directly to the original principal mortgage amount for the year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $9,000.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+      "id": 212
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A real estate investor secures a mortgage of $320,000 featuring a fixed interest rate of 4.5%. What is the precise amount of interest the investor will owe at the end of the first year?",
+      "options": [
+          "The final resulting figure is precisely $14,400.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+          "The final resulting figure is precisely $1,440.00, which is derived by dividing the principal loan amount by the interest rate to establish the baseline monthly accrual.",
+          "The final resulting figure is precisely $7,111,111.11, which is derived by dividing the principal mortgage amount by the decimal equivalent of the commercial interest rate.",
+          "The final resulting figure is precisely $334,400.00, which is derived by adding the calculated annual interest directly to the original principal mortgage amount for the year."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $14,400.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+      "id": 213
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A buyer utilizes a specialized loan of $85,000 carrying an interest rate of 9% to purchase an auctioned property. What is the total annual interest owed on this specific transaction?",
+      "options": [
+          "The final resulting figure is precisely $944.44, which is derived by dividing the principal loan amount by the interest rate to account for the monthly amortization schedule.",
+          "The final resulting figure is precisely $92,650.00, which is derived by adding the calculated annual interest directly to the original principal mortgage amount for the year.",
+          "The final resulting figure is precisely $944,444.44, which is derived by dividing the principal mortgage amount by the decimal equivalent of the commercial interest rate.",
+          "The final resulting figure is precisely $7,650.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $7,650.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+      "id": 214
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An agricultural parcel is financed with a $500,000 principal mortgage at an annual interest rate of 5.25%. How much interest will formally accrue by the end of the first full year?",
+      "options": [
+          "The final resulting figure is precisely $26,250.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+          "The final resulting figure is precisely $9,523.80, which is derived by dividing the principal loan amount by the interest rate to establish the baseline monthly accrual.",
+          "The final resulting figure is precisely $9,523,809.52, which is derived by dividing the principal mortgage amount by the decimal equivalent of the commercial interest rate.",
+          "The final resulting figure is precisely $526,250.00, which is derived by adding the calculated annual interest directly to the original principal mortgage amount for the year."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $26,250.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+      "id": 215
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial developer takes on a massive $1,200,000 mortgage at an established interest rate of 7.5%. What is the total calculated annual interest owed on this significant financial obligation?",
+      "options": [
+          "The final resulting figure is precisely $160,000.00, which is derived by dividing the principal loan amount by the interest rate to account for the monthly amortization schedule.",
+          "The final resulting figure is precisely $90,000.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+          "The final resulting figure is precisely $16,000,000.00, which is derived by dividing the principal mortgage amount by the decimal equivalent of the commercial interest rate.",
+          "The final resulting figure is precisely $1,290,000.00, which is derived by adding the calculated annual interest directly to the original principal mortgage amount for the year."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $90,000.00, which is derived by multiplying the principal mortgage amount by the decimal equivalent of the stated annual interest rate.",
+      "id": 216
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A borrower owes exactly $200,000 on a loan at an 8% interest rate but decides to pay the loan off entirely in exactly six (6) months. How much will the final payoff be?",
+      "options": [
+          "The final resulting figure is precisely $216,000.00, which is derived by multiplying the principal by the interest rate and adding the full annual interest directly to the loan balance.",
+          "The final resulting figure is precisely $208,000.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+          "The final resulting figure is precisely $204,000.00, which is derived by multiplying the principal by half of the interest rate to account for the shortened commercial amortization timeline.",
+          "The final resulting figure is precisely $2,500,000.00, which is derived by dividing the principal amount by the decimal interest rate and subtracting the six-month penalty assessment."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $208,000.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+      "id": 217
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A buyer owes $50,000 on an equipment loan at 10% interest and formally pays the loan off in six (6) months. Based on the established formulas, how much will the total payoff be?",
+      "options": [
+          "The final resulting figure is precisely $55,000.00, which is derived by multiplying the principal by the interest rate and adding the full annual interest directly to the loan balance.",
+          "The final resulting figure is precisely $500,000.00, which is derived by dividing the principal amount by the decimal interest rate and subtracting the six-month early payoff penalty.",
+          "The final resulting figure is precisely $52,500.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+          "The final resulting figure is precisely $51,250.00, which is derived by multiplying the principal by half of the interest rate to account for the shortened commercial amortization timeline."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $52,500.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+      "id": 218
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An investor owes $300,000 on a bridging loan at 6% interest and successfully pays the loan off in six (6) months. What is the calculated total payoff amount required to clear the debt?",
+      "options": [
+          "The final resulting figure is precisely $309,000.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+          "The final resulting figure is precisely $318,000.00, which is derived by multiplying the principal by the interest rate and adding the full annual interest directly to the loan balance.",
+          "The final resulting figure is precisely $304,500.00, which is derived by multiplying the principal by half of the interest rate to account for the shortened commercial amortization timeline.",
+          "The final resulting figure is precisely $5,000,000.00, which is derived by dividing the principal amount by the decimal interest rate and subtracting the six-month early payoff penalty."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $309,000.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+      "id": 219
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A business owner owes $125,000 on a commercial loan at 7% interest and executes a full payoff in exactly six (6) months. What is the exact mathematical payoff figure?",
+      "options": [
+          "The final resulting figure is precisely $133,750.00, which is derived by multiplying the principal by the interest rate and adding the full annual interest directly to the loan balance.",
+          "The final resulting figure is precisely $1,785,714.28, which is derived by dividing the principal amount by the decimal interest rate and subtracting the six-month early payoff penalty.",
+          "The final resulting figure is precisely $129,375.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+          "The final resulting figure is precisely $127,187.50, which is derived by multiplying the principal by half of the interest rate to account for the shortened commercial amortization timeline."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $129,375.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+      "id": 220
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An estate executor owes $450,000 on a property loan at 5% interest and officially pays the loan off in six (6) months prior to the auction. What is the final payoff amount?",
+      "options": [
+          "The final resulting figure is precisely $461,250.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+          "The final resulting figure is precisely $472,500.00, which is derived by multiplying the principal by the interest rate and adding the full annual interest directly to the loan balance.",
+          "The final resulting figure is precisely $455,625.00, which is derived by multiplying the principal by half of the interest rate to account for the shortened commercial amortization timeline.",
+          "The final resulting figure is precisely $9,000,000.00, which is derived by dividing the principal amount by the decimal interest rate and subtracting the six-month early payoff penalty."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $461,250.00, which is derived by determining the annual interest, dividing it by two for the six-month period, and adding it to the principal.",
+      "id": 221
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The documented yearly interest on a loan is exactly $4,500.00. The established interest rate is 5%. Using the standard formula, what is the principle loan amount?",
+      "options": [
+          "The final resulting figure is precisely $225.00, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $900.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $94,500.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum.",
+          "The final resulting figure is precisely $90,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $90,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 222
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A specific loan carries an interest rate of 8%. The total interest owed for a single year is $12,000.00. Calculate the corresponding principle loan amount.",
+      "options": [
+          "The final resulting figure is precisely $960.00, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $1,500.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $150,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+          "The final resulting figure is precisely $162,000.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $150,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 223
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The calculated yearly interest on an equipment loan is $7,400.00. The active interest rate is 9.25%. What is the exact principle loan amount for this transaction?",
+      "options": [
+          "The final resulting figure is precisely $684.50, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $80,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+          "The final resulting figure is precisely $800.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $87,400.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $80,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 224
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial loan features an interest rate of 7.5%. The exact interest owed for a full year is $15,750.00. What is the original principle loan amount?",
+      "options": [
+          "The final resulting figure is precisely $1,181.25, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $2,100.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $225,750.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum.",
+          "The final resulting figure is precisely $210,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $210,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 225
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The recorded yearly interest on an agricultural loan is $2,100.00. The stated interest rate is exactly 6%. What is the principle loan amount for this specific property?",
+      "options": [
+          "The final resulting figure is precisely $35,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+          "The final resulting figure is precisely $126.00, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $350.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $37,100.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $35,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 226
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A business loan has an established interest rate of 4.5%. The total interest owed for a year is $18,000.00. What is the legally defined principle loan amount?",
+      "options": [
+          "The final resulting figure is precisely $810.00, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $4,000.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $400,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+          "The final resulting figure is precisely $418,000.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $400,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 227
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "The specific yearly interest on a bridging loan is $5,600.00. The active interest rate is 7%. Determine the correct principle loan amount using the accepted auction formula.",
+      "options": [
+          "The final resulting figure is precisely $392.00, which is derived by multiplying the annual interest by the decimal equivalent of the stated interest rate to find the baseline principal.",
+          "The final resulting figure is precisely $800.00, which is derived by dividing the annual interest by the interest rate expressed strictly as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $85,600.00, which is derived by adding the annual interest directly to the result of the initial principle calculation for the total operational sum.",
+          "The final resulting figure is precisely $80,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $80,000.00, which is derived by dividing the annual interest by the decimal equivalent of the interest rate to determine the principal loan amount.",
+      "id": 228
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "When calculating capitalization for a commercial lease, if the property generates $10,000.00 in annual income and the owner requires an 8% rate of return, what is the Value of the property?",
+      "options": [
+          "The final resulting figure is precisely $800.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $125,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+          "The final resulting figure is precisely $1,250.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $135,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $125,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 229
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A building consistently generates $24,000.00 in annual income. The managing owner is currently making a 12% return on their investment. How much did they pay for the property (Value)?",
+      "options": [
+          "The final resulting figure is precisely $200,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+          "The final resulting figure is precisely $2,880.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $2,000.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $224,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $200,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 230
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial lease provides $15,000.00 in steady annual income. The investment portfolio requires a strict 6% return. Calculate the total corresponding Value of this commercial property.",
+      "options": [
+          "The final resulting figure is precisely $900.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $2,500.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $250,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+          "The final resulting figure is precisely $265,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $250,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 231
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An investment property reliably yields $8,500.00 per year in income. The owner is making an 8.5% return on this specific investment. How much did the owner pay for the property?",
+      "options": [
+          "The final resulting figure is precisely $100,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+          "The final resulting figure is precisely $722.50, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $1,000.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $108,500.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $100,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 232
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A high-yield commercial warehouse produces $45,000.00 in annual income. The managing corporation requires a 9% return on their investment. Determine the total Value of the commercial warehouse.",
+      "options": [
+          "The final resulting figure is precisely $4,050.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $5,000.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $545,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric.",
+          "The final resulting figure is precisely $500,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $500,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 233
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A retail space generates $32,000.00 in annual income for its owner. The owner's financial records indicate a 10% rate of return. What is the calculated Value of the retail property?",
+      "options": [
+          "The final resulting figure is precisely $3,200.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $320,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+          "The final resulting figure is precisely $3,200.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $352,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $320,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 234
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A residential duplex lease totals $18,000.00 per year. The investor is realizing a 7.5% return on this real estate asset. What was the purchase price (Value) of the property?",
+      "options": [
+          "The final resulting figure is precisely $1,350.00, which is derived by multiplying the total annual income by the decimal equivalent of the specific capitalization rate to determine the overall asset value.",
+          "The final resulting figure is precisely $2,400.00, which is derived by dividing the total annual income by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $258,000.00, which is derived by adding the generated annual income directly to the calculated baseline value to determine the final gross capitalization metric.",
+          "The final resulting figure is precisely $240,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $240,000.00, which is derived by dividing the total annual income by the decimal equivalent of the specific capitalization rate to accurately establish the asset value.",
+      "id": 235
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial building officially sells for $150,000.00. The new owner wants an 8% return on their investment. How much Income must be generated annually to successfully receive this specific return?",
+      "options": [
+          "The final resulting figure is precisely $1,875,000.00, which is derived by dividing the total asset value by the decimal equivalent of the stated capitalization rate to accurately establish the required income.",
+          "The final resulting figure is precisely $18,750.00, which is derived by dividing the total asset value by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $12,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+          "The final resulting figure is precisely $162,000.00, which is derived by adding the mathematically derived rate directly to the original property value to ensure a positive operational cash flow model."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $12,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+      "id": 236
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An investor purchases a multi-family complex for $400,000.00. They aggressively target an 11% return on their capital investment. What is the necessary annual Income required to achieve this goal?",
+      "options": [
+          "The final resulting figure is precisely $3,636,363.63, which is derived by dividing the total asset value by the decimal equivalent of the stated capitalization rate to accurately establish the required income.",
+          "The final resulting figure is precisely $44,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+          "The final resulting figure is precisely $36,363.63, which is derived by dividing the total asset value by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $444,000.00, which is derived by adding the mathematically derived rate directly to the original property value to ensure a positive operational cash flow model."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $44,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+      "id": 237
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A retail storefront is successfully acquired for $250,000.00 at auction. The investment group mandates a 9% return. How much annual rent (Income) must be legally charged to receive this specific return?",
+      "options": [
+          "The final resulting figure is precisely $2,777,777.77, which is derived by dividing the total asset value by the decimal equivalent of the stated capitalization rate to accurately establish the required income.",
+          "The final resulting figure is precisely $27,777.77, which is derived by dividing the total asset value by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $272,500.00, which is derived by adding the mathematically derived rate directly to the original property value to ensure a positive operational cash flow model.",
+          "The final resulting figure is precisely $22,500.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $22,500.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+      "id": 238
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A massive logistics center sells for $800,000.00. The purchasing entity requires a 7.5% return on their substantial investment. What is the exact annual Income needed to mathematically realize this return?",
+      "options": [
+          "The final resulting figure is precisely $10,666,666.66, which is derived by dividing the total asset value by the decimal equivalent of the stated capitalization rate to accurately establish the required income.",
+          "The final resulting figure is precisely $106,666.66, which is derived by dividing the total asset value by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $60,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+          "The final resulting figure is precisely $860,000.00, which is derived by adding the mathematically derived rate directly to the original property value to ensure a positive operational cash flow model."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $60,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+      "id": 239
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An exclusive high-rise property is secured for $1,200,000.00. The owner wants a reliable 6% return on this premium investment. How much annual Income must be aggressively generated to meet this benchmark?",
+      "options": [
+          "The final resulting figure is precisely $72,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+          "The final resulting figure is precisely $20,000,000.00, which is derived by dividing the total asset value by the decimal equivalent of the stated capitalization rate to accurately establish the required income.",
+          "The final resulting figure is precisely $200,000.00, which is derived by dividing the total asset value by the capitalization rate expressed as a whole integer rather than a true percentage.",
+          "The final resulting figure is precisely $1,272,000.00, which is derived by adding the mathematically derived rate directly to the original property value to ensure a positive operational cash flow model."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $72,000.00, which is derived by multiplying the total asset value by the decimal equivalent of the specific capitalization rate to determine the required annual income.",
+      "id": 240
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial property actively generates $15,000.00 in annual income and currently holds a market value of $200,000.00. Based on the standard formulas, what is the exact operational Capitalization Rate?",
+      "options": [
+          "The final resulting figure is precisely 7.5%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+          "The final resulting figure is precisely 13.3%, which is derived by dividing the total asset value by the total annual income to reverse-engineer the operational capitalization rate for accounting purposes.",
+          "The final resulting figure is precisely 30%, which is derived by multiplying the total annual income by the total asset value and moving the decimal point to reflect a standard percentage.",
+          "The final resulting figure is precisely 21.5%, which is derived by adding the total annual income to the total asset value and factoring in the standard commercial depreciation ratio."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely 7.5%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+      "id": 241
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A newly renovated apartment building produces $36,000.00 in steady annual income and is valued at exactly $300,000.00. Determine the corresponding Capitalization Rate for this specific real estate investment.",
+      "options": [
+          "The final resulting figure is precisely 8.3%, which is derived by dividing the total asset value by the total annual income to reverse-engineer the operational capitalization rate for accounting purposes.",
+          "The final resulting figure is precisely 12%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+          "The final resulting figure is precisely 10.8%, which is derived by multiplying the total annual income by the total asset value and moving the decimal point to reflect a standard percentage.",
+          "The final resulting figure is precisely 33.6%, which is derived by adding the total annual income to the total asset value and factoring in the standard commercial depreciation ratio."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely 12%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+      "id": 242
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A large industrial park actively yields $25,000.00 in annual income and possesses an appraised value of $500,000.00. Calculate the exact Capitalization Rate utilized by the managing property owners.",
+      "options": [
+          "The final resulting figure is precisely 20%, which is derived by dividing the total asset value by the total annual income to reverse-engineer the operational capitalization rate for accounting purposes.",
+          "The final resulting figure is precisely 12.5%, which is derived by multiplying the total annual income by the total asset value and moving the decimal point to reflect a standard percentage.",
+          "The final resulting figure is precisely 52.5%, which is derived by adding the total annual income to the total asset value and factoring in the standard commercial depreciation ratio.",
+          "The final resulting figure is precisely 5%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely 5%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+      "id": 243
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An investor evaluates a retail center that generates $44,000.00 in net annual income with a stated market value of $400,000.00. What is the true Capitalization Rate for this commercial asset?",
+      "options": [
+          "The final resulting figure is precisely 9.09%, which is derived by dividing the total asset value by the total annual income to reverse-engineer the operational capitalization rate for accounting purposes.",
+          "The final resulting figure is precisely 17.6%, which is derived by multiplying the total annual income by the total asset value and moving the decimal point to reflect a standard percentage.",
+          "The final resulting figure is precisely 11%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+          "The final resulting figure is precisely 44.4%, which is derived by adding the total annual income to the total asset value and factoring in the standard commercial depreciation ratio."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely 11%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+      "id": 244
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A lucrative office building consistently brings in $72,000.00 in annual income and is officially valued at $800,000.00. What is the specific Capitalization Rate applied to this high-value property?",
+      "options": [
+          "The final resulting figure is precisely 11.1%, which is derived by dividing the total asset value by the total annual income to reverse-engineer the operational capitalization rate for accounting purposes.",
+          "The final resulting figure is precisely 9%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+          "The final resulting figure is precisely 57.6%, which is derived by multiplying the total annual income by the total asset value and moving the decimal point to reflect a standard percentage.",
+          "The final resulting figure is precisely 87.2%, which is derived by adding the total annual income to the total asset value and factoring in the standard commercial depreciation ratio."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely 9%, which is derived by dividing the total annual income by the total asset value to accurately establish the operational capitalization rate as a true percentage.",
+      "id": 245
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial property, subject to a standard commercial tax rate of 40%, is officially appraised at $500,000.00. Based on the standard auction formulas, what is the precise Assessed Value of this property?",
+      "options": [
+          "The final resulting figure is precisely $200,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+          "The final resulting figure is precisely $1,250,000.00, which is derived by dividing the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+          "The final resulting figure is precisely $12,500.00, which is derived by dividing the total appraised value by the commercial tax rate expressed as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $700,000.00, which is derived by adding the calculated baseline tax rate margin directly to the original appraised value of the commercial property."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $200,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+      "id": 246
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A residential property, governed by a standard residential tax rate of 25%, is formally appraised at $400,000.00. Using the required mathematical steps, calculate the Assessed Value of the property.",
+      "options": [
+          "The final resulting figure is precisely $1,600,000.00, which is derived by dividing the total appraised value by the decimal equivalent of the designated residential property tax rate.",
+          "The final resulting figure is precisely $16,000.00, which is derived by dividing the total appraised value by the residential tax rate expressed as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $100,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated residential property tax rate.",
+          "The final resulting figure is precisely $500,000.00, which is derived by adding the calculated baseline tax rate margin directly to the original appraised value of the residential property."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $100,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated residential property tax rate.",
+      "id": 247
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A significant commercial structure is appraised at exactly $800,000.00 and is subject to the standard commercial tax rate of 40%. What is the legally defined Assessed Value of this specific asset?",
+      "options": [
+          "The final resulting figure is precisely $2,000,000.00, which is derived by dividing the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+          "The final resulting figure is precisely $320,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+          "The final resulting figure is precisely $20,000.00, which is derived by dividing the total appraised value by the commercial tax rate expressed as a whole integer rather than a decimal.",
+          "The final resulting figure is precisely $1,120,000.00, which is derived by adding the calculated baseline tax rate margin directly to the original appraised value of the commercial property."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $320,000.00, which is derived by multiplying the total appraised value by the decimal equivalent of the designated commercial property tax rate.",
+      "id": 248
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial property appraised at $600,000.00 has a tax rate of 40%. The local county tax rate is structured at $4.00 per 100 of assessed value. What are the total taxes owed for the year?",
+      "options": [
+          "The final resulting figure is precisely $9,600.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific county tax rate.",
+          "The final resulting figure is precisely $24,000.00, which is derived by multiplying the total appraised value directly by the county tax rate while ignoring the intermediate assessed value calculation.",
+          "The final resulting figure is precisely $960.00, which is derived by dividing the fully calculated assessed value by the combination of the commercial tax rate and the county tax rate.",
+          "The final resulting figure is precisely $249,600.00, which is derived by adding the fully calculated assessed value directly to the mathematically processed county mil rate for the final total."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $9,600.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific county tax rate.",
+      "id": 249
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A residential property appraised at $200,000.00 utilizes a 25% tax rate. If the municipal city tax rate is set at $5.00 per 100 of assessed value, what is the exact amount of tax owed?",
+      "options": [
+          "The final resulting figure is precisely $10,000.00, which is derived by multiplying the total appraised value directly by the municipal tax rate while ignoring the intermediate assessed value calculation.",
+          "The final resulting figure is precisely $500.00, which is derived by dividing the fully calculated assessed value by the combination of the residential tax rate and the municipal tax rate.",
+          "The final resulting figure is precisely $2,500.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific municipal tax rate.",
+          "The final resulting figure is precisely $52,500.00, which is derived by adding the fully calculated assessed value directly to the mathematically processed municipal mil rate for the final total."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $2,500.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific municipal tax rate.",
+      "id": 250
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A commercial lot appraised at $300,000.00 falls under the 40% commercial tax rate. The combined county/city tax rate is $6.00 per 100 of assessed value. Determine the total taxes due.",
+      "options": [
+          "The final resulting figure is precisely $18,000.00, which is derived by multiplying the total appraised value directly by the combined county tax rate while ignoring the intermediate assessed value calculation.",
+          "The final resulting figure is precisely $720.00, which is derived by dividing the fully calculated assessed value by the combination of the commercial tax rate and the combined county tax rate.",
+          "The final resulting figure is precisely $127,200.00, which is derived by adding the fully calculated assessed value directly to the mathematically processed combined mil rate for the final total.",
+          "The final resulting figure is precisely $7,200.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific combined county tax rate."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $7,200.00, which is derived by first determining the assessed value, calculating the mil rate, and then multiplying that rate by the specific combined county tax rate.",
+      "id": 251
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An antique clock drops with a Hammer Price of $200.00. The auction house charges a 10% Buyer's Premium, and the local sales tax rate is 9.5%. What is the mathematically accurate Ticket Total?",
+      "options": [
+          "The final resulting figure is precisely $239.00, which is derived by adding the buyer's premium to the hammer price and then adding a flat percentage of the original hammer price as tax.",
+          "The final resulting figure is precisely $240.90, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate.",
+          "The final resulting figure is precisely $219.00, which is derived by ignoring the buyer's premium entirely and strictly applying the sales tax rate to the baseline hammer price.",
+          "The final resulting figure is precisely $201.90, which is derived by subtracting the calculated buyer's premium from the hammer price before applying the necessary state sales tax percentage."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $240.90, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate.",
+      "id": 252
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A piece of farm equipment sells with a Hammer Price of $500.00. There is a 15% Buyer's Premium, and the applicable sales tax rate is exactly 8%. Calculate the complete Ticket Total.",
+      "options": [
+          "The final resulting figure is precisely $615.00, which is derived by adding the buyer's premium to the hammer price and then adding a flat percentage of the original hammer price as tax.",
+          "The final resulting figure is precisely $540.00, which is derived by ignoring the buyer's premium entirely and strictly applying the sales tax rate to the baseline hammer price.",
+          "The final resulting figure is precisely $621.00, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate.",
+          "The final resulting figure is precisely $508.00, which is derived by subtracting the calculated buyer's premium from the hammer price before applying the necessary state sales tax percentage."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is C. The final resulting figure is precisely $621.00, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate.",
+      "id": 253
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A classic vehicle commands a Hammer Price of $1,000.00. The established Buyer's Premium is 10%, and the governing sales tax rate is 9.5%. What must the final Ticket Total legally reflect?",
+      "options": [
+          "The final resulting figure is precisely $1,195.00, which is derived by adding the buyer's premium to the hammer price and then adding a flat percentage of the original hammer price as tax.",
+          "The final resulting figure is precisely $1,095.00, which is derived by ignoring the buyer's premium entirely and strictly applying the sales tax rate to the baseline hammer price.",
+          "The final resulting figure is precisely $900.50, which is derived by subtracting the calculated buyer's premium from the hammer price before applying the necessary state sales tax percentage.",
+          "The final resulting figure is precisely $1,204.50, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $1,204.50, which is derived by adding the calculated buyer's premium to the hammer price to find the sale price, and then fully applying the sales tax rate.",
+      "id": 254
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An auction clerk is presented with a Ticket Total of $2,409.00. The known inclusive sales tax rate for the jurisdiction is 9.5%. How must the clerk accurately break out the Sale Price?",
+      "options": [
+          "The final resulting figure is precisely $2,180.14, which is derived by multiplying the full ticket total directly by the sales tax rate and subsequently subtracting that value from the gross amount.",
+          "The final resulting figure is precisely $2,200.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+          "The final resulting figure is precisely $2,637.85, which is derived by taking the ticket total and multiplying it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+          "The final resulting figure is precisely $2,190.00, which is derived by subtracting the strict numerical equivalent of the sales tax rate directly from the finalized ticket total."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is B. The final resulting figure is precisely $2,200.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+      "id": 255
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "A finalized transaction shows a Ticket Total of $545.00 inclusive of a strict 9% local sales tax rate. Use the breakout formula to determine the true underlying Sale Price before taxes.",
+      "options": [
+          "The final resulting figure is precisely $500.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+          "The final resulting figure is precisely $495.95, which is derived by multiplying the full ticket total directly by the sales tax rate and subsequently subtracting that value from the gross amount.",
+          "The final resulting figure is precisely $594.05, which is derived by taking the ticket total and multiplying it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+          "The final resulting figure is precisely $536.00, which is derived by subtracting the strict numerical equivalent of the sales tax rate directly from the finalized ticket total."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is A. The final resulting figure is precisely $500.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+      "id": 256
+  },
+  {
+      "topic": "Tennessee Auctioneer Law",
+      "question": "An invoice indicates a comprehensive Ticket Total of $1,308.00, which inherently includes a 9% sales tax. Apply the correct formula to mathematically isolate and establish the correct Sale Price.",
+      "options": [
+          "The final resulting figure is precisely $1,190.28, which is derived by multiplying the full ticket total directly by the sales tax rate and subsequently subtracting that value from the gross amount.",
+          "The final resulting figure is precisely $1,425.72, which is derived by taking the ticket total and multiplying it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+          "The final resulting figure is precisely $1,299.00, which is derived by subtracting the strict numerical equivalent of the sales tax rate directly from the finalized ticket total.",
+          "The final resulting figure is precisely $1,200.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct answer is D. The final resulting figure is precisely $1,200.00, which is derived by taking the ticket total and dividing it by the sum of one plus the decimal equivalent of the applicable sales tax rate.",
+      "id": 257
+  }
   ],
   'Texas': [
   {
