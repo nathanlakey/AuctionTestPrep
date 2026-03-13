@@ -44,18 +44,32 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
   const [reportModal, setReportModal] = useState(null);
   const [reportReason, setReportReason] = useState('');
   const [reportStatus, setReportStatus] = useState(null);
+  const [reportedQuestionIds, setReportedQuestionIds] = useState([]);
   const resultSaved = useRef(false);
   const autoSubmitted = useRef(false);
   const { saveResult, getBookmarks, toggleBookmark } = useAuth();
 
   useEffect(() => {
-    // Load questions, prioritizing ones the user hasn't seen yet
-    const seenIds = getSeenQuestionIds(state);
-    if (questionCount === 75) {
-      setQuestions(getRandomQuestions(state, 75, seenIds));
-    } else {
-      setQuestions(getQuizQuestions(state, questionCount, topic, seenIds));
+    // Fetch open reported question IDs, then load questions excluding them
+    async function loadQuestions() {
+      let reportedIds = [];
+      try {
+        const res = await fetch(`${API_BASE}/api/reported-question-ids?state=${encodeURIComponent(state)}`);
+        if (res.ok) {
+          const data = await res.json();
+          reportedIds = data.questionIds || [];
+        }
+      } catch { /* ignore — fall back to no exclusions */ }
+      setReportedQuestionIds(reportedIds);
+
+      const seenIds = getSeenQuestionIds(state);
+      if (questionCount === 75) {
+        setQuestions(getRandomQuestions(state, 75, seenIds, reportedIds));
+      } else {
+        setQuestions(getQuizQuestions(state, questionCount, topic, seenIds, reportedIds));
+      }
     }
+    loadQuestions();
   }, [state, questionCount, topic]);
 
   // Load user's bookmarked questions
@@ -227,9 +241,9 @@ function Test({ state, questionCount, topic, timed = false, onExit }) {
     autoSubmitted.current = false;
     const seenIds = getSeenQuestionIds(state);
     if (questionCount === 75) {
-      setQuestions(getRandomQuestions(state, 75, seenIds));
+      setQuestions(getRandomQuestions(state, 75, seenIds, reportedQuestionIds));
     } else {
-      setQuestions(getQuizQuestions(state, questionCount, topic, seenIds));
+      setQuestions(getQuizQuestions(state, questionCount, topic, seenIds, reportedQuestionIds));
     }
     setCurrentQuestionIndex(0);
     setAnswers({});

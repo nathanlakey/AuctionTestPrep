@@ -922,6 +922,23 @@ app.post('/api/report-question', authMiddleware, async (req, res) => {
   }
 });
 
+// GET /api/reported-question-ids — get question IDs with open reports for a state (public, used to exclude from tests)
+app.get('/api/reported-question-ids', async (req, res) => {
+  try {
+    const { state } = req.query;
+    const result = state
+      ? await db.execute({
+          sql: `SELECT DISTINCT question_id FROM reported_questions WHERE status = 'open' AND state = ?`,
+          args: [state],
+        })
+      : await db.execute(`SELECT DISTINCT question_id FROM reported_questions WHERE status = 'open'`);
+    res.json({ questionIds: result.rows.map(r => r.question_id) });
+  } catch (error) {
+    console.error('Get reported question IDs error:', error.message);
+    res.status(500).json({ error: 'Server error.' });
+  }
+});
+
 // GET /api/admin/reported-questions — get all reported questions (admin only)
 app.get('/api/admin/reported-questions', authMiddleware, adminMiddleware, async (req, res) => {
   try {

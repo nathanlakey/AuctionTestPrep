@@ -22316,11 +22316,17 @@ function shuffleArray(array) {
 }
 
 // Get random questions for quiz, prioritizing unseen questions
-export function getQuizQuestions(state, count, topic = 'All Topics', excludeIds = []) {
+export function getQuizQuestions(state, count, topic = 'All Topics', excludeIds = [], hardExcludeIds = []) {
   let questions = topic === 'All Topics' 
     ? getQuestionsByState(state)
     : getQuestionsByTopic(state, topic);
-  
+
+  // Hard exclusion: reported questions are always removed from the pool
+  if (hardExcludeIds.length > 0) {
+    const hardSet = new Set(hardExcludeIds.map(id => String(id)));
+    questions = questions.filter(q => !hardSet.has(String(q.id)));
+  }
+
   const excludeSet = new Set(excludeIds.map(id => String(id)));
   const unseen = questions.filter(q => !excludeSet.has(String(q.id)));
   const seen = questions.filter(q => excludeSet.has(String(q.id)));
@@ -22372,6 +22378,6 @@ export function getAvailableTopics(state) {
 }
 
 // Get random questions (alias for getQuizQuestions)
-export function getRandomQuestions(state, count, excludeIds = []) {
-  return getQuizQuestions(state, count, 'All Topics', excludeIds);
+export function getRandomQuestions(state, count, excludeIds = [], hardExcludeIds = []) {
+  return getQuizQuestions(state, count, 'All Topics', excludeIds, hardExcludeIds);
 }
