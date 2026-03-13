@@ -906,7 +906,6 @@ const flashcardQuestions = [
 ];
 
 import txFlashcardQuestions from './txFlashcards';
-import tnFlashcardQuestions from './tnFlashcards';
 
 export const getFlashcardQuestions = () => {
   return flashcardQuestions;
@@ -914,9 +913,7 @@ export const getFlashcardQuestions = () => {
 
 export const getRandomFlashcards = (count = 20, state = null) => {
   // Use state-specific flashcards when available
-  let pool = flashcardQuestions;
-  if (state === 'Texas') pool = txFlashcardQuestions;
-  else if (state === 'Tennessee') pool = tnFlashcardQuestions;
+  const pool = state === 'Texas' ? txFlashcardQuestions : flashcardQuestions;
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
 };
